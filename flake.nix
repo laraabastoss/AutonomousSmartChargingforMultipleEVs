@@ -20,6 +20,12 @@
           venvDir = ".venv";
           postShellHook = ''pip install -r requirements.txt'';
           strictDeps = false;
+          shellHook = ''
+            export LD_LIBRARY_PATH=${pkgs.gurobi}/lib:$LD_LIBRARY_PATH
+            export GUROBI_HOME=${pkgs.gurobi}
+            export GUROBI_VERSION=$(basename $(ls -d ${pkgs.gurobi}) | sed 's/.*-\([0-9]\+\)\.\([0-9]\+\).*/\1\2/')
+            export GRB_LICENSE_FILE=/home/prometheus/.config/gurobi/gurobi.lic
+          '';
           packages = with pkgs.python312Packages;
             [
               matplotlib
@@ -37,6 +43,7 @@
               networkx
               pybox2d
               pygame
+              pkgs.gurobi
               # torch-bin
               # opencv4
               # pkgs.cudaPackages.cudatoolkit
