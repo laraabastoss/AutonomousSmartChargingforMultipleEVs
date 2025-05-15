@@ -84,13 +84,13 @@ def eval():
     # agent = OCMF_V2G(env, control_horizon=30, verbose=True)
     # agent = OCMF_G2V(env, control_horizon=25, verbose=True)
     # agent = eMPC_V2G(env, control_horizon=15, verbose=False)
-    # agent = V2GProfitMaxOracle(env,verbose=True)
+    agent = V2GProfitMaxOracle(env,verbose=True)
     # agent = PowerTrackingErrorrMin(new_replay_path)
     # agent = eMPC_G2V(env, control_horizon=15, verbose=False)
     # agent = eMPC_V2G_v2(env, control_horizon=10, verbose=False)
     # agent = RoundRobin(env, verbose=False)
     # agent = ChargeAsLateAsPossible(verbose=False)
-    agent = ChargeAsFastAsPossible()
+    # agent = ChargeAsFastAsPossible()
     # agent = ChargeAsFastAsPossibleToDesiredCapacity()
     rewards = []
 
