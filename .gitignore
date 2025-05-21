@@ -176,3 +176,5 @@ cython_debug/
 .direnv/
 replay/
 results/
+wandb/
+logs/
