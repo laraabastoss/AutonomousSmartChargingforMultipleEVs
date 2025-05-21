@@ -19,6 +19,8 @@ def generate_data():
         save_replay=True,
     )
 
+    print(f"Replay path: {env.replay_path}")
+
     state, _ = env.reset()
     i = 0
     for t in range(env.simulation_length):
@@ -28,12 +30,12 @@ def generate_data():
         observation, _, _, _, _ = env.step(actions)
 
     # Use the replay to generate optimal actions using MILP
-
-    agent = V2GProfitMaxOracleGB(replay_path=env.replay_path, MIPGap=0.0)
+    new_replay_path = f"replay/replay_{env.sim_name}.pkl"
+    agent = V2GProfitMaxOracleGB(replay_path=new_replay_path, MIPGap=0.0)
 
     env = EV2Gym(
         config_file=config_file,
-        load_from_replay_path=env.replay_path,
+        load_from_replay_path=new_replay_path,
         verbose=False,
         save_plots=True,
     )

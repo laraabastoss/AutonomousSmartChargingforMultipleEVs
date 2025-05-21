@@ -16,15 +16,17 @@ class V2GProfitMaxOracleGB:
         self, replay_path=None, timelimit=None, MIPGap=None, verbose=True, **kwargs
     ):
         replay = pickle.load(open(replay_path, "rb"))
-
+        
+        self.verbose = verbose
         self.sim_length = replay.sim_length
         self.n_cs = replay.n_cs
         self.number_of_ports_per_cs = replay.max_n_ports
         self.n_transformers = replay.n_transformers
         self.timescale = replay.timescale
         dt = replay.timescale / 60  # time step
-        print(f"\nGurobi MIQP solver for MO V2GPST.")
-        print("Loading data...")
+        if self.verbose:
+            print(f"\nGurobi MIQP solver for MO V2GPST.")
+            print("Loading data...")
 
         tra_max_amps = replay.tra_max_amps
         tra_min_amps = replay.tra_min_amps
@@ -57,8 +59,10 @@ class V2GProfitMaxOracleGB:
         t_dep = replay.t_dep
 
         # create model
-        print("Creating Gurobi model...")
+        if self.verbose:
+            print("Creating Gurobi model...")
         self.m = gp.Model("ev_city")
+        self.m.setParam("OutputFlag", 0)
         # if verbose:
         #     self.m.setParam('OutputFlag', 1)
         # else:
@@ -522,7 +526,8 @@ class V2GProfitMaxOracleGB:
 
         # print constraints
         self.m.write("model.lp")
-        print(f"Optimizing...")
+        if self.verbose:
+            print(f"Optimizing...")
         self.m.params.NonConvex = 2
 
         self.m.optimize()

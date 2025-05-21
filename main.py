@@ -43,6 +43,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import gymnasium as gym
 
+from supervised_learning import CentralizedDNNPolicy
+
 
 def eval():
     """
@@ -54,7 +56,7 @@ def eval():
     # replay_path = "./replay/replay_sim_2025_05_12_106720.pkl"
     replay_path = None
 
-    config_file = "ev2gym-config/GenerateDataset.yaml"
+    config_file = "ev2gym-config/V2GProfitPlusLoads.yaml"
 
     env = EV2Gym(
         config_file=config_file,
@@ -137,6 +139,32 @@ def eval():
 
         if done:
             print(stats)
+            break
+    
+    env = EV2Gym(
+        config_file=config_file,
+        load_from_replay_path=new_replay_path,
+        verbose=False,
+        save_plots=True,
+    )
+    
+    agent = CentralizedDNNPolicy(
+        model_path="centralized_ev_policy.pth",
+        input_dim=env.number_of_ports + 3,
+        output_dim=env.number_of_ports
+    )
+
+    rewards = []
+
+    for t in range(env.simulation_length):
+        actions = agent.get_action(env)
+
+        new_state, reward, done, truncated, stats = env.step(actions)  # takes action
+        rewards.append(reward)
+
+        if done:
+            print(stats)
+            print(f"End of simulation at step {env.current_step}")
             break
 
 
