@@ -1,8 +1,9 @@
 import numpy as np
 import gurobipy as gp
-from gurobipy import GRB
+from gurobipy import GRB, quicksum
 from gurobipy import *
 import pickle
+import math
 
 
 class V2GProfitMaxOracleGB:
@@ -521,8 +522,11 @@ class V2GProfitMaxOracleGB:
 
         # self.m.setObjective(costs - 0.01*power_error.sum(),
         #                     GRB.MAXIMIZE)
+        #for score in user_satisfaction:
+            #reward -= 100 * math.exp(-10*score.sum())
 
         self.m.setObjective(costs - 100 * user_satisfaction.sum(), GRB.MAXIMIZE)
+
 
         # print constraints
         self.m.write("model.lp")

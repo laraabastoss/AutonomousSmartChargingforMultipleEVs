@@ -39,12 +39,29 @@ from ev2gym.baselines.heuristics import (
 )
 from ev2gym.baselines.heuristics import ChargeAsFastAsPossibleToDesiredCapacity
 
+from ev2gym.rl_agent.reward import profit_maximization, SqTrError_TrPenalty_UserIncentives, SquaredTrackingErrorReward
+
 import numpy as np
 import matplotlib.pyplot as plt
 import gymnasium as gym
 
 from supervised_learning import CentralizedDNNPolicy
 
+
+def run_agent(env, agent, episodes=50):
+    episode_rewards = []
+    for ep in range(episodes):
+        print("Episode: ", ep)
+        state, _ = env.reset()
+        done = False
+        total_reward = 0.0
+        while not done:
+            actions = agent.get_action(env)
+            new_state, reward, done, truncated, stats = env.step(actions)
+            total_reward += reward
+        episode_rewards.append(total_reward)
+        #episode_rewards.append(stats['total_profits'])
+    return episode_rewards
 
 def eval():
     """
@@ -103,7 +120,7 @@ def eval():
         rewards.append(reward)
 
         if done:
-            print(stats)
+            #print(stats)
             print(f"End of simulation at step {env.current_step}")
             break
 
@@ -111,61 +128,51 @@ def eval():
     # Solve optimally
     # Power tracker optimizer
     # agent = PowerTrackingErrorrMin(replay_path=new_replay_path)
-    # # Profit maximization optimizer
-    agent = V2GProfitMaxOracleGB(replay_path=new_replay_path, MIPGap=0.0)
-    # # Simulate in the gym environment and get the rewards
 
+    episodes = 10
+
+    # Prepare environment
     env = EV2Gym(
         config_file=config_file,
-        load_from_replay_path=new_replay_path,
         verbose=False,
-        save_plots=True,
+        save_replay=False,
+        save_plots=save_plots,
     )
-    state, _ = env.reset()
-    rewards_opt = []
 
-    for t in range(env.simulation_length):
-        actions = agent.get_action(env)
-        # if verbose:
-        #     print(f' OptimalActions: {actions}')
+    env.set_reward_function(profit_maximization)
 
-        new_state, reward, done, truncated, stats = env.step(
-            actions, visualize=False
-        )  # takes action
-        rewards_opt.append(reward)
+    # --- Run MILP agent ---
+    milp_agent = V2GProfitMaxOracleGB(replay_path=new_replay_path, MIPGap=0.0)
+    milp_rewards = run_agent(env, milp_agent, episodes=episodes)
 
-        # if verbose:
-        #     print(f'Reward: {reward} \t Done: {done}')
-
-        if done:
-            print(stats)
-            break
-    
+    # --- Run SL agent ---
+    # Reload env fresh (important to avoid state carryover)
     env = EV2Gym(
         config_file=config_file,
-        load_from_replay_path=new_replay_path,
         verbose=False,
-        save_plots=True,
+        save_replay=False,
+        save_plots=save_plots,
     )
-    
-    agent = CentralizedDNNPolicy(
+
+    env.set_reward_function(profit_maximization)  # set custom reward if needed
+
+    sl_agent = CentralizedDNNPolicy(
         model_path="centralized_ev_policy.pth",
         input_dim=env.number_of_ports + 3,
-        output_dim=env.number_of_ports
+        output_dim=env.number_of_ports,
     )
+    sl_rewards = run_agent(env, sl_agent, episodes=episodes)
 
-    rewards = []
-
-    for t in range(env.simulation_length):
-        actions = agent.get_action(env)
-
-        new_state, reward, done, truncated, stats = env.step(actions)  # takes action
-        rewards.append(reward)
-
-        if done:
-            print(stats)
-            print(f"End of simulation at step {env.current_step}")
-            break
+    # --- Plot comparison ---
+    plt.figure(figsize=(10,6))
+    plt.plot(np.arange(1, episodes+1), milp_rewards, label="MILP Agent")
+    plt.plot(np.arange(1, episodes+1), sl_rewards, label="Supervised Learning Agent")
+    plt.xlabel("Episode")
+    plt.ylabel("Total Reward")
+    plt.title("Reward Comparison: MILP vs SL over 50 Episodes")
+    plt.legend()
+    plt.grid(True)
+    plt.show()
 
 
 if __name__ == "__main__":

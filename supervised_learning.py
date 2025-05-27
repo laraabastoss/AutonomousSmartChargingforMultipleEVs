@@ -7,6 +7,8 @@ import matplotlib.pyplot as plt
 import os
 
 
+#TODO: Add learning rate decay and early stop mechanism
+
 # ----------------------
 # Configuration
 # ----------------------
