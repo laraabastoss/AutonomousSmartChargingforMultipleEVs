@@ -3,8 +3,8 @@
 ##############################################################################
 # Simulation Parameters
 ##############################################################################
-timescale: 15 # in minutes per step
-simulation_length: 112 #90 # in steps per simulation
+timescale: 60 # in minutes per step
+simulation_length: 24 #90 # in steps per simulation
 
 ##############################################################################
 # Date and Time
@@ -38,7 +38,7 @@ discharge_price_factor: 1 # how many times more abs(expensive/cheaper) it is to 
 ##############################################################################
 v2g_enabled: True # True or False
 number_of_charging_stations: 25
-number_of_transformers: 2
+number_of_transformers: 1
 number_of_ports_per_cs: 1
 # Provide path if you want to load a specific charging topology,
 # else write None for a randomized one with the above parameters
@@ -99,7 +99,7 @@ ev_specs_file: ./ev2gym-config/data/ev_specs_v2g_enabled2024.json # path to the 
 
 # Default Transformer model
 transformer:
-  max_power: 200 # in kW
+  max_power: 400 # in kW
 
 # Default Charging Station model
 charging_station:  
