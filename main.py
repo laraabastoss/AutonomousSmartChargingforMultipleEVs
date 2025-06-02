@@ -302,4 +302,4 @@ def eval(num_episodes=20, save_plots=True):
 
 if __name__ == "__main__":
     # while True:
-    eval(num_episodes=20)
+    eval(num_episodes=50)
