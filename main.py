@@ -49,7 +49,7 @@ from supervised_learning import CentralizedDNNPolicy
 
 
 def run_agent(env, agent, episodes=50):
-    episode_rewards = []
+    episode_stats = []
     for ep in range(episodes):
         print("Episode: ", ep)
         state, _ = env.reset()
@@ -59,9 +59,64 @@ def run_agent(env, agent, episodes=50):
             actions = agent.get_action(env)
             new_state, reward, done, truncated, stats = env.step(actions)
             total_reward += reward
-        episode_rewards.append(total_reward)
+        #episode_rewards.append(total_reward)
+        print("Final stats: ", stats)
+        episode_stats.append(stats)
         #episode_rewards.append(stats['total_profits'])
-    return episode_rewards
+    return episode_stats
+
+
+def plot_agent_stats_comparison(milp_stats, sl_stats, title="Average Stats: MILP vs SL Agent"):
+    """
+    Plot average statistics over all episodes for MILP and SL agents as a bar chart.
+
+    Parameters:
+    - milp_stats_list (list of dict): List of episode stats dicts from MILP agent.
+    - sl_stats_list (list of dict): List of episode stats dicts from SL agent.
+    - title (str): Plot title.
+    """
+
+    # Keys to compare
+    stat_keys = [
+        'total_ev_served', 'total_profits', 'average_user_satisfaction',
+        'power_tracker_violation', 'tracking_error', 'energy_tracking_error',
+        'energy_user_satisfaction', 'battery_degradation', 'total_reward'
+    ]
+
+    # Compute average per key for MILP
+    milp_avg = {}
+    for key in stat_keys:
+        values = [float(np.array(stat[key]).item()) for stat in milp_stats]
+        milp_avg[key] = np.mean(values)
+
+    # Compute average per key for SL
+    sl_avg = {}
+    for key in stat_keys:
+        values = [float(np.array(stat[key]).item()) for stat in sl_stats]
+        sl_avg[key] = np.mean(values)
+
+    # Plotting
+    n_stats = len(stat_keys)
+    cols = 3
+    rows = (n_stats + cols - 1) // cols
+    fig, axes = plt.subplots(rows, cols, figsize=(18, 4 * rows))
+    axes = axes.flatten()
+
+    for idx, key in enumerate(stat_keys):
+        ax = axes[idx]
+        ax.bar(["MILP", "SL"], [milp_avg[key], sl_avg[key]], color=["steelblue", "darkorange"])
+        ax.set_title(key.replace("_", " ").capitalize(), fontsize=10)
+        ax.set_ylabel("Average Value")
+        ax.grid(True, axis="y")
+
+    # Hide any extra subplots if present
+    for i in range(n_stats, len(axes)):
+        fig.delaxes(axes[i])
+
+    plt.suptitle(title, fontsize=16)
+    plt.tight_layout(rect=[0, 0, 1, 0.95])
+    plt.show()
+
 
 def eval():
     """
@@ -143,7 +198,7 @@ def eval():
 
     # --- Run MILP agent ---
     milp_agent = V2GProfitMaxOracleGB(replay_path=new_replay_path, MIPGap=0.0)
-    milp_rewards = run_agent(env, milp_agent, episodes=episodes)
+    milp_stats = run_agent(env, milp_agent, episodes=episodes)
 
     # --- Run SL agent ---
     # Reload env fresh (important to avoid state carryover)
@@ -161,18 +216,24 @@ def eval():
         input_dim=env.number_of_ports + 3,
         output_dim=env.number_of_ports,
     )
-    sl_rewards = run_agent(env, sl_agent, episodes=episodes)
+    sl_stats = run_agent(env, sl_agent, episodes=episodes)
 
+    plot_agent_stats_comparison(milp_stats=milp_stats, sl_stats=sl_stats)
     # --- Plot comparison ---
-    plt.figure(figsize=(10,6))
-    plt.plot(np.arange(1, episodes+1), milp_rewards, label="MILP Agent")
-    plt.plot(np.arange(1, episodes+1), sl_rewards, label="Supervised Learning Agent")
+    milp_total_profits = [float(np.array(stat['total_profits']).item()) for stat in milp_stats]
+    print(milp_total_profits)
+    sl_total_profits = [float(np.array(stat['total_profits']).item()) for stat in sl_stats]
+
+    plt.figure(figsize=(10, 6))
+    plt.plot(np.arange(1, episodes+1), milp_total_profits, label="MILP Agent")
+    plt.plot(np.arange(1, episodes+1), sl_total_profits, label="Supervised Learning Agent")
     plt.xlabel("Episode")
-    plt.ylabel("Total Reward")
-    plt.title("Reward Comparison: MILP vs SL over 50 Episodes")
+    plt.ylabel("Total Profit")
+    plt.title("Reward Comparison: MILP vs SL over Episodes")
     plt.legend()
     plt.grid(True)
     plt.show()
+
 
 
 if __name__ == "__main__":
