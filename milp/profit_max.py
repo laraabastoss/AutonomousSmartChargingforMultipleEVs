@@ -525,7 +525,7 @@ class V2GProfitMaxOracleGB:
         #for score in user_satisfaction:
             #reward -= 100 * math.exp(-10*score.sum())
 
-        self.m.setObjective(costs - 100 * user_satisfaction.sum(), GRB.MAXIMIZE)
+        self.m.setObjective(costs - 10 * user_satisfaction.sum(), GRB.MAXIMIZE)
 
 
         # print constraints

@@ -37,6 +37,11 @@ import gymnasium as gym
 
 from supervised_learning import CentralizedDNNPolicy
 
+def milp_objective(env, total_costs, user_satisfaction_list, *args):
+
+    reward = total_costs - 100 * sum(user_satisfaction_list)
+    return reward
+
 
 def run_agent(env, agent, episodes=1):
     episode_stats = []
@@ -215,7 +220,7 @@ def eval2():
             break
 '''
 
-def eval(num_episodes=50, save_plots=True):
+def eval(num_episodes=20, save_plots=True):
     config_file = "ev2gym-config/V2GProfitPlusLoads.yaml"
     dummy_agent_class = ChargeAsFastAsPossible
 
@@ -253,7 +258,7 @@ def eval(num_episodes=50, save_plots=True):
             save_replay=False,
             save_plots=save_plots,
         )
-        env_milp.set_reward_function(profit_maximization)
+        env_milp.set_reward_function(milp_objective)
         milp_agent = V2GProfitMaxOracleGB(replay_path=replay_path, MIPGap=0.0)
         milp_stats = run_agent(env_milp, milp_agent, episodes=1)
         milp_all_stats.extend(milp_stats)
@@ -266,7 +271,7 @@ def eval(num_episodes=50, save_plots=True):
             save_replay=False,
             save_plots=save_plots,
         )
-        env_sl.set_reward_function(profit_maximization)
+        env_sl.set_reward_function(milp_objective)
         sl_agent = CentralizedDNNPolicy(
             model_path="centralized_ev_policy.pth",
             input_dim=env_sl.number_of_ports + 3,
@@ -297,4 +302,4 @@ def eval(num_episodes=50, save_plots=True):
 
 if __name__ == "__main__":
     # while True:
-    eval()
+    eval(num_episodes=20)

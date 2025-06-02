@@ -4,7 +4,7 @@
 # Simulation Parameters
 ##############################################################################
 timescale: 60 # in minutes per step
-simulation_length: 24 #90 # in steps per simulation
+simulation_length: 2160 #90 # in steps per simulation
 
 ##############################################################################
 # Date and Time
@@ -14,7 +14,7 @@ year: 2022 # 2015-2023
 month: 1 # 1-12
 day: 17 # 1-31
 # Whether to get a random date every time the environment is reset
-random_day: False # True or False
+random_day: True # True or False
 
 # Simulation Starting Time
 # Hour and minute do not change after the environment has been reset

@@ -13,7 +13,9 @@ import os
 # Configuration
 # ----------------------
 DATA_PATH = "centralized_dataset.npz"
+GRU_DATA_PATH = "gru_consumption_dataset.npz"
 MODEL_PATH = "centralized_ev_policy.pth"
+GRU_PATH = "gru_model.pth"
 EPOCHS = 100
 BATCH_SIZE = 64
 LEARNING_RATE = 1e-3
@@ -78,6 +80,19 @@ y_test_tensor = torch.tensor(y_test, dtype=torch.float32)
 
 train_loader = DataLoader(TensorDataset(X_train_tensor, y_train_tensor), batch_size=BATCH_SIZE, shuffle=True)
 
+gru_data = np.load(GRU_DATA_PATH)
+X_gru = gru_data['X']
+y_gru = gru_data['y']
+
+X_gru_train, X_gru_test, y_gru_train, y_gru_test = train_test_split(X_gru, y_gru, test_size=0.1, random_state=42)
+
+X_gru_train_tensor = torch.tensor(X_gru_train, dtype=torch.float32)
+y_gru_train_tensor = torch.tensor(y_gru_train, dtype=torch.float32)
+X_gru_test_tensor = torch.tensor(X_gru_test, dtype=torch.float32)
+y_gru_test_tensor = torch.tensor(y_gru_test, dtype=torch.float32)
+
+gru_train_loader = DataLoader(TensorDataset(X_gru_train_tensor, y_gru_train_tensor), batch_size=BATCH_SIZE, shuffle=True)
+
 
 # ----------------------
 # Train Model
@@ -114,8 +129,8 @@ if not os.path.exists(MODEL_PATH):
 
     model.eval()
     with torch.no_grad():
-        test_preds = model(X_test_tensor)
-        test_loss = loss_fn(test_preds, y_test_tensor).item()
+        test_preds = model(X_gru_test_tensor)
+        test_loss = loss_fn(test_preds, y_gru_test_tensor).item()
         print(f"Test Loss: {test_loss:.4f}")
 
     # Save model
@@ -125,6 +140,51 @@ if not os.path.exists(MODEL_PATH):
 else:
     print(f"Model already exists at {MODEL_PATH}. Skipping training.")
 
+
+if not os.path.exists(GRU_PATH):
+    model = GRU(input_size=1, hidden_size=64, num_layers=2, output_size=1)
+    optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE)
+    loss_fn = nn.MSELoss()
+
+    losses = []
+    for epoch in range(EPOCHS):
+        model.train()
+        total_loss = 0
+        for xb, yb in gru_train_loader:
+            optimizer.zero_grad()
+            pred = model(xb)
+            loss = loss_fn(pred, yb)
+            loss.backward()
+            optimizer.step()
+            total_loss += loss.item()
+
+        avg_loss = total_loss / len(train_loader)
+        losses.append(avg_loss)
+
+        if epoch % 10 == 0:
+            print(f"Epoch {epoch}, Loss: {avg_loss:.4f}")
+
+    # Plot training loss
+    plt.plot(losses)
+    plt.xlabel("Epoch")
+    plt.ylabel("MSE Loss")
+    plt.title("GRU Training Loss")
+    plt.grid(True)
+    plt.show()
+
+    # Evaluate on test set
+    model.eval()
+    with torch.no_grad():
+        test_preds = model(X_gru_test_tensor)
+        test_loss = loss_fn(test_preds, y_gru_test_tensor).item()
+        print(f"Test Loss: {test_loss:.4f}")
+
+    # Save trained model
+    torch.save(model.state_dict(), GRU_PATH)
+    print(f"GRU model saved to {GRU_PATH}")
+
+else:
+    print(f"Model already exists at {GRU_PATH}. Skipping training.")
 
 # ----------------------
 # DNN Agent Wrapper
