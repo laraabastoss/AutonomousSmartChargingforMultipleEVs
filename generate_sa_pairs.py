@@ -8,7 +8,8 @@ from tqdm import trange
 
 def extract_state(env, t, episode):
     price = env.charge_prices[0, t] 
-    net_load = sum(env.tr_inflexible_loads[i][t] for i in range(len(env.tr_inflexible_loads)))
+
+    net_load = 0.0 ## RNN
 
     socs = []
     for i in range(env.number_of_ports):
@@ -43,7 +44,7 @@ def generate_dataset(config_file: str, num_episodes: int = 5):
         
 
         for t in range(env.simulation_length):
-            
+
             state = extract_state(env, t, episode)
             actions = oracle.get_action(env)  
 
