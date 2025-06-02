@@ -69,4 +69,4 @@ def generate_dataset(config_file: str, num_episodes: int = 5):
     print("CSV file written as centralized_dataset.csv")
 
 if __name__ == "__main__":
-    generate_dataset("ev2gym-config/V2GProfitPlusLoads.yaml", num_episodes=200)
+    generate_dataset("ev2gym-config/V2GProfitPlusLoadsGenerateData.yaml", num_episodes=580)

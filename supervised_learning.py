@@ -40,6 +40,25 @@ class EVPolicyNet(nn.Module):
         return self.net(x)
 
 
+class GRU(nn.Module):
+    def __init__(self, input_size=1, hidden_size=64, num_layers=2, output_size=1):
+        super(GRU, self).__init__()
+        self.hidden_size = hidden_size
+        self.num_layers = num_layers
+
+        self.gru = nn.GRU(input_size, hidden_size, num_layers, batch_first=True)
+        self.fc = nn.Linear(hidden_size, output_size)
+
+    def forward(self, x):
+        # x shape: (batch_size, seq_length=168, input_size=1)
+        h0 = torch.zeros(self.num_layers, x.size(0), self.hidden_size).to(x.device)
+
+        out, _ = self.gru(x, h0)  # out shape: (batch_size, seq_length, hidden_size)
+        out = out[:, -1, :]       # Take last time step output
+        out = self.fc(out)        # Map to output size (1)
+        return out
+
+
 # ----------------------
 # Load Data
 # ----------------------
