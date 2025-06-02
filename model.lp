@@ -1,1207 +1,1207 @@
 \ Model ev_city
 \ LP format - for model browsing. Use MPS format to capture full model detail.
-\ Signature: 0xab9b232a4123a577
+\ Signature: 0xdaae1f6db54b0b85
 Maximize
-  0.2585563876319438 act_current_ev_dis[0,0,0]
-   + 0.2719001070534545 act_current_ev_dis[0,0,1]
-   + 0.2475259952690222 act_current_ev_dis[0,0,2]
-   + 0.1941573529658869 act_current_ev_dis[0,0,3]
-   + 0.1571316492626486 act_current_ev_dis[0,0,4]
-   + 0.1327201251807728 act_current_ev_dis[0,0,5]
-   + 0.1070615245174474 act_current_ev_dis[0,0,6]
-   + 0.1060015094232153 act_current_ev_dis[0,0,7]
-   + 0.1193764057592621 act_current_ev_dis[0,0,8]
-   + 0.155884572681199 act_current_ev_dis[0,0,9]
-   + 0.1920934412235878 act_current_ev_dis[0,0,10]
-   + 0.2369133735608862 act_current_ev_dis[0,0,11]
-   + 0.2571471910949058 act_current_ev_dis[0,0,12]
-   + 0.2824877872299615 act_current_ev_dis[0,0,13]
-   + 0.1932345162956142 act_current_ev_dis[0,0,14]
-   + 0.2063911742299074 act_current_ev_dis[0,0,15]
-   + 0.1932968701246867 act_current_ev_dis[0,0,16]
-   + 0.157948484423498 act_current_ev_dis[0,0,17]
-   + 0.1196881749046246 act_current_ev_dis[0,0,18]
-   + 0.120480068533845 act_current_ev_dis[0,0,19]
-   + 0.1198440594773058 act_current_ev_dis[0,0,20]
-   + 0.1197131164362536 act_current_ev_dis[0,0,21]
-   + 0.1170568433177659 act_current_ev_dis[0,0,22]
-   + 0.1247076581449592 act_current_ev_dis[0,0,23]
-   + 0.2585563876319438 act_current_ev_dis[0,1,0]
-   + 0.2719001070534545 act_current_ev_dis[0,1,1]
-   + 0.2475259952690222 act_current_ev_dis[0,1,2]
-   + 0.1941573529658869 act_current_ev_dis[0,1,3]
-   + 0.1571316492626486 act_current_ev_dis[0,1,4]
-   + 0.1327201251807728 act_current_ev_dis[0,1,5]
-   + 0.1070615245174474 act_current_ev_dis[0,1,6]
-   + 0.1060015094232153 act_current_ev_dis[0,1,7]
-   + 0.1193764057592621 act_current_ev_dis[0,1,8]
-   + 0.155884572681199 act_current_ev_dis[0,1,9]
-   + 0.1920934412235878 act_current_ev_dis[0,1,10]
-   + 0.2369133735608862 act_current_ev_dis[0,1,11]
-   + 0.2571471910949058 act_current_ev_dis[0,1,12]
-   + 0.2824877872299615 act_current_ev_dis[0,1,13]
-   + 0.1932345162956142 act_current_ev_dis[0,1,14]
-   + 0.2063911742299074 act_current_ev_dis[0,1,15]
-   + 0.1932968701246867 act_current_ev_dis[0,1,16]
-   + 0.157948484423498 act_current_ev_dis[0,1,17]
-   + 0.1196881749046246 act_current_ev_dis[0,1,18]
-   + 0.120480068533845 act_current_ev_dis[0,1,19]
-   + 0.1198440594773058 act_current_ev_dis[0,1,20]
-   + 0.1197131164362536 act_current_ev_dis[0,1,21]
-   + 0.1170568433177659 act_current_ev_dis[0,1,22]
-   + 0.1247076581449592 act_current_ev_dis[0,1,23]
-   + 0.2585563876319438 act_current_ev_dis[0,2,0]
-   + 0.2719001070534545 act_current_ev_dis[0,2,1]
-   + 0.2475259952690222 act_current_ev_dis[0,2,2]
-   + 0.1941573529658869 act_current_ev_dis[0,2,3]
-   + 0.1571316492626486 act_current_ev_dis[0,2,4]
-   + 0.1327201251807728 act_current_ev_dis[0,2,5]
-   + 0.1070615245174474 act_current_ev_dis[0,2,6]
-   + 0.1060015094232153 act_current_ev_dis[0,2,7]
-   + 0.1193764057592621 act_current_ev_dis[0,2,8]
-   + 0.155884572681199 act_current_ev_dis[0,2,9]
-   + 0.1920934412235878 act_current_ev_dis[0,2,10]
-   + 0.2369133735608862 act_current_ev_dis[0,2,11]
-   + 0.2571471910949058 act_current_ev_dis[0,2,12]
-   + 0.2824877872299615 act_current_ev_dis[0,2,13]
-   + 0.1932345162956142 act_current_ev_dis[0,2,14]
-   + 0.2063911742299074 act_current_ev_dis[0,2,15]
-   + 0.1932968701246867 act_current_ev_dis[0,2,16]
-   + 0.157948484423498 act_current_ev_dis[0,2,17]
-   + 0.1196881749046246 act_current_ev_dis[0,2,18]
-   + 0.120480068533845 act_current_ev_dis[0,2,19]
-   + 0.1198440594773058 act_current_ev_dis[0,2,20]
-   + 0.1197131164362536 act_current_ev_dis[0,2,21]
-   + 0.1170568433177659 act_current_ev_dis[0,2,22]
-   + 0.1247076581449592 act_current_ev_dis[0,2,23]
-   + 0.2585563876319438 act_current_ev_dis[0,3,0]
-   + 0.2719001070534545 act_current_ev_dis[0,3,1]
-   + 0.2475259952690222 act_current_ev_dis[0,3,2]
-   + 0.1941573529658869 act_current_ev_dis[0,3,3]
-   + 0.1571316492626486 act_current_ev_dis[0,3,4]
-   + 0.1327201251807728 act_current_ev_dis[0,3,5]
-   + 0.1070615245174474 act_current_ev_dis[0,3,6]
-   + 0.1060015094232153 act_current_ev_dis[0,3,7]
-   + 0.1193764057592621 act_current_ev_dis[0,3,8]
-   + 0.155884572681199 act_current_ev_dis[0,3,9]
-   + 0.1920934412235878 act_current_ev_dis[0,3,10]
-   + 0.2369133735608862 act_current_ev_dis[0,3,11]
-   + 0.2571471910949058 act_current_ev_dis[0,3,12]
-   + 0.2824877872299615 act_current_ev_dis[0,3,13]
-   + 0.1932345162956142 act_current_ev_dis[0,3,14]
-   + 0.2063911742299074 act_current_ev_dis[0,3,15]
-   + 0.1932968701246867 act_current_ev_dis[0,3,16]
-   + 0.157948484423498 act_current_ev_dis[0,3,17]
-   + 0.1196881749046246 act_current_ev_dis[0,3,18]
-   + 0.120480068533845 act_current_ev_dis[0,3,19]
-   + 0.1198440594773058 act_current_ev_dis[0,3,20]
-   + 0.1197131164362536 act_current_ev_dis[0,3,21]
-   + 0.1170568433177659 act_current_ev_dis[0,3,22]
-   + 0.1247076581449592 act_current_ev_dis[0,3,23]
-   + 0.2585563876319438 act_current_ev_dis[0,4,0]
-   + 0.2719001070534545 act_current_ev_dis[0,4,1]
-   + 0.2475259952690222 act_current_ev_dis[0,4,2]
-   + 0.1941573529658869 act_current_ev_dis[0,4,3]
-   + 0.1571316492626486 act_current_ev_dis[0,4,4]
-   + 0.1327201251807728 act_current_ev_dis[0,4,5]
-   + 0.1070615245174474 act_current_ev_dis[0,4,6]
-   + 0.1060015094232153 act_current_ev_dis[0,4,7]
-   + 0.1193764057592621 act_current_ev_dis[0,4,8]
-   + 0.155884572681199 act_current_ev_dis[0,4,9]
-   + 0.1920934412235878 act_current_ev_dis[0,4,10]
-   + 0.2369133735608862 act_current_ev_dis[0,4,11]
-   + 0.2571471910949058 act_current_ev_dis[0,4,12]
-   + 0.2824877872299615 act_current_ev_dis[0,4,13]
-   + 0.1932345162956142 act_current_ev_dis[0,4,14]
-   + 0.2063911742299074 act_current_ev_dis[0,4,15]
-   + 0.1932968701246867 act_current_ev_dis[0,4,16]
-   + 0.157948484423498 act_current_ev_dis[0,4,17]
-   + 0.1196881749046246 act_current_ev_dis[0,4,18]
-   + 0.120480068533845 act_current_ev_dis[0,4,19]
-   + 0.1198440594773058 act_current_ev_dis[0,4,20]
-   + 0.1197131164362536 act_current_ev_dis[0,4,21]
-   + 0.1170568433177659 act_current_ev_dis[0,4,22]
-   + 0.1247076581449592 act_current_ev_dis[0,4,23]
-   + 0.2585563876319438 act_current_ev_dis[0,5,0]
-   + 0.2719001070534545 act_current_ev_dis[0,5,1]
-   + 0.2475259952690222 act_current_ev_dis[0,5,2]
-   + 0.1941573529658869 act_current_ev_dis[0,5,3]
-   + 0.1571316492626486 act_current_ev_dis[0,5,4]
-   + 0.1327201251807728 act_current_ev_dis[0,5,5]
-   + 0.1070615245174474 act_current_ev_dis[0,5,6]
-   + 0.1060015094232153 act_current_ev_dis[0,5,7]
-   + 0.1193764057592621 act_current_ev_dis[0,5,8]
-   + 0.155884572681199 act_current_ev_dis[0,5,9]
-   + 0.1920934412235878 act_current_ev_dis[0,5,10]
-   + 0.2369133735608862 act_current_ev_dis[0,5,11]
-   + 0.2571471910949058 act_current_ev_dis[0,5,12]
-   + 0.2824877872299615 act_current_ev_dis[0,5,13]
-   + 0.1932345162956142 act_current_ev_dis[0,5,14]
-   + 0.2063911742299074 act_current_ev_dis[0,5,15]
-   + 0.1932968701246867 act_current_ev_dis[0,5,16]
-   + 0.157948484423498 act_current_ev_dis[0,5,17]
-   + 0.1196881749046246 act_current_ev_dis[0,5,18]
-   + 0.120480068533845 act_current_ev_dis[0,5,19]
-   + 0.1198440594773058 act_current_ev_dis[0,5,20]
-   + 0.1197131164362536 act_current_ev_dis[0,5,21]
-   + 0.1170568433177659 act_current_ev_dis[0,5,22]
-   + 0.1247076581449592 act_current_ev_dis[0,5,23]
-   + 0.2585563876319438 act_current_ev_dis[0,6,0]
-   + 0.2719001070534545 act_current_ev_dis[0,6,1]
-   + 0.2475259952690222 act_current_ev_dis[0,6,2]
-   + 0.1941573529658869 act_current_ev_dis[0,6,3]
-   + 0.1571316492626486 act_current_ev_dis[0,6,4]
-   + 0.1327201251807728 act_current_ev_dis[0,6,5]
-   + 0.1070615245174474 act_current_ev_dis[0,6,6]
-   + 0.1060015094232153 act_current_ev_dis[0,6,7]
-   + 0.1193764057592621 act_current_ev_dis[0,6,8]
-   + 0.155884572681199 act_current_ev_dis[0,6,9]
-   + 0.1920934412235878 act_current_ev_dis[0,6,10]
-   + 0.2369133735608862 act_current_ev_dis[0,6,11]
-   + 0.2571471910949058 act_current_ev_dis[0,6,12]
-   + 0.2824877872299615 act_current_ev_dis[0,6,13]
-   + 0.1932345162956142 act_current_ev_dis[0,6,14]
-   + 0.2063911742299074 act_current_ev_dis[0,6,15]
-   + 0.1932968701246867 act_current_ev_dis[0,6,16]
-   + 0.157948484423498 act_current_ev_dis[0,6,17]
-   + 0.1196881749046246 act_current_ev_dis[0,6,18]
-   + 0.120480068533845 act_current_ev_dis[0,6,19]
-   + 0.1198440594773058 act_current_ev_dis[0,6,20]
-   + 0.1197131164362536 act_current_ev_dis[0,6,21]
-   + 0.1170568433177659 act_current_ev_dis[0,6,22]
-   + 0.1247076581449592 act_current_ev_dis[0,6,23]
-   + 0.2585563876319438 act_current_ev_dis[0,7,0]
-   + 0.2719001070534545 act_current_ev_dis[0,7,1]
-   + 0.2475259952690222 act_current_ev_dis[0,7,2]
-   + 0.1941573529658869 act_current_ev_dis[0,7,3]
-   + 0.1571316492626486 act_current_ev_dis[0,7,4]
-   + 0.1327201251807728 act_current_ev_dis[0,7,5]
-   + 0.1070615245174474 act_current_ev_dis[0,7,6]
-   + 0.1060015094232153 act_current_ev_dis[0,7,7]
-   + 0.1193764057592621 act_current_ev_dis[0,7,8]
-   + 0.155884572681199 act_current_ev_dis[0,7,9]
-   + 0.1920934412235878 act_current_ev_dis[0,7,10]
-   + 0.2369133735608862 act_current_ev_dis[0,7,11]
-   + 0.2571471910949058 act_current_ev_dis[0,7,12]
-   + 0.2824877872299615 act_current_ev_dis[0,7,13]
-   + 0.1932345162956142 act_current_ev_dis[0,7,14]
-   + 0.2063911742299074 act_current_ev_dis[0,7,15]
-   + 0.1932968701246867 act_current_ev_dis[0,7,16]
-   + 0.157948484423498 act_current_ev_dis[0,7,17]
-   + 0.1196881749046246 act_current_ev_dis[0,7,18]
-   + 0.120480068533845 act_current_ev_dis[0,7,19]
-   + 0.1198440594773058 act_current_ev_dis[0,7,20]
-   + 0.1197131164362536 act_current_ev_dis[0,7,21]
-   + 0.1170568433177659 act_current_ev_dis[0,7,22]
-   + 0.1247076581449592 act_current_ev_dis[0,7,23]
-   + 0.2585563876319438 act_current_ev_dis[0,8,0]
-   + 0.2719001070534545 act_current_ev_dis[0,8,1]
-   + 0.2475259952690222 act_current_ev_dis[0,8,2]
-   + 0.1941573529658869 act_current_ev_dis[0,8,3]
-   + 0.1571316492626486 act_current_ev_dis[0,8,4]
-   + 0.1327201251807728 act_current_ev_dis[0,8,5]
-   + 0.1070615245174474 act_current_ev_dis[0,8,6]
-   + 0.1060015094232153 act_current_ev_dis[0,8,7]
-   + 0.1193764057592621 act_current_ev_dis[0,8,8]
-   + 0.155884572681199 act_current_ev_dis[0,8,9]
-   + 0.1920934412235878 act_current_ev_dis[0,8,10]
-   + 0.2369133735608862 act_current_ev_dis[0,8,11]
-   + 0.2571471910949058 act_current_ev_dis[0,8,12]
-   + 0.2824877872299615 act_current_ev_dis[0,8,13]
-   + 0.1932345162956142 act_current_ev_dis[0,8,14]
-   + 0.2063911742299074 act_current_ev_dis[0,8,15]
-   + 0.1932968701246867 act_current_ev_dis[0,8,16]
-   + 0.157948484423498 act_current_ev_dis[0,8,17]
-   + 0.1196881749046246 act_current_ev_dis[0,8,18]
-   + 0.120480068533845 act_current_ev_dis[0,8,19]
-   + 0.1198440594773058 act_current_ev_dis[0,8,20]
-   + 0.1197131164362536 act_current_ev_dis[0,8,21]
-   + 0.1170568433177659 act_current_ev_dis[0,8,22]
-   + 0.1247076581449592 act_current_ev_dis[0,8,23]
-   + 0.2585563876319438 act_current_ev_dis[0,9,0]
-   + 0.2719001070534545 act_current_ev_dis[0,9,1]
-   + 0.2475259952690222 act_current_ev_dis[0,9,2]
-   + 0.1941573529658869 act_current_ev_dis[0,9,3]
-   + 0.1571316492626486 act_current_ev_dis[0,9,4]
-   + 0.1327201251807728 act_current_ev_dis[0,9,5]
-   + 0.1070615245174474 act_current_ev_dis[0,9,6]
-   + 0.1060015094232153 act_current_ev_dis[0,9,7]
-   + 0.1193764057592621 act_current_ev_dis[0,9,8]
-   + 0.155884572681199 act_current_ev_dis[0,9,9]
-   + 0.1920934412235878 act_current_ev_dis[0,9,10]
-   + 0.2369133735608862 act_current_ev_dis[0,9,11]
-   + 0.2571471910949058 act_current_ev_dis[0,9,12]
-   + 0.2824877872299615 act_current_ev_dis[0,9,13]
-   + 0.1932345162956142 act_current_ev_dis[0,9,14]
-   + 0.2063911742299074 act_current_ev_dis[0,9,15]
-   + 0.1932968701246867 act_current_ev_dis[0,9,16]
-   + 0.157948484423498 act_current_ev_dis[0,9,17]
-   + 0.1196881749046246 act_current_ev_dis[0,9,18]
-   + 0.120480068533845 act_current_ev_dis[0,9,19]
-   + 0.1198440594773058 act_current_ev_dis[0,9,20]
-   + 0.1197131164362536 act_current_ev_dis[0,9,21]
-   + 0.1170568433177659 act_current_ev_dis[0,9,22]
-   + 0.1247076581449592 act_current_ev_dis[0,9,23]
-   + 0.2585563876319438 act_current_ev_dis[0,10,0]
-   + 0.2719001070534545 act_current_ev_dis[0,10,1]
-   + 0.2475259952690222 act_current_ev_dis[0,10,2]
-   + 0.1941573529658869 act_current_ev_dis[0,10,3]
-   + 0.1571316492626486 act_current_ev_dis[0,10,4]
-   + 0.1327201251807728 act_current_ev_dis[0,10,5]
-   + 0.1070615245174474 act_current_ev_dis[0,10,6]
-   + 0.1060015094232153 act_current_ev_dis[0,10,7]
-   + 0.1193764057592621 act_current_ev_dis[0,10,8]
-   + 0.155884572681199 act_current_ev_dis[0,10,9]
-   + 0.1920934412235878 act_current_ev_dis[0,10,10]
-   + 0.2369133735608862 act_current_ev_dis[0,10,11]
-   + 0.2571471910949058 act_current_ev_dis[0,10,12]
-   + 0.2824877872299615 act_current_ev_dis[0,10,13]
-   + 0.1932345162956142 act_current_ev_dis[0,10,14]
-   + 0.2063911742299074 act_current_ev_dis[0,10,15]
-   + 0.1932968701246867 act_current_ev_dis[0,10,16]
-   + 0.157948484423498 act_current_ev_dis[0,10,17]
-   + 0.1196881749046246 act_current_ev_dis[0,10,18]
-   + 0.120480068533845 act_current_ev_dis[0,10,19]
-   + 0.1198440594773058 act_current_ev_dis[0,10,20]
-   + 0.1197131164362536 act_current_ev_dis[0,10,21]
-   + 0.1170568433177659 act_current_ev_dis[0,10,22]
-   + 0.1247076581449592 act_current_ev_dis[0,10,23]
-   + 0.2585563876319438 act_current_ev_dis[0,11,0]
-   + 0.2719001070534545 act_current_ev_dis[0,11,1]
-   + 0.2475259952690222 act_current_ev_dis[0,11,2]
-   + 0.1941573529658869 act_current_ev_dis[0,11,3]
-   + 0.1571316492626486 act_current_ev_dis[0,11,4]
-   + 0.1327201251807728 act_current_ev_dis[0,11,5]
-   + 0.1070615245174474 act_current_ev_dis[0,11,6]
-   + 0.1060015094232153 act_current_ev_dis[0,11,7]
-   + 0.1193764057592621 act_current_ev_dis[0,11,8]
-   + 0.155884572681199 act_current_ev_dis[0,11,9]
-   + 0.1920934412235878 act_current_ev_dis[0,11,10]
-   + 0.2369133735608862 act_current_ev_dis[0,11,11]
-   + 0.2571471910949058 act_current_ev_dis[0,11,12]
-   + 0.2824877872299615 act_current_ev_dis[0,11,13]
-   + 0.1932345162956142 act_current_ev_dis[0,11,14]
-   + 0.2063911742299074 act_current_ev_dis[0,11,15]
-   + 0.1932968701246867 act_current_ev_dis[0,11,16]
-   + 0.157948484423498 act_current_ev_dis[0,11,17]
-   + 0.1196881749046246 act_current_ev_dis[0,11,18]
-   + 0.120480068533845 act_current_ev_dis[0,11,19]
-   + 0.1198440594773058 act_current_ev_dis[0,11,20]
-   + 0.1197131164362536 act_current_ev_dis[0,11,21]
-   + 0.1170568433177659 act_current_ev_dis[0,11,22]
-   + 0.1247076581449592 act_current_ev_dis[0,11,23]
-   + 0.2585563876319438 act_current_ev_dis[0,12,0]
-   + 0.2719001070534545 act_current_ev_dis[0,12,1]
-   + 0.2475259952690222 act_current_ev_dis[0,12,2]
-   + 0.1941573529658869 act_current_ev_dis[0,12,3]
-   + 0.1571316492626486 act_current_ev_dis[0,12,4]
-   + 0.1327201251807728 act_current_ev_dis[0,12,5]
-   + 0.1070615245174474 act_current_ev_dis[0,12,6]
-   + 0.1060015094232153 act_current_ev_dis[0,12,7]
-   + 0.1193764057592621 act_current_ev_dis[0,12,8]
-   + 0.155884572681199 act_current_ev_dis[0,12,9]
-   + 0.1920934412235878 act_current_ev_dis[0,12,10]
-   + 0.2369133735608862 act_current_ev_dis[0,12,11]
-   + 0.2571471910949058 act_current_ev_dis[0,12,12]
-   + 0.2824877872299615 act_current_ev_dis[0,12,13]
-   + 0.1932345162956142 act_current_ev_dis[0,12,14]
-   + 0.2063911742299074 act_current_ev_dis[0,12,15]
-   + 0.1932968701246867 act_current_ev_dis[0,12,16]
-   + 0.157948484423498 act_current_ev_dis[0,12,17]
-   + 0.1196881749046246 act_current_ev_dis[0,12,18]
-   + 0.120480068533845 act_current_ev_dis[0,12,19]
-   + 0.1198440594773058 act_current_ev_dis[0,12,20]
-   + 0.1197131164362536 act_current_ev_dis[0,12,21]
-   + 0.1170568433177659 act_current_ev_dis[0,12,22]
-   + 0.1247076581449592 act_current_ev_dis[0,12,23]
-   + 0.2585563876319438 act_current_ev_dis[0,13,0]
-   + 0.2719001070534545 act_current_ev_dis[0,13,1]
-   + 0.2475259952690222 act_current_ev_dis[0,13,2]
-   + 0.1941573529658869 act_current_ev_dis[0,13,3]
-   + 0.1571316492626486 act_current_ev_dis[0,13,4]
-   + 0.1327201251807728 act_current_ev_dis[0,13,5]
-   + 0.1070615245174474 act_current_ev_dis[0,13,6]
-   + 0.1060015094232153 act_current_ev_dis[0,13,7]
-   + 0.1193764057592621 act_current_ev_dis[0,13,8]
-   + 0.155884572681199 act_current_ev_dis[0,13,9]
-   + 0.1920934412235878 act_current_ev_dis[0,13,10]
-   + 0.2369133735608862 act_current_ev_dis[0,13,11]
-   + 0.2571471910949058 act_current_ev_dis[0,13,12]
-   + 0.2824877872299615 act_current_ev_dis[0,13,13]
-   + 0.1932345162956142 act_current_ev_dis[0,13,14]
-   + 0.2063911742299074 act_current_ev_dis[0,13,15]
-   + 0.1932968701246867 act_current_ev_dis[0,13,16]
-   + 0.157948484423498 act_current_ev_dis[0,13,17]
-   + 0.1196881749046246 act_current_ev_dis[0,13,18]
-   + 0.120480068533845 act_current_ev_dis[0,13,19]
-   + 0.1198440594773058 act_current_ev_dis[0,13,20]
-   + 0.1197131164362536 act_current_ev_dis[0,13,21]
-   + 0.1170568433177659 act_current_ev_dis[0,13,22]
-   + 0.1247076581449592 act_current_ev_dis[0,13,23]
-   + 0.2585563876319438 act_current_ev_dis[0,14,0]
-   + 0.2719001070534545 act_current_ev_dis[0,14,1]
-   + 0.2475259952690222 act_current_ev_dis[0,14,2]
-   + 0.1941573529658869 act_current_ev_dis[0,14,3]
-   + 0.1571316492626486 act_current_ev_dis[0,14,4]
-   + 0.1327201251807728 act_current_ev_dis[0,14,5]
-   + 0.1070615245174474 act_current_ev_dis[0,14,6]
-   + 0.1060015094232153 act_current_ev_dis[0,14,7]
-   + 0.1193764057592621 act_current_ev_dis[0,14,8]
-   + 0.155884572681199 act_current_ev_dis[0,14,9]
-   + 0.1920934412235878 act_current_ev_dis[0,14,10]
-   + 0.2369133735608862 act_current_ev_dis[0,14,11]
-   + 0.2571471910949058 act_current_ev_dis[0,14,12]
-   + 0.2824877872299615 act_current_ev_dis[0,14,13]
-   + 0.1932345162956142 act_current_ev_dis[0,14,14]
-   + 0.2063911742299074 act_current_ev_dis[0,14,15]
-   + 0.1932968701246867 act_current_ev_dis[0,14,16]
-   + 0.157948484423498 act_current_ev_dis[0,14,17]
-   + 0.1196881749046246 act_current_ev_dis[0,14,18]
-   + 0.120480068533845 act_current_ev_dis[0,14,19]
-   + 0.1198440594773058 act_current_ev_dis[0,14,20]
-   + 0.1197131164362536 act_current_ev_dis[0,14,21]
-   + 0.1170568433177659 act_current_ev_dis[0,14,22]
-   + 0.1247076581449592 act_current_ev_dis[0,14,23]
-   + 0.2585563876319438 act_current_ev_dis[0,15,0]
-   + 0.2719001070534545 act_current_ev_dis[0,15,1]
-   + 0.2475259952690222 act_current_ev_dis[0,15,2]
-   + 0.1941573529658869 act_current_ev_dis[0,15,3]
-   + 0.1571316492626486 act_current_ev_dis[0,15,4]
-   + 0.1327201251807728 act_current_ev_dis[0,15,5]
-   + 0.1070615245174474 act_current_ev_dis[0,15,6]
-   + 0.1060015094232153 act_current_ev_dis[0,15,7]
-   + 0.1193764057592621 act_current_ev_dis[0,15,8]
-   + 0.155884572681199 act_current_ev_dis[0,15,9]
-   + 0.1920934412235878 act_current_ev_dis[0,15,10]
-   + 0.2369133735608862 act_current_ev_dis[0,15,11]
-   + 0.2571471910949058 act_current_ev_dis[0,15,12]
-   + 0.2824877872299615 act_current_ev_dis[0,15,13]
-   + 0.1932345162956142 act_current_ev_dis[0,15,14]
-   + 0.2063911742299074 act_current_ev_dis[0,15,15]
-   + 0.1932968701246867 act_current_ev_dis[0,15,16]
-   + 0.157948484423498 act_current_ev_dis[0,15,17]
-   + 0.1196881749046246 act_current_ev_dis[0,15,18]
-   + 0.120480068533845 act_current_ev_dis[0,15,19]
-   + 0.1198440594773058 act_current_ev_dis[0,15,20]
-   + 0.1197131164362536 act_current_ev_dis[0,15,21]
-   + 0.1170568433177659 act_current_ev_dis[0,15,22]
-   + 0.1247076581449592 act_current_ev_dis[0,15,23]
-   + 0.2585563876319438 act_current_ev_dis[0,16,0]
-   + 0.2719001070534545 act_current_ev_dis[0,16,1]
-   + 0.2475259952690222 act_current_ev_dis[0,16,2]
-   + 0.1941573529658869 act_current_ev_dis[0,16,3]
-   + 0.1571316492626486 act_current_ev_dis[0,16,4]
-   + 0.1327201251807728 act_current_ev_dis[0,16,5]
-   + 0.1070615245174474 act_current_ev_dis[0,16,6]
-   + 0.1060015094232153 act_current_ev_dis[0,16,7]
-   + 0.1193764057592621 act_current_ev_dis[0,16,8]
-   + 0.155884572681199 act_current_ev_dis[0,16,9]
-   + 0.1920934412235878 act_current_ev_dis[0,16,10]
-   + 0.2369133735608862 act_current_ev_dis[0,16,11]
-   + 0.2571471910949058 act_current_ev_dis[0,16,12]
-   + 0.2824877872299615 act_current_ev_dis[0,16,13]
-   + 0.1932345162956142 act_current_ev_dis[0,16,14]
-   + 0.2063911742299074 act_current_ev_dis[0,16,15]
-   + 0.1932968701246867 act_current_ev_dis[0,16,16]
-   + 0.157948484423498 act_current_ev_dis[0,16,17]
-   + 0.1196881749046246 act_current_ev_dis[0,16,18]
-   + 0.120480068533845 act_current_ev_dis[0,16,19]
-   + 0.1198440594773058 act_current_ev_dis[0,16,20]
-   + 0.1197131164362536 act_current_ev_dis[0,16,21]
-   + 0.1170568433177659 act_current_ev_dis[0,16,22]
-   + 0.1247076581449592 act_current_ev_dis[0,16,23]
-   + 0.2585563876319438 act_current_ev_dis[0,17,0]
-   + 0.2719001070534545 act_current_ev_dis[0,17,1]
-   + 0.2475259952690222 act_current_ev_dis[0,17,2]
-   + 0.1941573529658869 act_current_ev_dis[0,17,3]
-   + 0.1571316492626486 act_current_ev_dis[0,17,4]
-   + 0.1327201251807728 act_current_ev_dis[0,17,5]
-   + 0.1070615245174474 act_current_ev_dis[0,17,6]
-   + 0.1060015094232153 act_current_ev_dis[0,17,7]
-   + 0.1193764057592621 act_current_ev_dis[0,17,8]
-   + 0.155884572681199 act_current_ev_dis[0,17,9]
-   + 0.1920934412235878 act_current_ev_dis[0,17,10]
-   + 0.2369133735608862 act_current_ev_dis[0,17,11]
-   + 0.2571471910949058 act_current_ev_dis[0,17,12]
-   + 0.2824877872299615 act_current_ev_dis[0,17,13]
-   + 0.1932345162956142 act_current_ev_dis[0,17,14]
-   + 0.2063911742299074 act_current_ev_dis[0,17,15]
-   + 0.1932968701246867 act_current_ev_dis[0,17,16]
-   + 0.157948484423498 act_current_ev_dis[0,17,17]
-   + 0.1196881749046246 act_current_ev_dis[0,17,18]
-   + 0.120480068533845 act_current_ev_dis[0,17,19]
-   + 0.1198440594773058 act_current_ev_dis[0,17,20]
-   + 0.1197131164362536 act_current_ev_dis[0,17,21]
-   + 0.1170568433177659 act_current_ev_dis[0,17,22]
-   + 0.1247076581449592 act_current_ev_dis[0,17,23]
-   + 0.2585563876319438 act_current_ev_dis[0,18,0]
-   + 0.2719001070534545 act_current_ev_dis[0,18,1]
-   + 0.2475259952690222 act_current_ev_dis[0,18,2]
-   + 0.1941573529658869 act_current_ev_dis[0,18,3]
-   + 0.1571316492626486 act_current_ev_dis[0,18,4]
-   + 0.1327201251807728 act_current_ev_dis[0,18,5]
-   + 0.1070615245174474 act_current_ev_dis[0,18,6]
-   + 0.1060015094232153 act_current_ev_dis[0,18,7]
-   + 0.1193764057592621 act_current_ev_dis[0,18,8]
-   + 0.155884572681199 act_current_ev_dis[0,18,9]
-   + 0.1920934412235878 act_current_ev_dis[0,18,10]
-   + 0.2369133735608862 act_current_ev_dis[0,18,11]
-   + 0.2571471910949058 act_current_ev_dis[0,18,12]
-   + 0.2824877872299615 act_current_ev_dis[0,18,13]
-   + 0.1932345162956142 act_current_ev_dis[0,18,14]
-   + 0.2063911742299074 act_current_ev_dis[0,18,15]
-   + 0.1932968701246867 act_current_ev_dis[0,18,16]
-   + 0.157948484423498 act_current_ev_dis[0,18,17]
-   + 0.1196881749046246 act_current_ev_dis[0,18,18]
-   + 0.120480068533845 act_current_ev_dis[0,18,19]
-   + 0.1198440594773058 act_current_ev_dis[0,18,20]
-   + 0.1197131164362536 act_current_ev_dis[0,18,21]
-   + 0.1170568433177659 act_current_ev_dis[0,18,22]
-   + 0.1247076581449592 act_current_ev_dis[0,18,23]
-   + 0.2585563876319438 act_current_ev_dis[0,19,0]
-   + 0.2719001070534545 act_current_ev_dis[0,19,1]
-   + 0.2475259952690222 act_current_ev_dis[0,19,2]
-   + 0.1941573529658869 act_current_ev_dis[0,19,3]
-   + 0.1571316492626486 act_current_ev_dis[0,19,4]
-   + 0.1327201251807728 act_current_ev_dis[0,19,5]
-   + 0.1070615245174474 act_current_ev_dis[0,19,6]
-   + 0.1060015094232153 act_current_ev_dis[0,19,7]
-   + 0.1193764057592621 act_current_ev_dis[0,19,8]
-   + 0.155884572681199 act_current_ev_dis[0,19,9]
-   + 0.1920934412235878 act_current_ev_dis[0,19,10]
-   + 0.2369133735608862 act_current_ev_dis[0,19,11]
-   + 0.2571471910949058 act_current_ev_dis[0,19,12]
-   + 0.2824877872299615 act_current_ev_dis[0,19,13]
-   + 0.1932345162956142 act_current_ev_dis[0,19,14]
-   + 0.2063911742299074 act_current_ev_dis[0,19,15]
-   + 0.1932968701246867 act_current_ev_dis[0,19,16]
-   + 0.157948484423498 act_current_ev_dis[0,19,17]
-   + 0.1196881749046246 act_current_ev_dis[0,19,18]
-   + 0.120480068533845 act_current_ev_dis[0,19,19]
-   + 0.1198440594773058 act_current_ev_dis[0,19,20]
-   + 0.1197131164362536 act_current_ev_dis[0,19,21]
-   + 0.1170568433177659 act_current_ev_dis[0,19,22]
-   + 0.1247076581449592 act_current_ev_dis[0,19,23]
-   + 0.2585563876319438 act_current_ev_dis[0,20,0]
-   + 0.2719001070534545 act_current_ev_dis[0,20,1]
-   + 0.2475259952690222 act_current_ev_dis[0,20,2]
-   + 0.1941573529658869 act_current_ev_dis[0,20,3]
-   + 0.1571316492626486 act_current_ev_dis[0,20,4]
-   + 0.1327201251807728 act_current_ev_dis[0,20,5]
-   + 0.1070615245174474 act_current_ev_dis[0,20,6]
-   + 0.1060015094232153 act_current_ev_dis[0,20,7]
-   + 0.1193764057592621 act_current_ev_dis[0,20,8]
-   + 0.155884572681199 act_current_ev_dis[0,20,9]
-   + 0.1920934412235878 act_current_ev_dis[0,20,10]
-   + 0.2369133735608862 act_current_ev_dis[0,20,11]
-   + 0.2571471910949058 act_current_ev_dis[0,20,12]
-   + 0.2824877872299615 act_current_ev_dis[0,20,13]
-   + 0.1932345162956142 act_current_ev_dis[0,20,14]
-   + 0.2063911742299074 act_current_ev_dis[0,20,15]
-   + 0.1932968701246867 act_current_ev_dis[0,20,16]
-   + 0.157948484423498 act_current_ev_dis[0,20,17]
-   + 0.1196881749046246 act_current_ev_dis[0,20,18]
-   + 0.120480068533845 act_current_ev_dis[0,20,19]
-   + 0.1198440594773058 act_current_ev_dis[0,20,20]
-   + 0.1197131164362536 act_current_ev_dis[0,20,21]
-   + 0.1170568433177659 act_current_ev_dis[0,20,22]
-   + 0.1247076581449592 act_current_ev_dis[0,20,23]
-   + 0.2585563876319438 act_current_ev_dis[0,21,0]
-   + 0.2719001070534545 act_current_ev_dis[0,21,1]
-   + 0.2475259952690222 act_current_ev_dis[0,21,2]
-   + 0.1941573529658869 act_current_ev_dis[0,21,3]
-   + 0.1571316492626486 act_current_ev_dis[0,21,4]
-   + 0.1327201251807728 act_current_ev_dis[0,21,5]
-   + 0.1070615245174474 act_current_ev_dis[0,21,6]
-   + 0.1060015094232153 act_current_ev_dis[0,21,7]
-   + 0.1193764057592621 act_current_ev_dis[0,21,8]
-   + 0.155884572681199 act_current_ev_dis[0,21,9]
-   + 0.1920934412235878 act_current_ev_dis[0,21,10]
-   + 0.2369133735608862 act_current_ev_dis[0,21,11]
-   + 0.2571471910949058 act_current_ev_dis[0,21,12]
-   + 0.2824877872299615 act_current_ev_dis[0,21,13]
-   + 0.1932345162956142 act_current_ev_dis[0,21,14]
-   + 0.2063911742299074 act_current_ev_dis[0,21,15]
-   + 0.1932968701246867 act_current_ev_dis[0,21,16]
-   + 0.157948484423498 act_current_ev_dis[0,21,17]
-   + 0.1196881749046246 act_current_ev_dis[0,21,18]
-   + 0.120480068533845 act_current_ev_dis[0,21,19]
-   + 0.1198440594773058 act_current_ev_dis[0,21,20]
-   + 0.1197131164362536 act_current_ev_dis[0,21,21]
-   + 0.1170568433177659 act_current_ev_dis[0,21,22]
-   + 0.1247076581449592 act_current_ev_dis[0,21,23]
-   + 0.2585563876319438 act_current_ev_dis[0,22,0]
-   + 0.2719001070534545 act_current_ev_dis[0,22,1]
-   + 0.2475259952690222 act_current_ev_dis[0,22,2]
-   + 0.1941573529658869 act_current_ev_dis[0,22,3]
-   + 0.1571316492626486 act_current_ev_dis[0,22,4]
-   + 0.1327201251807728 act_current_ev_dis[0,22,5]
-   + 0.1070615245174474 act_current_ev_dis[0,22,6]
-   + 0.1060015094232153 act_current_ev_dis[0,22,7]
-   + 0.1193764057592621 act_current_ev_dis[0,22,8]
-   + 0.155884572681199 act_current_ev_dis[0,22,9]
-   + 0.1920934412235878 act_current_ev_dis[0,22,10]
-   + 0.2369133735608862 act_current_ev_dis[0,22,11]
-   + 0.2571471910949058 act_current_ev_dis[0,22,12]
-   + 0.2824877872299615 act_current_ev_dis[0,22,13]
-   + 0.1932345162956142 act_current_ev_dis[0,22,14]
-   + 0.2063911742299074 act_current_ev_dis[0,22,15]
-   + 0.1932968701246867 act_current_ev_dis[0,22,16]
-   + 0.157948484423498 act_current_ev_dis[0,22,17]
-   + 0.1196881749046246 act_current_ev_dis[0,22,18]
-   + 0.120480068533845 act_current_ev_dis[0,22,19]
-   + 0.1198440594773058 act_current_ev_dis[0,22,20]
-   + 0.1197131164362536 act_current_ev_dis[0,22,21]
-   + 0.1170568433177659 act_current_ev_dis[0,22,22]
-   + 0.1247076581449592 act_current_ev_dis[0,22,23]
-   + 0.2585563876319438 act_current_ev_dis[0,23,0]
-   + 0.2719001070534545 act_current_ev_dis[0,23,1]
-   + 0.2475259952690222 act_current_ev_dis[0,23,2]
-   + 0.1941573529658869 act_current_ev_dis[0,23,3]
-   + 0.1571316492626486 act_current_ev_dis[0,23,4]
-   + 0.1327201251807728 act_current_ev_dis[0,23,5]
-   + 0.1070615245174474 act_current_ev_dis[0,23,6]
-   + 0.1060015094232153 act_current_ev_dis[0,23,7]
-   + 0.1193764057592621 act_current_ev_dis[0,23,8]
-   + 0.155884572681199 act_current_ev_dis[0,23,9]
-   + 0.1920934412235878 act_current_ev_dis[0,23,10]
-   + 0.2369133735608862 act_current_ev_dis[0,23,11]
-   + 0.2571471910949058 act_current_ev_dis[0,23,12]
-   + 0.2824877872299615 act_current_ev_dis[0,23,13]
-   + 0.1932345162956142 act_current_ev_dis[0,23,14]
-   + 0.2063911742299074 act_current_ev_dis[0,23,15]
-   + 0.1932968701246867 act_current_ev_dis[0,23,16]
-   + 0.157948484423498 act_current_ev_dis[0,23,17]
-   + 0.1196881749046246 act_current_ev_dis[0,23,18]
-   + 0.120480068533845 act_current_ev_dis[0,23,19]
-   + 0.1198440594773058 act_current_ev_dis[0,23,20]
-   + 0.1197131164362536 act_current_ev_dis[0,23,21]
-   + 0.1170568433177659 act_current_ev_dis[0,23,22]
-   + 0.1247076581449592 act_current_ev_dis[0,23,23]
-   + 0.2585563876319438 act_current_ev_dis[0,24,0]
-   + 0.2719001070534545 act_current_ev_dis[0,24,1]
-   + 0.2475259952690222 act_current_ev_dis[0,24,2]
-   + 0.1941573529658869 act_current_ev_dis[0,24,3]
-   + 0.1571316492626486 act_current_ev_dis[0,24,4]
-   + 0.1327201251807728 act_current_ev_dis[0,24,5]
-   + 0.1070615245174474 act_current_ev_dis[0,24,6]
-   + 0.1060015094232153 act_current_ev_dis[0,24,7]
-   + 0.1193764057592621 act_current_ev_dis[0,24,8]
-   + 0.155884572681199 act_current_ev_dis[0,24,9]
-   + 0.1920934412235878 act_current_ev_dis[0,24,10]
-   + 0.2369133735608862 act_current_ev_dis[0,24,11]
-   + 0.2571471910949058 act_current_ev_dis[0,24,12]
-   + 0.2824877872299615 act_current_ev_dis[0,24,13]
-   + 0.1932345162956142 act_current_ev_dis[0,24,14]
-   + 0.2063911742299074 act_current_ev_dis[0,24,15]
-   + 0.1932968701246867 act_current_ev_dis[0,24,16]
-   + 0.157948484423498 act_current_ev_dis[0,24,17]
-   + 0.1196881749046246 act_current_ev_dis[0,24,18]
-   + 0.120480068533845 act_current_ev_dis[0,24,19]
-   + 0.1198440594773058 act_current_ev_dis[0,24,20]
-   + 0.1197131164362536 act_current_ev_dis[0,24,21]
-   + 0.1170568433177659 act_current_ev_dis[0,24,22]
-   + 0.1247076581449592 act_current_ev_dis[0,24,23]
-   - 0.2585563876319438 act_current_ev_ch[0,0,0]
-   - 0.2719001070534545 act_current_ev_ch[0,0,1]
-   - 0.2475259952690222 act_current_ev_ch[0,0,2]
-   - 0.1941573529658869 act_current_ev_ch[0,0,3]
-   - 0.1571316492626486 act_current_ev_ch[0,0,4]
-   - 0.1327201251807728 act_current_ev_ch[0,0,5]
-   - 0.1070615245174474 act_current_ev_ch[0,0,6]
-   - 0.1060015094232153 act_current_ev_ch[0,0,7]
-   - 0.1193764057592621 act_current_ev_ch[0,0,8]
-   - 0.155884572681199 act_current_ev_ch[0,0,9]
-   - 0.1920934412235878 act_current_ev_ch[0,0,10]
-   - 0.2369133735608862 act_current_ev_ch[0,0,11]
-   - 0.2571471910949058 act_current_ev_ch[0,0,12]
-   - 0.2824877872299615 act_current_ev_ch[0,0,13]
-   - 0.1932345162956142 act_current_ev_ch[0,0,14]
-   - 0.2063911742299074 act_current_ev_ch[0,0,15]
-   - 0.1932968701246867 act_current_ev_ch[0,0,16]
-   - 0.157948484423498 act_current_ev_ch[0,0,17]
-   - 0.1196881749046246 act_current_ev_ch[0,0,18]
-   - 0.120480068533845 act_current_ev_ch[0,0,19]
-   - 0.1198440594773058 act_current_ev_ch[0,0,20]
-   - 0.1197131164362536 act_current_ev_ch[0,0,21]
-   - 0.1170568433177659 act_current_ev_ch[0,0,22]
-   - 0.1247076581449592 act_current_ev_ch[0,0,23]
-   - 0.2585563876319438 act_current_ev_ch[0,1,0]
-   - 0.2719001070534545 act_current_ev_ch[0,1,1]
-   - 0.2475259952690222 act_current_ev_ch[0,1,2]
-   - 0.1941573529658869 act_current_ev_ch[0,1,3]
-   - 0.1571316492626486 act_current_ev_ch[0,1,4]
-   - 0.1327201251807728 act_current_ev_ch[0,1,5]
-   - 0.1070615245174474 act_current_ev_ch[0,1,6]
-   - 0.1060015094232153 act_current_ev_ch[0,1,7]
-   - 0.1193764057592621 act_current_ev_ch[0,1,8]
-   - 0.155884572681199 act_current_ev_ch[0,1,9]
-   - 0.1920934412235878 act_current_ev_ch[0,1,10]
-   - 0.2369133735608862 act_current_ev_ch[0,1,11]
-   - 0.2571471910949058 act_current_ev_ch[0,1,12]
-   - 0.2824877872299615 act_current_ev_ch[0,1,13]
-   - 0.1932345162956142 act_current_ev_ch[0,1,14]
-   - 0.2063911742299074 act_current_ev_ch[0,1,15]
-   - 0.1932968701246867 act_current_ev_ch[0,1,16]
-   - 0.157948484423498 act_current_ev_ch[0,1,17]
-   - 0.1196881749046246 act_current_ev_ch[0,1,18]
-   - 0.120480068533845 act_current_ev_ch[0,1,19]
-   - 0.1198440594773058 act_current_ev_ch[0,1,20]
-   - 0.1197131164362536 act_current_ev_ch[0,1,21]
-   - 0.1170568433177659 act_current_ev_ch[0,1,22]
-   - 0.1247076581449592 act_current_ev_ch[0,1,23]
-   - 0.2585563876319438 act_current_ev_ch[0,2,0]
-   - 0.2719001070534545 act_current_ev_ch[0,2,1]
-   - 0.2475259952690222 act_current_ev_ch[0,2,2]
-   - 0.1941573529658869 act_current_ev_ch[0,2,3]
-   - 0.1571316492626486 act_current_ev_ch[0,2,4]
-   - 0.1327201251807728 act_current_ev_ch[0,2,5]
-   - 0.1070615245174474 act_current_ev_ch[0,2,6]
-   - 0.1060015094232153 act_current_ev_ch[0,2,7]
-   - 0.1193764057592621 act_current_ev_ch[0,2,8]
-   - 0.155884572681199 act_current_ev_ch[0,2,9]
-   - 0.1920934412235878 act_current_ev_ch[0,2,10]
-   - 0.2369133735608862 act_current_ev_ch[0,2,11]
-   - 0.2571471910949058 act_current_ev_ch[0,2,12]
-   - 0.2824877872299615 act_current_ev_ch[0,2,13]
-   - 0.1932345162956142 act_current_ev_ch[0,2,14]
-   - 0.2063911742299074 act_current_ev_ch[0,2,15]
-   - 0.1932968701246867 act_current_ev_ch[0,2,16]
-   - 0.157948484423498 act_current_ev_ch[0,2,17]
-   - 0.1196881749046246 act_current_ev_ch[0,2,18]
-   - 0.120480068533845 act_current_ev_ch[0,2,19]
-   - 0.1198440594773058 act_current_ev_ch[0,2,20]
-   - 0.1197131164362536 act_current_ev_ch[0,2,21]
-   - 0.1170568433177659 act_current_ev_ch[0,2,22]
-   - 0.1247076581449592 act_current_ev_ch[0,2,23]
-   - 0.2585563876319438 act_current_ev_ch[0,3,0]
-   - 0.2719001070534545 act_current_ev_ch[0,3,1]
-   - 0.2475259952690222 act_current_ev_ch[0,3,2]
-   - 0.1941573529658869 act_current_ev_ch[0,3,3]
-   - 0.1571316492626486 act_current_ev_ch[0,3,4]
-   - 0.1327201251807728 act_current_ev_ch[0,3,5]
-   - 0.1070615245174474 act_current_ev_ch[0,3,6]
-   - 0.1060015094232153 act_current_ev_ch[0,3,7]
-   - 0.1193764057592621 act_current_ev_ch[0,3,8]
-   - 0.155884572681199 act_current_ev_ch[0,3,9]
-   - 0.1920934412235878 act_current_ev_ch[0,3,10]
-   - 0.2369133735608862 act_current_ev_ch[0,3,11]
-   - 0.2571471910949058 act_current_ev_ch[0,3,12]
-   - 0.2824877872299615 act_current_ev_ch[0,3,13]
-   - 0.1932345162956142 act_current_ev_ch[0,3,14]
-   - 0.2063911742299074 act_current_ev_ch[0,3,15]
-   - 0.1932968701246867 act_current_ev_ch[0,3,16]
-   - 0.157948484423498 act_current_ev_ch[0,3,17]
-   - 0.1196881749046246 act_current_ev_ch[0,3,18]
-   - 0.120480068533845 act_current_ev_ch[0,3,19]
-   - 0.1198440594773058 act_current_ev_ch[0,3,20]
-   - 0.1197131164362536 act_current_ev_ch[0,3,21]
-   - 0.1170568433177659 act_current_ev_ch[0,3,22]
-   - 0.1247076581449592 act_current_ev_ch[0,3,23]
-   - 0.2585563876319438 act_current_ev_ch[0,4,0]
-   - 0.2719001070534545 act_current_ev_ch[0,4,1]
-   - 0.2475259952690222 act_current_ev_ch[0,4,2]
-   - 0.1941573529658869 act_current_ev_ch[0,4,3]
-   - 0.1571316492626486 act_current_ev_ch[0,4,4]
-   - 0.1327201251807728 act_current_ev_ch[0,4,5]
-   - 0.1070615245174474 act_current_ev_ch[0,4,6]
-   - 0.1060015094232153 act_current_ev_ch[0,4,7]
-   - 0.1193764057592621 act_current_ev_ch[0,4,8]
-   - 0.155884572681199 act_current_ev_ch[0,4,9]
-   - 0.1920934412235878 act_current_ev_ch[0,4,10]
-   - 0.2369133735608862 act_current_ev_ch[0,4,11]
-   - 0.2571471910949058 act_current_ev_ch[0,4,12]
-   - 0.2824877872299615 act_current_ev_ch[0,4,13]
-   - 0.1932345162956142 act_current_ev_ch[0,4,14]
-   - 0.2063911742299074 act_current_ev_ch[0,4,15]
-   - 0.1932968701246867 act_current_ev_ch[0,4,16]
-   - 0.157948484423498 act_current_ev_ch[0,4,17]
-   - 0.1196881749046246 act_current_ev_ch[0,4,18]
-   - 0.120480068533845 act_current_ev_ch[0,4,19]
-   - 0.1198440594773058 act_current_ev_ch[0,4,20]
-   - 0.1197131164362536 act_current_ev_ch[0,4,21]
-   - 0.1170568433177659 act_current_ev_ch[0,4,22]
-   - 0.1247076581449592 act_current_ev_ch[0,4,23]
-   - 0.2585563876319438 act_current_ev_ch[0,5,0]
-   - 0.2719001070534545 act_current_ev_ch[0,5,1]
-   - 0.2475259952690222 act_current_ev_ch[0,5,2]
-   - 0.1941573529658869 act_current_ev_ch[0,5,3]
-   - 0.1571316492626486 act_current_ev_ch[0,5,4]
-   - 0.1327201251807728 act_current_ev_ch[0,5,5]
-   - 0.1070615245174474 act_current_ev_ch[0,5,6]
-   - 0.1060015094232153 act_current_ev_ch[0,5,7]
-   - 0.1193764057592621 act_current_ev_ch[0,5,8]
-   - 0.155884572681199 act_current_ev_ch[0,5,9]
-   - 0.1920934412235878 act_current_ev_ch[0,5,10]
-   - 0.2369133735608862 act_current_ev_ch[0,5,11]
-   - 0.2571471910949058 act_current_ev_ch[0,5,12]
-   - 0.2824877872299615 act_current_ev_ch[0,5,13]
-   - 0.1932345162956142 act_current_ev_ch[0,5,14]
-   - 0.2063911742299074 act_current_ev_ch[0,5,15]
-   - 0.1932968701246867 act_current_ev_ch[0,5,16]
-   - 0.157948484423498 act_current_ev_ch[0,5,17]
-   - 0.1196881749046246 act_current_ev_ch[0,5,18]
-   - 0.120480068533845 act_current_ev_ch[0,5,19]
-   - 0.1198440594773058 act_current_ev_ch[0,5,20]
-   - 0.1197131164362536 act_current_ev_ch[0,5,21]
-   - 0.1170568433177659 act_current_ev_ch[0,5,22]
-   - 0.1247076581449592 act_current_ev_ch[0,5,23]
-   - 0.2585563876319438 act_current_ev_ch[0,6,0]
-   - 0.2719001070534545 act_current_ev_ch[0,6,1]
-   - 0.2475259952690222 act_current_ev_ch[0,6,2]
-   - 0.1941573529658869 act_current_ev_ch[0,6,3]
-   - 0.1571316492626486 act_current_ev_ch[0,6,4]
-   - 0.1327201251807728 act_current_ev_ch[0,6,5]
-   - 0.1070615245174474 act_current_ev_ch[0,6,6]
-   - 0.1060015094232153 act_current_ev_ch[0,6,7]
-   - 0.1193764057592621 act_current_ev_ch[0,6,8]
-   - 0.155884572681199 act_current_ev_ch[0,6,9]
-   - 0.1920934412235878 act_current_ev_ch[0,6,10]
-   - 0.2369133735608862 act_current_ev_ch[0,6,11]
-   - 0.2571471910949058 act_current_ev_ch[0,6,12]
-   - 0.2824877872299615 act_current_ev_ch[0,6,13]
-   - 0.1932345162956142 act_current_ev_ch[0,6,14]
-   - 0.2063911742299074 act_current_ev_ch[0,6,15]
-   - 0.1932968701246867 act_current_ev_ch[0,6,16]
-   - 0.157948484423498 act_current_ev_ch[0,6,17]
-   - 0.1196881749046246 act_current_ev_ch[0,6,18]
-   - 0.120480068533845 act_current_ev_ch[0,6,19]
-   - 0.1198440594773058 act_current_ev_ch[0,6,20]
-   - 0.1197131164362536 act_current_ev_ch[0,6,21]
-   - 0.1170568433177659 act_current_ev_ch[0,6,22]
-   - 0.1247076581449592 act_current_ev_ch[0,6,23]
-   - 0.2585563876319438 act_current_ev_ch[0,7,0]
-   - 0.2719001070534545 act_current_ev_ch[0,7,1]
-   - 0.2475259952690222 act_current_ev_ch[0,7,2]
-   - 0.1941573529658869 act_current_ev_ch[0,7,3]
-   - 0.1571316492626486 act_current_ev_ch[0,7,4]
-   - 0.1327201251807728 act_current_ev_ch[0,7,5]
-   - 0.1070615245174474 act_current_ev_ch[0,7,6]
-   - 0.1060015094232153 act_current_ev_ch[0,7,7]
-   - 0.1193764057592621 act_current_ev_ch[0,7,8]
-   - 0.155884572681199 act_current_ev_ch[0,7,9]
-   - 0.1920934412235878 act_current_ev_ch[0,7,10]
-   - 0.2369133735608862 act_current_ev_ch[0,7,11]
-   - 0.2571471910949058 act_current_ev_ch[0,7,12]
-   - 0.2824877872299615 act_current_ev_ch[0,7,13]
-   - 0.1932345162956142 act_current_ev_ch[0,7,14]
-   - 0.2063911742299074 act_current_ev_ch[0,7,15]
-   - 0.1932968701246867 act_current_ev_ch[0,7,16]
-   - 0.157948484423498 act_current_ev_ch[0,7,17]
-   - 0.1196881749046246 act_current_ev_ch[0,7,18]
-   - 0.120480068533845 act_current_ev_ch[0,7,19]
-   - 0.1198440594773058 act_current_ev_ch[0,7,20]
-   - 0.1197131164362536 act_current_ev_ch[0,7,21]
-   - 0.1170568433177659 act_current_ev_ch[0,7,22]
-   - 0.1247076581449592 act_current_ev_ch[0,7,23]
-   - 0.2585563876319438 act_current_ev_ch[0,8,0]
-   - 0.2719001070534545 act_current_ev_ch[0,8,1]
-   - 0.2475259952690222 act_current_ev_ch[0,8,2]
-   - 0.1941573529658869 act_current_ev_ch[0,8,3]
-   - 0.1571316492626486 act_current_ev_ch[0,8,4]
-   - 0.1327201251807728 act_current_ev_ch[0,8,5]
-   - 0.1070615245174474 act_current_ev_ch[0,8,6]
-   - 0.1060015094232153 act_current_ev_ch[0,8,7]
-   - 0.1193764057592621 act_current_ev_ch[0,8,8]
-   - 0.155884572681199 act_current_ev_ch[0,8,9]
-   - 0.1920934412235878 act_current_ev_ch[0,8,10]
-   - 0.2369133735608862 act_current_ev_ch[0,8,11]
-   - 0.2571471910949058 act_current_ev_ch[0,8,12]
-   - 0.2824877872299615 act_current_ev_ch[0,8,13]
-   - 0.1932345162956142 act_current_ev_ch[0,8,14]
-   - 0.2063911742299074 act_current_ev_ch[0,8,15]
-   - 0.1932968701246867 act_current_ev_ch[0,8,16]
-   - 0.157948484423498 act_current_ev_ch[0,8,17]
-   - 0.1196881749046246 act_current_ev_ch[0,8,18]
-   - 0.120480068533845 act_current_ev_ch[0,8,19]
-   - 0.1198440594773058 act_current_ev_ch[0,8,20]
-   - 0.1197131164362536 act_current_ev_ch[0,8,21]
-   - 0.1170568433177659 act_current_ev_ch[0,8,22]
-   - 0.1247076581449592 act_current_ev_ch[0,8,23]
-   - 0.2585563876319438 act_current_ev_ch[0,9,0]
-   - 0.2719001070534545 act_current_ev_ch[0,9,1]
-   - 0.2475259952690222 act_current_ev_ch[0,9,2]
-   - 0.1941573529658869 act_current_ev_ch[0,9,3]
-   - 0.1571316492626486 act_current_ev_ch[0,9,4]
-   - 0.1327201251807728 act_current_ev_ch[0,9,5]
-   - 0.1070615245174474 act_current_ev_ch[0,9,6]
-   - 0.1060015094232153 act_current_ev_ch[0,9,7]
-   - 0.1193764057592621 act_current_ev_ch[0,9,8]
-   - 0.155884572681199 act_current_ev_ch[0,9,9]
-   - 0.1920934412235878 act_current_ev_ch[0,9,10]
-   - 0.2369133735608862 act_current_ev_ch[0,9,11]
-   - 0.2571471910949058 act_current_ev_ch[0,9,12]
-   - 0.2824877872299615 act_current_ev_ch[0,9,13]
-   - 0.1932345162956142 act_current_ev_ch[0,9,14]
-   - 0.2063911742299074 act_current_ev_ch[0,9,15]
-   - 0.1932968701246867 act_current_ev_ch[0,9,16]
-   - 0.157948484423498 act_current_ev_ch[0,9,17]
-   - 0.1196881749046246 act_current_ev_ch[0,9,18]
-   - 0.120480068533845 act_current_ev_ch[0,9,19]
-   - 0.1198440594773058 act_current_ev_ch[0,9,20]
-   - 0.1197131164362536 act_current_ev_ch[0,9,21]
-   - 0.1170568433177659 act_current_ev_ch[0,9,22]
-   - 0.1247076581449592 act_current_ev_ch[0,9,23]
-   - 0.2585563876319438 act_current_ev_ch[0,10,0]
-   - 0.2719001070534545 act_current_ev_ch[0,10,1]
-   - 0.2475259952690222 act_current_ev_ch[0,10,2]
-   - 0.1941573529658869 act_current_ev_ch[0,10,3]
-   - 0.1571316492626486 act_current_ev_ch[0,10,4]
-   - 0.1327201251807728 act_current_ev_ch[0,10,5]
-   - 0.1070615245174474 act_current_ev_ch[0,10,6]
-   - 0.1060015094232153 act_current_ev_ch[0,10,7]
-   - 0.1193764057592621 act_current_ev_ch[0,10,8]
-   - 0.155884572681199 act_current_ev_ch[0,10,9]
-   - 0.1920934412235878 act_current_ev_ch[0,10,10]
-   - 0.2369133735608862 act_current_ev_ch[0,10,11]
-   - 0.2571471910949058 act_current_ev_ch[0,10,12]
-   - 0.2824877872299615 act_current_ev_ch[0,10,13]
-   - 0.1932345162956142 act_current_ev_ch[0,10,14]
-   - 0.2063911742299074 act_current_ev_ch[0,10,15]
-   - 0.1932968701246867 act_current_ev_ch[0,10,16]
-   - 0.157948484423498 act_current_ev_ch[0,10,17]
-   - 0.1196881749046246 act_current_ev_ch[0,10,18]
-   - 0.120480068533845 act_current_ev_ch[0,10,19]
-   - 0.1198440594773058 act_current_ev_ch[0,10,20]
-   - 0.1197131164362536 act_current_ev_ch[0,10,21]
-   - 0.1170568433177659 act_current_ev_ch[0,10,22]
-   - 0.1247076581449592 act_current_ev_ch[0,10,23]
-   - 0.2585563876319438 act_current_ev_ch[0,11,0]
-   - 0.2719001070534545 act_current_ev_ch[0,11,1]
-   - 0.2475259952690222 act_current_ev_ch[0,11,2]
-   - 0.1941573529658869 act_current_ev_ch[0,11,3]
-   - 0.1571316492626486 act_current_ev_ch[0,11,4]
-   - 0.1327201251807728 act_current_ev_ch[0,11,5]
-   - 0.1070615245174474 act_current_ev_ch[0,11,6]
-   - 0.1060015094232153 act_current_ev_ch[0,11,7]
-   - 0.1193764057592621 act_current_ev_ch[0,11,8]
-   - 0.155884572681199 act_current_ev_ch[0,11,9]
-   - 0.1920934412235878 act_current_ev_ch[0,11,10]
-   - 0.2369133735608862 act_current_ev_ch[0,11,11]
-   - 0.2571471910949058 act_current_ev_ch[0,11,12]
-   - 0.2824877872299615 act_current_ev_ch[0,11,13]
-   - 0.1932345162956142 act_current_ev_ch[0,11,14]
-   - 0.2063911742299074 act_current_ev_ch[0,11,15]
-   - 0.1932968701246867 act_current_ev_ch[0,11,16]
-   - 0.157948484423498 act_current_ev_ch[0,11,17]
-   - 0.1196881749046246 act_current_ev_ch[0,11,18]
-   - 0.120480068533845 act_current_ev_ch[0,11,19]
-   - 0.1198440594773058 act_current_ev_ch[0,11,20]
-   - 0.1197131164362536 act_current_ev_ch[0,11,21]
-   - 0.1170568433177659 act_current_ev_ch[0,11,22]
-   - 0.1247076581449592 act_current_ev_ch[0,11,23]
-   - 0.2585563876319438 act_current_ev_ch[0,12,0]
-   - 0.2719001070534545 act_current_ev_ch[0,12,1]
-   - 0.2475259952690222 act_current_ev_ch[0,12,2]
-   - 0.1941573529658869 act_current_ev_ch[0,12,3]
-   - 0.1571316492626486 act_current_ev_ch[0,12,4]
-   - 0.1327201251807728 act_current_ev_ch[0,12,5]
-   - 0.1070615245174474 act_current_ev_ch[0,12,6]
-   - 0.1060015094232153 act_current_ev_ch[0,12,7]
-   - 0.1193764057592621 act_current_ev_ch[0,12,8]
-   - 0.155884572681199 act_current_ev_ch[0,12,9]
-   - 0.1920934412235878 act_current_ev_ch[0,12,10]
-   - 0.2369133735608862 act_current_ev_ch[0,12,11]
-   - 0.2571471910949058 act_current_ev_ch[0,12,12]
-   - 0.2824877872299615 act_current_ev_ch[0,12,13]
-   - 0.1932345162956142 act_current_ev_ch[0,12,14]
-   - 0.2063911742299074 act_current_ev_ch[0,12,15]
-   - 0.1932968701246867 act_current_ev_ch[0,12,16]
-   - 0.157948484423498 act_current_ev_ch[0,12,17]
-   - 0.1196881749046246 act_current_ev_ch[0,12,18]
-   - 0.120480068533845 act_current_ev_ch[0,12,19]
-   - 0.1198440594773058 act_current_ev_ch[0,12,20]
-   - 0.1197131164362536 act_current_ev_ch[0,12,21]
-   - 0.1170568433177659 act_current_ev_ch[0,12,22]
-   - 0.1247076581449592 act_current_ev_ch[0,12,23]
-   - 0.2585563876319438 act_current_ev_ch[0,13,0]
-   - 0.2719001070534545 act_current_ev_ch[0,13,1]
-   - 0.2475259952690222 act_current_ev_ch[0,13,2]
-   - 0.1941573529658869 act_current_ev_ch[0,13,3]
-   - 0.1571316492626486 act_current_ev_ch[0,13,4]
-   - 0.1327201251807728 act_current_ev_ch[0,13,5]
-   - 0.1070615245174474 act_current_ev_ch[0,13,6]
-   - 0.1060015094232153 act_current_ev_ch[0,13,7]
-   - 0.1193764057592621 act_current_ev_ch[0,13,8]
-   - 0.155884572681199 act_current_ev_ch[0,13,9]
-   - 0.1920934412235878 act_current_ev_ch[0,13,10]
-   - 0.2369133735608862 act_current_ev_ch[0,13,11]
-   - 0.2571471910949058 act_current_ev_ch[0,13,12]
-   - 0.2824877872299615 act_current_ev_ch[0,13,13]
-   - 0.1932345162956142 act_current_ev_ch[0,13,14]
-   - 0.2063911742299074 act_current_ev_ch[0,13,15]
-   - 0.1932968701246867 act_current_ev_ch[0,13,16]
-   - 0.157948484423498 act_current_ev_ch[0,13,17]
-   - 0.1196881749046246 act_current_ev_ch[0,13,18]
-   - 0.120480068533845 act_current_ev_ch[0,13,19]
-   - 0.1198440594773058 act_current_ev_ch[0,13,20]
-   - 0.1197131164362536 act_current_ev_ch[0,13,21]
-   - 0.1170568433177659 act_current_ev_ch[0,13,22]
-   - 0.1247076581449592 act_current_ev_ch[0,13,23]
-   - 0.2585563876319438 act_current_ev_ch[0,14,0]
-   - 0.2719001070534545 act_current_ev_ch[0,14,1]
-   - 0.2475259952690222 act_current_ev_ch[0,14,2]
-   - 0.1941573529658869 act_current_ev_ch[0,14,3]
-   - 0.1571316492626486 act_current_ev_ch[0,14,4]
-   - 0.1327201251807728 act_current_ev_ch[0,14,5]
-   - 0.1070615245174474 act_current_ev_ch[0,14,6]
-   - 0.1060015094232153 act_current_ev_ch[0,14,7]
-   - 0.1193764057592621 act_current_ev_ch[0,14,8]
-   - 0.155884572681199 act_current_ev_ch[0,14,9]
-   - 0.1920934412235878 act_current_ev_ch[0,14,10]
-   - 0.2369133735608862 act_current_ev_ch[0,14,11]
-   - 0.2571471910949058 act_current_ev_ch[0,14,12]
-   - 0.2824877872299615 act_current_ev_ch[0,14,13]
-   - 0.1932345162956142 act_current_ev_ch[0,14,14]
-   - 0.2063911742299074 act_current_ev_ch[0,14,15]
-   - 0.1932968701246867 act_current_ev_ch[0,14,16]
-   - 0.157948484423498 act_current_ev_ch[0,14,17]
-   - 0.1196881749046246 act_current_ev_ch[0,14,18]
-   - 0.120480068533845 act_current_ev_ch[0,14,19]
-   - 0.1198440594773058 act_current_ev_ch[0,14,20]
-   - 0.1197131164362536 act_current_ev_ch[0,14,21]
-   - 0.1170568433177659 act_current_ev_ch[0,14,22]
-   - 0.1247076581449592 act_current_ev_ch[0,14,23]
-   - 0.2585563876319438 act_current_ev_ch[0,15,0]
-   - 0.2719001070534545 act_current_ev_ch[0,15,1]
-   - 0.2475259952690222 act_current_ev_ch[0,15,2]
-   - 0.1941573529658869 act_current_ev_ch[0,15,3]
-   - 0.1571316492626486 act_current_ev_ch[0,15,4]
-   - 0.1327201251807728 act_current_ev_ch[0,15,5]
-   - 0.1070615245174474 act_current_ev_ch[0,15,6]
-   - 0.1060015094232153 act_current_ev_ch[0,15,7]
-   - 0.1193764057592621 act_current_ev_ch[0,15,8]
-   - 0.155884572681199 act_current_ev_ch[0,15,9]
-   - 0.1920934412235878 act_current_ev_ch[0,15,10]
-   - 0.2369133735608862 act_current_ev_ch[0,15,11]
-   - 0.2571471910949058 act_current_ev_ch[0,15,12]
-   - 0.2824877872299615 act_current_ev_ch[0,15,13]
-   - 0.1932345162956142 act_current_ev_ch[0,15,14]
-   - 0.2063911742299074 act_current_ev_ch[0,15,15]
-   - 0.1932968701246867 act_current_ev_ch[0,15,16]
-   - 0.157948484423498 act_current_ev_ch[0,15,17]
-   - 0.1196881749046246 act_current_ev_ch[0,15,18]
-   - 0.120480068533845 act_current_ev_ch[0,15,19]
-   - 0.1198440594773058 act_current_ev_ch[0,15,20]
-   - 0.1197131164362536 act_current_ev_ch[0,15,21]
-   - 0.1170568433177659 act_current_ev_ch[0,15,22]
-   - 0.1247076581449592 act_current_ev_ch[0,15,23]
-   - 0.2585563876319438 act_current_ev_ch[0,16,0]
-   - 0.2719001070534545 act_current_ev_ch[0,16,1]
-   - 0.2475259952690222 act_current_ev_ch[0,16,2]
-   - 0.1941573529658869 act_current_ev_ch[0,16,3]
-   - 0.1571316492626486 act_current_ev_ch[0,16,4]
-   - 0.1327201251807728 act_current_ev_ch[0,16,5]
-   - 0.1070615245174474 act_current_ev_ch[0,16,6]
-   - 0.1060015094232153 act_current_ev_ch[0,16,7]
-   - 0.1193764057592621 act_current_ev_ch[0,16,8]
-   - 0.155884572681199 act_current_ev_ch[0,16,9]
-   - 0.1920934412235878 act_current_ev_ch[0,16,10]
-   - 0.2369133735608862 act_current_ev_ch[0,16,11]
-   - 0.2571471910949058 act_current_ev_ch[0,16,12]
-   - 0.2824877872299615 act_current_ev_ch[0,16,13]
-   - 0.1932345162956142 act_current_ev_ch[0,16,14]
-   - 0.2063911742299074 act_current_ev_ch[0,16,15]
-   - 0.1932968701246867 act_current_ev_ch[0,16,16]
-   - 0.157948484423498 act_current_ev_ch[0,16,17]
-   - 0.1196881749046246 act_current_ev_ch[0,16,18]
-   - 0.120480068533845 act_current_ev_ch[0,16,19]
-   - 0.1198440594773058 act_current_ev_ch[0,16,20]
-   - 0.1197131164362536 act_current_ev_ch[0,16,21]
-   - 0.1170568433177659 act_current_ev_ch[0,16,22]
-   - 0.1247076581449592 act_current_ev_ch[0,16,23]
-   - 0.2585563876319438 act_current_ev_ch[0,17,0]
-   - 0.2719001070534545 act_current_ev_ch[0,17,1]
-   - 0.2475259952690222 act_current_ev_ch[0,17,2]
-   - 0.1941573529658869 act_current_ev_ch[0,17,3]
-   - 0.1571316492626486 act_current_ev_ch[0,17,4]
-   - 0.1327201251807728 act_current_ev_ch[0,17,5]
-   - 0.1070615245174474 act_current_ev_ch[0,17,6]
-   - 0.1060015094232153 act_current_ev_ch[0,17,7]
-   - 0.1193764057592621 act_current_ev_ch[0,17,8]
-   - 0.155884572681199 act_current_ev_ch[0,17,9]
-   - 0.1920934412235878 act_current_ev_ch[0,17,10]
-   - 0.2369133735608862 act_current_ev_ch[0,17,11]
-   - 0.2571471910949058 act_current_ev_ch[0,17,12]
-   - 0.2824877872299615 act_current_ev_ch[0,17,13]
-   - 0.1932345162956142 act_current_ev_ch[0,17,14]
-   - 0.2063911742299074 act_current_ev_ch[0,17,15]
-   - 0.1932968701246867 act_current_ev_ch[0,17,16]
-   - 0.157948484423498 act_current_ev_ch[0,17,17]
-   - 0.1196881749046246 act_current_ev_ch[0,17,18]
-   - 0.120480068533845 act_current_ev_ch[0,17,19]
-   - 0.1198440594773058 act_current_ev_ch[0,17,20]
-   - 0.1197131164362536 act_current_ev_ch[0,17,21]
-   - 0.1170568433177659 act_current_ev_ch[0,17,22]
-   - 0.1247076581449592 act_current_ev_ch[0,17,23]
-   - 0.2585563876319438 act_current_ev_ch[0,18,0]
-   - 0.2719001070534545 act_current_ev_ch[0,18,1]
-   - 0.2475259952690222 act_current_ev_ch[0,18,2]
-   - 0.1941573529658869 act_current_ev_ch[0,18,3]
-   - 0.1571316492626486 act_current_ev_ch[0,18,4]
-   - 0.1327201251807728 act_current_ev_ch[0,18,5]
-   - 0.1070615245174474 act_current_ev_ch[0,18,6]
-   - 0.1060015094232153 act_current_ev_ch[0,18,7]
-   - 0.1193764057592621 act_current_ev_ch[0,18,8]
-   - 0.155884572681199 act_current_ev_ch[0,18,9]
-   - 0.1920934412235878 act_current_ev_ch[0,18,10]
-   - 0.2369133735608862 act_current_ev_ch[0,18,11]
-   - 0.2571471910949058 act_current_ev_ch[0,18,12]
-   - 0.2824877872299615 act_current_ev_ch[0,18,13]
-   - 0.1932345162956142 act_current_ev_ch[0,18,14]
-   - 0.2063911742299074 act_current_ev_ch[0,18,15]
-   - 0.1932968701246867 act_current_ev_ch[0,18,16]
-   - 0.157948484423498 act_current_ev_ch[0,18,17]
-   - 0.1196881749046246 act_current_ev_ch[0,18,18]
-   - 0.120480068533845 act_current_ev_ch[0,18,19]
-   - 0.1198440594773058 act_current_ev_ch[0,18,20]
-   - 0.1197131164362536 act_current_ev_ch[0,18,21]
-   - 0.1170568433177659 act_current_ev_ch[0,18,22]
-   - 0.1247076581449592 act_current_ev_ch[0,18,23]
-   - 0.2585563876319438 act_current_ev_ch[0,19,0]
-   - 0.2719001070534545 act_current_ev_ch[0,19,1]
-   - 0.2475259952690222 act_current_ev_ch[0,19,2]
-   - 0.1941573529658869 act_current_ev_ch[0,19,3]
-   - 0.1571316492626486 act_current_ev_ch[0,19,4]
-   - 0.1327201251807728 act_current_ev_ch[0,19,5]
-   - 0.1070615245174474 act_current_ev_ch[0,19,6]
-   - 0.1060015094232153 act_current_ev_ch[0,19,7]
-   - 0.1193764057592621 act_current_ev_ch[0,19,8]
-   - 0.155884572681199 act_current_ev_ch[0,19,9]
-   - 0.1920934412235878 act_current_ev_ch[0,19,10]
-   - 0.2369133735608862 act_current_ev_ch[0,19,11]
-   - 0.2571471910949058 act_current_ev_ch[0,19,12]
-   - 0.2824877872299615 act_current_ev_ch[0,19,13]
-   - 0.1932345162956142 act_current_ev_ch[0,19,14]
-   - 0.2063911742299074 act_current_ev_ch[0,19,15]
-   - 0.1932968701246867 act_current_ev_ch[0,19,16]
-   - 0.157948484423498 act_current_ev_ch[0,19,17]
-   - 0.1196881749046246 act_current_ev_ch[0,19,18]
-   - 0.120480068533845 act_current_ev_ch[0,19,19]
-   - 0.1198440594773058 act_current_ev_ch[0,19,20]
-   - 0.1197131164362536 act_current_ev_ch[0,19,21]
-   - 0.1170568433177659 act_current_ev_ch[0,19,22]
-   - 0.1247076581449592 act_current_ev_ch[0,19,23]
-   - 0.2585563876319438 act_current_ev_ch[0,20,0]
-   - 0.2719001070534545 act_current_ev_ch[0,20,1]
-   - 0.2475259952690222 act_current_ev_ch[0,20,2]
-   - 0.1941573529658869 act_current_ev_ch[0,20,3]
-   - 0.1571316492626486 act_current_ev_ch[0,20,4]
-   - 0.1327201251807728 act_current_ev_ch[0,20,5]
-   - 0.1070615245174474 act_current_ev_ch[0,20,6]
-   - 0.1060015094232153 act_current_ev_ch[0,20,7]
-   - 0.1193764057592621 act_current_ev_ch[0,20,8]
-   - 0.155884572681199 act_current_ev_ch[0,20,9]
-   - 0.1920934412235878 act_current_ev_ch[0,20,10]
-   - 0.2369133735608862 act_current_ev_ch[0,20,11]
-   - 0.2571471910949058 act_current_ev_ch[0,20,12]
-   - 0.2824877872299615 act_current_ev_ch[0,20,13]
-   - 0.1932345162956142 act_current_ev_ch[0,20,14]
-   - 0.2063911742299074 act_current_ev_ch[0,20,15]
-   - 0.1932968701246867 act_current_ev_ch[0,20,16]
-   - 0.157948484423498 act_current_ev_ch[0,20,17]
-   - 0.1196881749046246 act_current_ev_ch[0,20,18]
-   - 0.120480068533845 act_current_ev_ch[0,20,19]
-   - 0.1198440594773058 act_current_ev_ch[0,20,20]
-   - 0.1197131164362536 act_current_ev_ch[0,20,21]
-   - 0.1170568433177659 act_current_ev_ch[0,20,22]
-   - 0.1247076581449592 act_current_ev_ch[0,20,23]
-   - 0.2585563876319438 act_current_ev_ch[0,21,0]
-   - 0.2719001070534545 act_current_ev_ch[0,21,1]
-   - 0.2475259952690222 act_current_ev_ch[0,21,2]
-   - 0.1941573529658869 act_current_ev_ch[0,21,3]
-   - 0.1571316492626486 act_current_ev_ch[0,21,4]
-   - 0.1327201251807728 act_current_ev_ch[0,21,5]
-   - 0.1070615245174474 act_current_ev_ch[0,21,6]
-   - 0.1060015094232153 act_current_ev_ch[0,21,7]
-   - 0.1193764057592621 act_current_ev_ch[0,21,8]
-   - 0.155884572681199 act_current_ev_ch[0,21,9]
-   - 0.1920934412235878 act_current_ev_ch[0,21,10]
-   - 0.2369133735608862 act_current_ev_ch[0,21,11]
-   - 0.2571471910949058 act_current_ev_ch[0,21,12]
-   - 0.2824877872299615 act_current_ev_ch[0,21,13]
-   - 0.1932345162956142 act_current_ev_ch[0,21,14]
-   - 0.2063911742299074 act_current_ev_ch[0,21,15]
-   - 0.1932968701246867 act_current_ev_ch[0,21,16]
-   - 0.157948484423498 act_current_ev_ch[0,21,17]
-   - 0.1196881749046246 act_current_ev_ch[0,21,18]
-   - 0.120480068533845 act_current_ev_ch[0,21,19]
-   - 0.1198440594773058 act_current_ev_ch[0,21,20]
-   - 0.1197131164362536 act_current_ev_ch[0,21,21]
-   - 0.1170568433177659 act_current_ev_ch[0,21,22]
-   - 0.1247076581449592 act_current_ev_ch[0,21,23]
-   - 0.2585563876319438 act_current_ev_ch[0,22,0]
-   - 0.2719001070534545 act_current_ev_ch[0,22,1]
-   - 0.2475259952690222 act_current_ev_ch[0,22,2]
-   - 0.1941573529658869 act_current_ev_ch[0,22,3]
-   - 0.1571316492626486 act_current_ev_ch[0,22,4]
-   - 0.1327201251807728 act_current_ev_ch[0,22,5]
-   - 0.1070615245174474 act_current_ev_ch[0,22,6]
-   - 0.1060015094232153 act_current_ev_ch[0,22,7]
-   - 0.1193764057592621 act_current_ev_ch[0,22,8]
-   - 0.155884572681199 act_current_ev_ch[0,22,9]
-   - 0.1920934412235878 act_current_ev_ch[0,22,10]
-   - 0.2369133735608862 act_current_ev_ch[0,22,11]
-   - 0.2571471910949058 act_current_ev_ch[0,22,12]
-   - 0.2824877872299615 act_current_ev_ch[0,22,13]
-   - 0.1932345162956142 act_current_ev_ch[0,22,14]
-   - 0.2063911742299074 act_current_ev_ch[0,22,15]
-   - 0.1932968701246867 act_current_ev_ch[0,22,16]
-   - 0.157948484423498 act_current_ev_ch[0,22,17]
-   - 0.1196881749046246 act_current_ev_ch[0,22,18]
-   - 0.120480068533845 act_current_ev_ch[0,22,19]
-   - 0.1198440594773058 act_current_ev_ch[0,22,20]
-   - 0.1197131164362536 act_current_ev_ch[0,22,21]
-   - 0.1170568433177659 act_current_ev_ch[0,22,22]
-   - 0.1247076581449592 act_current_ev_ch[0,22,23]
-   - 0.2585563876319438 act_current_ev_ch[0,23,0]
-   - 0.2719001070534545 act_current_ev_ch[0,23,1]
-   - 0.2475259952690222 act_current_ev_ch[0,23,2]
-   - 0.1941573529658869 act_current_ev_ch[0,23,3]
-   - 0.1571316492626486 act_current_ev_ch[0,23,4]
-   - 0.1327201251807728 act_current_ev_ch[0,23,5]
-   - 0.1070615245174474 act_current_ev_ch[0,23,6]
-   - 0.1060015094232153 act_current_ev_ch[0,23,7]
-   - 0.1193764057592621 act_current_ev_ch[0,23,8]
-   - 0.155884572681199 act_current_ev_ch[0,23,9]
-   - 0.1920934412235878 act_current_ev_ch[0,23,10]
-   - 0.2369133735608862 act_current_ev_ch[0,23,11]
-   - 0.2571471910949058 act_current_ev_ch[0,23,12]
-   - 0.2824877872299615 act_current_ev_ch[0,23,13]
-   - 0.1932345162956142 act_current_ev_ch[0,23,14]
-   - 0.2063911742299074 act_current_ev_ch[0,23,15]
-   - 0.1932968701246867 act_current_ev_ch[0,23,16]
-   - 0.157948484423498 act_current_ev_ch[0,23,17]
-   - 0.1196881749046246 act_current_ev_ch[0,23,18]
-   - 0.120480068533845 act_current_ev_ch[0,23,19]
-   - 0.1198440594773058 act_current_ev_ch[0,23,20]
-   - 0.1197131164362536 act_current_ev_ch[0,23,21]
-   - 0.1170568433177659 act_current_ev_ch[0,23,22]
-   - 0.1247076581449592 act_current_ev_ch[0,23,23]
-   - 0.2585563876319438 act_current_ev_ch[0,24,0]
-   - 0.2719001070534545 act_current_ev_ch[0,24,1]
-   - 0.2475259952690222 act_current_ev_ch[0,24,2]
-   - 0.1941573529658869 act_current_ev_ch[0,24,3]
-   - 0.1571316492626486 act_current_ev_ch[0,24,4]
-   - 0.1327201251807728 act_current_ev_ch[0,24,5]
-   - 0.1070615245174474 act_current_ev_ch[0,24,6]
-   - 0.1060015094232153 act_current_ev_ch[0,24,7]
-   - 0.1193764057592621 act_current_ev_ch[0,24,8]
-   - 0.155884572681199 act_current_ev_ch[0,24,9]
-   - 0.1920934412235878 act_current_ev_ch[0,24,10]
-   - 0.2369133735608862 act_current_ev_ch[0,24,11]
-   - 0.2571471910949058 act_current_ev_ch[0,24,12]
-   - 0.2824877872299615 act_current_ev_ch[0,24,13]
-   - 0.1932345162956142 act_current_ev_ch[0,24,14]
-   - 0.2063911742299074 act_current_ev_ch[0,24,15]
-   - 0.1932968701246867 act_current_ev_ch[0,24,16]
-   - 0.157948484423498 act_current_ev_ch[0,24,17]
-   - 0.1196881749046246 act_current_ev_ch[0,24,18]
-   - 0.120480068533845 act_current_ev_ch[0,24,19]
-   - 0.1198440594773058 act_current_ev_ch[0,24,20]
-   - 0.1197131164362536 act_current_ev_ch[0,24,21]
-   - 0.1170568433177659 act_current_ev_ch[0,24,22]
-   - 0.1247076581449592 act_current_ev_ch[0,24,23]
+  0.1391737464897744 act_current_ev_dis[0,0,0]
+   + 0.1559469265102714 act_current_ev_dis[0,0,1]
+   + 0.1997130791362449 act_current_ev_dis[0,0,2]
+   + 0.1484644670215739 act_current_ev_dis[0,0,3]
+   + 0.1575743614490631 act_current_ev_dis[0,0,4]
+   + 0.1291098384774762 act_current_ev_dis[0,0,5]
+   + 0.1112329956823963 act_current_ev_dis[0,0,6]
+   + 0.1246453043158867 act_current_ev_dis[0,0,7]
+   + 0.1371784239594551 act_current_ev_dis[0,0,8]
+   + 0.1502727280646758 act_current_ev_dis[0,0,9]
+   + 0.1392984541479194 act_current_ev_dis[0,0,10]
+   + 0.1558721019153844 act_current_ev_dis[0,0,11]
+   + 0.1791550216910484 act_current_ev_dis[0,0,12]
+   + 0.2164987299225563 act_current_ev_dis[0,0,13]
+   + 0.1845174509912816 act_current_ev_dis[0,0,14]
+   + 0.1616772434020323 act_current_ev_dis[0,0,15]
+   + 0.1525548782087285 act_current_ev_dis[0,0,16]
+   + 0.1479032825599216 act_current_ev_dis[0,0,17]
+   + 0.1265969791658553 act_current_ev_dis[0,0,18]
+   + 0.129053720031311 act_current_ev_dis[0,0,19]
+   + 0.1437567529266017 act_current_ev_dis[0,0,20]
+   + 0.1287606570346703 act_current_ev_dis[0,0,21]
+   + 0.1308806872231346 act_current_ev_dis[0,0,22]
+   + 0.1353452213847242 act_current_ev_dis[0,0,23]
+   + 0.1391737464897744 act_current_ev_dis[0,1,0]
+   + 0.1559469265102714 act_current_ev_dis[0,1,1]
+   + 0.1997130791362449 act_current_ev_dis[0,1,2]
+   + 0.1484644670215739 act_current_ev_dis[0,1,3]
+   + 0.1575743614490631 act_current_ev_dis[0,1,4]
+   + 0.1291098384774762 act_current_ev_dis[0,1,5]
+   + 0.1112329956823963 act_current_ev_dis[0,1,6]
+   + 0.1246453043158867 act_current_ev_dis[0,1,7]
+   + 0.1371784239594551 act_current_ev_dis[0,1,8]
+   + 0.1502727280646758 act_current_ev_dis[0,1,9]
+   + 0.1392984541479194 act_current_ev_dis[0,1,10]
+   + 0.1558721019153844 act_current_ev_dis[0,1,11]
+   + 0.1791550216910484 act_current_ev_dis[0,1,12]
+   + 0.2164987299225563 act_current_ev_dis[0,1,13]
+   + 0.1845174509912816 act_current_ev_dis[0,1,14]
+   + 0.1616772434020323 act_current_ev_dis[0,1,15]
+   + 0.1525548782087285 act_current_ev_dis[0,1,16]
+   + 0.1479032825599216 act_current_ev_dis[0,1,17]
+   + 0.1265969791658553 act_current_ev_dis[0,1,18]
+   + 0.129053720031311 act_current_ev_dis[0,1,19]
+   + 0.1437567529266017 act_current_ev_dis[0,1,20]
+   + 0.1287606570346703 act_current_ev_dis[0,1,21]
+   + 0.1308806872231346 act_current_ev_dis[0,1,22]
+   + 0.1353452213847242 act_current_ev_dis[0,1,23]
+   + 0.1391737464897744 act_current_ev_dis[0,2,0]
+   + 0.1559469265102714 act_current_ev_dis[0,2,1]
+   + 0.1997130791362449 act_current_ev_dis[0,2,2]
+   + 0.1484644670215739 act_current_ev_dis[0,2,3]
+   + 0.1575743614490631 act_current_ev_dis[0,2,4]
+   + 0.1291098384774762 act_current_ev_dis[0,2,5]
+   + 0.1112329956823963 act_current_ev_dis[0,2,6]
+   + 0.1246453043158867 act_current_ev_dis[0,2,7]
+   + 0.1371784239594551 act_current_ev_dis[0,2,8]
+   + 0.1502727280646758 act_current_ev_dis[0,2,9]
+   + 0.1392984541479194 act_current_ev_dis[0,2,10]
+   + 0.1558721019153844 act_current_ev_dis[0,2,11]
+   + 0.1791550216910484 act_current_ev_dis[0,2,12]
+   + 0.2164987299225563 act_current_ev_dis[0,2,13]
+   + 0.1845174509912816 act_current_ev_dis[0,2,14]
+   + 0.1616772434020323 act_current_ev_dis[0,2,15]
+   + 0.1525548782087285 act_current_ev_dis[0,2,16]
+   + 0.1479032825599216 act_current_ev_dis[0,2,17]
+   + 0.1265969791658553 act_current_ev_dis[0,2,18]
+   + 0.129053720031311 act_current_ev_dis[0,2,19]
+   + 0.1437567529266017 act_current_ev_dis[0,2,20]
+   + 0.1287606570346703 act_current_ev_dis[0,2,21]
+   + 0.1308806872231346 act_current_ev_dis[0,2,22]
+   + 0.1353452213847242 act_current_ev_dis[0,2,23]
+   + 0.1391737464897744 act_current_ev_dis[0,3,0]
+   + 0.1559469265102714 act_current_ev_dis[0,3,1]
+   + 0.1997130791362449 act_current_ev_dis[0,3,2]
+   + 0.1484644670215739 act_current_ev_dis[0,3,3]
+   + 0.1575743614490631 act_current_ev_dis[0,3,4]
+   + 0.1291098384774762 act_current_ev_dis[0,3,5]
+   + 0.1112329956823963 act_current_ev_dis[0,3,6]
+   + 0.1246453043158867 act_current_ev_dis[0,3,7]
+   + 0.1371784239594551 act_current_ev_dis[0,3,8]
+   + 0.1502727280646758 act_current_ev_dis[0,3,9]
+   + 0.1392984541479194 act_current_ev_dis[0,3,10]
+   + 0.1558721019153844 act_current_ev_dis[0,3,11]
+   + 0.1791550216910484 act_current_ev_dis[0,3,12]
+   + 0.2164987299225563 act_current_ev_dis[0,3,13]
+   + 0.1845174509912816 act_current_ev_dis[0,3,14]
+   + 0.1616772434020323 act_current_ev_dis[0,3,15]
+   + 0.1525548782087285 act_current_ev_dis[0,3,16]
+   + 0.1479032825599216 act_current_ev_dis[0,3,17]
+   + 0.1265969791658553 act_current_ev_dis[0,3,18]
+   + 0.129053720031311 act_current_ev_dis[0,3,19]
+   + 0.1437567529266017 act_current_ev_dis[0,3,20]
+   + 0.1287606570346703 act_current_ev_dis[0,3,21]
+   + 0.1308806872231346 act_current_ev_dis[0,3,22]
+   + 0.1353452213847242 act_current_ev_dis[0,3,23]
+   + 0.1391737464897744 act_current_ev_dis[0,4,0]
+   + 0.1559469265102714 act_current_ev_dis[0,4,1]
+   + 0.1997130791362449 act_current_ev_dis[0,4,2]
+   + 0.1484644670215739 act_current_ev_dis[0,4,3]
+   + 0.1575743614490631 act_current_ev_dis[0,4,4]
+   + 0.1291098384774762 act_current_ev_dis[0,4,5]
+   + 0.1112329956823963 act_current_ev_dis[0,4,6]
+   + 0.1246453043158867 act_current_ev_dis[0,4,7]
+   + 0.1371784239594551 act_current_ev_dis[0,4,8]
+   + 0.1502727280646758 act_current_ev_dis[0,4,9]
+   + 0.1392984541479194 act_current_ev_dis[0,4,10]
+   + 0.1558721019153844 act_current_ev_dis[0,4,11]
+   + 0.1791550216910484 act_current_ev_dis[0,4,12]
+   + 0.2164987299225563 act_current_ev_dis[0,4,13]
+   + 0.1845174509912816 act_current_ev_dis[0,4,14]
+   + 0.1616772434020323 act_current_ev_dis[0,4,15]
+   + 0.1525548782087285 act_current_ev_dis[0,4,16]
+   + 0.1479032825599216 act_current_ev_dis[0,4,17]
+   + 0.1265969791658553 act_current_ev_dis[0,4,18]
+   + 0.129053720031311 act_current_ev_dis[0,4,19]
+   + 0.1437567529266017 act_current_ev_dis[0,4,20]
+   + 0.1287606570346703 act_current_ev_dis[0,4,21]
+   + 0.1308806872231346 act_current_ev_dis[0,4,22]
+   + 0.1353452213847242 act_current_ev_dis[0,4,23]
+   + 0.1391737464897744 act_current_ev_dis[0,5,0]
+   + 0.1559469265102714 act_current_ev_dis[0,5,1]
+   + 0.1997130791362449 act_current_ev_dis[0,5,2]
+   + 0.1484644670215739 act_current_ev_dis[0,5,3]
+   + 0.1575743614490631 act_current_ev_dis[0,5,4]
+   + 0.1291098384774762 act_current_ev_dis[0,5,5]
+   + 0.1112329956823963 act_current_ev_dis[0,5,6]
+   + 0.1246453043158867 act_current_ev_dis[0,5,7]
+   + 0.1371784239594551 act_current_ev_dis[0,5,8]
+   + 0.1502727280646758 act_current_ev_dis[0,5,9]
+   + 0.1392984541479194 act_current_ev_dis[0,5,10]
+   + 0.1558721019153844 act_current_ev_dis[0,5,11]
+   + 0.1791550216910484 act_current_ev_dis[0,5,12]
+   + 0.2164987299225563 act_current_ev_dis[0,5,13]
+   + 0.1845174509912816 act_current_ev_dis[0,5,14]
+   + 0.1616772434020323 act_current_ev_dis[0,5,15]
+   + 0.1525548782087285 act_current_ev_dis[0,5,16]
+   + 0.1479032825599216 act_current_ev_dis[0,5,17]
+   + 0.1265969791658553 act_current_ev_dis[0,5,18]
+   + 0.129053720031311 act_current_ev_dis[0,5,19]
+   + 0.1437567529266017 act_current_ev_dis[0,5,20]
+   + 0.1287606570346703 act_current_ev_dis[0,5,21]
+   + 0.1308806872231346 act_current_ev_dis[0,5,22]
+   + 0.1353452213847242 act_current_ev_dis[0,5,23]
+   + 0.1391737464897744 act_current_ev_dis[0,6,0]
+   + 0.1559469265102714 act_current_ev_dis[0,6,1]
+   + 0.1997130791362449 act_current_ev_dis[0,6,2]
+   + 0.1484644670215739 act_current_ev_dis[0,6,3]
+   + 0.1575743614490631 act_current_ev_dis[0,6,4]
+   + 0.1291098384774762 act_current_ev_dis[0,6,5]
+   + 0.1112329956823963 act_current_ev_dis[0,6,6]
+   + 0.1246453043158867 act_current_ev_dis[0,6,7]
+   + 0.1371784239594551 act_current_ev_dis[0,6,8]
+   + 0.1502727280646758 act_current_ev_dis[0,6,9]
+   + 0.1392984541479194 act_current_ev_dis[0,6,10]
+   + 0.1558721019153844 act_current_ev_dis[0,6,11]
+   + 0.1791550216910484 act_current_ev_dis[0,6,12]
+   + 0.2164987299225563 act_current_ev_dis[0,6,13]
+   + 0.1845174509912816 act_current_ev_dis[0,6,14]
+   + 0.1616772434020323 act_current_ev_dis[0,6,15]
+   + 0.1525548782087285 act_current_ev_dis[0,6,16]
+   + 0.1479032825599216 act_current_ev_dis[0,6,17]
+   + 0.1265969791658553 act_current_ev_dis[0,6,18]
+   + 0.129053720031311 act_current_ev_dis[0,6,19]
+   + 0.1437567529266017 act_current_ev_dis[0,6,20]
+   + 0.1287606570346703 act_current_ev_dis[0,6,21]
+   + 0.1308806872231346 act_current_ev_dis[0,6,22]
+   + 0.1353452213847242 act_current_ev_dis[0,6,23]
+   + 0.1391737464897744 act_current_ev_dis[0,7,0]
+   + 0.1559469265102714 act_current_ev_dis[0,7,1]
+   + 0.1997130791362449 act_current_ev_dis[0,7,2]
+   + 0.1484644670215739 act_current_ev_dis[0,7,3]
+   + 0.1575743614490631 act_current_ev_dis[0,7,4]
+   + 0.1291098384774762 act_current_ev_dis[0,7,5]
+   + 0.1112329956823963 act_current_ev_dis[0,7,6]
+   + 0.1246453043158867 act_current_ev_dis[0,7,7]
+   + 0.1371784239594551 act_current_ev_dis[0,7,8]
+   + 0.1502727280646758 act_current_ev_dis[0,7,9]
+   + 0.1392984541479194 act_current_ev_dis[0,7,10]
+   + 0.1558721019153844 act_current_ev_dis[0,7,11]
+   + 0.1791550216910484 act_current_ev_dis[0,7,12]
+   + 0.2164987299225563 act_current_ev_dis[0,7,13]
+   + 0.1845174509912816 act_current_ev_dis[0,7,14]
+   + 0.1616772434020323 act_current_ev_dis[0,7,15]
+   + 0.1525548782087285 act_current_ev_dis[0,7,16]
+   + 0.1479032825599216 act_current_ev_dis[0,7,17]
+   + 0.1265969791658553 act_current_ev_dis[0,7,18]
+   + 0.129053720031311 act_current_ev_dis[0,7,19]
+   + 0.1437567529266017 act_current_ev_dis[0,7,20]
+   + 0.1287606570346703 act_current_ev_dis[0,7,21]
+   + 0.1308806872231346 act_current_ev_dis[0,7,22]
+   + 0.1353452213847242 act_current_ev_dis[0,7,23]
+   + 0.1391737464897744 act_current_ev_dis[0,8,0]
+   + 0.1559469265102714 act_current_ev_dis[0,8,1]
+   + 0.1997130791362449 act_current_ev_dis[0,8,2]
+   + 0.1484644670215739 act_current_ev_dis[0,8,3]
+   + 0.1575743614490631 act_current_ev_dis[0,8,4]
+   + 0.1291098384774762 act_current_ev_dis[0,8,5]
+   + 0.1112329956823963 act_current_ev_dis[0,8,6]
+   + 0.1246453043158867 act_current_ev_dis[0,8,7]
+   + 0.1371784239594551 act_current_ev_dis[0,8,8]
+   + 0.1502727280646758 act_current_ev_dis[0,8,9]
+   + 0.1392984541479194 act_current_ev_dis[0,8,10]
+   + 0.1558721019153844 act_current_ev_dis[0,8,11]
+   + 0.1791550216910484 act_current_ev_dis[0,8,12]
+   + 0.2164987299225563 act_current_ev_dis[0,8,13]
+   + 0.1845174509912816 act_current_ev_dis[0,8,14]
+   + 0.1616772434020323 act_current_ev_dis[0,8,15]
+   + 0.1525548782087285 act_current_ev_dis[0,8,16]
+   + 0.1479032825599216 act_current_ev_dis[0,8,17]
+   + 0.1265969791658553 act_current_ev_dis[0,8,18]
+   + 0.129053720031311 act_current_ev_dis[0,8,19]
+   + 0.1437567529266017 act_current_ev_dis[0,8,20]
+   + 0.1287606570346703 act_current_ev_dis[0,8,21]
+   + 0.1308806872231346 act_current_ev_dis[0,8,22]
+   + 0.1353452213847242 act_current_ev_dis[0,8,23]
+   + 0.1391737464897744 act_current_ev_dis[0,9,0]
+   + 0.1559469265102714 act_current_ev_dis[0,9,1]
+   + 0.1997130791362449 act_current_ev_dis[0,9,2]
+   + 0.1484644670215739 act_current_ev_dis[0,9,3]
+   + 0.1575743614490631 act_current_ev_dis[0,9,4]
+   + 0.1291098384774762 act_current_ev_dis[0,9,5]
+   + 0.1112329956823963 act_current_ev_dis[0,9,6]
+   + 0.1246453043158867 act_current_ev_dis[0,9,7]
+   + 0.1371784239594551 act_current_ev_dis[0,9,8]
+   + 0.1502727280646758 act_current_ev_dis[0,9,9]
+   + 0.1392984541479194 act_current_ev_dis[0,9,10]
+   + 0.1558721019153844 act_current_ev_dis[0,9,11]
+   + 0.1791550216910484 act_current_ev_dis[0,9,12]
+   + 0.2164987299225563 act_current_ev_dis[0,9,13]
+   + 0.1845174509912816 act_current_ev_dis[0,9,14]
+   + 0.1616772434020323 act_current_ev_dis[0,9,15]
+   + 0.1525548782087285 act_current_ev_dis[0,9,16]
+   + 0.1479032825599216 act_current_ev_dis[0,9,17]
+   + 0.1265969791658553 act_current_ev_dis[0,9,18]
+   + 0.129053720031311 act_current_ev_dis[0,9,19]
+   + 0.1437567529266017 act_current_ev_dis[0,9,20]
+   + 0.1287606570346703 act_current_ev_dis[0,9,21]
+   + 0.1308806872231346 act_current_ev_dis[0,9,22]
+   + 0.1353452213847242 act_current_ev_dis[0,9,23]
+   + 0.1391737464897744 act_current_ev_dis[0,10,0]
+   + 0.1559469265102714 act_current_ev_dis[0,10,1]
+   + 0.1997130791362449 act_current_ev_dis[0,10,2]
+   + 0.1484644670215739 act_current_ev_dis[0,10,3]
+   + 0.1575743614490631 act_current_ev_dis[0,10,4]
+   + 0.1291098384774762 act_current_ev_dis[0,10,5]
+   + 0.1112329956823963 act_current_ev_dis[0,10,6]
+   + 0.1246453043158867 act_current_ev_dis[0,10,7]
+   + 0.1371784239594551 act_current_ev_dis[0,10,8]
+   + 0.1502727280646758 act_current_ev_dis[0,10,9]
+   + 0.1392984541479194 act_current_ev_dis[0,10,10]
+   + 0.1558721019153844 act_current_ev_dis[0,10,11]
+   + 0.1791550216910484 act_current_ev_dis[0,10,12]
+   + 0.2164987299225563 act_current_ev_dis[0,10,13]
+   + 0.1845174509912816 act_current_ev_dis[0,10,14]
+   + 0.1616772434020323 act_current_ev_dis[0,10,15]
+   + 0.1525548782087285 act_current_ev_dis[0,10,16]
+   + 0.1479032825599216 act_current_ev_dis[0,10,17]
+   + 0.1265969791658553 act_current_ev_dis[0,10,18]
+   + 0.129053720031311 act_current_ev_dis[0,10,19]
+   + 0.1437567529266017 act_current_ev_dis[0,10,20]
+   + 0.1287606570346703 act_current_ev_dis[0,10,21]
+   + 0.1308806872231346 act_current_ev_dis[0,10,22]
+   + 0.1353452213847242 act_current_ev_dis[0,10,23]
+   + 0.1391737464897744 act_current_ev_dis[0,11,0]
+   + 0.1559469265102714 act_current_ev_dis[0,11,1]
+   + 0.1997130791362449 act_current_ev_dis[0,11,2]
+   + 0.1484644670215739 act_current_ev_dis[0,11,3]
+   + 0.1575743614490631 act_current_ev_dis[0,11,4]
+   + 0.1291098384774762 act_current_ev_dis[0,11,5]
+   + 0.1112329956823963 act_current_ev_dis[0,11,6]
+   + 0.1246453043158867 act_current_ev_dis[0,11,7]
+   + 0.1371784239594551 act_current_ev_dis[0,11,8]
+   + 0.1502727280646758 act_current_ev_dis[0,11,9]
+   + 0.1392984541479194 act_current_ev_dis[0,11,10]
+   + 0.1558721019153844 act_current_ev_dis[0,11,11]
+   + 0.1791550216910484 act_current_ev_dis[0,11,12]
+   + 0.2164987299225563 act_current_ev_dis[0,11,13]
+   + 0.1845174509912816 act_current_ev_dis[0,11,14]
+   + 0.1616772434020323 act_current_ev_dis[0,11,15]
+   + 0.1525548782087285 act_current_ev_dis[0,11,16]
+   + 0.1479032825599216 act_current_ev_dis[0,11,17]
+   + 0.1265969791658553 act_current_ev_dis[0,11,18]
+   + 0.129053720031311 act_current_ev_dis[0,11,19]
+   + 0.1437567529266017 act_current_ev_dis[0,11,20]
+   + 0.1287606570346703 act_current_ev_dis[0,11,21]
+   + 0.1308806872231346 act_current_ev_dis[0,11,22]
+   + 0.1353452213847242 act_current_ev_dis[0,11,23]
+   + 0.1391737464897744 act_current_ev_dis[0,12,0]
+   + 0.1559469265102714 act_current_ev_dis[0,12,1]
+   + 0.1997130791362449 act_current_ev_dis[0,12,2]
+   + 0.1484644670215739 act_current_ev_dis[0,12,3]
+   + 0.1575743614490631 act_current_ev_dis[0,12,4]
+   + 0.1291098384774762 act_current_ev_dis[0,12,5]
+   + 0.1112329956823963 act_current_ev_dis[0,12,6]
+   + 0.1246453043158867 act_current_ev_dis[0,12,7]
+   + 0.1371784239594551 act_current_ev_dis[0,12,8]
+   + 0.1502727280646758 act_current_ev_dis[0,12,9]
+   + 0.1392984541479194 act_current_ev_dis[0,12,10]
+   + 0.1558721019153844 act_current_ev_dis[0,12,11]
+   + 0.1791550216910484 act_current_ev_dis[0,12,12]
+   + 0.2164987299225563 act_current_ev_dis[0,12,13]
+   + 0.1845174509912816 act_current_ev_dis[0,12,14]
+   + 0.1616772434020323 act_current_ev_dis[0,12,15]
+   + 0.1525548782087285 act_current_ev_dis[0,12,16]
+   + 0.1479032825599216 act_current_ev_dis[0,12,17]
+   + 0.1265969791658553 act_current_ev_dis[0,12,18]
+   + 0.129053720031311 act_current_ev_dis[0,12,19]
+   + 0.1437567529266017 act_current_ev_dis[0,12,20]
+   + 0.1287606570346703 act_current_ev_dis[0,12,21]
+   + 0.1308806872231346 act_current_ev_dis[0,12,22]
+   + 0.1353452213847242 act_current_ev_dis[0,12,23]
+   + 0.1391737464897744 act_current_ev_dis[0,13,0]
+   + 0.1559469265102714 act_current_ev_dis[0,13,1]
+   + 0.1997130791362449 act_current_ev_dis[0,13,2]
+   + 0.1484644670215739 act_current_ev_dis[0,13,3]
+   + 0.1575743614490631 act_current_ev_dis[0,13,4]
+   + 0.1291098384774762 act_current_ev_dis[0,13,5]
+   + 0.1112329956823963 act_current_ev_dis[0,13,6]
+   + 0.1246453043158867 act_current_ev_dis[0,13,7]
+   + 0.1371784239594551 act_current_ev_dis[0,13,8]
+   + 0.1502727280646758 act_current_ev_dis[0,13,9]
+   + 0.1392984541479194 act_current_ev_dis[0,13,10]
+   + 0.1558721019153844 act_current_ev_dis[0,13,11]
+   + 0.1791550216910484 act_current_ev_dis[0,13,12]
+   + 0.2164987299225563 act_current_ev_dis[0,13,13]
+   + 0.1845174509912816 act_current_ev_dis[0,13,14]
+   + 0.1616772434020323 act_current_ev_dis[0,13,15]
+   + 0.1525548782087285 act_current_ev_dis[0,13,16]
+   + 0.1479032825599216 act_current_ev_dis[0,13,17]
+   + 0.1265969791658553 act_current_ev_dis[0,13,18]
+   + 0.129053720031311 act_current_ev_dis[0,13,19]
+   + 0.1437567529266017 act_current_ev_dis[0,13,20]
+   + 0.1287606570346703 act_current_ev_dis[0,13,21]
+   + 0.1308806872231346 act_current_ev_dis[0,13,22]
+   + 0.1353452213847242 act_current_ev_dis[0,13,23]
+   + 0.1391737464897744 act_current_ev_dis[0,14,0]
+   + 0.1559469265102714 act_current_ev_dis[0,14,1]
+   + 0.1997130791362449 act_current_ev_dis[0,14,2]
+   + 0.1484644670215739 act_current_ev_dis[0,14,3]
+   + 0.1575743614490631 act_current_ev_dis[0,14,4]
+   + 0.1291098384774762 act_current_ev_dis[0,14,5]
+   + 0.1112329956823963 act_current_ev_dis[0,14,6]
+   + 0.1246453043158867 act_current_ev_dis[0,14,7]
+   + 0.1371784239594551 act_current_ev_dis[0,14,8]
+   + 0.1502727280646758 act_current_ev_dis[0,14,9]
+   + 0.1392984541479194 act_current_ev_dis[0,14,10]
+   + 0.1558721019153844 act_current_ev_dis[0,14,11]
+   + 0.1791550216910484 act_current_ev_dis[0,14,12]
+   + 0.2164987299225563 act_current_ev_dis[0,14,13]
+   + 0.1845174509912816 act_current_ev_dis[0,14,14]
+   + 0.1616772434020323 act_current_ev_dis[0,14,15]
+   + 0.1525548782087285 act_current_ev_dis[0,14,16]
+   + 0.1479032825599216 act_current_ev_dis[0,14,17]
+   + 0.1265969791658553 act_current_ev_dis[0,14,18]
+   + 0.129053720031311 act_current_ev_dis[0,14,19]
+   + 0.1437567529266017 act_current_ev_dis[0,14,20]
+   + 0.1287606570346703 act_current_ev_dis[0,14,21]
+   + 0.1308806872231346 act_current_ev_dis[0,14,22]
+   + 0.1353452213847242 act_current_ev_dis[0,14,23]
+   + 0.1391737464897744 act_current_ev_dis[0,15,0]
+   + 0.1559469265102714 act_current_ev_dis[0,15,1]
+   + 0.1997130791362449 act_current_ev_dis[0,15,2]
+   + 0.1484644670215739 act_current_ev_dis[0,15,3]
+   + 0.1575743614490631 act_current_ev_dis[0,15,4]
+   + 0.1291098384774762 act_current_ev_dis[0,15,5]
+   + 0.1112329956823963 act_current_ev_dis[0,15,6]
+   + 0.1246453043158867 act_current_ev_dis[0,15,7]
+   + 0.1371784239594551 act_current_ev_dis[0,15,8]
+   + 0.1502727280646758 act_current_ev_dis[0,15,9]
+   + 0.1392984541479194 act_current_ev_dis[0,15,10]
+   + 0.1558721019153844 act_current_ev_dis[0,15,11]
+   + 0.1791550216910484 act_current_ev_dis[0,15,12]
+   + 0.2164987299225563 act_current_ev_dis[0,15,13]
+   + 0.1845174509912816 act_current_ev_dis[0,15,14]
+   + 0.1616772434020323 act_current_ev_dis[0,15,15]
+   + 0.1525548782087285 act_current_ev_dis[0,15,16]
+   + 0.1479032825599216 act_current_ev_dis[0,15,17]
+   + 0.1265969791658553 act_current_ev_dis[0,15,18]
+   + 0.129053720031311 act_current_ev_dis[0,15,19]
+   + 0.1437567529266017 act_current_ev_dis[0,15,20]
+   + 0.1287606570346703 act_current_ev_dis[0,15,21]
+   + 0.1308806872231346 act_current_ev_dis[0,15,22]
+   + 0.1353452213847242 act_current_ev_dis[0,15,23]
+   + 0.1391737464897744 act_current_ev_dis[0,16,0]
+   + 0.1559469265102714 act_current_ev_dis[0,16,1]
+   + 0.1997130791362449 act_current_ev_dis[0,16,2]
+   + 0.1484644670215739 act_current_ev_dis[0,16,3]
+   + 0.1575743614490631 act_current_ev_dis[0,16,4]
+   + 0.1291098384774762 act_current_ev_dis[0,16,5]
+   + 0.1112329956823963 act_current_ev_dis[0,16,6]
+   + 0.1246453043158867 act_current_ev_dis[0,16,7]
+   + 0.1371784239594551 act_current_ev_dis[0,16,8]
+   + 0.1502727280646758 act_current_ev_dis[0,16,9]
+   + 0.1392984541479194 act_current_ev_dis[0,16,10]
+   + 0.1558721019153844 act_current_ev_dis[0,16,11]
+   + 0.1791550216910484 act_current_ev_dis[0,16,12]
+   + 0.2164987299225563 act_current_ev_dis[0,16,13]
+   + 0.1845174509912816 act_current_ev_dis[0,16,14]
+   + 0.1616772434020323 act_current_ev_dis[0,16,15]
+   + 0.1525548782087285 act_current_ev_dis[0,16,16]
+   + 0.1479032825599216 act_current_ev_dis[0,16,17]
+   + 0.1265969791658553 act_current_ev_dis[0,16,18]
+   + 0.129053720031311 act_current_ev_dis[0,16,19]
+   + 0.1437567529266017 act_current_ev_dis[0,16,20]
+   + 0.1287606570346703 act_current_ev_dis[0,16,21]
+   + 0.1308806872231346 act_current_ev_dis[0,16,22]
+   + 0.1353452213847242 act_current_ev_dis[0,16,23]
+   + 0.1391737464897744 act_current_ev_dis[0,17,0]
+   + 0.1559469265102714 act_current_ev_dis[0,17,1]
+   + 0.1997130791362449 act_current_ev_dis[0,17,2]
+   + 0.1484644670215739 act_current_ev_dis[0,17,3]
+   + 0.1575743614490631 act_current_ev_dis[0,17,4]
+   + 0.1291098384774762 act_current_ev_dis[0,17,5]
+   + 0.1112329956823963 act_current_ev_dis[0,17,6]
+   + 0.1246453043158867 act_current_ev_dis[0,17,7]
+   + 0.1371784239594551 act_current_ev_dis[0,17,8]
+   + 0.1502727280646758 act_current_ev_dis[0,17,9]
+   + 0.1392984541479194 act_current_ev_dis[0,17,10]
+   + 0.1558721019153844 act_current_ev_dis[0,17,11]
+   + 0.1791550216910484 act_current_ev_dis[0,17,12]
+   + 0.2164987299225563 act_current_ev_dis[0,17,13]
+   + 0.1845174509912816 act_current_ev_dis[0,17,14]
+   + 0.1616772434020323 act_current_ev_dis[0,17,15]
+   + 0.1525548782087285 act_current_ev_dis[0,17,16]
+   + 0.1479032825599216 act_current_ev_dis[0,17,17]
+   + 0.1265969791658553 act_current_ev_dis[0,17,18]
+   + 0.129053720031311 act_current_ev_dis[0,17,19]
+   + 0.1437567529266017 act_current_ev_dis[0,17,20]
+   + 0.1287606570346703 act_current_ev_dis[0,17,21]
+   + 0.1308806872231346 act_current_ev_dis[0,17,22]
+   + 0.1353452213847242 act_current_ev_dis[0,17,23]
+   + 0.1391737464897744 act_current_ev_dis[0,18,0]
+   + 0.1559469265102714 act_current_ev_dis[0,18,1]
+   + 0.1997130791362449 act_current_ev_dis[0,18,2]
+   + 0.1484644670215739 act_current_ev_dis[0,18,3]
+   + 0.1575743614490631 act_current_ev_dis[0,18,4]
+   + 0.1291098384774762 act_current_ev_dis[0,18,5]
+   + 0.1112329956823963 act_current_ev_dis[0,18,6]
+   + 0.1246453043158867 act_current_ev_dis[0,18,7]
+   + 0.1371784239594551 act_current_ev_dis[0,18,8]
+   + 0.1502727280646758 act_current_ev_dis[0,18,9]
+   + 0.1392984541479194 act_current_ev_dis[0,18,10]
+   + 0.1558721019153844 act_current_ev_dis[0,18,11]
+   + 0.1791550216910484 act_current_ev_dis[0,18,12]
+   + 0.2164987299225563 act_current_ev_dis[0,18,13]
+   + 0.1845174509912816 act_current_ev_dis[0,18,14]
+   + 0.1616772434020323 act_current_ev_dis[0,18,15]
+   + 0.1525548782087285 act_current_ev_dis[0,18,16]
+   + 0.1479032825599216 act_current_ev_dis[0,18,17]
+   + 0.1265969791658553 act_current_ev_dis[0,18,18]
+   + 0.129053720031311 act_current_ev_dis[0,18,19]
+   + 0.1437567529266017 act_current_ev_dis[0,18,20]
+   + 0.1287606570346703 act_current_ev_dis[0,18,21]
+   + 0.1308806872231346 act_current_ev_dis[0,18,22]
+   + 0.1353452213847242 act_current_ev_dis[0,18,23]
+   + 0.1391737464897744 act_current_ev_dis[0,19,0]
+   + 0.1559469265102714 act_current_ev_dis[0,19,1]
+   + 0.1997130791362449 act_current_ev_dis[0,19,2]
+   + 0.1484644670215739 act_current_ev_dis[0,19,3]
+   + 0.1575743614490631 act_current_ev_dis[0,19,4]
+   + 0.1291098384774762 act_current_ev_dis[0,19,5]
+   + 0.1112329956823963 act_current_ev_dis[0,19,6]
+   + 0.1246453043158867 act_current_ev_dis[0,19,7]
+   + 0.1371784239594551 act_current_ev_dis[0,19,8]
+   + 0.1502727280646758 act_current_ev_dis[0,19,9]
+   + 0.1392984541479194 act_current_ev_dis[0,19,10]
+   + 0.1558721019153844 act_current_ev_dis[0,19,11]
+   + 0.1791550216910484 act_current_ev_dis[0,19,12]
+   + 0.2164987299225563 act_current_ev_dis[0,19,13]
+   + 0.1845174509912816 act_current_ev_dis[0,19,14]
+   + 0.1616772434020323 act_current_ev_dis[0,19,15]
+   + 0.1525548782087285 act_current_ev_dis[0,19,16]
+   + 0.1479032825599216 act_current_ev_dis[0,19,17]
+   + 0.1265969791658553 act_current_ev_dis[0,19,18]
+   + 0.129053720031311 act_current_ev_dis[0,19,19]
+   + 0.1437567529266017 act_current_ev_dis[0,19,20]
+   + 0.1287606570346703 act_current_ev_dis[0,19,21]
+   + 0.1308806872231346 act_current_ev_dis[0,19,22]
+   + 0.1353452213847242 act_current_ev_dis[0,19,23]
+   + 0.1391737464897744 act_current_ev_dis[0,20,0]
+   + 0.1559469265102714 act_current_ev_dis[0,20,1]
+   + 0.1997130791362449 act_current_ev_dis[0,20,2]
+   + 0.1484644670215739 act_current_ev_dis[0,20,3]
+   + 0.1575743614490631 act_current_ev_dis[0,20,4]
+   + 0.1291098384774762 act_current_ev_dis[0,20,5]
+   + 0.1112329956823963 act_current_ev_dis[0,20,6]
+   + 0.1246453043158867 act_current_ev_dis[0,20,7]
+   + 0.1371784239594551 act_current_ev_dis[0,20,8]
+   + 0.1502727280646758 act_current_ev_dis[0,20,9]
+   + 0.1392984541479194 act_current_ev_dis[0,20,10]
+   + 0.1558721019153844 act_current_ev_dis[0,20,11]
+   + 0.1791550216910484 act_current_ev_dis[0,20,12]
+   + 0.2164987299225563 act_current_ev_dis[0,20,13]
+   + 0.1845174509912816 act_current_ev_dis[0,20,14]
+   + 0.1616772434020323 act_current_ev_dis[0,20,15]
+   + 0.1525548782087285 act_current_ev_dis[0,20,16]
+   + 0.1479032825599216 act_current_ev_dis[0,20,17]
+   + 0.1265969791658553 act_current_ev_dis[0,20,18]
+   + 0.129053720031311 act_current_ev_dis[0,20,19]
+   + 0.1437567529266017 act_current_ev_dis[0,20,20]
+   + 0.1287606570346703 act_current_ev_dis[0,20,21]
+   + 0.1308806872231346 act_current_ev_dis[0,20,22]
+   + 0.1353452213847242 act_current_ev_dis[0,20,23]
+   + 0.1391737464897744 act_current_ev_dis[0,21,0]
+   + 0.1559469265102714 act_current_ev_dis[0,21,1]
+   + 0.1997130791362449 act_current_ev_dis[0,21,2]
+   + 0.1484644670215739 act_current_ev_dis[0,21,3]
+   + 0.1575743614490631 act_current_ev_dis[0,21,4]
+   + 0.1291098384774762 act_current_ev_dis[0,21,5]
+   + 0.1112329956823963 act_current_ev_dis[0,21,6]
+   + 0.1246453043158867 act_current_ev_dis[0,21,7]
+   + 0.1371784239594551 act_current_ev_dis[0,21,8]
+   + 0.1502727280646758 act_current_ev_dis[0,21,9]
+   + 0.1392984541479194 act_current_ev_dis[0,21,10]
+   + 0.1558721019153844 act_current_ev_dis[0,21,11]
+   + 0.1791550216910484 act_current_ev_dis[0,21,12]
+   + 0.2164987299225563 act_current_ev_dis[0,21,13]
+   + 0.1845174509912816 act_current_ev_dis[0,21,14]
+   + 0.1616772434020323 act_current_ev_dis[0,21,15]
+   + 0.1525548782087285 act_current_ev_dis[0,21,16]
+   + 0.1479032825599216 act_current_ev_dis[0,21,17]
+   + 0.1265969791658553 act_current_ev_dis[0,21,18]
+   + 0.129053720031311 act_current_ev_dis[0,21,19]
+   + 0.1437567529266017 act_current_ev_dis[0,21,20]
+   + 0.1287606570346703 act_current_ev_dis[0,21,21]
+   + 0.1308806872231346 act_current_ev_dis[0,21,22]
+   + 0.1353452213847242 act_current_ev_dis[0,21,23]
+   + 0.1391737464897744 act_current_ev_dis[0,22,0]
+   + 0.1559469265102714 act_current_ev_dis[0,22,1]
+   + 0.1997130791362449 act_current_ev_dis[0,22,2]
+   + 0.1484644670215739 act_current_ev_dis[0,22,3]
+   + 0.1575743614490631 act_current_ev_dis[0,22,4]
+   + 0.1291098384774762 act_current_ev_dis[0,22,5]
+   + 0.1112329956823963 act_current_ev_dis[0,22,6]
+   + 0.1246453043158867 act_current_ev_dis[0,22,7]
+   + 0.1371784239594551 act_current_ev_dis[0,22,8]
+   + 0.1502727280646758 act_current_ev_dis[0,22,9]
+   + 0.1392984541479194 act_current_ev_dis[0,22,10]
+   + 0.1558721019153844 act_current_ev_dis[0,22,11]
+   + 0.1791550216910484 act_current_ev_dis[0,22,12]
+   + 0.2164987299225563 act_current_ev_dis[0,22,13]
+   + 0.1845174509912816 act_current_ev_dis[0,22,14]
+   + 0.1616772434020323 act_current_ev_dis[0,22,15]
+   + 0.1525548782087285 act_current_ev_dis[0,22,16]
+   + 0.1479032825599216 act_current_ev_dis[0,22,17]
+   + 0.1265969791658553 act_current_ev_dis[0,22,18]
+   + 0.129053720031311 act_current_ev_dis[0,22,19]
+   + 0.1437567529266017 act_current_ev_dis[0,22,20]
+   + 0.1287606570346703 act_current_ev_dis[0,22,21]
+   + 0.1308806872231346 act_current_ev_dis[0,22,22]
+   + 0.1353452213847242 act_current_ev_dis[0,22,23]
+   + 0.1391737464897744 act_current_ev_dis[0,23,0]
+   + 0.1559469265102714 act_current_ev_dis[0,23,1]
+   + 0.1997130791362449 act_current_ev_dis[0,23,2]
+   + 0.1484644670215739 act_current_ev_dis[0,23,3]
+   + 0.1575743614490631 act_current_ev_dis[0,23,4]
+   + 0.1291098384774762 act_current_ev_dis[0,23,5]
+   + 0.1112329956823963 act_current_ev_dis[0,23,6]
+   + 0.1246453043158867 act_current_ev_dis[0,23,7]
+   + 0.1371784239594551 act_current_ev_dis[0,23,8]
+   + 0.1502727280646758 act_current_ev_dis[0,23,9]
+   + 0.1392984541479194 act_current_ev_dis[0,23,10]
+   + 0.1558721019153844 act_current_ev_dis[0,23,11]
+   + 0.1791550216910484 act_current_ev_dis[0,23,12]
+   + 0.2164987299225563 act_current_ev_dis[0,23,13]
+   + 0.1845174509912816 act_current_ev_dis[0,23,14]
+   + 0.1616772434020323 act_current_ev_dis[0,23,15]
+   + 0.1525548782087285 act_current_ev_dis[0,23,16]
+   + 0.1479032825599216 act_current_ev_dis[0,23,17]
+   + 0.1265969791658553 act_current_ev_dis[0,23,18]
+   + 0.129053720031311 act_current_ev_dis[0,23,19]
+   + 0.1437567529266017 act_current_ev_dis[0,23,20]
+   + 0.1287606570346703 act_current_ev_dis[0,23,21]
+   + 0.1308806872231346 act_current_ev_dis[0,23,22]
+   + 0.1353452213847242 act_current_ev_dis[0,23,23]
+   + 0.1391737464897744 act_current_ev_dis[0,24,0]
+   + 0.1559469265102714 act_current_ev_dis[0,24,1]
+   + 0.1997130791362449 act_current_ev_dis[0,24,2]
+   + 0.1484644670215739 act_current_ev_dis[0,24,3]
+   + 0.1575743614490631 act_current_ev_dis[0,24,4]
+   + 0.1291098384774762 act_current_ev_dis[0,24,5]
+   + 0.1112329956823963 act_current_ev_dis[0,24,6]
+   + 0.1246453043158867 act_current_ev_dis[0,24,7]
+   + 0.1371784239594551 act_current_ev_dis[0,24,8]
+   + 0.1502727280646758 act_current_ev_dis[0,24,9]
+   + 0.1392984541479194 act_current_ev_dis[0,24,10]
+   + 0.1558721019153844 act_current_ev_dis[0,24,11]
+   + 0.1791550216910484 act_current_ev_dis[0,24,12]
+   + 0.2164987299225563 act_current_ev_dis[0,24,13]
+   + 0.1845174509912816 act_current_ev_dis[0,24,14]
+   + 0.1616772434020323 act_current_ev_dis[0,24,15]
+   + 0.1525548782087285 act_current_ev_dis[0,24,16]
+   + 0.1479032825599216 act_current_ev_dis[0,24,17]
+   + 0.1265969791658553 act_current_ev_dis[0,24,18]
+   + 0.129053720031311 act_current_ev_dis[0,24,19]
+   + 0.1437567529266017 act_current_ev_dis[0,24,20]
+   + 0.1287606570346703 act_current_ev_dis[0,24,21]
+   + 0.1308806872231346 act_current_ev_dis[0,24,22]
+   + 0.1353452213847242 act_current_ev_dis[0,24,23]
+   - 0.1391737464897744 act_current_ev_ch[0,0,0]
+   - 0.1559469265102714 act_current_ev_ch[0,0,1]
+   - 0.1997130791362449 act_current_ev_ch[0,0,2]
+   - 0.1484644670215739 act_current_ev_ch[0,0,3]
+   - 0.1575743614490631 act_current_ev_ch[0,0,4]
+   - 0.1291098384774762 act_current_ev_ch[0,0,5]
+   - 0.1112329956823963 act_current_ev_ch[0,0,6]
+   - 0.1246453043158867 act_current_ev_ch[0,0,7]
+   - 0.1371784239594551 act_current_ev_ch[0,0,8]
+   - 0.1502727280646758 act_current_ev_ch[0,0,9]
+   - 0.1392984541479194 act_current_ev_ch[0,0,10]
+   - 0.1558721019153844 act_current_ev_ch[0,0,11]
+   - 0.1791550216910484 act_current_ev_ch[0,0,12]
+   - 0.2164987299225563 act_current_ev_ch[0,0,13]
+   - 0.1845174509912816 act_current_ev_ch[0,0,14]
+   - 0.1616772434020323 act_current_ev_ch[0,0,15]
+   - 0.1525548782087285 act_current_ev_ch[0,0,16]
+   - 0.1479032825599216 act_current_ev_ch[0,0,17]
+   - 0.1265969791658553 act_current_ev_ch[0,0,18]
+   - 0.129053720031311 act_current_ev_ch[0,0,19]
+   - 0.1437567529266017 act_current_ev_ch[0,0,20]
+   - 0.1287606570346703 act_current_ev_ch[0,0,21]
+   - 0.1308806872231346 act_current_ev_ch[0,0,22]
+   - 0.1353452213847242 act_current_ev_ch[0,0,23]
+   - 0.1391737464897744 act_current_ev_ch[0,1,0]
+   - 0.1559469265102714 act_current_ev_ch[0,1,1]
+   - 0.1997130791362449 act_current_ev_ch[0,1,2]
+   - 0.1484644670215739 act_current_ev_ch[0,1,3]
+   - 0.1575743614490631 act_current_ev_ch[0,1,4]
+   - 0.1291098384774762 act_current_ev_ch[0,1,5]
+   - 0.1112329956823963 act_current_ev_ch[0,1,6]
+   - 0.1246453043158867 act_current_ev_ch[0,1,7]
+   - 0.1371784239594551 act_current_ev_ch[0,1,8]
+   - 0.1502727280646758 act_current_ev_ch[0,1,9]
+   - 0.1392984541479194 act_current_ev_ch[0,1,10]
+   - 0.1558721019153844 act_current_ev_ch[0,1,11]
+   - 0.1791550216910484 act_current_ev_ch[0,1,12]
+   - 0.2164987299225563 act_current_ev_ch[0,1,13]
+   - 0.1845174509912816 act_current_ev_ch[0,1,14]
+   - 0.1616772434020323 act_current_ev_ch[0,1,15]
+   - 0.1525548782087285 act_current_ev_ch[0,1,16]
+   - 0.1479032825599216 act_current_ev_ch[0,1,17]
+   - 0.1265969791658553 act_current_ev_ch[0,1,18]
+   - 0.129053720031311 act_current_ev_ch[0,1,19]
+   - 0.1437567529266017 act_current_ev_ch[0,1,20]
+   - 0.1287606570346703 act_current_ev_ch[0,1,21]
+   - 0.1308806872231346 act_current_ev_ch[0,1,22]
+   - 0.1353452213847242 act_current_ev_ch[0,1,23]
+   - 0.1391737464897744 act_current_ev_ch[0,2,0]
+   - 0.1559469265102714 act_current_ev_ch[0,2,1]
+   - 0.1997130791362449 act_current_ev_ch[0,2,2]
+   - 0.1484644670215739 act_current_ev_ch[0,2,3]
+   - 0.1575743614490631 act_current_ev_ch[0,2,4]
+   - 0.1291098384774762 act_current_ev_ch[0,2,5]
+   - 0.1112329956823963 act_current_ev_ch[0,2,6]
+   - 0.1246453043158867 act_current_ev_ch[0,2,7]
+   - 0.1371784239594551 act_current_ev_ch[0,2,8]
+   - 0.1502727280646758 act_current_ev_ch[0,2,9]
+   - 0.1392984541479194 act_current_ev_ch[0,2,10]
+   - 0.1558721019153844 act_current_ev_ch[0,2,11]
+   - 0.1791550216910484 act_current_ev_ch[0,2,12]
+   - 0.2164987299225563 act_current_ev_ch[0,2,13]
+   - 0.1845174509912816 act_current_ev_ch[0,2,14]
+   - 0.1616772434020323 act_current_ev_ch[0,2,15]
+   - 0.1525548782087285 act_current_ev_ch[0,2,16]
+   - 0.1479032825599216 act_current_ev_ch[0,2,17]
+   - 0.1265969791658553 act_current_ev_ch[0,2,18]
+   - 0.129053720031311 act_current_ev_ch[0,2,19]
+   - 0.1437567529266017 act_current_ev_ch[0,2,20]
+   - 0.1287606570346703 act_current_ev_ch[0,2,21]
+   - 0.1308806872231346 act_current_ev_ch[0,2,22]
+   - 0.1353452213847242 act_current_ev_ch[0,2,23]
+   - 0.1391737464897744 act_current_ev_ch[0,3,0]
+   - 0.1559469265102714 act_current_ev_ch[0,3,1]
+   - 0.1997130791362449 act_current_ev_ch[0,3,2]
+   - 0.1484644670215739 act_current_ev_ch[0,3,3]
+   - 0.1575743614490631 act_current_ev_ch[0,3,4]
+   - 0.1291098384774762 act_current_ev_ch[0,3,5]
+   - 0.1112329956823963 act_current_ev_ch[0,3,6]
+   - 0.1246453043158867 act_current_ev_ch[0,3,7]
+   - 0.1371784239594551 act_current_ev_ch[0,3,8]
+   - 0.1502727280646758 act_current_ev_ch[0,3,9]
+   - 0.1392984541479194 act_current_ev_ch[0,3,10]
+   - 0.1558721019153844 act_current_ev_ch[0,3,11]
+   - 0.1791550216910484 act_current_ev_ch[0,3,12]
+   - 0.2164987299225563 act_current_ev_ch[0,3,13]
+   - 0.1845174509912816 act_current_ev_ch[0,3,14]
+   - 0.1616772434020323 act_current_ev_ch[0,3,15]
+   - 0.1525548782087285 act_current_ev_ch[0,3,16]
+   - 0.1479032825599216 act_current_ev_ch[0,3,17]
+   - 0.1265969791658553 act_current_ev_ch[0,3,18]
+   - 0.129053720031311 act_current_ev_ch[0,3,19]
+   - 0.1437567529266017 act_current_ev_ch[0,3,20]
+   - 0.1287606570346703 act_current_ev_ch[0,3,21]
+   - 0.1308806872231346 act_current_ev_ch[0,3,22]
+   - 0.1353452213847242 act_current_ev_ch[0,3,23]
+   - 0.1391737464897744 act_current_ev_ch[0,4,0]
+   - 0.1559469265102714 act_current_ev_ch[0,4,1]
+   - 0.1997130791362449 act_current_ev_ch[0,4,2]
+   - 0.1484644670215739 act_current_ev_ch[0,4,3]
+   - 0.1575743614490631 act_current_ev_ch[0,4,4]
+   - 0.1291098384774762 act_current_ev_ch[0,4,5]
+   - 0.1112329956823963 act_current_ev_ch[0,4,6]
+   - 0.1246453043158867 act_current_ev_ch[0,4,7]
+   - 0.1371784239594551 act_current_ev_ch[0,4,8]
+   - 0.1502727280646758 act_current_ev_ch[0,4,9]
+   - 0.1392984541479194 act_current_ev_ch[0,4,10]
+   - 0.1558721019153844 act_current_ev_ch[0,4,11]
+   - 0.1791550216910484 act_current_ev_ch[0,4,12]
+   - 0.2164987299225563 act_current_ev_ch[0,4,13]
+   - 0.1845174509912816 act_current_ev_ch[0,4,14]
+   - 0.1616772434020323 act_current_ev_ch[0,4,15]
+   - 0.1525548782087285 act_current_ev_ch[0,4,16]
+   - 0.1479032825599216 act_current_ev_ch[0,4,17]
+   - 0.1265969791658553 act_current_ev_ch[0,4,18]
+   - 0.129053720031311 act_current_ev_ch[0,4,19]
+   - 0.1437567529266017 act_current_ev_ch[0,4,20]
+   - 0.1287606570346703 act_current_ev_ch[0,4,21]
+   - 0.1308806872231346 act_current_ev_ch[0,4,22]
+   - 0.1353452213847242 act_current_ev_ch[0,4,23]
+   - 0.1391737464897744 act_current_ev_ch[0,5,0]
+   - 0.1559469265102714 act_current_ev_ch[0,5,1]
+   - 0.1997130791362449 act_current_ev_ch[0,5,2]
+   - 0.1484644670215739 act_current_ev_ch[0,5,3]
+   - 0.1575743614490631 act_current_ev_ch[0,5,4]
+   - 0.1291098384774762 act_current_ev_ch[0,5,5]
+   - 0.1112329956823963 act_current_ev_ch[0,5,6]
+   - 0.1246453043158867 act_current_ev_ch[0,5,7]
+   - 0.1371784239594551 act_current_ev_ch[0,5,8]
+   - 0.1502727280646758 act_current_ev_ch[0,5,9]
+   - 0.1392984541479194 act_current_ev_ch[0,5,10]
+   - 0.1558721019153844 act_current_ev_ch[0,5,11]
+   - 0.1791550216910484 act_current_ev_ch[0,5,12]
+   - 0.2164987299225563 act_current_ev_ch[0,5,13]
+   - 0.1845174509912816 act_current_ev_ch[0,5,14]
+   - 0.1616772434020323 act_current_ev_ch[0,5,15]
+   - 0.1525548782087285 act_current_ev_ch[0,5,16]
+   - 0.1479032825599216 act_current_ev_ch[0,5,17]
+   - 0.1265969791658553 act_current_ev_ch[0,5,18]
+   - 0.129053720031311 act_current_ev_ch[0,5,19]
+   - 0.1437567529266017 act_current_ev_ch[0,5,20]
+   - 0.1287606570346703 act_current_ev_ch[0,5,21]
+   - 0.1308806872231346 act_current_ev_ch[0,5,22]
+   - 0.1353452213847242 act_current_ev_ch[0,5,23]
+   - 0.1391737464897744 act_current_ev_ch[0,6,0]
+   - 0.1559469265102714 act_current_ev_ch[0,6,1]
+   - 0.1997130791362449 act_current_ev_ch[0,6,2]
+   - 0.1484644670215739 act_current_ev_ch[0,6,3]
+   - 0.1575743614490631 act_current_ev_ch[0,6,4]
+   - 0.1291098384774762 act_current_ev_ch[0,6,5]
+   - 0.1112329956823963 act_current_ev_ch[0,6,6]
+   - 0.1246453043158867 act_current_ev_ch[0,6,7]
+   - 0.1371784239594551 act_current_ev_ch[0,6,8]
+   - 0.1502727280646758 act_current_ev_ch[0,6,9]
+   - 0.1392984541479194 act_current_ev_ch[0,6,10]
+   - 0.1558721019153844 act_current_ev_ch[0,6,11]
+   - 0.1791550216910484 act_current_ev_ch[0,6,12]
+   - 0.2164987299225563 act_current_ev_ch[0,6,13]
+   - 0.1845174509912816 act_current_ev_ch[0,6,14]
+   - 0.1616772434020323 act_current_ev_ch[0,6,15]
+   - 0.1525548782087285 act_current_ev_ch[0,6,16]
+   - 0.1479032825599216 act_current_ev_ch[0,6,17]
+   - 0.1265969791658553 act_current_ev_ch[0,6,18]
+   - 0.129053720031311 act_current_ev_ch[0,6,19]
+   - 0.1437567529266017 act_current_ev_ch[0,6,20]
+   - 0.1287606570346703 act_current_ev_ch[0,6,21]
+   - 0.1308806872231346 act_current_ev_ch[0,6,22]
+   - 0.1353452213847242 act_current_ev_ch[0,6,23]
+   - 0.1391737464897744 act_current_ev_ch[0,7,0]
+   - 0.1559469265102714 act_current_ev_ch[0,7,1]
+   - 0.1997130791362449 act_current_ev_ch[0,7,2]
+   - 0.1484644670215739 act_current_ev_ch[0,7,3]
+   - 0.1575743614490631 act_current_ev_ch[0,7,4]
+   - 0.1291098384774762 act_current_ev_ch[0,7,5]
+   - 0.1112329956823963 act_current_ev_ch[0,7,6]
+   - 0.1246453043158867 act_current_ev_ch[0,7,7]
+   - 0.1371784239594551 act_current_ev_ch[0,7,8]
+   - 0.1502727280646758 act_current_ev_ch[0,7,9]
+   - 0.1392984541479194 act_current_ev_ch[0,7,10]
+   - 0.1558721019153844 act_current_ev_ch[0,7,11]
+   - 0.1791550216910484 act_current_ev_ch[0,7,12]
+   - 0.2164987299225563 act_current_ev_ch[0,7,13]
+   - 0.1845174509912816 act_current_ev_ch[0,7,14]
+   - 0.1616772434020323 act_current_ev_ch[0,7,15]
+   - 0.1525548782087285 act_current_ev_ch[0,7,16]
+   - 0.1479032825599216 act_current_ev_ch[0,7,17]
+   - 0.1265969791658553 act_current_ev_ch[0,7,18]
+   - 0.129053720031311 act_current_ev_ch[0,7,19]
+   - 0.1437567529266017 act_current_ev_ch[0,7,20]
+   - 0.1287606570346703 act_current_ev_ch[0,7,21]
+   - 0.1308806872231346 act_current_ev_ch[0,7,22]
+   - 0.1353452213847242 act_current_ev_ch[0,7,23]
+   - 0.1391737464897744 act_current_ev_ch[0,8,0]
+   - 0.1559469265102714 act_current_ev_ch[0,8,1]
+   - 0.1997130791362449 act_current_ev_ch[0,8,2]
+   - 0.1484644670215739 act_current_ev_ch[0,8,3]
+   - 0.1575743614490631 act_current_ev_ch[0,8,4]
+   - 0.1291098384774762 act_current_ev_ch[0,8,5]
+   - 0.1112329956823963 act_current_ev_ch[0,8,6]
+   - 0.1246453043158867 act_current_ev_ch[0,8,7]
+   - 0.1371784239594551 act_current_ev_ch[0,8,8]
+   - 0.1502727280646758 act_current_ev_ch[0,8,9]
+   - 0.1392984541479194 act_current_ev_ch[0,8,10]
+   - 0.1558721019153844 act_current_ev_ch[0,8,11]
+   - 0.1791550216910484 act_current_ev_ch[0,8,12]
+   - 0.2164987299225563 act_current_ev_ch[0,8,13]
+   - 0.1845174509912816 act_current_ev_ch[0,8,14]
+   - 0.1616772434020323 act_current_ev_ch[0,8,15]
+   - 0.1525548782087285 act_current_ev_ch[0,8,16]
+   - 0.1479032825599216 act_current_ev_ch[0,8,17]
+   - 0.1265969791658553 act_current_ev_ch[0,8,18]
+   - 0.129053720031311 act_current_ev_ch[0,8,19]
+   - 0.1437567529266017 act_current_ev_ch[0,8,20]
+   - 0.1287606570346703 act_current_ev_ch[0,8,21]
+   - 0.1308806872231346 act_current_ev_ch[0,8,22]
+   - 0.1353452213847242 act_current_ev_ch[0,8,23]
+   - 0.1391737464897744 act_current_ev_ch[0,9,0]
+   - 0.1559469265102714 act_current_ev_ch[0,9,1]
+   - 0.1997130791362449 act_current_ev_ch[0,9,2]
+   - 0.1484644670215739 act_current_ev_ch[0,9,3]
+   - 0.1575743614490631 act_current_ev_ch[0,9,4]
+   - 0.1291098384774762 act_current_ev_ch[0,9,5]
+   - 0.1112329956823963 act_current_ev_ch[0,9,6]
+   - 0.1246453043158867 act_current_ev_ch[0,9,7]
+   - 0.1371784239594551 act_current_ev_ch[0,9,8]
+   - 0.1502727280646758 act_current_ev_ch[0,9,9]
+   - 0.1392984541479194 act_current_ev_ch[0,9,10]
+   - 0.1558721019153844 act_current_ev_ch[0,9,11]
+   - 0.1791550216910484 act_current_ev_ch[0,9,12]
+   - 0.2164987299225563 act_current_ev_ch[0,9,13]
+   - 0.1845174509912816 act_current_ev_ch[0,9,14]
+   - 0.1616772434020323 act_current_ev_ch[0,9,15]
+   - 0.1525548782087285 act_current_ev_ch[0,9,16]
+   - 0.1479032825599216 act_current_ev_ch[0,9,17]
+   - 0.1265969791658553 act_current_ev_ch[0,9,18]
+   - 0.129053720031311 act_current_ev_ch[0,9,19]
+   - 0.1437567529266017 act_current_ev_ch[0,9,20]
+   - 0.1287606570346703 act_current_ev_ch[0,9,21]
+   - 0.1308806872231346 act_current_ev_ch[0,9,22]
+   - 0.1353452213847242 act_current_ev_ch[0,9,23]
+   - 0.1391737464897744 act_current_ev_ch[0,10,0]
+   - 0.1559469265102714 act_current_ev_ch[0,10,1]
+   - 0.1997130791362449 act_current_ev_ch[0,10,2]
+   - 0.1484644670215739 act_current_ev_ch[0,10,3]
+   - 0.1575743614490631 act_current_ev_ch[0,10,4]
+   - 0.1291098384774762 act_current_ev_ch[0,10,5]
+   - 0.1112329956823963 act_current_ev_ch[0,10,6]
+   - 0.1246453043158867 act_current_ev_ch[0,10,7]
+   - 0.1371784239594551 act_current_ev_ch[0,10,8]
+   - 0.1502727280646758 act_current_ev_ch[0,10,9]
+   - 0.1392984541479194 act_current_ev_ch[0,10,10]
+   - 0.1558721019153844 act_current_ev_ch[0,10,11]
+   - 0.1791550216910484 act_current_ev_ch[0,10,12]
+   - 0.2164987299225563 act_current_ev_ch[0,10,13]
+   - 0.1845174509912816 act_current_ev_ch[0,10,14]
+   - 0.1616772434020323 act_current_ev_ch[0,10,15]
+   - 0.1525548782087285 act_current_ev_ch[0,10,16]
+   - 0.1479032825599216 act_current_ev_ch[0,10,17]
+   - 0.1265969791658553 act_current_ev_ch[0,10,18]
+   - 0.129053720031311 act_current_ev_ch[0,10,19]
+   - 0.1437567529266017 act_current_ev_ch[0,10,20]
+   - 0.1287606570346703 act_current_ev_ch[0,10,21]
+   - 0.1308806872231346 act_current_ev_ch[0,10,22]
+   - 0.1353452213847242 act_current_ev_ch[0,10,23]
+   - 0.1391737464897744 act_current_ev_ch[0,11,0]
+   - 0.1559469265102714 act_current_ev_ch[0,11,1]
+   - 0.1997130791362449 act_current_ev_ch[0,11,2]
+   - 0.1484644670215739 act_current_ev_ch[0,11,3]
+   - 0.1575743614490631 act_current_ev_ch[0,11,4]
+   - 0.1291098384774762 act_current_ev_ch[0,11,5]
+   - 0.1112329956823963 act_current_ev_ch[0,11,6]
+   - 0.1246453043158867 act_current_ev_ch[0,11,7]
+   - 0.1371784239594551 act_current_ev_ch[0,11,8]
+   - 0.1502727280646758 act_current_ev_ch[0,11,9]
+   - 0.1392984541479194 act_current_ev_ch[0,11,10]
+   - 0.1558721019153844 act_current_ev_ch[0,11,11]
+   - 0.1791550216910484 act_current_ev_ch[0,11,12]
+   - 0.2164987299225563 act_current_ev_ch[0,11,13]
+   - 0.1845174509912816 act_current_ev_ch[0,11,14]
+   - 0.1616772434020323 act_current_ev_ch[0,11,15]
+   - 0.1525548782087285 act_current_ev_ch[0,11,16]
+   - 0.1479032825599216 act_current_ev_ch[0,11,17]
+   - 0.1265969791658553 act_current_ev_ch[0,11,18]
+   - 0.129053720031311 act_current_ev_ch[0,11,19]
+   - 0.1437567529266017 act_current_ev_ch[0,11,20]
+   - 0.1287606570346703 act_current_ev_ch[0,11,21]
+   - 0.1308806872231346 act_current_ev_ch[0,11,22]
+   - 0.1353452213847242 act_current_ev_ch[0,11,23]
+   - 0.1391737464897744 act_current_ev_ch[0,12,0]
+   - 0.1559469265102714 act_current_ev_ch[0,12,1]
+   - 0.1997130791362449 act_current_ev_ch[0,12,2]
+   - 0.1484644670215739 act_current_ev_ch[0,12,3]
+   - 0.1575743614490631 act_current_ev_ch[0,12,4]
+   - 0.1291098384774762 act_current_ev_ch[0,12,5]
+   - 0.1112329956823963 act_current_ev_ch[0,12,6]
+   - 0.1246453043158867 act_current_ev_ch[0,12,7]
+   - 0.1371784239594551 act_current_ev_ch[0,12,8]
+   - 0.1502727280646758 act_current_ev_ch[0,12,9]
+   - 0.1392984541479194 act_current_ev_ch[0,12,10]
+   - 0.1558721019153844 act_current_ev_ch[0,12,11]
+   - 0.1791550216910484 act_current_ev_ch[0,12,12]
+   - 0.2164987299225563 act_current_ev_ch[0,12,13]
+   - 0.1845174509912816 act_current_ev_ch[0,12,14]
+   - 0.1616772434020323 act_current_ev_ch[0,12,15]
+   - 0.1525548782087285 act_current_ev_ch[0,12,16]
+   - 0.1479032825599216 act_current_ev_ch[0,12,17]
+   - 0.1265969791658553 act_current_ev_ch[0,12,18]
+   - 0.129053720031311 act_current_ev_ch[0,12,19]
+   - 0.1437567529266017 act_current_ev_ch[0,12,20]
+   - 0.1287606570346703 act_current_ev_ch[0,12,21]
+   - 0.1308806872231346 act_current_ev_ch[0,12,22]
+   - 0.1353452213847242 act_current_ev_ch[0,12,23]
+   - 0.1391737464897744 act_current_ev_ch[0,13,0]
+   - 0.1559469265102714 act_current_ev_ch[0,13,1]
+   - 0.1997130791362449 act_current_ev_ch[0,13,2]
+   - 0.1484644670215739 act_current_ev_ch[0,13,3]
+   - 0.1575743614490631 act_current_ev_ch[0,13,4]
+   - 0.1291098384774762 act_current_ev_ch[0,13,5]
+   - 0.1112329956823963 act_current_ev_ch[0,13,6]
+   - 0.1246453043158867 act_current_ev_ch[0,13,7]
+   - 0.1371784239594551 act_current_ev_ch[0,13,8]
+   - 0.1502727280646758 act_current_ev_ch[0,13,9]
+   - 0.1392984541479194 act_current_ev_ch[0,13,10]
+   - 0.1558721019153844 act_current_ev_ch[0,13,11]
+   - 0.1791550216910484 act_current_ev_ch[0,13,12]
+   - 0.2164987299225563 act_current_ev_ch[0,13,13]
+   - 0.1845174509912816 act_current_ev_ch[0,13,14]
+   - 0.1616772434020323 act_current_ev_ch[0,13,15]
+   - 0.1525548782087285 act_current_ev_ch[0,13,16]
+   - 0.1479032825599216 act_current_ev_ch[0,13,17]
+   - 0.1265969791658553 act_current_ev_ch[0,13,18]
+   - 0.129053720031311 act_current_ev_ch[0,13,19]
+   - 0.1437567529266017 act_current_ev_ch[0,13,20]
+   - 0.1287606570346703 act_current_ev_ch[0,13,21]
+   - 0.1308806872231346 act_current_ev_ch[0,13,22]
+   - 0.1353452213847242 act_current_ev_ch[0,13,23]
+   - 0.1391737464897744 act_current_ev_ch[0,14,0]
+   - 0.1559469265102714 act_current_ev_ch[0,14,1]
+   - 0.1997130791362449 act_current_ev_ch[0,14,2]
+   - 0.1484644670215739 act_current_ev_ch[0,14,3]
+   - 0.1575743614490631 act_current_ev_ch[0,14,4]
+   - 0.1291098384774762 act_current_ev_ch[0,14,5]
+   - 0.1112329956823963 act_current_ev_ch[0,14,6]
+   - 0.1246453043158867 act_current_ev_ch[0,14,7]
+   - 0.1371784239594551 act_current_ev_ch[0,14,8]
+   - 0.1502727280646758 act_current_ev_ch[0,14,9]
+   - 0.1392984541479194 act_current_ev_ch[0,14,10]
+   - 0.1558721019153844 act_current_ev_ch[0,14,11]
+   - 0.1791550216910484 act_current_ev_ch[0,14,12]
+   - 0.2164987299225563 act_current_ev_ch[0,14,13]
+   - 0.1845174509912816 act_current_ev_ch[0,14,14]
+   - 0.1616772434020323 act_current_ev_ch[0,14,15]
+   - 0.1525548782087285 act_current_ev_ch[0,14,16]
+   - 0.1479032825599216 act_current_ev_ch[0,14,17]
+   - 0.1265969791658553 act_current_ev_ch[0,14,18]
+   - 0.129053720031311 act_current_ev_ch[0,14,19]
+   - 0.1437567529266017 act_current_ev_ch[0,14,20]
+   - 0.1287606570346703 act_current_ev_ch[0,14,21]
+   - 0.1308806872231346 act_current_ev_ch[0,14,22]
+   - 0.1353452213847242 act_current_ev_ch[0,14,23]
+   - 0.1391737464897744 act_current_ev_ch[0,15,0]
+   - 0.1559469265102714 act_current_ev_ch[0,15,1]
+   - 0.1997130791362449 act_current_ev_ch[0,15,2]
+   - 0.1484644670215739 act_current_ev_ch[0,15,3]
+   - 0.1575743614490631 act_current_ev_ch[0,15,4]
+   - 0.1291098384774762 act_current_ev_ch[0,15,5]
+   - 0.1112329956823963 act_current_ev_ch[0,15,6]
+   - 0.1246453043158867 act_current_ev_ch[0,15,7]
+   - 0.1371784239594551 act_current_ev_ch[0,15,8]
+   - 0.1502727280646758 act_current_ev_ch[0,15,9]
+   - 0.1392984541479194 act_current_ev_ch[0,15,10]
+   - 0.1558721019153844 act_current_ev_ch[0,15,11]
+   - 0.1791550216910484 act_current_ev_ch[0,15,12]
+   - 0.2164987299225563 act_current_ev_ch[0,15,13]
+   - 0.1845174509912816 act_current_ev_ch[0,15,14]
+   - 0.1616772434020323 act_current_ev_ch[0,15,15]
+   - 0.1525548782087285 act_current_ev_ch[0,15,16]
+   - 0.1479032825599216 act_current_ev_ch[0,15,17]
+   - 0.1265969791658553 act_current_ev_ch[0,15,18]
+   - 0.129053720031311 act_current_ev_ch[0,15,19]
+   - 0.1437567529266017 act_current_ev_ch[0,15,20]
+   - 0.1287606570346703 act_current_ev_ch[0,15,21]
+   - 0.1308806872231346 act_current_ev_ch[0,15,22]
+   - 0.1353452213847242 act_current_ev_ch[0,15,23]
+   - 0.1391737464897744 act_current_ev_ch[0,16,0]
+   - 0.1559469265102714 act_current_ev_ch[0,16,1]
+   - 0.1997130791362449 act_current_ev_ch[0,16,2]
+   - 0.1484644670215739 act_current_ev_ch[0,16,3]
+   - 0.1575743614490631 act_current_ev_ch[0,16,4]
+   - 0.1291098384774762 act_current_ev_ch[0,16,5]
+   - 0.1112329956823963 act_current_ev_ch[0,16,6]
+   - 0.1246453043158867 act_current_ev_ch[0,16,7]
+   - 0.1371784239594551 act_current_ev_ch[0,16,8]
+   - 0.1502727280646758 act_current_ev_ch[0,16,9]
+   - 0.1392984541479194 act_current_ev_ch[0,16,10]
+   - 0.1558721019153844 act_current_ev_ch[0,16,11]
+   - 0.1791550216910484 act_current_ev_ch[0,16,12]
+   - 0.2164987299225563 act_current_ev_ch[0,16,13]
+   - 0.1845174509912816 act_current_ev_ch[0,16,14]
+   - 0.1616772434020323 act_current_ev_ch[0,16,15]
+   - 0.1525548782087285 act_current_ev_ch[0,16,16]
+   - 0.1479032825599216 act_current_ev_ch[0,16,17]
+   - 0.1265969791658553 act_current_ev_ch[0,16,18]
+   - 0.129053720031311 act_current_ev_ch[0,16,19]
+   - 0.1437567529266017 act_current_ev_ch[0,16,20]
+   - 0.1287606570346703 act_current_ev_ch[0,16,21]
+   - 0.1308806872231346 act_current_ev_ch[0,16,22]
+   - 0.1353452213847242 act_current_ev_ch[0,16,23]
+   - 0.1391737464897744 act_current_ev_ch[0,17,0]
+   - 0.1559469265102714 act_current_ev_ch[0,17,1]
+   - 0.1997130791362449 act_current_ev_ch[0,17,2]
+   - 0.1484644670215739 act_current_ev_ch[0,17,3]
+   - 0.1575743614490631 act_current_ev_ch[0,17,4]
+   - 0.1291098384774762 act_current_ev_ch[0,17,5]
+   - 0.1112329956823963 act_current_ev_ch[0,17,6]
+   - 0.1246453043158867 act_current_ev_ch[0,17,7]
+   - 0.1371784239594551 act_current_ev_ch[0,17,8]
+   - 0.1502727280646758 act_current_ev_ch[0,17,9]
+   - 0.1392984541479194 act_current_ev_ch[0,17,10]
+   - 0.1558721019153844 act_current_ev_ch[0,17,11]
+   - 0.1791550216910484 act_current_ev_ch[0,17,12]
+   - 0.2164987299225563 act_current_ev_ch[0,17,13]
+   - 0.1845174509912816 act_current_ev_ch[0,17,14]
+   - 0.1616772434020323 act_current_ev_ch[0,17,15]
+   - 0.1525548782087285 act_current_ev_ch[0,17,16]
+   - 0.1479032825599216 act_current_ev_ch[0,17,17]
+   - 0.1265969791658553 act_current_ev_ch[0,17,18]
+   - 0.129053720031311 act_current_ev_ch[0,17,19]
+   - 0.1437567529266017 act_current_ev_ch[0,17,20]
+   - 0.1287606570346703 act_current_ev_ch[0,17,21]
+   - 0.1308806872231346 act_current_ev_ch[0,17,22]
+   - 0.1353452213847242 act_current_ev_ch[0,17,23]
+   - 0.1391737464897744 act_current_ev_ch[0,18,0]
+   - 0.1559469265102714 act_current_ev_ch[0,18,1]
+   - 0.1997130791362449 act_current_ev_ch[0,18,2]
+   - 0.1484644670215739 act_current_ev_ch[0,18,3]
+   - 0.1575743614490631 act_current_ev_ch[0,18,4]
+   - 0.1291098384774762 act_current_ev_ch[0,18,5]
+   - 0.1112329956823963 act_current_ev_ch[0,18,6]
+   - 0.1246453043158867 act_current_ev_ch[0,18,7]
+   - 0.1371784239594551 act_current_ev_ch[0,18,8]
+   - 0.1502727280646758 act_current_ev_ch[0,18,9]
+   - 0.1392984541479194 act_current_ev_ch[0,18,10]
+   - 0.1558721019153844 act_current_ev_ch[0,18,11]
+   - 0.1791550216910484 act_current_ev_ch[0,18,12]
+   - 0.2164987299225563 act_current_ev_ch[0,18,13]
+   - 0.1845174509912816 act_current_ev_ch[0,18,14]
+   - 0.1616772434020323 act_current_ev_ch[0,18,15]
+   - 0.1525548782087285 act_current_ev_ch[0,18,16]
+   - 0.1479032825599216 act_current_ev_ch[0,18,17]
+   - 0.1265969791658553 act_current_ev_ch[0,18,18]
+   - 0.129053720031311 act_current_ev_ch[0,18,19]
+   - 0.1437567529266017 act_current_ev_ch[0,18,20]
+   - 0.1287606570346703 act_current_ev_ch[0,18,21]
+   - 0.1308806872231346 act_current_ev_ch[0,18,22]
+   - 0.1353452213847242 act_current_ev_ch[0,18,23]
+   - 0.1391737464897744 act_current_ev_ch[0,19,0]
+   - 0.1559469265102714 act_current_ev_ch[0,19,1]
+   - 0.1997130791362449 act_current_ev_ch[0,19,2]
+   - 0.1484644670215739 act_current_ev_ch[0,19,3]
+   - 0.1575743614490631 act_current_ev_ch[0,19,4]
+   - 0.1291098384774762 act_current_ev_ch[0,19,5]
+   - 0.1112329956823963 act_current_ev_ch[0,19,6]
+   - 0.1246453043158867 act_current_ev_ch[0,19,7]
+   - 0.1371784239594551 act_current_ev_ch[0,19,8]
+   - 0.1502727280646758 act_current_ev_ch[0,19,9]
+   - 0.1392984541479194 act_current_ev_ch[0,19,10]
+   - 0.1558721019153844 act_current_ev_ch[0,19,11]
+   - 0.1791550216910484 act_current_ev_ch[0,19,12]
+   - 0.2164987299225563 act_current_ev_ch[0,19,13]
+   - 0.1845174509912816 act_current_ev_ch[0,19,14]
+   - 0.1616772434020323 act_current_ev_ch[0,19,15]
+   - 0.1525548782087285 act_current_ev_ch[0,19,16]
+   - 0.1479032825599216 act_current_ev_ch[0,19,17]
+   - 0.1265969791658553 act_current_ev_ch[0,19,18]
+   - 0.129053720031311 act_current_ev_ch[0,19,19]
+   - 0.1437567529266017 act_current_ev_ch[0,19,20]
+   - 0.1287606570346703 act_current_ev_ch[0,19,21]
+   - 0.1308806872231346 act_current_ev_ch[0,19,22]
+   - 0.1353452213847242 act_current_ev_ch[0,19,23]
+   - 0.1391737464897744 act_current_ev_ch[0,20,0]
+   - 0.1559469265102714 act_current_ev_ch[0,20,1]
+   - 0.1997130791362449 act_current_ev_ch[0,20,2]
+   - 0.1484644670215739 act_current_ev_ch[0,20,3]
+   - 0.1575743614490631 act_current_ev_ch[0,20,4]
+   - 0.1291098384774762 act_current_ev_ch[0,20,5]
+   - 0.1112329956823963 act_current_ev_ch[0,20,6]
+   - 0.1246453043158867 act_current_ev_ch[0,20,7]
+   - 0.1371784239594551 act_current_ev_ch[0,20,8]
+   - 0.1502727280646758 act_current_ev_ch[0,20,9]
+   - 0.1392984541479194 act_current_ev_ch[0,20,10]
+   - 0.1558721019153844 act_current_ev_ch[0,20,11]
+   - 0.1791550216910484 act_current_ev_ch[0,20,12]
+   - 0.2164987299225563 act_current_ev_ch[0,20,13]
+   - 0.1845174509912816 act_current_ev_ch[0,20,14]
+   - 0.1616772434020323 act_current_ev_ch[0,20,15]
+   - 0.1525548782087285 act_current_ev_ch[0,20,16]
+   - 0.1479032825599216 act_current_ev_ch[0,20,17]
+   - 0.1265969791658553 act_current_ev_ch[0,20,18]
+   - 0.129053720031311 act_current_ev_ch[0,20,19]
+   - 0.1437567529266017 act_current_ev_ch[0,20,20]
+   - 0.1287606570346703 act_current_ev_ch[0,20,21]
+   - 0.1308806872231346 act_current_ev_ch[0,20,22]
+   - 0.1353452213847242 act_current_ev_ch[0,20,23]
+   - 0.1391737464897744 act_current_ev_ch[0,21,0]
+   - 0.1559469265102714 act_current_ev_ch[0,21,1]
+   - 0.1997130791362449 act_current_ev_ch[0,21,2]
+   - 0.1484644670215739 act_current_ev_ch[0,21,3]
+   - 0.1575743614490631 act_current_ev_ch[0,21,4]
+   - 0.1291098384774762 act_current_ev_ch[0,21,5]
+   - 0.1112329956823963 act_current_ev_ch[0,21,6]
+   - 0.1246453043158867 act_current_ev_ch[0,21,7]
+   - 0.1371784239594551 act_current_ev_ch[0,21,8]
+   - 0.1502727280646758 act_current_ev_ch[0,21,9]
+   - 0.1392984541479194 act_current_ev_ch[0,21,10]
+   - 0.1558721019153844 act_current_ev_ch[0,21,11]
+   - 0.1791550216910484 act_current_ev_ch[0,21,12]
+   - 0.2164987299225563 act_current_ev_ch[0,21,13]
+   - 0.1845174509912816 act_current_ev_ch[0,21,14]
+   - 0.1616772434020323 act_current_ev_ch[0,21,15]
+   - 0.1525548782087285 act_current_ev_ch[0,21,16]
+   - 0.1479032825599216 act_current_ev_ch[0,21,17]
+   - 0.1265969791658553 act_current_ev_ch[0,21,18]
+   - 0.129053720031311 act_current_ev_ch[0,21,19]
+   - 0.1437567529266017 act_current_ev_ch[0,21,20]
+   - 0.1287606570346703 act_current_ev_ch[0,21,21]
+   - 0.1308806872231346 act_current_ev_ch[0,21,22]
+   - 0.1353452213847242 act_current_ev_ch[0,21,23]
+   - 0.1391737464897744 act_current_ev_ch[0,22,0]
+   - 0.1559469265102714 act_current_ev_ch[0,22,1]
+   - 0.1997130791362449 act_current_ev_ch[0,22,2]
+   - 0.1484644670215739 act_current_ev_ch[0,22,3]
+   - 0.1575743614490631 act_current_ev_ch[0,22,4]
+   - 0.1291098384774762 act_current_ev_ch[0,22,5]
+   - 0.1112329956823963 act_current_ev_ch[0,22,6]
+   - 0.1246453043158867 act_current_ev_ch[0,22,7]
+   - 0.1371784239594551 act_current_ev_ch[0,22,8]
+   - 0.1502727280646758 act_current_ev_ch[0,22,9]
+   - 0.1392984541479194 act_current_ev_ch[0,22,10]
+   - 0.1558721019153844 act_current_ev_ch[0,22,11]
+   - 0.1791550216910484 act_current_ev_ch[0,22,12]
+   - 0.2164987299225563 act_current_ev_ch[0,22,13]
+   - 0.1845174509912816 act_current_ev_ch[0,22,14]
+   - 0.1616772434020323 act_current_ev_ch[0,22,15]
+   - 0.1525548782087285 act_current_ev_ch[0,22,16]
+   - 0.1479032825599216 act_current_ev_ch[0,22,17]
+   - 0.1265969791658553 act_current_ev_ch[0,22,18]
+   - 0.129053720031311 act_current_ev_ch[0,22,19]
+   - 0.1437567529266017 act_current_ev_ch[0,22,20]
+   - 0.1287606570346703 act_current_ev_ch[0,22,21]
+   - 0.1308806872231346 act_current_ev_ch[0,22,22]
+   - 0.1353452213847242 act_current_ev_ch[0,22,23]
+   - 0.1391737464897744 act_current_ev_ch[0,23,0]
+   - 0.1559469265102714 act_current_ev_ch[0,23,1]
+   - 0.1997130791362449 act_current_ev_ch[0,23,2]
+   - 0.1484644670215739 act_current_ev_ch[0,23,3]
+   - 0.1575743614490631 act_current_ev_ch[0,23,4]
+   - 0.1291098384774762 act_current_ev_ch[0,23,5]
+   - 0.1112329956823963 act_current_ev_ch[0,23,6]
+   - 0.1246453043158867 act_current_ev_ch[0,23,7]
+   - 0.1371784239594551 act_current_ev_ch[0,23,8]
+   - 0.1502727280646758 act_current_ev_ch[0,23,9]
+   - 0.1392984541479194 act_current_ev_ch[0,23,10]
+   - 0.1558721019153844 act_current_ev_ch[0,23,11]
+   - 0.1791550216910484 act_current_ev_ch[0,23,12]
+   - 0.2164987299225563 act_current_ev_ch[0,23,13]
+   - 0.1845174509912816 act_current_ev_ch[0,23,14]
+   - 0.1616772434020323 act_current_ev_ch[0,23,15]
+   - 0.1525548782087285 act_current_ev_ch[0,23,16]
+   - 0.1479032825599216 act_current_ev_ch[0,23,17]
+   - 0.1265969791658553 act_current_ev_ch[0,23,18]
+   - 0.129053720031311 act_current_ev_ch[0,23,19]
+   - 0.1437567529266017 act_current_ev_ch[0,23,20]
+   - 0.1287606570346703 act_current_ev_ch[0,23,21]
+   - 0.1308806872231346 act_current_ev_ch[0,23,22]
+   - 0.1353452213847242 act_current_ev_ch[0,23,23]
+   - 0.1391737464897744 act_current_ev_ch[0,24,0]
+   - 0.1559469265102714 act_current_ev_ch[0,24,1]
+   - 0.1997130791362449 act_current_ev_ch[0,24,2]
+   - 0.1484644670215739 act_current_ev_ch[0,24,3]
+   - 0.1575743614490631 act_current_ev_ch[0,24,4]
+   - 0.1291098384774762 act_current_ev_ch[0,24,5]
+   - 0.1112329956823963 act_current_ev_ch[0,24,6]
+   - 0.1246453043158867 act_current_ev_ch[0,24,7]
+   - 0.1371784239594551 act_current_ev_ch[0,24,8]
+   - 0.1502727280646758 act_current_ev_ch[0,24,9]
+   - 0.1392984541479194 act_current_ev_ch[0,24,10]
+   - 0.1558721019153844 act_current_ev_ch[0,24,11]
+   - 0.1791550216910484 act_current_ev_ch[0,24,12]
+   - 0.2164987299225563 act_current_ev_ch[0,24,13]
+   - 0.1845174509912816 act_current_ev_ch[0,24,14]
+   - 0.1616772434020323 act_current_ev_ch[0,24,15]
+   - 0.1525548782087285 act_current_ev_ch[0,24,16]
+   - 0.1479032825599216 act_current_ev_ch[0,24,17]
+   - 0.1265969791658553 act_current_ev_ch[0,24,18]
+   - 0.129053720031311 act_current_ev_ch[0,24,19]
+   - 0.1437567529266017 act_current_ev_ch[0,24,20]
+   - 0.1287606570346703 act_current_ev_ch[0,24,21]
+   - 0.1308806872231346 act_current_ev_ch[0,24,22]
+   - 0.1353452213847242 act_current_ev_ch[0,24,23]
    + 0 is_exceeding_limit[0] + 0 is_exceeding_limit[1]
    + 0 is_exceeding_limit[2] + 0 is_exceeding_limit[3]
    + 0 is_exceeding_limit[4] + 0 is_exceeding_limit[5]
@@ -3829,999 +3829,101 @@ Subject To
  R1319: - 0.6928203230275509 current_cs_dis[24,23] + power_cs_dis[24,23]
    = 0
  tr_current_limit_max[0,0]: current_tr_ch[0,0] - current_tr_dis[0,0]
-<<<<<<< HEAD
-   <= 194.9981535045627
+   <= 468.0586140949287
  tr_current_limit_max[0,1]: current_tr_ch[0,1] - current_tr_dis[0,1]
-   <= 184.6786397008009
+   <= 448.8393017442639
  tr_current_limit_max[0,2]: current_tr_ch[0,2] - current_tr_dis[0,2]
-   <= 149.4680006841618
+   <= 438.9986030785184
  tr_current_limit_max[0,3]: current_tr_ch[0,3] - current_tr_dis[0,3]
-   <= 144.2346497852651
+   <= 342.1661282075825
  tr_current_limit_max[0,4]: current_tr_ch[0,4] - current_tr_dis[0,4]
-   <= 160.6869966736715
+   <= 357.9283603313244
  tr_current_limit_max[0,5]: current_tr_ch[0,5] - current_tr_dis[0,5]
-   <= 170.8593224834019
+   <= 332.8730858154089
  tr_current_limit_max[0,6]: current_tr_ch[0,6] - current_tr_dis[0,6]
-   <= 153.949057391342
+   <= 279.99002689862
  tr_current_limit_max[0,7]: current_tr_ch[0,7] - current_tr_dis[0,7]
-   <= 146.2952817017057
+   <= 165.0506664827124
  tr_current_limit_max[0,8]: current_tr_ch[0,8] - current_tr_dis[0,8]
-   <= 104.0523274146742
+   <= 199.9466396643734
  tr_current_limit_max[0,9]: current_tr_ch[0,9] - current_tr_dis[0,9]
-   <= 130.7914796637243
+   <= 153.7552558402914
  tr_current_limit_max[0,10]: current_tr_ch[0,10] - current_tr_dis[0,10]
-   <= 117.7081024164827
+   <= 104.6886765799567
  tr_current_limit_max[0,11]: current_tr_ch[0,11] - current_tr_dis[0,11]
-   <= 160.4089749071676
+   <= 97.87720167740605
  tr_current_limit_max[0,12]: current_tr_ch[0,12] - current_tr_dis[0,12]
-   <= 127.1771966991738
+   <= 159.146247283265
  tr_current_limit_max[0,13]: current_tr_ch[0,13] - current_tr_dis[0,13]
-   <= 152.051967690492
+   <= 239.5490339470431
  tr_current_limit_max[0,14]: current_tr_ch[0,14] - current_tr_dis[0,14]
-   <= 116.7104949013805
+   <= 171.3829421458877
  tr_current_limit_max[0,15]: current_tr_ch[0,15] - current_tr_dis[0,15]
-   <= 115.3694487335382
+   <= 195.3600183732085
  tr_current_limit_max[0,16]: current_tr_ch[0,16] - current_tr_dis[0,16]
-   <= 116.6450780151443
+   <= 180.2138995572349
  tr_current_limit_max[0,17]: current_tr_ch[0,17] - current_tr_dis[0,17]
-   <= 137.1042091855184
+   <= 201.6751797778348
  tr_current_limit_max[0,18]: current_tr_ch[0,18] - current_tr_dis[0,18]
-   <= 141.3890152339901
+   <= 166.7963208547228
  tr_current_limit_max[0,19]: current_tr_ch[0,19] - current_tr_dis[0,19]
-   <= 156.1732315233731
+   <= 275.1295774706691
  tr_current_limit_max[0,20]: current_tr_ch[0,20] - current_tr_dis[0,20]
-   <= 150.4001913130278
+   <= 286.3907595959919
  tr_current_limit_max[0,21]: current_tr_ch[0,21] - current_tr_dis[0,21]
-   <= 157.1544848169163
+   <= 305.3533580684197
  tr_current_limit_max[0,22]: current_tr_ch[0,22] - current_tr_dis[0,22]
-   <= 144.3000666715013
+   <= 362.89149531057
  tr_current_limit_max[0,23]: current_tr_ch[0,23] - current_tr_dis[0,23]
-   <= 147.4564314323984
- tr_current_limit_max[0,24]: current_tr_ch[0,24] - current_tr_dis[0,24]
-   <= 171.513491345764
- tr_current_limit_max[0,25]: current_tr_ch[0,25] - current_tr_dis[0,25]
-   <= 145.9191346058475
- tr_current_limit_max[0,26]: current_tr_ch[0,26] - current_tr_dis[0,26]
-   <= 155.8788555353102
- tr_current_limit_max[0,27]: current_tr_ch[0,27] - current_tr_dis[0,27]
-   <= 169.6164016449139
- tr_current_limit_max[0,28]: current_tr_ch[0,28] - current_tr_dis[0,28]
-   <= 168.7659821238432
- tr_current_limit_max[0,29]: current_tr_ch[0,29] - current_tr_dis[0,29]
-   <= 176.2562155978891
- tr_current_limit_max[0,30]: current_tr_ch[0,30] - current_tr_dis[0,30]
-   <= 168.4225434711032
- tr_current_limit_max[0,31]: current_tr_ch[0,31] - current_tr_dis[0,31]
-   <= 174.1301667952123
- tr_current_limit_max[0,32]: current_tr_ch[0,32] - current_tr_dis[0,32]
-   <= 178.8892452688964
- tr_current_limit_max[0,33]: current_tr_ch[0,33] - current_tr_dis[0,33]
-   <= 177.3355942207864
- tr_current_limit_max[0,34]: current_tr_ch[0,34] - current_tr_dis[0,34]
-   <= 174.359125897039
- tr_current_limit_max[0,35]: current_tr_ch[0,35] - current_tr_dis[0,35]
-   <= 168.2262928123945
- tr_current_limit_max[0,36]: current_tr_ch[0,36] - current_tr_dis[0,36]
-   <= 178.9873705982507
- tr_current_limit_max[0,37]: current_tr_ch[0,37] - current_tr_dis[0,37]
-   <= 183.7955117366121
- tr_current_limit_max[0,38]: current_tr_ch[0,38] - current_tr_dis[0,38]
-   <= 177.5972617657313
- tr_current_limit_max[0,39]: current_tr_ch[0,39] - current_tr_dis[0,39]
-   <= 161.6028330809784
- tr_current_limit_max[0,40]: current_tr_ch[0,40] - current_tr_dis[0,40]
-   <= 178.5621608377154
- tr_current_limit_max[0,41]: current_tr_ch[0,41] - current_tr_dis[0,41]
-   <= 180.7045638619512
- tr_current_limit_max[0,42]: current_tr_ch[0,42] - current_tr_dis[0,42]
-   <= 174.032041465858
- tr_current_limit_max[0,43]: current_tr_ch[0,43] - current_tr_dis[0,43]
-   <= 175.6020467355269
- tr_current_limit_max[0,44]: current_tr_ch[0,44] - current_tr_dis[0,44]
-   <= 168.716919459166
- tr_current_limit_max[0,45]: current_tr_ch[0,45] - current_tr_dis[0,45]
-   <= 167.7847288303001
- tr_current_limit_max[0,46]: current_tr_ch[0,46] - current_tr_dis[0,46]
-   <= 166.5418079918121
- tr_current_limit_max[0,47]: current_tr_ch[0,47] - current_tr_dis[0,47]
-   <= 160.8178304461439
- tr_current_limit_max[0,48]: current_tr_ch[0,48] - current_tr_dis[0,48]
-   <= 159.5422011645379
- tr_current_limit_max[0,49]: current_tr_ch[0,49] - current_tr_dis[0,49]
-   <= 155.829792870633
- tr_current_limit_max[0,50]: current_tr_ch[0,50] - current_tr_dis[0,50]
-   <= 145.4121537375169
- tr_current_limit_max[0,51]: current_tr_ch[0,51] - current_tr_dis[0,51]
-   <= 144.512671551769
- tr_current_limit_max[0,52]: current_tr_ch[0,52] - current_tr_dis[0,52]
-   <= 140.6040125991556
- tr_current_limit_max[0,53]: current_tr_ch[0,53] - current_tr_dis[0,53]
-   <= 111.0028715772713
- tr_current_limit_max[0,54]: current_tr_ch[0,54] - current_tr_dis[0,54]
-   <= 115.7455958293964
- tr_current_limit_max[0,55]: current_tr_ch[0,55] - current_tr_dis[0,55]
-   <= 105.4751446903118
- tr_current_limit_max[0,56]: current_tr_ch[0,56] - current_tr_dis[0,56]
-   <= 116.4161189133176
- tr_current_limit_max[0,57]: current_tr_ch[0,57] - current_tr_dis[0,57]
-   <= 128.7472019688429
- tr_current_limit_max[0,58]: current_tr_ch[0,58] - current_tr_dis[0,58]
-   <= 48.93860076066883
- tr_current_limit_max[0,59]: current_tr_ch[0,59] - current_tr_dis[0,59]
-   <= 88.40133738266141
- tr_current_limit_max[0,60]: current_tr_ch[0,60] - current_tr_dis[0,60]
-   <= 113.1452746015072
- tr_current_limit_max[0,61]: current_tr_ch[0,61] - current_tr_dis[0,61]
-   <= 145.3303826297216
- tr_current_limit_max[0,62]: current_tr_ch[0,62] - current_tr_dis[0,62]
-   <= 154.2924960440822
- tr_current_limit_max[0,63]: current_tr_ch[0,63] - current_tr_dis[0,63]
-   <= 155.7807302059559
- tr_current_limit_max[0,64]: current_tr_ch[0,64] - current_tr_dis[0,64]
-   <= 151.9701965826967
- tr_current_limit_max[0,65]: current_tr_ch[0,65] - current_tr_dis[0,65]
-   <= 124.6750008006389
- tr_current_limit_max[0,66]: current_tr_ch[0,66] - current_tr_dis[0,66]
-   <= 138.8214024492189
- tr_current_limit_max[0,67]: current_tr_ch[0,67] - current_tr_dis[0,67]
-   <= 90.10217642480282
- tr_current_limit_max[0,68]: current_tr_ch[0,68] - current_tr_dis[0,68]
-   <= 70.36263100302702
- tr_current_limit_max[0,69]: current_tr_ch[0,69] - current_tr_dis[0,69]
-   <= 81.61433543565477
- tr_current_limit_max[0,70]: current_tr_ch[0,70] - current_tr_dis[0,70]
-   <= 126.7356327170794
- tr_current_limit_max[0,71]: current_tr_ch[0,71] - current_tr_dis[0,71]
-   <= 155.3718746669796
- tr_current_limit_max[0,72]: current_tr_ch[0,72] - current_tr_dis[0,72]
-   <= 120.9789467282931
- tr_current_limit_max[0,73]: current_tr_ch[0,73] - current_tr_dis[0,73]
-   <= 141.6179743358168
- tr_current_limit_max[0,74]: current_tr_ch[0,74] - current_tr_dis[0,74]
-   <= 160.3599122424905
- tr_current_limit_max[0,75]: current_tr_ch[0,75] - current_tr_dis[0,75]
-   <= 156.2059399664912
- tr_current_limit_max[0,76]: current_tr_ch[0,76] - current_tr_dis[0,76]
-   <= 151.5449868221614
- tr_current_limit_max[0,77]: current_tr_ch[0,77] - current_tr_dis[0,77]
-   <= 138.5106722395969
- tr_current_limit_max[0,78]: current_tr_ch[0,78] - current_tr_dis[0,78]
-   <= 174.1955836814485
- tr_current_limit_max[0,79]: current_tr_ch[0,79] - current_tr_dis[0,79]
-   <= 179.8541443408805
- tr_current_limit_max[0,80]: current_tr_ch[0,80] - current_tr_dis[0,80]
-   <= 212.4481079080713
- tr_current_limit_max[0,81]: current_tr_ch[0,81] - current_tr_dis[0,81]
-   <= 204.9088117693483
- tr_current_limit_max[0,82]: current_tr_ch[0,82] - current_tr_dis[0,82]
-   <= 194.9654450614446
- tr_current_limit_max[0,83]: current_tr_ch[0,83] - current_tr_dis[0,83]
-   <= 206.724130362403
- tr_current_limit_max[0,84]: current_tr_ch[0,84] - current_tr_dis[0,84]
-   <= 205.8410023982142
- tr_current_limit_max[0,85]: current_tr_ch[0,85] - current_tr_dis[0,85]
-   <= 207.0021521289069
- tr_current_limit_max[0,86]: current_tr_ch[0,86] - current_tr_dis[0,86]
-   <= 197.2386818581529
- tr_current_limit_max[0,87]: current_tr_ch[0,87] - current_tr_dis[0,87]
-   <= 201.8015096731284
- tr_current_limit_max[0,88]: current_tr_ch[0,88] - current_tr_dis[0,88]
-   <= 199.7572319782469
- tr_current_limit_max[0,89]: current_tr_ch[0,89] - current_tr_dis[0,89]
-   <= 208.1305934164815
- tr_current_limit_max[0,90]: current_tr_ch[0,90] - current_tr_dis[0,90]
-   <= 208.8338249435208
- tr_current_limit_max[0,91]: current_tr_ch[0,91] - current_tr_dis[0,91]
-   <= 206.9694436857888
- tr_current_limit_max[0,92]: current_tr_ch[0,92] - current_tr_dis[0,92]
-   <= 201.049215481412
- tr_current_limit_max[0,93]: current_tr_ch[0,93] - current_tr_dis[0,93]
-   <= 196.8952432054128
- tr_current_limit_max[0,94]: current_tr_ch[0,94] - current_tr_dis[0,94]
-   <= 204.5490188950491
- tr_current_limit_max[0,95]: current_tr_ch[0,95] - current_tr_dis[0,95]
-   <= 190.2227208093195
- tr_current_limit_max[0,96]: current_tr_ch[0,96] - current_tr_dis[0,96]
-   <= 192.7903335940907
- tr_current_limit_max[0,97]: current_tr_ch[0,97] - current_tr_dis[0,97]
-   <= 183.5174899701082
- tr_current_limit_max[0,98]: current_tr_ch[0,98] - current_tr_dis[0,98]
-   <= 199.5282728764201
- tr_current_limit_max[0,99]: current_tr_ch[0,99] - current_tr_dis[0,99]
-   <= 184.4496805989741
- tr_current_limit_max[0,100]: current_tr_ch[0,100] - current_tr_dis[0,100]
-   <= 162.1752308355452
- tr_current_limit_max[0,101]: current_tr_ch[0,101] - current_tr_dis[0,101]
-   <= 154.4069755949955
- tr_current_limit_max[0,102]: current_tr_ch[0,102] - current_tr_dis[0,102]
-   <= 64.81854989450827
- tr_current_limit_max[0,103]: current_tr_ch[0,103] - current_tr_dis[0,103]
-   <= 123.2194750818832
- tr_current_limit_max[0,104]: current_tr_ch[0,104] - current_tr_dis[0,104]
-   <= 118.6730014884668
- tr_current_limit_max[0,105]: current_tr_ch[0,105] - current_tr_dis[0,105]
-   <= 136.7444163112193
- tr_current_limit_max[0,106]: current_tr_ch[0,106] - current_tr_dis[0,106]
-   <= 111.1337053497438
- tr_current_limit_max[0,107]: current_tr_ch[0,107] - current_tr_dis[0,107]
-   <= 93.70010516779428
- tr_current_limit_max[0,108]: current_tr_ch[0,108] - current_tr_dis[0,108]
-   <= 178.8565368257783
- tr_current_limit_max[0,109]: current_tr_ch[0,109] - current_tr_dis[0,109]
-   <= 158.2829261044908
- tr_current_limit_max[0,110]: current_tr_ch[0,110] - current_tr_dis[0,110]
-   <= 186.5103125154147
- tr_current_limit_max[0,111]: current_tr_ch[0,111] - current_tr_dis[0,111]
-   <= 185.8724978746117
- tr_current_limit_max[1,0]: current_tr_ch[1,0] - current_tr_dis[1,0]
-   <= 210.1663460345133
- tr_current_limit_max[1,1]: current_tr_ch[1,1] - current_tr_dis[1,1]
-   <= 201.5177696410864
- tr_current_limit_max[1,2]: current_tr_ch[1,2] - current_tr_dis[1,2]
-   <= 172.0084432147028
- tr_current_limit_max[1,3]: current_tr_ch[1,3] - current_tr_dis[1,3]
-   <= 167.6224773733453
- tr_current_limit_max[1,4]: current_tr_ch[1,4] - current_tr_dis[1,4]
-   <= 181.410857487113
- tr_current_limit_max[1,5]: current_tr_ch[1,5] - current_tr_dis[1,5]
-   <= 189.9360785912517
- tr_current_limit_max[1,6]: current_tr_ch[1,6] - current_tr_dis[1,6]
-   <= 175.7639264663652
- tr_current_limit_max[1,7]: current_tr_ch[1,7] - current_tr_dis[1,7]
-   <= 169.3494514233798
- tr_current_limit_max[1,8]: current_tr_ch[1,8] - current_tr_dis[1,8]
-   <= 133.9464833976721
- tr_current_limit_max[1,9]: current_tr_ch[1,9] - current_tr_dis[1,9]
-   <= 156.3560276183582
- tr_current_limit_max[1,10]: current_tr_ch[1,10] - current_tr_dis[1,10]
-   <= 145.3911130149643
- tr_current_limit_max[1,11]: current_tr_ch[1,11] - current_tr_dis[1,11]
-   <= 181.1778530517909
- tr_current_limit_max[1,12]: current_tr_ch[1,12] - current_tr_dis[1,12]
-   <= 153.3269699591706
- tr_current_limit_max[1,13]: current_tr_ch[1,13] - current_tr_dis[1,13]
-   <= 174.174013848873
- tr_current_limit_max[1,14]: current_tr_ch[1,14] - current_tr_dis[1,14]
-   <= 144.5550382764556
- tr_current_limit_max[1,15]: current_tr_ch[1,15] - current_tr_dis[1,15]
-   <= 143.4311345296077
- tr_current_limit_max[1,16]: current_tr_ch[1,16] - current_tr_dis[1,16]
-   <= 144.5002137034386
- tr_current_limit_max[1,17]: current_tr_ch[1,17] - current_tr_dis[1,17]
-   <= 161.6465989144957
- tr_current_limit_max[1,18]: current_tr_ch[1,18] - current_tr_dis[1,18]
-   <= 165.2376084471071
- tr_current_limit_max[1,19]: current_tr_ch[1,19] - current_tr_dis[1,19]
-   <= 177.6279619489421
- tr_current_limit_max[1,20]: current_tr_ch[1,20] - current_tr_dis[1,20]
-   <= 172.7896933801946
- tr_current_limit_max[1,21]: current_tr_ch[1,21] - current_tr_dis[1,21]
-   <= 178.4503305441967
- tr_current_limit_max[1,22]: current_tr_ch[1,22] - current_tr_dis[1,22]
-   <= 167.6773019463623
- tr_current_limit_max[1,23]: current_tr_ch[1,23] - current_tr_dis[1,23]
-   <= 170.322587594431
- tr_current_limit_max[1,24]: current_tr_ch[1,24] - current_tr_dis[1,24]
-   <= 190.4843243214214
- tr_current_limit_max[1,25]: current_tr_ch[1,25] - current_tr_dis[1,25]
-   <= 169.0342101285322
- tr_current_limit_max[1,26]: current_tr_ch[1,26] - current_tr_dis[1,26]
-   <= 177.3812513703658
- tr_current_limit_max[1,27]: current_tr_ch[1,27] - current_tr_dis[1,27]
-   <= 188.8944117039293
- tr_current_limit_max[1,28]: current_tr_ch[1,28] - current_tr_dis[1,28]
-   <= 188.1816922547087
- tr_current_limit_max[1,29]: current_tr_ch[1,29] - current_tr_dis[1,29]
-   <= 194.4591058651516
- tr_current_limit_max[1,30]: current_tr_ch[1,30] - current_tr_dis[1,30]
-   <= 187.8938632463696
- tr_current_limit_max[1,31]: current_tr_ch[1,31] - current_tr_dis[1,31]
-   <= 192.6773072421001
- tr_current_limit_max[1,32]: current_tr_ch[1,32] - current_tr_dis[1,32]
-   <= 196.6657949290847
- tr_current_limit_max[1,33]: current_tr_ch[1,33] - current_tr_dis[1,33]
-   <= 195.3637113199316
- tr_current_limit_max[1,34]: current_tr_ch[1,34] - current_tr_dis[1,34]
-   <= 192.8691932476595
- tr_current_limit_max[1,35]: current_tr_ch[1,35] - current_tr_dis[1,35]
-   <= 187.7293895273187
- tr_current_limit_max[1,36]: current_tr_ch[1,36] - current_tr_dis[1,36]
-   <= 196.7480317886101
- tr_current_limit_max[1,37]: current_tr_ch[1,37] - current_tr_dis[1,37]
-   <= 200.7776379053573
- tr_current_limit_max[1,38]: current_tr_ch[1,38] - current_tr_dis[1,38]
-   <= 195.5830096119995
- tr_current_limit_max[1,39]: current_tr_ch[1,39] - current_tr_dis[1,39]
-   <= 182.1784015093506
- tr_current_limit_max[1,40]: current_tr_ch[1,40] - current_tr_dis[1,40]
-   <= 196.3916720639998
- tr_current_limit_max[1,41]: current_tr_ch[1,41] - current_tr_dis[1,41]
-   <= 198.1871768303055
- tr_current_limit_max[1,42]: current_tr_ch[1,42] - current_tr_dis[1,42]
-   <= 192.5950703825747
- tr_current_limit_max[1,43]: current_tr_ch[1,43] - current_tr_dis[1,43]
-   <= 193.9108601349819
- tr_current_limit_max[1,44]: current_tr_ch[1,44] - current_tr_dis[1,44]
-   <= 188.1405738249459
- tr_current_limit_max[1,45]: current_tr_ch[1,45] - current_tr_dis[1,45]
-   <= 187.3593236594542
- tr_current_limit_max[1,46]: current_tr_ch[1,46] - current_tr_dis[1,46]
-   <= 186.3176567721317
- tr_current_limit_max[1,47]: current_tr_ch[1,47] - current_tr_dis[1,47]
-   <= 181.5205066331469
- tr_current_limit_max[1,48]: current_tr_ch[1,48] - current_tr_dis[1,48]
-   <= 180.4514274593161
- tr_current_limit_max[1,49]: current_tr_ch[1,49] - current_tr_dis[1,49]
-   <= 177.340132940603
- tr_current_limit_max[1,50]: current_tr_ch[1,50] - current_tr_dis[1,50]
-   <= 168.6093196876508
- tr_current_limit_max[1,51]: current_tr_ch[1,51] - current_tr_dis[1,51]
-   <= 167.8554818086674
- tr_current_limit_max[1,52]: current_tr_ch[1,52] - current_tr_dis[1,52]
-   <= 164.5797135709035
- tr_current_limit_max[1,53]: current_tr_ch[1,53] - current_tr_dis[1,53]
-   <= 139.771594280725
- tr_current_limit_max[1,54]: current_tr_ch[1,54] - current_tr_dis[1,54]
-   <= 143.7463758244553
- tr_current_limit_max[1,55]: current_tr_ch[1,55] - current_tr_dis[1,55]
-   <= 135.1389178607911
- tr_current_limit_max[1,56]: current_tr_ch[1,56] - current_tr_dis[1,56]
-   <= 144.3083276978792
- tr_current_limit_max[1,57]: current_tr_ch[1,57] - current_tr_dis[1,57]
-   <= 154.6427597115779
- tr_current_limit_max[1,58]: current_tr_ch[1,58] - current_tr_dis[1,58]
-   <= 87.75678063087565
- tr_current_limit_max[1,59]: current_tr_ch[1,59] - current_tr_dis[1,59]
-   <= 120.8297043033622
- tr_current_limit_max[1,60]: current_tr_ch[1,60] - current_tr_dis[1,60]
-   <= 141.5670990470308
- tr_current_limit_max[1,61]: current_tr_ch[1,61] - current_tr_dis[1,61]
-   <= 168.5407889713795
- tr_current_limit_max[1,62]: current_tr_ch[1,62] - current_tr_dis[1,62]
-   <= 176.0517554747043
- tr_current_limit_max[1,63]: current_tr_ch[1,63] - current_tr_dis[1,63]
-   <= 177.2990145108403
- tr_current_limit_max[1,64]: current_tr_ch[1,64] - current_tr_dis[1,64]
-   <= 174.1054831326019
- tr_current_limit_max[1,65]: current_tr_ch[1,65] - current_tr_dis[1,65]
-   <= 151.2299300412716
- tr_current_limit_max[1,66]: current_tr_ch[1,66] - current_tr_dis[1,66]
-   <= 163.0857439561911
- tr_current_limit_max[1,67]: current_tr_ch[1,67] - current_tr_dis[1,67]
-   <= 122.2551432018034
- tr_current_limit_max[1,68]: current_tr_ch[1,68] - current_tr_dis[1,68]
-   <= 105.7118282939331
- tr_current_limit_max[1,69]: current_tr_ch[1,69] - current_tr_dis[1,69]
-   <= 115.1416548528517
- tr_current_limit_max[1,70]: current_tr_ch[1,70] - current_tr_dis[1,70]
-   <= 152.9569040913061
- tr_current_limit_max[1,71]: current_tr_ch[1,71] - current_tr_dis[1,71]
-   <= 176.9563609294842
- tr_current_limit_max[1,72]: current_tr_ch[1,72] - current_tr_dis[1,72]
-   <= 148.1323416658128
- tr_current_limit_max[1,73]: current_tr_ch[1,73] - current_tr_dis[1,73]
-   <= 165.4294944526665
- tr_current_limit_max[1,74]: current_tr_ch[1,74] - current_tr_dis[1,74]
-   <= 181.1367346220281
- tr_current_limit_max[1,75]: current_tr_ch[1,75] - current_tr_dis[1,75]
-   <= 177.6553742354506
- tr_current_limit_max[1,76]: current_tr_ch[1,76] - current_tr_dis[1,76]
-   <= 173.7491234079916
- tr_current_limit_max[1,77]: current_tr_ch[1,77] - current_tr_dis[1,77]
-   <= 162.8253272343605
- tr_current_limit_max[1,78]: current_tr_ch[1,78] - current_tr_dis[1,78]
-   <= 192.7321318151171
- tr_current_limit_max[1,79]: current_tr_ch[1,79] - current_tr_dis[1,79]
-   <= 197.4744573810849
- tr_current_limit_max[1,80]: current_tr_ch[1,80] - current_tr_dis[1,80]
-   <= 224.7908008867897
- tr_current_limit_max[1,81]: current_tr_ch[1,81] - current_tr_dis[1,81]
-   <= 218.4722688465841
- tr_current_limit_max[1,82]: current_tr_ch[1,82] - current_tr_dis[1,82]
-   <= 210.1389337480048
- tr_current_limit_max[1,83]: current_tr_ch[1,83] - current_tr_dis[1,83]
-   <= 219.9936507478049
- tr_current_limit_max[1,84]: current_tr_ch[1,84] - current_tr_dis[1,84]
-   <= 219.2535190120759
- tr_current_limit_max[1,85]: current_tr_ch[1,85] - current_tr_dis[1,85]
-   <= 220.2266551831271
- tr_current_limit_max[1,86]: current_tr_ch[1,86] - current_tr_dis[1,86]
-   <= 212.0440876603445
- tr_current_limit_max[1,87]: current_tr_ch[1,87] - current_tr_dis[1,87]
-   <= 215.8681016282781
- tr_current_limit_max[1,88]: current_tr_ch[1,88] - current_tr_dis[1,88]
-   <= 214.1548337214977
- tr_current_limit_max[1,89]: current_tr_ch[1,89] - current_tr_dis[1,89]
-   <= 221.1723790676698
- tr_current_limit_max[1,90]: current_tr_ch[1,90] - current_tr_dis[1,90]
-   <= 221.7617432276022
- tr_current_limit_max[1,91]: current_tr_ch[1,91] - current_tr_dis[1,91]
-   <= 220.1992428966186
- tr_current_limit_max[1,92]: current_tr_ch[1,92] - current_tr_dis[1,92]
-   <= 215.2376190385829
- tr_current_limit_max[1,93]: current_tr_ch[1,93] - current_tr_dis[1,93]
-   <= 211.7562586520054
- tr_current_limit_max[1,94]: current_tr_ch[1,94] - current_tr_dis[1,94]
-   <= 218.1707336949907
- tr_current_limit_max[1,95]: current_tr_ch[1,95] - current_tr_dis[1,95]
-   <= 206.1641522042745
- tr_current_limit_max[1,96]: current_tr_ch[1,96] - current_tr_dis[1,96]
-   <= 208.3160166951905
- tr_current_limit_max[1,97]: current_tr_ch[1,97] - current_tr_dis[1,97]
-   <= 200.5446334700352
- tr_current_limit_max[1,98]: current_tr_ch[1,98] - current_tr_dis[1,98]
-   <= 213.9629477159384
- tr_current_limit_max[1,99]: current_tr_ch[1,99] - current_tr_dis[1,99]
-   <= 201.325883635527
- tr_current_limit_max[1,100]: current_tr_ch[1,100] - current_tr_dis[1,100]
-   <= 182.658116523249
- tr_current_limit_max[1,101]: current_tr_ch[1,101] - current_tr_dis[1,101]
-   <= 176.1476984774839
- tr_current_limit_max[1,102]: current_tr_ch[1,102] - current_tr_dis[1,102]
-   <= 101.0654457307448
- tr_current_limit_max[1,103]: current_tr_ch[1,103] - current_tr_dis[1,103]
-   <= 150.010083291644
- tr_current_limit_max[1,104]: current_tr_ch[1,104] - current_tr_dis[1,104]
-   <= 146.1997754669646
- tr_current_limit_max[1,105]: current_tr_ch[1,105] - current_tr_dis[1,105]
-   <= 161.3450637629023
- tr_current_limit_max[1,106]: current_tr_ch[1,106] - current_tr_dis[1,106]
-   <= 139.8812434267589
- tr_current_limit_max[1,107]: current_tr_ch[1,107] - current_tr_dis[1,107]
-   <= 125.2704947177367
- tr_current_limit_max[1,108]: current_tr_ch[1,108] - current_tr_dis[1,108]
-   <= 196.6383826425762
- tr_current_limit_max[1,109]: current_tr_ch[1,109] - current_tr_dis[1,109]
-   <= 179.3960544287393
- tr_current_limit_max[1,110]: current_tr_ch[1,110] - current_tr_dis[1,110]
-   <= 203.0528576855615
- tr_current_limit_max[1,111]: current_tr_ch[1,111] - current_tr_dis[1,111]
-   <= 202.5183180986461
+   <= 356.7817050085332
  tr_current_limit_min[0,0]: current_tr_ch[0,0] - current_tr_dis[0,0]
-   >= -194.9981535045627
+   >= -468.0586140949287
  tr_current_limit_min[0,1]: current_tr_ch[0,1] - current_tr_dis[0,1]
-   >= -184.6786397008009
+   >= -448.8393017442639
  tr_current_limit_min[0,2]: current_tr_ch[0,2] - current_tr_dis[0,2]
-   >= -149.4680006841618
+   >= -438.9986030785184
  tr_current_limit_min[0,3]: current_tr_ch[0,3] - current_tr_dis[0,3]
-   >= -144.2346497852651
+   >= -342.1661282075825
  tr_current_limit_min[0,4]: current_tr_ch[0,4] - current_tr_dis[0,4]
-   >= -160.6869966736715
+   >= -357.9283603313244
  tr_current_limit_min[0,5]: current_tr_ch[0,5] - current_tr_dis[0,5]
-   >= -170.8593224834019
+   >= -332.8730858154089
  tr_current_limit_min[0,6]: current_tr_ch[0,6] - current_tr_dis[0,6]
-   >= -153.949057391342
+   >= -279.99002689862
  tr_current_limit_min[0,7]: current_tr_ch[0,7] - current_tr_dis[0,7]
-   >= -146.2952817017057
+   >= -165.0506664827124
  tr_current_limit_min[0,8]: current_tr_ch[0,8] - current_tr_dis[0,8]
-   >= -104.0523274146742
+   >= -199.9466396643734
  tr_current_limit_min[0,9]: current_tr_ch[0,9] - current_tr_dis[0,9]
-   >= -130.7914796637243
+   >= -153.7552558402914
  tr_current_limit_min[0,10]: current_tr_ch[0,10] - current_tr_dis[0,10]
-   >= -117.7081024164827
+   >= -104.6886765799567
  tr_current_limit_min[0,11]: current_tr_ch[0,11] - current_tr_dis[0,11]
-   >= -160.4089749071676
+   >= -97.87720167740605
  tr_current_limit_min[0,12]: current_tr_ch[0,12] - current_tr_dis[0,12]
-   >= -127.1771966991738
+   >= -159.146247283265
  tr_current_limit_min[0,13]: current_tr_ch[0,13] - current_tr_dis[0,13]
-   >= -152.051967690492
+   >= -239.5490339470431
  tr_current_limit_min[0,14]: current_tr_ch[0,14] - current_tr_dis[0,14]
-   >= -116.7104949013805
+   >= -171.3829421458877
  tr_current_limit_min[0,15]: current_tr_ch[0,15] - current_tr_dis[0,15]
-   >= -115.3694487335382
+   >= -195.3600183732085
  tr_current_limit_min[0,16]: current_tr_ch[0,16] - current_tr_dis[0,16]
-   >= -116.6450780151443
+   >= -180.2138995572349
  tr_current_limit_min[0,17]: current_tr_ch[0,17] - current_tr_dis[0,17]
-   >= -137.1042091855184
+   >= -201.6751797778348
  tr_current_limit_min[0,18]: current_tr_ch[0,18] - current_tr_dis[0,18]
-   >= -141.3890152339901
+   >= -166.7963208547228
  tr_current_limit_min[0,19]: current_tr_ch[0,19] - current_tr_dis[0,19]
-   >= -156.1732315233731
+   >= -275.1295774706691
  tr_current_limit_min[0,20]: current_tr_ch[0,20] - current_tr_dis[0,20]
-   >= -150.4001913130278
+   >= -286.3907595959919
  tr_current_limit_min[0,21]: current_tr_ch[0,21] - current_tr_dis[0,21]
-   >= -157.1544848169163
+   >= -305.3533580684197
  tr_current_limit_min[0,22]: current_tr_ch[0,22] - current_tr_dis[0,22]
-   >= -144.3000666715013
+   >= -362.89149531057
  tr_current_limit_min[0,23]: current_tr_ch[0,23] - current_tr_dis[0,23]
-   >= -147.4564314323984
- tr_current_limit_min[0,24]: current_tr_ch[0,24] - current_tr_dis[0,24]
-   >= -171.513491345764
- tr_current_limit_min[0,25]: current_tr_ch[0,25] - current_tr_dis[0,25]
-   >= -145.9191346058475
- tr_current_limit_min[0,26]: current_tr_ch[0,26] - current_tr_dis[0,26]
-   >= -155.8788555353102
- tr_current_limit_min[0,27]: current_tr_ch[0,27] - current_tr_dis[0,27]
-   >= -169.6164016449139
- tr_current_limit_min[0,28]: current_tr_ch[0,28] - current_tr_dis[0,28]
-   >= -168.7659821238432
- tr_current_limit_min[0,29]: current_tr_ch[0,29] - current_tr_dis[0,29]
-   >= -176.2562155978891
- tr_current_limit_min[0,30]: current_tr_ch[0,30] - current_tr_dis[0,30]
-   >= -168.4225434711032
- tr_current_limit_min[0,31]: current_tr_ch[0,31] - current_tr_dis[0,31]
-   >= -174.1301667952123
- tr_current_limit_min[0,32]: current_tr_ch[0,32] - current_tr_dis[0,32]
-   >= -178.8892452688964
- tr_current_limit_min[0,33]: current_tr_ch[0,33] - current_tr_dis[0,33]
-   >= -177.3355942207864
- tr_current_limit_min[0,34]: current_tr_ch[0,34] - current_tr_dis[0,34]
-   >= -174.359125897039
- tr_current_limit_min[0,35]: current_tr_ch[0,35] - current_tr_dis[0,35]
-   >= -168.2262928123945
- tr_current_limit_min[0,36]: current_tr_ch[0,36] - current_tr_dis[0,36]
-   >= -178.9873705982507
- tr_current_limit_min[0,37]: current_tr_ch[0,37] - current_tr_dis[0,37]
-   >= -183.7955117366121
- tr_current_limit_min[0,38]: current_tr_ch[0,38] - current_tr_dis[0,38]
-   >= -177.5972617657313
- tr_current_limit_min[0,39]: current_tr_ch[0,39] - current_tr_dis[0,39]
-   >= -161.6028330809784
- tr_current_limit_min[0,40]: current_tr_ch[0,40] - current_tr_dis[0,40]
-   >= -178.5621608377154
- tr_current_limit_min[0,41]: current_tr_ch[0,41] - current_tr_dis[0,41]
-   >= -180.7045638619512
- tr_current_limit_min[0,42]: current_tr_ch[0,42] - current_tr_dis[0,42]
-   >= -174.032041465858
- tr_current_limit_min[0,43]: current_tr_ch[0,43] - current_tr_dis[0,43]
-   >= -175.6020467355269
- tr_current_limit_min[0,44]: current_tr_ch[0,44] - current_tr_dis[0,44]
-   >= -168.716919459166
- tr_current_limit_min[0,45]: current_tr_ch[0,45] - current_tr_dis[0,45]
-   >= -167.7847288303001
- tr_current_limit_min[0,46]: current_tr_ch[0,46] - current_tr_dis[0,46]
-   >= -166.5418079918121
- tr_current_limit_min[0,47]: current_tr_ch[0,47] - current_tr_dis[0,47]
-   >= -160.8178304461439
- tr_current_limit_min[0,48]: current_tr_ch[0,48] - current_tr_dis[0,48]
-   >= -159.5422011645379
- tr_current_limit_min[0,49]: current_tr_ch[0,49] - current_tr_dis[0,49]
-   >= -155.829792870633
- tr_current_limit_min[0,50]: current_tr_ch[0,50] - current_tr_dis[0,50]
-   >= -145.4121537375169
- tr_current_limit_min[0,51]: current_tr_ch[0,51] - current_tr_dis[0,51]
-   >= -144.512671551769
- tr_current_limit_min[0,52]: current_tr_ch[0,52] - current_tr_dis[0,52]
-   >= -140.6040125991556
- tr_current_limit_min[0,53]: current_tr_ch[0,53] - current_tr_dis[0,53]
-   >= -111.0028715772713
- tr_current_limit_min[0,54]: current_tr_ch[0,54] - current_tr_dis[0,54]
-   >= -115.7455958293964
- tr_current_limit_min[0,55]: current_tr_ch[0,55] - current_tr_dis[0,55]
-   >= -105.4751446903118
- tr_current_limit_min[0,56]: current_tr_ch[0,56] - current_tr_dis[0,56]
-   >= -116.4161189133176
- tr_current_limit_min[0,57]: current_tr_ch[0,57] - current_tr_dis[0,57]
-   >= -128.7472019688429
- tr_current_limit_min[0,58]: current_tr_ch[0,58] - current_tr_dis[0,58]
-   >= -48.93860076066883
- tr_current_limit_min[0,59]: current_tr_ch[0,59] - current_tr_dis[0,59]
-   >= -88.40133738266141
- tr_current_limit_min[0,60]: current_tr_ch[0,60] - current_tr_dis[0,60]
-   >= -113.1452746015072
- tr_current_limit_min[0,61]: current_tr_ch[0,61] - current_tr_dis[0,61]
-   >= -145.3303826297216
- tr_current_limit_min[0,62]: current_tr_ch[0,62] - current_tr_dis[0,62]
-   >= -154.2924960440822
- tr_current_limit_min[0,63]: current_tr_ch[0,63] - current_tr_dis[0,63]
-   >= -155.7807302059559
- tr_current_limit_min[0,64]: current_tr_ch[0,64] - current_tr_dis[0,64]
-   >= -151.9701965826967
- tr_current_limit_min[0,65]: current_tr_ch[0,65] - current_tr_dis[0,65]
-   >= -124.6750008006389
- tr_current_limit_min[0,66]: current_tr_ch[0,66] - current_tr_dis[0,66]
-   >= -138.8214024492189
- tr_current_limit_min[0,67]: current_tr_ch[0,67] - current_tr_dis[0,67]
-   >= -90.10217642480282
- tr_current_limit_min[0,68]: current_tr_ch[0,68] - current_tr_dis[0,68]
-   >= -70.36263100302702
- tr_current_limit_min[0,69]: current_tr_ch[0,69] - current_tr_dis[0,69]
-   >= -81.61433543565477
- tr_current_limit_min[0,70]: current_tr_ch[0,70] - current_tr_dis[0,70]
-   >= -126.7356327170794
- tr_current_limit_min[0,71]: current_tr_ch[0,71] - current_tr_dis[0,71]
-   >= -155.3718746669796
- tr_current_limit_min[0,72]: current_tr_ch[0,72] - current_tr_dis[0,72]
-   >= -120.9789467282931
- tr_current_limit_min[0,73]: current_tr_ch[0,73] - current_tr_dis[0,73]
-   >= -141.6179743358168
- tr_current_limit_min[0,74]: current_tr_ch[0,74] - current_tr_dis[0,74]
-   >= -160.3599122424905
- tr_current_limit_min[0,75]: current_tr_ch[0,75] - current_tr_dis[0,75]
-   >= -156.2059399664912
- tr_current_limit_min[0,76]: current_tr_ch[0,76] - current_tr_dis[0,76]
-   >= -151.5449868221614
- tr_current_limit_min[0,77]: current_tr_ch[0,77] - current_tr_dis[0,77]
-   >= -138.5106722395969
- tr_current_limit_min[0,78]: current_tr_ch[0,78] - current_tr_dis[0,78]
-   >= -174.1955836814485
- tr_current_limit_min[0,79]: current_tr_ch[0,79] - current_tr_dis[0,79]
-   >= -179.8541443408805
- tr_current_limit_min[0,80]: current_tr_ch[0,80] - current_tr_dis[0,80]
-   >= -212.4481079080713
- tr_current_limit_min[0,81]: current_tr_ch[0,81] - current_tr_dis[0,81]
-   >= -204.9088117693483
- tr_current_limit_min[0,82]: current_tr_ch[0,82] - current_tr_dis[0,82]
-   >= -194.9654450614446
- tr_current_limit_min[0,83]: current_tr_ch[0,83] - current_tr_dis[0,83]
-   >= -206.724130362403
- tr_current_limit_min[0,84]: current_tr_ch[0,84] - current_tr_dis[0,84]
-   >= -205.8410023982142
- tr_current_limit_min[0,85]: current_tr_ch[0,85] - current_tr_dis[0,85]
-   >= -207.0021521289069
- tr_current_limit_min[0,86]: current_tr_ch[0,86] - current_tr_dis[0,86]
-   >= -197.2386818581529
- tr_current_limit_min[0,87]: current_tr_ch[0,87] - current_tr_dis[0,87]
-   >= -201.8015096731284
- tr_current_limit_min[0,88]: current_tr_ch[0,88] - current_tr_dis[0,88]
-   >= -199.7572319782469
- tr_current_limit_min[0,89]: current_tr_ch[0,89] - current_tr_dis[0,89]
-   >= -208.1305934164815
- tr_current_limit_min[0,90]: current_tr_ch[0,90] - current_tr_dis[0,90]
-   >= -208.8338249435208
- tr_current_limit_min[0,91]: current_tr_ch[0,91] - current_tr_dis[0,91]
-   >= -206.9694436857888
- tr_current_limit_min[0,92]: current_tr_ch[0,92] - current_tr_dis[0,92]
-   >= -201.049215481412
- tr_current_limit_min[0,93]: current_tr_ch[0,93] - current_tr_dis[0,93]
-   >= -196.8952432054128
- tr_current_limit_min[0,94]: current_tr_ch[0,94] - current_tr_dis[0,94]
-   >= -204.5490188950491
- tr_current_limit_min[0,95]: current_tr_ch[0,95] - current_tr_dis[0,95]
-   >= -190.2227208093195
- tr_current_limit_min[0,96]: current_tr_ch[0,96] - current_tr_dis[0,96]
-   >= -192.7903335940907
- tr_current_limit_min[0,97]: current_tr_ch[0,97] - current_tr_dis[0,97]
-   >= -183.5174899701082
- tr_current_limit_min[0,98]: current_tr_ch[0,98] - current_tr_dis[0,98]
-   >= -199.5282728764201
- tr_current_limit_min[0,99]: current_tr_ch[0,99] - current_tr_dis[0,99]
-   >= -184.4496805989741
- tr_current_limit_min[0,100]: current_tr_ch[0,100] - current_tr_dis[0,100]
-   >= -162.1752308355452
- tr_current_limit_min[0,101]: current_tr_ch[0,101] - current_tr_dis[0,101]
-   >= -154.4069755949955
- tr_current_limit_min[0,102]: current_tr_ch[0,102] - current_tr_dis[0,102]
-   >= -64.81854989450827
- tr_current_limit_min[0,103]: current_tr_ch[0,103] - current_tr_dis[0,103]
-   >= -123.2194750818832
- tr_current_limit_min[0,104]: current_tr_ch[0,104] - current_tr_dis[0,104]
-   >= -118.6730014884668
- tr_current_limit_min[0,105]: current_tr_ch[0,105] - current_tr_dis[0,105]
-   >= -136.7444163112193
- tr_current_limit_min[0,106]: current_tr_ch[0,106] - current_tr_dis[0,106]
-   >= -111.1337053497438
- tr_current_limit_min[0,107]: current_tr_ch[0,107] - current_tr_dis[0,107]
-   >= -93.70010516779428
- tr_current_limit_min[0,108]: current_tr_ch[0,108] - current_tr_dis[0,108]
-   >= -178.8565368257783
- tr_current_limit_min[0,109]: current_tr_ch[0,109] - current_tr_dis[0,109]
-   >= -158.2829261044908
- tr_current_limit_min[0,110]: current_tr_ch[0,110] - current_tr_dis[0,110]
-   >= -186.5103125154147
- tr_current_limit_min[0,111]: current_tr_ch[0,111] - current_tr_dis[0,111]
-   >= -185.8724978746117
- tr_current_limit_min[1,0]: current_tr_ch[1,0] - current_tr_dis[1,0]
-   >= -210.1663460345133
- tr_current_limit_min[1,1]: current_tr_ch[1,1] - current_tr_dis[1,1]
-   >= -201.5177696410864
- tr_current_limit_min[1,2]: current_tr_ch[1,2] - current_tr_dis[1,2]
-   >= -172.0084432147028
- tr_current_limit_min[1,3]: current_tr_ch[1,3] - current_tr_dis[1,3]
-   >= -167.6224773733453
- tr_current_limit_min[1,4]: current_tr_ch[1,4] - current_tr_dis[1,4]
-   >= -181.410857487113
- tr_current_limit_min[1,5]: current_tr_ch[1,5] - current_tr_dis[1,5]
-   >= -189.9360785912517
- tr_current_limit_min[1,6]: current_tr_ch[1,6] - current_tr_dis[1,6]
-   >= -175.7639264663652
- tr_current_limit_min[1,7]: current_tr_ch[1,7] - current_tr_dis[1,7]
-   >= -169.3494514233798
- tr_current_limit_min[1,8]: current_tr_ch[1,8] - current_tr_dis[1,8]
-   >= -133.9464833976721
- tr_current_limit_min[1,9]: current_tr_ch[1,9] - current_tr_dis[1,9]
-   >= -156.3560276183582
- tr_current_limit_min[1,10]: current_tr_ch[1,10] - current_tr_dis[1,10]
-   >= -145.3911130149643
- tr_current_limit_min[1,11]: current_tr_ch[1,11] - current_tr_dis[1,11]
-   >= -181.1778530517909
- tr_current_limit_min[1,12]: current_tr_ch[1,12] - current_tr_dis[1,12]
-   >= -153.3269699591706
- tr_current_limit_min[1,13]: current_tr_ch[1,13] - current_tr_dis[1,13]
-   >= -174.174013848873
- tr_current_limit_min[1,14]: current_tr_ch[1,14] - current_tr_dis[1,14]
-   >= -144.5550382764556
- tr_current_limit_min[1,15]: current_tr_ch[1,15] - current_tr_dis[1,15]
-   >= -143.4311345296077
- tr_current_limit_min[1,16]: current_tr_ch[1,16] - current_tr_dis[1,16]
-   >= -144.5002137034386
- tr_current_limit_min[1,17]: current_tr_ch[1,17] - current_tr_dis[1,17]
-   >= -161.6465989144957
- tr_current_limit_min[1,18]: current_tr_ch[1,18] - current_tr_dis[1,18]
-   >= -165.2376084471071
- tr_current_limit_min[1,19]: current_tr_ch[1,19] - current_tr_dis[1,19]
-   >= -177.6279619489421
- tr_current_limit_min[1,20]: current_tr_ch[1,20] - current_tr_dis[1,20]
-   >= -172.7896933801946
- tr_current_limit_min[1,21]: current_tr_ch[1,21] - current_tr_dis[1,21]
-   >= -178.4503305441967
- tr_current_limit_min[1,22]: current_tr_ch[1,22] - current_tr_dis[1,22]
-   >= -167.6773019463623
- tr_current_limit_min[1,23]: current_tr_ch[1,23] - current_tr_dis[1,23]
-   >= -170.322587594431
- tr_current_limit_min[1,24]: current_tr_ch[1,24] - current_tr_dis[1,24]
-   >= -190.4843243214214
- tr_current_limit_min[1,25]: current_tr_ch[1,25] - current_tr_dis[1,25]
-   >= -169.0342101285322
- tr_current_limit_min[1,26]: current_tr_ch[1,26] - current_tr_dis[1,26]
-   >= -177.3812513703658
- tr_current_limit_min[1,27]: current_tr_ch[1,27] - current_tr_dis[1,27]
-   >= -188.8944117039293
- tr_current_limit_min[1,28]: current_tr_ch[1,28] - current_tr_dis[1,28]
-   >= -188.1816922547087
- tr_current_limit_min[1,29]: current_tr_ch[1,29] - current_tr_dis[1,29]
-   >= -194.4591058651516
- tr_current_limit_min[1,30]: current_tr_ch[1,30] - current_tr_dis[1,30]
-   >= -187.8938632463696
- tr_current_limit_min[1,31]: current_tr_ch[1,31] - current_tr_dis[1,31]
-   >= -192.6773072421001
- tr_current_limit_min[1,32]: current_tr_ch[1,32] - current_tr_dis[1,32]
-   >= -196.6657949290847
- tr_current_limit_min[1,33]: current_tr_ch[1,33] - current_tr_dis[1,33]
-   >= -195.3637113199316
- tr_current_limit_min[1,34]: current_tr_ch[1,34] - current_tr_dis[1,34]
-   >= -192.8691932476595
- tr_current_limit_min[1,35]: current_tr_ch[1,35] - current_tr_dis[1,35]
-   >= -187.7293895273187
- tr_current_limit_min[1,36]: current_tr_ch[1,36] - current_tr_dis[1,36]
-   >= -196.7480317886101
- tr_current_limit_min[1,37]: current_tr_ch[1,37] - current_tr_dis[1,37]
-   >= -200.7776379053573
- tr_current_limit_min[1,38]: current_tr_ch[1,38] - current_tr_dis[1,38]
-   >= -195.5830096119995
- tr_current_limit_min[1,39]: current_tr_ch[1,39] - current_tr_dis[1,39]
-   >= -182.1784015093506
- tr_current_limit_min[1,40]: current_tr_ch[1,40] - current_tr_dis[1,40]
-   >= -196.3916720639998
- tr_current_limit_min[1,41]: current_tr_ch[1,41] - current_tr_dis[1,41]
-   >= -198.1871768303055
- tr_current_limit_min[1,42]: current_tr_ch[1,42] - current_tr_dis[1,42]
-   >= -192.5950703825747
- tr_current_limit_min[1,43]: current_tr_ch[1,43] - current_tr_dis[1,43]
-   >= -193.9108601349819
- tr_current_limit_min[1,44]: current_tr_ch[1,44] - current_tr_dis[1,44]
-   >= -188.1405738249459
- tr_current_limit_min[1,45]: current_tr_ch[1,45] - current_tr_dis[1,45]
-   >= -187.3593236594542
- tr_current_limit_min[1,46]: current_tr_ch[1,46] - current_tr_dis[1,46]
-   >= -186.3176567721317
- tr_current_limit_min[1,47]: current_tr_ch[1,47] - current_tr_dis[1,47]
-   >= -181.5205066331469
- tr_current_limit_min[1,48]: current_tr_ch[1,48] - current_tr_dis[1,48]
-   >= -180.4514274593161
- tr_current_limit_min[1,49]: current_tr_ch[1,49] - current_tr_dis[1,49]
-   >= -177.340132940603
- tr_current_limit_min[1,50]: current_tr_ch[1,50] - current_tr_dis[1,50]
-   >= -168.6093196876508
- tr_current_limit_min[1,51]: current_tr_ch[1,51] - current_tr_dis[1,51]
-   >= -167.8554818086674
- tr_current_limit_min[1,52]: current_tr_ch[1,52] - current_tr_dis[1,52]
-   >= -164.5797135709035
- tr_current_limit_min[1,53]: current_tr_ch[1,53] - current_tr_dis[1,53]
-   >= -139.771594280725
- tr_current_limit_min[1,54]: current_tr_ch[1,54] - current_tr_dis[1,54]
-   >= -143.7463758244553
- tr_current_limit_min[1,55]: current_tr_ch[1,55] - current_tr_dis[1,55]
-   >= -135.1389178607911
- tr_current_limit_min[1,56]: current_tr_ch[1,56] - current_tr_dis[1,56]
-   >= -144.3083276978792
- tr_current_limit_min[1,57]: current_tr_ch[1,57] - current_tr_dis[1,57]
-   >= -154.6427597115779
- tr_current_limit_min[1,58]: current_tr_ch[1,58] - current_tr_dis[1,58]
-   >= -87.75678063087565
- tr_current_limit_min[1,59]: current_tr_ch[1,59] - current_tr_dis[1,59]
-   >= -120.8297043033622
- tr_current_limit_min[1,60]: current_tr_ch[1,60] - current_tr_dis[1,60]
-   >= -141.5670990470308
- tr_current_limit_min[1,61]: current_tr_ch[1,61] - current_tr_dis[1,61]
-   >= -168.5407889713795
- tr_current_limit_min[1,62]: current_tr_ch[1,62] - current_tr_dis[1,62]
-   >= -176.0517554747043
- tr_current_limit_min[1,63]: current_tr_ch[1,63] - current_tr_dis[1,63]
-   >= -177.2990145108403
- tr_current_limit_min[1,64]: current_tr_ch[1,64] - current_tr_dis[1,64]
-   >= -174.1054831326019
- tr_current_limit_min[1,65]: current_tr_ch[1,65] - current_tr_dis[1,65]
-   >= -151.2299300412716
- tr_current_limit_min[1,66]: current_tr_ch[1,66] - current_tr_dis[1,66]
-   >= -163.0857439561911
- tr_current_limit_min[1,67]: current_tr_ch[1,67] - current_tr_dis[1,67]
-   >= -122.2551432018034
- tr_current_limit_min[1,68]: current_tr_ch[1,68] - current_tr_dis[1,68]
-   >= -105.7118282939331
- tr_current_limit_min[1,69]: current_tr_ch[1,69] - current_tr_dis[1,69]
-   >= -115.1416548528517
- tr_current_limit_min[1,70]: current_tr_ch[1,70] - current_tr_dis[1,70]
-   >= -152.9569040913061
- tr_current_limit_min[1,71]: current_tr_ch[1,71] - current_tr_dis[1,71]
-   >= -176.9563609294842
- tr_current_limit_min[1,72]: current_tr_ch[1,72] - current_tr_dis[1,72]
-   >= -148.1323416658128
- tr_current_limit_min[1,73]: current_tr_ch[1,73] - current_tr_dis[1,73]
-   >= -165.4294944526665
- tr_current_limit_min[1,74]: current_tr_ch[1,74] - current_tr_dis[1,74]
-   >= -181.1367346220281
- tr_current_limit_min[1,75]: current_tr_ch[1,75] - current_tr_dis[1,75]
-   >= -177.6553742354506
- tr_current_limit_min[1,76]: current_tr_ch[1,76] - current_tr_dis[1,76]
-   >= -173.7491234079916
- tr_current_limit_min[1,77]: current_tr_ch[1,77] - current_tr_dis[1,77]
-   >= -162.8253272343605
- tr_current_limit_min[1,78]: current_tr_ch[1,78] - current_tr_dis[1,78]
-   >= -192.7321318151171
- tr_current_limit_min[1,79]: current_tr_ch[1,79] - current_tr_dis[1,79]
-   >= -197.4744573810849
- tr_current_limit_min[1,80]: current_tr_ch[1,80] - current_tr_dis[1,80]
-   >= -224.7908008867897
- tr_current_limit_min[1,81]: current_tr_ch[1,81] - current_tr_dis[1,81]
-   >= -218.4722688465841
- tr_current_limit_min[1,82]: current_tr_ch[1,82] - current_tr_dis[1,82]
-   >= -210.1389337480048
- tr_current_limit_min[1,83]: current_tr_ch[1,83] - current_tr_dis[1,83]
-   >= -219.9936507478049
- tr_current_limit_min[1,84]: current_tr_ch[1,84] - current_tr_dis[1,84]
-   >= -219.2535190120759
- tr_current_limit_min[1,85]: current_tr_ch[1,85] - current_tr_dis[1,85]
-   >= -220.2266551831271
- tr_current_limit_min[1,86]: current_tr_ch[1,86] - current_tr_dis[1,86]
-   >= -212.0440876603445
- tr_current_limit_min[1,87]: current_tr_ch[1,87] - current_tr_dis[1,87]
-   >= -215.8681016282781
- tr_current_limit_min[1,88]: current_tr_ch[1,88] - current_tr_dis[1,88]
-   >= -214.1548337214977
- tr_current_limit_min[1,89]: current_tr_ch[1,89] - current_tr_dis[1,89]
-   >= -221.1723790676698
- tr_current_limit_min[1,90]: current_tr_ch[1,90] - current_tr_dis[1,90]
-   >= -221.7617432276022
- tr_current_limit_min[1,91]: current_tr_ch[1,91] - current_tr_dis[1,91]
-   >= -220.1992428966186
- tr_current_limit_min[1,92]: current_tr_ch[1,92] - current_tr_dis[1,92]
-   >= -215.2376190385829
- tr_current_limit_min[1,93]: current_tr_ch[1,93] - current_tr_dis[1,93]
-   >= -211.7562586520054
- tr_current_limit_min[1,94]: current_tr_ch[1,94] - current_tr_dis[1,94]
-   >= -218.1707336949907
- tr_current_limit_min[1,95]: current_tr_ch[1,95] - current_tr_dis[1,95]
-   >= -206.1641522042745
- tr_current_limit_min[1,96]: current_tr_ch[1,96] - current_tr_dis[1,96]
-   >= -208.3160166951905
- tr_current_limit_min[1,97]: current_tr_ch[1,97] - current_tr_dis[1,97]
-   >= -200.5446334700352
- tr_current_limit_min[1,98]: current_tr_ch[1,98] - current_tr_dis[1,98]
-   >= -213.9629477159384
- tr_current_limit_min[1,99]: current_tr_ch[1,99] - current_tr_dis[1,99]
-   >= -201.325883635527
- tr_current_limit_min[1,100]: current_tr_ch[1,100] - current_tr_dis[1,100]
-   >= -182.658116523249
- tr_current_limit_min[1,101]: current_tr_ch[1,101] - current_tr_dis[1,101]
-   >= -176.1476984774839
- tr_current_limit_min[1,102]: current_tr_ch[1,102] - current_tr_dis[1,102]
-   >= -101.0654457307448
- tr_current_limit_min[1,103]: current_tr_ch[1,103] - current_tr_dis[1,103]
-   >= -150.010083291644
- tr_current_limit_min[1,104]: current_tr_ch[1,104] - current_tr_dis[1,104]
-   >= -146.1997754669646
- tr_current_limit_min[1,105]: current_tr_ch[1,105] - current_tr_dis[1,105]
-   >= -161.3450637629023
- tr_current_limit_min[1,106]: current_tr_ch[1,106] - current_tr_dis[1,106]
-   >= -139.8812434267589
- tr_current_limit_min[1,107]: current_tr_ch[1,107] - current_tr_dis[1,107]
-   >= -125.2704947177367
- tr_current_limit_min[1,108]: current_tr_ch[1,108] - current_tr_dis[1,108]
-   >= -196.6383826425762
- tr_current_limit_min[1,109]: current_tr_ch[1,109] - current_tr_dis[1,109]
-   >= -179.3960544287393
- tr_current_limit_min[1,110]: current_tr_ch[1,110] - current_tr_dis[1,110]
-   >= -203.0528576855615
- tr_current_limit_min[1,111]: current_tr_ch[1,111] - current_tr_dis[1,111]
-   >= -202.5183180986461
-=======
-   <= 509.1727959744205
- tr_current_limit_max[0,1]: current_tr_ch[0,1] - current_tr_dis[0,1]
-   <= 504.0420577038283
- tr_current_limit_max[0,2]: current_tr_ch[0,2] - current_tr_dis[0,2]
-   <= 499.580546164183
- tr_current_limit_max[0,3]: current_tr_ch[0,3] - current_tr_dis[0,3]
-   <= 453.7942839885727
- tr_current_limit_max[0,4]: current_tr_ch[0,4] - current_tr_dis[0,4]
-   <= 456.8615731720789
- tr_current_limit_max[0,5]: current_tr_ch[0,5] - current_tr_dis[0,5]
-   <= 455.0351418855366
- tr_current_limit_max[0,6]: current_tr_ch[0,6] - current_tr_dis[0,6]
-   <= 355.7804523519891
- tr_current_limit_max[0,7]: current_tr_ch[0,7] - current_tr_dis[0,7]
-   <= 351.4583630479577
- tr_current_limit_max[0,8]: current_tr_ch[0,8] - current_tr_dis[0,8]
-   <= 287.7981702666433
- tr_current_limit_max[0,9]: current_tr_ch[0,9] - current_tr_dis[0,9]
-   <= 245.0094861567322
- tr_current_limit_max[0,10]: current_tr_ch[0,10] - current_tr_dis[0,10]
-   <= 277.1044847950558
- tr_current_limit_max[0,11]: current_tr_ch[0,11] - current_tr_dis[0,11]
-   <= 97.8772009133657
- tr_current_limit_max[0,12]: current_tr_ch[0,12] - current_tr_dis[0,12]
-   <= 137.5707113926478
- tr_current_limit_max[0,13]: current_tr_ch[0,13] - current_tr_dis[0,13]
-   <= 160.8681669637333
- tr_current_limit_max[0,14]: current_tr_ch[0,14] - current_tr_dis[0,14]
-   <= 212.5519897058123
- tr_current_limit_max[0,15]: current_tr_ch[0,15] - current_tr_dis[0,15]
-   <= 255.2709626979164
- tr_current_limit_max[0,16]: current_tr_ch[0,16] - current_tr_dis[0,16]
-   <= 260.5550654276839
- tr_current_limit_max[0,17]: current_tr_ch[0,17] - current_tr_dis[0,17]
-   <= 249.2897487900794
- tr_current_limit_max[0,18]: current_tr_ch[0,18] - current_tr_dis[0,18]
-   <= 311.0537991670445
- tr_current_limit_max[0,19]: current_tr_ch[0,19] - current_tr_dis[0,19]
-   <= 274.1069067293566
- tr_current_limit_max[0,20]: current_tr_ch[0,20] - current_tr_dis[0,20]
-   <= 315.5989640480583
- tr_current_limit_max[0,21]: current_tr_ch[0,21] - current_tr_dis[0,21]
-   <= 577.3502691896258
- tr_current_limit_max[0,22]: current_tr_ch[0,22] - current_tr_dis[0,22]
-   <= 352.2948964616412
- tr_current_limit_max[0,23]: current_tr_ch[0,23] - current_tr_dis[0,23]
-   <= 337.4743128158818
- tr_current_limit_min[0,0]: current_tr_ch[0,0] - current_tr_dis[0,0]
-   >= -509.1727959744205
- tr_current_limit_min[0,1]: current_tr_ch[0,1] - current_tr_dis[0,1]
-   >= -504.0420577038283
- tr_current_limit_min[0,2]: current_tr_ch[0,2] - current_tr_dis[0,2]
-   >= -499.580546164183
- tr_current_limit_min[0,3]: current_tr_ch[0,3] - current_tr_dis[0,3]
-   >= -453.7942839885727
- tr_current_limit_min[0,4]: current_tr_ch[0,4] - current_tr_dis[0,4]
-   >= -456.8615731720789
- tr_current_limit_min[0,5]: current_tr_ch[0,5] - current_tr_dis[0,5]
-   >= -455.0351418855366
- tr_current_limit_min[0,6]: current_tr_ch[0,6] - current_tr_dis[0,6]
-   >= -355.7804523519891
- tr_current_limit_min[0,7]: current_tr_ch[0,7] - current_tr_dis[0,7]
-   >= -351.4583630479577
- tr_current_limit_min[0,8]: current_tr_ch[0,8] - current_tr_dis[0,8]
-   >= -287.7981702666433
- tr_current_limit_min[0,9]: current_tr_ch[0,9] - current_tr_dis[0,9]
-   >= -245.0094861567322
- tr_current_limit_min[0,10]: current_tr_ch[0,10] - current_tr_dis[0,10]
-   >= -277.1044847950558
- tr_current_limit_min[0,11]: current_tr_ch[0,11] - current_tr_dis[0,11]
-   >= -97.8772009133657
- tr_current_limit_min[0,12]: current_tr_ch[0,12] - current_tr_dis[0,12]
-   >= -137.5707113926478
- tr_current_limit_min[0,13]: current_tr_ch[0,13] - current_tr_dis[0,13]
-   >= -160.8681669637333
- tr_current_limit_min[0,14]: current_tr_ch[0,14] - current_tr_dis[0,14]
-   >= -212.5519897058123
- tr_current_limit_min[0,15]: current_tr_ch[0,15] - current_tr_dis[0,15]
-   >= -255.2709626979164
- tr_current_limit_min[0,16]: current_tr_ch[0,16] - current_tr_dis[0,16]
-   >= -260.5550654276839
- tr_current_limit_min[0,17]: current_tr_ch[0,17] - current_tr_dis[0,17]
-   >= -249.2897487900794
- tr_current_limit_min[0,18]: current_tr_ch[0,18] - current_tr_dis[0,18]
-   >= -311.0537991670445
- tr_current_limit_min[0,19]: current_tr_ch[0,19] - current_tr_dis[0,19]
-   >= -274.1069067293566
- tr_current_limit_min[0,20]: current_tr_ch[0,20] - current_tr_dis[0,20]
-   >= -315.5989640480583
- tr_current_limit_min[0,21]: current_tr_ch[0,21] - current_tr_dis[0,21]
-   >= -577.3502691896258
- tr_current_limit_min[0,22]: current_tr_ch[0,22] - current_tr_dis[0,22]
-   >= -352.2948964616412
- tr_current_limit_min[0,23]: current_tr_ch[0,23] - current_tr_dis[0,23]
-   >= -337.4743128158818
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
+   >= -356.7817050085332
  cs_ch_current_output[0,0]: - act_current_ev_ch[0,0,0] + current_cs_ch[0,0]
    = 0
  cs_ch_current_output[0,1]: - act_current_ev_ch[0,0,1] + current_cs_ch[0,1]
@@ -10822,228 +9924,11 @@ Subject To
  ev_current_dis_limit_min[0,24,21]: current_ev_dis[0,24,21] >= 0
  ev_current_dis_limit_min[0,24,22]: current_ev_dis[0,24,22] >= 0
  ev_current_dis_limit_min[0,24,23]: current_ev_dis[0,24,23] >= 0
-<<<<<<< HEAD
- ev_current_dis_limit_min[0,24,24]: current_ev_dis[0,24,24] >= 0
- ev_current_dis_limit_min[0,24,25]: current_ev_dis[0,24,25] >= 0
- ev_current_dis_limit_min[0,24,26]: current_ev_dis[0,24,26] >= 0
- ev_current_dis_limit_min[0,24,27]: current_ev_dis[0,24,27] >= 0
- ev_current_dis_limit_min[0,24,28]: current_ev_dis[0,24,28] >= 0
- ev_current_dis_limit_min[0,24,29]: current_ev_dis[0,24,29] >= 0
- ev_current_dis_limit_min[0,24,30]: current_ev_dis[0,24,30] >= 0
- ev_current_dis_limit_min[0,24,31]: current_ev_dis[0,24,31] >= 0
- ev_current_dis_limit_min[0,24,32]: current_ev_dis[0,24,32] >= 0
- ev_current_dis_limit_min[0,24,33]: current_ev_dis[0,24,33] >= 0
- ev_current_dis_limit_min[0,24,34]: current_ev_dis[0,24,34] >= 0
- ev_current_dis_limit_min[0,24,35]: current_ev_dis[0,24,35] >= 0
- ev_current_dis_limit_min[0,24,36]: current_ev_dis[0,24,36] >= 0
- ev_current_dis_limit_min[0,24,37]: current_ev_dis[0,24,37] >= 0
- ev_current_dis_limit_min[0,24,38]: current_ev_dis[0,24,38] >= 0
- ev_current_dis_limit_min[0,24,39]: current_ev_dis[0,24,39] >= 0
- ev_current_dis_limit_min[0,24,40]: current_ev_dis[0,24,40] >= 0
- ev_current_dis_limit_min[0,24,41]: current_ev_dis[0,24,41] >= 0
- ev_current_dis_limit_min[0,24,42]: current_ev_dis[0,24,42] >= 0
- ev_current_dis_limit_min[0,24,43]: current_ev_dis[0,24,43] >= 0
- ev_current_dis_limit_min[0,24,44]: current_ev_dis[0,24,44] >= 0
- ev_current_dis_limit_min[0,24,45]: current_ev_dis[0,24,45] >= 0
- ev_current_dis_limit_min[0,24,46]: current_ev_dis[0,24,46] >= 0
- ev_current_dis_limit_min[0,24,47]: current_ev_dis[0,24,47] >= 0
- ev_current_dis_limit_min[0,24,48]: current_ev_dis[0,24,48] >= 0
- ev_current_dis_limit_min[0,24,49]: current_ev_dis[0,24,49] >= 0
- ev_current_dis_limit_min[0,24,50]: current_ev_dis[0,24,50] >= 0
- ev_current_dis_limit_min[0,24,51]: current_ev_dis[0,24,51] >= 0
- ev_current_dis_limit_min[0,24,52]: current_ev_dis[0,24,52] >= 0
- ev_current_dis_limit_min[0,24,53]: current_ev_dis[0,24,53] >= 0
- ev_current_dis_limit_min[0,24,54]: current_ev_dis[0,24,54] >= 0
- ev_current_dis_limit_min[0,24,55]: current_ev_dis[0,24,55] >= 0
- ev_current_dis_limit_min[0,24,56]: current_ev_dis[0,24,56] >= 0
- ev_current_dis_limit_min[0,24,57]: current_ev_dis[0,24,57] >= 0
- ev_current_dis_limit_min[0,24,58]: current_ev_dis[0,24,58] >= 0
- ev_current_dis_limit_min[0,24,59]: current_ev_dis[0,24,59] >= 0
- ev_current_dis_limit_min[0,24,60]: current_ev_dis[0,24,60] >= 0
- ev_current_dis_limit_min[0,24,61]: current_ev_dis[0,24,61] >= 0
- ev_current_dis_limit_min[0,24,62]: current_ev_dis[0,24,62] >= 0
- ev_current_dis_limit_min[0,24,63]: current_ev_dis[0,24,63] >= 0
- ev_current_dis_limit_min[0,24,64]: current_ev_dis[0,24,64] >= 0
- ev_current_dis_limit_min[0,24,65]: current_ev_dis[0,24,65] >= 0
- ev_current_dis_limit_min[0,24,66]: current_ev_dis[0,24,66] >= 0
- ev_current_dis_limit_min[0,24,67]: current_ev_dis[0,24,67] >= 0
- ev_current_dis_limit_min[0,24,68]: current_ev_dis[0,24,68] >= 0
- ev_current_dis_limit_min[0,24,69]: current_ev_dis[0,24,69] >= 0
- ev_current_dis_limit_min[0,24,70]: current_ev_dis[0,24,70] >= 0
- ev_current_dis_limit_min[0,24,71]: current_ev_dis[0,24,71] >= 0
- ev_current_dis_limit_min[0,24,72]: current_ev_dis[0,24,72] >= 0
- ev_current_dis_limit_min[0,24,73]: current_ev_dis[0,24,73] >= 0
- ev_current_dis_limit_min[0,24,74]: current_ev_dis[0,24,74] >= 0
- ev_current_dis_limit_min[0,24,75]: current_ev_dis[0,24,75] >= 0
- ev_current_dis_limit_min[0,24,76]: current_ev_dis[0,24,76] >= 0
- ev_current_dis_limit_min[0,24,77]: current_ev_dis[0,24,77] >= 0
- ev_current_dis_limit_min[0,24,78]: current_ev_dis[0,24,78] >= 0
- ev_current_dis_limit_min[0,24,79]: current_ev_dis[0,24,79] >= 0
- ev_current_dis_limit_min[0,24,80]: current_ev_dis[0,24,80] >= 0
- ev_current_dis_limit_min[0,24,81]: current_ev_dis[0,24,81] >= 0
- ev_current_dis_limit_min[0,24,82]: current_ev_dis[0,24,82] >= 0
- ev_current_dis_limit_min[0,24,83]: current_ev_dis[0,24,83] >= 0
- ev_current_dis_limit_min[0,24,84]: current_ev_dis[0,24,84] >= 0
- ev_current_dis_limit_min[0,24,85]: current_ev_dis[0,24,85] >= 0
- ev_current_dis_limit_min[0,24,86]: current_ev_dis[0,24,86] >= 0
- ev_current_dis_limit_min[0,24,87]: current_ev_dis[0,24,87] >= 0
- ev_current_dis_limit_min[0,24,88]: current_ev_dis[0,24,88] >= 0
- ev_current_dis_limit_min[0,24,89]: current_ev_dis[0,24,89] >= 0
- ev_current_dis_limit_min[0,24,90]: current_ev_dis[0,24,90] >= 0
- ev_current_dis_limit_min[0,24,91]: current_ev_dis[0,24,91] >= 0
- ev_current_dis_limit_min[0,24,92]: current_ev_dis[0,24,92] >= 0
- ev_current_dis_limit_min[0,24,93]: current_ev_dis[0,24,93] >= 0
- ev_current_dis_limit_min[0,24,94]: current_ev_dis[0,24,94] >= 0
- ev_current_dis_limit_min[0,24,95]: current_ev_dis[0,24,95] >= 0
- ev_current_dis_limit_min[0,24,96]: current_ev_dis[0,24,96] >= 0
- ev_current_dis_limit_min[0,24,97]: current_ev_dis[0,24,97] >= 0
- ev_current_dis_limit_min[0,24,98]: current_ev_dis[0,24,98] >= 0
- ev_current_dis_limit_min[0,24,99]: current_ev_dis[0,24,99] >= 0
- ev_current_dis_limit_min[0,24,100]: current_ev_dis[0,24,100] >= 0
- ev_current_dis_limit_min[0,24,101]: current_ev_dis[0,24,101] >= 0
- ev_current_dis_limit_min[0,24,102]: current_ev_dis[0,24,102] >= 0
- ev_current_dis_limit_min[0,24,103]: current_ev_dis[0,24,103] >= 0
- ev_current_dis_limit_min[0,24,104]: current_ev_dis[0,24,104] >= 0
- ev_current_dis_limit_min[0,24,105]: current_ev_dis[0,24,105] >= 0
- ev_current_dis_limit_min[0,24,106]: current_ev_dis[0,24,106] >= 0
- ev_current_dis_limit_min[0,24,107]: current_ev_dis[0,24,107] >= 0
- ev_current_dis_limit_min[0,24,108]: current_ev_dis[0,24,108] >= 0
- ev_current_dis_limit_min[0,24,109]: current_ev_dis[0,24,109] >= 0
- ev_current_dis_limit_min[0,24,110]: current_ev_dis[0,24,110] >= 0
- ev_current_dis_limit_min[0,24,111]: current_ev_dis[0,24,111] >= 0
- ev_current_ch_limit_max[0,0,18]: current_ev_ch[0,0,18]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,19]: current_ev_ch[0,0,19]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,20]: current_ev_ch[0,0,20]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,21]: current_ev_ch[0,0,21]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,22]: current_ev_ch[0,0,22]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,23]: current_ev_ch[0,0,23]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,24]: current_ev_ch[0,0,24]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,25]: current_ev_ch[0,0,25]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,26]: current_ev_ch[0,0,26]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,27]: current_ev_ch[0,0,27]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,28]: current_ev_ch[0,0,28]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,29]: current_ev_ch[0,0,29]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,30]: current_ev_ch[0,0,30]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,31]: current_ev_ch[0,0,31]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,32]: current_ev_ch[0,0,32]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,33]: current_ev_ch[0,0,33]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,34]: current_ev_ch[0,0,34]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,35]: current_ev_ch[0,0,35]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,36]: current_ev_ch[0,0,36]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,37]: current_ev_ch[0,0,37]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,38]: current_ev_ch[0,0,38]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,39]: current_ev_ch[0,0,39]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,40]: current_ev_ch[0,0,40]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,41]: current_ev_ch[0,0,41]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,42]: current_ev_ch[0,0,42]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,43]: current_ev_ch[0,0,43]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,44]: current_ev_ch[0,0,44]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,45]: current_ev_ch[0,0,45]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,46]: current_ev_ch[0,0,46]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,47]: current_ev_ch[0,0,47]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,48]: current_ev_ch[0,0,48]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,49]: current_ev_ch[0,0,49]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,50]: current_ev_ch[0,0,50]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,51]: current_ev_ch[0,0,51]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,0,52]: current_ev_ch[0,0,52]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,13]: current_ev_ch[0,1,13]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,14]: current_ev_ch[0,1,14]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,15]: current_ev_ch[0,1,15]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,16]: current_ev_ch[0,1,16]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,17]: current_ev_ch[0,1,17]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,18]: current_ev_ch[0,1,18]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,19]: current_ev_ch[0,1,19]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,20]: current_ev_ch[0,1,20]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,21]: current_ev_ch[0,1,21]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,22]: current_ev_ch[0,1,22]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,23]: current_ev_ch[0,1,23]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,24]: current_ev_ch[0,1,24]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,25]: current_ev_ch[0,1,25]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,26]: current_ev_ch[0,1,26]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,27]: current_ev_ch[0,1,27]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,28]: current_ev_ch[0,1,28]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,29]: current_ev_ch[0,1,29]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,30]: current_ev_ch[0,1,30]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,31]: current_ev_ch[0,1,31]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,32]: current_ev_ch[0,1,32]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,33]: current_ev_ch[0,1,33]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,34]: current_ev_ch[0,1,34]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,35]: current_ev_ch[0,1,35]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,36]: current_ev_ch[0,1,36]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,37]: current_ev_ch[0,1,37]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,38]: current_ev_ch[0,1,38]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,39]: current_ev_ch[0,1,39]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,40]: current_ev_ch[0,1,40]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,1,41]: current_ev_ch[0,1,41]
-=======
+ ev_current_ch_limit_max[0,0,6]: current_ev_ch[0,0,6] <= 15.87713240271471
  ev_current_ch_limit_max[0,0,7]: current_ev_ch[0,0,7] <= 15.87713240271471
  ev_current_ch_limit_max[0,0,8]: current_ev_ch[0,0,8] <= 15.87713240271471
  ev_current_ch_limit_max[0,0,9]: current_ev_ch[0,0,9] <= 15.87713240271471
  ev_current_ch_limit_max[0,0,10]: current_ev_ch[0,0,10]
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
    <= 15.87713240271471
  ev_current_ch_limit_max[0,0,11]: current_ev_ch[0,0,11]
    <= 15.87713240271471
@@ -11057,15 +9942,24 @@ Subject To
    <= 15.87713240271471
  ev_current_ch_limit_max[0,0,16]: current_ev_ch[0,0,16]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,0,17]: current_ev_ch[0,0,17]
+ ev_current_ch_limit_max[0,1,7]: current_ev_ch[0,1,7] <= 15.87713240271471
+ ev_current_ch_limit_max[0,1,8]: current_ev_ch[0,1,8] <= 15.87713240271471
+ ev_current_ch_limit_max[0,1,9]: current_ev_ch[0,1,9] <= 15.87713240271471
+ ev_current_ch_limit_max[0,1,10]: current_ev_ch[0,1,10]
    <= 15.87713240271471
+ ev_current_ch_limit_max[0,1,11]: current_ev_ch[0,1,11]
+   <= 15.87713240271471
+ ev_current_ch_limit_max[0,1,12]: current_ev_ch[0,1,12]
+   <= 15.87713240271471
+ ev_current_ch_limit_max[0,1,13]: current_ev_ch[0,1,13]
+   <= 15.87713240271471
+ ev_current_ch_limit_max[0,1,14]: current_ev_ch[0,1,14]
+   <= 15.87713240271471
+ ev_current_ch_limit_max[0,2,7]: current_ev_ch[0,2,7] <= 15.87713240271471
  ev_current_ch_limit_max[0,2,8]: current_ev_ch[0,2,8] <= 15.87713240271471
  ev_current_ch_limit_max[0,2,9]: current_ev_ch[0,2,9] <= 15.87713240271471
  ev_current_ch_limit_max[0,2,10]: current_ev_ch[0,2,10]
    <= 15.87713240271471
-<<<<<<< HEAD
- ev_current_ch_limit_max[0,2,10]: current_ev_ch[0,2,10]
-   <= 15.87713240271471
  ev_current_ch_limit_max[0,2,11]: current_ev_ch[0,2,11]
    <= 15.87713240271471
  ev_current_ch_limit_max[0,2,12]: current_ev_ch[0,2,12]
@@ -11076,182 +9970,6 @@ Subject To
    <= 15.87713240271471
  ev_current_ch_limit_max[0,2,15]: current_ev_ch[0,2,15]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,2,16]: current_ev_ch[0,2,16]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,17]: current_ev_ch[0,2,17]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,18]: current_ev_ch[0,2,18]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,19]: current_ev_ch[0,2,19]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,20]: current_ev_ch[0,2,20]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,21]: current_ev_ch[0,2,21]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,22]: current_ev_ch[0,2,22]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,23]: current_ev_ch[0,2,23]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,24]: current_ev_ch[0,2,24]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,25]: current_ev_ch[0,2,25]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,26]: current_ev_ch[0,2,26]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,27]: current_ev_ch[0,2,27]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,28]: current_ev_ch[0,2,28]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,29]: current_ev_ch[0,2,29]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,30]: current_ev_ch[0,2,30]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,31]: current_ev_ch[0,2,31]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,32]: current_ev_ch[0,2,32]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,33]: current_ev_ch[0,2,33]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,34]: current_ev_ch[0,2,34]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,35]: current_ev_ch[0,2,35]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,36]: current_ev_ch[0,2,36]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,37]: current_ev_ch[0,2,37]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,38]: current_ev_ch[0,2,38]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,39]: current_ev_ch[0,2,39]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,40]: current_ev_ch[0,2,40]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,41]: current_ev_ch[0,2,41]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,42]: current_ev_ch[0,2,42]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,43]: current_ev_ch[0,2,43]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,44]: current_ev_ch[0,2,44]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,45]: current_ev_ch[0,2,45]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,46]: current_ev_ch[0,2,46]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,47]: current_ev_ch[0,2,47]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,48]: current_ev_ch[0,2,48]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,49]: current_ev_ch[0,2,49]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,15]: current_ev_ch[0,3,15]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,16]: current_ev_ch[0,3,16]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,17]: current_ev_ch[0,3,17]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,18]: current_ev_ch[0,3,18]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,19]: current_ev_ch[0,3,19]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,20]: current_ev_ch[0,3,20]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,21]: current_ev_ch[0,3,21]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,22]: current_ev_ch[0,3,22]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,23]: current_ev_ch[0,3,23]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,24]: current_ev_ch[0,3,24]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,25]: current_ev_ch[0,3,25]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,26]: current_ev_ch[0,3,26]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,27]: current_ev_ch[0,3,27]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,28]: current_ev_ch[0,3,28]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,29]: current_ev_ch[0,3,29]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,30]: current_ev_ch[0,3,30]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,31]: current_ev_ch[0,3,31]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,32]: current_ev_ch[0,3,32]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,33]: current_ev_ch[0,3,33]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,34]: current_ev_ch[0,3,34]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,35]: current_ev_ch[0,3,35]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,36]: current_ev_ch[0,3,36]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,37]: current_ev_ch[0,3,37]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,38]: current_ev_ch[0,3,38]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,39]: current_ev_ch[0,3,39]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,4,26]: current_ev_ch[0,4,26]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,4,27]: current_ev_ch[0,4,27]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,4,28]: current_ev_ch[0,4,28]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,4,29]: current_ev_ch[0,4,29]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,4,30]: current_ev_ch[0,4,30]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,4,31]: current_ev_ch[0,4,31]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,4,32]: current_ev_ch[0,4,32]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,4,33]: current_ev_ch[0,4,33]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,4,34]: current_ev_ch[0,4,34]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,4,35]: current_ev_ch[0,4,35]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,4,36]: current_ev_ch[0,4,36]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,4,37]: current_ev_ch[0,4,37]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,4,38]: current_ev_ch[0,4,38]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,4,39]: current_ev_ch[0,4,39]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,4,40]: current_ev_ch[0,4,40]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,4,41]: current_ev_ch[0,4,41]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,4,42]: current_ev_ch[0,4,42]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,4,43]: current_ev_ch[0,4,43]
-=======
- ev_current_ch_limit_max[0,2,11]: current_ev_ch[0,2,11]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,12]: current_ev_ch[0,2,12]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,13]: current_ev_ch[0,2,13]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,14]: current_ev_ch[0,2,14]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,15]: current_ev_ch[0,2,15]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,2,16]: current_ev_ch[0,2,16]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,13]: current_ev_ch[0,3,13]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,14]: current_ev_ch[0,3,14]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,15]: current_ev_ch[0,3,15]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,3,16]: current_ev_ch[0,3,16]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,4,7]: current_ev_ch[0,4,7] <= 15.87713240271471
- ev_current_ch_limit_max[0,4,8]: current_ev_ch[0,4,8] <= 15.87713240271471
  ev_current_ch_limit_max[0,4,9]: current_ev_ch[0,4,9] <= 15.87713240271471
  ev_current_ch_limit_max[0,4,10]: current_ev_ch[0,4,10]
    <= 15.87713240271471
@@ -11263,179 +9981,34 @@ Subject To
    <= 15.87713240271471
  ev_current_ch_limit_max[0,4,14]: current_ev_ch[0,4,14]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,5,7]: current_ev_ch[0,5,7] <= 10.68097998000808
- ev_current_ch_limit_max[0,5,8]: current_ev_ch[0,5,8] <= 10.68097998000808
- ev_current_ch_limit_max[0,5,9]: current_ev_ch[0,5,9] <= 10.68097998000808
+ ev_current_ch_limit_max[0,5,6]: current_ev_ch[0,5,6] <= 15.87713240271471
+ ev_current_ch_limit_max[0,5,7]: current_ev_ch[0,5,7] <= 15.87713240271471
+ ev_current_ch_limit_max[0,5,8]: current_ev_ch[0,5,8] <= 15.87713240271471
+ ev_current_ch_limit_max[0,5,9]: current_ev_ch[0,5,9] <= 15.87713240271471
  ev_current_ch_limit_max[0,5,10]: current_ev_ch[0,5,10]
-   <= 10.68097998000808
+   <= 15.87713240271471
  ev_current_ch_limit_max[0,5,11]: current_ev_ch[0,5,11]
-   <= 10.68097998000808
+   <= 15.87713240271471
  ev_current_ch_limit_max[0,5,12]: current_ev_ch[0,5,12]
-   <= 10.68097998000808
+   <= 15.87713240271471
  ev_current_ch_limit_max[0,5,13]: current_ev_ch[0,5,13]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,5,14]: current_ev_ch[0,5,14]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,5,15]: current_ev_ch[0,5,15]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,6,6]: current_ev_ch[0,6,6] <= 15.87713240271471
- ev_current_ch_limit_max[0,6,7]: current_ev_ch[0,6,7] <= 15.87713240271471
- ev_current_ch_limit_max[0,6,8]: current_ev_ch[0,6,8] <= 15.87713240271471
- ev_current_ch_limit_max[0,6,9]: current_ev_ch[0,6,9] <= 15.87713240271471
+   <= 15.87713240271471
+ ev_current_ch_limit_max[0,6,6]: current_ev_ch[0,6,6] <= 10.68097998000808
+ ev_current_ch_limit_max[0,6,7]: current_ev_ch[0,6,7] <= 10.68097998000808
+ ev_current_ch_limit_max[0,6,8]: current_ev_ch[0,6,8] <= 10.68097998000808
+ ev_current_ch_limit_max[0,6,9]: current_ev_ch[0,6,9] <= 10.68097998000808
  ev_current_ch_limit_max[0,6,10]: current_ev_ch[0,6,10]
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
-   <= 15.87713240271471
+   <= 10.68097998000808
  ev_current_ch_limit_max[0,6,11]: current_ev_ch[0,6,11]
-   <= 15.87713240271471
+   <= 10.68097998000808
  ev_current_ch_limit_max[0,6,12]: current_ev_ch[0,6,12]
-   <= 15.87713240271471
+   <= 10.68097998000808
  ev_current_ch_limit_max[0,6,13]: current_ev_ch[0,6,13]
-   <= 15.87713240271471
+   <= 10.68097998000808
  ev_current_ch_limit_max[0,6,14]: current_ev_ch[0,6,14]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,15]: current_ev_ch[0,6,15]
-   <= 15.87713240271471
-<<<<<<< HEAD
- ev_current_ch_limit_max[0,5,41]: current_ev_ch[0,5,41]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,5,42]: current_ev_ch[0,5,42]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,5,43]: current_ev_ch[0,5,43]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,5,44]: current_ev_ch[0,5,44]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,5,45]: current_ev_ch[0,5,45]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,5,46]: current_ev_ch[0,5,46]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,5,47]: current_ev_ch[0,5,47]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,5,48]: current_ev_ch[0,5,48]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,5,49]: current_ev_ch[0,5,49]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,5,50]: current_ev_ch[0,5,50]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,5,51]: current_ev_ch[0,5,51]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,5,52]: current_ev_ch[0,5,52]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,5,53]: current_ev_ch[0,5,53]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,5,54]: current_ev_ch[0,5,54]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,23]: current_ev_ch[0,6,23]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,24]: current_ev_ch[0,6,24]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,25]: current_ev_ch[0,6,25]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,26]: current_ev_ch[0,6,26]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,27]: current_ev_ch[0,6,27]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,28]: current_ev_ch[0,6,28]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,29]: current_ev_ch[0,6,29]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,30]: current_ev_ch[0,6,30]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,31]: current_ev_ch[0,6,31]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,32]: current_ev_ch[0,6,32]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,33]: current_ev_ch[0,6,33]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,34]: current_ev_ch[0,6,34]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,35]: current_ev_ch[0,6,35]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,36]: current_ev_ch[0,6,36]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,37]: current_ev_ch[0,6,37]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,38]: current_ev_ch[0,6,38]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,39]: current_ev_ch[0,6,39]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,40]: current_ev_ch[0,6,40]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,41]: current_ev_ch[0,6,41]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,42]: current_ev_ch[0,6,42]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,43]: current_ev_ch[0,6,43]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,44]: current_ev_ch[0,6,44]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,45]: current_ev_ch[0,6,45]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,46]: current_ev_ch[0,6,46]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,6,53]: current_ev_ch[0,6,53]
    <= 10.68097998000808
- ev_current_ch_limit_max[0,6,54]: current_ev_ch[0,6,54]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,6,55]: current_ev_ch[0,6,55]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,6,56]: current_ev_ch[0,6,56]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,6,57]: current_ev_ch[0,6,57]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,6,58]: current_ev_ch[0,6,58]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,6,59]: current_ev_ch[0,6,59]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,6,60]: current_ev_ch[0,6,60]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,6,61]: current_ev_ch[0,6,61]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,6,62]: current_ev_ch[0,6,62]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,6,63]: current_ev_ch[0,6,63]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,6,64]: current_ev_ch[0,6,64]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,6,65]: current_ev_ch[0,6,65]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,7,17]: current_ev_ch[0,7,17]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,18]: current_ev_ch[0,7,18]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,19]: current_ev_ch[0,7,19]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,20]: current_ev_ch[0,7,20]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,21]: current_ev_ch[0,7,21]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,22]: current_ev_ch[0,7,22]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,23]: current_ev_ch[0,7,23]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,24]: current_ev_ch[0,7,24]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,25]: current_ev_ch[0,7,25]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,26]: current_ev_ch[0,7,26]
-=======
- ev_current_ch_limit_max[0,6,16]: current_ev_ch[0,6,16]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,7]: current_ev_ch[0,7,7] <= 15.87713240271471
- ev_current_ch_limit_max[0,7,8]: current_ev_ch[0,7,8] <= 15.87713240271471
- ev_current_ch_limit_max[0,7,9]: current_ev_ch[0,7,9] <= 15.87713240271471
- ev_current_ch_limit_max[0,7,10]: current_ev_ch[0,7,10]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,11]: current_ev_ch[0,7,11]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,12]: current_ev_ch[0,7,12]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,13]: current_ev_ch[0,7,13]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,14]: current_ev_ch[0,7,14]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,15]: current_ev_ch[0,7,15]
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
-   <= 15.87713240271471
+ ev_current_ch_limit_max[0,8,5]: current_ev_ch[0,8,5] <= 15.87713240271471
+ ev_current_ch_limit_max[0,8,6]: current_ev_ch[0,8,6] <= 15.87713240271471
  ev_current_ch_limit_max[0,8,7]: current_ev_ch[0,8,7] <= 15.87713240271471
  ev_current_ch_limit_max[0,8,8]: current_ev_ch[0,8,8] <= 15.87713240271471
  ev_current_ch_limit_max[0,8,9]: current_ev_ch[0,8,9] <= 15.87713240271471
@@ -11445,186 +10018,10 @@ Subject To
    <= 15.87713240271471
  ev_current_ch_limit_max[0,8,12]: current_ev_ch[0,8,12]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,7,44]: current_ev_ch[0,7,44]
+ ev_current_ch_limit_max[0,8,13]: current_ev_ch[0,8,13]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,7,45]: current_ev_ch[0,7,45]
+ ev_current_ch_limit_max[0,8,14]: current_ev_ch[0,8,14]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,7,46]: current_ev_ch[0,7,46]
-   <= 15.87713240271471
-<<<<<<< HEAD
- ev_current_ch_limit_max[0,7,47]: current_ev_ch[0,7,47]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,48]: current_ev_ch[0,7,48]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,49]: current_ev_ch[0,7,49]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,50]: current_ev_ch[0,7,50]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,51]: current_ev_ch[0,7,51]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,52]: current_ev_ch[0,7,52]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,53]: current_ev_ch[0,7,53]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,54]: current_ev_ch[0,7,54]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,55]: current_ev_ch[0,7,55]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,56]: current_ev_ch[0,7,56]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,57]: current_ev_ch[0,7,57]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,58]: current_ev_ch[0,7,58]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,59]: current_ev_ch[0,7,59]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,60]: current_ev_ch[0,7,60]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,61]: current_ev_ch[0,7,61]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,62]: current_ev_ch[0,7,62]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,63]: current_ev_ch[0,7,63]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,64]: current_ev_ch[0,7,64]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,65]: current_ev_ch[0,7,65]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,7,66]: current_ev_ch[0,7,66]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,17]: current_ev_ch[0,9,17]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,18]: current_ev_ch[0,9,18]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,19]: current_ev_ch[0,9,19]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,20]: current_ev_ch[0,9,20]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,21]: current_ev_ch[0,9,21]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,22]: current_ev_ch[0,9,22]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,23]: current_ev_ch[0,9,23]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,24]: current_ev_ch[0,9,24]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,25]: current_ev_ch[0,9,25]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,26]: current_ev_ch[0,9,26]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,27]: current_ev_ch[0,9,27]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,28]: current_ev_ch[0,9,28]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,29]: current_ev_ch[0,9,29]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,30]: current_ev_ch[0,9,30]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,31]: current_ev_ch[0,9,31]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,32]: current_ev_ch[0,9,32]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,33]: current_ev_ch[0,9,33]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,34]: current_ev_ch[0,9,34]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,35]: current_ev_ch[0,9,35]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,36]: current_ev_ch[0,9,36]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,37]: current_ev_ch[0,9,37]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,38]: current_ev_ch[0,9,38]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,39]: current_ev_ch[0,9,39]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,40]: current_ev_ch[0,9,40]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,41]: current_ev_ch[0,9,41]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,42]: current_ev_ch[0,9,42]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,43]: current_ev_ch[0,9,43]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,44]: current_ev_ch[0,9,44]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,45]: current_ev_ch[0,9,45]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,46]: current_ev_ch[0,9,46]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,47]: current_ev_ch[0,9,47]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,48]: current_ev_ch[0,9,48]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,49]: current_ev_ch[0,9,49]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,50]: current_ev_ch[0,9,50]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,51]: current_ev_ch[0,9,51]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,52]: current_ev_ch[0,9,52]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,53]: current_ev_ch[0,9,53]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,54]: current_ev_ch[0,9,54]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,55]: current_ev_ch[0,9,55]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,56]: current_ev_ch[0,9,56]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,57]: current_ev_ch[0,9,57]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,58]: current_ev_ch[0,9,58]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,59]: current_ev_ch[0,9,59]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,60]: current_ev_ch[0,9,60]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,10,21]: current_ev_ch[0,10,21]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,10,22]: current_ev_ch[0,10,22]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,10,23]: current_ev_ch[0,10,23]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,10,24]: current_ev_ch[0,10,24]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,10,25]: current_ev_ch[0,10,25]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,10,26]: current_ev_ch[0,10,26]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,10,27]: current_ev_ch[0,10,27]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,10,28]: current_ev_ch[0,10,28]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,10,29]: current_ev_ch[0,10,29]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,10,30]: current_ev_ch[0,10,30]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,10,31]: current_ev_ch[0,10,31]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,10,32]: current_ev_ch[0,10,32]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,10,33]: current_ev_ch[0,10,33]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,10,34]: current_ev_ch[0,10,34]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,10,35]: current_ev_ch[0,10,35]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,10,36]: current_ev_ch[0,10,36]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,10,37]: current_ev_ch[0,10,37]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,10,38]: current_ev_ch[0,10,38]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,10,39]: current_ev_ch[0,10,39]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,10,40]: current_ev_ch[0,10,40]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,10,41]: current_ev_ch[0,10,41]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,10,42]: current_ev_ch[0,10,42]
-=======
- ev_current_ch_limit_max[0,9,8]: current_ev_ch[0,9,8] <= 15.87713240271471
  ev_current_ch_limit_max[0,9,9]: current_ev_ch[0,9,9] <= 15.87713240271471
  ev_current_ch_limit_max[0,9,10]: current_ev_ch[0,9,10]
    <= 15.87713240271471
@@ -11633,8 +10030,6 @@ Subject To
  ev_current_ch_limit_max[0,9,12]: current_ev_ch[0,9,12]
    <= 15.87713240271471
  ev_current_ch_limit_max[0,9,13]: current_ev_ch[0,9,13]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,9,14]: current_ev_ch[0,9,14]
    <= 15.87713240271471
  ev_current_ch_limit_max[0,10,8]: current_ev_ch[0,10,8]
    <= 15.87713240271471
@@ -11649,8 +10044,6 @@ Subject To
  ev_current_ch_limit_max[0,10,13]: current_ev_ch[0,10,13]
    <= 15.87713240271471
  ev_current_ch_limit_max[0,10,14]: current_ev_ch[0,10,14]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,10,15]: current_ev_ch[0,10,15]
    <= 15.87713240271471
  ev_current_ch_limit_max[0,11,7]: current_ev_ch[0,11,7]
    <= 15.87713240271471
@@ -11688,26 +10081,10 @@ Subject To
    <= 15.87713240271471
  ev_current_ch_limit_max[0,12,14]: current_ev_ch[0,12,14]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,13,6]: current_ev_ch[0,13,6]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,13,7]: current_ev_ch[0,13,7]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,13,8]: current_ev_ch[0,13,8]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,13,9]: current_ev_ch[0,13,9]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,13,10]: current_ev_ch[0,13,10]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,13,11]: current_ev_ch[0,13,11]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,13,12]: current_ev_ch[0,13,12]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,13,13]: current_ev_ch[0,13,13]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,13,14]: current_ev_ch[0,13,14]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,13,15]: current_ev_ch[0,13,15]
-   <= 10.68097998000808
+ ev_current_ch_limit_max[0,12,15]: current_ev_ch[0,12,15]
+   <= 15.87713240271471
+ ev_current_ch_limit_max[0,14,7]: current_ev_ch[0,14,7]
+   <= 15.87713240271471
  ev_current_ch_limit_max[0,14,8]: current_ev_ch[0,14,8]
    <= 15.87713240271471
  ev_current_ch_limit_max[0,14,9]: current_ev_ch[0,14,9]
@@ -11724,7 +10101,27 @@ Subject To
    <= 15.87713240271471
  ev_current_ch_limit_max[0,14,15]: current_ev_ch[0,14,15]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,16,7]: current_ev_ch[0,16,7]
+ ev_current_ch_limit_max[0,14,16]: current_ev_ch[0,14,16]
+   <= 15.87713240271471
+ ev_current_ch_limit_max[0,15,7]: current_ev_ch[0,15,7]
+   <= 15.87713240271471
+ ev_current_ch_limit_max[0,15,8]: current_ev_ch[0,15,8]
+   <= 15.87713240271471
+ ev_current_ch_limit_max[0,15,9]: current_ev_ch[0,15,9]
+   <= 15.87713240271471
+ ev_current_ch_limit_max[0,15,10]: current_ev_ch[0,15,10]
+   <= 15.87713240271471
+ ev_current_ch_limit_max[0,15,11]: current_ev_ch[0,15,11]
+   <= 15.87713240271471
+ ev_current_ch_limit_max[0,15,12]: current_ev_ch[0,15,12]
+   <= 15.87713240271471
+ ev_current_ch_limit_max[0,15,13]: current_ev_ch[0,15,13]
+   <= 15.87713240271471
+ ev_current_ch_limit_max[0,15,14]: current_ev_ch[0,15,14]
+   <= 15.87713240271471
+ ev_current_ch_limit_max[0,15,15]: current_ev_ch[0,15,15]
+   <= 15.87713240271471
+ ev_current_ch_limit_max[0,15,16]: current_ev_ch[0,15,16]
    <= 15.87713240271471
  ev_current_ch_limit_max[0,16,8]: current_ev_ch[0,16,8]
    <= 15.87713240271471
@@ -11744,447 +10141,7 @@ Subject To
    <= 15.87713240271471
  ev_current_ch_limit_max[0,16,16]: current_ev_ch[0,16,16]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,17,9]: current_ev_ch[0,17,9]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,10]: current_ev_ch[0,17,10]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,11]: current_ev_ch[0,17,11]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,12]: current_ev_ch[0,17,12]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,13]: current_ev_ch[0,17,13]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,14]: current_ev_ch[0,17,14]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,15]: current_ev_ch[0,17,15]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,8]: current_ev_ch[0,19,8]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,9]: current_ev_ch[0,19,9]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,10]: current_ev_ch[0,19,10]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,11]: current_ev_ch[0,19,11]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,12]: current_ev_ch[0,19,12]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,13]: current_ev_ch[0,19,13]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,14]: current_ev_ch[0,19,14]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,15]: current_ev_ch[0,19,15]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,16]: current_ev_ch[0,19,16]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,20,10]: current_ev_ch[0,20,10]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,20,11]: current_ev_ch[0,20,11]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,20,12]: current_ev_ch[0,20,12]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,20,13]: current_ev_ch[0,20,13]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,20,14]: current_ev_ch[0,20,14]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,21,11]: current_ev_ch[0,21,11]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,21,12]: current_ev_ch[0,21,12]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,21,13]: current_ev_ch[0,21,13]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,21,14]: current_ev_ch[0,21,14]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,21,15]: current_ev_ch[0,21,15]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,23,12]: current_ev_ch[0,23,12]
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,23,13]: current_ev_ch[0,23,13]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,23,14]: current_ev_ch[0,23,14]
-   <= 15.87713240271471
-<<<<<<< HEAD
- ev_current_ch_limit_max[0,11,20]: current_ev_ch[0,11,20]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,21]: current_ev_ch[0,11,21]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,22]: current_ev_ch[0,11,22]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,23]: current_ev_ch[0,11,23]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,24]: current_ev_ch[0,11,24]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,25]: current_ev_ch[0,11,25]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,26]: current_ev_ch[0,11,26]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,27]: current_ev_ch[0,11,27]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,28]: current_ev_ch[0,11,28]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,29]: current_ev_ch[0,11,29]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,30]: current_ev_ch[0,11,30]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,31]: current_ev_ch[0,11,31]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,32]: current_ev_ch[0,11,32]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,33]: current_ev_ch[0,11,33]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,34]: current_ev_ch[0,11,34]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,35]: current_ev_ch[0,11,35]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,36]: current_ev_ch[0,11,36]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,37]: current_ev_ch[0,11,37]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,38]: current_ev_ch[0,11,38]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,39]: current_ev_ch[0,11,39]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,40]: current_ev_ch[0,11,40]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,41]: current_ev_ch[0,11,41]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,42]: current_ev_ch[0,11,42]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,43]: current_ev_ch[0,11,43]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,44]: current_ev_ch[0,11,44]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,45]: current_ev_ch[0,11,45]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,46]: current_ev_ch[0,11,46]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,47]: current_ev_ch[0,11,47]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,48]: current_ev_ch[0,11,48]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,49]: current_ev_ch[0,11,49]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,50]: current_ev_ch[0,11,50]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,51]: current_ev_ch[0,11,51]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,11,52]: current_ev_ch[0,11,52]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,12,14]: current_ev_ch[0,12,14]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,15]: current_ev_ch[0,12,15]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,16]: current_ev_ch[0,12,16]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,17]: current_ev_ch[0,12,17]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,18]: current_ev_ch[0,12,18]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,19]: current_ev_ch[0,12,19]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,20]: current_ev_ch[0,12,20]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,21]: current_ev_ch[0,12,21]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,22]: current_ev_ch[0,12,22]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,23]: current_ev_ch[0,12,23]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,24]: current_ev_ch[0,12,24]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,25]: current_ev_ch[0,12,25]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,26]: current_ev_ch[0,12,26]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,27]: current_ev_ch[0,12,27]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,28]: current_ev_ch[0,12,28]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,29]: current_ev_ch[0,12,29]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,30]: current_ev_ch[0,12,30]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,31]: current_ev_ch[0,12,31]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,32]: current_ev_ch[0,12,32]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,33]: current_ev_ch[0,12,33]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,34]: current_ev_ch[0,12,34]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,35]: current_ev_ch[0,12,35]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,36]: current_ev_ch[0,12,36]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,37]: current_ev_ch[0,12,37]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,38]: current_ev_ch[0,12,38]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,39]: current_ev_ch[0,12,39]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,40]: current_ev_ch[0,12,40]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,41]: current_ev_ch[0,12,41]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,42]: current_ev_ch[0,12,42]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,43]: current_ev_ch[0,12,43]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,44]: current_ev_ch[0,12,44]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,45]: current_ev_ch[0,12,45]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,46]: current_ev_ch[0,12,46]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,47]: current_ev_ch[0,12,47]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,48]: current_ev_ch[0,12,48]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,49]: current_ev_ch[0,12,49]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,50]: current_ev_ch[0,12,50]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,51]: current_ev_ch[0,12,51]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,52]: current_ev_ch[0,12,52]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,53]: current_ev_ch[0,12,53]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,12,54]: current_ev_ch[0,12,54]
-   <= 10.68097998000808
- ev_current_ch_limit_max[0,13,36]: current_ev_ch[0,13,36]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,13,37]: current_ev_ch[0,13,37]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,13,38]: current_ev_ch[0,13,38]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,13,39]: current_ev_ch[0,13,39]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,13,40]: current_ev_ch[0,13,40]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,13,41]: current_ev_ch[0,13,41]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,13,42]: current_ev_ch[0,13,42]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,13,43]: current_ev_ch[0,13,43]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,13,44]: current_ev_ch[0,13,44]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,13,45]: current_ev_ch[0,13,45]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,13,46]: current_ev_ch[0,13,46]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,13,47]: current_ev_ch[0,13,47]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,13,48]: current_ev_ch[0,13,48]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,13,49]: current_ev_ch[0,13,49]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,13,50]: current_ev_ch[0,13,50]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,13,51]: current_ev_ch[0,13,51]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,13,52]: current_ev_ch[0,13,52]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,17]: current_ev_ch[0,14,17]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,18]: current_ev_ch[0,14,18]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,19]: current_ev_ch[0,14,19]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,20]: current_ev_ch[0,14,20]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,21]: current_ev_ch[0,14,21]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,22]: current_ev_ch[0,14,22]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,23]: current_ev_ch[0,14,23]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,24]: current_ev_ch[0,14,24]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,25]: current_ev_ch[0,14,25]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,26]: current_ev_ch[0,14,26]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,27]: current_ev_ch[0,14,27]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,28]: current_ev_ch[0,14,28]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,29]: current_ev_ch[0,14,29]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,30]: current_ev_ch[0,14,30]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,31]: current_ev_ch[0,14,31]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,32]: current_ev_ch[0,14,32]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,33]: current_ev_ch[0,14,33]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,34]: current_ev_ch[0,14,34]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,35]: current_ev_ch[0,14,35]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,36]: current_ev_ch[0,14,36]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,37]: current_ev_ch[0,14,37]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,38]: current_ev_ch[0,14,38]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,39]: current_ev_ch[0,14,39]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,40]: current_ev_ch[0,14,40]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,41]: current_ev_ch[0,14,41]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,42]: current_ev_ch[0,14,42]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,43]: current_ev_ch[0,14,43]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,44]: current_ev_ch[0,14,44]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,45]: current_ev_ch[0,14,45]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,46]: current_ev_ch[0,14,46]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,47]: current_ev_ch[0,14,47]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,48]: current_ev_ch[0,14,48]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,49]: current_ev_ch[0,14,49]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,50]: current_ev_ch[0,14,50]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,51]: current_ev_ch[0,14,51]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,52]: current_ev_ch[0,14,52]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,53]: current_ev_ch[0,14,53]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,54]: current_ev_ch[0,14,54]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,55]: current_ev_ch[0,14,55]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,56]: current_ev_ch[0,14,56]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,57]: current_ev_ch[0,14,57]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,58]: current_ev_ch[0,14,58]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,14,59]: current_ev_ch[0,14,59]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,15,21]: current_ev_ch[0,15,21]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,15,22]: current_ev_ch[0,15,22]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,15,23]: current_ev_ch[0,15,23]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,15,24]: current_ev_ch[0,15,24]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,15,25]: current_ev_ch[0,15,25]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,15,26]: current_ev_ch[0,15,26]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,15,27]: current_ev_ch[0,15,27]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,15,28]: current_ev_ch[0,15,28]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,15,29]: current_ev_ch[0,15,29]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,15,30]: current_ev_ch[0,15,30]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,15,31]: current_ev_ch[0,15,31]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,15,32]: current_ev_ch[0,15,32]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,15,33]: current_ev_ch[0,15,33]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,15,34]: current_ev_ch[0,15,34]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,15,35]: current_ev_ch[0,15,35]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,15,36]: current_ev_ch[0,15,36]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,15,37]: current_ev_ch[0,15,37]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,15,38]: current_ev_ch[0,15,38]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,15,39]: current_ev_ch[0,15,39]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,15,40]: current_ev_ch[0,15,40]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,15,41]: current_ev_ch[0,15,41]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,16]: current_ev_ch[0,16,16]
-   <= 15.87713240271471
  ev_current_ch_limit_max[0,16,17]: current_ev_ch[0,16,17]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,18]: current_ev_ch[0,16,18]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,19]: current_ev_ch[0,16,19]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,20]: current_ev_ch[0,16,20]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,21]: current_ev_ch[0,16,21]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,22]: current_ev_ch[0,16,22]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,23]: current_ev_ch[0,16,23]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,24]: current_ev_ch[0,16,24]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,25]: current_ev_ch[0,16,25]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,26]: current_ev_ch[0,16,26]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,27]: current_ev_ch[0,16,27]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,28]: current_ev_ch[0,16,28]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,29]: current_ev_ch[0,16,29]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,30]: current_ev_ch[0,16,30]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,31]: current_ev_ch[0,16,31]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,32]: current_ev_ch[0,16,32]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,33]: current_ev_ch[0,16,33]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,34]: current_ev_ch[0,16,34]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,35]: current_ev_ch[0,16,35]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,36]: current_ev_ch[0,16,36]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,37]: current_ev_ch[0,16,37]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,38]: current_ev_ch[0,16,38]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,39]: current_ev_ch[0,16,39]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,40]: current_ev_ch[0,16,40]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,41]: current_ev_ch[0,16,41]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,42]: current_ev_ch[0,16,42]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,43]: current_ev_ch[0,16,43]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,44]: current_ev_ch[0,16,44]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,45]: current_ev_ch[0,16,45]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,46]: current_ev_ch[0,16,46]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,47]: current_ev_ch[0,16,47]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,16,48]: current_ev_ch[0,16,48]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,12]: current_ev_ch[0,17,12]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,13]: current_ev_ch[0,17,13]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,14]: current_ev_ch[0,17,14]
    <= 15.87713240271471
  ev_current_ch_limit_max[0,17,15]: current_ev_ch[0,17,15]
    <= 15.87713240271471
@@ -12194,185 +10151,67 @@ Subject To
    <= 15.87713240271471
  ev_current_ch_limit_max[0,17,18]: current_ev_ch[0,17,18]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,17,19]: current_ev_ch[0,17,19]
+ ev_current_ch_limit_max[0,19,11]: current_ev_ch[0,19,11]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,17,20]: current_ev_ch[0,17,20]
+ ev_current_ch_limit_max[0,19,12]: current_ev_ch[0,19,12]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,17,21]: current_ev_ch[0,17,21]
+ ev_current_ch_limit_max[0,19,13]: current_ev_ch[0,19,13]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,17,22]: current_ev_ch[0,17,22]
+ ev_current_ch_limit_max[0,19,14]: current_ev_ch[0,19,14]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,17,23]: current_ev_ch[0,17,23]
+ ev_current_ch_limit_max[0,20,11]: current_ev_ch[0,20,11]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,17,24]: current_ev_ch[0,17,24]
+ ev_current_ch_limit_max[0,20,12]: current_ev_ch[0,20,12]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,17,25]: current_ev_ch[0,17,25]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,26]: current_ev_ch[0,17,26]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,27]: current_ev_ch[0,17,27]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,28]: current_ev_ch[0,17,28]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,29]: current_ev_ch[0,17,29]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,30]: current_ev_ch[0,17,30]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,31]: current_ev_ch[0,17,31]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,32]: current_ev_ch[0,17,32]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,33]: current_ev_ch[0,17,33]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,34]: current_ev_ch[0,17,34]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,35]: current_ev_ch[0,17,35]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,36]: current_ev_ch[0,17,36]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,37]: current_ev_ch[0,17,37]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,38]: current_ev_ch[0,17,38]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,39]: current_ev_ch[0,17,39]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,40]: current_ev_ch[0,17,40]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,41]: current_ev_ch[0,17,41]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,42]: current_ev_ch[0,17,42]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,43]: current_ev_ch[0,17,43]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,44]: current_ev_ch[0,17,44]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,45]: current_ev_ch[0,17,45]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,46]: current_ev_ch[0,17,46]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,17,47]: current_ev_ch[0,17,47]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,25]: current_ev_ch[0,19,25]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,26]: current_ev_ch[0,19,26]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,27]: current_ev_ch[0,19,27]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,28]: current_ev_ch[0,19,28]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,29]: current_ev_ch[0,19,29]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,30]: current_ev_ch[0,19,30]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,31]: current_ev_ch[0,19,31]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,32]: current_ev_ch[0,19,32]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,33]: current_ev_ch[0,19,33]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,34]: current_ev_ch[0,19,34]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,35]: current_ev_ch[0,19,35]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,36]: current_ev_ch[0,19,36]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,37]: current_ev_ch[0,19,37]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,38]: current_ev_ch[0,19,38]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,39]: current_ev_ch[0,19,39]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,40]: current_ev_ch[0,19,40]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,41]: current_ev_ch[0,19,41]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,42]: current_ev_ch[0,19,42]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,43]: current_ev_ch[0,19,43]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,44]: current_ev_ch[0,19,44]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,45]: current_ev_ch[0,19,45]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,19,46]: current_ev_ch[0,19,46]
+ ev_current_ch_limit_max[0,20,13]: current_ev_ch[0,20,13]
    <= 15.87713240271471
  ev_current_ch_limit_max[0,20,14]: current_ev_ch[0,20,14]
    <= 15.87713240271471
  ev_current_ch_limit_max[0,20,15]: current_ev_ch[0,20,15]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,20,16]: current_ev_ch[0,20,16]
+ ev_current_ch_limit_max[0,21,9]: current_ev_ch[0,21,9]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,20,17]: current_ev_ch[0,20,17]
+ ev_current_ch_limit_max[0,21,10]: current_ev_ch[0,21,10]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,20,18]: current_ev_ch[0,20,18]
+ ev_current_ch_limit_max[0,21,11]: current_ev_ch[0,21,11]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,20,19]: current_ev_ch[0,20,19]
+ ev_current_ch_limit_max[0,21,12]: current_ev_ch[0,21,12]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,20,20]: current_ev_ch[0,20,20]
+ ev_current_ch_limit_max[0,21,13]: current_ev_ch[0,21,13]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,20,21]: current_ev_ch[0,20,21]
+ ev_current_ch_limit_max[0,21,14]: current_ev_ch[0,21,14]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,20,22]: current_ev_ch[0,20,22]
+ ev_current_ch_limit_max[0,22,6]: current_ev_ch[0,22,6]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,20,23]: current_ev_ch[0,20,23]
+ ev_current_ch_limit_max[0,22,7]: current_ev_ch[0,22,7]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,20,24]: current_ev_ch[0,20,24]
+ ev_current_ch_limit_max[0,22,8]: current_ev_ch[0,22,8]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,20,25]: current_ev_ch[0,20,25]
+ ev_current_ch_limit_max[0,22,9]: current_ev_ch[0,22,9]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,20,26]: current_ev_ch[0,20,26]
+ ev_current_ch_limit_max[0,22,10]: current_ev_ch[0,22,10]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,20,27]: current_ev_ch[0,20,27]
+ ev_current_ch_limit_max[0,22,11]: current_ev_ch[0,22,11]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,20,28]: current_ev_ch[0,20,28]
+ ev_current_ch_limit_max[0,22,12]: current_ev_ch[0,22,12]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,20,29]: current_ev_ch[0,20,29]
+ ev_current_ch_limit_max[0,22,13]: current_ev_ch[0,22,13]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,20,30]: current_ev_ch[0,20,30]
+ ev_current_ch_limit_max[0,23,8]: current_ev_ch[0,23,8]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,20,31]: current_ev_ch[0,20,31]
+ ev_current_ch_limit_max[0,23,9]: current_ev_ch[0,23,9]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,20,32]: current_ev_ch[0,20,32]
+ ev_current_ch_limit_max[0,23,10]: current_ev_ch[0,23,10]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,20,33]: current_ev_ch[0,20,33]
+ ev_current_ch_limit_max[0,23,11]: current_ev_ch[0,23,11]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,20,34]: current_ev_ch[0,20,34]
+ ev_current_ch_limit_max[0,23,12]: current_ev_ch[0,23,12]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,20,35]: current_ev_ch[0,20,35]
+ ev_current_ch_limit_max[0,23,13]: current_ev_ch[0,23,13]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,20,36]: current_ev_ch[0,20,36]
+ ev_current_ch_limit_max[0,23,14]: current_ev_ch[0,23,14]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,20,37]: current_ev_ch[0,20,37]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,20,38]: current_ev_ch[0,20,38]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,20,39]: current_ev_ch[0,20,39]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,20,40]: current_ev_ch[0,20,40]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,20,41]: current_ev_ch[0,20,41]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,20,42]: current_ev_ch[0,20,42]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,20,43]: current_ev_ch[0,20,43]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,20,44]: current_ev_ch[0,20,44]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,20,45]: current_ev_ch[0,20,45]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,20,46]: current_ev_ch[0,20,46]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,20,47]: current_ev_ch[0,20,47]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,20,48]: current_ev_ch[0,20,48]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,23,26]: current_ev_ch[0,23,26]
-=======
  ev_current_ch_limit_max[0,23,15]: current_ev_ch[0,23,15]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,23,16]: current_ev_ch[0,23,16]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,24,8]: current_ev_ch[0,24,8]
    <= 15.87713240271471
  ev_current_ch_limit_max[0,24,9]: current_ev_ch[0,24,9]
    <= 15.87713240271471
@@ -12386,12 +10225,9 @@ Subject To
    <= 15.87713240271471
  ev_current_ch_limit_max[0,24,14]: current_ev_ch[0,24,14]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,24,15]: current_ev_ch[0,24,15]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,24,16]: current_ev_ch[0,24,16]
+ ev_current_dis_limit_max[0,0,6]: current_ev_dis[0,0,6]
    <= 15.87713240271471
  ev_current_dis_limit_max[0,0,7]: current_ev_dis[0,0,7]
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
    <= 15.87713240271471
  ev_current_dis_limit_max[0,0,8]: current_ev_dis[0,0,8]
    <= 15.87713240271471
@@ -12411,29 +10247,25 @@ Subject To
    <= 15.87713240271471
  ev_current_dis_limit_max[0,0,16]: current_ev_dis[0,0,16]
    <= 15.87713240271471
- ev_current_dis_limit_max[0,0,17]: current_ev_dis[0,0,17]
+ ev_current_dis_limit_max[0,1,7]: current_ev_dis[0,1,7]
    <= 15.87713240271471
-<<<<<<< HEAD
- ev_current_ch_limit_max[0,23,37]: current_ev_ch[0,23,37]
+ ev_current_dis_limit_max[0,1,8]: current_ev_dis[0,1,8]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,23,38]: current_ev_ch[0,23,38]
+ ev_current_dis_limit_max[0,1,9]: current_ev_dis[0,1,9]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,23,39]: current_ev_ch[0,23,39]
+ ev_current_dis_limit_max[0,1,10]: current_ev_dis[0,1,10]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,23,40]: current_ev_ch[0,23,40]
+ ev_current_dis_limit_max[0,1,11]: current_ev_dis[0,1,11]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,23,41]: current_ev_ch[0,23,41]
+ ev_current_dis_limit_max[0,1,12]: current_ev_dis[0,1,12]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,23,42]: current_ev_ch[0,23,42]
+ ev_current_dis_limit_max[0,1,13]: current_ev_dis[0,1,13]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,23,43]: current_ev_ch[0,23,43]
+ ev_current_dis_limit_max[0,1,14]: current_ev_dis[0,1,14]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,24,37]: current_ev_ch[0,24,37]
+ ev_current_dis_limit_max[0,2,7]: current_ev_dis[0,2,7]
    <= 15.87713240271471
- ev_current_ch_limit_max[0,24,38]: current_ev_ch[0,24,38]
-=======
  ev_current_dis_limit_max[0,2,8]: current_ev_dis[0,2,8]
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
    <= 15.87713240271471
  ev_current_dis_limit_max[0,2,9]: current_ev_dis[0,2,9]
    <= 15.87713240271471
@@ -12449,307 +10281,20 @@ Subject To
    <= 15.87713240271471
  ev_current_dis_limit_max[0,2,15]: current_ev_dis[0,2,15]
    <= 15.87713240271471
- ev_current_dis_limit_max[0,2,16]: current_ev_dis[0,2,16]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,13]: current_ev_dis[0,3,13]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,14]: current_ev_dis[0,3,14]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,15]: current_ev_dis[0,3,15]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,16]: current_ev_dis[0,3,16]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,4,7]: current_ev_dis[0,4,7]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,4,8]: current_ev_dis[0,4,8]
-   <= 15.87713240271471
  ev_current_dis_limit_max[0,4,9]: current_ev_dis[0,4,9]
    <= 15.87713240271471
-<<<<<<< HEAD
- ev_current_ch_limit_max[0,24,51]: current_ev_ch[0,24,51]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,24,52]: current_ev_ch[0,24,52]
-   <= 15.87713240271471
- ev_current_ch_limit_max[0,24,53]: current_ev_ch[0,24,53]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,18]: current_ev_dis[0,0,18]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,19]: current_ev_dis[0,0,19]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,20]: current_ev_dis[0,0,20]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,21]: current_ev_dis[0,0,21]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,22]: current_ev_dis[0,0,22]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,23]: current_ev_dis[0,0,23]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,24]: current_ev_dis[0,0,24]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,25]: current_ev_dis[0,0,25]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,26]: current_ev_dis[0,0,26]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,27]: current_ev_dis[0,0,27]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,28]: current_ev_dis[0,0,28]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,29]: current_ev_dis[0,0,29]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,30]: current_ev_dis[0,0,30]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,31]: current_ev_dis[0,0,31]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,32]: current_ev_dis[0,0,32]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,33]: current_ev_dis[0,0,33]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,34]: current_ev_dis[0,0,34]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,35]: current_ev_dis[0,0,35]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,36]: current_ev_dis[0,0,36]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,37]: current_ev_dis[0,0,37]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,38]: current_ev_dis[0,0,38]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,39]: current_ev_dis[0,0,39]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,40]: current_ev_dis[0,0,40]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,41]: current_ev_dis[0,0,41]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,42]: current_ev_dis[0,0,42]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,43]: current_ev_dis[0,0,43]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,44]: current_ev_dis[0,0,44]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,45]: current_ev_dis[0,0,45]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,46]: current_ev_dis[0,0,46]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,47]: current_ev_dis[0,0,47]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,48]: current_ev_dis[0,0,48]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,49]: current_ev_dis[0,0,49]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,50]: current_ev_dis[0,0,50]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,51]: current_ev_dis[0,0,51]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,0,52]: current_ev_dis[0,0,52]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,13]: current_ev_dis[0,1,13]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,14]: current_ev_dis[0,1,14]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,15]: current_ev_dis[0,1,15]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,16]: current_ev_dis[0,1,16]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,17]: current_ev_dis[0,1,17]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,18]: current_ev_dis[0,1,18]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,19]: current_ev_dis[0,1,19]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,20]: current_ev_dis[0,1,20]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,21]: current_ev_dis[0,1,21]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,22]: current_ev_dis[0,1,22]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,23]: current_ev_dis[0,1,23]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,24]: current_ev_dis[0,1,24]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,25]: current_ev_dis[0,1,25]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,26]: current_ev_dis[0,1,26]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,27]: current_ev_dis[0,1,27]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,28]: current_ev_dis[0,1,28]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,29]: current_ev_dis[0,1,29]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,30]: current_ev_dis[0,1,30]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,31]: current_ev_dis[0,1,31]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,32]: current_ev_dis[0,1,32]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,33]: current_ev_dis[0,1,33]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,34]: current_ev_dis[0,1,34]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,35]: current_ev_dis[0,1,35]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,36]: current_ev_dis[0,1,36]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,37]: current_ev_dis[0,1,37]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,38]: current_ev_dis[0,1,38]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,39]: current_ev_dis[0,1,39]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,40]: current_ev_dis[0,1,40]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,41]: current_ev_dis[0,1,41]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,42]: current_ev_dis[0,1,42]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,43]: current_ev_dis[0,1,43]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,44]: current_ev_dis[0,1,44]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,45]: current_ev_dis[0,1,45]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,46]: current_ev_dis[0,1,46]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,47]: current_ev_dis[0,1,47]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,48]: current_ev_dis[0,1,48]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,1,49]: current_ev_dis[0,1,49]
-=======
  ev_current_dis_limit_max[0,4,10]: current_ev_dis[0,4,10]
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
    <= 15.87713240271471
- ev_current_dis_limit_max[0,2,10]: current_ev_dis[0,2,10]
+ ev_current_dis_limit_max[0,4,11]: current_ev_dis[0,4,11]
    <= 15.87713240271471
- ev_current_dis_limit_max[0,2,11]: current_ev_dis[0,2,11]
+ ev_current_dis_limit_max[0,4,12]: current_ev_dis[0,4,12]
    <= 15.87713240271471
- ev_current_dis_limit_max[0,2,12]: current_ev_dis[0,2,12]
+ ev_current_dis_limit_max[0,4,13]: current_ev_dis[0,4,13]
    <= 15.87713240271471
- ev_current_dis_limit_max[0,2,13]: current_ev_dis[0,2,13]
+ ev_current_dis_limit_max[0,4,14]: current_ev_dis[0,4,14]
    <= 15.87713240271471
-<<<<<<< HEAD
- ev_current_dis_limit_max[0,2,14]: current_ev_dis[0,2,14]
+ ev_current_dis_limit_max[0,5,6]: current_ev_dis[0,5,6]
    <= 15.87713240271471
- ev_current_dis_limit_max[0,2,15]: current_ev_dis[0,2,15]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,16]: current_ev_dis[0,2,16]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,17]: current_ev_dis[0,2,17]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,18]: current_ev_dis[0,2,18]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,19]: current_ev_dis[0,2,19]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,20]: current_ev_dis[0,2,20]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,21]: current_ev_dis[0,2,21]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,22]: current_ev_dis[0,2,22]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,23]: current_ev_dis[0,2,23]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,24]: current_ev_dis[0,2,24]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,25]: current_ev_dis[0,2,25]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,26]: current_ev_dis[0,2,26]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,27]: current_ev_dis[0,2,27]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,28]: current_ev_dis[0,2,28]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,29]: current_ev_dis[0,2,29]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,30]: current_ev_dis[0,2,30]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,31]: current_ev_dis[0,2,31]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,32]: current_ev_dis[0,2,32]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,33]: current_ev_dis[0,2,33]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,34]: current_ev_dis[0,2,34]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,35]: current_ev_dis[0,2,35]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,36]: current_ev_dis[0,2,36]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,37]: current_ev_dis[0,2,37]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,38]: current_ev_dis[0,2,38]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,39]: current_ev_dis[0,2,39]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,40]: current_ev_dis[0,2,40]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,41]: current_ev_dis[0,2,41]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,42]: current_ev_dis[0,2,42]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,43]: current_ev_dis[0,2,43]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,44]: current_ev_dis[0,2,44]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,45]: current_ev_dis[0,2,45]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,46]: current_ev_dis[0,2,46]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,47]: current_ev_dis[0,2,47]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,48]: current_ev_dis[0,2,48]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,2,49]: current_ev_dis[0,2,49]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,15]: current_ev_dis[0,3,15]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,16]: current_ev_dis[0,3,16]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,17]: current_ev_dis[0,3,17]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,18]: current_ev_dis[0,3,18]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,19]: current_ev_dis[0,3,19]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,20]: current_ev_dis[0,3,20]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,21]: current_ev_dis[0,3,21]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,22]: current_ev_dis[0,3,22]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,23]: current_ev_dis[0,3,23]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,24]: current_ev_dis[0,3,24]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,25]: current_ev_dis[0,3,25]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,26]: current_ev_dis[0,3,26]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,27]: current_ev_dis[0,3,27]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,28]: current_ev_dis[0,3,28]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,29]: current_ev_dis[0,3,29]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,30]: current_ev_dis[0,3,30]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,31]: current_ev_dis[0,3,31]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,32]: current_ev_dis[0,3,32]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,33]: current_ev_dis[0,3,33]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,34]: current_ev_dis[0,3,34]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,35]: current_ev_dis[0,3,35]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,36]: current_ev_dis[0,3,36]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,37]: current_ev_dis[0,3,37]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,38]: current_ev_dis[0,3,38]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,3,39]: current_ev_dis[0,3,39]
-=======
  ev_current_dis_limit_max[0,5,7]: current_ev_dis[0,5,7]
    <= 15.87713240271471
  ev_current_dis_limit_max[0,5,8]: current_ev_dis[0,5,8]
@@ -12764,14 +10309,9 @@ Subject To
    <= 15.87713240271471
  ev_current_dis_limit_max[0,5,13]: current_ev_dis[0,5,13]
    <= 15.87713240271471
- ev_current_dis_limit_max[0,5,14]: current_ev_dis[0,5,14]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,5,15]: current_ev_dis[0,5,15]
-   <= 15.87713240271471
  ev_current_dis_limit_max[0,6,6]: current_ev_dis[0,6,6]
    <= 15.87713240271471
  ev_current_dis_limit_max[0,6,7]: current_ev_dis[0,6,7]
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
    <= 15.87713240271471
  ev_current_dis_limit_max[0,6,8]: current_ev_dis[0,6,8]
    <= 15.87713240271471
@@ -12787,200 +10327,9 @@ Subject To
    <= 15.87713240271471
  ev_current_dis_limit_max[0,6,14]: current_ev_dis[0,6,14]
    <= 15.87713240271471
- ev_current_dis_limit_max[0,6,15]: current_ev_dis[0,6,15]
+ ev_current_dis_limit_max[0,8,5]: current_ev_dis[0,8,5]
    <= 15.87713240271471
- ev_current_dis_limit_max[0,6,16]: current_ev_dis[0,6,16]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,7]: current_ev_dis[0,7,7]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,8]: current_ev_dis[0,7,8]
-   <= 15.87713240271471
-<<<<<<< HEAD
- ev_current_dis_limit_max[0,4,37]: current_ev_dis[0,4,37]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,4,38]: current_ev_dis[0,4,38]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,4,39]: current_ev_dis[0,4,39]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,4,40]: current_ev_dis[0,4,40]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,4,41]: current_ev_dis[0,4,41]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,4,42]: current_ev_dis[0,4,42]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,4,43]: current_ev_dis[0,4,43]
-=======
- ev_current_dis_limit_max[0,7,9]: current_ev_dis[0,7,9]
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,10]: current_ev_dis[0,7,10]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,11]: current_ev_dis[0,7,11]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,12]: current_ev_dis[0,7,12]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,13]: current_ev_dis[0,7,13]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,14]: current_ev_dis[0,7,14]
-   <= 15.87713240271471
-<<<<<<< HEAD
- ev_current_dis_limit_max[0,5,41]: current_ev_dis[0,5,41]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,5,42]: current_ev_dis[0,5,42]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,5,43]: current_ev_dis[0,5,43]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,5,44]: current_ev_dis[0,5,44]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,5,45]: current_ev_dis[0,5,45]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,5,46]: current_ev_dis[0,5,46]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,5,47]: current_ev_dis[0,5,47]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,5,48]: current_ev_dis[0,5,48]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,5,49]: current_ev_dis[0,5,49]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,5,50]: current_ev_dis[0,5,50]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,5,51]: current_ev_dis[0,5,51]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,5,52]: current_ev_dis[0,5,52]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,5,53]: current_ev_dis[0,5,53]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,5,54]: current_ev_dis[0,5,54]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,23]: current_ev_dis[0,6,23]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,24]: current_ev_dis[0,6,24]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,25]: current_ev_dis[0,6,25]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,26]: current_ev_dis[0,6,26]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,27]: current_ev_dis[0,6,27]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,28]: current_ev_dis[0,6,28]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,29]: current_ev_dis[0,6,29]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,30]: current_ev_dis[0,6,30]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,31]: current_ev_dis[0,6,31]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,32]: current_ev_dis[0,6,32]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,33]: current_ev_dis[0,6,33]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,34]: current_ev_dis[0,6,34]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,35]: current_ev_dis[0,6,35]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,36]: current_ev_dis[0,6,36]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,37]: current_ev_dis[0,6,37]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,38]: current_ev_dis[0,6,38]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,39]: current_ev_dis[0,6,39]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,40]: current_ev_dis[0,6,40]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,41]: current_ev_dis[0,6,41]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,42]: current_ev_dis[0,6,42]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,43]: current_ev_dis[0,6,43]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,44]: current_ev_dis[0,6,44]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,45]: current_ev_dis[0,6,45]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,46]: current_ev_dis[0,6,46]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,53]: current_ev_dis[0,6,53]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,54]: current_ev_dis[0,6,54]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,55]: current_ev_dis[0,6,55]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,56]: current_ev_dis[0,6,56]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,57]: current_ev_dis[0,6,57]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,58]: current_ev_dis[0,6,58]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,59]: current_ev_dis[0,6,59]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,60]: current_ev_dis[0,6,60]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,61]: current_ev_dis[0,6,61]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,62]: current_ev_dis[0,6,62]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,63]: current_ev_dis[0,6,63]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,64]: current_ev_dis[0,6,64]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,6,65]: current_ev_dis[0,6,65]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,17]: current_ev_dis[0,7,17]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,18]: current_ev_dis[0,7,18]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,19]: current_ev_dis[0,7,19]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,20]: current_ev_dis[0,7,20]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,21]: current_ev_dis[0,7,21]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,22]: current_ev_dis[0,7,22]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,23]: current_ev_dis[0,7,23]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,24]: current_ev_dis[0,7,24]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,25]: current_ev_dis[0,7,25]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,26]: current_ev_dis[0,7,26]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,27]: current_ev_dis[0,7,27]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,28]: current_ev_dis[0,7,28]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,29]: current_ev_dis[0,7,29]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,30]: current_ev_dis[0,7,30]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,31]: current_ev_dis[0,7,31]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,32]: current_ev_dis[0,7,32]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,33]: current_ev_dis[0,7,33]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,34]: current_ev_dis[0,7,34]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,35]: current_ev_dis[0,7,35]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,36]: current_ev_dis[0,7,36]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,37]: current_ev_dis[0,7,37]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,38]: current_ev_dis[0,7,38]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,39]: current_ev_dis[0,7,39]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,40]: current_ev_dis[0,7,40]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,41]: current_ev_dis[0,7,41]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,42]: current_ev_dis[0,7,42]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,43]: current_ev_dis[0,7,43]
-=======
- ev_current_dis_limit_max[0,7,15]: current_ev_dis[0,7,15]
+ ev_current_dis_limit_max[0,8,6]: current_ev_dis[0,8,6]
    <= 15.87713240271471
  ev_current_dis_limit_max[0,8,7]: current_ev_dis[0,8,7]
    <= 15.87713240271471
@@ -12993,144 +10342,10 @@ Subject To
  ev_current_dis_limit_max[0,8,11]: current_ev_dis[0,8,11]
    <= 15.87713240271471
  ev_current_dis_limit_max[0,8,12]: current_ev_dis[0,8,12]
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
    <= 15.87713240271471
- ev_current_dis_limit_max[0,7,44]: current_ev_dis[0,7,44]
+ ev_current_dis_limit_max[0,8,13]: current_ev_dis[0,8,13]
    <= 15.87713240271471
- ev_current_dis_limit_max[0,7,45]: current_ev_dis[0,7,45]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,46]: current_ev_dis[0,7,46]
-   <= 15.87713240271471
-<<<<<<< HEAD
- ev_current_dis_limit_max[0,7,47]: current_ev_dis[0,7,47]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,48]: current_ev_dis[0,7,48]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,49]: current_ev_dis[0,7,49]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,50]: current_ev_dis[0,7,50]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,51]: current_ev_dis[0,7,51]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,52]: current_ev_dis[0,7,52]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,53]: current_ev_dis[0,7,53]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,54]: current_ev_dis[0,7,54]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,55]: current_ev_dis[0,7,55]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,56]: current_ev_dis[0,7,56]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,57]: current_ev_dis[0,7,57]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,58]: current_ev_dis[0,7,58]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,59]: current_ev_dis[0,7,59]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,60]: current_ev_dis[0,7,60]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,61]: current_ev_dis[0,7,61]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,62]: current_ev_dis[0,7,62]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,63]: current_ev_dis[0,7,63]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,64]: current_ev_dis[0,7,64]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,65]: current_ev_dis[0,7,65]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,7,66]: current_ev_dis[0,7,66]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,17]: current_ev_dis[0,9,17]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,18]: current_ev_dis[0,9,18]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,19]: current_ev_dis[0,9,19]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,20]: current_ev_dis[0,9,20]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,21]: current_ev_dis[0,9,21]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,22]: current_ev_dis[0,9,22]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,23]: current_ev_dis[0,9,23]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,24]: current_ev_dis[0,9,24]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,25]: current_ev_dis[0,9,25]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,26]: current_ev_dis[0,9,26]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,27]: current_ev_dis[0,9,27]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,28]: current_ev_dis[0,9,28]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,29]: current_ev_dis[0,9,29]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,30]: current_ev_dis[0,9,30]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,31]: current_ev_dis[0,9,31]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,32]: current_ev_dis[0,9,32]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,33]: current_ev_dis[0,9,33]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,34]: current_ev_dis[0,9,34]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,35]: current_ev_dis[0,9,35]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,36]: current_ev_dis[0,9,36]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,37]: current_ev_dis[0,9,37]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,38]: current_ev_dis[0,9,38]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,39]: current_ev_dis[0,9,39]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,40]: current_ev_dis[0,9,40]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,41]: current_ev_dis[0,9,41]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,42]: current_ev_dis[0,9,42]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,43]: current_ev_dis[0,9,43]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,44]: current_ev_dis[0,9,44]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,45]: current_ev_dis[0,9,45]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,46]: current_ev_dis[0,9,46]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,47]: current_ev_dis[0,9,47]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,48]: current_ev_dis[0,9,48]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,49]: current_ev_dis[0,9,49]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,50]: current_ev_dis[0,9,50]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,51]: current_ev_dis[0,9,51]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,52]: current_ev_dis[0,9,52]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,53]: current_ev_dis[0,9,53]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,54]: current_ev_dis[0,9,54]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,55]: current_ev_dis[0,9,55]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,56]: current_ev_dis[0,9,56]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,57]: current_ev_dis[0,9,57]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,58]: current_ev_dis[0,9,58]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,59]: current_ev_dis[0,9,59]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,60]: current_ev_dis[0,9,60]
-=======
- ev_current_dis_limit_max[0,9,8]: current_ev_dis[0,9,8]
+ ev_current_dis_limit_max[0,8,14]: current_ev_dis[0,8,14]
    <= 15.87713240271471
  ev_current_dis_limit_max[0,9,9]: current_ev_dis[0,9,9]
    <= 15.87713240271471
@@ -13141,8 +10356,6 @@ Subject To
  ev_current_dis_limit_max[0,9,12]: current_ev_dis[0,9,12]
    <= 15.87713240271471
  ev_current_dis_limit_max[0,9,13]: current_ev_dis[0,9,13]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,9,14]: current_ev_dis[0,9,14]
    <= 15.87713240271471
  ev_current_dis_limit_max[0,10,8]: current_ev_dis[0,10,8]
    <= 15.87713240271471
@@ -13157,8 +10370,6 @@ Subject To
  ev_current_dis_limit_max[0,10,13]: current_ev_dis[0,10,13]
    <= 15.87713240271471
  ev_current_dis_limit_max[0,10,14]: current_ev_dis[0,10,14]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,10,15]: current_ev_dis[0,10,15]
    <= 15.87713240271471
  ev_current_dis_limit_max[0,11,7]: current_ev_dis[0,11,7]
    <= 15.87713240271471
@@ -13189,7 +10400,6 @@ Subject To
  ev_current_dis_limit_max[0,12,10]: current_ev_dis[0,12,10]
    <= 15.87713240271471
  ev_current_dis_limit_max[0,12,11]: current_ev_dis[0,12,11]
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
    <= 15.87713240271471
  ev_current_dis_limit_max[0,12,12]: current_ev_dis[0,12,12]
    <= 15.87713240271471
@@ -13197,25 +10407,9 @@ Subject To
    <= 15.87713240271471
  ev_current_dis_limit_max[0,12,14]: current_ev_dis[0,12,14]
    <= 15.87713240271471
- ev_current_dis_limit_max[0,13,6]: current_ev_dis[0,13,6]
+ ev_current_dis_limit_max[0,12,15]: current_ev_dis[0,12,15]
    <= 15.87713240271471
- ev_current_dis_limit_max[0,13,7]: current_ev_dis[0,13,7]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,8]: current_ev_dis[0,13,8]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,9]: current_ev_dis[0,13,9]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,10]: current_ev_dis[0,13,10]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,11]: current_ev_dis[0,13,11]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,12]: current_ev_dis[0,13,12]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,13]: current_ev_dis[0,13,13]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,14]: current_ev_dis[0,13,14]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,15]: current_ev_dis[0,13,15]
+ ev_current_dis_limit_max[0,14,7]: current_ev_dis[0,14,7]
    <= 15.87713240271471
  ev_current_dis_limit_max[0,14,8]: current_ev_dis[0,14,8]
    <= 15.87713240271471
@@ -13233,11 +10427,28 @@ Subject To
    <= 15.87713240271471
  ev_current_dis_limit_max[0,14,15]: current_ev_dis[0,14,15]
    <= 15.87713240271471
- ev_current_dis_limit_max[0,16,7]: current_ev_dis[0,16,7]
+ ev_current_dis_limit_max[0,14,16]: current_ev_dis[0,14,16]
    <= 15.87713240271471
-<<<<<<< HEAD
- ev_current_dis_limit_max[0,11,18]: current_ev_dis[0,11,18]
-=======
+ ev_current_dis_limit_max[0,15,7]: current_ev_dis[0,15,7]
+   <= 15.87713240271471
+ ev_current_dis_limit_max[0,15,8]: current_ev_dis[0,15,8]
+   <= 15.87713240271471
+ ev_current_dis_limit_max[0,15,9]: current_ev_dis[0,15,9]
+   <= 15.87713240271471
+ ev_current_dis_limit_max[0,15,10]: current_ev_dis[0,15,10]
+   <= 15.87713240271471
+ ev_current_dis_limit_max[0,15,11]: current_ev_dis[0,15,11]
+   <= 15.87713240271471
+ ev_current_dis_limit_max[0,15,12]: current_ev_dis[0,15,12]
+   <= 15.87713240271471
+ ev_current_dis_limit_max[0,15,13]: current_ev_dis[0,15,13]
+   <= 15.87713240271471
+ ev_current_dis_limit_max[0,15,14]: current_ev_dis[0,15,14]
+   <= 15.87713240271471
+ ev_current_dis_limit_max[0,15,15]: current_ev_dis[0,15,15]
+   <= 15.87713240271471
+ ev_current_dis_limit_max[0,15,16]: current_ev_dis[0,15,16]
+   <= 15.87713240271471
  ev_current_dis_limit_max[0,16,8]: current_ev_dis[0,16,8]
    <= 15.87713240271471
  ev_current_dis_limit_max[0,16,9]: current_ev_dis[0,16,9]
@@ -13256,26 +10467,15 @@ Subject To
    <= 15.87713240271471
  ev_current_dis_limit_max[0,16,16]: current_ev_dis[0,16,16]
    <= 15.87713240271471
- ev_current_dis_limit_max[0,17,9]: current_ev_dis[0,17,9]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,17,10]: current_ev_dis[0,17,10]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,17,11]: current_ev_dis[0,17,11]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,17,12]: current_ev_dis[0,17,12]
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,17,13]: current_ev_dis[0,17,13]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,17,14]: current_ev_dis[0,17,14]
+ ev_current_dis_limit_max[0,16,17]: current_ev_dis[0,16,17]
    <= 15.87713240271471
  ev_current_dis_limit_max[0,17,15]: current_ev_dis[0,17,15]
    <= 15.87713240271471
- ev_current_dis_limit_max[0,19,8]: current_ev_dis[0,19,8]
+ ev_current_dis_limit_max[0,17,16]: current_ev_dis[0,17,16]
    <= 15.87713240271471
- ev_current_dis_limit_max[0,19,9]: current_ev_dis[0,19,9]
+ ev_current_dis_limit_max[0,17,17]: current_ev_dis[0,17,17]
    <= 15.87713240271471
- ev_current_dis_limit_max[0,19,10]: current_ev_dis[0,19,10]
+ ev_current_dis_limit_max[0,17,18]: current_ev_dis[0,17,18]
    <= 15.87713240271471
  ev_current_dis_limit_max[0,19,11]: current_ev_dis[0,19,11]
    <= 15.87713240271471
@@ -13285,12 +10485,6 @@ Subject To
    <= 15.87713240271471
  ev_current_dis_limit_max[0,19,14]: current_ev_dis[0,19,14]
    <= 15.87713240271471
- ev_current_dis_limit_max[0,19,15]: current_ev_dis[0,19,15]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,19,16]: current_ev_dis[0,19,16]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,10]: current_ev_dis[0,20,10]
-   <= 15.87713240271471
  ev_current_dis_limit_max[0,20,11]: current_ev_dis[0,20,11]
    <= 15.87713240271471
  ev_current_dis_limit_max[0,20,12]: current_ev_dis[0,20,12]
@@ -13298,6 +10492,12 @@ Subject To
  ev_current_dis_limit_max[0,20,13]: current_ev_dis[0,20,13]
    <= 15.87713240271471
  ev_current_dis_limit_max[0,20,14]: current_ev_dis[0,20,14]
+   <= 15.87713240271471
+ ev_current_dis_limit_max[0,20,15]: current_ev_dis[0,20,15]
+   <= 15.87713240271471
+ ev_current_dis_limit_max[0,21,9]: current_ev_dis[0,21,9]
+   <= 15.87713240271471
+ ev_current_dis_limit_max[0,21,10]: current_ev_dis[0,21,10]
    <= 15.87713240271471
  ev_current_dis_limit_max[0,21,11]: current_ev_dis[0,21,11]
    <= 15.87713240271471
@@ -13307,7 +10507,29 @@ Subject To
    <= 15.87713240271471
  ev_current_dis_limit_max[0,21,14]: current_ev_dis[0,21,14]
    <= 15.87713240271471
- ev_current_dis_limit_max[0,21,15]: current_ev_dis[0,21,15]
+ ev_current_dis_limit_max[0,22,6]: current_ev_dis[0,22,6]
+   <= 15.87713240271471
+ ev_current_dis_limit_max[0,22,7]: current_ev_dis[0,22,7]
+   <= 15.87713240271471
+ ev_current_dis_limit_max[0,22,8]: current_ev_dis[0,22,8]
+   <= 15.87713240271471
+ ev_current_dis_limit_max[0,22,9]: current_ev_dis[0,22,9]
+   <= 15.87713240271471
+ ev_current_dis_limit_max[0,22,10]: current_ev_dis[0,22,10]
+   <= 15.87713240271471
+ ev_current_dis_limit_max[0,22,11]: current_ev_dis[0,22,11]
+   <= 15.87713240271471
+ ev_current_dis_limit_max[0,22,12]: current_ev_dis[0,22,12]
+   <= 15.87713240271471
+ ev_current_dis_limit_max[0,22,13]: current_ev_dis[0,22,13]
+   <= 15.87713240271471
+ ev_current_dis_limit_max[0,23,8]: current_ev_dis[0,23,8]
+   <= 15.87713240271471
+ ev_current_dis_limit_max[0,23,9]: current_ev_dis[0,23,9]
+   <= 15.87713240271471
+ ev_current_dis_limit_max[0,23,10]: current_ev_dis[0,23,10]
+   <= 15.87713240271471
+ ev_current_dis_limit_max[0,23,11]: current_ev_dis[0,23,11]
    <= 15.87713240271471
  ev_current_dis_limit_max[0,23,12]: current_ev_dis[0,23,12]
    <= 15.87713240271471
@@ -13315,590 +10537,7 @@ Subject To
    <= 15.87713240271471
  ev_current_dis_limit_max[0,23,14]: current_ev_dis[0,23,14]
    <= 15.87713240271471
-<<<<<<< HEAD
- ev_current_dis_limit_max[0,11,44]: current_ev_dis[0,11,44]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,11,45]: current_ev_dis[0,11,45]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,11,46]: current_ev_dis[0,11,46]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,11,47]: current_ev_dis[0,11,47]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,11,48]: current_ev_dis[0,11,48]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,11,49]: current_ev_dis[0,11,49]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,11,50]: current_ev_dis[0,11,50]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,11,51]: current_ev_dis[0,11,51]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,11,52]: current_ev_dis[0,11,52]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,14]: current_ev_dis[0,12,14]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,15]: current_ev_dis[0,12,15]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,16]: current_ev_dis[0,12,16]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,17]: current_ev_dis[0,12,17]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,18]: current_ev_dis[0,12,18]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,19]: current_ev_dis[0,12,19]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,20]: current_ev_dis[0,12,20]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,21]: current_ev_dis[0,12,21]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,22]: current_ev_dis[0,12,22]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,23]: current_ev_dis[0,12,23]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,24]: current_ev_dis[0,12,24]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,25]: current_ev_dis[0,12,25]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,26]: current_ev_dis[0,12,26]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,27]: current_ev_dis[0,12,27]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,28]: current_ev_dis[0,12,28]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,29]: current_ev_dis[0,12,29]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,30]: current_ev_dis[0,12,30]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,31]: current_ev_dis[0,12,31]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,32]: current_ev_dis[0,12,32]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,33]: current_ev_dis[0,12,33]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,34]: current_ev_dis[0,12,34]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,35]: current_ev_dis[0,12,35]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,36]: current_ev_dis[0,12,36]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,37]: current_ev_dis[0,12,37]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,38]: current_ev_dis[0,12,38]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,39]: current_ev_dis[0,12,39]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,40]: current_ev_dis[0,12,40]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,41]: current_ev_dis[0,12,41]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,42]: current_ev_dis[0,12,42]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,43]: current_ev_dis[0,12,43]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,44]: current_ev_dis[0,12,44]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,45]: current_ev_dis[0,12,45]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,46]: current_ev_dis[0,12,46]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,47]: current_ev_dis[0,12,47]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,48]: current_ev_dis[0,12,48]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,49]: current_ev_dis[0,12,49]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,50]: current_ev_dis[0,12,50]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,51]: current_ev_dis[0,12,51]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,52]: current_ev_dis[0,12,52]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,53]: current_ev_dis[0,12,53]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,12,54]: current_ev_dis[0,12,54]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,36]: current_ev_dis[0,13,36]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,37]: current_ev_dis[0,13,37]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,38]: current_ev_dis[0,13,38]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,39]: current_ev_dis[0,13,39]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,40]: current_ev_dis[0,13,40]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,41]: current_ev_dis[0,13,41]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,42]: current_ev_dis[0,13,42]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,43]: current_ev_dis[0,13,43]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,44]: current_ev_dis[0,13,44]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,45]: current_ev_dis[0,13,45]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,46]: current_ev_dis[0,13,46]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,47]: current_ev_dis[0,13,47]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,48]: current_ev_dis[0,13,48]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,49]: current_ev_dis[0,13,49]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,50]: current_ev_dis[0,13,50]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,51]: current_ev_dis[0,13,51]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,13,52]: current_ev_dis[0,13,52]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,17]: current_ev_dis[0,14,17]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,18]: current_ev_dis[0,14,18]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,19]: current_ev_dis[0,14,19]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,20]: current_ev_dis[0,14,20]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,21]: current_ev_dis[0,14,21]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,22]: current_ev_dis[0,14,22]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,23]: current_ev_dis[0,14,23]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,24]: current_ev_dis[0,14,24]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,25]: current_ev_dis[0,14,25]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,26]: current_ev_dis[0,14,26]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,27]: current_ev_dis[0,14,27]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,28]: current_ev_dis[0,14,28]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,29]: current_ev_dis[0,14,29]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,30]: current_ev_dis[0,14,30]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,31]: current_ev_dis[0,14,31]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,32]: current_ev_dis[0,14,32]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,33]: current_ev_dis[0,14,33]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,34]: current_ev_dis[0,14,34]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,35]: current_ev_dis[0,14,35]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,36]: current_ev_dis[0,14,36]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,37]: current_ev_dis[0,14,37]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,38]: current_ev_dis[0,14,38]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,39]: current_ev_dis[0,14,39]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,40]: current_ev_dis[0,14,40]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,41]: current_ev_dis[0,14,41]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,42]: current_ev_dis[0,14,42]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,43]: current_ev_dis[0,14,43]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,44]: current_ev_dis[0,14,44]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,45]: current_ev_dis[0,14,45]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,46]: current_ev_dis[0,14,46]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,47]: current_ev_dis[0,14,47]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,48]: current_ev_dis[0,14,48]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,49]: current_ev_dis[0,14,49]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,50]: current_ev_dis[0,14,50]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,51]: current_ev_dis[0,14,51]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,52]: current_ev_dis[0,14,52]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,53]: current_ev_dis[0,14,53]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,54]: current_ev_dis[0,14,54]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,55]: current_ev_dis[0,14,55]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,56]: current_ev_dis[0,14,56]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,57]: current_ev_dis[0,14,57]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,58]: current_ev_dis[0,14,58]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,14,59]: current_ev_dis[0,14,59]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,15,21]: current_ev_dis[0,15,21]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,15,22]: current_ev_dis[0,15,22]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,15,23]: current_ev_dis[0,15,23]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,15,24]: current_ev_dis[0,15,24]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,15,25]: current_ev_dis[0,15,25]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,15,26]: current_ev_dis[0,15,26]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,15,27]: current_ev_dis[0,15,27]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,15,28]: current_ev_dis[0,15,28]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,15,29]: current_ev_dis[0,15,29]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,15,30]: current_ev_dis[0,15,30]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,15,31]: current_ev_dis[0,15,31]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,15,32]: current_ev_dis[0,15,32]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,15,33]: current_ev_dis[0,15,33]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,15,34]: current_ev_dis[0,15,34]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,15,35]: current_ev_dis[0,15,35]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,15,36]: current_ev_dis[0,15,36]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,15,37]: current_ev_dis[0,15,37]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,15,38]: current_ev_dis[0,15,38]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,15,39]: current_ev_dis[0,15,39]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,15,40]: current_ev_dis[0,15,40]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,15,41]: current_ev_dis[0,15,41]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,16]: current_ev_dis[0,16,16]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,17]: current_ev_dis[0,16,17]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,18]: current_ev_dis[0,16,18]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,19]: current_ev_dis[0,16,19]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,20]: current_ev_dis[0,16,20]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,21]: current_ev_dis[0,16,21]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,22]: current_ev_dis[0,16,22]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,23]: current_ev_dis[0,16,23]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,24]: current_ev_dis[0,16,24]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,25]: current_ev_dis[0,16,25]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,26]: current_ev_dis[0,16,26]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,27]: current_ev_dis[0,16,27]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,28]: current_ev_dis[0,16,28]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,29]: current_ev_dis[0,16,29]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,30]: current_ev_dis[0,16,30]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,31]: current_ev_dis[0,16,31]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,32]: current_ev_dis[0,16,32]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,33]: current_ev_dis[0,16,33]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,34]: current_ev_dis[0,16,34]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,35]: current_ev_dis[0,16,35]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,36]: current_ev_dis[0,16,36]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,37]: current_ev_dis[0,16,37]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,38]: current_ev_dis[0,16,38]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,39]: current_ev_dis[0,16,39]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,40]: current_ev_dis[0,16,40]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,41]: current_ev_dis[0,16,41]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,42]: current_ev_dis[0,16,42]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,43]: current_ev_dis[0,16,43]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,44]: current_ev_dis[0,16,44]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,45]: current_ev_dis[0,16,45]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,46]: current_ev_dis[0,16,46]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,47]: current_ev_dis[0,16,47]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,16,48]: current_ev_dis[0,16,48]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,17,12]: current_ev_dis[0,17,12]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,13]: current_ev_dis[0,17,13]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,14]: current_ev_dis[0,17,14]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,15]: current_ev_dis[0,17,15]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,16]: current_ev_dis[0,17,16]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,17]: current_ev_dis[0,17,17]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,18]: current_ev_dis[0,17,18]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,19]: current_ev_dis[0,17,19]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,20]: current_ev_dis[0,17,20]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,21]: current_ev_dis[0,17,21]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,22]: current_ev_dis[0,17,22]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,23]: current_ev_dis[0,17,23]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,24]: current_ev_dis[0,17,24]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,25]: current_ev_dis[0,17,25]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,26]: current_ev_dis[0,17,26]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,27]: current_ev_dis[0,17,27]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,28]: current_ev_dis[0,17,28]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,29]: current_ev_dis[0,17,29]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,30]: current_ev_dis[0,17,30]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,31]: current_ev_dis[0,17,31]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,32]: current_ev_dis[0,17,32]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,33]: current_ev_dis[0,17,33]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,34]: current_ev_dis[0,17,34]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,35]: current_ev_dis[0,17,35]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,36]: current_ev_dis[0,17,36]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,37]: current_ev_dis[0,17,37]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,38]: current_ev_dis[0,17,38]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,39]: current_ev_dis[0,17,39]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,40]: current_ev_dis[0,17,40]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,41]: current_ev_dis[0,17,41]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,42]: current_ev_dis[0,17,42]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,43]: current_ev_dis[0,17,43]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,44]: current_ev_dis[0,17,44]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,45]: current_ev_dis[0,17,45]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,46]: current_ev_dis[0,17,46]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,17,47]: current_ev_dis[0,17,47]
-   <= 14.43375672974064
- ev_current_dis_limit_max[0,19,25]: current_ev_dis[0,19,25]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,19,26]: current_ev_dis[0,19,26]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,19,27]: current_ev_dis[0,19,27]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,19,28]: current_ev_dis[0,19,28]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,19,29]: current_ev_dis[0,19,29]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,19,30]: current_ev_dis[0,19,30]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,19,31]: current_ev_dis[0,19,31]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,19,32]: current_ev_dis[0,19,32]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,19,33]: current_ev_dis[0,19,33]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,19,34]: current_ev_dis[0,19,34]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,19,35]: current_ev_dis[0,19,35]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,19,36]: current_ev_dis[0,19,36]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,19,37]: current_ev_dis[0,19,37]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,19,38]: current_ev_dis[0,19,38]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,19,39]: current_ev_dis[0,19,39]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,19,40]: current_ev_dis[0,19,40]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,19,41]: current_ev_dis[0,19,41]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,19,42]: current_ev_dis[0,19,42]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,19,43]: current_ev_dis[0,19,43]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,19,44]: current_ev_dis[0,19,44]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,19,45]: current_ev_dis[0,19,45]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,19,46]: current_ev_dis[0,19,46]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,14]: current_ev_dis[0,20,14]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,15]: current_ev_dis[0,20,15]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,16]: current_ev_dis[0,20,16]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,17]: current_ev_dis[0,20,17]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,18]: current_ev_dis[0,20,18]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,19]: current_ev_dis[0,20,19]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,20]: current_ev_dis[0,20,20]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,21]: current_ev_dis[0,20,21]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,22]: current_ev_dis[0,20,22]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,23]: current_ev_dis[0,20,23]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,24]: current_ev_dis[0,20,24]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,25]: current_ev_dis[0,20,25]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,26]: current_ev_dis[0,20,26]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,27]: current_ev_dis[0,20,27]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,28]: current_ev_dis[0,20,28]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,29]: current_ev_dis[0,20,29]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,30]: current_ev_dis[0,20,30]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,31]: current_ev_dis[0,20,31]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,32]: current_ev_dis[0,20,32]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,33]: current_ev_dis[0,20,33]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,34]: current_ev_dis[0,20,34]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,35]: current_ev_dis[0,20,35]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,36]: current_ev_dis[0,20,36]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,37]: current_ev_dis[0,20,37]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,38]: current_ev_dis[0,20,38]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,39]: current_ev_dis[0,20,39]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,40]: current_ev_dis[0,20,40]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,41]: current_ev_dis[0,20,41]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,42]: current_ev_dis[0,20,42]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,43]: current_ev_dis[0,20,43]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,44]: current_ev_dis[0,20,44]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,45]: current_ev_dis[0,20,45]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,46]: current_ev_dis[0,20,46]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,47]: current_ev_dis[0,20,47]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,20,48]: current_ev_dis[0,20,48]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,23,26]: current_ev_dis[0,23,26]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,23,27]: current_ev_dis[0,23,27]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,23,28]: current_ev_dis[0,23,28]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,23,29]: current_ev_dis[0,23,29]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,23,30]: current_ev_dis[0,23,30]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,23,31]: current_ev_dis[0,23,31]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,23,32]: current_ev_dis[0,23,32]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,23,33]: current_ev_dis[0,23,33]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,23,34]: current_ev_dis[0,23,34]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,23,35]: current_ev_dis[0,23,35]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,23,36]: current_ev_dis[0,23,36]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,23,37]: current_ev_dis[0,23,37]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,23,38]: current_ev_dis[0,23,38]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,23,39]: current_ev_dis[0,23,39]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,23,40]: current_ev_dis[0,23,40]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,23,41]: current_ev_dis[0,23,41]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,23,42]: current_ev_dis[0,23,42]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,23,43]: current_ev_dis[0,23,43]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,24,37]: current_ev_dis[0,24,37]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,24,38]: current_ev_dis[0,24,38]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,24,39]: current_ev_dis[0,24,39]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,24,40]: current_ev_dis[0,24,40]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,24,41]: current_ev_dis[0,24,41]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,24,42]: current_ev_dis[0,24,42]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,24,43]: current_ev_dis[0,24,43]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,24,44]: current_ev_dis[0,24,44]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,24,45]: current_ev_dis[0,24,45]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,24,46]: current_ev_dis[0,24,46]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,24,47]: current_ev_dis[0,24,47]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,24,48]: current_ev_dis[0,24,48]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,24,49]: current_ev_dis[0,24,49]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,24,50]: current_ev_dis[0,24,50]
-=======
  ev_current_dis_limit_max[0,23,15]: current_ev_dis[0,23,15]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,23,16]: current_ev_dis[0,23,16]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,24,8]: current_ev_dis[0,24,8]
    <= 15.87713240271471
  ev_current_dis_limit_max[0,24,9]: current_ev_dis[0,24,9]
    <= 15.87713240271471
@@ -13911,17 +10550,6 @@ Subject To
  ev_current_dis_limit_max[0,24,13]: current_ev_dis[0,24,13]
    <= 15.87713240271471
  ev_current_dis_limit_max[0,24,14]: current_ev_dis[0,24,14]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,24,15]: current_ev_dis[0,24,15]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,24,16]: current_ev_dis[0,24,16]
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,24,51]: current_ev_dis[0,24,51]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,24,52]: current_ev_dis[0,24,52]
-   <= 15.87713240271471
- ev_current_dis_limit_max[0,24,53]: current_ev_dis[0,24,53]
    <= 15.87713240271471
  omega_empty_port_ch.0.0.0: omega_ch[0,0,0] = 0
  omega_empty_port_dis.0.0.0: omega_dis[0,0,0] = 0
@@ -14249,7 +10877,6 @@ Subject To
  ev_empty_port_energy.0.7.4: energy[0,7,4] = 0
  omega_empty_port_ch.0.8.4: omega_ch[0,8,4] = 0
  omega_empty_port_dis.0.8.4: omega_dis[0,8,4] = 0
- ev_empty_port_energy.0.8.4: energy[0,8,4] = 0
  omega_empty_port_ch.0.9.4: omega_ch[0,9,4] = 0
  omega_empty_port_dis.0.9.4: omega_dis[0,9,4] = 0
  ev_empty_port_energy.0.9.4: energy[0,9,4] = 0
@@ -14300,7 +10927,6 @@ Subject To
  ev_empty_port_energy.0.24.4: energy[0,24,4] = 0
  omega_empty_port_ch.0.0.5: omega_ch[0,0,5] = 0
  omega_empty_port_dis.0.0.5: omega_dis[0,0,5] = 0
- ev_empty_port_energy.0.0.5: energy[0,0,5] = 0
  omega_empty_port_ch.0.1.5: omega_ch[0,1,5] = 0
  omega_empty_port_dis.0.1.5: omega_dis[0,1,5] = 0
  ev_empty_port_energy.0.1.5: energy[0,1,5] = 0
@@ -14315,15 +10941,11 @@ Subject To
  ev_empty_port_energy.0.4.5: energy[0,4,5] = 0
  omega_empty_port_ch.0.5.5: omega_ch[0,5,5] = 0
  omega_empty_port_dis.0.5.5: omega_dis[0,5,5] = 0
- ev_empty_port_energy.0.5.5: energy[0,5,5] = 0
  omega_empty_port_ch.0.6.5: omega_ch[0,6,5] = 0
  omega_empty_port_dis.0.6.5: omega_dis[0,6,5] = 0
  omega_empty_port_ch.0.7.5: omega_ch[0,7,5] = 0
  omega_empty_port_dis.0.7.5: omega_dis[0,7,5] = 0
  ev_empty_port_energy.0.7.5: energy[0,7,5] = 0
- omega_empty_port_ch.0.8.5: omega_ch[0,8,5] = 0
- omega_empty_port_dis.0.8.5: omega_dis[0,8,5] = 0
- ev_empty_port_energy.0.8.5: energy[0,8,5] = 0
  omega_empty_port_ch.0.9.5: omega_ch[0,9,5] = 0
  omega_empty_port_dis.0.9.5: omega_dis[0,9,5] = 0
  ev_empty_port_energy.0.9.5: energy[0,9,5] = 0
@@ -14338,6 +10960,7 @@ Subject To
  ev_empty_port_energy.0.12.5: energy[0,12,5] = 0
  omega_empty_port_ch.0.13.5: omega_ch[0,13,5] = 0
  omega_empty_port_dis.0.13.5: omega_dis[0,13,5] = 0
+ ev_empty_port_energy.0.13.5: energy[0,13,5] = 0
  omega_empty_port_ch.0.14.5: omega_ch[0,14,5] = 0
  omega_empty_port_dis.0.14.5: omega_dis[0,14,5] = 0
  ev_empty_port_energy.0.14.5: energy[0,14,5] = 0
@@ -14364,32 +10987,25 @@ Subject To
  ev_empty_port_energy.0.21.5: energy[0,21,5] = 0
  omega_empty_port_ch.0.22.5: omega_ch[0,22,5] = 0
  omega_empty_port_dis.0.22.5: omega_dis[0,22,5] = 0
- ev_empty_port_energy.0.22.5: energy[0,22,5] = 0
  omega_empty_port_ch.0.23.5: omega_ch[0,23,5] = 0
  omega_empty_port_dis.0.23.5: omega_dis[0,23,5] = 0
  ev_empty_port_energy.0.23.5: energy[0,23,5] = 0
  omega_empty_port_ch.0.24.5: omega_ch[0,24,5] = 0
  omega_empty_port_dis.0.24.5: omega_dis[0,24,5] = 0
  ev_empty_port_energy.0.24.5: energy[0,24,5] = 0
- omega_empty_port_ch.0.0.6: omega_ch[0,0,6] = 0
- omega_empty_port_dis.0.0.6: omega_dis[0,0,6] = 0
  omega_empty_port_ch.0.1.6: omega_ch[0,1,6] = 0
  omega_empty_port_dis.0.1.6: omega_dis[0,1,6] = 0
- ev_empty_port_energy.0.1.6: energy[0,1,6] = 0
  omega_empty_port_ch.0.2.6: omega_ch[0,2,6] = 0
  omega_empty_port_dis.0.2.6: omega_dis[0,2,6] = 0
- ev_empty_port_energy.0.2.6: energy[0,2,6] = 0
  omega_empty_port_ch.0.3.6: omega_ch[0,3,6] = 0
  omega_empty_port_dis.0.3.6: omega_dis[0,3,6] = 0
  ev_empty_port_energy.0.3.6: energy[0,3,6] = 0
  omega_empty_port_ch.0.4.6: omega_ch[0,4,6] = 0
  omega_empty_port_dis.0.4.6: omega_dis[0,4,6] = 0
- omega_empty_port_ch.0.5.6: omega_ch[0,5,6] = 0
- omega_empty_port_dis.0.5.6: omega_dis[0,5,6] = 0
+ ev_empty_port_energy.0.4.6: energy[0,4,6] = 0
  omega_empty_port_ch.0.7.6: omega_ch[0,7,6] = 0
  omega_empty_port_dis.0.7.6: omega_dis[0,7,6] = 0
- omega_empty_port_ch.0.8.6: omega_ch[0,8,6] = 0
- omega_empty_port_dis.0.8.6: omega_dis[0,8,6] = 0
+ ev_empty_port_energy.0.7.6: energy[0,7,6] = 0
  omega_empty_port_ch.0.9.6: omega_ch[0,9,6] = 0
  omega_empty_port_dis.0.9.6: omega_dis[0,9,6] = 0
  ev_empty_port_energy.0.9.6: energy[0,9,6] = 0
@@ -14400,14 +11016,16 @@ Subject To
  omega_empty_port_dis.0.11.6: omega_dis[0,11,6] = 0
  omega_empty_port_ch.0.12.6: omega_ch[0,12,6] = 0
  omega_empty_port_dis.0.12.6: omega_dis[0,12,6] = 0
+ omega_empty_port_ch.0.13.6: omega_ch[0,13,6] = 0
+ omega_empty_port_dis.0.13.6: omega_dis[0,13,6] = 0
+ ev_empty_port_energy.0.13.6: energy[0,13,6] = 0
  omega_empty_port_ch.0.14.6: omega_ch[0,14,6] = 0
  omega_empty_port_dis.0.14.6: omega_dis[0,14,6] = 0
- ev_empty_port_energy.0.14.6: energy[0,14,6] = 0
  omega_empty_port_ch.0.15.6: omega_ch[0,15,6] = 0
  omega_empty_port_dis.0.15.6: omega_dis[0,15,6] = 0
- ev_empty_port_energy.0.15.6: energy[0,15,6] = 0
  omega_empty_port_ch.0.16.6: omega_ch[0,16,6] = 0
  omega_empty_port_dis.0.16.6: omega_dis[0,16,6] = 0
+ ev_empty_port_energy.0.16.6: energy[0,16,6] = 0
  omega_empty_port_ch.0.17.6: omega_ch[0,17,6] = 0
  omega_empty_port_dis.0.17.6: omega_dis[0,17,6] = 0
  ev_empty_port_energy.0.17.6: energy[0,17,6] = 0
@@ -14423,32 +11041,31 @@ Subject To
  omega_empty_port_ch.0.21.6: omega_ch[0,21,6] = 0
  omega_empty_port_dis.0.21.6: omega_dis[0,21,6] = 0
  ev_empty_port_energy.0.21.6: energy[0,21,6] = 0
- omega_empty_port_ch.0.22.6: omega_ch[0,22,6] = 0
- omega_empty_port_dis.0.22.6: omega_dis[0,22,6] = 0
- ev_empty_port_energy.0.22.6: energy[0,22,6] = 0
  omega_empty_port_ch.0.23.6: omega_ch[0,23,6] = 0
  omega_empty_port_dis.0.23.6: omega_dis[0,23,6] = 0
  ev_empty_port_energy.0.23.6: energy[0,23,6] = 0
  omega_empty_port_ch.0.24.6: omega_ch[0,24,6] = 0
  omega_empty_port_dis.0.24.6: omega_dis[0,24,6] = 0
  ev_empty_port_energy.0.24.6: energy[0,24,6] = 0
- omega_empty_port_ch.0.1.7: omega_ch[0,1,7] = 0
- omega_empty_port_dis.0.1.7: omega_dis[0,1,7] = 0
- ev_empty_port_energy.0.1.7: energy[0,1,7] = 0
- omega_empty_port_ch.0.2.7: omega_ch[0,2,7] = 0
- omega_empty_port_dis.0.2.7: omega_dis[0,2,7] = 0
  omega_empty_port_ch.0.3.7: omega_ch[0,3,7] = 0
  omega_empty_port_dis.0.3.7: omega_dis[0,3,7] = 0
  ev_empty_port_energy.0.3.7: energy[0,3,7] = 0
+ omega_empty_port_ch.0.4.7: omega_ch[0,4,7] = 0
+ omega_empty_port_dis.0.4.7: omega_dis[0,4,7] = 0
+ ev_empty_port_energy.0.4.7: energy[0,4,7] = 0
+ omega_empty_port_ch.0.7.7: omega_ch[0,7,7] = 0
+ omega_empty_port_dis.0.7.7: omega_dis[0,7,7] = 0
+ ev_empty_port_energy.0.7.7: energy[0,7,7] = 0
  omega_empty_port_ch.0.9.7: omega_ch[0,9,7] = 0
  omega_empty_port_dis.0.9.7: omega_dis[0,9,7] = 0
+ ev_empty_port_energy.0.9.7: energy[0,9,7] = 0
  omega_empty_port_ch.0.10.7: omega_ch[0,10,7] = 0
  omega_empty_port_dis.0.10.7: omega_dis[0,10,7] = 0
- omega_empty_port_ch.0.14.7: omega_ch[0,14,7] = 0
- omega_empty_port_dis.0.14.7: omega_dis[0,14,7] = 0
- omega_empty_port_ch.0.15.7: omega_ch[0,15,7] = 0
- omega_empty_port_dis.0.15.7: omega_dis[0,15,7] = 0
- ev_empty_port_energy.0.15.7: energy[0,15,7] = 0
+ omega_empty_port_ch.0.13.7: omega_ch[0,13,7] = 0
+ omega_empty_port_dis.0.13.7: omega_dis[0,13,7] = 0
+ ev_empty_port_energy.0.13.7: energy[0,13,7] = 0
+ omega_empty_port_ch.0.16.7: omega_ch[0,16,7] = 0
+ omega_empty_port_dis.0.16.7: omega_dis[0,16,7] = 0
  omega_empty_port_ch.0.17.7: omega_ch[0,17,7] = 0
  omega_empty_port_dis.0.17.7: omega_dis[0,17,7] = 0
  ev_empty_port_energy.0.17.7: energy[0,17,7] = 0
@@ -14457,601 +11074,253 @@ Subject To
  ev_empty_port_energy.0.18.7: energy[0,18,7] = 0
  omega_empty_port_ch.0.19.7: omega_ch[0,19,7] = 0
  omega_empty_port_dis.0.19.7: omega_dis[0,19,7] = 0
+ ev_empty_port_energy.0.19.7: energy[0,19,7] = 0
  omega_empty_port_ch.0.20.7: omega_ch[0,20,7] = 0
  omega_empty_port_dis.0.20.7: omega_dis[0,20,7] = 0
  ev_empty_port_energy.0.20.7: energy[0,20,7] = 0
  omega_empty_port_ch.0.21.7: omega_ch[0,21,7] = 0
  omega_empty_port_dis.0.21.7: omega_dis[0,21,7] = 0
  ev_empty_port_energy.0.21.7: energy[0,21,7] = 0
- omega_empty_port_ch.0.22.7: omega_ch[0,22,7] = 0
- omega_empty_port_dis.0.22.7: omega_dis[0,22,7] = 0
- ev_empty_port_energy.0.22.7: energy[0,22,7] = 0
  omega_empty_port_ch.0.23.7: omega_ch[0,23,7] = 0
  omega_empty_port_dis.0.23.7: omega_dis[0,23,7] = 0
- ev_empty_port_energy.0.23.7: energy[0,23,7] = 0
  omega_empty_port_ch.0.24.7: omega_ch[0,24,7] = 0
  omega_empty_port_dis.0.24.7: omega_dis[0,24,7] = 0
- omega_empty_port_ch.0.1.8: omega_ch[0,1,8] = 0
- omega_empty_port_dis.0.1.8: omega_dis[0,1,8] = 0
- ev_empty_port_energy.0.1.8: energy[0,1,8] = 0
+ ev_empty_port_energy.0.24.7: energy[0,24,7] = 0
  omega_empty_port_ch.0.3.8: omega_ch[0,3,8] = 0
  omega_empty_port_dis.0.3.8: omega_dis[0,3,8] = 0
  ev_empty_port_energy.0.3.8: energy[0,3,8] = 0
- omega_empty_port_ch.0.15.8: omega_ch[0,15,8] = 0
- omega_empty_port_dis.0.15.8: omega_dis[0,15,8] = 0
- ev_empty_port_energy.0.15.8: energy[0,15,8] = 0
+ omega_empty_port_ch.0.4.8: omega_ch[0,4,8] = 0
+ omega_empty_port_dis.0.4.8: omega_dis[0,4,8] = 0
+ omega_empty_port_ch.0.7.8: omega_ch[0,7,8] = 0
+ omega_empty_port_dis.0.7.8: omega_dis[0,7,8] = 0
+ ev_empty_port_energy.0.7.8: energy[0,7,8] = 0
+ omega_empty_port_ch.0.9.8: omega_ch[0,9,8] = 0
+ omega_empty_port_dis.0.9.8: omega_dis[0,9,8] = 0
+ omega_empty_port_ch.0.13.8: omega_ch[0,13,8] = 0
+ omega_empty_port_dis.0.13.8: omega_dis[0,13,8] = 0
+ ev_empty_port_energy.0.13.8: energy[0,13,8] = 0
  omega_empty_port_ch.0.17.8: omega_ch[0,17,8] = 0
  omega_empty_port_dis.0.17.8: omega_dis[0,17,8] = 0
+ ev_empty_port_energy.0.17.8: energy[0,17,8] = 0
  omega_empty_port_ch.0.18.8: omega_ch[0,18,8] = 0
  omega_empty_port_dis.0.18.8: omega_dis[0,18,8] = 0
  ev_empty_port_energy.0.18.8: energy[0,18,8] = 0
+ omega_empty_port_ch.0.19.8: omega_ch[0,19,8] = 0
+ omega_empty_port_dis.0.19.8: omega_dis[0,19,8] = 0
+ ev_empty_port_energy.0.19.8: energy[0,19,8] = 0
  omega_empty_port_ch.0.20.8: omega_ch[0,20,8] = 0
  omega_empty_port_dis.0.20.8: omega_dis[0,20,8] = 0
  ev_empty_port_energy.0.20.8: energy[0,20,8] = 0
  omega_empty_port_ch.0.21.8: omega_ch[0,21,8] = 0
  omega_empty_port_dis.0.21.8: omega_dis[0,21,8] = 0
- ev_empty_port_energy.0.21.8: energy[0,21,8] = 0
- omega_empty_port_ch.0.22.8: omega_ch[0,22,8] = 0
- omega_empty_port_dis.0.22.8: omega_dis[0,22,8] = 0
- ev_empty_port_energy.0.22.8: energy[0,22,8] = 0
- omega_empty_port_ch.0.23.8: omega_ch[0,23,8] = 0
- omega_empty_port_dis.0.23.8: omega_dis[0,23,8] = 0
- ev_empty_port_energy.0.23.8: energy[0,23,8] = 0
- omega_empty_port_ch.0.1.9: omega_ch[0,1,9] = 0
- omega_empty_port_dis.0.1.9: omega_dis[0,1,9] = 0
- ev_empty_port_energy.0.1.9: energy[0,1,9] = 0
-<<<<<<< HEAD
- omega_empty_port_ch.0.2.9: omega_ch[0,2,9] = 0
- omega_empty_port_dis.0.2.9: omega_dis[0,2,9] = 0
+ omega_empty_port_ch.0.24.8: omega_ch[0,24,8] = 0
+ omega_empty_port_dis.0.24.8: omega_dis[0,24,8] = 0
  omega_empty_port_ch.0.3.9: omega_ch[0,3,9] = 0
  omega_empty_port_dis.0.3.9: omega_dis[0,3,9] = 0
  ev_empty_port_energy.0.3.9: energy[0,3,9] = 0
- omega_empty_port_ch.0.4.9: omega_ch[0,4,9] = 0
- omega_empty_port_dis.0.4.9: omega_dis[0,4,9] = 0
- ev_empty_port_energy.0.4.9: energy[0,4,9] = 0
- omega_empty_port_ch.0.5.9: omega_ch[0,5,9] = 0
- omega_empty_port_dis.0.5.9: omega_dis[0,5,9] = 0
- ev_empty_port_energy.0.5.9: energy[0,5,9] = 0
- omega_empty_port_ch.0.6.9: omega_ch[0,6,9] = 0
- omega_empty_port_dis.0.6.9: omega_dis[0,6,9] = 0
- ev_empty_port_energy.0.6.9: energy[0,6,9] = 0
  omega_empty_port_ch.0.7.9: omega_ch[0,7,9] = 0
  omega_empty_port_dis.0.7.9: omega_dis[0,7,9] = 0
  ev_empty_port_energy.0.7.9: energy[0,7,9] = 0
- omega_empty_port_ch.0.8.9: omega_ch[0,8,9] = 0
- omega_empty_port_dis.0.8.9: omega_dis[0,8,9] = 0
- ev_empty_port_energy.0.8.9: energy[0,8,9] = 0
- omega_empty_port_ch.0.9.9: omega_ch[0,9,9] = 0
- omega_empty_port_dis.0.9.9: omega_dis[0,9,9] = 0
- ev_empty_port_energy.0.9.9: energy[0,9,9] = 0
- omega_empty_port_ch.0.10.9: omega_ch[0,10,9] = 0
- omega_empty_port_dis.0.10.9: omega_dis[0,10,9] = 0
- ev_empty_port_energy.0.10.9: energy[0,10,9] = 0
- omega_empty_port_ch.0.11.9: omega_ch[0,11,9] = 0
- omega_empty_port_dis.0.11.9: omega_dis[0,11,9] = 0
- ev_empty_port_energy.0.11.9: energy[0,11,9] = 0
- omega_empty_port_ch.0.12.9: omega_ch[0,12,9] = 0
- omega_empty_port_dis.0.12.9: omega_dis[0,12,9] = 0
- ev_empty_port_energy.0.12.9: energy[0,12,9] = 0
  omega_empty_port_ch.0.13.9: omega_ch[0,13,9] = 0
  omega_empty_port_dis.0.13.9: omega_dis[0,13,9] = 0
  ev_empty_port_energy.0.13.9: energy[0,13,9] = 0
- omega_empty_port_ch.0.14.9: omega_ch[0,14,9] = 0
- omega_empty_port_dis.0.14.9: omega_dis[0,14,9] = 0
- ev_empty_port_energy.0.14.9: energy[0,14,9] = 0
-=======
- omega_empty_port_ch.0.3.9: omega_ch[0,3,9] = 0
- omega_empty_port_dis.0.3.9: omega_dis[0,3,9] = 0
- ev_empty_port_energy.0.3.9: energy[0,3,9] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
- omega_empty_port_ch.0.15.9: omega_ch[0,15,9] = 0
- omega_empty_port_dis.0.15.9: omega_dis[0,15,9] = 0
- ev_empty_port_energy.0.15.9: energy[0,15,9] = 0
+ omega_empty_port_ch.0.17.9: omega_ch[0,17,9] = 0
+ omega_empty_port_dis.0.17.9: omega_dis[0,17,9] = 0
+ ev_empty_port_energy.0.17.9: energy[0,17,9] = 0
  omega_empty_port_ch.0.18.9: omega_ch[0,18,9] = 0
  omega_empty_port_dis.0.18.9: omega_dis[0,18,9] = 0
  ev_empty_port_energy.0.18.9: energy[0,18,9] = 0
+ omega_empty_port_ch.0.19.9: omega_ch[0,19,9] = 0
+ omega_empty_port_dis.0.19.9: omega_dis[0,19,9] = 0
+ ev_empty_port_energy.0.19.9: energy[0,19,9] = 0
  omega_empty_port_ch.0.20.9: omega_ch[0,20,9] = 0
  omega_empty_port_dis.0.20.9: omega_dis[0,20,9] = 0
- omega_empty_port_ch.0.21.9: omega_ch[0,21,9] = 0
- omega_empty_port_dis.0.21.9: omega_dis[0,21,9] = 0
- ev_empty_port_energy.0.21.9: energy[0,21,9] = 0
- omega_empty_port_ch.0.22.9: omega_ch[0,22,9] = 0
- omega_empty_port_dis.0.22.9: omega_dis[0,22,9] = 0
- ev_empty_port_energy.0.22.9: energy[0,22,9] = 0
- omega_empty_port_ch.0.23.9: omega_ch[0,23,9] = 0
- omega_empty_port_dis.0.23.9: omega_dis[0,23,9] = 0
- ev_empty_port_energy.0.23.9: energy[0,23,9] = 0
- omega_empty_port_ch.0.1.10: omega_ch[0,1,10] = 0
- omega_empty_port_dis.0.1.10: omega_dis[0,1,10] = 0
- ev_empty_port_energy.0.1.10: energy[0,1,10] = 0
+ ev_empty_port_energy.0.20.9: energy[0,20,9] = 0
  omega_empty_port_ch.0.3.10: omega_ch[0,3,10] = 0
  omega_empty_port_dis.0.3.10: omega_dis[0,3,10] = 0
  ev_empty_port_energy.0.3.10: energy[0,3,10] = 0
-<<<<<<< HEAD
- omega_empty_port_ch.0.4.10: omega_ch[0,4,10] = 0
- omega_empty_port_dis.0.4.10: omega_dis[0,4,10] = 0
- ev_empty_port_energy.0.4.10: energy[0,4,10] = 0
- omega_empty_port_ch.0.5.10: omega_ch[0,5,10] = 0
- omega_empty_port_dis.0.5.10: omega_dis[0,5,10] = 0
- ev_empty_port_energy.0.5.10: energy[0,5,10] = 0
- omega_empty_port_ch.0.6.10: omega_ch[0,6,10] = 0
- omega_empty_port_dis.0.6.10: omega_dis[0,6,10] = 0
- ev_empty_port_energy.0.6.10: energy[0,6,10] = 0
  omega_empty_port_ch.0.7.10: omega_ch[0,7,10] = 0
  omega_empty_port_dis.0.7.10: omega_dis[0,7,10] = 0
  ev_empty_port_energy.0.7.10: energy[0,7,10] = 0
- omega_empty_port_ch.0.8.10: omega_ch[0,8,10] = 0
- omega_empty_port_dis.0.8.10: omega_dis[0,8,10] = 0
- ev_empty_port_energy.0.8.10: energy[0,8,10] = 0
- omega_empty_port_ch.0.9.10: omega_ch[0,9,10] = 0
- omega_empty_port_dis.0.9.10: omega_dis[0,9,10] = 0
- ev_empty_port_energy.0.9.10: energy[0,9,10] = 0
- omega_empty_port_ch.0.10.10: omega_ch[0,10,10] = 0
- omega_empty_port_dis.0.10.10: omega_dis[0,10,10] = 0
- ev_empty_port_energy.0.10.10: energy[0,10,10] = 0
- omega_empty_port_ch.0.11.10: omega_ch[0,11,10] = 0
- omega_empty_port_dis.0.11.10: omega_dis[0,11,10] = 0
- ev_empty_port_energy.0.11.10: energy[0,11,10] = 0
- omega_empty_port_ch.0.12.10: omega_ch[0,12,10] = 0
- omega_empty_port_dis.0.12.10: omega_dis[0,12,10] = 0
- ev_empty_port_energy.0.12.10: energy[0,12,10] = 0
  omega_empty_port_ch.0.13.10: omega_ch[0,13,10] = 0
  omega_empty_port_dis.0.13.10: omega_dis[0,13,10] = 0
  ev_empty_port_energy.0.13.10: energy[0,13,10] = 0
- omega_empty_port_ch.0.14.10: omega_ch[0,14,10] = 0
- omega_empty_port_dis.0.14.10: omega_dis[0,14,10] = 0
- ev_empty_port_energy.0.14.10: energy[0,14,10] = 0
-=======
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
- omega_empty_port_ch.0.15.10: omega_ch[0,15,10] = 0
- omega_empty_port_dis.0.15.10: omega_dis[0,15,10] = 0
- ev_empty_port_energy.0.15.10: energy[0,15,10] = 0
+ omega_empty_port_ch.0.17.10: omega_ch[0,17,10] = 0
+ omega_empty_port_dis.0.17.10: omega_dis[0,17,10] = 0
+ ev_empty_port_energy.0.17.10: energy[0,17,10] = 0
  omega_empty_port_ch.0.18.10: omega_ch[0,18,10] = 0
  omega_empty_port_dis.0.18.10: omega_dis[0,18,10] = 0
  ev_empty_port_energy.0.18.10: energy[0,18,10] = 0
- omega_empty_port_ch.0.21.10: omega_ch[0,21,10] = 0
- omega_empty_port_dis.0.21.10: omega_dis[0,21,10] = 0
- omega_empty_port_ch.0.22.10: omega_ch[0,22,10] = 0
- omega_empty_port_dis.0.22.10: omega_dis[0,22,10] = 0
- ev_empty_port_energy.0.22.10: energy[0,22,10] = 0
- omega_empty_port_ch.0.23.10: omega_ch[0,23,10] = 0
- omega_empty_port_dis.0.23.10: omega_dis[0,23,10] = 0
- ev_empty_port_energy.0.23.10: energy[0,23,10] = 0
- omega_empty_port_ch.0.1.11: omega_ch[0,1,11] = 0
- omega_empty_port_dis.0.1.11: omega_dis[0,1,11] = 0
- ev_empty_port_energy.0.1.11: energy[0,1,11] = 0
+ omega_empty_port_ch.0.19.10: omega_ch[0,19,10] = 0
+ omega_empty_port_dis.0.19.10: omega_dis[0,19,10] = 0
+ omega_empty_port_ch.0.20.10: omega_ch[0,20,10] = 0
+ omega_empty_port_dis.0.20.10: omega_dis[0,20,10] = 0
  omega_empty_port_ch.0.3.11: omega_ch[0,3,11] = 0
  omega_empty_port_dis.0.3.11: omega_dis[0,3,11] = 0
  ev_empty_port_energy.0.3.11: energy[0,3,11] = 0
-<<<<<<< HEAD
- omega_empty_port_ch.0.4.11: omega_ch[0,4,11] = 0
- omega_empty_port_dis.0.4.11: omega_dis[0,4,11] = 0
- ev_empty_port_energy.0.4.11: energy[0,4,11] = 0
- omega_empty_port_ch.0.5.11: omega_ch[0,5,11] = 0
- omega_empty_port_dis.0.5.11: omega_dis[0,5,11] = 0
- ev_empty_port_energy.0.5.11: energy[0,5,11] = 0
- omega_empty_port_ch.0.6.11: omega_ch[0,6,11] = 0
- omega_empty_port_dis.0.6.11: omega_dis[0,6,11] = 0
- ev_empty_port_energy.0.6.11: energy[0,6,11] = 0
  omega_empty_port_ch.0.7.11: omega_ch[0,7,11] = 0
  omega_empty_port_dis.0.7.11: omega_dis[0,7,11] = 0
  ev_empty_port_energy.0.7.11: energy[0,7,11] = 0
- omega_empty_port_ch.0.8.11: omega_ch[0,8,11] = 0
- omega_empty_port_dis.0.8.11: omega_dis[0,8,11] = 0
- ev_empty_port_energy.0.8.11: energy[0,8,11] = 0
- omega_empty_port_ch.0.9.11: omega_ch[0,9,11] = 0
- omega_empty_port_dis.0.9.11: omega_dis[0,9,11] = 0
- ev_empty_port_energy.0.9.11: energy[0,9,11] = 0
- omega_empty_port_ch.0.10.11: omega_ch[0,10,11] = 0
- omega_empty_port_dis.0.10.11: omega_dis[0,10,11] = 0
- ev_empty_port_energy.0.10.11: energy[0,10,11] = 0
- omega_empty_port_ch.0.11.11: omega_ch[0,11,11] = 0
- omega_empty_port_dis.0.11.11: omega_dis[0,11,11] = 0
- ev_empty_port_energy.0.11.11: energy[0,11,11] = 0
- omega_empty_port_ch.0.12.11: omega_ch[0,12,11] = 0
- omega_empty_port_dis.0.12.11: omega_dis[0,12,11] = 0
- ev_empty_port_energy.0.12.11: energy[0,12,11] = 0
  omega_empty_port_ch.0.13.11: omega_ch[0,13,11] = 0
  omega_empty_port_dis.0.13.11: omega_dis[0,13,11] = 0
  ev_empty_port_energy.0.13.11: energy[0,13,11] = 0
- omega_empty_port_ch.0.14.11: omega_ch[0,14,11] = 0
- omega_empty_port_dis.0.14.11: omega_dis[0,14,11] = 0
- ev_empty_port_energy.0.14.11: energy[0,14,11] = 0
- omega_empty_port_ch.0.15.11: omega_ch[0,15,11] = 0
- omega_empty_port_dis.0.15.11: omega_dis[0,15,11] = 0
- ev_empty_port_energy.0.15.11: energy[0,15,11] = 0
- omega_empty_port_ch.0.16.11: omega_ch[0,16,11] = 0
- omega_empty_port_dis.0.16.11: omega_dis[0,16,11] = 0
- ev_empty_port_energy.0.16.11: energy[0,16,11] = 0
  omega_empty_port_ch.0.17.11: omega_ch[0,17,11] = 0
  omega_empty_port_dis.0.17.11: omega_dis[0,17,11] = 0
-=======
- omega_empty_port_ch.0.15.11: omega_ch[0,15,11] = 0
- omega_empty_port_dis.0.15.11: omega_dis[0,15,11] = 0
- ev_empty_port_energy.0.15.11: energy[0,15,11] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
+ ev_empty_port_energy.0.17.11: energy[0,17,11] = 0
  omega_empty_port_ch.0.18.11: omega_ch[0,18,11] = 0
  omega_empty_port_dis.0.18.11: omega_dis[0,18,11] = 0
  ev_empty_port_energy.0.18.11: energy[0,18,11] = 0
- omega_empty_port_ch.0.22.11: omega_ch[0,22,11] = 0
- omega_empty_port_dis.0.22.11: omega_dis[0,22,11] = 0
- ev_empty_port_energy.0.22.11: energy[0,22,11] = 0
- omega_empty_port_ch.0.23.11: omega_ch[0,23,11] = 0
- omega_empty_port_dis.0.23.11: omega_dis[0,23,11] = 0
- omega_empty_port_ch.0.1.12: omega_ch[0,1,12] = 0
- omega_empty_port_dis.0.1.12: omega_dis[0,1,12] = 0
-<<<<<<< HEAD
  omega_empty_port_ch.0.3.12: omega_ch[0,3,12] = 0
  omega_empty_port_dis.0.3.12: omega_dis[0,3,12] = 0
  ev_empty_port_energy.0.3.12: energy[0,3,12] = 0
- omega_empty_port_ch.0.4.12: omega_ch[0,4,12] = 0
- omega_empty_port_dis.0.4.12: omega_dis[0,4,12] = 0
- ev_empty_port_energy.0.4.12: energy[0,4,12] = 0
- omega_empty_port_ch.0.5.12: omega_ch[0,5,12] = 0
- omega_empty_port_dis.0.5.12: omega_dis[0,5,12] = 0
- ev_empty_port_energy.0.5.12: energy[0,5,12] = 0
- omega_empty_port_ch.0.6.12: omega_ch[0,6,12] = 0
- omega_empty_port_dis.0.6.12: omega_dis[0,6,12] = 0
- ev_empty_port_energy.0.6.12: energy[0,6,12] = 0
  omega_empty_port_ch.0.7.12: omega_ch[0,7,12] = 0
  omega_empty_port_dis.0.7.12: omega_dis[0,7,12] = 0
  ev_empty_port_energy.0.7.12: energy[0,7,12] = 0
- omega_empty_port_ch.0.8.12: omega_ch[0,8,12] = 0
- omega_empty_port_dis.0.8.12: omega_dis[0,8,12] = 0
- ev_empty_port_energy.0.8.12: energy[0,8,12] = 0
- omega_empty_port_ch.0.9.12: omega_ch[0,9,12] = 0
- omega_empty_port_dis.0.9.12: omega_dis[0,9,12] = 0
- ev_empty_port_energy.0.9.12: energy[0,9,12] = 0
- omega_empty_port_ch.0.10.12: omega_ch[0,10,12] = 0
- omega_empty_port_dis.0.10.12: omega_dis[0,10,12] = 0
- ev_empty_port_energy.0.10.12: energy[0,10,12] = 0
- omega_empty_port_ch.0.11.12: omega_ch[0,11,12] = 0
- omega_empty_port_dis.0.11.12: omega_dis[0,11,12] = 0
- ev_empty_port_energy.0.11.12: energy[0,11,12] = 0
- omega_empty_port_ch.0.12.12: omega_ch[0,12,12] = 0
- omega_empty_port_dis.0.12.12: omega_dis[0,12,12] = 0
- ev_empty_port_energy.0.12.12: energy[0,12,12] = 0
  omega_empty_port_ch.0.13.12: omega_ch[0,13,12] = 0
  omega_empty_port_dis.0.13.12: omega_dis[0,13,12] = 0
  ev_empty_port_energy.0.13.12: energy[0,13,12] = 0
- omega_empty_port_ch.0.14.12: omega_ch[0,14,12] = 0
- omega_empty_port_dis.0.14.12: omega_dis[0,14,12] = 0
- ev_empty_port_energy.0.14.12: energy[0,14,12] = 0
- omega_empty_port_ch.0.15.12: omega_ch[0,15,12] = 0
- omega_empty_port_dis.0.15.12: omega_dis[0,15,12] = 0
- ev_empty_port_energy.0.15.12: energy[0,15,12] = 0
- omega_empty_port_ch.0.16.12: omega_ch[0,16,12] = 0
- omega_empty_port_dis.0.16.12: omega_dis[0,16,12] = 0
- ev_empty_port_energy.0.16.12: energy[0,16,12] = 0
-=======
- ev_empty_port_energy.0.1.12: energy[0,1,12] = 0
- omega_empty_port_ch.0.3.12: omega_ch[0,3,12] = 0
- omega_empty_port_dis.0.3.12: omega_dis[0,3,12] = 0
- omega_empty_port_ch.0.15.12: omega_ch[0,15,12] = 0
- omega_empty_port_dis.0.15.12: omega_dis[0,15,12] = 0
- ev_empty_port_energy.0.15.12: energy[0,15,12] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
+ omega_empty_port_ch.0.17.12: omega_ch[0,17,12] = 0
+ omega_empty_port_dis.0.17.12: omega_dis[0,17,12] = 0
+ ev_empty_port_energy.0.17.12: energy[0,17,12] = 0
  omega_empty_port_ch.0.18.12: omega_ch[0,18,12] = 0
  omega_empty_port_dis.0.18.12: omega_dis[0,18,12] = 0
  ev_empty_port_energy.0.18.12: energy[0,18,12] = 0
- omega_empty_port_ch.0.22.12: omega_ch[0,22,12] = 0
- omega_empty_port_dis.0.22.12: omega_dis[0,22,12] = 0
- ev_empty_port_energy.0.22.12: energy[0,22,12] = 0
-<<<<<<< HEAD
- omega_empty_port_ch.0.23.12: omega_ch[0,23,12] = 0
- omega_empty_port_dis.0.23.12: omega_dis[0,23,12] = 0
- ev_empty_port_energy.0.23.12: energy[0,23,12] = 0
- omega_empty_port_ch.0.24.12: omega_ch[0,24,12] = 0
- omega_empty_port_dis.0.24.12: omega_dis[0,24,12] = 0
- ev_empty_port_energy.0.24.12: energy[0,24,12] = 0
- omega_empty_port_ch.0.0.13: omega_ch[0,0,13] = 0
- omega_empty_port_dis.0.0.13: omega_dis[0,0,13] = 0
- ev_empty_port_energy.0.0.13: energy[0,0,13] = 0
  omega_empty_port_ch.0.3.13: omega_ch[0,3,13] = 0
  omega_empty_port_dis.0.3.13: omega_dis[0,3,13] = 0
  ev_empty_port_energy.0.3.13: energy[0,3,13] = 0
- omega_empty_port_ch.0.4.13: omega_ch[0,4,13] = 0
- omega_empty_port_dis.0.4.13: omega_dis[0,4,13] = 0
- ev_empty_port_energy.0.4.13: energy[0,4,13] = 0
- omega_empty_port_ch.0.5.13: omega_ch[0,5,13] = 0
- omega_empty_port_dis.0.5.13: omega_dis[0,5,13] = 0
- ev_empty_port_energy.0.5.13: energy[0,5,13] = 0
- omega_empty_port_ch.0.6.13: omega_ch[0,6,13] = 0
- omega_empty_port_dis.0.6.13: omega_dis[0,6,13] = 0
- ev_empty_port_energy.0.6.13: energy[0,6,13] = 0
  omega_empty_port_ch.0.7.13: omega_ch[0,7,13] = 0
  omega_empty_port_dis.0.7.13: omega_dis[0,7,13] = 0
  ev_empty_port_energy.0.7.13: energy[0,7,13] = 0
- omega_empty_port_ch.0.8.13: omega_ch[0,8,13] = 0
- omega_empty_port_dis.0.8.13: omega_dis[0,8,13] = 0
- ev_empty_port_energy.0.8.13: energy[0,8,13] = 0
- omega_empty_port_ch.0.9.13: omega_ch[0,9,13] = 0
- omega_empty_port_dis.0.9.13: omega_dis[0,9,13] = 0
- ev_empty_port_energy.0.9.13: energy[0,9,13] = 0
- omega_empty_port_ch.0.10.13: omega_ch[0,10,13] = 0
- omega_empty_port_dis.0.10.13: omega_dis[0,10,13] = 0
- ev_empty_port_energy.0.10.13: energy[0,10,13] = 0
- omega_empty_port_ch.0.11.13: omega_ch[0,11,13] = 0
- omega_empty_port_dis.0.11.13: omega_dis[0,11,13] = 0
- ev_empty_port_energy.0.11.13: energy[0,11,13] = 0
- omega_empty_port_ch.0.12.13: omega_ch[0,12,13] = 0
- omega_empty_port_dis.0.12.13: omega_dis[0,12,13] = 0
  omega_empty_port_ch.0.13.13: omega_ch[0,13,13] = 0
  omega_empty_port_dis.0.13.13: omega_dis[0,13,13] = 0
  ev_empty_port_energy.0.13.13: energy[0,13,13] = 0
- omega_empty_port_ch.0.14.13: omega_ch[0,14,13] = 0
- omega_empty_port_dis.0.14.13: omega_dis[0,14,13] = 0
- ev_empty_port_energy.0.14.13: energy[0,14,13] = 0
- omega_empty_port_ch.0.15.13: omega_ch[0,15,13] = 0
- omega_empty_port_dis.0.15.13: omega_dis[0,15,13] = 0
- ev_empty_port_energy.0.15.13: energy[0,15,13] = 0
- omega_empty_port_ch.0.16.13: omega_ch[0,16,13] = 0
- omega_empty_port_dis.0.16.13: omega_dis[0,16,13] = 0
- ev_empty_port_energy.0.16.13: energy[0,16,13] = 0
+ omega_empty_port_ch.0.17.13: omega_ch[0,17,13] = 0
+ omega_empty_port_dis.0.17.13: omega_dis[0,17,13] = 0
+ ev_empty_port_energy.0.17.13: energy[0,17,13] = 0
  omega_empty_port_ch.0.18.13: omega_ch[0,18,13] = 0
  omega_empty_port_dis.0.18.13: omega_dis[0,18,13] = 0
  ev_empty_port_energy.0.18.13: energy[0,18,13] = 0
- omega_empty_port_ch.0.19.13: omega_ch[0,19,13] = 0
- omega_empty_port_dis.0.19.13: omega_dis[0,19,13] = 0
- ev_empty_port_energy.0.19.13: energy[0,19,13] = 0
- omega_empty_port_ch.0.20.13: omega_ch[0,20,13] = 0
- omega_empty_port_dis.0.20.13: omega_dis[0,20,13] = 0
- omega_empty_port_ch.0.21.13: omega_ch[0,21,13] = 0
- omega_empty_port_dis.0.21.13: omega_dis[0,21,13] = 0
- ev_empty_port_energy.0.21.13: energy[0,21,13] = 0
- omega_empty_port_ch.0.22.13: omega_ch[0,22,13] = 0
- omega_empty_port_dis.0.22.13: omega_dis[0,22,13] = 0
- ev_empty_port_energy.0.22.13: energy[0,22,13] = 0
- omega_empty_port_ch.0.23.13: omega_ch[0,23,13] = 0
- omega_empty_port_dis.0.23.13: omega_dis[0,23,13] = 0
- ev_empty_port_energy.0.23.13: energy[0,23,13] = 0
- omega_empty_port_ch.0.24.13: omega_ch[0,24,13] = 0
- omega_empty_port_dis.0.24.13: omega_dis[0,24,13] = 0
- ev_empty_port_energy.0.24.13: energy[0,24,13] = 0
- omega_empty_port_ch.0.0.14: omega_ch[0,0,14] = 0
- omega_empty_port_dis.0.0.14: omega_dis[0,0,14] = 0
- ev_empty_port_energy.0.0.14: energy[0,0,14] = 0
  omega_empty_port_ch.0.3.14: omega_ch[0,3,14] = 0
  omega_empty_port_dis.0.3.14: omega_dis[0,3,14] = 0
- omega_empty_port_ch.0.4.14: omega_ch[0,4,14] = 0
- omega_empty_port_dis.0.4.14: omega_dis[0,4,14] = 0
- ev_empty_port_energy.0.4.14: energy[0,4,14] = 0
+ ev_empty_port_energy.0.3.14: energy[0,3,14] = 0
  omega_empty_port_ch.0.5.14: omega_ch[0,5,14] = 0
  omega_empty_port_dis.0.5.14: omega_dis[0,5,14] = 0
- ev_empty_port_energy.0.5.14: energy[0,5,14] = 0
- omega_empty_port_ch.0.6.14: omega_ch[0,6,14] = 0
- omega_empty_port_dis.0.6.14: omega_dis[0,6,14] = 0
- ev_empty_port_energy.0.6.14: energy[0,6,14] = 0
  omega_empty_port_ch.0.7.14: omega_ch[0,7,14] = 0
  omega_empty_port_dis.0.7.14: omega_dis[0,7,14] = 0
  ev_empty_port_energy.0.7.14: energy[0,7,14] = 0
- omega_empty_port_ch.0.8.14: omega_ch[0,8,14] = 0
- omega_empty_port_dis.0.8.14: omega_dis[0,8,14] = 0
- ev_empty_port_energy.0.8.14: energy[0,8,14] = 0
  omega_empty_port_ch.0.9.14: omega_ch[0,9,14] = 0
  omega_empty_port_dis.0.9.14: omega_dis[0,9,14] = 0
- ev_empty_port_energy.0.9.14: energy[0,9,14] = 0
- omega_empty_port_ch.0.10.14: omega_ch[0,10,14] = 0
- omega_empty_port_dis.0.10.14: omega_dis[0,10,14] = 0
- ev_empty_port_energy.0.10.14: energy[0,10,14] = 0
- omega_empty_port_ch.0.11.14: omega_ch[0,11,14] = 0
- omega_empty_port_dis.0.11.14: omega_dis[0,11,14] = 0
- ev_empty_port_energy.0.11.14: energy[0,11,14] = 0
  omega_empty_port_ch.0.13.14: omega_ch[0,13,14] = 0
  omega_empty_port_dis.0.13.14: omega_dis[0,13,14] = 0
  ev_empty_port_energy.0.13.14: energy[0,13,14] = 0
- omega_empty_port_ch.0.14.14: omega_ch[0,14,14] = 0
- omega_empty_port_dis.0.14.14: omega_dis[0,14,14] = 0
- ev_empty_port_energy.0.14.14: energy[0,14,14] = 0
- omega_empty_port_ch.0.15.14: omega_ch[0,15,14] = 0
- omega_empty_port_dis.0.15.14: omega_dis[0,15,14] = 0
- ev_empty_port_energy.0.15.14: energy[0,15,14] = 0
- omega_empty_port_ch.0.16.14: omega_ch[0,16,14] = 0
- omega_empty_port_dis.0.16.14: omega_dis[0,16,14] = 0
- ev_empty_port_energy.0.16.14: energy[0,16,14] = 0
+ omega_empty_port_ch.0.17.14: omega_ch[0,17,14] = 0
+ omega_empty_port_dis.0.17.14: omega_dis[0,17,14] = 0
  omega_empty_port_ch.0.18.14: omega_ch[0,18,14] = 0
  omega_empty_port_dis.0.18.14: omega_dis[0,18,14] = 0
  ev_empty_port_energy.0.18.14: energy[0,18,14] = 0
- omega_empty_port_ch.0.19.14: omega_ch[0,19,14] = 0
- omega_empty_port_dis.0.19.14: omega_dis[0,19,14] = 0
- ev_empty_port_energy.0.19.14: energy[0,19,14] = 0
- omega_empty_port_ch.0.21.14: omega_ch[0,21,14] = 0
- omega_empty_port_dis.0.21.14: omega_dis[0,21,14] = 0
- ev_empty_port_energy.0.21.14: energy[0,21,14] = 0
  omega_empty_port_ch.0.22.14: omega_ch[0,22,14] = 0
  omega_empty_port_dis.0.22.14: omega_dis[0,22,14] = 0
- ev_empty_port_energy.0.22.14: energy[0,22,14] = 0
- omega_empty_port_ch.0.23.14: omega_ch[0,23,14] = 0
- omega_empty_port_dis.0.23.14: omega_dis[0,23,14] = 0
- ev_empty_port_energy.0.23.14: energy[0,23,14] = 0
- omega_empty_port_ch.0.24.14: omega_ch[0,24,14] = 0
- omega_empty_port_dis.0.24.14: omega_dis[0,24,14] = 0
- ev_empty_port_energy.0.24.14: energy[0,24,14] = 0
- omega_empty_port_ch.0.0.15: omega_ch[0,0,15] = 0
- omega_empty_port_dis.0.0.15: omega_dis[0,0,15] = 0
- ev_empty_port_energy.0.0.15: energy[0,0,15] = 0
+ omega_empty_port_ch.0.1.15: omega_ch[0,1,15] = 0
+ omega_empty_port_dis.0.1.15: omega_dis[0,1,15] = 0
+ omega_empty_port_ch.0.3.15: omega_ch[0,3,15] = 0
+ omega_empty_port_dis.0.3.15: omega_dis[0,3,15] = 0
+ ev_empty_port_energy.0.3.15: energy[0,3,15] = 0
  omega_empty_port_ch.0.4.15: omega_ch[0,4,15] = 0
  omega_empty_port_dis.0.4.15: omega_dis[0,4,15] = 0
- ev_empty_port_energy.0.4.15: energy[0,4,15] = 0
  omega_empty_port_ch.0.5.15: omega_ch[0,5,15] = 0
  omega_empty_port_dis.0.5.15: omega_dis[0,5,15] = 0
  ev_empty_port_energy.0.5.15: energy[0,5,15] = 0
  omega_empty_port_ch.0.6.15: omega_ch[0,6,15] = 0
  omega_empty_port_dis.0.6.15: omega_dis[0,6,15] = 0
- ev_empty_port_energy.0.6.15: energy[0,6,15] = 0
  omega_empty_port_ch.0.7.15: omega_ch[0,7,15] = 0
  omega_empty_port_dis.0.7.15: omega_dis[0,7,15] = 0
  ev_empty_port_energy.0.7.15: energy[0,7,15] = 0
  omega_empty_port_ch.0.8.15: omega_ch[0,8,15] = 0
  omega_empty_port_dis.0.8.15: omega_dis[0,8,15] = 0
- ev_empty_port_energy.0.8.15: energy[0,8,15] = 0
  omega_empty_port_ch.0.9.15: omega_ch[0,9,15] = 0
  omega_empty_port_dis.0.9.15: omega_dis[0,9,15] = 0
  ev_empty_port_energy.0.9.15: energy[0,9,15] = 0
  omega_empty_port_ch.0.10.15: omega_ch[0,10,15] = 0
  omega_empty_port_dis.0.10.15: omega_dis[0,10,15] = 0
- ev_empty_port_energy.0.10.15: energy[0,10,15] = 0
- omega_empty_port_ch.0.11.15: omega_ch[0,11,15] = 0
- omega_empty_port_dis.0.11.15: omega_dis[0,11,15] = 0
- ev_empty_port_energy.0.11.15: energy[0,11,15] = 0
  omega_empty_port_ch.0.13.15: omega_ch[0,13,15] = 0
  omega_empty_port_dis.0.13.15: omega_dis[0,13,15] = 0
  ev_empty_port_energy.0.13.15: energy[0,13,15] = 0
- omega_empty_port_ch.0.14.15: omega_ch[0,14,15] = 0
- omega_empty_port_dis.0.14.15: omega_dis[0,14,15] = 0
- ev_empty_port_energy.0.14.15: energy[0,14,15] = 0
- omega_empty_port_ch.0.15.15: omega_ch[0,15,15] = 0
- omega_empty_port_dis.0.15.15: omega_dis[0,15,15] = 0
- ev_empty_port_energy.0.15.15: energy[0,15,15] = 0
- omega_empty_port_ch.0.16.15: omega_ch[0,16,15] = 0
- omega_empty_port_dis.0.16.15: omega_dis[0,16,15] = 0
  omega_empty_port_ch.0.18.15: omega_ch[0,18,15] = 0
  omega_empty_port_dis.0.18.15: omega_dis[0,18,15] = 0
  ev_empty_port_energy.0.18.15: energy[0,18,15] = 0
  omega_empty_port_ch.0.19.15: omega_ch[0,19,15] = 0
  omega_empty_port_dis.0.19.15: omega_dis[0,19,15] = 0
- ev_empty_port_energy.0.19.15: energy[0,19,15] = 0
  omega_empty_port_ch.0.21.15: omega_ch[0,21,15] = 0
  omega_empty_port_dis.0.21.15: omega_dis[0,21,15] = 0
- ev_empty_port_energy.0.21.15: energy[0,21,15] = 0
  omega_empty_port_ch.0.22.15: omega_ch[0,22,15] = 0
  omega_empty_port_dis.0.22.15: omega_dis[0,22,15] = 0
  ev_empty_port_energy.0.22.15: energy[0,22,15] = 0
- omega_empty_port_ch.0.23.15: omega_ch[0,23,15] = 0
- omega_empty_port_dis.0.23.15: omega_dis[0,23,15] = 0
- ev_empty_port_energy.0.23.15: energy[0,23,15] = 0
  omega_empty_port_ch.0.24.15: omega_ch[0,24,15] = 0
  omega_empty_port_dis.0.24.15: omega_dis[0,24,15] = 0
- ev_empty_port_energy.0.24.15: energy[0,24,15] = 0
- omega_empty_port_ch.0.0.16: omega_ch[0,0,16] = 0
- omega_empty_port_dis.0.0.16: omega_dis[0,0,16] = 0
- ev_empty_port_energy.0.0.16: energy[0,0,16] = 0
-=======
- omega_empty_port_ch.0.1.13: omega_ch[0,1,13] = 0
- omega_empty_port_dis.0.1.13: omega_dis[0,1,13] = 0
- ev_empty_port_energy.0.1.13: energy[0,1,13] = 0
- omega_empty_port_ch.0.15.13: omega_ch[0,15,13] = 0
- omega_empty_port_dis.0.15.13: omega_dis[0,15,13] = 0
- ev_empty_port_energy.0.15.13: energy[0,15,13] = 0
- omega_empty_port_ch.0.18.13: omega_ch[0,18,13] = 0
- omega_empty_port_dis.0.18.13: omega_dis[0,18,13] = 0
- ev_empty_port_energy.0.18.13: energy[0,18,13] = 0
- omega_empty_port_ch.0.22.13: omega_ch[0,22,13] = 0
- omega_empty_port_dis.0.22.13: omega_dis[0,22,13] = 0
- ev_empty_port_energy.0.22.13: energy[0,22,13] = 0
- omega_empty_port_ch.0.1.14: omega_ch[0,1,14] = 0
- omega_empty_port_dis.0.1.14: omega_dis[0,1,14] = 0
- ev_empty_port_energy.0.1.14: energy[0,1,14] = 0
- omega_empty_port_ch.0.15.14: omega_ch[0,15,14] = 0
- omega_empty_port_dis.0.15.14: omega_dis[0,15,14] = 0
- ev_empty_port_energy.0.15.14: energy[0,15,14] = 0
- omega_empty_port_ch.0.18.14: omega_ch[0,18,14] = 0
- omega_empty_port_dis.0.18.14: omega_dis[0,18,14] = 0
- ev_empty_port_energy.0.18.14: energy[0,18,14] = 0
- omega_empty_port_ch.0.22.14: omega_ch[0,22,14] = 0
- omega_empty_port_dis.0.22.14: omega_dis[0,22,14] = 0
- ev_empty_port_energy.0.22.14: energy[0,22,14] = 0
- omega_empty_port_ch.0.1.15: omega_ch[0,1,15] = 0
- omega_empty_port_dis.0.1.15: omega_dis[0,1,15] = 0
- ev_empty_port_energy.0.1.15: energy[0,1,15] = 0
- omega_empty_port_ch.0.4.15: omega_ch[0,4,15] = 0
- omega_empty_port_dis.0.4.15: omega_dis[0,4,15] = 0
- omega_empty_port_ch.0.9.15: omega_ch[0,9,15] = 0
- omega_empty_port_dis.0.9.15: omega_dis[0,9,15] = 0
- omega_empty_port_ch.0.12.15: omega_ch[0,12,15] = 0
- omega_empty_port_dis.0.12.15: omega_dis[0,12,15] = 0
- omega_empty_port_ch.0.15.15: omega_ch[0,15,15] = 0
- omega_empty_port_dis.0.15.15: omega_dis[0,15,15] = 0
- ev_empty_port_energy.0.15.15: energy[0,15,15] = 0
- omega_empty_port_ch.0.18.15: omega_ch[0,18,15] = 0
- omega_empty_port_dis.0.18.15: omega_dis[0,18,15] = 0
- ev_empty_port_energy.0.18.15: energy[0,18,15] = 0
- omega_empty_port_ch.0.20.15: omega_ch[0,20,15] = 0
- omega_empty_port_dis.0.20.15: omega_dis[0,20,15] = 0
- omega_empty_port_ch.0.22.15: omega_ch[0,22,15] = 0
- omega_empty_port_dis.0.22.15: omega_dis[0,22,15] = 0
- ev_empty_port_energy.0.22.15: energy[0,22,15] = 0
  omega_empty_port_ch.0.1.16: omega_ch[0,1,16] = 0
  omega_empty_port_dis.0.1.16: omega_dis[0,1,16] = 0
  ev_empty_port_energy.0.1.16: energy[0,1,16] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
+ omega_empty_port_ch.0.2.16: omega_ch[0,2,16] = 0
+ omega_empty_port_dis.0.2.16: omega_dis[0,2,16] = 0
+ omega_empty_port_ch.0.3.16: omega_ch[0,3,16] = 0
+ omega_empty_port_dis.0.3.16: omega_dis[0,3,16] = 0
+ ev_empty_port_energy.0.3.16: energy[0,3,16] = 0
  omega_empty_port_ch.0.4.16: omega_ch[0,4,16] = 0
  omega_empty_port_dis.0.4.16: omega_dis[0,4,16] = 0
  ev_empty_port_energy.0.4.16: energy[0,4,16] = 0
  omega_empty_port_ch.0.5.16: omega_ch[0,5,16] = 0
  omega_empty_port_dis.0.5.16: omega_dis[0,5,16] = 0
+ ev_empty_port_energy.0.5.16: energy[0,5,16] = 0
+ omega_empty_port_ch.0.6.16: omega_ch[0,6,16] = 0
+ omega_empty_port_dis.0.6.16: omega_dis[0,6,16] = 0
+ ev_empty_port_energy.0.6.16: energy[0,6,16] = 0
  omega_empty_port_ch.0.7.16: omega_ch[0,7,16] = 0
  omega_empty_port_dis.0.7.16: omega_dis[0,7,16] = 0
+ ev_empty_port_energy.0.7.16: energy[0,7,16] = 0
  omega_empty_port_ch.0.8.16: omega_ch[0,8,16] = 0
  omega_empty_port_dis.0.8.16: omega_dis[0,8,16] = 0
-<<<<<<< HEAD
  ev_empty_port_energy.0.8.16: energy[0,8,16] = 0
- omega_empty_port_ch.0.9.16: omega_ch[0,9,16] = 0
- omega_empty_port_dis.0.9.16: omega_dis[0,9,16] = 0
- omega_empty_port_ch.0.10.16: omega_ch[0,10,16] = 0
- omega_empty_port_dis.0.10.16: omega_dis[0,10,16] = 0
- ev_empty_port_energy.0.10.16: energy[0,10,16] = 0
- omega_empty_port_ch.0.11.16: omega_ch[0,11,16] = 0
- omega_empty_port_dis.0.11.16: omega_dis[0,11,16] = 0
- ev_empty_port_energy.0.11.16: energy[0,11,16] = 0
-=======
  omega_empty_port_ch.0.9.16: omega_ch[0,9,16] = 0
  omega_empty_port_dis.0.9.16: omega_dis[0,9,16] = 0
  ev_empty_port_energy.0.9.16: energy[0,9,16] = 0
  omega_empty_port_ch.0.10.16: omega_ch[0,10,16] = 0
  omega_empty_port_dis.0.10.16: omega_dis[0,10,16] = 0
+ ev_empty_port_energy.0.10.16: energy[0,10,16] = 0
  omega_empty_port_ch.0.12.16: omega_ch[0,12,16] = 0
  omega_empty_port_dis.0.12.16: omega_dis[0,12,16] = 0
- ev_empty_port_energy.0.12.16: energy[0,12,16] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  omega_empty_port_ch.0.13.16: omega_ch[0,13,16] = 0
  omega_empty_port_dis.0.13.16: omega_dis[0,13,16] = 0
- omega_empty_port_ch.0.14.16: omega_ch[0,14,16] = 0
- omega_empty_port_dis.0.14.16: omega_dis[0,14,16] = 0
- omega_empty_port_ch.0.15.16: omega_ch[0,15,16] = 0
- omega_empty_port_dis.0.15.16: omega_dis[0,15,16] = 0
- ev_empty_port_energy.0.15.16: energy[0,15,16] = 0
-<<<<<<< HEAD
+ ev_empty_port_energy.0.13.16: energy[0,13,16] = 0
  omega_empty_port_ch.0.18.16: omega_ch[0,18,16] = 0
  omega_empty_port_dis.0.18.16: omega_dis[0,18,16] = 0
  ev_empty_port_energy.0.18.16: energy[0,18,16] = 0
  omega_empty_port_ch.0.19.16: omega_ch[0,19,16] = 0
  omega_empty_port_dis.0.19.16: omega_dis[0,19,16] = 0
  ev_empty_port_energy.0.19.16: energy[0,19,16] = 0
-=======
- omega_empty_port_ch.0.17.16: omega_ch[0,17,16] = 0
- omega_empty_port_dis.0.17.16: omega_dis[0,17,16] = 0
- omega_empty_port_ch.0.18.16: omega_ch[0,18,16] = 0
- omega_empty_port_dis.0.18.16: omega_dis[0,18,16] = 0
- ev_empty_port_energy.0.18.16: energy[0,18,16] = 0
  omega_empty_port_ch.0.20.16: omega_ch[0,20,16] = 0
  omega_empty_port_dis.0.20.16: omega_dis[0,20,16] = 0
- ev_empty_port_energy.0.20.16: energy[0,20,16] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  omega_empty_port_ch.0.21.16: omega_ch[0,21,16] = 0
  omega_empty_port_dis.0.21.16: omega_dis[0,21,16] = 0
  ev_empty_port_energy.0.21.16: energy[0,21,16] = 0
  omega_empty_port_ch.0.22.16: omega_ch[0,22,16] = 0
  omega_empty_port_dis.0.22.16: omega_dis[0,22,16] = 0
  ev_empty_port_energy.0.22.16: energy[0,22,16] = 0
-<<<<<<< HEAD
  omega_empty_port_ch.0.23.16: omega_ch[0,23,16] = 0
  omega_empty_port_dis.0.23.16: omega_dis[0,23,16] = 0
- ev_empty_port_energy.0.23.16: energy[0,23,16] = 0
  omega_empty_port_ch.0.24.16: omega_ch[0,24,16] = 0
  omega_empty_port_dis.0.24.16: omega_dis[0,24,16] = 0
  ev_empty_port_energy.0.24.16: energy[0,24,16] = 0
  omega_empty_port_ch.0.0.17: omega_ch[0,0,17] = 0
  omega_empty_port_dis.0.0.17: omega_dis[0,0,17] = 0
-=======
  omega_empty_port_ch.0.1.17: omega_ch[0,1,17] = 0
  omega_empty_port_dis.0.1.17: omega_dis[0,1,17] = 0
  ev_empty_port_energy.0.1.17: energy[0,1,17] = 0
  omega_empty_port_ch.0.2.17: omega_ch[0,2,17] = 0
  omega_empty_port_dis.0.2.17: omega_dis[0,2,17] = 0
+ ev_empty_port_energy.0.2.17: energy[0,2,17] = 0
  omega_empty_port_ch.0.3.17: omega_ch[0,3,17] = 0
  omega_empty_port_dis.0.3.17: omega_dis[0,3,17] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
+ ev_empty_port_energy.0.3.17: energy[0,3,17] = 0
  omega_empty_port_ch.0.4.17: omega_ch[0,4,17] = 0
  omega_empty_port_dis.0.4.17: omega_dis[0,4,17] = 0
  ev_empty_port_energy.0.4.17: energy[0,4,17] = 0
@@ -15060,12 +11329,7 @@ Subject To
  ev_empty_port_energy.0.5.17: energy[0,5,17] = 0
  omega_empty_port_ch.0.6.17: omega_ch[0,6,17] = 0
  omega_empty_port_dis.0.6.17: omega_dis[0,6,17] = 0
-<<<<<<< HEAD
  ev_empty_port_energy.0.6.17: energy[0,6,17] = 0
- omega_empty_port_ch.0.8.17: omega_ch[0,8,17] = 0
- omega_empty_port_dis.0.8.17: omega_dis[0,8,17] = 0
- ev_empty_port_energy.0.8.17: energy[0,8,17] = 0
-=======
  omega_empty_port_ch.0.7.17: omega_ch[0,7,17] = 0
  omega_empty_port_dis.0.7.17: omega_dis[0,7,17] = 0
  ev_empty_port_energy.0.7.17: energy[0,7,17] = 0
@@ -15075,44 +11339,30 @@ Subject To
  omega_empty_port_ch.0.9.17: omega_ch[0,9,17] = 0
  omega_empty_port_dis.0.9.17: omega_dis[0,9,17] = 0
  ev_empty_port_energy.0.9.17: energy[0,9,17] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  omega_empty_port_ch.0.10.17: omega_ch[0,10,17] = 0
  omega_empty_port_dis.0.10.17: omega_dis[0,10,17] = 0
  ev_empty_port_energy.0.10.17: energy[0,10,17] = 0
  omega_empty_port_ch.0.11.17: omega_ch[0,11,17] = 0
  omega_empty_port_dis.0.11.17: omega_dis[0,11,17] = 0
-<<<<<<< HEAD
-=======
  omega_empty_port_ch.0.12.17: omega_ch[0,12,17] = 0
  omega_empty_port_dis.0.12.17: omega_dis[0,12,17] = 0
  ev_empty_port_energy.0.12.17: energy[0,12,17] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  omega_empty_port_ch.0.13.17: omega_ch[0,13,17] = 0
  omega_empty_port_dis.0.13.17: omega_dis[0,13,17] = 0
  ev_empty_port_energy.0.13.17: energy[0,13,17] = 0
+ omega_empty_port_ch.0.14.17: omega_ch[0,14,17] = 0
+ omega_empty_port_dis.0.14.17: omega_dis[0,14,17] = 0
  omega_empty_port_ch.0.15.17: omega_ch[0,15,17] = 0
  omega_empty_port_dis.0.15.17: omega_dis[0,15,17] = 0
- ev_empty_port_energy.0.15.17: energy[0,15,17] = 0
-<<<<<<< HEAD
-=======
- omega_empty_port_ch.0.16.17: omega_ch[0,16,17] = 0
- omega_empty_port_dis.0.16.17: omega_dis[0,16,17] = 0
- omega_empty_port_ch.0.17.17: omega_ch[0,17,17] = 0
- omega_empty_port_dis.0.17.17: omega_dis[0,17,17] = 0
- ev_empty_port_energy.0.17.17: energy[0,17,17] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  omega_empty_port_ch.0.18.17: omega_ch[0,18,17] = 0
  omega_empty_port_dis.0.18.17: omega_dis[0,18,17] = 0
  ev_empty_port_energy.0.18.17: energy[0,18,17] = 0
  omega_empty_port_ch.0.19.17: omega_ch[0,19,17] = 0
  omega_empty_port_dis.0.19.17: omega_dis[0,19,17] = 0
-<<<<<<< HEAD
  ev_empty_port_energy.0.19.17: energy[0,19,17] = 0
-=======
  omega_empty_port_ch.0.20.17: omega_ch[0,20,17] = 0
  omega_empty_port_dis.0.20.17: omega_dis[0,20,17] = 0
  ev_empty_port_energy.0.20.17: energy[0,20,17] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  omega_empty_port_ch.0.21.17: omega_ch[0,21,17] = 0
  omega_empty_port_dis.0.21.17: omega_dis[0,21,17] = 0
  ev_empty_port_energy.0.21.17: energy[0,21,17] = 0
@@ -15121,16 +11371,13 @@ Subject To
  ev_empty_port_energy.0.22.17: energy[0,22,17] = 0
  omega_empty_port_ch.0.23.17: omega_ch[0,23,17] = 0
  omega_empty_port_dis.0.23.17: omega_dis[0,23,17] = 0
-<<<<<<< HEAD
  ev_empty_port_energy.0.23.17: energy[0,23,17] = 0
  omega_empty_port_ch.0.24.17: omega_ch[0,24,17] = 0
  omega_empty_port_dis.0.24.17: omega_dis[0,24,17] = 0
  ev_empty_port_energy.0.24.17: energy[0,24,17] = 0
-=======
- omega_empty_port_ch.0.24.17: omega_ch[0,24,17] = 0
- omega_empty_port_dis.0.24.17: omega_dis[0,24,17] = 0
  omega_empty_port_ch.0.0.18: omega_ch[0,0,18] = 0
  omega_empty_port_dis.0.0.18: omega_dis[0,0,18] = 0
+ ev_empty_port_energy.0.0.18: energy[0,0,18] = 0
  omega_empty_port_ch.0.1.18: omega_ch[0,1,18] = 0
  omega_empty_port_dis.0.1.18: omega_dis[0,1,18] = 0
  ev_empty_port_energy.0.1.18: energy[0,1,18] = 0
@@ -15140,7 +11387,6 @@ Subject To
  omega_empty_port_ch.0.3.18: omega_ch[0,3,18] = 0
  omega_empty_port_dis.0.3.18: omega_dis[0,3,18] = 0
  ev_empty_port_energy.0.3.18: energy[0,3,18] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  omega_empty_port_ch.0.4.18: omega_ch[0,4,18] = 0
  omega_empty_port_dis.0.4.18: omega_dis[0,4,18] = 0
  ev_empty_port_energy.0.4.18: energy[0,4,18] = 0
@@ -15150,14 +11396,6 @@ Subject To
  omega_empty_port_ch.0.6.18: omega_ch[0,6,18] = 0
  omega_empty_port_dis.0.6.18: omega_dis[0,6,18] = 0
  ev_empty_port_energy.0.6.18: energy[0,6,18] = 0
-<<<<<<< HEAD
- omega_empty_port_ch.0.8.18: omega_ch[0,8,18] = 0
- omega_empty_port_dis.0.8.18: omega_dis[0,8,18] = 0
- ev_empty_port_energy.0.8.18: energy[0,8,18] = 0
- omega_empty_port_ch.0.10.18: omega_ch[0,10,18] = 0
- omega_empty_port_dis.0.10.18: omega_dis[0,10,18] = 0
- ev_empty_port_energy.0.10.18: energy[0,10,18] = 0
-=======
  omega_empty_port_ch.0.7.18: omega_ch[0,7,18] = 0
  omega_empty_port_dis.0.7.18: omega_dis[0,7,18] = 0
  ev_empty_port_energy.0.7.18: energy[0,7,18] = 0
@@ -15176,25 +11414,26 @@ Subject To
  omega_empty_port_ch.0.12.18: omega_ch[0,12,18] = 0
  omega_empty_port_dis.0.12.18: omega_dis[0,12,18] = 0
  ev_empty_port_energy.0.12.18: energy[0,12,18] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  omega_empty_port_ch.0.13.18: omega_ch[0,13,18] = 0
  omega_empty_port_dis.0.13.18: omega_dis[0,13,18] = 0
  ev_empty_port_energy.0.13.18: energy[0,13,18] = 0
+ omega_empty_port_ch.0.14.18: omega_ch[0,14,18] = 0
+ omega_empty_port_dis.0.14.18: omega_dis[0,14,18] = 0
+ ev_empty_port_energy.0.14.18: energy[0,14,18] = 0
  omega_empty_port_ch.0.15.18: omega_ch[0,15,18] = 0
  omega_empty_port_dis.0.15.18: omega_dis[0,15,18] = 0
  ev_empty_port_energy.0.15.18: energy[0,15,18] = 0
+ omega_empty_port_ch.0.16.18: omega_ch[0,16,18] = 0
+ omega_empty_port_dis.0.16.18: omega_dis[0,16,18] = 0
  omega_empty_port_ch.0.18.18: omega_ch[0,18,18] = 0
  omega_empty_port_dis.0.18.18: omega_dis[0,18,18] = 0
  ev_empty_port_energy.0.18.18: energy[0,18,18] = 0
  omega_empty_port_ch.0.19.18: omega_ch[0,19,18] = 0
  omega_empty_port_dis.0.19.18: omega_dis[0,19,18] = 0
  ev_empty_port_energy.0.19.18: energy[0,19,18] = 0
-<<<<<<< HEAD
-=======
  omega_empty_port_ch.0.20.18: omega_ch[0,20,18] = 0
  omega_empty_port_dis.0.20.18: omega_dis[0,20,18] = 0
  ev_empty_port_energy.0.20.18: energy[0,20,18] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  omega_empty_port_ch.0.21.18: omega_ch[0,21,18] = 0
  omega_empty_port_dis.0.21.18: omega_dis[0,21,18] = 0
  ev_empty_port_energy.0.21.18: energy[0,21,18] = 0
@@ -15207,8 +11446,6 @@ Subject To
  omega_empty_port_ch.0.24.18: omega_ch[0,24,18] = 0
  omega_empty_port_dis.0.24.18: omega_dis[0,24,18] = 0
  ev_empty_port_energy.0.24.18: energy[0,24,18] = 0
-<<<<<<< HEAD
-=======
  omega_empty_port_ch.0.0.19: omega_ch[0,0,19] = 0
  omega_empty_port_dis.0.0.19: omega_dis[0,0,19] = 0
  ev_empty_port_energy.0.0.19: energy[0,0,19] = 0
@@ -15221,7 +11458,6 @@ Subject To
  omega_empty_port_ch.0.3.19: omega_ch[0,3,19] = 0
  omega_empty_port_dis.0.3.19: omega_dis[0,3,19] = 0
  ev_empty_port_energy.0.3.19: energy[0,3,19] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  omega_empty_port_ch.0.4.19: omega_ch[0,4,19] = 0
  omega_empty_port_dis.0.4.19: omega_dis[0,4,19] = 0
  ev_empty_port_energy.0.4.19: energy[0,4,19] = 0
@@ -15231,14 +11467,6 @@ Subject To
  omega_empty_port_ch.0.6.19: omega_ch[0,6,19] = 0
  omega_empty_port_dis.0.6.19: omega_dis[0,6,19] = 0
  ev_empty_port_energy.0.6.19: energy[0,6,19] = 0
-<<<<<<< HEAD
- omega_empty_port_ch.0.8.19: omega_ch[0,8,19] = 0
- omega_empty_port_dis.0.8.19: omega_dis[0,8,19] = 0
- ev_empty_port_energy.0.8.19: energy[0,8,19] = 0
- omega_empty_port_ch.0.10.19: omega_ch[0,10,19] = 0
- omega_empty_port_dis.0.10.19: omega_dis[0,10,19] = 0
- ev_empty_port_energy.0.10.19: energy[0,10,19] = 0
-=======
  omega_empty_port_ch.0.7.19: omega_ch[0,7,19] = 0
  omega_empty_port_dis.0.7.19: omega_dis[0,7,19] = 0
  ev_empty_port_energy.0.7.19: energy[0,7,19] = 0
@@ -15257,25 +11485,29 @@ Subject To
  omega_empty_port_ch.0.12.19: omega_ch[0,12,19] = 0
  omega_empty_port_dis.0.12.19: omega_dis[0,12,19] = 0
  ev_empty_port_energy.0.12.19: energy[0,12,19] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  omega_empty_port_ch.0.13.19: omega_ch[0,13,19] = 0
  omega_empty_port_dis.0.13.19: omega_dis[0,13,19] = 0
  ev_empty_port_energy.0.13.19: energy[0,13,19] = 0
+ omega_empty_port_ch.0.14.19: omega_ch[0,14,19] = 0
+ omega_empty_port_dis.0.14.19: omega_dis[0,14,19] = 0
+ ev_empty_port_energy.0.14.19: energy[0,14,19] = 0
  omega_empty_port_ch.0.15.19: omega_ch[0,15,19] = 0
  omega_empty_port_dis.0.15.19: omega_dis[0,15,19] = 0
  ev_empty_port_energy.0.15.19: energy[0,15,19] = 0
+ omega_empty_port_ch.0.16.19: omega_ch[0,16,19] = 0
+ omega_empty_port_dis.0.16.19: omega_dis[0,16,19] = 0
+ ev_empty_port_energy.0.16.19: energy[0,16,19] = 0
+ omega_empty_port_ch.0.17.19: omega_ch[0,17,19] = 0
+ omega_empty_port_dis.0.17.19: omega_dis[0,17,19] = 0
  omega_empty_port_ch.0.18.19: omega_ch[0,18,19] = 0
  omega_empty_port_dis.0.18.19: omega_dis[0,18,19] = 0
  ev_empty_port_energy.0.18.19: energy[0,18,19] = 0
  omega_empty_port_ch.0.19.19: omega_ch[0,19,19] = 0
  omega_empty_port_dis.0.19.19: omega_dis[0,19,19] = 0
  ev_empty_port_energy.0.19.19: energy[0,19,19] = 0
-<<<<<<< HEAD
-=======
  omega_empty_port_ch.0.20.19: omega_ch[0,20,19] = 0
  omega_empty_port_dis.0.20.19: omega_dis[0,20,19] = 0
  ev_empty_port_energy.0.20.19: energy[0,20,19] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  omega_empty_port_ch.0.21.19: omega_ch[0,21,19] = 0
  omega_empty_port_dis.0.21.19: omega_dis[0,21,19] = 0
  ev_empty_port_energy.0.21.19: energy[0,21,19] = 0
@@ -15288,8 +11520,6 @@ Subject To
  omega_empty_port_ch.0.24.19: omega_ch[0,24,19] = 0
  omega_empty_port_dis.0.24.19: omega_dis[0,24,19] = 0
  ev_empty_port_energy.0.24.19: energy[0,24,19] = 0
-<<<<<<< HEAD
-=======
  omega_empty_port_ch.0.0.20: omega_ch[0,0,20] = 0
  omega_empty_port_dis.0.0.20: omega_dis[0,0,20] = 0
  ev_empty_port_energy.0.0.20: energy[0,0,20] = 0
@@ -15302,7 +11532,6 @@ Subject To
  omega_empty_port_ch.0.3.20: omega_ch[0,3,20] = 0
  omega_empty_port_dis.0.3.20: omega_dis[0,3,20] = 0
  ev_empty_port_energy.0.3.20: energy[0,3,20] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  omega_empty_port_ch.0.4.20: omega_ch[0,4,20] = 0
  omega_empty_port_dis.0.4.20: omega_dis[0,4,20] = 0
  ev_empty_port_energy.0.4.20: energy[0,4,20] = 0
@@ -15312,13 +11541,6 @@ Subject To
  omega_empty_port_ch.0.6.20: omega_ch[0,6,20] = 0
  omega_empty_port_dis.0.6.20: omega_dis[0,6,20] = 0
  ev_empty_port_energy.0.6.20: energy[0,6,20] = 0
-<<<<<<< HEAD
- omega_empty_port_ch.0.8.20: omega_ch[0,8,20] = 0
- omega_empty_port_dis.0.8.20: omega_dis[0,8,20] = 0
- ev_empty_port_energy.0.8.20: energy[0,8,20] = 0
- omega_empty_port_ch.0.10.20: omega_ch[0,10,20] = 0
- omega_empty_port_dis.0.10.20: omega_dis[0,10,20] = 0
-=======
  omega_empty_port_ch.0.7.20: omega_ch[0,7,20] = 0
  omega_empty_port_dis.0.7.20: omega_dis[0,7,20] = 0
  ev_empty_port_energy.0.7.20: energy[0,7,20] = 0
@@ -15337,24 +11559,30 @@ Subject To
  omega_empty_port_ch.0.12.20: omega_ch[0,12,20] = 0
  omega_empty_port_dis.0.12.20: omega_dis[0,12,20] = 0
  ev_empty_port_energy.0.12.20: energy[0,12,20] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  omega_empty_port_ch.0.13.20: omega_ch[0,13,20] = 0
  omega_empty_port_dis.0.13.20: omega_dis[0,13,20] = 0
  ev_empty_port_energy.0.13.20: energy[0,13,20] = 0
+ omega_empty_port_ch.0.14.20: omega_ch[0,14,20] = 0
+ omega_empty_port_dis.0.14.20: omega_dis[0,14,20] = 0
+ ev_empty_port_energy.0.14.20: energy[0,14,20] = 0
  omega_empty_port_ch.0.15.20: omega_ch[0,15,20] = 0
  omega_empty_port_dis.0.15.20: omega_dis[0,15,20] = 0
+ ev_empty_port_energy.0.15.20: energy[0,15,20] = 0
+ omega_empty_port_ch.0.16.20: omega_ch[0,16,20] = 0
+ omega_empty_port_dis.0.16.20: omega_dis[0,16,20] = 0
+ ev_empty_port_energy.0.16.20: energy[0,16,20] = 0
+ omega_empty_port_ch.0.17.20: omega_ch[0,17,20] = 0
+ omega_empty_port_dis.0.17.20: omega_dis[0,17,20] = 0
+ ev_empty_port_energy.0.17.20: energy[0,17,20] = 0
  omega_empty_port_ch.0.18.20: omega_ch[0,18,20] = 0
  omega_empty_port_dis.0.18.20: omega_dis[0,18,20] = 0
  ev_empty_port_energy.0.18.20: energy[0,18,20] = 0
  omega_empty_port_ch.0.19.20: omega_ch[0,19,20] = 0
  omega_empty_port_dis.0.19.20: omega_dis[0,19,20] = 0
  ev_empty_port_energy.0.19.20: energy[0,19,20] = 0
-<<<<<<< HEAD
-=======
  omega_empty_port_ch.0.20.20: omega_ch[0,20,20] = 0
  omega_empty_port_dis.0.20.20: omega_dis[0,20,20] = 0
  ev_empty_port_energy.0.20.20: energy[0,20,20] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  omega_empty_port_ch.0.21.20: omega_ch[0,21,20] = 0
  omega_empty_port_dis.0.21.20: omega_dis[0,21,20] = 0
  ev_empty_port_energy.0.21.20: energy[0,21,20] = 0
@@ -15367,8 +11595,6 @@ Subject To
  omega_empty_port_ch.0.24.20: omega_ch[0,24,20] = 0
  omega_empty_port_dis.0.24.20: omega_dis[0,24,20] = 0
  ev_empty_port_energy.0.24.20: energy[0,24,20] = 0
-<<<<<<< HEAD
-=======
  omega_empty_port_ch.0.0.21: omega_ch[0,0,21] = 0
  omega_empty_port_dis.0.0.21: omega_dis[0,0,21] = 0
  ev_empty_port_energy.0.0.21: energy[0,0,21] = 0
@@ -15381,7 +11607,6 @@ Subject To
  omega_empty_port_ch.0.3.21: omega_ch[0,3,21] = 0
  omega_empty_port_dis.0.3.21: omega_dis[0,3,21] = 0
  ev_empty_port_energy.0.3.21: energy[0,3,21] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  omega_empty_port_ch.0.4.21: omega_ch[0,4,21] = 0
  omega_empty_port_dis.0.4.21: omega_dis[0,4,21] = 0
  ev_empty_port_energy.0.4.21: energy[0,4,21] = 0
@@ -15391,11 +11616,6 @@ Subject To
  omega_empty_port_ch.0.6.21: omega_ch[0,6,21] = 0
  omega_empty_port_dis.0.6.21: omega_dis[0,6,21] = 0
  ev_empty_port_energy.0.6.21: energy[0,6,21] = 0
-<<<<<<< HEAD
- omega_empty_port_ch.0.8.21: omega_ch[0,8,21] = 0
- omega_empty_port_dis.0.8.21: omega_dis[0,8,21] = 0
- ev_empty_port_energy.0.8.21: energy[0,8,21] = 0
-=======
  omega_empty_port_ch.0.7.21: omega_ch[0,7,21] = 0
  omega_empty_port_dis.0.7.21: omega_dis[0,7,21] = 0
  ev_empty_port_energy.0.7.21: energy[0,7,21] = 0
@@ -15414,22 +11634,30 @@ Subject To
  omega_empty_port_ch.0.12.21: omega_ch[0,12,21] = 0
  omega_empty_port_dis.0.12.21: omega_dis[0,12,21] = 0
  ev_empty_port_energy.0.12.21: energy[0,12,21] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  omega_empty_port_ch.0.13.21: omega_ch[0,13,21] = 0
  omega_empty_port_dis.0.13.21: omega_dis[0,13,21] = 0
  ev_empty_port_energy.0.13.21: energy[0,13,21] = 0
+ omega_empty_port_ch.0.14.21: omega_ch[0,14,21] = 0
+ omega_empty_port_dis.0.14.21: omega_dis[0,14,21] = 0
+ ev_empty_port_energy.0.14.21: energy[0,14,21] = 0
+ omega_empty_port_ch.0.15.21: omega_ch[0,15,21] = 0
+ omega_empty_port_dis.0.15.21: omega_dis[0,15,21] = 0
+ ev_empty_port_energy.0.15.21: energy[0,15,21] = 0
+ omega_empty_port_ch.0.16.21: omega_ch[0,16,21] = 0
+ omega_empty_port_dis.0.16.21: omega_dis[0,16,21] = 0
+ ev_empty_port_energy.0.16.21: energy[0,16,21] = 0
+ omega_empty_port_ch.0.17.21: omega_ch[0,17,21] = 0
+ omega_empty_port_dis.0.17.21: omega_dis[0,17,21] = 0
+ ev_empty_port_energy.0.17.21: energy[0,17,21] = 0
  omega_empty_port_ch.0.18.21: omega_ch[0,18,21] = 0
  omega_empty_port_dis.0.18.21: omega_dis[0,18,21] = 0
  ev_empty_port_energy.0.18.21: energy[0,18,21] = 0
  omega_empty_port_ch.0.19.21: omega_ch[0,19,21] = 0
  omega_empty_port_dis.0.19.21: omega_dis[0,19,21] = 0
  ev_empty_port_energy.0.19.21: energy[0,19,21] = 0
-<<<<<<< HEAD
-=======
  omega_empty_port_ch.0.20.21: omega_ch[0,20,21] = 0
  omega_empty_port_dis.0.20.21: omega_dis[0,20,21] = 0
  ev_empty_port_energy.0.20.21: energy[0,20,21] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  omega_empty_port_ch.0.21.21: omega_ch[0,21,21] = 0
  omega_empty_port_dis.0.21.21: omega_dis[0,21,21] = 0
  ev_empty_port_energy.0.21.21: energy[0,21,21] = 0
@@ -15442,8 +11670,6 @@ Subject To
  omega_empty_port_ch.0.24.21: omega_ch[0,24,21] = 0
  omega_empty_port_dis.0.24.21: omega_dis[0,24,21] = 0
  ev_empty_port_energy.0.24.21: energy[0,24,21] = 0
-<<<<<<< HEAD
-=======
  omega_empty_port_ch.0.0.22: omega_ch[0,0,22] = 0
  omega_empty_port_dis.0.0.22: omega_dis[0,0,22] = 0
  ev_empty_port_energy.0.0.22: energy[0,0,22] = 0
@@ -15456,7 +11682,6 @@ Subject To
  omega_empty_port_ch.0.3.22: omega_ch[0,3,22] = 0
  omega_empty_port_dis.0.3.22: omega_dis[0,3,22] = 0
  ev_empty_port_energy.0.3.22: energy[0,3,22] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  omega_empty_port_ch.0.4.22: omega_ch[0,4,22] = 0
  omega_empty_port_dis.0.4.22: omega_dis[0,4,22] = 0
  ev_empty_port_energy.0.4.22: energy[0,4,22] = 0
@@ -15465,11 +11690,6 @@ Subject To
  ev_empty_port_energy.0.5.22: energy[0,5,22] = 0
  omega_empty_port_ch.0.6.22: omega_ch[0,6,22] = 0
  omega_empty_port_dis.0.6.22: omega_dis[0,6,22] = 0
-<<<<<<< HEAD
- omega_empty_port_ch.0.8.22: omega_ch[0,8,22] = 0
- omega_empty_port_dis.0.8.22: omega_dis[0,8,22] = 0
- ev_empty_port_energy.0.8.22: energy[0,8,22] = 0
-=======
  ev_empty_port_energy.0.6.22: energy[0,6,22] = 0
  omega_empty_port_ch.0.7.22: omega_ch[0,7,22] = 0
  omega_empty_port_dis.0.7.22: omega_dis[0,7,22] = 0
@@ -15489,22 +11709,30 @@ Subject To
  omega_empty_port_ch.0.12.22: omega_ch[0,12,22] = 0
  omega_empty_port_dis.0.12.22: omega_dis[0,12,22] = 0
  ev_empty_port_energy.0.12.22: energy[0,12,22] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  omega_empty_port_ch.0.13.22: omega_ch[0,13,22] = 0
  omega_empty_port_dis.0.13.22: omega_dis[0,13,22] = 0
  ev_empty_port_energy.0.13.22: energy[0,13,22] = 0
+ omega_empty_port_ch.0.14.22: omega_ch[0,14,22] = 0
+ omega_empty_port_dis.0.14.22: omega_dis[0,14,22] = 0
+ ev_empty_port_energy.0.14.22: energy[0,14,22] = 0
+ omega_empty_port_ch.0.15.22: omega_ch[0,15,22] = 0
+ omega_empty_port_dis.0.15.22: omega_dis[0,15,22] = 0
+ ev_empty_port_energy.0.15.22: energy[0,15,22] = 0
+ omega_empty_port_ch.0.16.22: omega_ch[0,16,22] = 0
+ omega_empty_port_dis.0.16.22: omega_dis[0,16,22] = 0
+ ev_empty_port_energy.0.16.22: energy[0,16,22] = 0
+ omega_empty_port_ch.0.17.22: omega_ch[0,17,22] = 0
+ omega_empty_port_dis.0.17.22: omega_dis[0,17,22] = 0
+ ev_empty_port_energy.0.17.22: energy[0,17,22] = 0
  omega_empty_port_ch.0.18.22: omega_ch[0,18,22] = 0
  omega_empty_port_dis.0.18.22: omega_dis[0,18,22] = 0
  ev_empty_port_energy.0.18.22: energy[0,18,22] = 0
  omega_empty_port_ch.0.19.22: omega_ch[0,19,22] = 0
  omega_empty_port_dis.0.19.22: omega_dis[0,19,22] = 0
  ev_empty_port_energy.0.19.22: energy[0,19,22] = 0
-<<<<<<< HEAD
-=======
  omega_empty_port_ch.0.20.22: omega_ch[0,20,22] = 0
  omega_empty_port_dis.0.20.22: omega_dis[0,20,22] = 0
  ev_empty_port_energy.0.20.22: energy[0,20,22] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  omega_empty_port_ch.0.21.22: omega_ch[0,21,22] = 0
  omega_empty_port_dis.0.21.22: omega_dis[0,21,22] = 0
  ev_empty_port_energy.0.21.22: energy[0,21,22] = 0
@@ -15517,8 +11745,6 @@ Subject To
  omega_empty_port_ch.0.24.22: omega_ch[0,24,22] = 0
  omega_empty_port_dis.0.24.22: omega_dis[0,24,22] = 0
  ev_empty_port_energy.0.24.22: energy[0,24,22] = 0
-<<<<<<< HEAD
-=======
  omega_empty_port_ch.0.0.23: omega_ch[0,0,23] = 0
  omega_empty_port_dis.0.0.23: omega_dis[0,0,23] = 0
  ev_empty_port_energy.0.0.23: energy[0,0,23] = 0
@@ -15531,18 +11757,12 @@ Subject To
  omega_empty_port_ch.0.3.23: omega_ch[0,3,23] = 0
  omega_empty_port_dis.0.3.23: omega_dis[0,3,23] = 0
  ev_empty_port_energy.0.3.23: energy[0,3,23] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  omega_empty_port_ch.0.4.23: omega_ch[0,4,23] = 0
  omega_empty_port_dis.0.4.23: omega_dis[0,4,23] = 0
  ev_empty_port_energy.0.4.23: energy[0,4,23] = 0
  omega_empty_port_ch.0.5.23: omega_ch[0,5,23] = 0
  omega_empty_port_dis.0.5.23: omega_dis[0,5,23] = 0
  ev_empty_port_energy.0.5.23: energy[0,5,23] = 0
-<<<<<<< HEAD
- omega_empty_port_ch.0.8.23: omega_ch[0,8,23] = 0
- omega_empty_port_dis.0.8.23: omega_dis[0,8,23] = 0
- ev_empty_port_energy.0.8.23: energy[0,8,23] = 0
-=======
  omega_empty_port_ch.0.6.23: omega_ch[0,6,23] = 0
  omega_empty_port_dis.0.6.23: omega_dis[0,6,23] = 0
  ev_empty_port_energy.0.6.23: energy[0,6,23] = 0
@@ -15564,22 +11784,30 @@ Subject To
  omega_empty_port_ch.0.12.23: omega_ch[0,12,23] = 0
  omega_empty_port_dis.0.12.23: omega_dis[0,12,23] = 0
  ev_empty_port_energy.0.12.23: energy[0,12,23] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  omega_empty_port_ch.0.13.23: omega_ch[0,13,23] = 0
  omega_empty_port_dis.0.13.23: omega_dis[0,13,23] = 0
  ev_empty_port_energy.0.13.23: energy[0,13,23] = 0
+ omega_empty_port_ch.0.14.23: omega_ch[0,14,23] = 0
+ omega_empty_port_dis.0.14.23: omega_dis[0,14,23] = 0
+ ev_empty_port_energy.0.14.23: energy[0,14,23] = 0
+ omega_empty_port_ch.0.15.23: omega_ch[0,15,23] = 0
+ omega_empty_port_dis.0.15.23: omega_dis[0,15,23] = 0
+ ev_empty_port_energy.0.15.23: energy[0,15,23] = 0
+ omega_empty_port_ch.0.16.23: omega_ch[0,16,23] = 0
+ omega_empty_port_dis.0.16.23: omega_dis[0,16,23] = 0
+ ev_empty_port_energy.0.16.23: energy[0,16,23] = 0
+ omega_empty_port_ch.0.17.23: omega_ch[0,17,23] = 0
+ omega_empty_port_dis.0.17.23: omega_dis[0,17,23] = 0
+ ev_empty_port_energy.0.17.23: energy[0,17,23] = 0
  omega_empty_port_ch.0.18.23: omega_ch[0,18,23] = 0
  omega_empty_port_dis.0.18.23: omega_dis[0,18,23] = 0
  ev_empty_port_energy.0.18.23: energy[0,18,23] = 0
  omega_empty_port_ch.0.19.23: omega_ch[0,19,23] = 0
  omega_empty_port_dis.0.19.23: omega_dis[0,19,23] = 0
  ev_empty_port_energy.0.19.23: energy[0,19,23] = 0
-<<<<<<< HEAD
-=======
  omega_empty_port_ch.0.20.23: omega_ch[0,20,23] = 0
  omega_empty_port_dis.0.20.23: omega_dis[0,20,23] = 0
  ev_empty_port_energy.0.20.23: energy[0,20,23] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  omega_empty_port_ch.0.21.23: omega_ch[0,21,23] = 0
  omega_empty_port_dis.0.21.23: omega_dis[0,21,23] = 0
  ev_empty_port_energy.0.21.23: energy[0,21,23] = 0
@@ -15592,7085 +11820,91 @@ Subject To
  omega_empty_port_ch.0.24.23: omega_ch[0,24,23] = 0
  omega_empty_port_dis.0.24.23: omega_dis[0,24,23] = 0
  ev_empty_port_energy.0.24.23: energy[0,24,23] = 0
-<<<<<<< HEAD
- omega_empty_port_ch.0.4.24: omega_ch[0,4,24] = 0
- omega_empty_port_dis.0.4.24: omega_dis[0,4,24] = 0
- ev_empty_port_energy.0.4.24: energy[0,4,24] = 0
- omega_empty_port_ch.0.5.24: omega_ch[0,5,24] = 0
- omega_empty_port_dis.0.5.24: omega_dis[0,5,24] = 0
- ev_empty_port_energy.0.5.24: energy[0,5,24] = 0
- omega_empty_port_ch.0.8.24: omega_ch[0,8,24] = 0
- omega_empty_port_dis.0.8.24: omega_dis[0,8,24] = 0
- ev_empty_port_energy.0.8.24: energy[0,8,24] = 0
- omega_empty_port_ch.0.13.24: omega_ch[0,13,24] = 0
- omega_empty_port_dis.0.13.24: omega_dis[0,13,24] = 0
- ev_empty_port_energy.0.13.24: energy[0,13,24] = 0
- omega_empty_port_ch.0.18.24: omega_ch[0,18,24] = 0
- omega_empty_port_dis.0.18.24: omega_dis[0,18,24] = 0
- ev_empty_port_energy.0.18.24: energy[0,18,24] = 0
- omega_empty_port_ch.0.19.24: omega_ch[0,19,24] = 0
- omega_empty_port_dis.0.19.24: omega_dis[0,19,24] = 0
- omega_empty_port_ch.0.21.24: omega_ch[0,21,24] = 0
- omega_empty_port_dis.0.21.24: omega_dis[0,21,24] = 0
- ev_empty_port_energy.0.21.24: energy[0,21,24] = 0
- omega_empty_port_ch.0.22.24: omega_ch[0,22,24] = 0
- omega_empty_port_dis.0.22.24: omega_dis[0,22,24] = 0
- ev_empty_port_energy.0.22.24: energy[0,22,24] = 0
- omega_empty_port_ch.0.23.24: omega_ch[0,23,24] = 0
- omega_empty_port_dis.0.23.24: omega_dis[0,23,24] = 0
- ev_empty_port_energy.0.23.24: energy[0,23,24] = 0
- omega_empty_port_ch.0.24.24: omega_ch[0,24,24] = 0
- omega_empty_port_dis.0.24.24: omega_dis[0,24,24] = 0
- ev_empty_port_energy.0.24.24: energy[0,24,24] = 0
- omega_empty_port_ch.0.4.25: omega_ch[0,4,25] = 0
- omega_empty_port_dis.0.4.25: omega_dis[0,4,25] = 0
- omega_empty_port_ch.0.5.25: omega_ch[0,5,25] = 0
- omega_empty_port_dis.0.5.25: omega_dis[0,5,25] = 0
- ev_empty_port_energy.0.5.25: energy[0,5,25] = 0
- omega_empty_port_ch.0.8.25: omega_ch[0,8,25] = 0
- omega_empty_port_dis.0.8.25: omega_dis[0,8,25] = 0
- ev_empty_port_energy.0.8.25: energy[0,8,25] = 0
- omega_empty_port_ch.0.13.25: omega_ch[0,13,25] = 0
- omega_empty_port_dis.0.13.25: omega_dis[0,13,25] = 0
- ev_empty_port_energy.0.13.25: energy[0,13,25] = 0
- omega_empty_port_ch.0.18.25: omega_ch[0,18,25] = 0
- omega_empty_port_dis.0.18.25: omega_dis[0,18,25] = 0
- ev_empty_port_energy.0.18.25: energy[0,18,25] = 0
- omega_empty_port_ch.0.21.25: omega_ch[0,21,25] = 0
- omega_empty_port_dis.0.21.25: omega_dis[0,21,25] = 0
- ev_empty_port_energy.0.21.25: energy[0,21,25] = 0
- omega_empty_port_ch.0.22.25: omega_ch[0,22,25] = 0
- omega_empty_port_dis.0.22.25: omega_dis[0,22,25] = 0
- ev_empty_port_energy.0.22.25: energy[0,22,25] = 0
- omega_empty_port_ch.0.23.25: omega_ch[0,23,25] = 0
- omega_empty_port_dis.0.23.25: omega_dis[0,23,25] = 0
- omega_empty_port_ch.0.24.25: omega_ch[0,24,25] = 0
- omega_empty_port_dis.0.24.25: omega_dis[0,24,25] = 0
- ev_empty_port_energy.0.24.25: energy[0,24,25] = 0
- omega_empty_port_ch.0.5.26: omega_ch[0,5,26] = 0
- omega_empty_port_dis.0.5.26: omega_dis[0,5,26] = 0
- ev_empty_port_energy.0.5.26: energy[0,5,26] = 0
- omega_empty_port_ch.0.8.26: omega_ch[0,8,26] = 0
- omega_empty_port_dis.0.8.26: omega_dis[0,8,26] = 0
- ev_empty_port_energy.0.8.26: energy[0,8,26] = 0
- omega_empty_port_ch.0.13.26: omega_ch[0,13,26] = 0
- omega_empty_port_dis.0.13.26: omega_dis[0,13,26] = 0
- ev_empty_port_energy.0.13.26: energy[0,13,26] = 0
- omega_empty_port_ch.0.18.26: omega_ch[0,18,26] = 0
- omega_empty_port_dis.0.18.26: omega_dis[0,18,26] = 0
- ev_empty_port_energy.0.18.26: energy[0,18,26] = 0
- omega_empty_port_ch.0.21.26: omega_ch[0,21,26] = 0
- omega_empty_port_dis.0.21.26: omega_dis[0,21,26] = 0
- ev_empty_port_energy.0.21.26: energy[0,21,26] = 0
- omega_empty_port_ch.0.22.26: omega_ch[0,22,26] = 0
- omega_empty_port_dis.0.22.26: omega_dis[0,22,26] = 0
- ev_empty_port_energy.0.22.26: energy[0,22,26] = 0
- omega_empty_port_ch.0.24.26: omega_ch[0,24,26] = 0
- omega_empty_port_dis.0.24.26: omega_dis[0,24,26] = 0
- ev_empty_port_energy.0.24.26: energy[0,24,26] = 0
- omega_empty_port_ch.0.5.27: omega_ch[0,5,27] = 0
- omega_empty_port_dis.0.5.27: omega_dis[0,5,27] = 0
- ev_empty_port_energy.0.5.27: energy[0,5,27] = 0
- omega_empty_port_ch.0.8.27: omega_ch[0,8,27] = 0
- omega_empty_port_dis.0.8.27: omega_dis[0,8,27] = 0
- ev_empty_port_energy.0.8.27: energy[0,8,27] = 0
- omega_empty_port_ch.0.13.27: omega_ch[0,13,27] = 0
- omega_empty_port_dis.0.13.27: omega_dis[0,13,27] = 0
- ev_empty_port_energy.0.13.27: energy[0,13,27] = 0
- omega_empty_port_ch.0.18.27: omega_ch[0,18,27] = 0
- omega_empty_port_dis.0.18.27: omega_dis[0,18,27] = 0
- ev_empty_port_energy.0.18.27: energy[0,18,27] = 0
- omega_empty_port_ch.0.21.27: omega_ch[0,21,27] = 0
- omega_empty_port_dis.0.21.27: omega_dis[0,21,27] = 0
- ev_empty_port_energy.0.21.27: energy[0,21,27] = 0
- omega_empty_port_ch.0.22.27: omega_ch[0,22,27] = 0
- omega_empty_port_dis.0.22.27: omega_dis[0,22,27] = 0
- ev_empty_port_energy.0.22.27: energy[0,22,27] = 0
- omega_empty_port_ch.0.24.27: omega_ch[0,24,27] = 0
- omega_empty_port_dis.0.24.27: omega_dis[0,24,27] = 0
- ev_empty_port_energy.0.24.27: energy[0,24,27] = 0
- omega_empty_port_ch.0.5.28: omega_ch[0,5,28] = 0
- omega_empty_port_dis.0.5.28: omega_dis[0,5,28] = 0
- ev_empty_port_energy.0.5.28: energy[0,5,28] = 0
- omega_empty_port_ch.0.8.28: omega_ch[0,8,28] = 0
- omega_empty_port_dis.0.8.28: omega_dis[0,8,28] = 0
- ev_empty_port_energy.0.8.28: energy[0,8,28] = 0
- omega_empty_port_ch.0.13.28: omega_ch[0,13,28] = 0
- omega_empty_port_dis.0.13.28: omega_dis[0,13,28] = 0
- ev_empty_port_energy.0.13.28: energy[0,13,28] = 0
- omega_empty_port_ch.0.18.28: omega_ch[0,18,28] = 0
- omega_empty_port_dis.0.18.28: omega_dis[0,18,28] = 0
- ev_empty_port_energy.0.18.28: energy[0,18,28] = 0
- omega_empty_port_ch.0.21.28: omega_ch[0,21,28] = 0
- omega_empty_port_dis.0.21.28: omega_dis[0,21,28] = 0
- ev_empty_port_energy.0.21.28: energy[0,21,28] = 0
- omega_empty_port_ch.0.22.28: omega_ch[0,22,28] = 0
- omega_empty_port_dis.0.22.28: omega_dis[0,22,28] = 0
- ev_empty_port_energy.0.22.28: energy[0,22,28] = 0
- omega_empty_port_ch.0.24.28: omega_ch[0,24,28] = 0
- omega_empty_port_dis.0.24.28: omega_dis[0,24,28] = 0
- ev_empty_port_energy.0.24.28: energy[0,24,28] = 0
- omega_empty_port_ch.0.5.29: omega_ch[0,5,29] = 0
- omega_empty_port_dis.0.5.29: omega_dis[0,5,29] = 0
- ev_empty_port_energy.0.5.29: energy[0,5,29] = 0
- omega_empty_port_ch.0.8.29: omega_ch[0,8,29] = 0
- omega_empty_port_dis.0.8.29: omega_dis[0,8,29] = 0
- ev_empty_port_energy.0.8.29: energy[0,8,29] = 0
- omega_empty_port_ch.0.13.29: omega_ch[0,13,29] = 0
- omega_empty_port_dis.0.13.29: omega_dis[0,13,29] = 0
- ev_empty_port_energy.0.13.29: energy[0,13,29] = 0
- omega_empty_port_ch.0.18.29: omega_ch[0,18,29] = 0
- omega_empty_port_dis.0.18.29: omega_dis[0,18,29] = 0
- ev_empty_port_energy.0.18.29: energy[0,18,29] = 0
- omega_empty_port_ch.0.21.29: omega_ch[0,21,29] = 0
- omega_empty_port_dis.0.21.29: omega_dis[0,21,29] = 0
- ev_empty_port_energy.0.21.29: energy[0,21,29] = 0
- omega_empty_port_ch.0.22.29: omega_ch[0,22,29] = 0
- omega_empty_port_dis.0.22.29: omega_dis[0,22,29] = 0
- ev_empty_port_energy.0.22.29: energy[0,22,29] = 0
- omega_empty_port_ch.0.24.29: omega_ch[0,24,29] = 0
- omega_empty_port_dis.0.24.29: omega_dis[0,24,29] = 0
- ev_empty_port_energy.0.24.29: energy[0,24,29] = 0
- omega_empty_port_ch.0.5.30: omega_ch[0,5,30] = 0
- omega_empty_port_dis.0.5.30: omega_dis[0,5,30] = 0
- ev_empty_port_energy.0.5.30: energy[0,5,30] = 0
- omega_empty_port_ch.0.8.30: omega_ch[0,8,30] = 0
- omega_empty_port_dis.0.8.30: omega_dis[0,8,30] = 0
- ev_empty_port_energy.0.8.30: energy[0,8,30] = 0
- omega_empty_port_ch.0.13.30: omega_ch[0,13,30] = 0
- omega_empty_port_dis.0.13.30: omega_dis[0,13,30] = 0
- ev_empty_port_energy.0.13.30: energy[0,13,30] = 0
- omega_empty_port_ch.0.18.30: omega_ch[0,18,30] = 0
- omega_empty_port_dis.0.18.30: omega_dis[0,18,30] = 0
- ev_empty_port_energy.0.18.30: energy[0,18,30] = 0
- omega_empty_port_ch.0.21.30: omega_ch[0,21,30] = 0
- omega_empty_port_dis.0.21.30: omega_dis[0,21,30] = 0
- ev_empty_port_energy.0.21.30: energy[0,21,30] = 0
- omega_empty_port_ch.0.22.30: omega_ch[0,22,30] = 0
- omega_empty_port_dis.0.22.30: omega_dis[0,22,30] = 0
- ev_empty_port_energy.0.22.30: energy[0,22,30] = 0
- omega_empty_port_ch.0.24.30: omega_ch[0,24,30] = 0
- omega_empty_port_dis.0.24.30: omega_dis[0,24,30] = 0
- ev_empty_port_energy.0.24.30: energy[0,24,30] = 0
- omega_empty_port_ch.0.5.31: omega_ch[0,5,31] = 0
- omega_empty_port_dis.0.5.31: omega_dis[0,5,31] = 0
- ev_empty_port_energy.0.5.31: energy[0,5,31] = 0
- omega_empty_port_ch.0.8.31: omega_ch[0,8,31] = 0
- omega_empty_port_dis.0.8.31: omega_dis[0,8,31] = 0
- ev_empty_port_energy.0.8.31: energy[0,8,31] = 0
- omega_empty_port_ch.0.13.31: omega_ch[0,13,31] = 0
- omega_empty_port_dis.0.13.31: omega_dis[0,13,31] = 0
- ev_empty_port_energy.0.13.31: energy[0,13,31] = 0
- omega_empty_port_ch.0.18.31: omega_ch[0,18,31] = 0
- omega_empty_port_dis.0.18.31: omega_dis[0,18,31] = 0
- ev_empty_port_energy.0.18.31: energy[0,18,31] = 0
- omega_empty_port_ch.0.21.31: omega_ch[0,21,31] = 0
- omega_empty_port_dis.0.21.31: omega_dis[0,21,31] = 0
- ev_empty_port_energy.0.21.31: energy[0,21,31] = 0
- omega_empty_port_ch.0.22.31: omega_ch[0,22,31] = 0
- omega_empty_port_dis.0.22.31: omega_dis[0,22,31] = 0
- ev_empty_port_energy.0.22.31: energy[0,22,31] = 0
- omega_empty_port_ch.0.24.31: omega_ch[0,24,31] = 0
- omega_empty_port_dis.0.24.31: omega_dis[0,24,31] = 0
- ev_empty_port_energy.0.24.31: energy[0,24,31] = 0
- omega_empty_port_ch.0.5.32: omega_ch[0,5,32] = 0
- omega_empty_port_dis.0.5.32: omega_dis[0,5,32] = 0
- ev_empty_port_energy.0.5.32: energy[0,5,32] = 0
- omega_empty_port_ch.0.8.32: omega_ch[0,8,32] = 0
- omega_empty_port_dis.0.8.32: omega_dis[0,8,32] = 0
- ev_empty_port_energy.0.8.32: energy[0,8,32] = 0
- omega_empty_port_ch.0.13.32: omega_ch[0,13,32] = 0
- omega_empty_port_dis.0.13.32: omega_dis[0,13,32] = 0
- ev_empty_port_energy.0.13.32: energy[0,13,32] = 0
- omega_empty_port_ch.0.18.32: omega_ch[0,18,32] = 0
- omega_empty_port_dis.0.18.32: omega_dis[0,18,32] = 0
- ev_empty_port_energy.0.18.32: energy[0,18,32] = 0
- omega_empty_port_ch.0.21.32: omega_ch[0,21,32] = 0
- omega_empty_port_dis.0.21.32: omega_dis[0,21,32] = 0
- ev_empty_port_energy.0.21.32: energy[0,21,32] = 0
- omega_empty_port_ch.0.22.32: omega_ch[0,22,32] = 0
- omega_empty_port_dis.0.22.32: omega_dis[0,22,32] = 0
- ev_empty_port_energy.0.22.32: energy[0,22,32] = 0
- omega_empty_port_ch.0.24.32: omega_ch[0,24,32] = 0
- omega_empty_port_dis.0.24.32: omega_dis[0,24,32] = 0
- ev_empty_port_energy.0.24.32: energy[0,24,32] = 0
- omega_empty_port_ch.0.5.33: omega_ch[0,5,33] = 0
- omega_empty_port_dis.0.5.33: omega_dis[0,5,33] = 0
- ev_empty_port_energy.0.5.33: energy[0,5,33] = 0
- omega_empty_port_ch.0.8.33: omega_ch[0,8,33] = 0
- omega_empty_port_dis.0.8.33: omega_dis[0,8,33] = 0
- ev_empty_port_energy.0.8.33: energy[0,8,33] = 0
- omega_empty_port_ch.0.13.33: omega_ch[0,13,33] = 0
- omega_empty_port_dis.0.13.33: omega_dis[0,13,33] = 0
- ev_empty_port_energy.0.13.33: energy[0,13,33] = 0
- omega_empty_port_ch.0.18.33: omega_ch[0,18,33] = 0
- omega_empty_port_dis.0.18.33: omega_dis[0,18,33] = 0
- ev_empty_port_energy.0.18.33: energy[0,18,33] = 0
- omega_empty_port_ch.0.21.33: omega_ch[0,21,33] = 0
- omega_empty_port_dis.0.21.33: omega_dis[0,21,33] = 0
- ev_empty_port_energy.0.21.33: energy[0,21,33] = 0
- omega_empty_port_ch.0.22.33: omega_ch[0,22,33] = 0
- omega_empty_port_dis.0.22.33: omega_dis[0,22,33] = 0
- ev_empty_port_energy.0.22.33: energy[0,22,33] = 0
- omega_empty_port_ch.0.24.33: omega_ch[0,24,33] = 0
- omega_empty_port_dis.0.24.33: omega_dis[0,24,33] = 0
- ev_empty_port_energy.0.24.33: energy[0,24,33] = 0
- omega_empty_port_ch.0.5.34: omega_ch[0,5,34] = 0
- omega_empty_port_dis.0.5.34: omega_dis[0,5,34] = 0
- ev_empty_port_energy.0.5.34: energy[0,5,34] = 0
- omega_empty_port_ch.0.8.34: omega_ch[0,8,34] = 0
- omega_empty_port_dis.0.8.34: omega_dis[0,8,34] = 0
- ev_empty_port_energy.0.8.34: energy[0,8,34] = 0
- omega_empty_port_ch.0.13.34: omega_ch[0,13,34] = 0
- omega_empty_port_dis.0.13.34: omega_dis[0,13,34] = 0
- ev_empty_port_energy.0.13.34: energy[0,13,34] = 0
- omega_empty_port_ch.0.18.34: omega_ch[0,18,34] = 0
- omega_empty_port_dis.0.18.34: omega_dis[0,18,34] = 0
- ev_empty_port_energy.0.18.34: energy[0,18,34] = 0
- omega_empty_port_ch.0.21.34: omega_ch[0,21,34] = 0
- omega_empty_port_dis.0.21.34: omega_dis[0,21,34] = 0
- ev_empty_port_energy.0.21.34: energy[0,21,34] = 0
- omega_empty_port_ch.0.22.34: omega_ch[0,22,34] = 0
- omega_empty_port_dis.0.22.34: omega_dis[0,22,34] = 0
- ev_empty_port_energy.0.22.34: energy[0,22,34] = 0
- omega_empty_port_ch.0.24.34: omega_ch[0,24,34] = 0
- omega_empty_port_dis.0.24.34: omega_dis[0,24,34] = 0
- ev_empty_port_energy.0.24.34: energy[0,24,34] = 0
- omega_empty_port_ch.0.5.35: omega_ch[0,5,35] = 0
- omega_empty_port_dis.0.5.35: omega_dis[0,5,35] = 0
- ev_empty_port_energy.0.5.35: energy[0,5,35] = 0
- omega_empty_port_ch.0.8.35: omega_ch[0,8,35] = 0
- omega_empty_port_dis.0.8.35: omega_dis[0,8,35] = 0
- ev_empty_port_energy.0.8.35: energy[0,8,35] = 0
- omega_empty_port_ch.0.13.35: omega_ch[0,13,35] = 0
- omega_empty_port_dis.0.13.35: omega_dis[0,13,35] = 0
- omega_empty_port_ch.0.18.35: omega_ch[0,18,35] = 0
- omega_empty_port_dis.0.18.35: omega_dis[0,18,35] = 0
- ev_empty_port_energy.0.18.35: energy[0,18,35] = 0
- omega_empty_port_ch.0.21.35: omega_ch[0,21,35] = 0
- omega_empty_port_dis.0.21.35: omega_dis[0,21,35] = 0
- ev_empty_port_energy.0.21.35: energy[0,21,35] = 0
- omega_empty_port_ch.0.22.35: omega_ch[0,22,35] = 0
- omega_empty_port_dis.0.22.35: omega_dis[0,22,35] = 0
- ev_empty_port_energy.0.22.35: energy[0,22,35] = 0
- omega_empty_port_ch.0.24.35: omega_ch[0,24,35] = 0
- omega_empty_port_dis.0.24.35: omega_dis[0,24,35] = 0
- ev_empty_port_energy.0.24.35: energy[0,24,35] = 0
- omega_empty_port_ch.0.5.36: omega_ch[0,5,36] = 0
- omega_empty_port_dis.0.5.36: omega_dis[0,5,36] = 0
- ev_empty_port_energy.0.5.36: energy[0,5,36] = 0
- omega_empty_port_ch.0.8.36: omega_ch[0,8,36] = 0
- omega_empty_port_dis.0.8.36: omega_dis[0,8,36] = 0
- ev_empty_port_energy.0.8.36: energy[0,8,36] = 0
- omega_empty_port_ch.0.18.36: omega_ch[0,18,36] = 0
- omega_empty_port_dis.0.18.36: omega_dis[0,18,36] = 0
- ev_empty_port_energy.0.18.36: energy[0,18,36] = 0
- omega_empty_port_ch.0.21.36: omega_ch[0,21,36] = 0
- omega_empty_port_dis.0.21.36: omega_dis[0,21,36] = 0
- ev_empty_port_energy.0.21.36: energy[0,21,36] = 0
- omega_empty_port_ch.0.22.36: omega_ch[0,22,36] = 0
- omega_empty_port_dis.0.22.36: omega_dis[0,22,36] = 0
- ev_empty_port_energy.0.22.36: energy[0,22,36] = 0
- omega_empty_port_ch.0.24.36: omega_ch[0,24,36] = 0
- omega_empty_port_dis.0.24.36: omega_dis[0,24,36] = 0
- omega_empty_port_ch.0.5.37: omega_ch[0,5,37] = 0
- omega_empty_port_dis.0.5.37: omega_dis[0,5,37] = 0
- ev_empty_port_energy.0.5.37: energy[0,5,37] = 0
- omega_empty_port_ch.0.8.37: omega_ch[0,8,37] = 0
- omega_empty_port_dis.0.8.37: omega_dis[0,8,37] = 0
- ev_empty_port_energy.0.8.37: energy[0,8,37] = 0
- omega_empty_port_ch.0.18.37: omega_ch[0,18,37] = 0
- omega_empty_port_dis.0.18.37: omega_dis[0,18,37] = 0
- ev_empty_port_energy.0.18.37: energy[0,18,37] = 0
- omega_empty_port_ch.0.21.37: omega_ch[0,21,37] = 0
- omega_empty_port_dis.0.21.37: omega_dis[0,21,37] = 0
- ev_empty_port_energy.0.21.37: energy[0,21,37] = 0
- omega_empty_port_ch.0.22.37: omega_ch[0,22,37] = 0
- omega_empty_port_dis.0.22.37: omega_dis[0,22,37] = 0
- ev_empty_port_energy.0.22.37: energy[0,22,37] = 0
- omega_empty_port_ch.0.5.38: omega_ch[0,5,38] = 0
- omega_empty_port_dis.0.5.38: omega_dis[0,5,38] = 0
- ev_empty_port_energy.0.5.38: energy[0,5,38] = 0
- omega_empty_port_ch.0.8.38: omega_ch[0,8,38] = 0
- omega_empty_port_dis.0.8.38: omega_dis[0,8,38] = 0
- ev_empty_port_energy.0.8.38: energy[0,8,38] = 0
- omega_empty_port_ch.0.18.38: omega_ch[0,18,38] = 0
- omega_empty_port_dis.0.18.38: omega_dis[0,18,38] = 0
- ev_empty_port_energy.0.18.38: energy[0,18,38] = 0
- omega_empty_port_ch.0.21.38: omega_ch[0,21,38] = 0
- omega_empty_port_dis.0.21.38: omega_dis[0,21,38] = 0
- ev_empty_port_energy.0.21.38: energy[0,21,38] = 0
- omega_empty_port_ch.0.22.38: omega_ch[0,22,38] = 0
- omega_empty_port_dis.0.22.38: omega_dis[0,22,38] = 0
- ev_empty_port_energy.0.22.38: energy[0,22,38] = 0
- omega_empty_port_ch.0.5.39: omega_ch[0,5,39] = 0
- omega_empty_port_dis.0.5.39: omega_dis[0,5,39] = 0
- ev_empty_port_energy.0.5.39: energy[0,5,39] = 0
- omega_empty_port_ch.0.8.39: omega_ch[0,8,39] = 0
- omega_empty_port_dis.0.8.39: omega_dis[0,8,39] = 0
- ev_empty_port_energy.0.8.39: energy[0,8,39] = 0
- omega_empty_port_ch.0.18.39: omega_ch[0,18,39] = 0
- omega_empty_port_dis.0.18.39: omega_dis[0,18,39] = 0
- ev_empty_port_energy.0.18.39: energy[0,18,39] = 0
- omega_empty_port_ch.0.21.39: omega_ch[0,21,39] = 0
- omega_empty_port_dis.0.21.39: omega_dis[0,21,39] = 0
- ev_empty_port_energy.0.21.39: energy[0,21,39] = 0
- omega_empty_port_ch.0.22.39: omega_ch[0,22,39] = 0
- omega_empty_port_dis.0.22.39: omega_dis[0,22,39] = 0
- ev_empty_port_energy.0.22.39: energy[0,22,39] = 0
- omega_empty_port_ch.0.3.40: omega_ch[0,3,40] = 0
- omega_empty_port_dis.0.3.40: omega_dis[0,3,40] = 0
- omega_empty_port_ch.0.5.40: omega_ch[0,5,40] = 0
- omega_empty_port_dis.0.5.40: omega_dis[0,5,40] = 0
- omega_empty_port_ch.0.8.40: omega_ch[0,8,40] = 0
- omega_empty_port_dis.0.8.40: omega_dis[0,8,40] = 0
- ev_empty_port_energy.0.8.40: energy[0,8,40] = 0
- omega_empty_port_ch.0.18.40: omega_ch[0,18,40] = 0
- omega_empty_port_dis.0.18.40: omega_dis[0,18,40] = 0
- ev_empty_port_energy.0.18.40: energy[0,18,40] = 0
- omega_empty_port_ch.0.21.40: omega_ch[0,21,40] = 0
- omega_empty_port_dis.0.21.40: omega_dis[0,21,40] = 0
- ev_empty_port_energy.0.21.40: energy[0,21,40] = 0
- omega_empty_port_ch.0.22.40: omega_ch[0,22,40] = 0
- omega_empty_port_dis.0.22.40: omega_dis[0,22,40] = 0
- ev_empty_port_energy.0.22.40: energy[0,22,40] = 0
- omega_empty_port_ch.0.3.41: omega_ch[0,3,41] = 0
- omega_empty_port_dis.0.3.41: omega_dis[0,3,41] = 0
- ev_empty_port_energy.0.3.41: energy[0,3,41] = 0
- omega_empty_port_ch.0.8.41: omega_ch[0,8,41] = 0
- omega_empty_port_dis.0.8.41: omega_dis[0,8,41] = 0
- ev_empty_port_energy.0.8.41: energy[0,8,41] = 0
- omega_empty_port_ch.0.18.41: omega_ch[0,18,41] = 0
- omega_empty_port_dis.0.18.41: omega_dis[0,18,41] = 0
- ev_empty_port_energy.0.18.41: energy[0,18,41] = 0
- omega_empty_port_ch.0.21.41: omega_ch[0,21,41] = 0
- omega_empty_port_dis.0.21.41: omega_dis[0,21,41] = 0
- ev_empty_port_energy.0.21.41: energy[0,21,41] = 0
- omega_empty_port_ch.0.22.41: omega_ch[0,22,41] = 0
- omega_empty_port_dis.0.22.41: omega_dis[0,22,41] = 0
- ev_empty_port_energy.0.22.41: energy[0,22,41] = 0
- omega_empty_port_ch.0.3.42: omega_ch[0,3,42] = 0
- omega_empty_port_dis.0.3.42: omega_dis[0,3,42] = 0
- ev_empty_port_energy.0.3.42: energy[0,3,42] = 0
- omega_empty_port_ch.0.8.42: omega_ch[0,8,42] = 0
- omega_empty_port_dis.0.8.42: omega_dis[0,8,42] = 0
- ev_empty_port_energy.0.8.42: energy[0,8,42] = 0
- omega_empty_port_ch.0.15.42: omega_ch[0,15,42] = 0
- omega_empty_port_dis.0.15.42: omega_dis[0,15,42] = 0
- omega_empty_port_ch.0.18.42: omega_ch[0,18,42] = 0
- omega_empty_port_dis.0.18.42: omega_dis[0,18,42] = 0
- ev_empty_port_energy.0.18.42: energy[0,18,42] = 0
- omega_empty_port_ch.0.21.42: omega_ch[0,21,42] = 0
- omega_empty_port_dis.0.21.42: omega_dis[0,21,42] = 0
- ev_empty_port_energy.0.21.42: energy[0,21,42] = 0
- omega_empty_port_ch.0.22.42: omega_ch[0,22,42] = 0
- omega_empty_port_dis.0.22.42: omega_dis[0,22,42] = 0
- ev_empty_port_energy.0.22.42: energy[0,22,42] = 0
- omega_empty_port_ch.0.3.43: omega_ch[0,3,43] = 0
- omega_empty_port_dis.0.3.43: omega_dis[0,3,43] = 0
- ev_empty_port_energy.0.3.43: energy[0,3,43] = 0
- omega_empty_port_ch.0.8.43: omega_ch[0,8,43] = 0
- omega_empty_port_dis.0.8.43: omega_dis[0,8,43] = 0
- ev_empty_port_energy.0.8.43: energy[0,8,43] = 0
- omega_empty_port_ch.0.10.43: omega_ch[0,10,43] = 0
- omega_empty_port_dis.0.10.43: omega_dis[0,10,43] = 0
- omega_empty_port_ch.0.15.43: omega_ch[0,15,43] = 0
- omega_empty_port_dis.0.15.43: omega_dis[0,15,43] = 0
- ev_empty_port_energy.0.15.43: energy[0,15,43] = 0
- omega_empty_port_ch.0.18.43: omega_ch[0,18,43] = 0
- omega_empty_port_dis.0.18.43: omega_dis[0,18,43] = 0
- ev_empty_port_energy.0.18.43: energy[0,18,43] = 0
- omega_empty_port_ch.0.21.43: omega_ch[0,21,43] = 0
- omega_empty_port_dis.0.21.43: omega_dis[0,21,43] = 0
- ev_empty_port_energy.0.21.43: energy[0,21,43] = 0
- omega_empty_port_ch.0.22.43: omega_ch[0,22,43] = 0
- omega_empty_port_dis.0.22.43: omega_dis[0,22,43] = 0
- ev_empty_port_energy.0.22.43: energy[0,22,43] = 0
- omega_empty_port_ch.0.3.44: omega_ch[0,3,44] = 0
- omega_empty_port_dis.0.3.44: omega_dis[0,3,44] = 0
- ev_empty_port_energy.0.3.44: energy[0,3,44] = 0
- omega_empty_port_ch.0.8.44: omega_ch[0,8,44] = 0
- omega_empty_port_dis.0.8.44: omega_dis[0,8,44] = 0
- ev_empty_port_energy.0.8.44: energy[0,8,44] = 0
- omega_empty_port_ch.0.10.44: omega_ch[0,10,44] = 0
- omega_empty_port_dis.0.10.44: omega_dis[0,10,44] = 0
- ev_empty_port_energy.0.10.44: energy[0,10,44] = 0
- omega_empty_port_ch.0.15.44: omega_ch[0,15,44] = 0
- omega_empty_port_dis.0.15.44: omega_dis[0,15,44] = 0
- ev_empty_port_energy.0.15.44: energy[0,15,44] = 0
- omega_empty_port_ch.0.18.44: omega_ch[0,18,44] = 0
- omega_empty_port_dis.0.18.44: omega_dis[0,18,44] = 0
- ev_empty_port_energy.0.18.44: energy[0,18,44] = 0
- omega_empty_port_ch.0.21.44: omega_ch[0,21,44] = 0
- omega_empty_port_dis.0.21.44: omega_dis[0,21,44] = 0
- ev_empty_port_energy.0.21.44: energy[0,21,44] = 0
- omega_empty_port_ch.0.22.44: omega_ch[0,22,44] = 0
- omega_empty_port_dis.0.22.44: omega_dis[0,22,44] = 0
- ev_empty_port_energy.0.22.44: energy[0,22,44] = 0
- omega_empty_port_ch.0.23.44: omega_ch[0,23,44] = 0
- omega_empty_port_dis.0.23.44: omega_dis[0,23,44] = 0
- omega_empty_port_ch.0.3.45: omega_ch[0,3,45] = 0
- omega_empty_port_dis.0.3.45: omega_dis[0,3,45] = 0
- ev_empty_port_energy.0.3.45: energy[0,3,45] = 0
- omega_empty_port_ch.0.8.45: omega_ch[0,8,45] = 0
- omega_empty_port_dis.0.8.45: omega_dis[0,8,45] = 0
- ev_empty_port_energy.0.8.45: energy[0,8,45] = 0
- omega_empty_port_ch.0.10.45: omega_ch[0,10,45] = 0
- omega_empty_port_dis.0.10.45: omega_dis[0,10,45] = 0
- ev_empty_port_energy.0.10.45: energy[0,10,45] = 0
- omega_empty_port_ch.0.15.45: omega_ch[0,15,45] = 0
- omega_empty_port_dis.0.15.45: omega_dis[0,15,45] = 0
- ev_empty_port_energy.0.15.45: energy[0,15,45] = 0
- omega_empty_port_ch.0.18.45: omega_ch[0,18,45] = 0
- omega_empty_port_dis.0.18.45: omega_dis[0,18,45] = 0
- ev_empty_port_energy.0.18.45: energy[0,18,45] = 0
- omega_empty_port_ch.0.21.45: omega_ch[0,21,45] = 0
- omega_empty_port_dis.0.21.45: omega_dis[0,21,45] = 0
- ev_empty_port_energy.0.21.45: energy[0,21,45] = 0
- omega_empty_port_ch.0.22.45: omega_ch[0,22,45] = 0
- omega_empty_port_dis.0.22.45: omega_dis[0,22,45] = 0
- ev_empty_port_energy.0.22.45: energy[0,22,45] = 0
- omega_empty_port_ch.0.23.45: omega_ch[0,23,45] = 0
- omega_empty_port_dis.0.23.45: omega_dis[0,23,45] = 0
- ev_empty_port_energy.0.23.45: energy[0,23,45] = 0
- omega_empty_port_ch.0.3.46: omega_ch[0,3,46] = 0
- omega_empty_port_dis.0.3.46: omega_dis[0,3,46] = 0
- ev_empty_port_energy.0.3.46: energy[0,3,46] = 0
- omega_empty_port_ch.0.8.46: omega_ch[0,8,46] = 0
- omega_empty_port_dis.0.8.46: omega_dis[0,8,46] = 0
- ev_empty_port_energy.0.8.46: energy[0,8,46] = 0
- omega_empty_port_ch.0.10.46: omega_ch[0,10,46] = 0
- omega_empty_port_dis.0.10.46: omega_dis[0,10,46] = 0
- ev_empty_port_energy.0.10.46: energy[0,10,46] = 0
- omega_empty_port_ch.0.15.46: omega_ch[0,15,46] = 0
- omega_empty_port_dis.0.15.46: omega_dis[0,15,46] = 0
- ev_empty_port_energy.0.15.46: energy[0,15,46] = 0
- omega_empty_port_ch.0.18.46: omega_ch[0,18,46] = 0
- omega_empty_port_dis.0.18.46: omega_dis[0,18,46] = 0
- ev_empty_port_energy.0.18.46: energy[0,18,46] = 0
- omega_empty_port_ch.0.21.46: omega_ch[0,21,46] = 0
- omega_empty_port_dis.0.21.46: omega_dis[0,21,46] = 0
- ev_empty_port_energy.0.21.46: energy[0,21,46] = 0
- omega_empty_port_ch.0.22.46: omega_ch[0,22,46] = 0
- omega_empty_port_dis.0.22.46: omega_dis[0,22,46] = 0
- ev_empty_port_energy.0.22.46: energy[0,22,46] = 0
- omega_empty_port_ch.0.23.46: omega_ch[0,23,46] = 0
- omega_empty_port_dis.0.23.46: omega_dis[0,23,46] = 0
- ev_empty_port_energy.0.23.46: energy[0,23,46] = 0
- omega_empty_port_ch.0.3.47: omega_ch[0,3,47] = 0
- omega_empty_port_dis.0.3.47: omega_dis[0,3,47] = 0
- ev_empty_port_energy.0.3.47: energy[0,3,47] = 0
- omega_empty_port_ch.0.6.47: omega_ch[0,6,47] = 0
- omega_empty_port_dis.0.6.47: omega_dis[0,6,47] = 0
- omega_empty_port_ch.0.8.47: omega_ch[0,8,47] = 0
- omega_empty_port_dis.0.8.47: omega_dis[0,8,47] = 0
- ev_empty_port_energy.0.8.47: energy[0,8,47] = 0
- omega_empty_port_ch.0.10.47: omega_ch[0,10,47] = 0
- omega_empty_port_dis.0.10.47: omega_dis[0,10,47] = 0
- ev_empty_port_energy.0.10.47: energy[0,10,47] = 0
- omega_empty_port_ch.0.15.47: omega_ch[0,15,47] = 0
- omega_empty_port_dis.0.15.47: omega_dis[0,15,47] = 0
- ev_empty_port_energy.0.15.47: energy[0,15,47] = 0
- omega_empty_port_ch.0.18.47: omega_ch[0,18,47] = 0
- omega_empty_port_dis.0.18.47: omega_dis[0,18,47] = 0
- ev_empty_port_energy.0.18.47: energy[0,18,47] = 0
- omega_empty_port_ch.0.19.47: omega_ch[0,19,47] = 0
- omega_empty_port_dis.0.19.47: omega_dis[0,19,47] = 0
- omega_empty_port_ch.0.21.47: omega_ch[0,21,47] = 0
- omega_empty_port_dis.0.21.47: omega_dis[0,21,47] = 0
- ev_empty_port_energy.0.21.47: energy[0,21,47] = 0
- omega_empty_port_ch.0.22.47: omega_ch[0,22,47] = 0
- omega_empty_port_dis.0.22.47: omega_dis[0,22,47] = 0
- ev_empty_port_energy.0.22.47: energy[0,22,47] = 0
- omega_empty_port_ch.0.23.47: omega_ch[0,23,47] = 0
- omega_empty_port_dis.0.23.47: omega_dis[0,23,47] = 0
- ev_empty_port_energy.0.23.47: energy[0,23,47] = 0
- omega_empty_port_ch.0.3.48: omega_ch[0,3,48] = 0
- omega_empty_port_dis.0.3.48: omega_dis[0,3,48] = 0
- ev_empty_port_energy.0.3.48: energy[0,3,48] = 0
- omega_empty_port_ch.0.6.48: omega_ch[0,6,48] = 0
- omega_empty_port_dis.0.6.48: omega_dis[0,6,48] = 0
- ev_empty_port_energy.0.6.48: energy[0,6,48] = 0
- omega_empty_port_ch.0.8.48: omega_ch[0,8,48] = 0
- omega_empty_port_dis.0.8.48: omega_dis[0,8,48] = 0
- ev_empty_port_energy.0.8.48: energy[0,8,48] = 0
- omega_empty_port_ch.0.10.48: omega_ch[0,10,48] = 0
- omega_empty_port_dis.0.10.48: omega_dis[0,10,48] = 0
- ev_empty_port_energy.0.10.48: energy[0,10,48] = 0
- omega_empty_port_ch.0.15.48: omega_ch[0,15,48] = 0
- omega_empty_port_dis.0.15.48: omega_dis[0,15,48] = 0
- ev_empty_port_energy.0.15.48: energy[0,15,48] = 0
- omega_empty_port_ch.0.17.48: omega_ch[0,17,48] = 0
- omega_empty_port_dis.0.17.48: omega_dis[0,17,48] = 0
- omega_empty_port_ch.0.18.48: omega_ch[0,18,48] = 0
- omega_empty_port_dis.0.18.48: omega_dis[0,18,48] = 0
- ev_empty_port_energy.0.18.48: energy[0,18,48] = 0
- omega_empty_port_ch.0.19.48: omega_ch[0,19,48] = 0
- omega_empty_port_dis.0.19.48: omega_dis[0,19,48] = 0
- ev_empty_port_energy.0.19.48: energy[0,19,48] = 0
- omega_empty_port_ch.0.21.48: omega_ch[0,21,48] = 0
- omega_empty_port_dis.0.21.48: omega_dis[0,21,48] = 0
- ev_empty_port_energy.0.21.48: energy[0,21,48] = 0
- omega_empty_port_ch.0.22.48: omega_ch[0,22,48] = 0
- omega_empty_port_dis.0.22.48: omega_dis[0,22,48] = 0
- ev_empty_port_energy.0.22.48: energy[0,22,48] = 0
- omega_empty_port_ch.0.23.48: omega_ch[0,23,48] = 0
- omega_empty_port_dis.0.23.48: omega_dis[0,23,48] = 0
- ev_empty_port_energy.0.23.48: energy[0,23,48] = 0
- omega_empty_port_ch.0.3.49: omega_ch[0,3,49] = 0
- omega_empty_port_dis.0.3.49: omega_dis[0,3,49] = 0
- ev_empty_port_energy.0.3.49: energy[0,3,49] = 0
- omega_empty_port_ch.0.4.49: omega_ch[0,4,49] = 0
- omega_empty_port_dis.0.4.49: omega_dis[0,4,49] = 0
- omega_empty_port_ch.0.6.49: omega_ch[0,6,49] = 0
- omega_empty_port_dis.0.6.49: omega_dis[0,6,49] = 0
- ev_empty_port_energy.0.6.49: energy[0,6,49] = 0
- omega_empty_port_ch.0.8.49: omega_ch[0,8,49] = 0
- omega_empty_port_dis.0.8.49: omega_dis[0,8,49] = 0
- ev_empty_port_energy.0.8.49: energy[0,8,49] = 0
- omega_empty_port_ch.0.10.49: omega_ch[0,10,49] = 0
- omega_empty_port_dis.0.10.49: omega_dis[0,10,49] = 0
- ev_empty_port_energy.0.10.49: energy[0,10,49] = 0
- omega_empty_port_ch.0.15.49: omega_ch[0,15,49] = 0
- omega_empty_port_dis.0.15.49: omega_dis[0,15,49] = 0
- ev_empty_port_energy.0.15.49: energy[0,15,49] = 0
- omega_empty_port_ch.0.16.49: omega_ch[0,16,49] = 0
- omega_empty_port_dis.0.16.49: omega_dis[0,16,49] = 0
- omega_empty_port_ch.0.17.49: omega_ch[0,17,49] = 0
- omega_empty_port_dis.0.17.49: omega_dis[0,17,49] = 0
- ev_empty_port_energy.0.17.49: energy[0,17,49] = 0
- omega_empty_port_ch.0.18.49: omega_ch[0,18,49] = 0
- omega_empty_port_dis.0.18.49: omega_dis[0,18,49] = 0
- ev_empty_port_energy.0.18.49: energy[0,18,49] = 0
- omega_empty_port_ch.0.19.49: omega_ch[0,19,49] = 0
- omega_empty_port_dis.0.19.49: omega_dis[0,19,49] = 0
- ev_empty_port_energy.0.19.49: energy[0,19,49] = 0
- omega_empty_port_ch.0.20.49: omega_ch[0,20,49] = 0
- omega_empty_port_dis.0.20.49: omega_dis[0,20,49] = 0
- omega_empty_port_ch.0.21.49: omega_ch[0,21,49] = 0
- omega_empty_port_dis.0.21.49: omega_dis[0,21,49] = 0
- ev_empty_port_energy.0.21.49: energy[0,21,49] = 0
- omega_empty_port_ch.0.22.49: omega_ch[0,22,49] = 0
- omega_empty_port_dis.0.22.49: omega_dis[0,22,49] = 0
- ev_empty_port_energy.0.22.49: energy[0,22,49] = 0
- omega_empty_port_ch.0.23.49: omega_ch[0,23,49] = 0
- omega_empty_port_dis.0.23.49: omega_dis[0,23,49] = 0
- ev_empty_port_energy.0.23.49: energy[0,23,49] = 0
- omega_empty_port_ch.0.1.50: omega_ch[0,1,50] = 0
- omega_empty_port_dis.0.1.50: omega_dis[0,1,50] = 0
- omega_empty_port_ch.0.2.50: omega_ch[0,2,50] = 0
- omega_empty_port_dis.0.2.50: omega_dis[0,2,50] = 0
- omega_empty_port_ch.0.3.50: omega_ch[0,3,50] = 0
- omega_empty_port_dis.0.3.50: omega_dis[0,3,50] = 0
- ev_empty_port_energy.0.3.50: energy[0,3,50] = 0
- omega_empty_port_ch.0.4.50: omega_ch[0,4,50] = 0
- omega_empty_port_dis.0.4.50: omega_dis[0,4,50] = 0
- ev_empty_port_energy.0.4.50: energy[0,4,50] = 0
- omega_empty_port_ch.0.6.50: omega_ch[0,6,50] = 0
- omega_empty_port_dis.0.6.50: omega_dis[0,6,50] = 0
- ev_empty_port_energy.0.6.50: energy[0,6,50] = 0
- omega_empty_port_ch.0.8.50: omega_ch[0,8,50] = 0
- omega_empty_port_dis.0.8.50: omega_dis[0,8,50] = 0
- ev_empty_port_energy.0.8.50: energy[0,8,50] = 0
- omega_empty_port_ch.0.10.50: omega_ch[0,10,50] = 0
- omega_empty_port_dis.0.10.50: omega_dis[0,10,50] = 0
- ev_empty_port_energy.0.10.50: energy[0,10,50] = 0
- omega_empty_port_ch.0.15.50: omega_ch[0,15,50] = 0
- omega_empty_port_dis.0.15.50: omega_dis[0,15,50] = 0
- ev_empty_port_energy.0.15.50: energy[0,15,50] = 0
- omega_empty_port_ch.0.16.50: omega_ch[0,16,50] = 0
- omega_empty_port_dis.0.16.50: omega_dis[0,16,50] = 0
- ev_empty_port_energy.0.16.50: energy[0,16,50] = 0
- omega_empty_port_ch.0.17.50: omega_ch[0,17,50] = 0
- omega_empty_port_dis.0.17.50: omega_dis[0,17,50] = 0
- ev_empty_port_energy.0.17.50: energy[0,17,50] = 0
- omega_empty_port_ch.0.18.50: omega_ch[0,18,50] = 0
- omega_empty_port_dis.0.18.50: omega_dis[0,18,50] = 0
- ev_empty_port_energy.0.18.50: energy[0,18,50] = 0
- omega_empty_port_ch.0.19.50: omega_ch[0,19,50] = 0
- omega_empty_port_dis.0.19.50: omega_dis[0,19,50] = 0
- ev_empty_port_energy.0.19.50: energy[0,19,50] = 0
- omega_empty_port_ch.0.20.50: omega_ch[0,20,50] = 0
- omega_empty_port_dis.0.20.50: omega_dis[0,20,50] = 0
- ev_empty_port_energy.0.20.50: energy[0,20,50] = 0
- omega_empty_port_ch.0.21.50: omega_ch[0,21,50] = 0
- omega_empty_port_dis.0.21.50: omega_dis[0,21,50] = 0
- ev_empty_port_energy.0.21.50: energy[0,21,50] = 0
- omega_empty_port_ch.0.22.50: omega_ch[0,22,50] = 0
- omega_empty_port_dis.0.22.50: omega_dis[0,22,50] = 0
- ev_empty_port_energy.0.22.50: energy[0,22,50] = 0
- omega_empty_port_ch.0.23.50: omega_ch[0,23,50] = 0
- omega_empty_port_dis.0.23.50: omega_dis[0,23,50] = 0
- ev_empty_port_energy.0.23.50: energy[0,23,50] = 0
- omega_empty_port_ch.0.1.51: omega_ch[0,1,51] = 0
- omega_empty_port_dis.0.1.51: omega_dis[0,1,51] = 0
- ev_empty_port_energy.0.1.51: energy[0,1,51] = 0
- omega_empty_port_ch.0.2.51: omega_ch[0,2,51] = 0
- omega_empty_port_dis.0.2.51: omega_dis[0,2,51] = 0
- ev_empty_port_energy.0.2.51: energy[0,2,51] = 0
- omega_empty_port_ch.0.3.51: omega_ch[0,3,51] = 0
- omega_empty_port_dis.0.3.51: omega_dis[0,3,51] = 0
- ev_empty_port_energy.0.3.51: energy[0,3,51] = 0
- omega_empty_port_ch.0.4.51: omega_ch[0,4,51] = 0
- omega_empty_port_dis.0.4.51: omega_dis[0,4,51] = 0
- ev_empty_port_energy.0.4.51: energy[0,4,51] = 0
- omega_empty_port_ch.0.6.51: omega_ch[0,6,51] = 0
- omega_empty_port_dis.0.6.51: omega_dis[0,6,51] = 0
- ev_empty_port_energy.0.6.51: energy[0,6,51] = 0
- omega_empty_port_ch.0.8.51: omega_ch[0,8,51] = 0
- omega_empty_port_dis.0.8.51: omega_dis[0,8,51] = 0
- ev_empty_port_energy.0.8.51: energy[0,8,51] = 0
- omega_empty_port_ch.0.10.51: omega_ch[0,10,51] = 0
- omega_empty_port_dis.0.10.51: omega_dis[0,10,51] = 0
- ev_empty_port_energy.0.10.51: energy[0,10,51] = 0
- omega_empty_port_ch.0.15.51: omega_ch[0,15,51] = 0
- omega_empty_port_dis.0.15.51: omega_dis[0,15,51] = 0
- ev_empty_port_energy.0.15.51: energy[0,15,51] = 0
- omega_empty_port_ch.0.16.51: omega_ch[0,16,51] = 0
- omega_empty_port_dis.0.16.51: omega_dis[0,16,51] = 0
- ev_empty_port_energy.0.16.51: energy[0,16,51] = 0
- omega_empty_port_ch.0.17.51: omega_ch[0,17,51] = 0
- omega_empty_port_dis.0.17.51: omega_dis[0,17,51] = 0
- ev_empty_port_energy.0.17.51: energy[0,17,51] = 0
- omega_empty_port_ch.0.18.51: omega_ch[0,18,51] = 0
- omega_empty_port_dis.0.18.51: omega_dis[0,18,51] = 0
- ev_empty_port_energy.0.18.51: energy[0,18,51] = 0
- omega_empty_port_ch.0.19.51: omega_ch[0,19,51] = 0
- omega_empty_port_dis.0.19.51: omega_dis[0,19,51] = 0
- ev_empty_port_energy.0.19.51: energy[0,19,51] = 0
- omega_empty_port_ch.0.20.51: omega_ch[0,20,51] = 0
- omega_empty_port_dis.0.20.51: omega_dis[0,20,51] = 0
- ev_empty_port_energy.0.20.51: energy[0,20,51] = 0
- omega_empty_port_ch.0.21.51: omega_ch[0,21,51] = 0
- omega_empty_port_dis.0.21.51: omega_dis[0,21,51] = 0
- ev_empty_port_energy.0.21.51: energy[0,21,51] = 0
- omega_empty_port_ch.0.22.51: omega_ch[0,22,51] = 0
- omega_empty_port_dis.0.22.51: omega_dis[0,22,51] = 0
- ev_empty_port_energy.0.22.51: energy[0,22,51] = 0
- omega_empty_port_ch.0.23.51: omega_ch[0,23,51] = 0
- omega_empty_port_dis.0.23.51: omega_dis[0,23,51] = 0
- ev_empty_port_energy.0.23.51: energy[0,23,51] = 0
- omega_empty_port_ch.0.1.52: omega_ch[0,1,52] = 0
- omega_empty_port_dis.0.1.52: omega_dis[0,1,52] = 0
- ev_empty_port_energy.0.1.52: energy[0,1,52] = 0
- omega_empty_port_ch.0.2.52: omega_ch[0,2,52] = 0
- omega_empty_port_dis.0.2.52: omega_dis[0,2,52] = 0
- ev_empty_port_energy.0.2.52: energy[0,2,52] = 0
- omega_empty_port_ch.0.3.52: omega_ch[0,3,52] = 0
- omega_empty_port_dis.0.3.52: omega_dis[0,3,52] = 0
- ev_empty_port_energy.0.3.52: energy[0,3,52] = 0
- omega_empty_port_ch.0.4.52: omega_ch[0,4,52] = 0
- omega_empty_port_dis.0.4.52: omega_dis[0,4,52] = 0
- ev_empty_port_energy.0.4.52: energy[0,4,52] = 0
- omega_empty_port_ch.0.6.52: omega_ch[0,6,52] = 0
- omega_empty_port_dis.0.6.52: omega_dis[0,6,52] = 0
- omega_empty_port_ch.0.8.52: omega_ch[0,8,52] = 0
- omega_empty_port_dis.0.8.52: omega_dis[0,8,52] = 0
- ev_empty_port_energy.0.8.52: energy[0,8,52] = 0
- omega_empty_port_ch.0.10.52: omega_ch[0,10,52] = 0
- omega_empty_port_dis.0.10.52: omega_dis[0,10,52] = 0
- ev_empty_port_energy.0.10.52: energy[0,10,52] = 0
- omega_empty_port_ch.0.15.52: omega_ch[0,15,52] = 0
- omega_empty_port_dis.0.15.52: omega_dis[0,15,52] = 0
- ev_empty_port_energy.0.15.52: energy[0,15,52] = 0
- omega_empty_port_ch.0.16.52: omega_ch[0,16,52] = 0
- omega_empty_port_dis.0.16.52: omega_dis[0,16,52] = 0
- ev_empty_port_energy.0.16.52: energy[0,16,52] = 0
- omega_empty_port_ch.0.17.52: omega_ch[0,17,52] = 0
- omega_empty_port_dis.0.17.52: omega_dis[0,17,52] = 0
- ev_empty_port_energy.0.17.52: energy[0,17,52] = 0
- omega_empty_port_ch.0.18.52: omega_ch[0,18,52] = 0
- omega_empty_port_dis.0.18.52: omega_dis[0,18,52] = 0
- ev_empty_port_energy.0.18.52: energy[0,18,52] = 0
- omega_empty_port_ch.0.19.52: omega_ch[0,19,52] = 0
- omega_empty_port_dis.0.19.52: omega_dis[0,19,52] = 0
- ev_empty_port_energy.0.19.52: energy[0,19,52] = 0
- omega_empty_port_ch.0.20.52: omega_ch[0,20,52] = 0
- omega_empty_port_dis.0.20.52: omega_dis[0,20,52] = 0
- ev_empty_port_energy.0.20.52: energy[0,20,52] = 0
- omega_empty_port_ch.0.21.52: omega_ch[0,21,52] = 0
- omega_empty_port_dis.0.21.52: omega_dis[0,21,52] = 0
- ev_empty_port_energy.0.21.52: energy[0,21,52] = 0
- omega_empty_port_ch.0.22.52: omega_ch[0,22,52] = 0
- omega_empty_port_dis.0.22.52: omega_dis[0,22,52] = 0
- ev_empty_port_energy.0.22.52: energy[0,22,52] = 0
- omega_empty_port_ch.0.23.52: omega_ch[0,23,52] = 0
- omega_empty_port_dis.0.23.52: omega_dis[0,23,52] = 0
- ev_empty_port_energy.0.23.52: energy[0,23,52] = 0
- omega_empty_port_ch.0.0.53: omega_ch[0,0,53] = 0
- omega_empty_port_dis.0.0.53: omega_dis[0,0,53] = 0
- omega_empty_port_ch.0.1.53: omega_ch[0,1,53] = 0
- omega_empty_port_dis.0.1.53: omega_dis[0,1,53] = 0
- ev_empty_port_energy.0.1.53: energy[0,1,53] = 0
- omega_empty_port_ch.0.2.53: omega_ch[0,2,53] = 0
- omega_empty_port_dis.0.2.53: omega_dis[0,2,53] = 0
- ev_empty_port_energy.0.2.53: energy[0,2,53] = 0
- omega_empty_port_ch.0.3.53: omega_ch[0,3,53] = 0
- omega_empty_port_dis.0.3.53: omega_dis[0,3,53] = 0
- ev_empty_port_energy.0.3.53: energy[0,3,53] = 0
- omega_empty_port_ch.0.4.53: omega_ch[0,4,53] = 0
- omega_empty_port_dis.0.4.53: omega_dis[0,4,53] = 0
- ev_empty_port_energy.0.4.53: energy[0,4,53] = 0
- omega_empty_port_ch.0.8.53: omega_ch[0,8,53] = 0
- omega_empty_port_dis.0.8.53: omega_dis[0,8,53] = 0
- ev_empty_port_energy.0.8.53: energy[0,8,53] = 0
- omega_empty_port_ch.0.10.53: omega_ch[0,10,53] = 0
- omega_empty_port_dis.0.10.53: omega_dis[0,10,53] = 0
- ev_empty_port_energy.0.10.53: energy[0,10,53] = 0
- omega_empty_port_ch.0.11.53: omega_ch[0,11,53] = 0
- omega_empty_port_dis.0.11.53: omega_dis[0,11,53] = 0
- omega_empty_port_ch.0.13.53: omega_ch[0,13,53] = 0
- omega_empty_port_dis.0.13.53: omega_dis[0,13,53] = 0
- omega_empty_port_ch.0.15.53: omega_ch[0,15,53] = 0
- omega_empty_port_dis.0.15.53: omega_dis[0,15,53] = 0
- ev_empty_port_energy.0.15.53: energy[0,15,53] = 0
- omega_empty_port_ch.0.16.53: omega_ch[0,16,53] = 0
- omega_empty_port_dis.0.16.53: omega_dis[0,16,53] = 0
- ev_empty_port_energy.0.16.53: energy[0,16,53] = 0
- omega_empty_port_ch.0.17.53: omega_ch[0,17,53] = 0
- omega_empty_port_dis.0.17.53: omega_dis[0,17,53] = 0
- ev_empty_port_energy.0.17.53: energy[0,17,53] = 0
- omega_empty_port_ch.0.18.53: omega_ch[0,18,53] = 0
- omega_empty_port_dis.0.18.53: omega_dis[0,18,53] = 0
- ev_empty_port_energy.0.18.53: energy[0,18,53] = 0
- omega_empty_port_ch.0.19.53: omega_ch[0,19,53] = 0
- omega_empty_port_dis.0.19.53: omega_dis[0,19,53] = 0
- ev_empty_port_energy.0.19.53: energy[0,19,53] = 0
- omega_empty_port_ch.0.20.53: omega_ch[0,20,53] = 0
- omega_empty_port_dis.0.20.53: omega_dis[0,20,53] = 0
- ev_empty_port_energy.0.20.53: energy[0,20,53] = 0
- omega_empty_port_ch.0.21.53: omega_ch[0,21,53] = 0
- omega_empty_port_dis.0.21.53: omega_dis[0,21,53] = 0
- ev_empty_port_energy.0.21.53: energy[0,21,53] = 0
- omega_empty_port_ch.0.22.53: omega_ch[0,22,53] = 0
- omega_empty_port_dis.0.22.53: omega_dis[0,22,53] = 0
- ev_empty_port_energy.0.22.53: energy[0,22,53] = 0
- omega_empty_port_ch.0.23.53: omega_ch[0,23,53] = 0
- omega_empty_port_dis.0.23.53: omega_dis[0,23,53] = 0
- ev_empty_port_energy.0.23.53: energy[0,23,53] = 0
- omega_empty_port_ch.0.0.54: omega_ch[0,0,54] = 0
- omega_empty_port_dis.0.0.54: omega_dis[0,0,54] = 0
- ev_empty_port_energy.0.0.54: energy[0,0,54] = 0
- omega_empty_port_ch.0.1.54: omega_ch[0,1,54] = 0
- omega_empty_port_dis.0.1.54: omega_dis[0,1,54] = 0
- ev_empty_port_energy.0.1.54: energy[0,1,54] = 0
- omega_empty_port_ch.0.2.54: omega_ch[0,2,54] = 0
- omega_empty_port_dis.0.2.54: omega_dis[0,2,54] = 0
- ev_empty_port_energy.0.2.54: energy[0,2,54] = 0
- omega_empty_port_ch.0.3.54: omega_ch[0,3,54] = 0
- omega_empty_port_dis.0.3.54: omega_dis[0,3,54] = 0
- ev_empty_port_energy.0.3.54: energy[0,3,54] = 0
- omega_empty_port_ch.0.4.54: omega_ch[0,4,54] = 0
- omega_empty_port_dis.0.4.54: omega_dis[0,4,54] = 0
- ev_empty_port_energy.0.4.54: energy[0,4,54] = 0
- omega_empty_port_ch.0.8.54: omega_ch[0,8,54] = 0
- omega_empty_port_dis.0.8.54: omega_dis[0,8,54] = 0
- ev_empty_port_energy.0.8.54: energy[0,8,54] = 0
- omega_empty_port_ch.0.10.54: omega_ch[0,10,54] = 0
- omega_empty_port_dis.0.10.54: omega_dis[0,10,54] = 0
- ev_empty_port_energy.0.10.54: energy[0,10,54] = 0
- omega_empty_port_ch.0.11.54: omega_ch[0,11,54] = 0
- omega_empty_port_dis.0.11.54: omega_dis[0,11,54] = 0
- ev_empty_port_energy.0.11.54: energy[0,11,54] = 0
- omega_empty_port_ch.0.13.54: omega_ch[0,13,54] = 0
- omega_empty_port_dis.0.13.54: omega_dis[0,13,54] = 0
- ev_empty_port_energy.0.13.54: energy[0,13,54] = 0
- omega_empty_port_ch.0.15.54: omega_ch[0,15,54] = 0
- omega_empty_port_dis.0.15.54: omega_dis[0,15,54] = 0
- ev_empty_port_energy.0.15.54: energy[0,15,54] = 0
- omega_empty_port_ch.0.16.54: omega_ch[0,16,54] = 0
- omega_empty_port_dis.0.16.54: omega_dis[0,16,54] = 0
- ev_empty_port_energy.0.16.54: energy[0,16,54] = 0
- omega_empty_port_ch.0.17.54: omega_ch[0,17,54] = 0
- omega_empty_port_dis.0.17.54: omega_dis[0,17,54] = 0
- ev_empty_port_energy.0.17.54: energy[0,17,54] = 0
- omega_empty_port_ch.0.18.54: omega_ch[0,18,54] = 0
- omega_empty_port_dis.0.18.54: omega_dis[0,18,54] = 0
- ev_empty_port_energy.0.18.54: energy[0,18,54] = 0
- omega_empty_port_ch.0.19.54: omega_ch[0,19,54] = 0
- omega_empty_port_dis.0.19.54: omega_dis[0,19,54] = 0
- ev_empty_port_energy.0.19.54: energy[0,19,54] = 0
- omega_empty_port_ch.0.20.54: omega_ch[0,20,54] = 0
- omega_empty_port_dis.0.20.54: omega_dis[0,20,54] = 0
- ev_empty_port_energy.0.20.54: energy[0,20,54] = 0
- omega_empty_port_ch.0.21.54: omega_ch[0,21,54] = 0
- omega_empty_port_dis.0.21.54: omega_dis[0,21,54] = 0
- ev_empty_port_energy.0.21.54: energy[0,21,54] = 0
- omega_empty_port_ch.0.22.54: omega_ch[0,22,54] = 0
- omega_empty_port_dis.0.22.54: omega_dis[0,22,54] = 0
- ev_empty_port_energy.0.22.54: energy[0,22,54] = 0
- omega_empty_port_ch.0.23.54: omega_ch[0,23,54] = 0
- omega_empty_port_dis.0.23.54: omega_dis[0,23,54] = 0
- ev_empty_port_energy.0.23.54: energy[0,23,54] = 0
- omega_empty_port_ch.0.24.54: omega_ch[0,24,54] = 0
- omega_empty_port_dis.0.24.54: omega_dis[0,24,54] = 0
- omega_empty_port_ch.0.0.55: omega_ch[0,0,55] = 0
- omega_empty_port_dis.0.0.55: omega_dis[0,0,55] = 0
- ev_empty_port_energy.0.0.55: energy[0,0,55] = 0
- omega_empty_port_ch.0.1.55: omega_ch[0,1,55] = 0
- omega_empty_port_dis.0.1.55: omega_dis[0,1,55] = 0
- ev_empty_port_energy.0.1.55: energy[0,1,55] = 0
- omega_empty_port_ch.0.2.55: omega_ch[0,2,55] = 0
- omega_empty_port_dis.0.2.55: omega_dis[0,2,55] = 0
- ev_empty_port_energy.0.2.55: energy[0,2,55] = 0
- omega_empty_port_ch.0.3.55: omega_ch[0,3,55] = 0
- omega_empty_port_dis.0.3.55: omega_dis[0,3,55] = 0
- ev_empty_port_energy.0.3.55: energy[0,3,55] = 0
- omega_empty_port_ch.0.4.55: omega_ch[0,4,55] = 0
- omega_empty_port_dis.0.4.55: omega_dis[0,4,55] = 0
- ev_empty_port_energy.0.4.55: energy[0,4,55] = 0
- omega_empty_port_ch.0.5.55: omega_ch[0,5,55] = 0
- omega_empty_port_dis.0.5.55: omega_dis[0,5,55] = 0
- omega_empty_port_ch.0.8.55: omega_ch[0,8,55] = 0
- omega_empty_port_dis.0.8.55: omega_dis[0,8,55] = 0
- ev_empty_port_energy.0.8.55: energy[0,8,55] = 0
- omega_empty_port_ch.0.10.55: omega_ch[0,10,55] = 0
- omega_empty_port_dis.0.10.55: omega_dis[0,10,55] = 0
- ev_empty_port_energy.0.10.55: energy[0,10,55] = 0
- omega_empty_port_ch.0.11.55: omega_ch[0,11,55] = 0
- omega_empty_port_dis.0.11.55: omega_dis[0,11,55] = 0
- ev_empty_port_energy.0.11.55: energy[0,11,55] = 0
- omega_empty_port_ch.0.12.55: omega_ch[0,12,55] = 0
- omega_empty_port_dis.0.12.55: omega_dis[0,12,55] = 0
- omega_empty_port_ch.0.13.55: omega_ch[0,13,55] = 0
- omega_empty_port_dis.0.13.55: omega_dis[0,13,55] = 0
- ev_empty_port_energy.0.13.55: energy[0,13,55] = 0
- omega_empty_port_ch.0.15.55: omega_ch[0,15,55] = 0
- omega_empty_port_dis.0.15.55: omega_dis[0,15,55] = 0
- ev_empty_port_energy.0.15.55: energy[0,15,55] = 0
- omega_empty_port_ch.0.16.55: omega_ch[0,16,55] = 0
- omega_empty_port_dis.0.16.55: omega_dis[0,16,55] = 0
- ev_empty_port_energy.0.16.55: energy[0,16,55] = 0
- omega_empty_port_ch.0.17.55: omega_ch[0,17,55] = 0
- omega_empty_port_dis.0.17.55: omega_dis[0,17,55] = 0
- ev_empty_port_energy.0.17.55: energy[0,17,55] = 0
- omega_empty_port_ch.0.18.55: omega_ch[0,18,55] = 0
- omega_empty_port_dis.0.18.55: omega_dis[0,18,55] = 0
- ev_empty_port_energy.0.18.55: energy[0,18,55] = 0
- omega_empty_port_ch.0.19.55: omega_ch[0,19,55] = 0
- omega_empty_port_dis.0.19.55: omega_dis[0,19,55] = 0
- ev_empty_port_energy.0.19.55: energy[0,19,55] = 0
- omega_empty_port_ch.0.20.55: omega_ch[0,20,55] = 0
- omega_empty_port_dis.0.20.55: omega_dis[0,20,55] = 0
- ev_empty_port_energy.0.20.55: energy[0,20,55] = 0
- omega_empty_port_ch.0.21.55: omega_ch[0,21,55] = 0
- omega_empty_port_dis.0.21.55: omega_dis[0,21,55] = 0
- ev_empty_port_energy.0.21.55: energy[0,21,55] = 0
- omega_empty_port_ch.0.22.55: omega_ch[0,22,55] = 0
- omega_empty_port_dis.0.22.55: omega_dis[0,22,55] = 0
- ev_empty_port_energy.0.22.55: energy[0,22,55] = 0
- omega_empty_port_ch.0.23.55: omega_ch[0,23,55] = 0
- omega_empty_port_dis.0.23.55: omega_dis[0,23,55] = 0
- ev_empty_port_energy.0.23.55: energy[0,23,55] = 0
- omega_empty_port_ch.0.24.55: omega_ch[0,24,55] = 0
- omega_empty_port_dis.0.24.55: omega_dis[0,24,55] = 0
- ev_empty_port_energy.0.24.55: energy[0,24,55] = 0
- omega_empty_port_ch.0.0.56: omega_ch[0,0,56] = 0
- omega_empty_port_dis.0.0.56: omega_dis[0,0,56] = 0
- ev_empty_port_energy.0.0.56: energy[0,0,56] = 0
- omega_empty_port_ch.0.1.56: omega_ch[0,1,56] = 0
- omega_empty_port_dis.0.1.56: omega_dis[0,1,56] = 0
- ev_empty_port_energy.0.1.56: energy[0,1,56] = 0
- omega_empty_port_ch.0.2.56: omega_ch[0,2,56] = 0
- omega_empty_port_dis.0.2.56: omega_dis[0,2,56] = 0
- ev_empty_port_energy.0.2.56: energy[0,2,56] = 0
- omega_empty_port_ch.0.3.56: omega_ch[0,3,56] = 0
- omega_empty_port_dis.0.3.56: omega_dis[0,3,56] = 0
- ev_empty_port_energy.0.3.56: energy[0,3,56] = 0
- omega_empty_port_ch.0.4.56: omega_ch[0,4,56] = 0
- omega_empty_port_dis.0.4.56: omega_dis[0,4,56] = 0
- ev_empty_port_energy.0.4.56: energy[0,4,56] = 0
- omega_empty_port_ch.0.5.56: omega_ch[0,5,56] = 0
- omega_empty_port_dis.0.5.56: omega_dis[0,5,56] = 0
- ev_empty_port_energy.0.5.56: energy[0,5,56] = 0
- omega_empty_port_ch.0.8.56: omega_ch[0,8,56] = 0
- omega_empty_port_dis.0.8.56: omega_dis[0,8,56] = 0
- ev_empty_port_energy.0.8.56: energy[0,8,56] = 0
- omega_empty_port_ch.0.10.56: omega_ch[0,10,56] = 0
- omega_empty_port_dis.0.10.56: omega_dis[0,10,56] = 0
- ev_empty_port_energy.0.10.56: energy[0,10,56] = 0
- omega_empty_port_ch.0.11.56: omega_ch[0,11,56] = 0
- omega_empty_port_dis.0.11.56: omega_dis[0,11,56] = 0
- ev_empty_port_energy.0.11.56: energy[0,11,56] = 0
- omega_empty_port_ch.0.12.56: omega_ch[0,12,56] = 0
- omega_empty_port_dis.0.12.56: omega_dis[0,12,56] = 0
- ev_empty_port_energy.0.12.56: energy[0,12,56] = 0
- omega_empty_port_ch.0.13.56: omega_ch[0,13,56] = 0
- omega_empty_port_dis.0.13.56: omega_dis[0,13,56] = 0
- ev_empty_port_energy.0.13.56: energy[0,13,56] = 0
- omega_empty_port_ch.0.15.56: omega_ch[0,15,56] = 0
- omega_empty_port_dis.0.15.56: omega_dis[0,15,56] = 0
- ev_empty_port_energy.0.15.56: energy[0,15,56] = 0
- omega_empty_port_ch.0.16.56: omega_ch[0,16,56] = 0
- omega_empty_port_dis.0.16.56: omega_dis[0,16,56] = 0
- ev_empty_port_energy.0.16.56: energy[0,16,56] = 0
- omega_empty_port_ch.0.17.56: omega_ch[0,17,56] = 0
- omega_empty_port_dis.0.17.56: omega_dis[0,17,56] = 0
- ev_empty_port_energy.0.17.56: energy[0,17,56] = 0
- omega_empty_port_ch.0.18.56: omega_ch[0,18,56] = 0
- omega_empty_port_dis.0.18.56: omega_dis[0,18,56] = 0
- ev_empty_port_energy.0.18.56: energy[0,18,56] = 0
- omega_empty_port_ch.0.19.56: omega_ch[0,19,56] = 0
- omega_empty_port_dis.0.19.56: omega_dis[0,19,56] = 0
- ev_empty_port_energy.0.19.56: energy[0,19,56] = 0
- omega_empty_port_ch.0.20.56: omega_ch[0,20,56] = 0
- omega_empty_port_dis.0.20.56: omega_dis[0,20,56] = 0
- ev_empty_port_energy.0.20.56: energy[0,20,56] = 0
- omega_empty_port_ch.0.21.56: omega_ch[0,21,56] = 0
- omega_empty_port_dis.0.21.56: omega_dis[0,21,56] = 0
- ev_empty_port_energy.0.21.56: energy[0,21,56] = 0
- omega_empty_port_ch.0.22.56: omega_ch[0,22,56] = 0
- omega_empty_port_dis.0.22.56: omega_dis[0,22,56] = 0
- ev_empty_port_energy.0.22.56: energy[0,22,56] = 0
- omega_empty_port_ch.0.23.56: omega_ch[0,23,56] = 0
- omega_empty_port_dis.0.23.56: omega_dis[0,23,56] = 0
- ev_empty_port_energy.0.23.56: energy[0,23,56] = 0
- omega_empty_port_ch.0.24.56: omega_ch[0,24,56] = 0
- omega_empty_port_dis.0.24.56: omega_dis[0,24,56] = 0
- ev_empty_port_energy.0.24.56: energy[0,24,56] = 0
- omega_empty_port_ch.0.0.57: omega_ch[0,0,57] = 0
- omega_empty_port_dis.0.0.57: omega_dis[0,0,57] = 0
- ev_empty_port_energy.0.0.57: energy[0,0,57] = 0
- omega_empty_port_ch.0.1.57: omega_ch[0,1,57] = 0
- omega_empty_port_dis.0.1.57: omega_dis[0,1,57] = 0
- ev_empty_port_energy.0.1.57: energy[0,1,57] = 0
- omega_empty_port_ch.0.2.57: omega_ch[0,2,57] = 0
- omega_empty_port_dis.0.2.57: omega_dis[0,2,57] = 0
- ev_empty_port_energy.0.2.57: energy[0,2,57] = 0
- omega_empty_port_ch.0.3.57: omega_ch[0,3,57] = 0
- omega_empty_port_dis.0.3.57: omega_dis[0,3,57] = 0
- ev_empty_port_energy.0.3.57: energy[0,3,57] = 0
- omega_empty_port_ch.0.4.57: omega_ch[0,4,57] = 0
- omega_empty_port_dis.0.4.57: omega_dis[0,4,57] = 0
- ev_empty_port_energy.0.4.57: energy[0,4,57] = 0
- omega_empty_port_ch.0.5.57: omega_ch[0,5,57] = 0
- omega_empty_port_dis.0.5.57: omega_dis[0,5,57] = 0
- ev_empty_port_energy.0.5.57: energy[0,5,57] = 0
- omega_empty_port_ch.0.8.57: omega_ch[0,8,57] = 0
- omega_empty_port_dis.0.8.57: omega_dis[0,8,57] = 0
- ev_empty_port_energy.0.8.57: energy[0,8,57] = 0
- omega_empty_port_ch.0.10.57: omega_ch[0,10,57] = 0
- omega_empty_port_dis.0.10.57: omega_dis[0,10,57] = 0
- ev_empty_port_energy.0.10.57: energy[0,10,57] = 0
- omega_empty_port_ch.0.11.57: omega_ch[0,11,57] = 0
- omega_empty_port_dis.0.11.57: omega_dis[0,11,57] = 0
- ev_empty_port_energy.0.11.57: energy[0,11,57] = 0
- omega_empty_port_ch.0.12.57: omega_ch[0,12,57] = 0
- omega_empty_port_dis.0.12.57: omega_dis[0,12,57] = 0
- ev_empty_port_energy.0.12.57: energy[0,12,57] = 0
- omega_empty_port_ch.0.13.57: omega_ch[0,13,57] = 0
- omega_empty_port_dis.0.13.57: omega_dis[0,13,57] = 0
- ev_empty_port_energy.0.13.57: energy[0,13,57] = 0
- omega_empty_port_ch.0.15.57: omega_ch[0,15,57] = 0
- omega_empty_port_dis.0.15.57: omega_dis[0,15,57] = 0
- ev_empty_port_energy.0.15.57: energy[0,15,57] = 0
- omega_empty_port_ch.0.16.57: omega_ch[0,16,57] = 0
- omega_empty_port_dis.0.16.57: omega_dis[0,16,57] = 0
- ev_empty_port_energy.0.16.57: energy[0,16,57] = 0
- omega_empty_port_ch.0.17.57: omega_ch[0,17,57] = 0
- omega_empty_port_dis.0.17.57: omega_dis[0,17,57] = 0
- ev_empty_port_energy.0.17.57: energy[0,17,57] = 0
- omega_empty_port_ch.0.18.57: omega_ch[0,18,57] = 0
- omega_empty_port_dis.0.18.57: omega_dis[0,18,57] = 0
- ev_empty_port_energy.0.18.57: energy[0,18,57] = 0
- omega_empty_port_ch.0.19.57: omega_ch[0,19,57] = 0
- omega_empty_port_dis.0.19.57: omega_dis[0,19,57] = 0
- ev_empty_port_energy.0.19.57: energy[0,19,57] = 0
- omega_empty_port_ch.0.20.57: omega_ch[0,20,57] = 0
- omega_empty_port_dis.0.20.57: omega_dis[0,20,57] = 0
- ev_empty_port_energy.0.20.57: energy[0,20,57] = 0
- omega_empty_port_ch.0.21.57: omega_ch[0,21,57] = 0
- omega_empty_port_dis.0.21.57: omega_dis[0,21,57] = 0
- ev_empty_port_energy.0.21.57: energy[0,21,57] = 0
- omega_empty_port_ch.0.22.57: omega_ch[0,22,57] = 0
- omega_empty_port_dis.0.22.57: omega_dis[0,22,57] = 0
- ev_empty_port_energy.0.22.57: energy[0,22,57] = 0
- omega_empty_port_ch.0.23.57: omega_ch[0,23,57] = 0
- omega_empty_port_dis.0.23.57: omega_dis[0,23,57] = 0
- ev_empty_port_energy.0.23.57: energy[0,23,57] = 0
- omega_empty_port_ch.0.24.57: omega_ch[0,24,57] = 0
- omega_empty_port_dis.0.24.57: omega_dis[0,24,57] = 0
- ev_empty_port_energy.0.24.57: energy[0,24,57] = 0
- omega_empty_port_ch.0.0.58: omega_ch[0,0,58] = 0
- omega_empty_port_dis.0.0.58: omega_dis[0,0,58] = 0
- ev_empty_port_energy.0.0.58: energy[0,0,58] = 0
- omega_empty_port_ch.0.1.58: omega_ch[0,1,58] = 0
- omega_empty_port_dis.0.1.58: omega_dis[0,1,58] = 0
- ev_empty_port_energy.0.1.58: energy[0,1,58] = 0
- omega_empty_port_ch.0.2.58: omega_ch[0,2,58] = 0
- omega_empty_port_dis.0.2.58: omega_dis[0,2,58] = 0
- ev_empty_port_energy.0.2.58: energy[0,2,58] = 0
- omega_empty_port_ch.0.3.58: omega_ch[0,3,58] = 0
- omega_empty_port_dis.0.3.58: omega_dis[0,3,58] = 0
- ev_empty_port_energy.0.3.58: energy[0,3,58] = 0
- omega_empty_port_ch.0.4.58: omega_ch[0,4,58] = 0
- omega_empty_port_dis.0.4.58: omega_dis[0,4,58] = 0
- ev_empty_port_energy.0.4.58: energy[0,4,58] = 0
- omega_empty_port_ch.0.5.58: omega_ch[0,5,58] = 0
- omega_empty_port_dis.0.5.58: omega_dis[0,5,58] = 0
- ev_empty_port_energy.0.5.58: energy[0,5,58] = 0
- omega_empty_port_ch.0.8.58: omega_ch[0,8,58] = 0
- omega_empty_port_dis.0.8.58: omega_dis[0,8,58] = 0
- ev_empty_port_energy.0.8.58: energy[0,8,58] = 0
- omega_empty_port_ch.0.10.58: omega_ch[0,10,58] = 0
- omega_empty_port_dis.0.10.58: omega_dis[0,10,58] = 0
- ev_empty_port_energy.0.10.58: energy[0,10,58] = 0
- omega_empty_port_ch.0.11.58: omega_ch[0,11,58] = 0
- omega_empty_port_dis.0.11.58: omega_dis[0,11,58] = 0
- ev_empty_port_energy.0.11.58: energy[0,11,58] = 0
- omega_empty_port_ch.0.12.58: omega_ch[0,12,58] = 0
- omega_empty_port_dis.0.12.58: omega_dis[0,12,58] = 0
- ev_empty_port_energy.0.12.58: energy[0,12,58] = 0
- omega_empty_port_ch.0.13.58: omega_ch[0,13,58] = 0
- omega_empty_port_dis.0.13.58: omega_dis[0,13,58] = 0
- ev_empty_port_energy.0.13.58: energy[0,13,58] = 0
- omega_empty_port_ch.0.15.58: omega_ch[0,15,58] = 0
- omega_empty_port_dis.0.15.58: omega_dis[0,15,58] = 0
- ev_empty_port_energy.0.15.58: energy[0,15,58] = 0
- omega_empty_port_ch.0.16.58: omega_ch[0,16,58] = 0
- omega_empty_port_dis.0.16.58: omega_dis[0,16,58] = 0
- ev_empty_port_energy.0.16.58: energy[0,16,58] = 0
- omega_empty_port_ch.0.17.58: omega_ch[0,17,58] = 0
- omega_empty_port_dis.0.17.58: omega_dis[0,17,58] = 0
- ev_empty_port_energy.0.17.58: energy[0,17,58] = 0
- omega_empty_port_ch.0.18.58: omega_ch[0,18,58] = 0
- omega_empty_port_dis.0.18.58: omega_dis[0,18,58] = 0
- ev_empty_port_energy.0.18.58: energy[0,18,58] = 0
- omega_empty_port_ch.0.19.58: omega_ch[0,19,58] = 0
- omega_empty_port_dis.0.19.58: omega_dis[0,19,58] = 0
- ev_empty_port_energy.0.19.58: energy[0,19,58] = 0
- omega_empty_port_ch.0.20.58: omega_ch[0,20,58] = 0
- omega_empty_port_dis.0.20.58: omega_dis[0,20,58] = 0
- ev_empty_port_energy.0.20.58: energy[0,20,58] = 0
- omega_empty_port_ch.0.21.58: omega_ch[0,21,58] = 0
- omega_empty_port_dis.0.21.58: omega_dis[0,21,58] = 0
- ev_empty_port_energy.0.21.58: energy[0,21,58] = 0
- omega_empty_port_ch.0.22.58: omega_ch[0,22,58] = 0
- omega_empty_port_dis.0.22.58: omega_dis[0,22,58] = 0
- ev_empty_port_energy.0.22.58: energy[0,22,58] = 0
- omega_empty_port_ch.0.23.58: omega_ch[0,23,58] = 0
- omega_empty_port_dis.0.23.58: omega_dis[0,23,58] = 0
- ev_empty_port_energy.0.23.58: energy[0,23,58] = 0
- omega_empty_port_ch.0.24.58: omega_ch[0,24,58] = 0
- omega_empty_port_dis.0.24.58: omega_dis[0,24,58] = 0
- ev_empty_port_energy.0.24.58: energy[0,24,58] = 0
- omega_empty_port_ch.0.0.59: omega_ch[0,0,59] = 0
- omega_empty_port_dis.0.0.59: omega_dis[0,0,59] = 0
- ev_empty_port_energy.0.0.59: energy[0,0,59] = 0
- omega_empty_port_ch.0.1.59: omega_ch[0,1,59] = 0
- omega_empty_port_dis.0.1.59: omega_dis[0,1,59] = 0
- ev_empty_port_energy.0.1.59: energy[0,1,59] = 0
- omega_empty_port_ch.0.2.59: omega_ch[0,2,59] = 0
- omega_empty_port_dis.0.2.59: omega_dis[0,2,59] = 0
- ev_empty_port_energy.0.2.59: energy[0,2,59] = 0
- omega_empty_port_ch.0.3.59: omega_ch[0,3,59] = 0
- omega_empty_port_dis.0.3.59: omega_dis[0,3,59] = 0
- ev_empty_port_energy.0.3.59: energy[0,3,59] = 0
- omega_empty_port_ch.0.4.59: omega_ch[0,4,59] = 0
- omega_empty_port_dis.0.4.59: omega_dis[0,4,59] = 0
- ev_empty_port_energy.0.4.59: energy[0,4,59] = 0
- omega_empty_port_ch.0.5.59: omega_ch[0,5,59] = 0
- omega_empty_port_dis.0.5.59: omega_dis[0,5,59] = 0
- ev_empty_port_energy.0.5.59: energy[0,5,59] = 0
- omega_empty_port_ch.0.8.59: omega_ch[0,8,59] = 0
- omega_empty_port_dis.0.8.59: omega_dis[0,8,59] = 0
- ev_empty_port_energy.0.8.59: energy[0,8,59] = 0
- omega_empty_port_ch.0.10.59: omega_ch[0,10,59] = 0
- omega_empty_port_dis.0.10.59: omega_dis[0,10,59] = 0
- ev_empty_port_energy.0.10.59: energy[0,10,59] = 0
- omega_empty_port_ch.0.11.59: omega_ch[0,11,59] = 0
- omega_empty_port_dis.0.11.59: omega_dis[0,11,59] = 0
- ev_empty_port_energy.0.11.59: energy[0,11,59] = 0
- omega_empty_port_ch.0.12.59: omega_ch[0,12,59] = 0
- omega_empty_port_dis.0.12.59: omega_dis[0,12,59] = 0
- ev_empty_port_energy.0.12.59: energy[0,12,59] = 0
- omega_empty_port_ch.0.13.59: omega_ch[0,13,59] = 0
- omega_empty_port_dis.0.13.59: omega_dis[0,13,59] = 0
- ev_empty_port_energy.0.13.59: energy[0,13,59] = 0
- omega_empty_port_ch.0.15.59: omega_ch[0,15,59] = 0
- omega_empty_port_dis.0.15.59: omega_dis[0,15,59] = 0
- ev_empty_port_energy.0.15.59: energy[0,15,59] = 0
- omega_empty_port_ch.0.16.59: omega_ch[0,16,59] = 0
- omega_empty_port_dis.0.16.59: omega_dis[0,16,59] = 0
- ev_empty_port_energy.0.16.59: energy[0,16,59] = 0
- omega_empty_port_ch.0.17.59: omega_ch[0,17,59] = 0
- omega_empty_port_dis.0.17.59: omega_dis[0,17,59] = 0
- ev_empty_port_energy.0.17.59: energy[0,17,59] = 0
- omega_empty_port_ch.0.18.59: omega_ch[0,18,59] = 0
- omega_empty_port_dis.0.18.59: omega_dis[0,18,59] = 0
- ev_empty_port_energy.0.18.59: energy[0,18,59] = 0
- omega_empty_port_ch.0.19.59: omega_ch[0,19,59] = 0
- omega_empty_port_dis.0.19.59: omega_dis[0,19,59] = 0
- ev_empty_port_energy.0.19.59: energy[0,19,59] = 0
- omega_empty_port_ch.0.20.59: omega_ch[0,20,59] = 0
- omega_empty_port_dis.0.20.59: omega_dis[0,20,59] = 0
- ev_empty_port_energy.0.20.59: energy[0,20,59] = 0
- omega_empty_port_ch.0.21.59: omega_ch[0,21,59] = 0
- omega_empty_port_dis.0.21.59: omega_dis[0,21,59] = 0
- ev_empty_port_energy.0.21.59: energy[0,21,59] = 0
- omega_empty_port_ch.0.22.59: omega_ch[0,22,59] = 0
- omega_empty_port_dis.0.22.59: omega_dis[0,22,59] = 0
- ev_empty_port_energy.0.22.59: energy[0,22,59] = 0
- omega_empty_port_ch.0.23.59: omega_ch[0,23,59] = 0
- omega_empty_port_dis.0.23.59: omega_dis[0,23,59] = 0
- ev_empty_port_energy.0.23.59: energy[0,23,59] = 0
- omega_empty_port_ch.0.24.59: omega_ch[0,24,59] = 0
- omega_empty_port_dis.0.24.59: omega_dis[0,24,59] = 0
- ev_empty_port_energy.0.24.59: energy[0,24,59] = 0
- omega_empty_port_ch.0.0.60: omega_ch[0,0,60] = 0
- omega_empty_port_dis.0.0.60: omega_dis[0,0,60] = 0
- ev_empty_port_energy.0.0.60: energy[0,0,60] = 0
- omega_empty_port_ch.0.1.60: omega_ch[0,1,60] = 0
- omega_empty_port_dis.0.1.60: omega_dis[0,1,60] = 0
- ev_empty_port_energy.0.1.60: energy[0,1,60] = 0
- omega_empty_port_ch.0.2.60: omega_ch[0,2,60] = 0
- omega_empty_port_dis.0.2.60: omega_dis[0,2,60] = 0
- ev_empty_port_energy.0.2.60: energy[0,2,60] = 0
- omega_empty_port_ch.0.3.60: omega_ch[0,3,60] = 0
- omega_empty_port_dis.0.3.60: omega_dis[0,3,60] = 0
- ev_empty_port_energy.0.3.60: energy[0,3,60] = 0
- omega_empty_port_ch.0.4.60: omega_ch[0,4,60] = 0
- omega_empty_port_dis.0.4.60: omega_dis[0,4,60] = 0
- ev_empty_port_energy.0.4.60: energy[0,4,60] = 0
- omega_empty_port_ch.0.5.60: omega_ch[0,5,60] = 0
- omega_empty_port_dis.0.5.60: omega_dis[0,5,60] = 0
- ev_empty_port_energy.0.5.60: energy[0,5,60] = 0
- omega_empty_port_ch.0.8.60: omega_ch[0,8,60] = 0
- omega_empty_port_dis.0.8.60: omega_dis[0,8,60] = 0
- ev_empty_port_energy.0.8.60: energy[0,8,60] = 0
- omega_empty_port_ch.0.10.60: omega_ch[0,10,60] = 0
- omega_empty_port_dis.0.10.60: omega_dis[0,10,60] = 0
- ev_empty_port_energy.0.10.60: energy[0,10,60] = 0
- omega_empty_port_ch.0.11.60: omega_ch[0,11,60] = 0
- omega_empty_port_dis.0.11.60: omega_dis[0,11,60] = 0
- ev_empty_port_energy.0.11.60: energy[0,11,60] = 0
- omega_empty_port_ch.0.12.60: omega_ch[0,12,60] = 0
- omega_empty_port_dis.0.12.60: omega_dis[0,12,60] = 0
- ev_empty_port_energy.0.12.60: energy[0,12,60] = 0
- omega_empty_port_ch.0.13.60: omega_ch[0,13,60] = 0
- omega_empty_port_dis.0.13.60: omega_dis[0,13,60] = 0
- ev_empty_port_energy.0.13.60: energy[0,13,60] = 0
- omega_empty_port_ch.0.14.60: omega_ch[0,14,60] = 0
- omega_empty_port_dis.0.14.60: omega_dis[0,14,60] = 0
- omega_empty_port_ch.0.15.60: omega_ch[0,15,60] = 0
- omega_empty_port_dis.0.15.60: omega_dis[0,15,60] = 0
- ev_empty_port_energy.0.15.60: energy[0,15,60] = 0
- omega_empty_port_ch.0.16.60: omega_ch[0,16,60] = 0
- omega_empty_port_dis.0.16.60: omega_dis[0,16,60] = 0
- ev_empty_port_energy.0.16.60: energy[0,16,60] = 0
- omega_empty_port_ch.0.17.60: omega_ch[0,17,60] = 0
- omega_empty_port_dis.0.17.60: omega_dis[0,17,60] = 0
- ev_empty_port_energy.0.17.60: energy[0,17,60] = 0
- omega_empty_port_ch.0.18.60: omega_ch[0,18,60] = 0
- omega_empty_port_dis.0.18.60: omega_dis[0,18,60] = 0
- ev_empty_port_energy.0.18.60: energy[0,18,60] = 0
- omega_empty_port_ch.0.19.60: omega_ch[0,19,60] = 0
- omega_empty_port_dis.0.19.60: omega_dis[0,19,60] = 0
- ev_empty_port_energy.0.19.60: energy[0,19,60] = 0
- omega_empty_port_ch.0.20.60: omega_ch[0,20,60] = 0
- omega_empty_port_dis.0.20.60: omega_dis[0,20,60] = 0
- ev_empty_port_energy.0.20.60: energy[0,20,60] = 0
- omega_empty_port_ch.0.21.60: omega_ch[0,21,60] = 0
- omega_empty_port_dis.0.21.60: omega_dis[0,21,60] = 0
- ev_empty_port_energy.0.21.60: energy[0,21,60] = 0
- omega_empty_port_ch.0.22.60: omega_ch[0,22,60] = 0
- omega_empty_port_dis.0.22.60: omega_dis[0,22,60] = 0
- ev_empty_port_energy.0.22.60: energy[0,22,60] = 0
- omega_empty_port_ch.0.23.60: omega_ch[0,23,60] = 0
- omega_empty_port_dis.0.23.60: omega_dis[0,23,60] = 0
- ev_empty_port_energy.0.23.60: energy[0,23,60] = 0
- omega_empty_port_ch.0.24.60: omega_ch[0,24,60] = 0
- omega_empty_port_dis.0.24.60: omega_dis[0,24,60] = 0
- ev_empty_port_energy.0.24.60: energy[0,24,60] = 0
- omega_empty_port_ch.0.0.61: omega_ch[0,0,61] = 0
- omega_empty_port_dis.0.0.61: omega_dis[0,0,61] = 0
- ev_empty_port_energy.0.0.61: energy[0,0,61] = 0
- omega_empty_port_ch.0.1.61: omega_ch[0,1,61] = 0
- omega_empty_port_dis.0.1.61: omega_dis[0,1,61] = 0
- ev_empty_port_energy.0.1.61: energy[0,1,61] = 0
- omega_empty_port_ch.0.2.61: omega_ch[0,2,61] = 0
- omega_empty_port_dis.0.2.61: omega_dis[0,2,61] = 0
- ev_empty_port_energy.0.2.61: energy[0,2,61] = 0
- omega_empty_port_ch.0.3.61: omega_ch[0,3,61] = 0
- omega_empty_port_dis.0.3.61: omega_dis[0,3,61] = 0
- ev_empty_port_energy.0.3.61: energy[0,3,61] = 0
- omega_empty_port_ch.0.4.61: omega_ch[0,4,61] = 0
- omega_empty_port_dis.0.4.61: omega_dis[0,4,61] = 0
- ev_empty_port_energy.0.4.61: energy[0,4,61] = 0
- omega_empty_port_ch.0.5.61: omega_ch[0,5,61] = 0
- omega_empty_port_dis.0.5.61: omega_dis[0,5,61] = 0
- ev_empty_port_energy.0.5.61: energy[0,5,61] = 0
- omega_empty_port_ch.0.8.61: omega_ch[0,8,61] = 0
- omega_empty_port_dis.0.8.61: omega_dis[0,8,61] = 0
- ev_empty_port_energy.0.8.61: energy[0,8,61] = 0
- omega_empty_port_ch.0.9.61: omega_ch[0,9,61] = 0
- omega_empty_port_dis.0.9.61: omega_dis[0,9,61] = 0
- omega_empty_port_ch.0.10.61: omega_ch[0,10,61] = 0
- omega_empty_port_dis.0.10.61: omega_dis[0,10,61] = 0
- ev_empty_port_energy.0.10.61: energy[0,10,61] = 0
- omega_empty_port_ch.0.11.61: omega_ch[0,11,61] = 0
- omega_empty_port_dis.0.11.61: omega_dis[0,11,61] = 0
- ev_empty_port_energy.0.11.61: energy[0,11,61] = 0
- omega_empty_port_ch.0.12.61: omega_ch[0,12,61] = 0
- omega_empty_port_dis.0.12.61: omega_dis[0,12,61] = 0
- ev_empty_port_energy.0.12.61: energy[0,12,61] = 0
- omega_empty_port_ch.0.13.61: omega_ch[0,13,61] = 0
- omega_empty_port_dis.0.13.61: omega_dis[0,13,61] = 0
- ev_empty_port_energy.0.13.61: energy[0,13,61] = 0
- omega_empty_port_ch.0.14.61: omega_ch[0,14,61] = 0
- omega_empty_port_dis.0.14.61: omega_dis[0,14,61] = 0
- ev_empty_port_energy.0.14.61: energy[0,14,61] = 0
- omega_empty_port_ch.0.15.61: omega_ch[0,15,61] = 0
- omega_empty_port_dis.0.15.61: omega_dis[0,15,61] = 0
- ev_empty_port_energy.0.15.61: energy[0,15,61] = 0
- omega_empty_port_ch.0.16.61: omega_ch[0,16,61] = 0
- omega_empty_port_dis.0.16.61: omega_dis[0,16,61] = 0
- ev_empty_port_energy.0.16.61: energy[0,16,61] = 0
- omega_empty_port_ch.0.17.61: omega_ch[0,17,61] = 0
- omega_empty_port_dis.0.17.61: omega_dis[0,17,61] = 0
- ev_empty_port_energy.0.17.61: energy[0,17,61] = 0
- omega_empty_port_ch.0.18.61: omega_ch[0,18,61] = 0
- omega_empty_port_dis.0.18.61: omega_dis[0,18,61] = 0
- ev_empty_port_energy.0.18.61: energy[0,18,61] = 0
- omega_empty_port_ch.0.19.61: omega_ch[0,19,61] = 0
- omega_empty_port_dis.0.19.61: omega_dis[0,19,61] = 0
- ev_empty_port_energy.0.19.61: energy[0,19,61] = 0
- omega_empty_port_ch.0.20.61: omega_ch[0,20,61] = 0
- omega_empty_port_dis.0.20.61: omega_dis[0,20,61] = 0
- ev_empty_port_energy.0.20.61: energy[0,20,61] = 0
- omega_empty_port_ch.0.21.61: omega_ch[0,21,61] = 0
- omega_empty_port_dis.0.21.61: omega_dis[0,21,61] = 0
- ev_empty_port_energy.0.21.61: energy[0,21,61] = 0
- omega_empty_port_ch.0.22.61: omega_ch[0,22,61] = 0
- omega_empty_port_dis.0.22.61: omega_dis[0,22,61] = 0
- ev_empty_port_energy.0.22.61: energy[0,22,61] = 0
- omega_empty_port_ch.0.23.61: omega_ch[0,23,61] = 0
- omega_empty_port_dis.0.23.61: omega_dis[0,23,61] = 0
- ev_empty_port_energy.0.23.61: energy[0,23,61] = 0
- omega_empty_port_ch.0.24.61: omega_ch[0,24,61] = 0
- omega_empty_port_dis.0.24.61: omega_dis[0,24,61] = 0
- ev_empty_port_energy.0.24.61: energy[0,24,61] = 0
- omega_empty_port_ch.0.0.62: omega_ch[0,0,62] = 0
- omega_empty_port_dis.0.0.62: omega_dis[0,0,62] = 0
- ev_empty_port_energy.0.0.62: energy[0,0,62] = 0
- omega_empty_port_ch.0.1.62: omega_ch[0,1,62] = 0
- omega_empty_port_dis.0.1.62: omega_dis[0,1,62] = 0
- ev_empty_port_energy.0.1.62: energy[0,1,62] = 0
- omega_empty_port_ch.0.2.62: omega_ch[0,2,62] = 0
- omega_empty_port_dis.0.2.62: omega_dis[0,2,62] = 0
- ev_empty_port_energy.0.2.62: energy[0,2,62] = 0
- omega_empty_port_ch.0.3.62: omega_ch[0,3,62] = 0
- omega_empty_port_dis.0.3.62: omega_dis[0,3,62] = 0
- ev_empty_port_energy.0.3.62: energy[0,3,62] = 0
- omega_empty_port_ch.0.4.62: omega_ch[0,4,62] = 0
- omega_empty_port_dis.0.4.62: omega_dis[0,4,62] = 0
- ev_empty_port_energy.0.4.62: energy[0,4,62] = 0
- omega_empty_port_ch.0.5.62: omega_ch[0,5,62] = 0
- omega_empty_port_dis.0.5.62: omega_dis[0,5,62] = 0
- ev_empty_port_energy.0.5.62: energy[0,5,62] = 0
- omega_empty_port_ch.0.8.62: omega_ch[0,8,62] = 0
- omega_empty_port_dis.0.8.62: omega_dis[0,8,62] = 0
- ev_empty_port_energy.0.8.62: energy[0,8,62] = 0
- omega_empty_port_ch.0.9.62: omega_ch[0,9,62] = 0
- omega_empty_port_dis.0.9.62: omega_dis[0,9,62] = 0
- ev_empty_port_energy.0.9.62: energy[0,9,62] = 0
- omega_empty_port_ch.0.10.62: omega_ch[0,10,62] = 0
- omega_empty_port_dis.0.10.62: omega_dis[0,10,62] = 0
- ev_empty_port_energy.0.10.62: energy[0,10,62] = 0
- omega_empty_port_ch.0.11.62: omega_ch[0,11,62] = 0
- omega_empty_port_dis.0.11.62: omega_dis[0,11,62] = 0
- ev_empty_port_energy.0.11.62: energy[0,11,62] = 0
- omega_empty_port_ch.0.12.62: omega_ch[0,12,62] = 0
- omega_empty_port_dis.0.12.62: omega_dis[0,12,62] = 0
- ev_empty_port_energy.0.12.62: energy[0,12,62] = 0
- omega_empty_port_ch.0.13.62: omega_ch[0,13,62] = 0
- omega_empty_port_dis.0.13.62: omega_dis[0,13,62] = 0
- ev_empty_port_energy.0.13.62: energy[0,13,62] = 0
- omega_empty_port_ch.0.14.62: omega_ch[0,14,62] = 0
- omega_empty_port_dis.0.14.62: omega_dis[0,14,62] = 0
- ev_empty_port_energy.0.14.62: energy[0,14,62] = 0
- omega_empty_port_ch.0.15.62: omega_ch[0,15,62] = 0
- omega_empty_port_dis.0.15.62: omega_dis[0,15,62] = 0
- ev_empty_port_energy.0.15.62: energy[0,15,62] = 0
- omega_empty_port_ch.0.16.62: omega_ch[0,16,62] = 0
- omega_empty_port_dis.0.16.62: omega_dis[0,16,62] = 0
- ev_empty_port_energy.0.16.62: energy[0,16,62] = 0
- omega_empty_port_ch.0.17.62: omega_ch[0,17,62] = 0
- omega_empty_port_dis.0.17.62: omega_dis[0,17,62] = 0
- ev_empty_port_energy.0.17.62: energy[0,17,62] = 0
- omega_empty_port_ch.0.18.62: omega_ch[0,18,62] = 0
- omega_empty_port_dis.0.18.62: omega_dis[0,18,62] = 0
- ev_empty_port_energy.0.18.62: energy[0,18,62] = 0
- omega_empty_port_ch.0.19.62: omega_ch[0,19,62] = 0
- omega_empty_port_dis.0.19.62: omega_dis[0,19,62] = 0
- ev_empty_port_energy.0.19.62: energy[0,19,62] = 0
- omega_empty_port_ch.0.20.62: omega_ch[0,20,62] = 0
- omega_empty_port_dis.0.20.62: omega_dis[0,20,62] = 0
- ev_empty_port_energy.0.20.62: energy[0,20,62] = 0
- omega_empty_port_ch.0.21.62: omega_ch[0,21,62] = 0
- omega_empty_port_dis.0.21.62: omega_dis[0,21,62] = 0
- ev_empty_port_energy.0.21.62: energy[0,21,62] = 0
- omega_empty_port_ch.0.22.62: omega_ch[0,22,62] = 0
- omega_empty_port_dis.0.22.62: omega_dis[0,22,62] = 0
- ev_empty_port_energy.0.22.62: energy[0,22,62] = 0
- omega_empty_port_ch.0.23.62: omega_ch[0,23,62] = 0
- omega_empty_port_dis.0.23.62: omega_dis[0,23,62] = 0
- ev_empty_port_energy.0.23.62: energy[0,23,62] = 0
- omega_empty_port_ch.0.24.62: omega_ch[0,24,62] = 0
- omega_empty_port_dis.0.24.62: omega_dis[0,24,62] = 0
- ev_empty_port_energy.0.24.62: energy[0,24,62] = 0
- omega_empty_port_ch.0.0.63: omega_ch[0,0,63] = 0
- omega_empty_port_dis.0.0.63: omega_dis[0,0,63] = 0
- ev_empty_port_energy.0.0.63: energy[0,0,63] = 0
- omega_empty_port_ch.0.1.63: omega_ch[0,1,63] = 0
- omega_empty_port_dis.0.1.63: omega_dis[0,1,63] = 0
- ev_empty_port_energy.0.1.63: energy[0,1,63] = 0
- omega_empty_port_ch.0.2.63: omega_ch[0,2,63] = 0
- omega_empty_port_dis.0.2.63: omega_dis[0,2,63] = 0
- ev_empty_port_energy.0.2.63: energy[0,2,63] = 0
- omega_empty_port_ch.0.3.63: omega_ch[0,3,63] = 0
- omega_empty_port_dis.0.3.63: omega_dis[0,3,63] = 0
- ev_empty_port_energy.0.3.63: energy[0,3,63] = 0
- omega_empty_port_ch.0.4.63: omega_ch[0,4,63] = 0
- omega_empty_port_dis.0.4.63: omega_dis[0,4,63] = 0
- ev_empty_port_energy.0.4.63: energy[0,4,63] = 0
- omega_empty_port_ch.0.5.63: omega_ch[0,5,63] = 0
- omega_empty_port_dis.0.5.63: omega_dis[0,5,63] = 0
- ev_empty_port_energy.0.5.63: energy[0,5,63] = 0
- omega_empty_port_ch.0.8.63: omega_ch[0,8,63] = 0
- omega_empty_port_dis.0.8.63: omega_dis[0,8,63] = 0
- ev_empty_port_energy.0.8.63: energy[0,8,63] = 0
- omega_empty_port_ch.0.9.63: omega_ch[0,9,63] = 0
- omega_empty_port_dis.0.9.63: omega_dis[0,9,63] = 0
- ev_empty_port_energy.0.9.63: energy[0,9,63] = 0
- omega_empty_port_ch.0.10.63: omega_ch[0,10,63] = 0
- omega_empty_port_dis.0.10.63: omega_dis[0,10,63] = 0
- ev_empty_port_energy.0.10.63: energy[0,10,63] = 0
- omega_empty_port_ch.0.11.63: omega_ch[0,11,63] = 0
- omega_empty_port_dis.0.11.63: omega_dis[0,11,63] = 0
- ev_empty_port_energy.0.11.63: energy[0,11,63] = 0
- omega_empty_port_ch.0.12.63: omega_ch[0,12,63] = 0
- omega_empty_port_dis.0.12.63: omega_dis[0,12,63] = 0
- ev_empty_port_energy.0.12.63: energy[0,12,63] = 0
- omega_empty_port_ch.0.13.63: omega_ch[0,13,63] = 0
- omega_empty_port_dis.0.13.63: omega_dis[0,13,63] = 0
- ev_empty_port_energy.0.13.63: energy[0,13,63] = 0
- omega_empty_port_ch.0.14.63: omega_ch[0,14,63] = 0
- omega_empty_port_dis.0.14.63: omega_dis[0,14,63] = 0
- ev_empty_port_energy.0.14.63: energy[0,14,63] = 0
- omega_empty_port_ch.0.15.63: omega_ch[0,15,63] = 0
- omega_empty_port_dis.0.15.63: omega_dis[0,15,63] = 0
- ev_empty_port_energy.0.15.63: energy[0,15,63] = 0
- omega_empty_port_ch.0.16.63: omega_ch[0,16,63] = 0
- omega_empty_port_dis.0.16.63: omega_dis[0,16,63] = 0
- ev_empty_port_energy.0.16.63: energy[0,16,63] = 0
- omega_empty_port_ch.0.17.63: omega_ch[0,17,63] = 0
- omega_empty_port_dis.0.17.63: omega_dis[0,17,63] = 0
- ev_empty_port_energy.0.17.63: energy[0,17,63] = 0
- omega_empty_port_ch.0.18.63: omega_ch[0,18,63] = 0
- omega_empty_port_dis.0.18.63: omega_dis[0,18,63] = 0
- ev_empty_port_energy.0.18.63: energy[0,18,63] = 0
- omega_empty_port_ch.0.19.63: omega_ch[0,19,63] = 0
- omega_empty_port_dis.0.19.63: omega_dis[0,19,63] = 0
- ev_empty_port_energy.0.19.63: energy[0,19,63] = 0
- omega_empty_port_ch.0.20.63: omega_ch[0,20,63] = 0
- omega_empty_port_dis.0.20.63: omega_dis[0,20,63] = 0
- ev_empty_port_energy.0.20.63: energy[0,20,63] = 0
- omega_empty_port_ch.0.21.63: omega_ch[0,21,63] = 0
- omega_empty_port_dis.0.21.63: omega_dis[0,21,63] = 0
- ev_empty_port_energy.0.21.63: energy[0,21,63] = 0
- omega_empty_port_ch.0.22.63: omega_ch[0,22,63] = 0
- omega_empty_port_dis.0.22.63: omega_dis[0,22,63] = 0
- ev_empty_port_energy.0.22.63: energy[0,22,63] = 0
- omega_empty_port_ch.0.23.63: omega_ch[0,23,63] = 0
- omega_empty_port_dis.0.23.63: omega_dis[0,23,63] = 0
- ev_empty_port_energy.0.23.63: energy[0,23,63] = 0
- omega_empty_port_ch.0.24.63: omega_ch[0,24,63] = 0
- omega_empty_port_dis.0.24.63: omega_dis[0,24,63] = 0
- ev_empty_port_energy.0.24.63: energy[0,24,63] = 0
- omega_empty_port_ch.0.0.64: omega_ch[0,0,64] = 0
- omega_empty_port_dis.0.0.64: omega_dis[0,0,64] = 0
- ev_empty_port_energy.0.0.64: energy[0,0,64] = 0
- omega_empty_port_ch.0.1.64: omega_ch[0,1,64] = 0
- omega_empty_port_dis.0.1.64: omega_dis[0,1,64] = 0
- ev_empty_port_energy.0.1.64: energy[0,1,64] = 0
- omega_empty_port_ch.0.2.64: omega_ch[0,2,64] = 0
- omega_empty_port_dis.0.2.64: omega_dis[0,2,64] = 0
- ev_empty_port_energy.0.2.64: energy[0,2,64] = 0
- omega_empty_port_ch.0.3.64: omega_ch[0,3,64] = 0
- omega_empty_port_dis.0.3.64: omega_dis[0,3,64] = 0
- ev_empty_port_energy.0.3.64: energy[0,3,64] = 0
- omega_empty_port_ch.0.4.64: omega_ch[0,4,64] = 0
- omega_empty_port_dis.0.4.64: omega_dis[0,4,64] = 0
- ev_empty_port_energy.0.4.64: energy[0,4,64] = 0
- omega_empty_port_ch.0.5.64: omega_ch[0,5,64] = 0
- omega_empty_port_dis.0.5.64: omega_dis[0,5,64] = 0
- ev_empty_port_energy.0.5.64: energy[0,5,64] = 0
- omega_empty_port_ch.0.8.64: omega_ch[0,8,64] = 0
- omega_empty_port_dis.0.8.64: omega_dis[0,8,64] = 0
- ev_empty_port_energy.0.8.64: energy[0,8,64] = 0
- omega_empty_port_ch.0.9.64: omega_ch[0,9,64] = 0
- omega_empty_port_dis.0.9.64: omega_dis[0,9,64] = 0
- ev_empty_port_energy.0.9.64: energy[0,9,64] = 0
- omega_empty_port_ch.0.10.64: omega_ch[0,10,64] = 0
- omega_empty_port_dis.0.10.64: omega_dis[0,10,64] = 0
- ev_empty_port_energy.0.10.64: energy[0,10,64] = 0
- omega_empty_port_ch.0.11.64: omega_ch[0,11,64] = 0
- omega_empty_port_dis.0.11.64: omega_dis[0,11,64] = 0
- ev_empty_port_energy.0.11.64: energy[0,11,64] = 0
- omega_empty_port_ch.0.12.64: omega_ch[0,12,64] = 0
- omega_empty_port_dis.0.12.64: omega_dis[0,12,64] = 0
- ev_empty_port_energy.0.12.64: energy[0,12,64] = 0
- omega_empty_port_ch.0.13.64: omega_ch[0,13,64] = 0
- omega_empty_port_dis.0.13.64: omega_dis[0,13,64] = 0
- ev_empty_port_energy.0.13.64: energy[0,13,64] = 0
- omega_empty_port_ch.0.14.64: omega_ch[0,14,64] = 0
- omega_empty_port_dis.0.14.64: omega_dis[0,14,64] = 0
- ev_empty_port_energy.0.14.64: energy[0,14,64] = 0
- omega_empty_port_ch.0.15.64: omega_ch[0,15,64] = 0
- omega_empty_port_dis.0.15.64: omega_dis[0,15,64] = 0
- ev_empty_port_energy.0.15.64: energy[0,15,64] = 0
- omega_empty_port_ch.0.16.64: omega_ch[0,16,64] = 0
- omega_empty_port_dis.0.16.64: omega_dis[0,16,64] = 0
- ev_empty_port_energy.0.16.64: energy[0,16,64] = 0
- omega_empty_port_ch.0.17.64: omega_ch[0,17,64] = 0
- omega_empty_port_dis.0.17.64: omega_dis[0,17,64] = 0
- ev_empty_port_energy.0.17.64: energy[0,17,64] = 0
- omega_empty_port_ch.0.18.64: omega_ch[0,18,64] = 0
- omega_empty_port_dis.0.18.64: omega_dis[0,18,64] = 0
- ev_empty_port_energy.0.18.64: energy[0,18,64] = 0
- omega_empty_port_ch.0.19.64: omega_ch[0,19,64] = 0
- omega_empty_port_dis.0.19.64: omega_dis[0,19,64] = 0
- ev_empty_port_energy.0.19.64: energy[0,19,64] = 0
- omega_empty_port_ch.0.20.64: omega_ch[0,20,64] = 0
- omega_empty_port_dis.0.20.64: omega_dis[0,20,64] = 0
- ev_empty_port_energy.0.20.64: energy[0,20,64] = 0
- omega_empty_port_ch.0.21.64: omega_ch[0,21,64] = 0
- omega_empty_port_dis.0.21.64: omega_dis[0,21,64] = 0
- ev_empty_port_energy.0.21.64: energy[0,21,64] = 0
- omega_empty_port_ch.0.22.64: omega_ch[0,22,64] = 0
- omega_empty_port_dis.0.22.64: omega_dis[0,22,64] = 0
- ev_empty_port_energy.0.22.64: energy[0,22,64] = 0
- omega_empty_port_ch.0.23.64: omega_ch[0,23,64] = 0
- omega_empty_port_dis.0.23.64: omega_dis[0,23,64] = 0
- ev_empty_port_energy.0.23.64: energy[0,23,64] = 0
- omega_empty_port_ch.0.24.64: omega_ch[0,24,64] = 0
- omega_empty_port_dis.0.24.64: omega_dis[0,24,64] = 0
- ev_empty_port_energy.0.24.64: energy[0,24,64] = 0
- omega_empty_port_ch.0.0.65: omega_ch[0,0,65] = 0
- omega_empty_port_dis.0.0.65: omega_dis[0,0,65] = 0
- ev_empty_port_energy.0.0.65: energy[0,0,65] = 0
- omega_empty_port_ch.0.1.65: omega_ch[0,1,65] = 0
- omega_empty_port_dis.0.1.65: omega_dis[0,1,65] = 0
- ev_empty_port_energy.0.1.65: energy[0,1,65] = 0
- omega_empty_port_ch.0.2.65: omega_ch[0,2,65] = 0
- omega_empty_port_dis.0.2.65: omega_dis[0,2,65] = 0
- ev_empty_port_energy.0.2.65: energy[0,2,65] = 0
- omega_empty_port_ch.0.3.65: omega_ch[0,3,65] = 0
- omega_empty_port_dis.0.3.65: omega_dis[0,3,65] = 0
- ev_empty_port_energy.0.3.65: energy[0,3,65] = 0
- omega_empty_port_ch.0.4.65: omega_ch[0,4,65] = 0
- omega_empty_port_dis.0.4.65: omega_dis[0,4,65] = 0
- ev_empty_port_energy.0.4.65: energy[0,4,65] = 0
- omega_empty_port_ch.0.5.65: omega_ch[0,5,65] = 0
- omega_empty_port_dis.0.5.65: omega_dis[0,5,65] = 0
- ev_empty_port_energy.0.5.65: energy[0,5,65] = 0
- omega_empty_port_ch.0.8.65: omega_ch[0,8,65] = 0
- omega_empty_port_dis.0.8.65: omega_dis[0,8,65] = 0
- ev_empty_port_energy.0.8.65: energy[0,8,65] = 0
- omega_empty_port_ch.0.9.65: omega_ch[0,9,65] = 0
- omega_empty_port_dis.0.9.65: omega_dis[0,9,65] = 0
- ev_empty_port_energy.0.9.65: energy[0,9,65] = 0
- omega_empty_port_ch.0.10.65: omega_ch[0,10,65] = 0
- omega_empty_port_dis.0.10.65: omega_dis[0,10,65] = 0
- ev_empty_port_energy.0.10.65: energy[0,10,65] = 0
- omega_empty_port_ch.0.11.65: omega_ch[0,11,65] = 0
- omega_empty_port_dis.0.11.65: omega_dis[0,11,65] = 0
- ev_empty_port_energy.0.11.65: energy[0,11,65] = 0
- omega_empty_port_ch.0.12.65: omega_ch[0,12,65] = 0
- omega_empty_port_dis.0.12.65: omega_dis[0,12,65] = 0
- ev_empty_port_energy.0.12.65: energy[0,12,65] = 0
- omega_empty_port_ch.0.13.65: omega_ch[0,13,65] = 0
- omega_empty_port_dis.0.13.65: omega_dis[0,13,65] = 0
- ev_empty_port_energy.0.13.65: energy[0,13,65] = 0
- omega_empty_port_ch.0.14.65: omega_ch[0,14,65] = 0
- omega_empty_port_dis.0.14.65: omega_dis[0,14,65] = 0
- ev_empty_port_energy.0.14.65: energy[0,14,65] = 0
- omega_empty_port_ch.0.15.65: omega_ch[0,15,65] = 0
- omega_empty_port_dis.0.15.65: omega_dis[0,15,65] = 0
- ev_empty_port_energy.0.15.65: energy[0,15,65] = 0
- omega_empty_port_ch.0.16.65: omega_ch[0,16,65] = 0
- omega_empty_port_dis.0.16.65: omega_dis[0,16,65] = 0
- ev_empty_port_energy.0.16.65: energy[0,16,65] = 0
- omega_empty_port_ch.0.17.65: omega_ch[0,17,65] = 0
- omega_empty_port_dis.0.17.65: omega_dis[0,17,65] = 0
- ev_empty_port_energy.0.17.65: energy[0,17,65] = 0
- omega_empty_port_ch.0.18.65: omega_ch[0,18,65] = 0
- omega_empty_port_dis.0.18.65: omega_dis[0,18,65] = 0
- ev_empty_port_energy.0.18.65: energy[0,18,65] = 0
- omega_empty_port_ch.0.19.65: omega_ch[0,19,65] = 0
- omega_empty_port_dis.0.19.65: omega_dis[0,19,65] = 0
- ev_empty_port_energy.0.19.65: energy[0,19,65] = 0
- omega_empty_port_ch.0.20.65: omega_ch[0,20,65] = 0
- omega_empty_port_dis.0.20.65: omega_dis[0,20,65] = 0
- ev_empty_port_energy.0.20.65: energy[0,20,65] = 0
- omega_empty_port_ch.0.21.65: omega_ch[0,21,65] = 0
- omega_empty_port_dis.0.21.65: omega_dis[0,21,65] = 0
- ev_empty_port_energy.0.21.65: energy[0,21,65] = 0
- omega_empty_port_ch.0.22.65: omega_ch[0,22,65] = 0
- omega_empty_port_dis.0.22.65: omega_dis[0,22,65] = 0
- ev_empty_port_energy.0.22.65: energy[0,22,65] = 0
- omega_empty_port_ch.0.23.65: omega_ch[0,23,65] = 0
- omega_empty_port_dis.0.23.65: omega_dis[0,23,65] = 0
- ev_empty_port_energy.0.23.65: energy[0,23,65] = 0
- omega_empty_port_ch.0.24.65: omega_ch[0,24,65] = 0
- omega_empty_port_dis.0.24.65: omega_dis[0,24,65] = 0
- ev_empty_port_energy.0.24.65: energy[0,24,65] = 0
- omega_empty_port_ch.0.0.66: omega_ch[0,0,66] = 0
- omega_empty_port_dis.0.0.66: omega_dis[0,0,66] = 0
- ev_empty_port_energy.0.0.66: energy[0,0,66] = 0
- omega_empty_port_ch.0.1.66: omega_ch[0,1,66] = 0
- omega_empty_port_dis.0.1.66: omega_dis[0,1,66] = 0
- ev_empty_port_energy.0.1.66: energy[0,1,66] = 0
- omega_empty_port_ch.0.2.66: omega_ch[0,2,66] = 0
- omega_empty_port_dis.0.2.66: omega_dis[0,2,66] = 0
- ev_empty_port_energy.0.2.66: energy[0,2,66] = 0
- omega_empty_port_ch.0.3.66: omega_ch[0,3,66] = 0
- omega_empty_port_dis.0.3.66: omega_dis[0,3,66] = 0
- ev_empty_port_energy.0.3.66: energy[0,3,66] = 0
- omega_empty_port_ch.0.4.66: omega_ch[0,4,66] = 0
- omega_empty_port_dis.0.4.66: omega_dis[0,4,66] = 0
- ev_empty_port_energy.0.4.66: energy[0,4,66] = 0
- omega_empty_port_ch.0.5.66: omega_ch[0,5,66] = 0
- omega_empty_port_dis.0.5.66: omega_dis[0,5,66] = 0
- ev_empty_port_energy.0.5.66: energy[0,5,66] = 0
- omega_empty_port_ch.0.6.66: omega_ch[0,6,66] = 0
- omega_empty_port_dis.0.6.66: omega_dis[0,6,66] = 0
- omega_empty_port_ch.0.8.66: omega_ch[0,8,66] = 0
- omega_empty_port_dis.0.8.66: omega_dis[0,8,66] = 0
- ev_empty_port_energy.0.8.66: energy[0,8,66] = 0
- omega_empty_port_ch.0.9.66: omega_ch[0,9,66] = 0
- omega_empty_port_dis.0.9.66: omega_dis[0,9,66] = 0
- ev_empty_port_energy.0.9.66: energy[0,9,66] = 0
- omega_empty_port_ch.0.10.66: omega_ch[0,10,66] = 0
- omega_empty_port_dis.0.10.66: omega_dis[0,10,66] = 0
- ev_empty_port_energy.0.10.66: energy[0,10,66] = 0
- omega_empty_port_ch.0.11.66: omega_ch[0,11,66] = 0
- omega_empty_port_dis.0.11.66: omega_dis[0,11,66] = 0
- ev_empty_port_energy.0.11.66: energy[0,11,66] = 0
- omega_empty_port_ch.0.12.66: omega_ch[0,12,66] = 0
- omega_empty_port_dis.0.12.66: omega_dis[0,12,66] = 0
- ev_empty_port_energy.0.12.66: energy[0,12,66] = 0
- omega_empty_port_ch.0.13.66: omega_ch[0,13,66] = 0
- omega_empty_port_dis.0.13.66: omega_dis[0,13,66] = 0
- ev_empty_port_energy.0.13.66: energy[0,13,66] = 0
- omega_empty_port_ch.0.14.66: omega_ch[0,14,66] = 0
- omega_empty_port_dis.0.14.66: omega_dis[0,14,66] = 0
- ev_empty_port_energy.0.14.66: energy[0,14,66] = 0
- omega_empty_port_ch.0.15.66: omega_ch[0,15,66] = 0
- omega_empty_port_dis.0.15.66: omega_dis[0,15,66] = 0
- ev_empty_port_energy.0.15.66: energy[0,15,66] = 0
- omega_empty_port_ch.0.16.66: omega_ch[0,16,66] = 0
- omega_empty_port_dis.0.16.66: omega_dis[0,16,66] = 0
- ev_empty_port_energy.0.16.66: energy[0,16,66] = 0
- omega_empty_port_ch.0.17.66: omega_ch[0,17,66] = 0
- omega_empty_port_dis.0.17.66: omega_dis[0,17,66] = 0
- ev_empty_port_energy.0.17.66: energy[0,17,66] = 0
- omega_empty_port_ch.0.18.66: omega_ch[0,18,66] = 0
- omega_empty_port_dis.0.18.66: omega_dis[0,18,66] = 0
- ev_empty_port_energy.0.18.66: energy[0,18,66] = 0
- omega_empty_port_ch.0.19.66: omega_ch[0,19,66] = 0
- omega_empty_port_dis.0.19.66: omega_dis[0,19,66] = 0
- ev_empty_port_energy.0.19.66: energy[0,19,66] = 0
- omega_empty_port_ch.0.20.66: omega_ch[0,20,66] = 0
- omega_empty_port_dis.0.20.66: omega_dis[0,20,66] = 0
- ev_empty_port_energy.0.20.66: energy[0,20,66] = 0
- omega_empty_port_ch.0.21.66: omega_ch[0,21,66] = 0
- omega_empty_port_dis.0.21.66: omega_dis[0,21,66] = 0
- ev_empty_port_energy.0.21.66: energy[0,21,66] = 0
- omega_empty_port_ch.0.22.66: omega_ch[0,22,66] = 0
- omega_empty_port_dis.0.22.66: omega_dis[0,22,66] = 0
- ev_empty_port_energy.0.22.66: energy[0,22,66] = 0
- omega_empty_port_ch.0.23.66: omega_ch[0,23,66] = 0
- omega_empty_port_dis.0.23.66: omega_dis[0,23,66] = 0
- ev_empty_port_energy.0.23.66: energy[0,23,66] = 0
- omega_empty_port_ch.0.24.66: omega_ch[0,24,66] = 0
- omega_empty_port_dis.0.24.66: omega_dis[0,24,66] = 0
- ev_empty_port_energy.0.24.66: energy[0,24,66] = 0
- omega_empty_port_ch.0.0.67: omega_ch[0,0,67] = 0
- omega_empty_port_dis.0.0.67: omega_dis[0,0,67] = 0
- ev_empty_port_energy.0.0.67: energy[0,0,67] = 0
- omega_empty_port_ch.0.1.67: omega_ch[0,1,67] = 0
- omega_empty_port_dis.0.1.67: omega_dis[0,1,67] = 0
- ev_empty_port_energy.0.1.67: energy[0,1,67] = 0
- omega_empty_port_ch.0.2.67: omega_ch[0,2,67] = 0
- omega_empty_port_dis.0.2.67: omega_dis[0,2,67] = 0
- ev_empty_port_energy.0.2.67: energy[0,2,67] = 0
- omega_empty_port_ch.0.3.67: omega_ch[0,3,67] = 0
- omega_empty_port_dis.0.3.67: omega_dis[0,3,67] = 0
- ev_empty_port_energy.0.3.67: energy[0,3,67] = 0
- omega_empty_port_ch.0.4.67: omega_ch[0,4,67] = 0
- omega_empty_port_dis.0.4.67: omega_dis[0,4,67] = 0
- ev_empty_port_energy.0.4.67: energy[0,4,67] = 0
- omega_empty_port_ch.0.5.67: omega_ch[0,5,67] = 0
- omega_empty_port_dis.0.5.67: omega_dis[0,5,67] = 0
- ev_empty_port_energy.0.5.67: energy[0,5,67] = 0
- omega_empty_port_ch.0.6.67: omega_ch[0,6,67] = 0
- omega_empty_port_dis.0.6.67: omega_dis[0,6,67] = 0
- ev_empty_port_energy.0.6.67: energy[0,6,67] = 0
- omega_empty_port_ch.0.7.67: omega_ch[0,7,67] = 0
- omega_empty_port_dis.0.7.67: omega_dis[0,7,67] = 0
- omega_empty_port_ch.0.8.67: omega_ch[0,8,67] = 0
- omega_empty_port_dis.0.8.67: omega_dis[0,8,67] = 0
- ev_empty_port_energy.0.8.67: energy[0,8,67] = 0
- omega_empty_port_ch.0.9.67: omega_ch[0,9,67] = 0
- omega_empty_port_dis.0.9.67: omega_dis[0,9,67] = 0
- ev_empty_port_energy.0.9.67: energy[0,9,67] = 0
- omega_empty_port_ch.0.10.67: omega_ch[0,10,67] = 0
- omega_empty_port_dis.0.10.67: omega_dis[0,10,67] = 0
- ev_empty_port_energy.0.10.67: energy[0,10,67] = 0
- omega_empty_port_ch.0.11.67: omega_ch[0,11,67] = 0
- omega_empty_port_dis.0.11.67: omega_dis[0,11,67] = 0
- ev_empty_port_energy.0.11.67: energy[0,11,67] = 0
- omega_empty_port_ch.0.12.67: omega_ch[0,12,67] = 0
- omega_empty_port_dis.0.12.67: omega_dis[0,12,67] = 0
- ev_empty_port_energy.0.12.67: energy[0,12,67] = 0
- omega_empty_port_ch.0.13.67: omega_ch[0,13,67] = 0
- omega_empty_port_dis.0.13.67: omega_dis[0,13,67] = 0
- ev_empty_port_energy.0.13.67: energy[0,13,67] = 0
- omega_empty_port_ch.0.14.67: omega_ch[0,14,67] = 0
- omega_empty_port_dis.0.14.67: omega_dis[0,14,67] = 0
- ev_empty_port_energy.0.14.67: energy[0,14,67] = 0
- omega_empty_port_ch.0.15.67: omega_ch[0,15,67] = 0
- omega_empty_port_dis.0.15.67: omega_dis[0,15,67] = 0
- ev_empty_port_energy.0.15.67: energy[0,15,67] = 0
- omega_empty_port_ch.0.16.67: omega_ch[0,16,67] = 0
- omega_empty_port_dis.0.16.67: omega_dis[0,16,67] = 0
- ev_empty_port_energy.0.16.67: energy[0,16,67] = 0
- omega_empty_port_ch.0.17.67: omega_ch[0,17,67] = 0
- omega_empty_port_dis.0.17.67: omega_dis[0,17,67] = 0
- ev_empty_port_energy.0.17.67: energy[0,17,67] = 0
- omega_empty_port_ch.0.18.67: omega_ch[0,18,67] = 0
- omega_empty_port_dis.0.18.67: omega_dis[0,18,67] = 0
- ev_empty_port_energy.0.18.67: energy[0,18,67] = 0
- omega_empty_port_ch.0.19.67: omega_ch[0,19,67] = 0
- omega_empty_port_dis.0.19.67: omega_dis[0,19,67] = 0
- ev_empty_port_energy.0.19.67: energy[0,19,67] = 0
- omega_empty_port_ch.0.20.67: omega_ch[0,20,67] = 0
- omega_empty_port_dis.0.20.67: omega_dis[0,20,67] = 0
- ev_empty_port_energy.0.20.67: energy[0,20,67] = 0
- omega_empty_port_ch.0.21.67: omega_ch[0,21,67] = 0
- omega_empty_port_dis.0.21.67: omega_dis[0,21,67] = 0
- ev_empty_port_energy.0.21.67: energy[0,21,67] = 0
- omega_empty_port_ch.0.22.67: omega_ch[0,22,67] = 0
- omega_empty_port_dis.0.22.67: omega_dis[0,22,67] = 0
- ev_empty_port_energy.0.22.67: energy[0,22,67] = 0
- omega_empty_port_ch.0.23.67: omega_ch[0,23,67] = 0
- omega_empty_port_dis.0.23.67: omega_dis[0,23,67] = 0
- ev_empty_port_energy.0.23.67: energy[0,23,67] = 0
- omega_empty_port_ch.0.24.67: omega_ch[0,24,67] = 0
- omega_empty_port_dis.0.24.67: omega_dis[0,24,67] = 0
- ev_empty_port_energy.0.24.67: energy[0,24,67] = 0
- omega_empty_port_ch.0.0.68: omega_ch[0,0,68] = 0
- omega_empty_port_dis.0.0.68: omega_dis[0,0,68] = 0
- ev_empty_port_energy.0.0.68: energy[0,0,68] = 0
- omega_empty_port_ch.0.1.68: omega_ch[0,1,68] = 0
- omega_empty_port_dis.0.1.68: omega_dis[0,1,68] = 0
- ev_empty_port_energy.0.1.68: energy[0,1,68] = 0
- omega_empty_port_ch.0.2.68: omega_ch[0,2,68] = 0
- omega_empty_port_dis.0.2.68: omega_dis[0,2,68] = 0
- ev_empty_port_energy.0.2.68: energy[0,2,68] = 0
- omega_empty_port_ch.0.3.68: omega_ch[0,3,68] = 0
- omega_empty_port_dis.0.3.68: omega_dis[0,3,68] = 0
- ev_empty_port_energy.0.3.68: energy[0,3,68] = 0
- omega_empty_port_ch.0.4.68: omega_ch[0,4,68] = 0
- omega_empty_port_dis.0.4.68: omega_dis[0,4,68] = 0
- ev_empty_port_energy.0.4.68: energy[0,4,68] = 0
- omega_empty_port_ch.0.5.68: omega_ch[0,5,68] = 0
- omega_empty_port_dis.0.5.68: omega_dis[0,5,68] = 0
- ev_empty_port_energy.0.5.68: energy[0,5,68] = 0
- omega_empty_port_ch.0.6.68: omega_ch[0,6,68] = 0
- omega_empty_port_dis.0.6.68: omega_dis[0,6,68] = 0
- ev_empty_port_energy.0.6.68: energy[0,6,68] = 0
- omega_empty_port_ch.0.7.68: omega_ch[0,7,68] = 0
- omega_empty_port_dis.0.7.68: omega_dis[0,7,68] = 0
- ev_empty_port_energy.0.7.68: energy[0,7,68] = 0
- omega_empty_port_ch.0.8.68: omega_ch[0,8,68] = 0
- omega_empty_port_dis.0.8.68: omega_dis[0,8,68] = 0
- ev_empty_port_energy.0.8.68: energy[0,8,68] = 0
- omega_empty_port_ch.0.9.68: omega_ch[0,9,68] = 0
- omega_empty_port_dis.0.9.68: omega_dis[0,9,68] = 0
- ev_empty_port_energy.0.9.68: energy[0,9,68] = 0
- omega_empty_port_ch.0.10.68: omega_ch[0,10,68] = 0
- omega_empty_port_dis.0.10.68: omega_dis[0,10,68] = 0
- ev_empty_port_energy.0.10.68: energy[0,10,68] = 0
- omega_empty_port_ch.0.11.68: omega_ch[0,11,68] = 0
- omega_empty_port_dis.0.11.68: omega_dis[0,11,68] = 0
- ev_empty_port_energy.0.11.68: energy[0,11,68] = 0
- omega_empty_port_ch.0.12.68: omega_ch[0,12,68] = 0
- omega_empty_port_dis.0.12.68: omega_dis[0,12,68] = 0
- ev_empty_port_energy.0.12.68: energy[0,12,68] = 0
- omega_empty_port_ch.0.13.68: omega_ch[0,13,68] = 0
- omega_empty_port_dis.0.13.68: omega_dis[0,13,68] = 0
- ev_empty_port_energy.0.13.68: energy[0,13,68] = 0
- omega_empty_port_ch.0.14.68: omega_ch[0,14,68] = 0
- omega_empty_port_dis.0.14.68: omega_dis[0,14,68] = 0
- ev_empty_port_energy.0.14.68: energy[0,14,68] = 0
- omega_empty_port_ch.0.15.68: omega_ch[0,15,68] = 0
- omega_empty_port_dis.0.15.68: omega_dis[0,15,68] = 0
- ev_empty_port_energy.0.15.68: energy[0,15,68] = 0
- omega_empty_port_ch.0.16.68: omega_ch[0,16,68] = 0
- omega_empty_port_dis.0.16.68: omega_dis[0,16,68] = 0
- ev_empty_port_energy.0.16.68: energy[0,16,68] = 0
- omega_empty_port_ch.0.17.68: omega_ch[0,17,68] = 0
- omega_empty_port_dis.0.17.68: omega_dis[0,17,68] = 0
- ev_empty_port_energy.0.17.68: energy[0,17,68] = 0
- omega_empty_port_ch.0.18.68: omega_ch[0,18,68] = 0
- omega_empty_port_dis.0.18.68: omega_dis[0,18,68] = 0
- ev_empty_port_energy.0.18.68: energy[0,18,68] = 0
- omega_empty_port_ch.0.19.68: omega_ch[0,19,68] = 0
- omega_empty_port_dis.0.19.68: omega_dis[0,19,68] = 0
- ev_empty_port_energy.0.19.68: energy[0,19,68] = 0
- omega_empty_port_ch.0.20.68: omega_ch[0,20,68] = 0
- omega_empty_port_dis.0.20.68: omega_dis[0,20,68] = 0
- ev_empty_port_energy.0.20.68: energy[0,20,68] = 0
- omega_empty_port_ch.0.21.68: omega_ch[0,21,68] = 0
- omega_empty_port_dis.0.21.68: omega_dis[0,21,68] = 0
- ev_empty_port_energy.0.21.68: energy[0,21,68] = 0
- omega_empty_port_ch.0.22.68: omega_ch[0,22,68] = 0
- omega_empty_port_dis.0.22.68: omega_dis[0,22,68] = 0
- ev_empty_port_energy.0.22.68: energy[0,22,68] = 0
- omega_empty_port_ch.0.23.68: omega_ch[0,23,68] = 0
- omega_empty_port_dis.0.23.68: omega_dis[0,23,68] = 0
- ev_empty_port_energy.0.23.68: energy[0,23,68] = 0
- omega_empty_port_ch.0.24.68: omega_ch[0,24,68] = 0
- omega_empty_port_dis.0.24.68: omega_dis[0,24,68] = 0
- ev_empty_port_energy.0.24.68: energy[0,24,68] = 0
- omega_empty_port_ch.0.0.69: omega_ch[0,0,69] = 0
- omega_empty_port_dis.0.0.69: omega_dis[0,0,69] = 0
- ev_empty_port_energy.0.0.69: energy[0,0,69] = 0
- omega_empty_port_ch.0.1.69: omega_ch[0,1,69] = 0
- omega_empty_port_dis.0.1.69: omega_dis[0,1,69] = 0
- ev_empty_port_energy.0.1.69: energy[0,1,69] = 0
- omega_empty_port_ch.0.2.69: omega_ch[0,2,69] = 0
- omega_empty_port_dis.0.2.69: omega_dis[0,2,69] = 0
- ev_empty_port_energy.0.2.69: energy[0,2,69] = 0
- omega_empty_port_ch.0.3.69: omega_ch[0,3,69] = 0
- omega_empty_port_dis.0.3.69: omega_dis[0,3,69] = 0
- ev_empty_port_energy.0.3.69: energy[0,3,69] = 0
- omega_empty_port_ch.0.4.69: omega_ch[0,4,69] = 0
- omega_empty_port_dis.0.4.69: omega_dis[0,4,69] = 0
- ev_empty_port_energy.0.4.69: energy[0,4,69] = 0
- omega_empty_port_ch.0.5.69: omega_ch[0,5,69] = 0
- omega_empty_port_dis.0.5.69: omega_dis[0,5,69] = 0
- ev_empty_port_energy.0.5.69: energy[0,5,69] = 0
- omega_empty_port_ch.0.6.69: omega_ch[0,6,69] = 0
- omega_empty_port_dis.0.6.69: omega_dis[0,6,69] = 0
- ev_empty_port_energy.0.6.69: energy[0,6,69] = 0
- omega_empty_port_ch.0.7.69: omega_ch[0,7,69] = 0
- omega_empty_port_dis.0.7.69: omega_dis[0,7,69] = 0
- ev_empty_port_energy.0.7.69: energy[0,7,69] = 0
- omega_empty_port_ch.0.8.69: omega_ch[0,8,69] = 0
- omega_empty_port_dis.0.8.69: omega_dis[0,8,69] = 0
- ev_empty_port_energy.0.8.69: energy[0,8,69] = 0
- omega_empty_port_ch.0.9.69: omega_ch[0,9,69] = 0
- omega_empty_port_dis.0.9.69: omega_dis[0,9,69] = 0
- ev_empty_port_energy.0.9.69: energy[0,9,69] = 0
- omega_empty_port_ch.0.10.69: omega_ch[0,10,69] = 0
- omega_empty_port_dis.0.10.69: omega_dis[0,10,69] = 0
- ev_empty_port_energy.0.10.69: energy[0,10,69] = 0
- omega_empty_port_ch.0.11.69: omega_ch[0,11,69] = 0
- omega_empty_port_dis.0.11.69: omega_dis[0,11,69] = 0
- ev_empty_port_energy.0.11.69: energy[0,11,69] = 0
- omega_empty_port_ch.0.12.69: omega_ch[0,12,69] = 0
- omega_empty_port_dis.0.12.69: omega_dis[0,12,69] = 0
- ev_empty_port_energy.0.12.69: energy[0,12,69] = 0
- omega_empty_port_ch.0.13.69: omega_ch[0,13,69] = 0
- omega_empty_port_dis.0.13.69: omega_dis[0,13,69] = 0
- ev_empty_port_energy.0.13.69: energy[0,13,69] = 0
- omega_empty_port_ch.0.14.69: omega_ch[0,14,69] = 0
- omega_empty_port_dis.0.14.69: omega_dis[0,14,69] = 0
- ev_empty_port_energy.0.14.69: energy[0,14,69] = 0
- omega_empty_port_ch.0.15.69: omega_ch[0,15,69] = 0
- omega_empty_port_dis.0.15.69: omega_dis[0,15,69] = 0
- ev_empty_port_energy.0.15.69: energy[0,15,69] = 0
- omega_empty_port_ch.0.16.69: omega_ch[0,16,69] = 0
- omega_empty_port_dis.0.16.69: omega_dis[0,16,69] = 0
- ev_empty_port_energy.0.16.69: energy[0,16,69] = 0
- omega_empty_port_ch.0.17.69: omega_ch[0,17,69] = 0
- omega_empty_port_dis.0.17.69: omega_dis[0,17,69] = 0
- ev_empty_port_energy.0.17.69: energy[0,17,69] = 0
- omega_empty_port_ch.0.18.69: omega_ch[0,18,69] = 0
- omega_empty_port_dis.0.18.69: omega_dis[0,18,69] = 0
- ev_empty_port_energy.0.18.69: energy[0,18,69] = 0
- omega_empty_port_ch.0.19.69: omega_ch[0,19,69] = 0
- omega_empty_port_dis.0.19.69: omega_dis[0,19,69] = 0
- ev_empty_port_energy.0.19.69: energy[0,19,69] = 0
- omega_empty_port_ch.0.20.69: omega_ch[0,20,69] = 0
- omega_empty_port_dis.0.20.69: omega_dis[0,20,69] = 0
- ev_empty_port_energy.0.20.69: energy[0,20,69] = 0
- omega_empty_port_ch.0.21.69: omega_ch[0,21,69] = 0
- omega_empty_port_dis.0.21.69: omega_dis[0,21,69] = 0
- ev_empty_port_energy.0.21.69: energy[0,21,69] = 0
- omega_empty_port_ch.0.22.69: omega_ch[0,22,69] = 0
- omega_empty_port_dis.0.22.69: omega_dis[0,22,69] = 0
- ev_empty_port_energy.0.22.69: energy[0,22,69] = 0
- omega_empty_port_ch.0.23.69: omega_ch[0,23,69] = 0
- omega_empty_port_dis.0.23.69: omega_dis[0,23,69] = 0
- ev_empty_port_energy.0.23.69: energy[0,23,69] = 0
- omega_empty_port_ch.0.24.69: omega_ch[0,24,69] = 0
- omega_empty_port_dis.0.24.69: omega_dis[0,24,69] = 0
- ev_empty_port_energy.0.24.69: energy[0,24,69] = 0
- omega_empty_port_ch.0.0.70: omega_ch[0,0,70] = 0
- omega_empty_port_dis.0.0.70: omega_dis[0,0,70] = 0
- ev_empty_port_energy.0.0.70: energy[0,0,70] = 0
- omega_empty_port_ch.0.1.70: omega_ch[0,1,70] = 0
- omega_empty_port_dis.0.1.70: omega_dis[0,1,70] = 0
- ev_empty_port_energy.0.1.70: energy[0,1,70] = 0
- omega_empty_port_ch.0.2.70: omega_ch[0,2,70] = 0
- omega_empty_port_dis.0.2.70: omega_dis[0,2,70] = 0
- ev_empty_port_energy.0.2.70: energy[0,2,70] = 0
- omega_empty_port_ch.0.3.70: omega_ch[0,3,70] = 0
- omega_empty_port_dis.0.3.70: omega_dis[0,3,70] = 0
- ev_empty_port_energy.0.3.70: energy[0,3,70] = 0
- omega_empty_port_ch.0.4.70: omega_ch[0,4,70] = 0
- omega_empty_port_dis.0.4.70: omega_dis[0,4,70] = 0
- ev_empty_port_energy.0.4.70: energy[0,4,70] = 0
- omega_empty_port_ch.0.5.70: omega_ch[0,5,70] = 0
- omega_empty_port_dis.0.5.70: omega_dis[0,5,70] = 0
- ev_empty_port_energy.0.5.70: energy[0,5,70] = 0
- omega_empty_port_ch.0.6.70: omega_ch[0,6,70] = 0
- omega_empty_port_dis.0.6.70: omega_dis[0,6,70] = 0
- ev_empty_port_energy.0.6.70: energy[0,6,70] = 0
- omega_empty_port_ch.0.7.70: omega_ch[0,7,70] = 0
- omega_empty_port_dis.0.7.70: omega_dis[0,7,70] = 0
- ev_empty_port_energy.0.7.70: energy[0,7,70] = 0
- omega_empty_port_ch.0.8.70: omega_ch[0,8,70] = 0
- omega_empty_port_dis.0.8.70: omega_dis[0,8,70] = 0
- ev_empty_port_energy.0.8.70: energy[0,8,70] = 0
- omega_empty_port_ch.0.9.70: omega_ch[0,9,70] = 0
- omega_empty_port_dis.0.9.70: omega_dis[0,9,70] = 0
- ev_empty_port_energy.0.9.70: energy[0,9,70] = 0
- omega_empty_port_ch.0.10.70: omega_ch[0,10,70] = 0
- omega_empty_port_dis.0.10.70: omega_dis[0,10,70] = 0
- ev_empty_port_energy.0.10.70: energy[0,10,70] = 0
- omega_empty_port_ch.0.11.70: omega_ch[0,11,70] = 0
- omega_empty_port_dis.0.11.70: omega_dis[0,11,70] = 0
- ev_empty_port_energy.0.11.70: energy[0,11,70] = 0
- omega_empty_port_ch.0.12.70: omega_ch[0,12,70] = 0
- omega_empty_port_dis.0.12.70: omega_dis[0,12,70] = 0
- ev_empty_port_energy.0.12.70: energy[0,12,70] = 0
- omega_empty_port_ch.0.13.70: omega_ch[0,13,70] = 0
- omega_empty_port_dis.0.13.70: omega_dis[0,13,70] = 0
- ev_empty_port_energy.0.13.70: energy[0,13,70] = 0
- omega_empty_port_ch.0.14.70: omega_ch[0,14,70] = 0
- omega_empty_port_dis.0.14.70: omega_dis[0,14,70] = 0
- ev_empty_port_energy.0.14.70: energy[0,14,70] = 0
- omega_empty_port_ch.0.15.70: omega_ch[0,15,70] = 0
- omega_empty_port_dis.0.15.70: omega_dis[0,15,70] = 0
- ev_empty_port_energy.0.15.70: energy[0,15,70] = 0
- omega_empty_port_ch.0.16.70: omega_ch[0,16,70] = 0
- omega_empty_port_dis.0.16.70: omega_dis[0,16,70] = 0
- ev_empty_port_energy.0.16.70: energy[0,16,70] = 0
- omega_empty_port_ch.0.17.70: omega_ch[0,17,70] = 0
- omega_empty_port_dis.0.17.70: omega_dis[0,17,70] = 0
- ev_empty_port_energy.0.17.70: energy[0,17,70] = 0
- omega_empty_port_ch.0.18.70: omega_ch[0,18,70] = 0
- omega_empty_port_dis.0.18.70: omega_dis[0,18,70] = 0
- ev_empty_port_energy.0.18.70: energy[0,18,70] = 0
- omega_empty_port_ch.0.19.70: omega_ch[0,19,70] = 0
- omega_empty_port_dis.0.19.70: omega_dis[0,19,70] = 0
- ev_empty_port_energy.0.19.70: energy[0,19,70] = 0
- omega_empty_port_ch.0.20.70: omega_ch[0,20,70] = 0
- omega_empty_port_dis.0.20.70: omega_dis[0,20,70] = 0
- ev_empty_port_energy.0.20.70: energy[0,20,70] = 0
- omega_empty_port_ch.0.21.70: omega_ch[0,21,70] = 0
- omega_empty_port_dis.0.21.70: omega_dis[0,21,70] = 0
- ev_empty_port_energy.0.21.70: energy[0,21,70] = 0
- omega_empty_port_ch.0.22.70: omega_ch[0,22,70] = 0
- omega_empty_port_dis.0.22.70: omega_dis[0,22,70] = 0
- ev_empty_port_energy.0.22.70: energy[0,22,70] = 0
- omega_empty_port_ch.0.23.70: omega_ch[0,23,70] = 0
- omega_empty_port_dis.0.23.70: omega_dis[0,23,70] = 0
- ev_empty_port_energy.0.23.70: energy[0,23,70] = 0
- omega_empty_port_ch.0.24.70: omega_ch[0,24,70] = 0
- omega_empty_port_dis.0.24.70: omega_dis[0,24,70] = 0
- ev_empty_port_energy.0.24.70: energy[0,24,70] = 0
- omega_empty_port_ch.0.0.71: omega_ch[0,0,71] = 0
- omega_empty_port_dis.0.0.71: omega_dis[0,0,71] = 0
- ev_empty_port_energy.0.0.71: energy[0,0,71] = 0
- omega_empty_port_ch.0.1.71: omega_ch[0,1,71] = 0
- omega_empty_port_dis.0.1.71: omega_dis[0,1,71] = 0
- ev_empty_port_energy.0.1.71: energy[0,1,71] = 0
- omega_empty_port_ch.0.2.71: omega_ch[0,2,71] = 0
- omega_empty_port_dis.0.2.71: omega_dis[0,2,71] = 0
- ev_empty_port_energy.0.2.71: energy[0,2,71] = 0
- omega_empty_port_ch.0.3.71: omega_ch[0,3,71] = 0
- omega_empty_port_dis.0.3.71: omega_dis[0,3,71] = 0
- ev_empty_port_energy.0.3.71: energy[0,3,71] = 0
- omega_empty_port_ch.0.4.71: omega_ch[0,4,71] = 0
- omega_empty_port_dis.0.4.71: omega_dis[0,4,71] = 0
- ev_empty_port_energy.0.4.71: energy[0,4,71] = 0
- omega_empty_port_ch.0.5.71: omega_ch[0,5,71] = 0
- omega_empty_port_dis.0.5.71: omega_dis[0,5,71] = 0
- ev_empty_port_energy.0.5.71: energy[0,5,71] = 0
- omega_empty_port_ch.0.6.71: omega_ch[0,6,71] = 0
- omega_empty_port_dis.0.6.71: omega_dis[0,6,71] = 0
- ev_empty_port_energy.0.6.71: energy[0,6,71] = 0
- omega_empty_port_ch.0.7.71: omega_ch[0,7,71] = 0
- omega_empty_port_dis.0.7.71: omega_dis[0,7,71] = 0
- ev_empty_port_energy.0.7.71: energy[0,7,71] = 0
- omega_empty_port_ch.0.8.71: omega_ch[0,8,71] = 0
- omega_empty_port_dis.0.8.71: omega_dis[0,8,71] = 0
- ev_empty_port_energy.0.8.71: energy[0,8,71] = 0
- omega_empty_port_ch.0.9.71: omega_ch[0,9,71] = 0
- omega_empty_port_dis.0.9.71: omega_dis[0,9,71] = 0
- ev_empty_port_energy.0.9.71: energy[0,9,71] = 0
- omega_empty_port_ch.0.10.71: omega_ch[0,10,71] = 0
- omega_empty_port_dis.0.10.71: omega_dis[0,10,71] = 0
- ev_empty_port_energy.0.10.71: energy[0,10,71] = 0
- omega_empty_port_ch.0.11.71: omega_ch[0,11,71] = 0
- omega_empty_port_dis.0.11.71: omega_dis[0,11,71] = 0
- ev_empty_port_energy.0.11.71: energy[0,11,71] = 0
- omega_empty_port_ch.0.12.71: omega_ch[0,12,71] = 0
- omega_empty_port_dis.0.12.71: omega_dis[0,12,71] = 0
- ev_empty_port_energy.0.12.71: energy[0,12,71] = 0
- omega_empty_port_ch.0.13.71: omega_ch[0,13,71] = 0
- omega_empty_port_dis.0.13.71: omega_dis[0,13,71] = 0
- ev_empty_port_energy.0.13.71: energy[0,13,71] = 0
- omega_empty_port_ch.0.14.71: omega_ch[0,14,71] = 0
- omega_empty_port_dis.0.14.71: omega_dis[0,14,71] = 0
- ev_empty_port_energy.0.14.71: energy[0,14,71] = 0
- omega_empty_port_ch.0.15.71: omega_ch[0,15,71] = 0
- omega_empty_port_dis.0.15.71: omega_dis[0,15,71] = 0
- ev_empty_port_energy.0.15.71: energy[0,15,71] = 0
- omega_empty_port_ch.0.16.71: omega_ch[0,16,71] = 0
- omega_empty_port_dis.0.16.71: omega_dis[0,16,71] = 0
- ev_empty_port_energy.0.16.71: energy[0,16,71] = 0
- omega_empty_port_ch.0.17.71: omega_ch[0,17,71] = 0
- omega_empty_port_dis.0.17.71: omega_dis[0,17,71] = 0
- ev_empty_port_energy.0.17.71: energy[0,17,71] = 0
- omega_empty_port_ch.0.18.71: omega_ch[0,18,71] = 0
- omega_empty_port_dis.0.18.71: omega_dis[0,18,71] = 0
- ev_empty_port_energy.0.18.71: energy[0,18,71] = 0
- omega_empty_port_ch.0.19.71: omega_ch[0,19,71] = 0
- omega_empty_port_dis.0.19.71: omega_dis[0,19,71] = 0
- ev_empty_port_energy.0.19.71: energy[0,19,71] = 0
- omega_empty_port_ch.0.20.71: omega_ch[0,20,71] = 0
- omega_empty_port_dis.0.20.71: omega_dis[0,20,71] = 0
- ev_empty_port_energy.0.20.71: energy[0,20,71] = 0
- omega_empty_port_ch.0.21.71: omega_ch[0,21,71] = 0
- omega_empty_port_dis.0.21.71: omega_dis[0,21,71] = 0
- ev_empty_port_energy.0.21.71: energy[0,21,71] = 0
- omega_empty_port_ch.0.22.71: omega_ch[0,22,71] = 0
- omega_empty_port_dis.0.22.71: omega_dis[0,22,71] = 0
- ev_empty_port_energy.0.22.71: energy[0,22,71] = 0
- omega_empty_port_ch.0.23.71: omega_ch[0,23,71] = 0
- omega_empty_port_dis.0.23.71: omega_dis[0,23,71] = 0
- ev_empty_port_energy.0.23.71: energy[0,23,71] = 0
- omega_empty_port_ch.0.24.71: omega_ch[0,24,71] = 0
- omega_empty_port_dis.0.24.71: omega_dis[0,24,71] = 0
- ev_empty_port_energy.0.24.71: energy[0,24,71] = 0
- omega_empty_port_ch.0.0.72: omega_ch[0,0,72] = 0
- omega_empty_port_dis.0.0.72: omega_dis[0,0,72] = 0
- ev_empty_port_energy.0.0.72: energy[0,0,72] = 0
- omega_empty_port_ch.0.1.72: omega_ch[0,1,72] = 0
- omega_empty_port_dis.0.1.72: omega_dis[0,1,72] = 0
- ev_empty_port_energy.0.1.72: energy[0,1,72] = 0
- omega_empty_port_ch.0.2.72: omega_ch[0,2,72] = 0
- omega_empty_port_dis.0.2.72: omega_dis[0,2,72] = 0
- ev_empty_port_energy.0.2.72: energy[0,2,72] = 0
- omega_empty_port_ch.0.3.72: omega_ch[0,3,72] = 0
- omega_empty_port_dis.0.3.72: omega_dis[0,3,72] = 0
- ev_empty_port_energy.0.3.72: energy[0,3,72] = 0
- omega_empty_port_ch.0.4.72: omega_ch[0,4,72] = 0
- omega_empty_port_dis.0.4.72: omega_dis[0,4,72] = 0
- ev_empty_port_energy.0.4.72: energy[0,4,72] = 0
- omega_empty_port_ch.0.5.72: omega_ch[0,5,72] = 0
- omega_empty_port_dis.0.5.72: omega_dis[0,5,72] = 0
- ev_empty_port_energy.0.5.72: energy[0,5,72] = 0
- omega_empty_port_ch.0.6.72: omega_ch[0,6,72] = 0
- omega_empty_port_dis.0.6.72: omega_dis[0,6,72] = 0
- ev_empty_port_energy.0.6.72: energy[0,6,72] = 0
- omega_empty_port_ch.0.7.72: omega_ch[0,7,72] = 0
- omega_empty_port_dis.0.7.72: omega_dis[0,7,72] = 0
- ev_empty_port_energy.0.7.72: energy[0,7,72] = 0
- omega_empty_port_ch.0.8.72: omega_ch[0,8,72] = 0
- omega_empty_port_dis.0.8.72: omega_dis[0,8,72] = 0
- ev_empty_port_energy.0.8.72: energy[0,8,72] = 0
- omega_empty_port_ch.0.9.72: omega_ch[0,9,72] = 0
- omega_empty_port_dis.0.9.72: omega_dis[0,9,72] = 0
- ev_empty_port_energy.0.9.72: energy[0,9,72] = 0
- omega_empty_port_ch.0.10.72: omega_ch[0,10,72] = 0
- omega_empty_port_dis.0.10.72: omega_dis[0,10,72] = 0
- ev_empty_port_energy.0.10.72: energy[0,10,72] = 0
- omega_empty_port_ch.0.11.72: omega_ch[0,11,72] = 0
- omega_empty_port_dis.0.11.72: omega_dis[0,11,72] = 0
- ev_empty_port_energy.0.11.72: energy[0,11,72] = 0
- omega_empty_port_ch.0.12.72: omega_ch[0,12,72] = 0
- omega_empty_port_dis.0.12.72: omega_dis[0,12,72] = 0
- ev_empty_port_energy.0.12.72: energy[0,12,72] = 0
- omega_empty_port_ch.0.13.72: omega_ch[0,13,72] = 0
- omega_empty_port_dis.0.13.72: omega_dis[0,13,72] = 0
- ev_empty_port_energy.0.13.72: energy[0,13,72] = 0
- omega_empty_port_ch.0.14.72: omega_ch[0,14,72] = 0
- omega_empty_port_dis.0.14.72: omega_dis[0,14,72] = 0
- ev_empty_port_energy.0.14.72: energy[0,14,72] = 0
- omega_empty_port_ch.0.15.72: omega_ch[0,15,72] = 0
- omega_empty_port_dis.0.15.72: omega_dis[0,15,72] = 0
- ev_empty_port_energy.0.15.72: energy[0,15,72] = 0
- omega_empty_port_ch.0.16.72: omega_ch[0,16,72] = 0
- omega_empty_port_dis.0.16.72: omega_dis[0,16,72] = 0
- ev_empty_port_energy.0.16.72: energy[0,16,72] = 0
- omega_empty_port_ch.0.17.72: omega_ch[0,17,72] = 0
- omega_empty_port_dis.0.17.72: omega_dis[0,17,72] = 0
- ev_empty_port_energy.0.17.72: energy[0,17,72] = 0
- omega_empty_port_ch.0.18.72: omega_ch[0,18,72] = 0
- omega_empty_port_dis.0.18.72: omega_dis[0,18,72] = 0
- ev_empty_port_energy.0.18.72: energy[0,18,72] = 0
- omega_empty_port_ch.0.19.72: omega_ch[0,19,72] = 0
- omega_empty_port_dis.0.19.72: omega_dis[0,19,72] = 0
- ev_empty_port_energy.0.19.72: energy[0,19,72] = 0
- omega_empty_port_ch.0.20.72: omega_ch[0,20,72] = 0
- omega_empty_port_dis.0.20.72: omega_dis[0,20,72] = 0
- ev_empty_port_energy.0.20.72: energy[0,20,72] = 0
- omega_empty_port_ch.0.21.72: omega_ch[0,21,72] = 0
- omega_empty_port_dis.0.21.72: omega_dis[0,21,72] = 0
- ev_empty_port_energy.0.21.72: energy[0,21,72] = 0
- omega_empty_port_ch.0.22.72: omega_ch[0,22,72] = 0
- omega_empty_port_dis.0.22.72: omega_dis[0,22,72] = 0
- ev_empty_port_energy.0.22.72: energy[0,22,72] = 0
- omega_empty_port_ch.0.23.72: omega_ch[0,23,72] = 0
- omega_empty_port_dis.0.23.72: omega_dis[0,23,72] = 0
- ev_empty_port_energy.0.23.72: energy[0,23,72] = 0
- omega_empty_port_ch.0.24.72: omega_ch[0,24,72] = 0
- omega_empty_port_dis.0.24.72: omega_dis[0,24,72] = 0
- ev_empty_port_energy.0.24.72: energy[0,24,72] = 0
- omega_empty_port_ch.0.0.73: omega_ch[0,0,73] = 0
- omega_empty_port_dis.0.0.73: omega_dis[0,0,73] = 0
- ev_empty_port_energy.0.0.73: energy[0,0,73] = 0
- omega_empty_port_ch.0.1.73: omega_ch[0,1,73] = 0
- omega_empty_port_dis.0.1.73: omega_dis[0,1,73] = 0
- ev_empty_port_energy.0.1.73: energy[0,1,73] = 0
- omega_empty_port_ch.0.2.73: omega_ch[0,2,73] = 0
- omega_empty_port_dis.0.2.73: omega_dis[0,2,73] = 0
- ev_empty_port_energy.0.2.73: energy[0,2,73] = 0
- omega_empty_port_ch.0.3.73: omega_ch[0,3,73] = 0
- omega_empty_port_dis.0.3.73: omega_dis[0,3,73] = 0
- ev_empty_port_energy.0.3.73: energy[0,3,73] = 0
- omega_empty_port_ch.0.4.73: omega_ch[0,4,73] = 0
- omega_empty_port_dis.0.4.73: omega_dis[0,4,73] = 0
- ev_empty_port_energy.0.4.73: energy[0,4,73] = 0
- omega_empty_port_ch.0.5.73: omega_ch[0,5,73] = 0
- omega_empty_port_dis.0.5.73: omega_dis[0,5,73] = 0
- ev_empty_port_energy.0.5.73: energy[0,5,73] = 0
- omega_empty_port_ch.0.6.73: omega_ch[0,6,73] = 0
- omega_empty_port_dis.0.6.73: omega_dis[0,6,73] = 0
- ev_empty_port_energy.0.6.73: energy[0,6,73] = 0
- omega_empty_port_ch.0.7.73: omega_ch[0,7,73] = 0
- omega_empty_port_dis.0.7.73: omega_dis[0,7,73] = 0
- ev_empty_port_energy.0.7.73: energy[0,7,73] = 0
- omega_empty_port_ch.0.8.73: omega_ch[0,8,73] = 0
- omega_empty_port_dis.0.8.73: omega_dis[0,8,73] = 0
- ev_empty_port_energy.0.8.73: energy[0,8,73] = 0
- omega_empty_port_ch.0.9.73: omega_ch[0,9,73] = 0
- omega_empty_port_dis.0.9.73: omega_dis[0,9,73] = 0
- ev_empty_port_energy.0.9.73: energy[0,9,73] = 0
- omega_empty_port_ch.0.10.73: omega_ch[0,10,73] = 0
- omega_empty_port_dis.0.10.73: omega_dis[0,10,73] = 0
- ev_empty_port_energy.0.10.73: energy[0,10,73] = 0
- omega_empty_port_ch.0.11.73: omega_ch[0,11,73] = 0
- omega_empty_port_dis.0.11.73: omega_dis[0,11,73] = 0
- ev_empty_port_energy.0.11.73: energy[0,11,73] = 0
- omega_empty_port_ch.0.12.73: omega_ch[0,12,73] = 0
- omega_empty_port_dis.0.12.73: omega_dis[0,12,73] = 0
- ev_empty_port_energy.0.12.73: energy[0,12,73] = 0
- omega_empty_port_ch.0.13.73: omega_ch[0,13,73] = 0
- omega_empty_port_dis.0.13.73: omega_dis[0,13,73] = 0
- ev_empty_port_energy.0.13.73: energy[0,13,73] = 0
- omega_empty_port_ch.0.14.73: omega_ch[0,14,73] = 0
- omega_empty_port_dis.0.14.73: omega_dis[0,14,73] = 0
- ev_empty_port_energy.0.14.73: energy[0,14,73] = 0
- omega_empty_port_ch.0.15.73: omega_ch[0,15,73] = 0
- omega_empty_port_dis.0.15.73: omega_dis[0,15,73] = 0
- ev_empty_port_energy.0.15.73: energy[0,15,73] = 0
- omega_empty_port_ch.0.16.73: omega_ch[0,16,73] = 0
- omega_empty_port_dis.0.16.73: omega_dis[0,16,73] = 0
- ev_empty_port_energy.0.16.73: energy[0,16,73] = 0
- omega_empty_port_ch.0.17.73: omega_ch[0,17,73] = 0
- omega_empty_port_dis.0.17.73: omega_dis[0,17,73] = 0
- ev_empty_port_energy.0.17.73: energy[0,17,73] = 0
- omega_empty_port_ch.0.18.73: omega_ch[0,18,73] = 0
- omega_empty_port_dis.0.18.73: omega_dis[0,18,73] = 0
- ev_empty_port_energy.0.18.73: energy[0,18,73] = 0
- omega_empty_port_ch.0.19.73: omega_ch[0,19,73] = 0
- omega_empty_port_dis.0.19.73: omega_dis[0,19,73] = 0
- ev_empty_port_energy.0.19.73: energy[0,19,73] = 0
- omega_empty_port_ch.0.20.73: omega_ch[0,20,73] = 0
- omega_empty_port_dis.0.20.73: omega_dis[0,20,73] = 0
- ev_empty_port_energy.0.20.73: energy[0,20,73] = 0
- omega_empty_port_ch.0.21.73: omega_ch[0,21,73] = 0
- omega_empty_port_dis.0.21.73: omega_dis[0,21,73] = 0
- ev_empty_port_energy.0.21.73: energy[0,21,73] = 0
- omega_empty_port_ch.0.22.73: omega_ch[0,22,73] = 0
- omega_empty_port_dis.0.22.73: omega_dis[0,22,73] = 0
- ev_empty_port_energy.0.22.73: energy[0,22,73] = 0
- omega_empty_port_ch.0.23.73: omega_ch[0,23,73] = 0
- omega_empty_port_dis.0.23.73: omega_dis[0,23,73] = 0
- ev_empty_port_energy.0.23.73: energy[0,23,73] = 0
- omega_empty_port_ch.0.24.73: omega_ch[0,24,73] = 0
- omega_empty_port_dis.0.24.73: omega_dis[0,24,73] = 0
- ev_empty_port_energy.0.24.73: energy[0,24,73] = 0
- omega_empty_port_ch.0.0.74: omega_ch[0,0,74] = 0
- omega_empty_port_dis.0.0.74: omega_dis[0,0,74] = 0
- ev_empty_port_energy.0.0.74: energy[0,0,74] = 0
- omega_empty_port_ch.0.1.74: omega_ch[0,1,74] = 0
- omega_empty_port_dis.0.1.74: omega_dis[0,1,74] = 0
- ev_empty_port_energy.0.1.74: energy[0,1,74] = 0
- omega_empty_port_ch.0.2.74: omega_ch[0,2,74] = 0
- omega_empty_port_dis.0.2.74: omega_dis[0,2,74] = 0
- ev_empty_port_energy.0.2.74: energy[0,2,74] = 0
- omega_empty_port_ch.0.3.74: omega_ch[0,3,74] = 0
- omega_empty_port_dis.0.3.74: omega_dis[0,3,74] = 0
- ev_empty_port_energy.0.3.74: energy[0,3,74] = 0
- omega_empty_port_ch.0.4.74: omega_ch[0,4,74] = 0
- omega_empty_port_dis.0.4.74: omega_dis[0,4,74] = 0
- ev_empty_port_energy.0.4.74: energy[0,4,74] = 0
- omega_empty_port_ch.0.5.74: omega_ch[0,5,74] = 0
- omega_empty_port_dis.0.5.74: omega_dis[0,5,74] = 0
- ev_empty_port_energy.0.5.74: energy[0,5,74] = 0
- omega_empty_port_ch.0.6.74: omega_ch[0,6,74] = 0
- omega_empty_port_dis.0.6.74: omega_dis[0,6,74] = 0
- ev_empty_port_energy.0.6.74: energy[0,6,74] = 0
- omega_empty_port_ch.0.7.74: omega_ch[0,7,74] = 0
- omega_empty_port_dis.0.7.74: omega_dis[0,7,74] = 0
- ev_empty_port_energy.0.7.74: energy[0,7,74] = 0
- omega_empty_port_ch.0.8.74: omega_ch[0,8,74] = 0
- omega_empty_port_dis.0.8.74: omega_dis[0,8,74] = 0
- ev_empty_port_energy.0.8.74: energy[0,8,74] = 0
- omega_empty_port_ch.0.9.74: omega_ch[0,9,74] = 0
- omega_empty_port_dis.0.9.74: omega_dis[0,9,74] = 0
- ev_empty_port_energy.0.9.74: energy[0,9,74] = 0
- omega_empty_port_ch.0.10.74: omega_ch[0,10,74] = 0
- omega_empty_port_dis.0.10.74: omega_dis[0,10,74] = 0
- ev_empty_port_energy.0.10.74: energy[0,10,74] = 0
- omega_empty_port_ch.0.11.74: omega_ch[0,11,74] = 0
- omega_empty_port_dis.0.11.74: omega_dis[0,11,74] = 0
- ev_empty_port_energy.0.11.74: energy[0,11,74] = 0
- omega_empty_port_ch.0.12.74: omega_ch[0,12,74] = 0
- omega_empty_port_dis.0.12.74: omega_dis[0,12,74] = 0
- ev_empty_port_energy.0.12.74: energy[0,12,74] = 0
- omega_empty_port_ch.0.13.74: omega_ch[0,13,74] = 0
- omega_empty_port_dis.0.13.74: omega_dis[0,13,74] = 0
- ev_empty_port_energy.0.13.74: energy[0,13,74] = 0
- omega_empty_port_ch.0.14.74: omega_ch[0,14,74] = 0
- omega_empty_port_dis.0.14.74: omega_dis[0,14,74] = 0
- ev_empty_port_energy.0.14.74: energy[0,14,74] = 0
- omega_empty_port_ch.0.15.74: omega_ch[0,15,74] = 0
- omega_empty_port_dis.0.15.74: omega_dis[0,15,74] = 0
- ev_empty_port_energy.0.15.74: energy[0,15,74] = 0
- omega_empty_port_ch.0.16.74: omega_ch[0,16,74] = 0
- omega_empty_port_dis.0.16.74: omega_dis[0,16,74] = 0
- ev_empty_port_energy.0.16.74: energy[0,16,74] = 0
- omega_empty_port_ch.0.17.74: omega_ch[0,17,74] = 0
- omega_empty_port_dis.0.17.74: omega_dis[0,17,74] = 0
- ev_empty_port_energy.0.17.74: energy[0,17,74] = 0
- omega_empty_port_ch.0.18.74: omega_ch[0,18,74] = 0
- omega_empty_port_dis.0.18.74: omega_dis[0,18,74] = 0
- ev_empty_port_energy.0.18.74: energy[0,18,74] = 0
- omega_empty_port_ch.0.19.74: omega_ch[0,19,74] = 0
- omega_empty_port_dis.0.19.74: omega_dis[0,19,74] = 0
- ev_empty_port_energy.0.19.74: energy[0,19,74] = 0
- omega_empty_port_ch.0.20.74: omega_ch[0,20,74] = 0
- omega_empty_port_dis.0.20.74: omega_dis[0,20,74] = 0
- ev_empty_port_energy.0.20.74: energy[0,20,74] = 0
- omega_empty_port_ch.0.21.74: omega_ch[0,21,74] = 0
- omega_empty_port_dis.0.21.74: omega_dis[0,21,74] = 0
- ev_empty_port_energy.0.21.74: energy[0,21,74] = 0
- omega_empty_port_ch.0.22.74: omega_ch[0,22,74] = 0
- omega_empty_port_dis.0.22.74: omega_dis[0,22,74] = 0
- ev_empty_port_energy.0.22.74: energy[0,22,74] = 0
- omega_empty_port_ch.0.23.74: omega_ch[0,23,74] = 0
- omega_empty_port_dis.0.23.74: omega_dis[0,23,74] = 0
- ev_empty_port_energy.0.23.74: energy[0,23,74] = 0
- omega_empty_port_ch.0.24.74: omega_ch[0,24,74] = 0
- omega_empty_port_dis.0.24.74: omega_dis[0,24,74] = 0
- ev_empty_port_energy.0.24.74: energy[0,24,74] = 0
- omega_empty_port_ch.0.0.75: omega_ch[0,0,75] = 0
- omega_empty_port_dis.0.0.75: omega_dis[0,0,75] = 0
- ev_empty_port_energy.0.0.75: energy[0,0,75] = 0
- omega_empty_port_ch.0.1.75: omega_ch[0,1,75] = 0
- omega_empty_port_dis.0.1.75: omega_dis[0,1,75] = 0
- ev_empty_port_energy.0.1.75: energy[0,1,75] = 0
- omega_empty_port_ch.0.2.75: omega_ch[0,2,75] = 0
- omega_empty_port_dis.0.2.75: omega_dis[0,2,75] = 0
- ev_empty_port_energy.0.2.75: energy[0,2,75] = 0
- omega_empty_port_ch.0.3.75: omega_ch[0,3,75] = 0
- omega_empty_port_dis.0.3.75: omega_dis[0,3,75] = 0
- ev_empty_port_energy.0.3.75: energy[0,3,75] = 0
- omega_empty_port_ch.0.4.75: omega_ch[0,4,75] = 0
- omega_empty_port_dis.0.4.75: omega_dis[0,4,75] = 0
- ev_empty_port_energy.0.4.75: energy[0,4,75] = 0
- omega_empty_port_ch.0.5.75: omega_ch[0,5,75] = 0
- omega_empty_port_dis.0.5.75: omega_dis[0,5,75] = 0
- ev_empty_port_energy.0.5.75: energy[0,5,75] = 0
- omega_empty_port_ch.0.6.75: omega_ch[0,6,75] = 0
- omega_empty_port_dis.0.6.75: omega_dis[0,6,75] = 0
- ev_empty_port_energy.0.6.75: energy[0,6,75] = 0
- omega_empty_port_ch.0.7.75: omega_ch[0,7,75] = 0
- omega_empty_port_dis.0.7.75: omega_dis[0,7,75] = 0
- ev_empty_port_energy.0.7.75: energy[0,7,75] = 0
- omega_empty_port_ch.0.8.75: omega_ch[0,8,75] = 0
- omega_empty_port_dis.0.8.75: omega_dis[0,8,75] = 0
- ev_empty_port_energy.0.8.75: energy[0,8,75] = 0
- omega_empty_port_ch.0.9.75: omega_ch[0,9,75] = 0
- omega_empty_port_dis.0.9.75: omega_dis[0,9,75] = 0
- ev_empty_port_energy.0.9.75: energy[0,9,75] = 0
- omega_empty_port_ch.0.10.75: omega_ch[0,10,75] = 0
- omega_empty_port_dis.0.10.75: omega_dis[0,10,75] = 0
- ev_empty_port_energy.0.10.75: energy[0,10,75] = 0
- omega_empty_port_ch.0.11.75: omega_ch[0,11,75] = 0
- omega_empty_port_dis.0.11.75: omega_dis[0,11,75] = 0
- ev_empty_port_energy.0.11.75: energy[0,11,75] = 0
- omega_empty_port_ch.0.12.75: omega_ch[0,12,75] = 0
- omega_empty_port_dis.0.12.75: omega_dis[0,12,75] = 0
- ev_empty_port_energy.0.12.75: energy[0,12,75] = 0
- omega_empty_port_ch.0.13.75: omega_ch[0,13,75] = 0
- omega_empty_port_dis.0.13.75: omega_dis[0,13,75] = 0
- ev_empty_port_energy.0.13.75: energy[0,13,75] = 0
- omega_empty_port_ch.0.14.75: omega_ch[0,14,75] = 0
- omega_empty_port_dis.0.14.75: omega_dis[0,14,75] = 0
- ev_empty_port_energy.0.14.75: energy[0,14,75] = 0
- omega_empty_port_ch.0.15.75: omega_ch[0,15,75] = 0
- omega_empty_port_dis.0.15.75: omega_dis[0,15,75] = 0
- ev_empty_port_energy.0.15.75: energy[0,15,75] = 0
- omega_empty_port_ch.0.16.75: omega_ch[0,16,75] = 0
- omega_empty_port_dis.0.16.75: omega_dis[0,16,75] = 0
- ev_empty_port_energy.0.16.75: energy[0,16,75] = 0
- omega_empty_port_ch.0.17.75: omega_ch[0,17,75] = 0
- omega_empty_port_dis.0.17.75: omega_dis[0,17,75] = 0
- ev_empty_port_energy.0.17.75: energy[0,17,75] = 0
- omega_empty_port_ch.0.18.75: omega_ch[0,18,75] = 0
- omega_empty_port_dis.0.18.75: omega_dis[0,18,75] = 0
- ev_empty_port_energy.0.18.75: energy[0,18,75] = 0
- omega_empty_port_ch.0.19.75: omega_ch[0,19,75] = 0
- omega_empty_port_dis.0.19.75: omega_dis[0,19,75] = 0
- ev_empty_port_energy.0.19.75: energy[0,19,75] = 0
- omega_empty_port_ch.0.20.75: omega_ch[0,20,75] = 0
- omega_empty_port_dis.0.20.75: omega_dis[0,20,75] = 0
- ev_empty_port_energy.0.20.75: energy[0,20,75] = 0
- omega_empty_port_ch.0.21.75: omega_ch[0,21,75] = 0
- omega_empty_port_dis.0.21.75: omega_dis[0,21,75] = 0
- ev_empty_port_energy.0.21.75: energy[0,21,75] = 0
- omega_empty_port_ch.0.22.75: omega_ch[0,22,75] = 0
- omega_empty_port_dis.0.22.75: omega_dis[0,22,75] = 0
- ev_empty_port_energy.0.22.75: energy[0,22,75] = 0
- omega_empty_port_ch.0.23.75: omega_ch[0,23,75] = 0
- omega_empty_port_dis.0.23.75: omega_dis[0,23,75] = 0
- ev_empty_port_energy.0.23.75: energy[0,23,75] = 0
- omega_empty_port_ch.0.24.75: omega_ch[0,24,75] = 0
- omega_empty_port_dis.0.24.75: omega_dis[0,24,75] = 0
- ev_empty_port_energy.0.24.75: energy[0,24,75] = 0
- omega_empty_port_ch.0.0.76: omega_ch[0,0,76] = 0
- omega_empty_port_dis.0.0.76: omega_dis[0,0,76] = 0
- ev_empty_port_energy.0.0.76: energy[0,0,76] = 0
- omega_empty_port_ch.0.1.76: omega_ch[0,1,76] = 0
- omega_empty_port_dis.0.1.76: omega_dis[0,1,76] = 0
- ev_empty_port_energy.0.1.76: energy[0,1,76] = 0
- omega_empty_port_ch.0.2.76: omega_ch[0,2,76] = 0
- omega_empty_port_dis.0.2.76: omega_dis[0,2,76] = 0
- ev_empty_port_energy.0.2.76: energy[0,2,76] = 0
- omega_empty_port_ch.0.3.76: omega_ch[0,3,76] = 0
- omega_empty_port_dis.0.3.76: omega_dis[0,3,76] = 0
- ev_empty_port_energy.0.3.76: energy[0,3,76] = 0
- omega_empty_port_ch.0.4.76: omega_ch[0,4,76] = 0
- omega_empty_port_dis.0.4.76: omega_dis[0,4,76] = 0
- ev_empty_port_energy.0.4.76: energy[0,4,76] = 0
- omega_empty_port_ch.0.5.76: omega_ch[0,5,76] = 0
- omega_empty_port_dis.0.5.76: omega_dis[0,5,76] = 0
- ev_empty_port_energy.0.5.76: energy[0,5,76] = 0
- omega_empty_port_ch.0.6.76: omega_ch[0,6,76] = 0
- omega_empty_port_dis.0.6.76: omega_dis[0,6,76] = 0
- ev_empty_port_energy.0.6.76: energy[0,6,76] = 0
- omega_empty_port_ch.0.7.76: omega_ch[0,7,76] = 0
- omega_empty_port_dis.0.7.76: omega_dis[0,7,76] = 0
- ev_empty_port_energy.0.7.76: energy[0,7,76] = 0
- omega_empty_port_ch.0.8.76: omega_ch[0,8,76] = 0
- omega_empty_port_dis.0.8.76: omega_dis[0,8,76] = 0
- ev_empty_port_energy.0.8.76: energy[0,8,76] = 0
- omega_empty_port_ch.0.9.76: omega_ch[0,9,76] = 0
- omega_empty_port_dis.0.9.76: omega_dis[0,9,76] = 0
- ev_empty_port_energy.0.9.76: energy[0,9,76] = 0
- omega_empty_port_ch.0.10.76: omega_ch[0,10,76] = 0
- omega_empty_port_dis.0.10.76: omega_dis[0,10,76] = 0
- ev_empty_port_energy.0.10.76: energy[0,10,76] = 0
- omega_empty_port_ch.0.11.76: omega_ch[0,11,76] = 0
- omega_empty_port_dis.0.11.76: omega_dis[0,11,76] = 0
- ev_empty_port_energy.0.11.76: energy[0,11,76] = 0
- omega_empty_port_ch.0.12.76: omega_ch[0,12,76] = 0
- omega_empty_port_dis.0.12.76: omega_dis[0,12,76] = 0
- ev_empty_port_energy.0.12.76: energy[0,12,76] = 0
- omega_empty_port_ch.0.13.76: omega_ch[0,13,76] = 0
- omega_empty_port_dis.0.13.76: omega_dis[0,13,76] = 0
- ev_empty_port_energy.0.13.76: energy[0,13,76] = 0
- omega_empty_port_ch.0.14.76: omega_ch[0,14,76] = 0
- omega_empty_port_dis.0.14.76: omega_dis[0,14,76] = 0
- ev_empty_port_energy.0.14.76: energy[0,14,76] = 0
- omega_empty_port_ch.0.15.76: omega_ch[0,15,76] = 0
- omega_empty_port_dis.0.15.76: omega_dis[0,15,76] = 0
- ev_empty_port_energy.0.15.76: energy[0,15,76] = 0
- omega_empty_port_ch.0.16.76: omega_ch[0,16,76] = 0
- omega_empty_port_dis.0.16.76: omega_dis[0,16,76] = 0
- ev_empty_port_energy.0.16.76: energy[0,16,76] = 0
- omega_empty_port_ch.0.17.76: omega_ch[0,17,76] = 0
- omega_empty_port_dis.0.17.76: omega_dis[0,17,76] = 0
- ev_empty_port_energy.0.17.76: energy[0,17,76] = 0
- omega_empty_port_ch.0.18.76: omega_ch[0,18,76] = 0
- omega_empty_port_dis.0.18.76: omega_dis[0,18,76] = 0
- ev_empty_port_energy.0.18.76: energy[0,18,76] = 0
- omega_empty_port_ch.0.19.76: omega_ch[0,19,76] = 0
- omega_empty_port_dis.0.19.76: omega_dis[0,19,76] = 0
- ev_empty_port_energy.0.19.76: energy[0,19,76] = 0
- omega_empty_port_ch.0.20.76: omega_ch[0,20,76] = 0
- omega_empty_port_dis.0.20.76: omega_dis[0,20,76] = 0
- ev_empty_port_energy.0.20.76: energy[0,20,76] = 0
- omega_empty_port_ch.0.21.76: omega_ch[0,21,76] = 0
- omega_empty_port_dis.0.21.76: omega_dis[0,21,76] = 0
- ev_empty_port_energy.0.21.76: energy[0,21,76] = 0
- omega_empty_port_ch.0.22.76: omega_ch[0,22,76] = 0
- omega_empty_port_dis.0.22.76: omega_dis[0,22,76] = 0
- ev_empty_port_energy.0.22.76: energy[0,22,76] = 0
- omega_empty_port_ch.0.23.76: omega_ch[0,23,76] = 0
- omega_empty_port_dis.0.23.76: omega_dis[0,23,76] = 0
- ev_empty_port_energy.0.23.76: energy[0,23,76] = 0
- omega_empty_port_ch.0.24.76: omega_ch[0,24,76] = 0
- omega_empty_port_dis.0.24.76: omega_dis[0,24,76] = 0
- ev_empty_port_energy.0.24.76: energy[0,24,76] = 0
- omega_empty_port_ch.0.0.77: omega_ch[0,0,77] = 0
- omega_empty_port_dis.0.0.77: omega_dis[0,0,77] = 0
- ev_empty_port_energy.0.0.77: energy[0,0,77] = 0
- omega_empty_port_ch.0.1.77: omega_ch[0,1,77] = 0
- omega_empty_port_dis.0.1.77: omega_dis[0,1,77] = 0
- ev_empty_port_energy.0.1.77: energy[0,1,77] = 0
- omega_empty_port_ch.0.2.77: omega_ch[0,2,77] = 0
- omega_empty_port_dis.0.2.77: omega_dis[0,2,77] = 0
- ev_empty_port_energy.0.2.77: energy[0,2,77] = 0
- omega_empty_port_ch.0.3.77: omega_ch[0,3,77] = 0
- omega_empty_port_dis.0.3.77: omega_dis[0,3,77] = 0
- ev_empty_port_energy.0.3.77: energy[0,3,77] = 0
- omega_empty_port_ch.0.4.77: omega_ch[0,4,77] = 0
- omega_empty_port_dis.0.4.77: omega_dis[0,4,77] = 0
- ev_empty_port_energy.0.4.77: energy[0,4,77] = 0
- omega_empty_port_ch.0.5.77: omega_ch[0,5,77] = 0
- omega_empty_port_dis.0.5.77: omega_dis[0,5,77] = 0
- ev_empty_port_energy.0.5.77: energy[0,5,77] = 0
- omega_empty_port_ch.0.6.77: omega_ch[0,6,77] = 0
- omega_empty_port_dis.0.6.77: omega_dis[0,6,77] = 0
- ev_empty_port_energy.0.6.77: energy[0,6,77] = 0
- omega_empty_port_ch.0.7.77: omega_ch[0,7,77] = 0
- omega_empty_port_dis.0.7.77: omega_dis[0,7,77] = 0
- ev_empty_port_energy.0.7.77: energy[0,7,77] = 0
- omega_empty_port_ch.0.8.77: omega_ch[0,8,77] = 0
- omega_empty_port_dis.0.8.77: omega_dis[0,8,77] = 0
- ev_empty_port_energy.0.8.77: energy[0,8,77] = 0
- omega_empty_port_ch.0.9.77: omega_ch[0,9,77] = 0
- omega_empty_port_dis.0.9.77: omega_dis[0,9,77] = 0
- ev_empty_port_energy.0.9.77: energy[0,9,77] = 0
- omega_empty_port_ch.0.10.77: omega_ch[0,10,77] = 0
- omega_empty_port_dis.0.10.77: omega_dis[0,10,77] = 0
- ev_empty_port_energy.0.10.77: energy[0,10,77] = 0
- omega_empty_port_ch.0.11.77: omega_ch[0,11,77] = 0
- omega_empty_port_dis.0.11.77: omega_dis[0,11,77] = 0
- ev_empty_port_energy.0.11.77: energy[0,11,77] = 0
- omega_empty_port_ch.0.12.77: omega_ch[0,12,77] = 0
- omega_empty_port_dis.0.12.77: omega_dis[0,12,77] = 0
- ev_empty_port_energy.0.12.77: energy[0,12,77] = 0
- omega_empty_port_ch.0.13.77: omega_ch[0,13,77] = 0
- omega_empty_port_dis.0.13.77: omega_dis[0,13,77] = 0
- ev_empty_port_energy.0.13.77: energy[0,13,77] = 0
- omega_empty_port_ch.0.14.77: omega_ch[0,14,77] = 0
- omega_empty_port_dis.0.14.77: omega_dis[0,14,77] = 0
- ev_empty_port_energy.0.14.77: energy[0,14,77] = 0
- omega_empty_port_ch.0.15.77: omega_ch[0,15,77] = 0
- omega_empty_port_dis.0.15.77: omega_dis[0,15,77] = 0
- ev_empty_port_energy.0.15.77: energy[0,15,77] = 0
- omega_empty_port_ch.0.16.77: omega_ch[0,16,77] = 0
- omega_empty_port_dis.0.16.77: omega_dis[0,16,77] = 0
- ev_empty_port_energy.0.16.77: energy[0,16,77] = 0
- omega_empty_port_ch.0.17.77: omega_ch[0,17,77] = 0
- omega_empty_port_dis.0.17.77: omega_dis[0,17,77] = 0
- ev_empty_port_energy.0.17.77: energy[0,17,77] = 0
- omega_empty_port_ch.0.18.77: omega_ch[0,18,77] = 0
- omega_empty_port_dis.0.18.77: omega_dis[0,18,77] = 0
- ev_empty_port_energy.0.18.77: energy[0,18,77] = 0
- omega_empty_port_ch.0.19.77: omega_ch[0,19,77] = 0
- omega_empty_port_dis.0.19.77: omega_dis[0,19,77] = 0
- ev_empty_port_energy.0.19.77: energy[0,19,77] = 0
- omega_empty_port_ch.0.20.77: omega_ch[0,20,77] = 0
- omega_empty_port_dis.0.20.77: omega_dis[0,20,77] = 0
- ev_empty_port_energy.0.20.77: energy[0,20,77] = 0
- omega_empty_port_ch.0.21.77: omega_ch[0,21,77] = 0
- omega_empty_port_dis.0.21.77: omega_dis[0,21,77] = 0
- ev_empty_port_energy.0.21.77: energy[0,21,77] = 0
- omega_empty_port_ch.0.22.77: omega_ch[0,22,77] = 0
- omega_empty_port_dis.0.22.77: omega_dis[0,22,77] = 0
- ev_empty_port_energy.0.22.77: energy[0,22,77] = 0
- omega_empty_port_ch.0.23.77: omega_ch[0,23,77] = 0
- omega_empty_port_dis.0.23.77: omega_dis[0,23,77] = 0
- ev_empty_port_energy.0.23.77: energy[0,23,77] = 0
- omega_empty_port_ch.0.24.77: omega_ch[0,24,77] = 0
- omega_empty_port_dis.0.24.77: omega_dis[0,24,77] = 0
- ev_empty_port_energy.0.24.77: energy[0,24,77] = 0
- omega_empty_port_ch.0.0.78: omega_ch[0,0,78] = 0
- omega_empty_port_dis.0.0.78: omega_dis[0,0,78] = 0
- ev_empty_port_energy.0.0.78: energy[0,0,78] = 0
- omega_empty_port_ch.0.1.78: omega_ch[0,1,78] = 0
- omega_empty_port_dis.0.1.78: omega_dis[0,1,78] = 0
- ev_empty_port_energy.0.1.78: energy[0,1,78] = 0
- omega_empty_port_ch.0.2.78: omega_ch[0,2,78] = 0
- omega_empty_port_dis.0.2.78: omega_dis[0,2,78] = 0
- ev_empty_port_energy.0.2.78: energy[0,2,78] = 0
- omega_empty_port_ch.0.3.78: omega_ch[0,3,78] = 0
- omega_empty_port_dis.0.3.78: omega_dis[0,3,78] = 0
- ev_empty_port_energy.0.3.78: energy[0,3,78] = 0
- omega_empty_port_ch.0.4.78: omega_ch[0,4,78] = 0
- omega_empty_port_dis.0.4.78: omega_dis[0,4,78] = 0
- ev_empty_port_energy.0.4.78: energy[0,4,78] = 0
- omega_empty_port_ch.0.5.78: omega_ch[0,5,78] = 0
- omega_empty_port_dis.0.5.78: omega_dis[0,5,78] = 0
- ev_empty_port_energy.0.5.78: energy[0,5,78] = 0
- omega_empty_port_ch.0.6.78: omega_ch[0,6,78] = 0
- omega_empty_port_dis.0.6.78: omega_dis[0,6,78] = 0
- ev_empty_port_energy.0.6.78: energy[0,6,78] = 0
- omega_empty_port_ch.0.7.78: omega_ch[0,7,78] = 0
- omega_empty_port_dis.0.7.78: omega_dis[0,7,78] = 0
- ev_empty_port_energy.0.7.78: energy[0,7,78] = 0
- omega_empty_port_ch.0.8.78: omega_ch[0,8,78] = 0
- omega_empty_port_dis.0.8.78: omega_dis[0,8,78] = 0
- ev_empty_port_energy.0.8.78: energy[0,8,78] = 0
- omega_empty_port_ch.0.9.78: omega_ch[0,9,78] = 0
- omega_empty_port_dis.0.9.78: omega_dis[0,9,78] = 0
- ev_empty_port_energy.0.9.78: energy[0,9,78] = 0
- omega_empty_port_ch.0.10.78: omega_ch[0,10,78] = 0
- omega_empty_port_dis.0.10.78: omega_dis[0,10,78] = 0
- ev_empty_port_energy.0.10.78: energy[0,10,78] = 0
- omega_empty_port_ch.0.11.78: omega_ch[0,11,78] = 0
- omega_empty_port_dis.0.11.78: omega_dis[0,11,78] = 0
- ev_empty_port_energy.0.11.78: energy[0,11,78] = 0
- omega_empty_port_ch.0.12.78: omega_ch[0,12,78] = 0
- omega_empty_port_dis.0.12.78: omega_dis[0,12,78] = 0
- ev_empty_port_energy.0.12.78: energy[0,12,78] = 0
- omega_empty_port_ch.0.13.78: omega_ch[0,13,78] = 0
- omega_empty_port_dis.0.13.78: omega_dis[0,13,78] = 0
- ev_empty_port_energy.0.13.78: energy[0,13,78] = 0
- omega_empty_port_ch.0.14.78: omega_ch[0,14,78] = 0
- omega_empty_port_dis.0.14.78: omega_dis[0,14,78] = 0
- ev_empty_port_energy.0.14.78: energy[0,14,78] = 0
- omega_empty_port_ch.0.15.78: omega_ch[0,15,78] = 0
- omega_empty_port_dis.0.15.78: omega_dis[0,15,78] = 0
- ev_empty_port_energy.0.15.78: energy[0,15,78] = 0
- omega_empty_port_ch.0.16.78: omega_ch[0,16,78] = 0
- omega_empty_port_dis.0.16.78: omega_dis[0,16,78] = 0
- ev_empty_port_energy.0.16.78: energy[0,16,78] = 0
- omega_empty_port_ch.0.17.78: omega_ch[0,17,78] = 0
- omega_empty_port_dis.0.17.78: omega_dis[0,17,78] = 0
- ev_empty_port_energy.0.17.78: energy[0,17,78] = 0
- omega_empty_port_ch.0.18.78: omega_ch[0,18,78] = 0
- omega_empty_port_dis.0.18.78: omega_dis[0,18,78] = 0
- ev_empty_port_energy.0.18.78: energy[0,18,78] = 0
- omega_empty_port_ch.0.19.78: omega_ch[0,19,78] = 0
- omega_empty_port_dis.0.19.78: omega_dis[0,19,78] = 0
- ev_empty_port_energy.0.19.78: energy[0,19,78] = 0
- omega_empty_port_ch.0.20.78: omega_ch[0,20,78] = 0
- omega_empty_port_dis.0.20.78: omega_dis[0,20,78] = 0
- ev_empty_port_energy.0.20.78: energy[0,20,78] = 0
- omega_empty_port_ch.0.21.78: omega_ch[0,21,78] = 0
- omega_empty_port_dis.0.21.78: omega_dis[0,21,78] = 0
- ev_empty_port_energy.0.21.78: energy[0,21,78] = 0
- omega_empty_port_ch.0.22.78: omega_ch[0,22,78] = 0
- omega_empty_port_dis.0.22.78: omega_dis[0,22,78] = 0
- ev_empty_port_energy.0.22.78: energy[0,22,78] = 0
- omega_empty_port_ch.0.23.78: omega_ch[0,23,78] = 0
- omega_empty_port_dis.0.23.78: omega_dis[0,23,78] = 0
- ev_empty_port_energy.0.23.78: energy[0,23,78] = 0
- omega_empty_port_ch.0.24.78: omega_ch[0,24,78] = 0
- omega_empty_port_dis.0.24.78: omega_dis[0,24,78] = 0
- ev_empty_port_energy.0.24.78: energy[0,24,78] = 0
- omega_empty_port_ch.0.0.79: omega_ch[0,0,79] = 0
- omega_empty_port_dis.0.0.79: omega_dis[0,0,79] = 0
- ev_empty_port_energy.0.0.79: energy[0,0,79] = 0
- omega_empty_port_ch.0.1.79: omega_ch[0,1,79] = 0
- omega_empty_port_dis.0.1.79: omega_dis[0,1,79] = 0
- ev_empty_port_energy.0.1.79: energy[0,1,79] = 0
- omega_empty_port_ch.0.2.79: omega_ch[0,2,79] = 0
- omega_empty_port_dis.0.2.79: omega_dis[0,2,79] = 0
- ev_empty_port_energy.0.2.79: energy[0,2,79] = 0
- omega_empty_port_ch.0.3.79: omega_ch[0,3,79] = 0
- omega_empty_port_dis.0.3.79: omega_dis[0,3,79] = 0
- ev_empty_port_energy.0.3.79: energy[0,3,79] = 0
- omega_empty_port_ch.0.4.79: omega_ch[0,4,79] = 0
- omega_empty_port_dis.0.4.79: omega_dis[0,4,79] = 0
- ev_empty_port_energy.0.4.79: energy[0,4,79] = 0
- omega_empty_port_ch.0.5.79: omega_ch[0,5,79] = 0
- omega_empty_port_dis.0.5.79: omega_dis[0,5,79] = 0
- ev_empty_port_energy.0.5.79: energy[0,5,79] = 0
- omega_empty_port_ch.0.6.79: omega_ch[0,6,79] = 0
- omega_empty_port_dis.0.6.79: omega_dis[0,6,79] = 0
- ev_empty_port_energy.0.6.79: energy[0,6,79] = 0
- omega_empty_port_ch.0.7.79: omega_ch[0,7,79] = 0
- omega_empty_port_dis.0.7.79: omega_dis[0,7,79] = 0
- ev_empty_port_energy.0.7.79: energy[0,7,79] = 0
- omega_empty_port_ch.0.8.79: omega_ch[0,8,79] = 0
- omega_empty_port_dis.0.8.79: omega_dis[0,8,79] = 0
- ev_empty_port_energy.0.8.79: energy[0,8,79] = 0
- omega_empty_port_ch.0.9.79: omega_ch[0,9,79] = 0
- omega_empty_port_dis.0.9.79: omega_dis[0,9,79] = 0
- ev_empty_port_energy.0.9.79: energy[0,9,79] = 0
- omega_empty_port_ch.0.10.79: omega_ch[0,10,79] = 0
- omega_empty_port_dis.0.10.79: omega_dis[0,10,79] = 0
- ev_empty_port_energy.0.10.79: energy[0,10,79] = 0
- omega_empty_port_ch.0.11.79: omega_ch[0,11,79] = 0
- omega_empty_port_dis.0.11.79: omega_dis[0,11,79] = 0
- ev_empty_port_energy.0.11.79: energy[0,11,79] = 0
- omega_empty_port_ch.0.12.79: omega_ch[0,12,79] = 0
- omega_empty_port_dis.0.12.79: omega_dis[0,12,79] = 0
- ev_empty_port_energy.0.12.79: energy[0,12,79] = 0
- omega_empty_port_ch.0.13.79: omega_ch[0,13,79] = 0
- omega_empty_port_dis.0.13.79: omega_dis[0,13,79] = 0
- ev_empty_port_energy.0.13.79: energy[0,13,79] = 0
- omega_empty_port_ch.0.14.79: omega_ch[0,14,79] = 0
- omega_empty_port_dis.0.14.79: omega_dis[0,14,79] = 0
- ev_empty_port_energy.0.14.79: energy[0,14,79] = 0
- omega_empty_port_ch.0.15.79: omega_ch[0,15,79] = 0
- omega_empty_port_dis.0.15.79: omega_dis[0,15,79] = 0
- ev_empty_port_energy.0.15.79: energy[0,15,79] = 0
- omega_empty_port_ch.0.16.79: omega_ch[0,16,79] = 0
- omega_empty_port_dis.0.16.79: omega_dis[0,16,79] = 0
- ev_empty_port_energy.0.16.79: energy[0,16,79] = 0
- omega_empty_port_ch.0.17.79: omega_ch[0,17,79] = 0
- omega_empty_port_dis.0.17.79: omega_dis[0,17,79] = 0
- ev_empty_port_energy.0.17.79: energy[0,17,79] = 0
- omega_empty_port_ch.0.18.79: omega_ch[0,18,79] = 0
- omega_empty_port_dis.0.18.79: omega_dis[0,18,79] = 0
- ev_empty_port_energy.0.18.79: energy[0,18,79] = 0
- omega_empty_port_ch.0.19.79: omega_ch[0,19,79] = 0
- omega_empty_port_dis.0.19.79: omega_dis[0,19,79] = 0
- ev_empty_port_energy.0.19.79: energy[0,19,79] = 0
- omega_empty_port_ch.0.20.79: omega_ch[0,20,79] = 0
- omega_empty_port_dis.0.20.79: omega_dis[0,20,79] = 0
- ev_empty_port_energy.0.20.79: energy[0,20,79] = 0
- omega_empty_port_ch.0.21.79: omega_ch[0,21,79] = 0
- omega_empty_port_dis.0.21.79: omega_dis[0,21,79] = 0
- ev_empty_port_energy.0.21.79: energy[0,21,79] = 0
- omega_empty_port_ch.0.22.79: omega_ch[0,22,79] = 0
- omega_empty_port_dis.0.22.79: omega_dis[0,22,79] = 0
- ev_empty_port_energy.0.22.79: energy[0,22,79] = 0
- omega_empty_port_ch.0.23.79: omega_ch[0,23,79] = 0
- omega_empty_port_dis.0.23.79: omega_dis[0,23,79] = 0
- ev_empty_port_energy.0.23.79: energy[0,23,79] = 0
- omega_empty_port_ch.0.24.79: omega_ch[0,24,79] = 0
- omega_empty_port_dis.0.24.79: omega_dis[0,24,79] = 0
- ev_empty_port_energy.0.24.79: energy[0,24,79] = 0
- omega_empty_port_ch.0.0.80: omega_ch[0,0,80] = 0
- omega_empty_port_dis.0.0.80: omega_dis[0,0,80] = 0
- ev_empty_port_energy.0.0.80: energy[0,0,80] = 0
- omega_empty_port_ch.0.1.80: omega_ch[0,1,80] = 0
- omega_empty_port_dis.0.1.80: omega_dis[0,1,80] = 0
- ev_empty_port_energy.0.1.80: energy[0,1,80] = 0
- omega_empty_port_ch.0.2.80: omega_ch[0,2,80] = 0
- omega_empty_port_dis.0.2.80: omega_dis[0,2,80] = 0
- ev_empty_port_energy.0.2.80: energy[0,2,80] = 0
- omega_empty_port_ch.0.3.80: omega_ch[0,3,80] = 0
- omega_empty_port_dis.0.3.80: omega_dis[0,3,80] = 0
- ev_empty_port_energy.0.3.80: energy[0,3,80] = 0
- omega_empty_port_ch.0.4.80: omega_ch[0,4,80] = 0
- omega_empty_port_dis.0.4.80: omega_dis[0,4,80] = 0
- ev_empty_port_energy.0.4.80: energy[0,4,80] = 0
- omega_empty_port_ch.0.5.80: omega_ch[0,5,80] = 0
- omega_empty_port_dis.0.5.80: omega_dis[0,5,80] = 0
- ev_empty_port_energy.0.5.80: energy[0,5,80] = 0
- omega_empty_port_ch.0.6.80: omega_ch[0,6,80] = 0
- omega_empty_port_dis.0.6.80: omega_dis[0,6,80] = 0
- ev_empty_port_energy.0.6.80: energy[0,6,80] = 0
- omega_empty_port_ch.0.7.80: omega_ch[0,7,80] = 0
- omega_empty_port_dis.0.7.80: omega_dis[0,7,80] = 0
- ev_empty_port_energy.0.7.80: energy[0,7,80] = 0
- omega_empty_port_ch.0.8.80: omega_ch[0,8,80] = 0
- omega_empty_port_dis.0.8.80: omega_dis[0,8,80] = 0
- ev_empty_port_energy.0.8.80: energy[0,8,80] = 0
- omega_empty_port_ch.0.9.80: omega_ch[0,9,80] = 0
- omega_empty_port_dis.0.9.80: omega_dis[0,9,80] = 0
- ev_empty_port_energy.0.9.80: energy[0,9,80] = 0
- omega_empty_port_ch.0.10.80: omega_ch[0,10,80] = 0
- omega_empty_port_dis.0.10.80: omega_dis[0,10,80] = 0
- ev_empty_port_energy.0.10.80: energy[0,10,80] = 0
- omega_empty_port_ch.0.11.80: omega_ch[0,11,80] = 0
- omega_empty_port_dis.0.11.80: omega_dis[0,11,80] = 0
- ev_empty_port_energy.0.11.80: energy[0,11,80] = 0
- omega_empty_port_ch.0.12.80: omega_ch[0,12,80] = 0
- omega_empty_port_dis.0.12.80: omega_dis[0,12,80] = 0
- ev_empty_port_energy.0.12.80: energy[0,12,80] = 0
- omega_empty_port_ch.0.13.80: omega_ch[0,13,80] = 0
- omega_empty_port_dis.0.13.80: omega_dis[0,13,80] = 0
- ev_empty_port_energy.0.13.80: energy[0,13,80] = 0
- omega_empty_port_ch.0.14.80: omega_ch[0,14,80] = 0
- omega_empty_port_dis.0.14.80: omega_dis[0,14,80] = 0
- ev_empty_port_energy.0.14.80: energy[0,14,80] = 0
- omega_empty_port_ch.0.15.80: omega_ch[0,15,80] = 0
- omega_empty_port_dis.0.15.80: omega_dis[0,15,80] = 0
- ev_empty_port_energy.0.15.80: energy[0,15,80] = 0
- omega_empty_port_ch.0.16.80: omega_ch[0,16,80] = 0
- omega_empty_port_dis.0.16.80: omega_dis[0,16,80] = 0
- ev_empty_port_energy.0.16.80: energy[0,16,80] = 0
- omega_empty_port_ch.0.17.80: omega_ch[0,17,80] = 0
- omega_empty_port_dis.0.17.80: omega_dis[0,17,80] = 0
- ev_empty_port_energy.0.17.80: energy[0,17,80] = 0
- omega_empty_port_ch.0.18.80: omega_ch[0,18,80] = 0
- omega_empty_port_dis.0.18.80: omega_dis[0,18,80] = 0
- ev_empty_port_energy.0.18.80: energy[0,18,80] = 0
- omega_empty_port_ch.0.19.80: omega_ch[0,19,80] = 0
- omega_empty_port_dis.0.19.80: omega_dis[0,19,80] = 0
- ev_empty_port_energy.0.19.80: energy[0,19,80] = 0
- omega_empty_port_ch.0.20.80: omega_ch[0,20,80] = 0
- omega_empty_port_dis.0.20.80: omega_dis[0,20,80] = 0
- ev_empty_port_energy.0.20.80: energy[0,20,80] = 0
- omega_empty_port_ch.0.21.80: omega_ch[0,21,80] = 0
- omega_empty_port_dis.0.21.80: omega_dis[0,21,80] = 0
- ev_empty_port_energy.0.21.80: energy[0,21,80] = 0
- omega_empty_port_ch.0.22.80: omega_ch[0,22,80] = 0
- omega_empty_port_dis.0.22.80: omega_dis[0,22,80] = 0
- ev_empty_port_energy.0.22.80: energy[0,22,80] = 0
- omega_empty_port_ch.0.23.80: omega_ch[0,23,80] = 0
- omega_empty_port_dis.0.23.80: omega_dis[0,23,80] = 0
- ev_empty_port_energy.0.23.80: energy[0,23,80] = 0
- omega_empty_port_ch.0.24.80: omega_ch[0,24,80] = 0
- omega_empty_port_dis.0.24.80: omega_dis[0,24,80] = 0
- ev_empty_port_energy.0.24.80: energy[0,24,80] = 0
- omega_empty_port_ch.0.0.81: omega_ch[0,0,81] = 0
- omega_empty_port_dis.0.0.81: omega_dis[0,0,81] = 0
- ev_empty_port_energy.0.0.81: energy[0,0,81] = 0
- omega_empty_port_ch.0.1.81: omega_ch[0,1,81] = 0
- omega_empty_port_dis.0.1.81: omega_dis[0,1,81] = 0
- ev_empty_port_energy.0.1.81: energy[0,1,81] = 0
- omega_empty_port_ch.0.2.81: omega_ch[0,2,81] = 0
- omega_empty_port_dis.0.2.81: omega_dis[0,2,81] = 0
- ev_empty_port_energy.0.2.81: energy[0,2,81] = 0
- omega_empty_port_ch.0.3.81: omega_ch[0,3,81] = 0
- omega_empty_port_dis.0.3.81: omega_dis[0,3,81] = 0
- ev_empty_port_energy.0.3.81: energy[0,3,81] = 0
- omega_empty_port_ch.0.4.81: omega_ch[0,4,81] = 0
- omega_empty_port_dis.0.4.81: omega_dis[0,4,81] = 0
- ev_empty_port_energy.0.4.81: energy[0,4,81] = 0
- omega_empty_port_ch.0.5.81: omega_ch[0,5,81] = 0
- omega_empty_port_dis.0.5.81: omega_dis[0,5,81] = 0
- ev_empty_port_energy.0.5.81: energy[0,5,81] = 0
- omega_empty_port_ch.0.6.81: omega_ch[0,6,81] = 0
- omega_empty_port_dis.0.6.81: omega_dis[0,6,81] = 0
- ev_empty_port_energy.0.6.81: energy[0,6,81] = 0
- omega_empty_port_ch.0.7.81: omega_ch[0,7,81] = 0
- omega_empty_port_dis.0.7.81: omega_dis[0,7,81] = 0
- ev_empty_port_energy.0.7.81: energy[0,7,81] = 0
- omega_empty_port_ch.0.8.81: omega_ch[0,8,81] = 0
- omega_empty_port_dis.0.8.81: omega_dis[0,8,81] = 0
- ev_empty_port_energy.0.8.81: energy[0,8,81] = 0
- omega_empty_port_ch.0.9.81: omega_ch[0,9,81] = 0
- omega_empty_port_dis.0.9.81: omega_dis[0,9,81] = 0
- ev_empty_port_energy.0.9.81: energy[0,9,81] = 0
- omega_empty_port_ch.0.10.81: omega_ch[0,10,81] = 0
- omega_empty_port_dis.0.10.81: omega_dis[0,10,81] = 0
- ev_empty_port_energy.0.10.81: energy[0,10,81] = 0
- omega_empty_port_ch.0.11.81: omega_ch[0,11,81] = 0
- omega_empty_port_dis.0.11.81: omega_dis[0,11,81] = 0
- ev_empty_port_energy.0.11.81: energy[0,11,81] = 0
- omega_empty_port_ch.0.12.81: omega_ch[0,12,81] = 0
- omega_empty_port_dis.0.12.81: omega_dis[0,12,81] = 0
- ev_empty_port_energy.0.12.81: energy[0,12,81] = 0
- omega_empty_port_ch.0.13.81: omega_ch[0,13,81] = 0
- omega_empty_port_dis.0.13.81: omega_dis[0,13,81] = 0
- ev_empty_port_energy.0.13.81: energy[0,13,81] = 0
- omega_empty_port_ch.0.14.81: omega_ch[0,14,81] = 0
- omega_empty_port_dis.0.14.81: omega_dis[0,14,81] = 0
- ev_empty_port_energy.0.14.81: energy[0,14,81] = 0
- omega_empty_port_ch.0.15.81: omega_ch[0,15,81] = 0
- omega_empty_port_dis.0.15.81: omega_dis[0,15,81] = 0
- ev_empty_port_energy.0.15.81: energy[0,15,81] = 0
- omega_empty_port_ch.0.16.81: omega_ch[0,16,81] = 0
- omega_empty_port_dis.0.16.81: omega_dis[0,16,81] = 0
- ev_empty_port_energy.0.16.81: energy[0,16,81] = 0
- omega_empty_port_ch.0.17.81: omega_ch[0,17,81] = 0
- omega_empty_port_dis.0.17.81: omega_dis[0,17,81] = 0
- ev_empty_port_energy.0.17.81: energy[0,17,81] = 0
- omega_empty_port_ch.0.18.81: omega_ch[0,18,81] = 0
- omega_empty_port_dis.0.18.81: omega_dis[0,18,81] = 0
- ev_empty_port_energy.0.18.81: energy[0,18,81] = 0
- omega_empty_port_ch.0.19.81: omega_ch[0,19,81] = 0
- omega_empty_port_dis.0.19.81: omega_dis[0,19,81] = 0
- ev_empty_port_energy.0.19.81: energy[0,19,81] = 0
- omega_empty_port_ch.0.20.81: omega_ch[0,20,81] = 0
- omega_empty_port_dis.0.20.81: omega_dis[0,20,81] = 0
- ev_empty_port_energy.0.20.81: energy[0,20,81] = 0
- omega_empty_port_ch.0.21.81: omega_ch[0,21,81] = 0
- omega_empty_port_dis.0.21.81: omega_dis[0,21,81] = 0
- ev_empty_port_energy.0.21.81: energy[0,21,81] = 0
- omega_empty_port_ch.0.22.81: omega_ch[0,22,81] = 0
- omega_empty_port_dis.0.22.81: omega_dis[0,22,81] = 0
- ev_empty_port_energy.0.22.81: energy[0,22,81] = 0
- omega_empty_port_ch.0.23.81: omega_ch[0,23,81] = 0
- omega_empty_port_dis.0.23.81: omega_dis[0,23,81] = 0
- ev_empty_port_energy.0.23.81: energy[0,23,81] = 0
- omega_empty_port_ch.0.24.81: omega_ch[0,24,81] = 0
- omega_empty_port_dis.0.24.81: omega_dis[0,24,81] = 0
- ev_empty_port_energy.0.24.81: energy[0,24,81] = 0
- omega_empty_port_ch.0.0.82: omega_ch[0,0,82] = 0
- omega_empty_port_dis.0.0.82: omega_dis[0,0,82] = 0
- ev_empty_port_energy.0.0.82: energy[0,0,82] = 0
- omega_empty_port_ch.0.1.82: omega_ch[0,1,82] = 0
- omega_empty_port_dis.0.1.82: omega_dis[0,1,82] = 0
- ev_empty_port_energy.0.1.82: energy[0,1,82] = 0
- omega_empty_port_ch.0.2.82: omega_ch[0,2,82] = 0
- omega_empty_port_dis.0.2.82: omega_dis[0,2,82] = 0
- ev_empty_port_energy.0.2.82: energy[0,2,82] = 0
- omega_empty_port_ch.0.3.82: omega_ch[0,3,82] = 0
- omega_empty_port_dis.0.3.82: omega_dis[0,3,82] = 0
- ev_empty_port_energy.0.3.82: energy[0,3,82] = 0
- omega_empty_port_ch.0.4.82: omega_ch[0,4,82] = 0
- omega_empty_port_dis.0.4.82: omega_dis[0,4,82] = 0
- ev_empty_port_energy.0.4.82: energy[0,4,82] = 0
- omega_empty_port_ch.0.5.82: omega_ch[0,5,82] = 0
- omega_empty_port_dis.0.5.82: omega_dis[0,5,82] = 0
- ev_empty_port_energy.0.5.82: energy[0,5,82] = 0
- omega_empty_port_ch.0.6.82: omega_ch[0,6,82] = 0
- omega_empty_port_dis.0.6.82: omega_dis[0,6,82] = 0
- ev_empty_port_energy.0.6.82: energy[0,6,82] = 0
- omega_empty_port_ch.0.7.82: omega_ch[0,7,82] = 0
- omega_empty_port_dis.0.7.82: omega_dis[0,7,82] = 0
- ev_empty_port_energy.0.7.82: energy[0,7,82] = 0
- omega_empty_port_ch.0.8.82: omega_ch[0,8,82] = 0
- omega_empty_port_dis.0.8.82: omega_dis[0,8,82] = 0
- ev_empty_port_energy.0.8.82: energy[0,8,82] = 0
- omega_empty_port_ch.0.9.82: omega_ch[0,9,82] = 0
- omega_empty_port_dis.0.9.82: omega_dis[0,9,82] = 0
- ev_empty_port_energy.0.9.82: energy[0,9,82] = 0
- omega_empty_port_ch.0.10.82: omega_ch[0,10,82] = 0
- omega_empty_port_dis.0.10.82: omega_dis[0,10,82] = 0
- ev_empty_port_energy.0.10.82: energy[0,10,82] = 0
- omega_empty_port_ch.0.11.82: omega_ch[0,11,82] = 0
- omega_empty_port_dis.0.11.82: omega_dis[0,11,82] = 0
- ev_empty_port_energy.0.11.82: energy[0,11,82] = 0
- omega_empty_port_ch.0.12.82: omega_ch[0,12,82] = 0
- omega_empty_port_dis.0.12.82: omega_dis[0,12,82] = 0
- ev_empty_port_energy.0.12.82: energy[0,12,82] = 0
- omega_empty_port_ch.0.13.82: omega_ch[0,13,82] = 0
- omega_empty_port_dis.0.13.82: omega_dis[0,13,82] = 0
- ev_empty_port_energy.0.13.82: energy[0,13,82] = 0
- omega_empty_port_ch.0.14.82: omega_ch[0,14,82] = 0
- omega_empty_port_dis.0.14.82: omega_dis[0,14,82] = 0
- ev_empty_port_energy.0.14.82: energy[0,14,82] = 0
- omega_empty_port_ch.0.15.82: omega_ch[0,15,82] = 0
- omega_empty_port_dis.0.15.82: omega_dis[0,15,82] = 0
- ev_empty_port_energy.0.15.82: energy[0,15,82] = 0
- omega_empty_port_ch.0.16.82: omega_ch[0,16,82] = 0
- omega_empty_port_dis.0.16.82: omega_dis[0,16,82] = 0
- ev_empty_port_energy.0.16.82: energy[0,16,82] = 0
- omega_empty_port_ch.0.17.82: omega_ch[0,17,82] = 0
- omega_empty_port_dis.0.17.82: omega_dis[0,17,82] = 0
- ev_empty_port_energy.0.17.82: energy[0,17,82] = 0
- omega_empty_port_ch.0.18.82: omega_ch[0,18,82] = 0
- omega_empty_port_dis.0.18.82: omega_dis[0,18,82] = 0
- ev_empty_port_energy.0.18.82: energy[0,18,82] = 0
- omega_empty_port_ch.0.19.82: omega_ch[0,19,82] = 0
- omega_empty_port_dis.0.19.82: omega_dis[0,19,82] = 0
- ev_empty_port_energy.0.19.82: energy[0,19,82] = 0
- omega_empty_port_ch.0.20.82: omega_ch[0,20,82] = 0
- omega_empty_port_dis.0.20.82: omega_dis[0,20,82] = 0
- ev_empty_port_energy.0.20.82: energy[0,20,82] = 0
- omega_empty_port_ch.0.21.82: omega_ch[0,21,82] = 0
- omega_empty_port_dis.0.21.82: omega_dis[0,21,82] = 0
- ev_empty_port_energy.0.21.82: energy[0,21,82] = 0
- omega_empty_port_ch.0.22.82: omega_ch[0,22,82] = 0
- omega_empty_port_dis.0.22.82: omega_dis[0,22,82] = 0
- ev_empty_port_energy.0.22.82: energy[0,22,82] = 0
- omega_empty_port_ch.0.23.82: omega_ch[0,23,82] = 0
- omega_empty_port_dis.0.23.82: omega_dis[0,23,82] = 0
- ev_empty_port_energy.0.23.82: energy[0,23,82] = 0
- omega_empty_port_ch.0.24.82: omega_ch[0,24,82] = 0
- omega_empty_port_dis.0.24.82: omega_dis[0,24,82] = 0
- ev_empty_port_energy.0.24.82: energy[0,24,82] = 0
- omega_empty_port_ch.0.0.83: omega_ch[0,0,83] = 0
- omega_empty_port_dis.0.0.83: omega_dis[0,0,83] = 0
- ev_empty_port_energy.0.0.83: energy[0,0,83] = 0
- omega_empty_port_ch.0.1.83: omega_ch[0,1,83] = 0
- omega_empty_port_dis.0.1.83: omega_dis[0,1,83] = 0
- ev_empty_port_energy.0.1.83: energy[0,1,83] = 0
- omega_empty_port_ch.0.2.83: omega_ch[0,2,83] = 0
- omega_empty_port_dis.0.2.83: omega_dis[0,2,83] = 0
- ev_empty_port_energy.0.2.83: energy[0,2,83] = 0
- omega_empty_port_ch.0.3.83: omega_ch[0,3,83] = 0
- omega_empty_port_dis.0.3.83: omega_dis[0,3,83] = 0
- ev_empty_port_energy.0.3.83: energy[0,3,83] = 0
- omega_empty_port_ch.0.4.83: omega_ch[0,4,83] = 0
- omega_empty_port_dis.0.4.83: omega_dis[0,4,83] = 0
- ev_empty_port_energy.0.4.83: energy[0,4,83] = 0
- omega_empty_port_ch.0.5.83: omega_ch[0,5,83] = 0
- omega_empty_port_dis.0.5.83: omega_dis[0,5,83] = 0
- ev_empty_port_energy.0.5.83: energy[0,5,83] = 0
- omega_empty_port_ch.0.6.83: omega_ch[0,6,83] = 0
- omega_empty_port_dis.0.6.83: omega_dis[0,6,83] = 0
- ev_empty_port_energy.0.6.83: energy[0,6,83] = 0
- omega_empty_port_ch.0.7.83: omega_ch[0,7,83] = 0
- omega_empty_port_dis.0.7.83: omega_dis[0,7,83] = 0
- ev_empty_port_energy.0.7.83: energy[0,7,83] = 0
- omega_empty_port_ch.0.8.83: omega_ch[0,8,83] = 0
- omega_empty_port_dis.0.8.83: omega_dis[0,8,83] = 0
- ev_empty_port_energy.0.8.83: energy[0,8,83] = 0
- omega_empty_port_ch.0.9.83: omega_ch[0,9,83] = 0
- omega_empty_port_dis.0.9.83: omega_dis[0,9,83] = 0
- ev_empty_port_energy.0.9.83: energy[0,9,83] = 0
- omega_empty_port_ch.0.10.83: omega_ch[0,10,83] = 0
- omega_empty_port_dis.0.10.83: omega_dis[0,10,83] = 0
- ev_empty_port_energy.0.10.83: energy[0,10,83] = 0
- omega_empty_port_ch.0.11.83: omega_ch[0,11,83] = 0
- omega_empty_port_dis.0.11.83: omega_dis[0,11,83] = 0
- ev_empty_port_energy.0.11.83: energy[0,11,83] = 0
- omega_empty_port_ch.0.12.83: omega_ch[0,12,83] = 0
- omega_empty_port_dis.0.12.83: omega_dis[0,12,83] = 0
- ev_empty_port_energy.0.12.83: energy[0,12,83] = 0
- omega_empty_port_ch.0.13.83: omega_ch[0,13,83] = 0
- omega_empty_port_dis.0.13.83: omega_dis[0,13,83] = 0
- ev_empty_port_energy.0.13.83: energy[0,13,83] = 0
- omega_empty_port_ch.0.14.83: omega_ch[0,14,83] = 0
- omega_empty_port_dis.0.14.83: omega_dis[0,14,83] = 0
- ev_empty_port_energy.0.14.83: energy[0,14,83] = 0
- omega_empty_port_ch.0.15.83: omega_ch[0,15,83] = 0
- omega_empty_port_dis.0.15.83: omega_dis[0,15,83] = 0
- ev_empty_port_energy.0.15.83: energy[0,15,83] = 0
- omega_empty_port_ch.0.16.83: omega_ch[0,16,83] = 0
- omega_empty_port_dis.0.16.83: omega_dis[0,16,83] = 0
- ev_empty_port_energy.0.16.83: energy[0,16,83] = 0
- omega_empty_port_ch.0.17.83: omega_ch[0,17,83] = 0
- omega_empty_port_dis.0.17.83: omega_dis[0,17,83] = 0
- ev_empty_port_energy.0.17.83: energy[0,17,83] = 0
- omega_empty_port_ch.0.18.83: omega_ch[0,18,83] = 0
- omega_empty_port_dis.0.18.83: omega_dis[0,18,83] = 0
- ev_empty_port_energy.0.18.83: energy[0,18,83] = 0
- omega_empty_port_ch.0.19.83: omega_ch[0,19,83] = 0
- omega_empty_port_dis.0.19.83: omega_dis[0,19,83] = 0
- ev_empty_port_energy.0.19.83: energy[0,19,83] = 0
- omega_empty_port_ch.0.20.83: omega_ch[0,20,83] = 0
- omega_empty_port_dis.0.20.83: omega_dis[0,20,83] = 0
- ev_empty_port_energy.0.20.83: energy[0,20,83] = 0
- omega_empty_port_ch.0.21.83: omega_ch[0,21,83] = 0
- omega_empty_port_dis.0.21.83: omega_dis[0,21,83] = 0
- ev_empty_port_energy.0.21.83: energy[0,21,83] = 0
- omega_empty_port_ch.0.22.83: omega_ch[0,22,83] = 0
- omega_empty_port_dis.0.22.83: omega_dis[0,22,83] = 0
- ev_empty_port_energy.0.22.83: energy[0,22,83] = 0
- omega_empty_port_ch.0.23.83: omega_ch[0,23,83] = 0
- omega_empty_port_dis.0.23.83: omega_dis[0,23,83] = 0
- ev_empty_port_energy.0.23.83: energy[0,23,83] = 0
- omega_empty_port_ch.0.24.83: omega_ch[0,24,83] = 0
- omega_empty_port_dis.0.24.83: omega_dis[0,24,83] = 0
- ev_empty_port_energy.0.24.83: energy[0,24,83] = 0
- omega_empty_port_ch.0.0.84: omega_ch[0,0,84] = 0
- omega_empty_port_dis.0.0.84: omega_dis[0,0,84] = 0
- ev_empty_port_energy.0.0.84: energy[0,0,84] = 0
- omega_empty_port_ch.0.1.84: omega_ch[0,1,84] = 0
- omega_empty_port_dis.0.1.84: omega_dis[0,1,84] = 0
- ev_empty_port_energy.0.1.84: energy[0,1,84] = 0
- omega_empty_port_ch.0.2.84: omega_ch[0,2,84] = 0
- omega_empty_port_dis.0.2.84: omega_dis[0,2,84] = 0
- ev_empty_port_energy.0.2.84: energy[0,2,84] = 0
- omega_empty_port_ch.0.3.84: omega_ch[0,3,84] = 0
- omega_empty_port_dis.0.3.84: omega_dis[0,3,84] = 0
- ev_empty_port_energy.0.3.84: energy[0,3,84] = 0
- omega_empty_port_ch.0.4.84: omega_ch[0,4,84] = 0
- omega_empty_port_dis.0.4.84: omega_dis[0,4,84] = 0
- ev_empty_port_energy.0.4.84: energy[0,4,84] = 0
- omega_empty_port_ch.0.5.84: omega_ch[0,5,84] = 0
- omega_empty_port_dis.0.5.84: omega_dis[0,5,84] = 0
- ev_empty_port_energy.0.5.84: energy[0,5,84] = 0
- omega_empty_port_ch.0.6.84: omega_ch[0,6,84] = 0
- omega_empty_port_dis.0.6.84: omega_dis[0,6,84] = 0
- ev_empty_port_energy.0.6.84: energy[0,6,84] = 0
- omega_empty_port_ch.0.7.84: omega_ch[0,7,84] = 0
- omega_empty_port_dis.0.7.84: omega_dis[0,7,84] = 0
- ev_empty_port_energy.0.7.84: energy[0,7,84] = 0
- omega_empty_port_ch.0.8.84: omega_ch[0,8,84] = 0
- omega_empty_port_dis.0.8.84: omega_dis[0,8,84] = 0
- ev_empty_port_energy.0.8.84: energy[0,8,84] = 0
- omega_empty_port_ch.0.9.84: omega_ch[0,9,84] = 0
- omega_empty_port_dis.0.9.84: omega_dis[0,9,84] = 0
- ev_empty_port_energy.0.9.84: energy[0,9,84] = 0
- omega_empty_port_ch.0.10.84: omega_ch[0,10,84] = 0
- omega_empty_port_dis.0.10.84: omega_dis[0,10,84] = 0
- ev_empty_port_energy.0.10.84: energy[0,10,84] = 0
- omega_empty_port_ch.0.11.84: omega_ch[0,11,84] = 0
- omega_empty_port_dis.0.11.84: omega_dis[0,11,84] = 0
- ev_empty_port_energy.0.11.84: energy[0,11,84] = 0
- omega_empty_port_ch.0.12.84: omega_ch[0,12,84] = 0
- omega_empty_port_dis.0.12.84: omega_dis[0,12,84] = 0
- ev_empty_port_energy.0.12.84: energy[0,12,84] = 0
- omega_empty_port_ch.0.13.84: omega_ch[0,13,84] = 0
- omega_empty_port_dis.0.13.84: omega_dis[0,13,84] = 0
- ev_empty_port_energy.0.13.84: energy[0,13,84] = 0
- omega_empty_port_ch.0.14.84: omega_ch[0,14,84] = 0
- omega_empty_port_dis.0.14.84: omega_dis[0,14,84] = 0
- ev_empty_port_energy.0.14.84: energy[0,14,84] = 0
- omega_empty_port_ch.0.15.84: omega_ch[0,15,84] = 0
- omega_empty_port_dis.0.15.84: omega_dis[0,15,84] = 0
- ev_empty_port_energy.0.15.84: energy[0,15,84] = 0
- omega_empty_port_ch.0.16.84: omega_ch[0,16,84] = 0
- omega_empty_port_dis.0.16.84: omega_dis[0,16,84] = 0
- ev_empty_port_energy.0.16.84: energy[0,16,84] = 0
- omega_empty_port_ch.0.17.84: omega_ch[0,17,84] = 0
- omega_empty_port_dis.0.17.84: omega_dis[0,17,84] = 0
- ev_empty_port_energy.0.17.84: energy[0,17,84] = 0
- omega_empty_port_ch.0.18.84: omega_ch[0,18,84] = 0
- omega_empty_port_dis.0.18.84: omega_dis[0,18,84] = 0
- ev_empty_port_energy.0.18.84: energy[0,18,84] = 0
- omega_empty_port_ch.0.19.84: omega_ch[0,19,84] = 0
- omega_empty_port_dis.0.19.84: omega_dis[0,19,84] = 0
- ev_empty_port_energy.0.19.84: energy[0,19,84] = 0
- omega_empty_port_ch.0.20.84: omega_ch[0,20,84] = 0
- omega_empty_port_dis.0.20.84: omega_dis[0,20,84] = 0
- ev_empty_port_energy.0.20.84: energy[0,20,84] = 0
- omega_empty_port_ch.0.21.84: omega_ch[0,21,84] = 0
- omega_empty_port_dis.0.21.84: omega_dis[0,21,84] = 0
- ev_empty_port_energy.0.21.84: energy[0,21,84] = 0
- omega_empty_port_ch.0.22.84: omega_ch[0,22,84] = 0
- omega_empty_port_dis.0.22.84: omega_dis[0,22,84] = 0
- ev_empty_port_energy.0.22.84: energy[0,22,84] = 0
- omega_empty_port_ch.0.23.84: omega_ch[0,23,84] = 0
- omega_empty_port_dis.0.23.84: omega_dis[0,23,84] = 0
- ev_empty_port_energy.0.23.84: energy[0,23,84] = 0
- omega_empty_port_ch.0.24.84: omega_ch[0,24,84] = 0
- omega_empty_port_dis.0.24.84: omega_dis[0,24,84] = 0
- ev_empty_port_energy.0.24.84: energy[0,24,84] = 0
- omega_empty_port_ch.0.0.85: omega_ch[0,0,85] = 0
- omega_empty_port_dis.0.0.85: omega_dis[0,0,85] = 0
- ev_empty_port_energy.0.0.85: energy[0,0,85] = 0
- omega_empty_port_ch.0.1.85: omega_ch[0,1,85] = 0
- omega_empty_port_dis.0.1.85: omega_dis[0,1,85] = 0
- ev_empty_port_energy.0.1.85: energy[0,1,85] = 0
- omega_empty_port_ch.0.2.85: omega_ch[0,2,85] = 0
- omega_empty_port_dis.0.2.85: omega_dis[0,2,85] = 0
- ev_empty_port_energy.0.2.85: energy[0,2,85] = 0
- omega_empty_port_ch.0.3.85: omega_ch[0,3,85] = 0
- omega_empty_port_dis.0.3.85: omega_dis[0,3,85] = 0
- ev_empty_port_energy.0.3.85: energy[0,3,85] = 0
- omega_empty_port_ch.0.4.85: omega_ch[0,4,85] = 0
- omega_empty_port_dis.0.4.85: omega_dis[0,4,85] = 0
- ev_empty_port_energy.0.4.85: energy[0,4,85] = 0
- omega_empty_port_ch.0.5.85: omega_ch[0,5,85] = 0
- omega_empty_port_dis.0.5.85: omega_dis[0,5,85] = 0
- ev_empty_port_energy.0.5.85: energy[0,5,85] = 0
- omega_empty_port_ch.0.6.85: omega_ch[0,6,85] = 0
- omega_empty_port_dis.0.6.85: omega_dis[0,6,85] = 0
- ev_empty_port_energy.0.6.85: energy[0,6,85] = 0
- omega_empty_port_ch.0.7.85: omega_ch[0,7,85] = 0
- omega_empty_port_dis.0.7.85: omega_dis[0,7,85] = 0
- ev_empty_port_energy.0.7.85: energy[0,7,85] = 0
- omega_empty_port_ch.0.8.85: omega_ch[0,8,85] = 0
- omega_empty_port_dis.0.8.85: omega_dis[0,8,85] = 0
- ev_empty_port_energy.0.8.85: energy[0,8,85] = 0
- omega_empty_port_ch.0.9.85: omega_ch[0,9,85] = 0
- omega_empty_port_dis.0.9.85: omega_dis[0,9,85] = 0
- ev_empty_port_energy.0.9.85: energy[0,9,85] = 0
- omega_empty_port_ch.0.10.85: omega_ch[0,10,85] = 0
- omega_empty_port_dis.0.10.85: omega_dis[0,10,85] = 0
- ev_empty_port_energy.0.10.85: energy[0,10,85] = 0
- omega_empty_port_ch.0.11.85: omega_ch[0,11,85] = 0
- omega_empty_port_dis.0.11.85: omega_dis[0,11,85] = 0
- ev_empty_port_energy.0.11.85: energy[0,11,85] = 0
- omega_empty_port_ch.0.12.85: omega_ch[0,12,85] = 0
- omega_empty_port_dis.0.12.85: omega_dis[0,12,85] = 0
- ev_empty_port_energy.0.12.85: energy[0,12,85] = 0
- omega_empty_port_ch.0.13.85: omega_ch[0,13,85] = 0
- omega_empty_port_dis.0.13.85: omega_dis[0,13,85] = 0
- ev_empty_port_energy.0.13.85: energy[0,13,85] = 0
- omega_empty_port_ch.0.14.85: omega_ch[0,14,85] = 0
- omega_empty_port_dis.0.14.85: omega_dis[0,14,85] = 0
- ev_empty_port_energy.0.14.85: energy[0,14,85] = 0
- omega_empty_port_ch.0.15.85: omega_ch[0,15,85] = 0
- omega_empty_port_dis.0.15.85: omega_dis[0,15,85] = 0
- ev_empty_port_energy.0.15.85: energy[0,15,85] = 0
- omega_empty_port_ch.0.16.85: omega_ch[0,16,85] = 0
- omega_empty_port_dis.0.16.85: omega_dis[0,16,85] = 0
- ev_empty_port_energy.0.16.85: energy[0,16,85] = 0
- omega_empty_port_ch.0.17.85: omega_ch[0,17,85] = 0
- omega_empty_port_dis.0.17.85: omega_dis[0,17,85] = 0
- ev_empty_port_energy.0.17.85: energy[0,17,85] = 0
- omega_empty_port_ch.0.18.85: omega_ch[0,18,85] = 0
- omega_empty_port_dis.0.18.85: omega_dis[0,18,85] = 0
- ev_empty_port_energy.0.18.85: energy[0,18,85] = 0
- omega_empty_port_ch.0.19.85: omega_ch[0,19,85] = 0
- omega_empty_port_dis.0.19.85: omega_dis[0,19,85] = 0
- ev_empty_port_energy.0.19.85: energy[0,19,85] = 0
- omega_empty_port_ch.0.20.85: omega_ch[0,20,85] = 0
- omega_empty_port_dis.0.20.85: omega_dis[0,20,85] = 0
- ev_empty_port_energy.0.20.85: energy[0,20,85] = 0
- omega_empty_port_ch.0.21.85: omega_ch[0,21,85] = 0
- omega_empty_port_dis.0.21.85: omega_dis[0,21,85] = 0
- ev_empty_port_energy.0.21.85: energy[0,21,85] = 0
- omega_empty_port_ch.0.22.85: omega_ch[0,22,85] = 0
- omega_empty_port_dis.0.22.85: omega_dis[0,22,85] = 0
- ev_empty_port_energy.0.22.85: energy[0,22,85] = 0
- omega_empty_port_ch.0.23.85: omega_ch[0,23,85] = 0
- omega_empty_port_dis.0.23.85: omega_dis[0,23,85] = 0
- ev_empty_port_energy.0.23.85: energy[0,23,85] = 0
- omega_empty_port_ch.0.24.85: omega_ch[0,24,85] = 0
- omega_empty_port_dis.0.24.85: omega_dis[0,24,85] = 0
- ev_empty_port_energy.0.24.85: energy[0,24,85] = 0
- omega_empty_port_ch.0.0.86: omega_ch[0,0,86] = 0
- omega_empty_port_dis.0.0.86: omega_dis[0,0,86] = 0
- ev_empty_port_energy.0.0.86: energy[0,0,86] = 0
- omega_empty_port_ch.0.1.86: omega_ch[0,1,86] = 0
- omega_empty_port_dis.0.1.86: omega_dis[0,1,86] = 0
- ev_empty_port_energy.0.1.86: energy[0,1,86] = 0
- omega_empty_port_ch.0.2.86: omega_ch[0,2,86] = 0
- omega_empty_port_dis.0.2.86: omega_dis[0,2,86] = 0
- ev_empty_port_energy.0.2.86: energy[0,2,86] = 0
- omega_empty_port_ch.0.3.86: omega_ch[0,3,86] = 0
- omega_empty_port_dis.0.3.86: omega_dis[0,3,86] = 0
- ev_empty_port_energy.0.3.86: energy[0,3,86] = 0
- omega_empty_port_ch.0.4.86: omega_ch[0,4,86] = 0
- omega_empty_port_dis.0.4.86: omega_dis[0,4,86] = 0
- ev_empty_port_energy.0.4.86: energy[0,4,86] = 0
- omega_empty_port_ch.0.5.86: omega_ch[0,5,86] = 0
- omega_empty_port_dis.0.5.86: omega_dis[0,5,86] = 0
- ev_empty_port_energy.0.5.86: energy[0,5,86] = 0
- omega_empty_port_ch.0.6.86: omega_ch[0,6,86] = 0
- omega_empty_port_dis.0.6.86: omega_dis[0,6,86] = 0
- ev_empty_port_energy.0.6.86: energy[0,6,86] = 0
- omega_empty_port_ch.0.7.86: omega_ch[0,7,86] = 0
- omega_empty_port_dis.0.7.86: omega_dis[0,7,86] = 0
- ev_empty_port_energy.0.7.86: energy[0,7,86] = 0
- omega_empty_port_ch.0.8.86: omega_ch[0,8,86] = 0
- omega_empty_port_dis.0.8.86: omega_dis[0,8,86] = 0
- ev_empty_port_energy.0.8.86: energy[0,8,86] = 0
- omega_empty_port_ch.0.9.86: omega_ch[0,9,86] = 0
- omega_empty_port_dis.0.9.86: omega_dis[0,9,86] = 0
- ev_empty_port_energy.0.9.86: energy[0,9,86] = 0
- omega_empty_port_ch.0.10.86: omega_ch[0,10,86] = 0
- omega_empty_port_dis.0.10.86: omega_dis[0,10,86] = 0
- ev_empty_port_energy.0.10.86: energy[0,10,86] = 0
- omega_empty_port_ch.0.11.86: omega_ch[0,11,86] = 0
- omega_empty_port_dis.0.11.86: omega_dis[0,11,86] = 0
- ev_empty_port_energy.0.11.86: energy[0,11,86] = 0
- omega_empty_port_ch.0.12.86: omega_ch[0,12,86] = 0
- omega_empty_port_dis.0.12.86: omega_dis[0,12,86] = 0
- ev_empty_port_energy.0.12.86: energy[0,12,86] = 0
- omega_empty_port_ch.0.13.86: omega_ch[0,13,86] = 0
- omega_empty_port_dis.0.13.86: omega_dis[0,13,86] = 0
- ev_empty_port_energy.0.13.86: energy[0,13,86] = 0
- omega_empty_port_ch.0.14.86: omega_ch[0,14,86] = 0
- omega_empty_port_dis.0.14.86: omega_dis[0,14,86] = 0
- ev_empty_port_energy.0.14.86: energy[0,14,86] = 0
- omega_empty_port_ch.0.15.86: omega_ch[0,15,86] = 0
- omega_empty_port_dis.0.15.86: omega_dis[0,15,86] = 0
- ev_empty_port_energy.0.15.86: energy[0,15,86] = 0
- omega_empty_port_ch.0.16.86: omega_ch[0,16,86] = 0
- omega_empty_port_dis.0.16.86: omega_dis[0,16,86] = 0
- ev_empty_port_energy.0.16.86: energy[0,16,86] = 0
- omega_empty_port_ch.0.17.86: omega_ch[0,17,86] = 0
- omega_empty_port_dis.0.17.86: omega_dis[0,17,86] = 0
- ev_empty_port_energy.0.17.86: energy[0,17,86] = 0
- omega_empty_port_ch.0.18.86: omega_ch[0,18,86] = 0
- omega_empty_port_dis.0.18.86: omega_dis[0,18,86] = 0
- ev_empty_port_energy.0.18.86: energy[0,18,86] = 0
- omega_empty_port_ch.0.19.86: omega_ch[0,19,86] = 0
- omega_empty_port_dis.0.19.86: omega_dis[0,19,86] = 0
- ev_empty_port_energy.0.19.86: energy[0,19,86] = 0
- omega_empty_port_ch.0.20.86: omega_ch[0,20,86] = 0
- omega_empty_port_dis.0.20.86: omega_dis[0,20,86] = 0
- ev_empty_port_energy.0.20.86: energy[0,20,86] = 0
- omega_empty_port_ch.0.21.86: omega_ch[0,21,86] = 0
- omega_empty_port_dis.0.21.86: omega_dis[0,21,86] = 0
- ev_empty_port_energy.0.21.86: energy[0,21,86] = 0
- omega_empty_port_ch.0.22.86: omega_ch[0,22,86] = 0
- omega_empty_port_dis.0.22.86: omega_dis[0,22,86] = 0
- ev_empty_port_energy.0.22.86: energy[0,22,86] = 0
- omega_empty_port_ch.0.23.86: omega_ch[0,23,86] = 0
- omega_empty_port_dis.0.23.86: omega_dis[0,23,86] = 0
- ev_empty_port_energy.0.23.86: energy[0,23,86] = 0
- omega_empty_port_ch.0.24.86: omega_ch[0,24,86] = 0
- omega_empty_port_dis.0.24.86: omega_dis[0,24,86] = 0
- ev_empty_port_energy.0.24.86: energy[0,24,86] = 0
- omega_empty_port_ch.0.0.87: omega_ch[0,0,87] = 0
- omega_empty_port_dis.0.0.87: omega_dis[0,0,87] = 0
- ev_empty_port_energy.0.0.87: energy[0,0,87] = 0
- omega_empty_port_ch.0.1.87: omega_ch[0,1,87] = 0
- omega_empty_port_dis.0.1.87: omega_dis[0,1,87] = 0
- ev_empty_port_energy.0.1.87: energy[0,1,87] = 0
- omega_empty_port_ch.0.2.87: omega_ch[0,2,87] = 0
- omega_empty_port_dis.0.2.87: omega_dis[0,2,87] = 0
- ev_empty_port_energy.0.2.87: energy[0,2,87] = 0
- omega_empty_port_ch.0.3.87: omega_ch[0,3,87] = 0
- omega_empty_port_dis.0.3.87: omega_dis[0,3,87] = 0
- ev_empty_port_energy.0.3.87: energy[0,3,87] = 0
- omega_empty_port_ch.0.4.87: omega_ch[0,4,87] = 0
- omega_empty_port_dis.0.4.87: omega_dis[0,4,87] = 0
- ev_empty_port_energy.0.4.87: energy[0,4,87] = 0
- omega_empty_port_ch.0.5.87: omega_ch[0,5,87] = 0
- omega_empty_port_dis.0.5.87: omega_dis[0,5,87] = 0
- ev_empty_port_energy.0.5.87: energy[0,5,87] = 0
- omega_empty_port_ch.0.6.87: omega_ch[0,6,87] = 0
- omega_empty_port_dis.0.6.87: omega_dis[0,6,87] = 0
- ev_empty_port_energy.0.6.87: energy[0,6,87] = 0
- omega_empty_port_ch.0.7.87: omega_ch[0,7,87] = 0
- omega_empty_port_dis.0.7.87: omega_dis[0,7,87] = 0
- ev_empty_port_energy.0.7.87: energy[0,7,87] = 0
- omega_empty_port_ch.0.8.87: omega_ch[0,8,87] = 0
- omega_empty_port_dis.0.8.87: omega_dis[0,8,87] = 0
- ev_empty_port_energy.0.8.87: energy[0,8,87] = 0
- omega_empty_port_ch.0.9.87: omega_ch[0,9,87] = 0
- omega_empty_port_dis.0.9.87: omega_dis[0,9,87] = 0
- ev_empty_port_energy.0.9.87: energy[0,9,87] = 0
- omega_empty_port_ch.0.10.87: omega_ch[0,10,87] = 0
- omega_empty_port_dis.0.10.87: omega_dis[0,10,87] = 0
- ev_empty_port_energy.0.10.87: energy[0,10,87] = 0
- omega_empty_port_ch.0.11.87: omega_ch[0,11,87] = 0
- omega_empty_port_dis.0.11.87: omega_dis[0,11,87] = 0
- ev_empty_port_energy.0.11.87: energy[0,11,87] = 0
- omega_empty_port_ch.0.12.87: omega_ch[0,12,87] = 0
- omega_empty_port_dis.0.12.87: omega_dis[0,12,87] = 0
- ev_empty_port_energy.0.12.87: energy[0,12,87] = 0
- omega_empty_port_ch.0.13.87: omega_ch[0,13,87] = 0
- omega_empty_port_dis.0.13.87: omega_dis[0,13,87] = 0
- ev_empty_port_energy.0.13.87: energy[0,13,87] = 0
- omega_empty_port_ch.0.14.87: omega_ch[0,14,87] = 0
- omega_empty_port_dis.0.14.87: omega_dis[0,14,87] = 0
- ev_empty_port_energy.0.14.87: energy[0,14,87] = 0
- omega_empty_port_ch.0.15.87: omega_ch[0,15,87] = 0
- omega_empty_port_dis.0.15.87: omega_dis[0,15,87] = 0
- ev_empty_port_energy.0.15.87: energy[0,15,87] = 0
- omega_empty_port_ch.0.16.87: omega_ch[0,16,87] = 0
- omega_empty_port_dis.0.16.87: omega_dis[0,16,87] = 0
- ev_empty_port_energy.0.16.87: energy[0,16,87] = 0
- omega_empty_port_ch.0.17.87: omega_ch[0,17,87] = 0
- omega_empty_port_dis.0.17.87: omega_dis[0,17,87] = 0
- ev_empty_port_energy.0.17.87: energy[0,17,87] = 0
- omega_empty_port_ch.0.18.87: omega_ch[0,18,87] = 0
- omega_empty_port_dis.0.18.87: omega_dis[0,18,87] = 0
- ev_empty_port_energy.0.18.87: energy[0,18,87] = 0
- omega_empty_port_ch.0.19.87: omega_ch[0,19,87] = 0
- omega_empty_port_dis.0.19.87: omega_dis[0,19,87] = 0
- ev_empty_port_energy.0.19.87: energy[0,19,87] = 0
- omega_empty_port_ch.0.20.87: omega_ch[0,20,87] = 0
- omega_empty_port_dis.0.20.87: omega_dis[0,20,87] = 0
- ev_empty_port_energy.0.20.87: energy[0,20,87] = 0
- omega_empty_port_ch.0.21.87: omega_ch[0,21,87] = 0
- omega_empty_port_dis.0.21.87: omega_dis[0,21,87] = 0
- ev_empty_port_energy.0.21.87: energy[0,21,87] = 0
- omega_empty_port_ch.0.22.87: omega_ch[0,22,87] = 0
- omega_empty_port_dis.0.22.87: omega_dis[0,22,87] = 0
- ev_empty_port_energy.0.22.87: energy[0,22,87] = 0
- omega_empty_port_ch.0.23.87: omega_ch[0,23,87] = 0
- omega_empty_port_dis.0.23.87: omega_dis[0,23,87] = 0
- ev_empty_port_energy.0.23.87: energy[0,23,87] = 0
- omega_empty_port_ch.0.24.87: omega_ch[0,24,87] = 0
- omega_empty_port_dis.0.24.87: omega_dis[0,24,87] = 0
- ev_empty_port_energy.0.24.87: energy[0,24,87] = 0
- omega_empty_port_ch.0.0.88: omega_ch[0,0,88] = 0
- omega_empty_port_dis.0.0.88: omega_dis[0,0,88] = 0
- ev_empty_port_energy.0.0.88: energy[0,0,88] = 0
- omega_empty_port_ch.0.1.88: omega_ch[0,1,88] = 0
- omega_empty_port_dis.0.1.88: omega_dis[0,1,88] = 0
- ev_empty_port_energy.0.1.88: energy[0,1,88] = 0
- omega_empty_port_ch.0.2.88: omega_ch[0,2,88] = 0
- omega_empty_port_dis.0.2.88: omega_dis[0,2,88] = 0
- ev_empty_port_energy.0.2.88: energy[0,2,88] = 0
- omega_empty_port_ch.0.3.88: omega_ch[0,3,88] = 0
- omega_empty_port_dis.0.3.88: omega_dis[0,3,88] = 0
- ev_empty_port_energy.0.3.88: energy[0,3,88] = 0
- omega_empty_port_ch.0.4.88: omega_ch[0,4,88] = 0
- omega_empty_port_dis.0.4.88: omega_dis[0,4,88] = 0
- ev_empty_port_energy.0.4.88: energy[0,4,88] = 0
- omega_empty_port_ch.0.5.88: omega_ch[0,5,88] = 0
- omega_empty_port_dis.0.5.88: omega_dis[0,5,88] = 0
- ev_empty_port_energy.0.5.88: energy[0,5,88] = 0
- omega_empty_port_ch.0.6.88: omega_ch[0,6,88] = 0
- omega_empty_port_dis.0.6.88: omega_dis[0,6,88] = 0
- ev_empty_port_energy.0.6.88: energy[0,6,88] = 0
- omega_empty_port_ch.0.7.88: omega_ch[0,7,88] = 0
- omega_empty_port_dis.0.7.88: omega_dis[0,7,88] = 0
- ev_empty_port_energy.0.7.88: energy[0,7,88] = 0
- omega_empty_port_ch.0.8.88: omega_ch[0,8,88] = 0
- omega_empty_port_dis.0.8.88: omega_dis[0,8,88] = 0
- ev_empty_port_energy.0.8.88: energy[0,8,88] = 0
- omega_empty_port_ch.0.9.88: omega_ch[0,9,88] = 0
- omega_empty_port_dis.0.9.88: omega_dis[0,9,88] = 0
- ev_empty_port_energy.0.9.88: energy[0,9,88] = 0
- omega_empty_port_ch.0.10.88: omega_ch[0,10,88] = 0
- omega_empty_port_dis.0.10.88: omega_dis[0,10,88] = 0
- ev_empty_port_energy.0.10.88: energy[0,10,88] = 0
- omega_empty_port_ch.0.11.88: omega_ch[0,11,88] = 0
- omega_empty_port_dis.0.11.88: omega_dis[0,11,88] = 0
- ev_empty_port_energy.0.11.88: energy[0,11,88] = 0
- omega_empty_port_ch.0.12.88: omega_ch[0,12,88] = 0
- omega_empty_port_dis.0.12.88: omega_dis[0,12,88] = 0
- ev_empty_port_energy.0.12.88: energy[0,12,88] = 0
- omega_empty_port_ch.0.13.88: omega_ch[0,13,88] = 0
- omega_empty_port_dis.0.13.88: omega_dis[0,13,88] = 0
- ev_empty_port_energy.0.13.88: energy[0,13,88] = 0
- omega_empty_port_ch.0.14.88: omega_ch[0,14,88] = 0
- omega_empty_port_dis.0.14.88: omega_dis[0,14,88] = 0
- ev_empty_port_energy.0.14.88: energy[0,14,88] = 0
- omega_empty_port_ch.0.15.88: omega_ch[0,15,88] = 0
- omega_empty_port_dis.0.15.88: omega_dis[0,15,88] = 0
- ev_empty_port_energy.0.15.88: energy[0,15,88] = 0
- omega_empty_port_ch.0.16.88: omega_ch[0,16,88] = 0
- omega_empty_port_dis.0.16.88: omega_dis[0,16,88] = 0
- ev_empty_port_energy.0.16.88: energy[0,16,88] = 0
- omega_empty_port_ch.0.17.88: omega_ch[0,17,88] = 0
- omega_empty_port_dis.0.17.88: omega_dis[0,17,88] = 0
- ev_empty_port_energy.0.17.88: energy[0,17,88] = 0
- omega_empty_port_ch.0.18.88: omega_ch[0,18,88] = 0
- omega_empty_port_dis.0.18.88: omega_dis[0,18,88] = 0
- ev_empty_port_energy.0.18.88: energy[0,18,88] = 0
- omega_empty_port_ch.0.19.88: omega_ch[0,19,88] = 0
- omega_empty_port_dis.0.19.88: omega_dis[0,19,88] = 0
- ev_empty_port_energy.0.19.88: energy[0,19,88] = 0
- omega_empty_port_ch.0.20.88: omega_ch[0,20,88] = 0
- omega_empty_port_dis.0.20.88: omega_dis[0,20,88] = 0
- ev_empty_port_energy.0.20.88: energy[0,20,88] = 0
- omega_empty_port_ch.0.21.88: omega_ch[0,21,88] = 0
- omega_empty_port_dis.0.21.88: omega_dis[0,21,88] = 0
- ev_empty_port_energy.0.21.88: energy[0,21,88] = 0
- omega_empty_port_ch.0.22.88: omega_ch[0,22,88] = 0
- omega_empty_port_dis.0.22.88: omega_dis[0,22,88] = 0
- ev_empty_port_energy.0.22.88: energy[0,22,88] = 0
- omega_empty_port_ch.0.23.88: omega_ch[0,23,88] = 0
- omega_empty_port_dis.0.23.88: omega_dis[0,23,88] = 0
- ev_empty_port_energy.0.23.88: energy[0,23,88] = 0
- omega_empty_port_ch.0.24.88: omega_ch[0,24,88] = 0
- omega_empty_port_dis.0.24.88: omega_dis[0,24,88] = 0
- ev_empty_port_energy.0.24.88: energy[0,24,88] = 0
- omega_empty_port_ch.0.0.89: omega_ch[0,0,89] = 0
- omega_empty_port_dis.0.0.89: omega_dis[0,0,89] = 0
- ev_empty_port_energy.0.0.89: energy[0,0,89] = 0
- omega_empty_port_ch.0.1.89: omega_ch[0,1,89] = 0
- omega_empty_port_dis.0.1.89: omega_dis[0,1,89] = 0
- ev_empty_port_energy.0.1.89: energy[0,1,89] = 0
- omega_empty_port_ch.0.2.89: omega_ch[0,2,89] = 0
- omega_empty_port_dis.0.2.89: omega_dis[0,2,89] = 0
- ev_empty_port_energy.0.2.89: energy[0,2,89] = 0
- omega_empty_port_ch.0.3.89: omega_ch[0,3,89] = 0
- omega_empty_port_dis.0.3.89: omega_dis[0,3,89] = 0
- ev_empty_port_energy.0.3.89: energy[0,3,89] = 0
- omega_empty_port_ch.0.4.89: omega_ch[0,4,89] = 0
- omega_empty_port_dis.0.4.89: omega_dis[0,4,89] = 0
- ev_empty_port_energy.0.4.89: energy[0,4,89] = 0
- omega_empty_port_ch.0.5.89: omega_ch[0,5,89] = 0
- omega_empty_port_dis.0.5.89: omega_dis[0,5,89] = 0
- ev_empty_port_energy.0.5.89: energy[0,5,89] = 0
- omega_empty_port_ch.0.6.89: omega_ch[0,6,89] = 0
- omega_empty_port_dis.0.6.89: omega_dis[0,6,89] = 0
- ev_empty_port_energy.0.6.89: energy[0,6,89] = 0
- omega_empty_port_ch.0.7.89: omega_ch[0,7,89] = 0
- omega_empty_port_dis.0.7.89: omega_dis[0,7,89] = 0
- ev_empty_port_energy.0.7.89: energy[0,7,89] = 0
- omega_empty_port_ch.0.8.89: omega_ch[0,8,89] = 0
- omega_empty_port_dis.0.8.89: omega_dis[0,8,89] = 0
- ev_empty_port_energy.0.8.89: energy[0,8,89] = 0
- omega_empty_port_ch.0.9.89: omega_ch[0,9,89] = 0
- omega_empty_port_dis.0.9.89: omega_dis[0,9,89] = 0
- ev_empty_port_energy.0.9.89: energy[0,9,89] = 0
- omega_empty_port_ch.0.10.89: omega_ch[0,10,89] = 0
- omega_empty_port_dis.0.10.89: omega_dis[0,10,89] = 0
- ev_empty_port_energy.0.10.89: energy[0,10,89] = 0
- omega_empty_port_ch.0.11.89: omega_ch[0,11,89] = 0
- omega_empty_port_dis.0.11.89: omega_dis[0,11,89] = 0
- ev_empty_port_energy.0.11.89: energy[0,11,89] = 0
- omega_empty_port_ch.0.12.89: omega_ch[0,12,89] = 0
- omega_empty_port_dis.0.12.89: omega_dis[0,12,89] = 0
- ev_empty_port_energy.0.12.89: energy[0,12,89] = 0
- omega_empty_port_ch.0.13.89: omega_ch[0,13,89] = 0
- omega_empty_port_dis.0.13.89: omega_dis[0,13,89] = 0
- ev_empty_port_energy.0.13.89: energy[0,13,89] = 0
- omega_empty_port_ch.0.14.89: omega_ch[0,14,89] = 0
- omega_empty_port_dis.0.14.89: omega_dis[0,14,89] = 0
- ev_empty_port_energy.0.14.89: energy[0,14,89] = 0
- omega_empty_port_ch.0.15.89: omega_ch[0,15,89] = 0
- omega_empty_port_dis.0.15.89: omega_dis[0,15,89] = 0
- ev_empty_port_energy.0.15.89: energy[0,15,89] = 0
- omega_empty_port_ch.0.16.89: omega_ch[0,16,89] = 0
- omega_empty_port_dis.0.16.89: omega_dis[0,16,89] = 0
- ev_empty_port_energy.0.16.89: energy[0,16,89] = 0
- omega_empty_port_ch.0.17.89: omega_ch[0,17,89] = 0
- omega_empty_port_dis.0.17.89: omega_dis[0,17,89] = 0
- ev_empty_port_energy.0.17.89: energy[0,17,89] = 0
- omega_empty_port_ch.0.18.89: omega_ch[0,18,89] = 0
- omega_empty_port_dis.0.18.89: omega_dis[0,18,89] = 0
- ev_empty_port_energy.0.18.89: energy[0,18,89] = 0
- omega_empty_port_ch.0.19.89: omega_ch[0,19,89] = 0
- omega_empty_port_dis.0.19.89: omega_dis[0,19,89] = 0
- ev_empty_port_energy.0.19.89: energy[0,19,89] = 0
- omega_empty_port_ch.0.20.89: omega_ch[0,20,89] = 0
- omega_empty_port_dis.0.20.89: omega_dis[0,20,89] = 0
- ev_empty_port_energy.0.20.89: energy[0,20,89] = 0
- omega_empty_port_ch.0.21.89: omega_ch[0,21,89] = 0
- omega_empty_port_dis.0.21.89: omega_dis[0,21,89] = 0
- ev_empty_port_energy.0.21.89: energy[0,21,89] = 0
- omega_empty_port_ch.0.22.89: omega_ch[0,22,89] = 0
- omega_empty_port_dis.0.22.89: omega_dis[0,22,89] = 0
- ev_empty_port_energy.0.22.89: energy[0,22,89] = 0
- omega_empty_port_ch.0.23.89: omega_ch[0,23,89] = 0
- omega_empty_port_dis.0.23.89: omega_dis[0,23,89] = 0
- ev_empty_port_energy.0.23.89: energy[0,23,89] = 0
- omega_empty_port_ch.0.24.89: omega_ch[0,24,89] = 0
- omega_empty_port_dis.0.24.89: omega_dis[0,24,89] = 0
- ev_empty_port_energy.0.24.89: energy[0,24,89] = 0
- omega_empty_port_ch.0.0.90: omega_ch[0,0,90] = 0
- omega_empty_port_dis.0.0.90: omega_dis[0,0,90] = 0
- ev_empty_port_energy.0.0.90: energy[0,0,90] = 0
- omega_empty_port_ch.0.1.90: omega_ch[0,1,90] = 0
- omega_empty_port_dis.0.1.90: omega_dis[0,1,90] = 0
- ev_empty_port_energy.0.1.90: energy[0,1,90] = 0
- omega_empty_port_ch.0.2.90: omega_ch[0,2,90] = 0
- omega_empty_port_dis.0.2.90: omega_dis[0,2,90] = 0
- ev_empty_port_energy.0.2.90: energy[0,2,90] = 0
- omega_empty_port_ch.0.3.90: omega_ch[0,3,90] = 0
- omega_empty_port_dis.0.3.90: omega_dis[0,3,90] = 0
- ev_empty_port_energy.0.3.90: energy[0,3,90] = 0
- omega_empty_port_ch.0.4.90: omega_ch[0,4,90] = 0
- omega_empty_port_dis.0.4.90: omega_dis[0,4,90] = 0
- ev_empty_port_energy.0.4.90: energy[0,4,90] = 0
- omega_empty_port_ch.0.5.90: omega_ch[0,5,90] = 0
- omega_empty_port_dis.0.5.90: omega_dis[0,5,90] = 0
- ev_empty_port_energy.0.5.90: energy[0,5,90] = 0
- omega_empty_port_ch.0.6.90: omega_ch[0,6,90] = 0
- omega_empty_port_dis.0.6.90: omega_dis[0,6,90] = 0
- ev_empty_port_energy.0.6.90: energy[0,6,90] = 0
- omega_empty_port_ch.0.7.90: omega_ch[0,7,90] = 0
- omega_empty_port_dis.0.7.90: omega_dis[0,7,90] = 0
- ev_empty_port_energy.0.7.90: energy[0,7,90] = 0
- omega_empty_port_ch.0.8.90: omega_ch[0,8,90] = 0
- omega_empty_port_dis.0.8.90: omega_dis[0,8,90] = 0
- ev_empty_port_energy.0.8.90: energy[0,8,90] = 0
- omega_empty_port_ch.0.9.90: omega_ch[0,9,90] = 0
- omega_empty_port_dis.0.9.90: omega_dis[0,9,90] = 0
- ev_empty_port_energy.0.9.90: energy[0,9,90] = 0
- omega_empty_port_ch.0.10.90: omega_ch[0,10,90] = 0
- omega_empty_port_dis.0.10.90: omega_dis[0,10,90] = 0
- ev_empty_port_energy.0.10.90: energy[0,10,90] = 0
- omega_empty_port_ch.0.11.90: omega_ch[0,11,90] = 0
- omega_empty_port_dis.0.11.90: omega_dis[0,11,90] = 0
- ev_empty_port_energy.0.11.90: energy[0,11,90] = 0
- omega_empty_port_ch.0.12.90: omega_ch[0,12,90] = 0
- omega_empty_port_dis.0.12.90: omega_dis[0,12,90] = 0
- ev_empty_port_energy.0.12.90: energy[0,12,90] = 0
- omega_empty_port_ch.0.13.90: omega_ch[0,13,90] = 0
- omega_empty_port_dis.0.13.90: omega_dis[0,13,90] = 0
- ev_empty_port_energy.0.13.90: energy[0,13,90] = 0
- omega_empty_port_ch.0.14.90: omega_ch[0,14,90] = 0
- omega_empty_port_dis.0.14.90: omega_dis[0,14,90] = 0
- ev_empty_port_energy.0.14.90: energy[0,14,90] = 0
- omega_empty_port_ch.0.15.90: omega_ch[0,15,90] = 0
- omega_empty_port_dis.0.15.90: omega_dis[0,15,90] = 0
- ev_empty_port_energy.0.15.90: energy[0,15,90] = 0
- omega_empty_port_ch.0.16.90: omega_ch[0,16,90] = 0
- omega_empty_port_dis.0.16.90: omega_dis[0,16,90] = 0
- ev_empty_port_energy.0.16.90: energy[0,16,90] = 0
- omega_empty_port_ch.0.17.90: omega_ch[0,17,90] = 0
- omega_empty_port_dis.0.17.90: omega_dis[0,17,90] = 0
- ev_empty_port_energy.0.17.90: energy[0,17,90] = 0
- omega_empty_port_ch.0.18.90: omega_ch[0,18,90] = 0
- omega_empty_port_dis.0.18.90: omega_dis[0,18,90] = 0
- ev_empty_port_energy.0.18.90: energy[0,18,90] = 0
- omega_empty_port_ch.0.19.90: omega_ch[0,19,90] = 0
- omega_empty_port_dis.0.19.90: omega_dis[0,19,90] = 0
- ev_empty_port_energy.0.19.90: energy[0,19,90] = 0
- omega_empty_port_ch.0.20.90: omega_ch[0,20,90] = 0
- omega_empty_port_dis.0.20.90: omega_dis[0,20,90] = 0
- ev_empty_port_energy.0.20.90: energy[0,20,90] = 0
- omega_empty_port_ch.0.21.90: omega_ch[0,21,90] = 0
- omega_empty_port_dis.0.21.90: omega_dis[0,21,90] = 0
- ev_empty_port_energy.0.21.90: energy[0,21,90] = 0
- omega_empty_port_ch.0.22.90: omega_ch[0,22,90] = 0
- omega_empty_port_dis.0.22.90: omega_dis[0,22,90] = 0
- ev_empty_port_energy.0.22.90: energy[0,22,90] = 0
- omega_empty_port_ch.0.23.90: omega_ch[0,23,90] = 0
- omega_empty_port_dis.0.23.90: omega_dis[0,23,90] = 0
- ev_empty_port_energy.0.23.90: energy[0,23,90] = 0
- omega_empty_port_ch.0.24.90: omega_ch[0,24,90] = 0
- omega_empty_port_dis.0.24.90: omega_dis[0,24,90] = 0
- ev_empty_port_energy.0.24.90: energy[0,24,90] = 0
- omega_empty_port_ch.0.0.91: omega_ch[0,0,91] = 0
- omega_empty_port_dis.0.0.91: omega_dis[0,0,91] = 0
- ev_empty_port_energy.0.0.91: energy[0,0,91] = 0
- omega_empty_port_ch.0.1.91: omega_ch[0,1,91] = 0
- omega_empty_port_dis.0.1.91: omega_dis[0,1,91] = 0
- ev_empty_port_energy.0.1.91: energy[0,1,91] = 0
- omega_empty_port_ch.0.2.91: omega_ch[0,2,91] = 0
- omega_empty_port_dis.0.2.91: omega_dis[0,2,91] = 0
- ev_empty_port_energy.0.2.91: energy[0,2,91] = 0
- omega_empty_port_ch.0.3.91: omega_ch[0,3,91] = 0
- omega_empty_port_dis.0.3.91: omega_dis[0,3,91] = 0
- ev_empty_port_energy.0.3.91: energy[0,3,91] = 0
- omega_empty_port_ch.0.4.91: omega_ch[0,4,91] = 0
- omega_empty_port_dis.0.4.91: omega_dis[0,4,91] = 0
- ev_empty_port_energy.0.4.91: energy[0,4,91] = 0
- omega_empty_port_ch.0.5.91: omega_ch[0,5,91] = 0
- omega_empty_port_dis.0.5.91: omega_dis[0,5,91] = 0
- ev_empty_port_energy.0.5.91: energy[0,5,91] = 0
- omega_empty_port_ch.0.6.91: omega_ch[0,6,91] = 0
- omega_empty_port_dis.0.6.91: omega_dis[0,6,91] = 0
- ev_empty_port_energy.0.6.91: energy[0,6,91] = 0
- omega_empty_port_ch.0.7.91: omega_ch[0,7,91] = 0
- omega_empty_port_dis.0.7.91: omega_dis[0,7,91] = 0
- ev_empty_port_energy.0.7.91: energy[0,7,91] = 0
- omega_empty_port_ch.0.8.91: omega_ch[0,8,91] = 0
- omega_empty_port_dis.0.8.91: omega_dis[0,8,91] = 0
- ev_empty_port_energy.0.8.91: energy[0,8,91] = 0
- omega_empty_port_ch.0.9.91: omega_ch[0,9,91] = 0
- omega_empty_port_dis.0.9.91: omega_dis[0,9,91] = 0
- ev_empty_port_energy.0.9.91: energy[0,9,91] = 0
- omega_empty_port_ch.0.10.91: omega_ch[0,10,91] = 0
- omega_empty_port_dis.0.10.91: omega_dis[0,10,91] = 0
- ev_empty_port_energy.0.10.91: energy[0,10,91] = 0
- omega_empty_port_ch.0.11.91: omega_ch[0,11,91] = 0
- omega_empty_port_dis.0.11.91: omega_dis[0,11,91] = 0
- ev_empty_port_energy.0.11.91: energy[0,11,91] = 0
- omega_empty_port_ch.0.12.91: omega_ch[0,12,91] = 0
- omega_empty_port_dis.0.12.91: omega_dis[0,12,91] = 0
- ev_empty_port_energy.0.12.91: energy[0,12,91] = 0
- omega_empty_port_ch.0.13.91: omega_ch[0,13,91] = 0
- omega_empty_port_dis.0.13.91: omega_dis[0,13,91] = 0
- ev_empty_port_energy.0.13.91: energy[0,13,91] = 0
- omega_empty_port_ch.0.14.91: omega_ch[0,14,91] = 0
- omega_empty_port_dis.0.14.91: omega_dis[0,14,91] = 0
- ev_empty_port_energy.0.14.91: energy[0,14,91] = 0
- omega_empty_port_ch.0.15.91: omega_ch[0,15,91] = 0
- omega_empty_port_dis.0.15.91: omega_dis[0,15,91] = 0
- ev_empty_port_energy.0.15.91: energy[0,15,91] = 0
- omega_empty_port_ch.0.16.91: omega_ch[0,16,91] = 0
- omega_empty_port_dis.0.16.91: omega_dis[0,16,91] = 0
- ev_empty_port_energy.0.16.91: energy[0,16,91] = 0
- omega_empty_port_ch.0.17.91: omega_ch[0,17,91] = 0
- omega_empty_port_dis.0.17.91: omega_dis[0,17,91] = 0
- ev_empty_port_energy.0.17.91: energy[0,17,91] = 0
- omega_empty_port_ch.0.18.91: omega_ch[0,18,91] = 0
- omega_empty_port_dis.0.18.91: omega_dis[0,18,91] = 0
- ev_empty_port_energy.0.18.91: energy[0,18,91] = 0
- omega_empty_port_ch.0.19.91: omega_ch[0,19,91] = 0
- omega_empty_port_dis.0.19.91: omega_dis[0,19,91] = 0
- ev_empty_port_energy.0.19.91: energy[0,19,91] = 0
- omega_empty_port_ch.0.20.91: omega_ch[0,20,91] = 0
- omega_empty_port_dis.0.20.91: omega_dis[0,20,91] = 0
- ev_empty_port_energy.0.20.91: energy[0,20,91] = 0
- omega_empty_port_ch.0.21.91: omega_ch[0,21,91] = 0
- omega_empty_port_dis.0.21.91: omega_dis[0,21,91] = 0
- ev_empty_port_energy.0.21.91: energy[0,21,91] = 0
- omega_empty_port_ch.0.22.91: omega_ch[0,22,91] = 0
- omega_empty_port_dis.0.22.91: omega_dis[0,22,91] = 0
- ev_empty_port_energy.0.22.91: energy[0,22,91] = 0
- omega_empty_port_ch.0.23.91: omega_ch[0,23,91] = 0
- omega_empty_port_dis.0.23.91: omega_dis[0,23,91] = 0
- ev_empty_port_energy.0.23.91: energy[0,23,91] = 0
- omega_empty_port_ch.0.24.91: omega_ch[0,24,91] = 0
- omega_empty_port_dis.0.24.91: omega_dis[0,24,91] = 0
- ev_empty_port_energy.0.24.91: energy[0,24,91] = 0
- omega_empty_port_ch.0.0.92: omega_ch[0,0,92] = 0
- omega_empty_port_dis.0.0.92: omega_dis[0,0,92] = 0
- ev_empty_port_energy.0.0.92: energy[0,0,92] = 0
- omega_empty_port_ch.0.1.92: omega_ch[0,1,92] = 0
- omega_empty_port_dis.0.1.92: omega_dis[0,1,92] = 0
- ev_empty_port_energy.0.1.92: energy[0,1,92] = 0
- omega_empty_port_ch.0.2.92: omega_ch[0,2,92] = 0
- omega_empty_port_dis.0.2.92: omega_dis[0,2,92] = 0
- ev_empty_port_energy.0.2.92: energy[0,2,92] = 0
- omega_empty_port_ch.0.3.92: omega_ch[0,3,92] = 0
- omega_empty_port_dis.0.3.92: omega_dis[0,3,92] = 0
- ev_empty_port_energy.0.3.92: energy[0,3,92] = 0
- omega_empty_port_ch.0.4.92: omega_ch[0,4,92] = 0
- omega_empty_port_dis.0.4.92: omega_dis[0,4,92] = 0
- ev_empty_port_energy.0.4.92: energy[0,4,92] = 0
- omega_empty_port_ch.0.5.92: omega_ch[0,5,92] = 0
- omega_empty_port_dis.0.5.92: omega_dis[0,5,92] = 0
- ev_empty_port_energy.0.5.92: energy[0,5,92] = 0
- omega_empty_port_ch.0.6.92: omega_ch[0,6,92] = 0
- omega_empty_port_dis.0.6.92: omega_dis[0,6,92] = 0
- ev_empty_port_energy.0.6.92: energy[0,6,92] = 0
- omega_empty_port_ch.0.7.92: omega_ch[0,7,92] = 0
- omega_empty_port_dis.0.7.92: omega_dis[0,7,92] = 0
- ev_empty_port_energy.0.7.92: energy[0,7,92] = 0
- omega_empty_port_ch.0.8.92: omega_ch[0,8,92] = 0
- omega_empty_port_dis.0.8.92: omega_dis[0,8,92] = 0
- ev_empty_port_energy.0.8.92: energy[0,8,92] = 0
- omega_empty_port_ch.0.9.92: omega_ch[0,9,92] = 0
- omega_empty_port_dis.0.9.92: omega_dis[0,9,92] = 0
- ev_empty_port_energy.0.9.92: energy[0,9,92] = 0
- omega_empty_port_ch.0.10.92: omega_ch[0,10,92] = 0
- omega_empty_port_dis.0.10.92: omega_dis[0,10,92] = 0
- ev_empty_port_energy.0.10.92: energy[0,10,92] = 0
- omega_empty_port_ch.0.11.92: omega_ch[0,11,92] = 0
- omega_empty_port_dis.0.11.92: omega_dis[0,11,92] = 0
- ev_empty_port_energy.0.11.92: energy[0,11,92] = 0
- omega_empty_port_ch.0.12.92: omega_ch[0,12,92] = 0
- omega_empty_port_dis.0.12.92: omega_dis[0,12,92] = 0
- ev_empty_port_energy.0.12.92: energy[0,12,92] = 0
- omega_empty_port_ch.0.13.92: omega_ch[0,13,92] = 0
- omega_empty_port_dis.0.13.92: omega_dis[0,13,92] = 0
- ev_empty_port_energy.0.13.92: energy[0,13,92] = 0
- omega_empty_port_ch.0.14.92: omega_ch[0,14,92] = 0
- omega_empty_port_dis.0.14.92: omega_dis[0,14,92] = 0
- ev_empty_port_energy.0.14.92: energy[0,14,92] = 0
- omega_empty_port_ch.0.15.92: omega_ch[0,15,92] = 0
- omega_empty_port_dis.0.15.92: omega_dis[0,15,92] = 0
- ev_empty_port_energy.0.15.92: energy[0,15,92] = 0
- omega_empty_port_ch.0.16.92: omega_ch[0,16,92] = 0
- omega_empty_port_dis.0.16.92: omega_dis[0,16,92] = 0
- ev_empty_port_energy.0.16.92: energy[0,16,92] = 0
- omega_empty_port_ch.0.17.92: omega_ch[0,17,92] = 0
- omega_empty_port_dis.0.17.92: omega_dis[0,17,92] = 0
- ev_empty_port_energy.0.17.92: energy[0,17,92] = 0
- omega_empty_port_ch.0.18.92: omega_ch[0,18,92] = 0
- omega_empty_port_dis.0.18.92: omega_dis[0,18,92] = 0
- ev_empty_port_energy.0.18.92: energy[0,18,92] = 0
- omega_empty_port_ch.0.19.92: omega_ch[0,19,92] = 0
- omega_empty_port_dis.0.19.92: omega_dis[0,19,92] = 0
- ev_empty_port_energy.0.19.92: energy[0,19,92] = 0
- omega_empty_port_ch.0.20.92: omega_ch[0,20,92] = 0
- omega_empty_port_dis.0.20.92: omega_dis[0,20,92] = 0
- ev_empty_port_energy.0.20.92: energy[0,20,92] = 0
- omega_empty_port_ch.0.21.92: omega_ch[0,21,92] = 0
- omega_empty_port_dis.0.21.92: omega_dis[0,21,92] = 0
- ev_empty_port_energy.0.21.92: energy[0,21,92] = 0
- omega_empty_port_ch.0.22.92: omega_ch[0,22,92] = 0
- omega_empty_port_dis.0.22.92: omega_dis[0,22,92] = 0
- ev_empty_port_energy.0.22.92: energy[0,22,92] = 0
- omega_empty_port_ch.0.23.92: omega_ch[0,23,92] = 0
- omega_empty_port_dis.0.23.92: omega_dis[0,23,92] = 0
- ev_empty_port_energy.0.23.92: energy[0,23,92] = 0
- omega_empty_port_ch.0.24.92: omega_ch[0,24,92] = 0
- omega_empty_port_dis.0.24.92: omega_dis[0,24,92] = 0
- ev_empty_port_energy.0.24.92: energy[0,24,92] = 0
- omega_empty_port_ch.0.0.93: omega_ch[0,0,93] = 0
- omega_empty_port_dis.0.0.93: omega_dis[0,0,93] = 0
- ev_empty_port_energy.0.0.93: energy[0,0,93] = 0
- omega_empty_port_ch.0.1.93: omega_ch[0,1,93] = 0
- omega_empty_port_dis.0.1.93: omega_dis[0,1,93] = 0
- ev_empty_port_energy.0.1.93: energy[0,1,93] = 0
- omega_empty_port_ch.0.2.93: omega_ch[0,2,93] = 0
- omega_empty_port_dis.0.2.93: omega_dis[0,2,93] = 0
- ev_empty_port_energy.0.2.93: energy[0,2,93] = 0
- omega_empty_port_ch.0.3.93: omega_ch[0,3,93] = 0
- omega_empty_port_dis.0.3.93: omega_dis[0,3,93] = 0
- ev_empty_port_energy.0.3.93: energy[0,3,93] = 0
- omega_empty_port_ch.0.4.93: omega_ch[0,4,93] = 0
- omega_empty_port_dis.0.4.93: omega_dis[0,4,93] = 0
- ev_empty_port_energy.0.4.93: energy[0,4,93] = 0
- omega_empty_port_ch.0.5.93: omega_ch[0,5,93] = 0
- omega_empty_port_dis.0.5.93: omega_dis[0,5,93] = 0
- ev_empty_port_energy.0.5.93: energy[0,5,93] = 0
- omega_empty_port_ch.0.6.93: omega_ch[0,6,93] = 0
- omega_empty_port_dis.0.6.93: omega_dis[0,6,93] = 0
- ev_empty_port_energy.0.6.93: energy[0,6,93] = 0
- omega_empty_port_ch.0.7.93: omega_ch[0,7,93] = 0
- omega_empty_port_dis.0.7.93: omega_dis[0,7,93] = 0
- ev_empty_port_energy.0.7.93: energy[0,7,93] = 0
- omega_empty_port_ch.0.8.93: omega_ch[0,8,93] = 0
- omega_empty_port_dis.0.8.93: omega_dis[0,8,93] = 0
- ev_empty_port_energy.0.8.93: energy[0,8,93] = 0
- omega_empty_port_ch.0.9.93: omega_ch[0,9,93] = 0
- omega_empty_port_dis.0.9.93: omega_dis[0,9,93] = 0
- ev_empty_port_energy.0.9.93: energy[0,9,93] = 0
- omega_empty_port_ch.0.10.93: omega_ch[0,10,93] = 0
- omega_empty_port_dis.0.10.93: omega_dis[0,10,93] = 0
- ev_empty_port_energy.0.10.93: energy[0,10,93] = 0
- omega_empty_port_ch.0.11.93: omega_ch[0,11,93] = 0
- omega_empty_port_dis.0.11.93: omega_dis[0,11,93] = 0
- ev_empty_port_energy.0.11.93: energy[0,11,93] = 0
- omega_empty_port_ch.0.12.93: omega_ch[0,12,93] = 0
- omega_empty_port_dis.0.12.93: omega_dis[0,12,93] = 0
- ev_empty_port_energy.0.12.93: energy[0,12,93] = 0
- omega_empty_port_ch.0.13.93: omega_ch[0,13,93] = 0
- omega_empty_port_dis.0.13.93: omega_dis[0,13,93] = 0
- ev_empty_port_energy.0.13.93: energy[0,13,93] = 0
- omega_empty_port_ch.0.14.93: omega_ch[0,14,93] = 0
- omega_empty_port_dis.0.14.93: omega_dis[0,14,93] = 0
- ev_empty_port_energy.0.14.93: energy[0,14,93] = 0
- omega_empty_port_ch.0.15.93: omega_ch[0,15,93] = 0
- omega_empty_port_dis.0.15.93: omega_dis[0,15,93] = 0
- ev_empty_port_energy.0.15.93: energy[0,15,93] = 0
- omega_empty_port_ch.0.16.93: omega_ch[0,16,93] = 0
- omega_empty_port_dis.0.16.93: omega_dis[0,16,93] = 0
- ev_empty_port_energy.0.16.93: energy[0,16,93] = 0
- omega_empty_port_ch.0.17.93: omega_ch[0,17,93] = 0
- omega_empty_port_dis.0.17.93: omega_dis[0,17,93] = 0
- ev_empty_port_energy.0.17.93: energy[0,17,93] = 0
- omega_empty_port_ch.0.18.93: omega_ch[0,18,93] = 0
- omega_empty_port_dis.0.18.93: omega_dis[0,18,93] = 0
- ev_empty_port_energy.0.18.93: energy[0,18,93] = 0
- omega_empty_port_ch.0.19.93: omega_ch[0,19,93] = 0
- omega_empty_port_dis.0.19.93: omega_dis[0,19,93] = 0
- ev_empty_port_energy.0.19.93: energy[0,19,93] = 0
- omega_empty_port_ch.0.20.93: omega_ch[0,20,93] = 0
- omega_empty_port_dis.0.20.93: omega_dis[0,20,93] = 0
- ev_empty_port_energy.0.20.93: energy[0,20,93] = 0
- omega_empty_port_ch.0.21.93: omega_ch[0,21,93] = 0
- omega_empty_port_dis.0.21.93: omega_dis[0,21,93] = 0
- ev_empty_port_energy.0.21.93: energy[0,21,93] = 0
- omega_empty_port_ch.0.22.93: omega_ch[0,22,93] = 0
- omega_empty_port_dis.0.22.93: omega_dis[0,22,93] = 0
- ev_empty_port_energy.0.22.93: energy[0,22,93] = 0
- omega_empty_port_ch.0.23.93: omega_ch[0,23,93] = 0
- omega_empty_port_dis.0.23.93: omega_dis[0,23,93] = 0
- ev_empty_port_energy.0.23.93: energy[0,23,93] = 0
- omega_empty_port_ch.0.24.93: omega_ch[0,24,93] = 0
- omega_empty_port_dis.0.24.93: omega_dis[0,24,93] = 0
- ev_empty_port_energy.0.24.93: energy[0,24,93] = 0
- omega_empty_port_ch.0.0.94: omega_ch[0,0,94] = 0
- omega_empty_port_dis.0.0.94: omega_dis[0,0,94] = 0
- ev_empty_port_energy.0.0.94: energy[0,0,94] = 0
- omega_empty_port_ch.0.1.94: omega_ch[0,1,94] = 0
- omega_empty_port_dis.0.1.94: omega_dis[0,1,94] = 0
- ev_empty_port_energy.0.1.94: energy[0,1,94] = 0
- omega_empty_port_ch.0.2.94: omega_ch[0,2,94] = 0
- omega_empty_port_dis.0.2.94: omega_dis[0,2,94] = 0
- ev_empty_port_energy.0.2.94: energy[0,2,94] = 0
- omega_empty_port_ch.0.3.94: omega_ch[0,3,94] = 0
- omega_empty_port_dis.0.3.94: omega_dis[0,3,94] = 0
- ev_empty_port_energy.0.3.94: energy[0,3,94] = 0
- omega_empty_port_ch.0.4.94: omega_ch[0,4,94] = 0
- omega_empty_port_dis.0.4.94: omega_dis[0,4,94] = 0
- ev_empty_port_energy.0.4.94: energy[0,4,94] = 0
- omega_empty_port_ch.0.5.94: omega_ch[0,5,94] = 0
- omega_empty_port_dis.0.5.94: omega_dis[0,5,94] = 0
- ev_empty_port_energy.0.5.94: energy[0,5,94] = 0
- omega_empty_port_ch.0.6.94: omega_ch[0,6,94] = 0
- omega_empty_port_dis.0.6.94: omega_dis[0,6,94] = 0
- ev_empty_port_energy.0.6.94: energy[0,6,94] = 0
- omega_empty_port_ch.0.7.94: omega_ch[0,7,94] = 0
- omega_empty_port_dis.0.7.94: omega_dis[0,7,94] = 0
- ev_empty_port_energy.0.7.94: energy[0,7,94] = 0
- omega_empty_port_ch.0.8.94: omega_ch[0,8,94] = 0
- omega_empty_port_dis.0.8.94: omega_dis[0,8,94] = 0
- ev_empty_port_energy.0.8.94: energy[0,8,94] = 0
- omega_empty_port_ch.0.9.94: omega_ch[0,9,94] = 0
- omega_empty_port_dis.0.9.94: omega_dis[0,9,94] = 0
- ev_empty_port_energy.0.9.94: energy[0,9,94] = 0
- omega_empty_port_ch.0.10.94: omega_ch[0,10,94] = 0
- omega_empty_port_dis.0.10.94: omega_dis[0,10,94] = 0
- ev_empty_port_energy.0.10.94: energy[0,10,94] = 0
- omega_empty_port_ch.0.11.94: omega_ch[0,11,94] = 0
- omega_empty_port_dis.0.11.94: omega_dis[0,11,94] = 0
- ev_empty_port_energy.0.11.94: energy[0,11,94] = 0
- omega_empty_port_ch.0.12.94: omega_ch[0,12,94] = 0
- omega_empty_port_dis.0.12.94: omega_dis[0,12,94] = 0
- ev_empty_port_energy.0.12.94: energy[0,12,94] = 0
- omega_empty_port_ch.0.13.94: omega_ch[0,13,94] = 0
- omega_empty_port_dis.0.13.94: omega_dis[0,13,94] = 0
- ev_empty_port_energy.0.13.94: energy[0,13,94] = 0
- omega_empty_port_ch.0.14.94: omega_ch[0,14,94] = 0
- omega_empty_port_dis.0.14.94: omega_dis[0,14,94] = 0
- ev_empty_port_energy.0.14.94: energy[0,14,94] = 0
- omega_empty_port_ch.0.15.94: omega_ch[0,15,94] = 0
- omega_empty_port_dis.0.15.94: omega_dis[0,15,94] = 0
- ev_empty_port_energy.0.15.94: energy[0,15,94] = 0
- omega_empty_port_ch.0.16.94: omega_ch[0,16,94] = 0
- omega_empty_port_dis.0.16.94: omega_dis[0,16,94] = 0
- ev_empty_port_energy.0.16.94: energy[0,16,94] = 0
- omega_empty_port_ch.0.17.94: omega_ch[0,17,94] = 0
- omega_empty_port_dis.0.17.94: omega_dis[0,17,94] = 0
- ev_empty_port_energy.0.17.94: energy[0,17,94] = 0
- omega_empty_port_ch.0.18.94: omega_ch[0,18,94] = 0
- omega_empty_port_dis.0.18.94: omega_dis[0,18,94] = 0
- ev_empty_port_energy.0.18.94: energy[0,18,94] = 0
- omega_empty_port_ch.0.19.94: omega_ch[0,19,94] = 0
- omega_empty_port_dis.0.19.94: omega_dis[0,19,94] = 0
- ev_empty_port_energy.0.19.94: energy[0,19,94] = 0
- omega_empty_port_ch.0.20.94: omega_ch[0,20,94] = 0
- omega_empty_port_dis.0.20.94: omega_dis[0,20,94] = 0
- ev_empty_port_energy.0.20.94: energy[0,20,94] = 0
- omega_empty_port_ch.0.21.94: omega_ch[0,21,94] = 0
- omega_empty_port_dis.0.21.94: omega_dis[0,21,94] = 0
- ev_empty_port_energy.0.21.94: energy[0,21,94] = 0
- omega_empty_port_ch.0.22.94: omega_ch[0,22,94] = 0
- omega_empty_port_dis.0.22.94: omega_dis[0,22,94] = 0
- ev_empty_port_energy.0.22.94: energy[0,22,94] = 0
- omega_empty_port_ch.0.23.94: omega_ch[0,23,94] = 0
- omega_empty_port_dis.0.23.94: omega_dis[0,23,94] = 0
- ev_empty_port_energy.0.23.94: energy[0,23,94] = 0
- omega_empty_port_ch.0.24.94: omega_ch[0,24,94] = 0
- omega_empty_port_dis.0.24.94: omega_dis[0,24,94] = 0
- ev_empty_port_energy.0.24.94: energy[0,24,94] = 0
- omega_empty_port_ch.0.0.95: omega_ch[0,0,95] = 0
- omega_empty_port_dis.0.0.95: omega_dis[0,0,95] = 0
- ev_empty_port_energy.0.0.95: energy[0,0,95] = 0
- omega_empty_port_ch.0.1.95: omega_ch[0,1,95] = 0
- omega_empty_port_dis.0.1.95: omega_dis[0,1,95] = 0
- ev_empty_port_energy.0.1.95: energy[0,1,95] = 0
- omega_empty_port_ch.0.2.95: omega_ch[0,2,95] = 0
- omega_empty_port_dis.0.2.95: omega_dis[0,2,95] = 0
- ev_empty_port_energy.0.2.95: energy[0,2,95] = 0
- omega_empty_port_ch.0.3.95: omega_ch[0,3,95] = 0
- omega_empty_port_dis.0.3.95: omega_dis[0,3,95] = 0
- ev_empty_port_energy.0.3.95: energy[0,3,95] = 0
- omega_empty_port_ch.0.4.95: omega_ch[0,4,95] = 0
- omega_empty_port_dis.0.4.95: omega_dis[0,4,95] = 0
- ev_empty_port_energy.0.4.95: energy[0,4,95] = 0
- omega_empty_port_ch.0.5.95: omega_ch[0,5,95] = 0
- omega_empty_port_dis.0.5.95: omega_dis[0,5,95] = 0
- ev_empty_port_energy.0.5.95: energy[0,5,95] = 0
- omega_empty_port_ch.0.6.95: omega_ch[0,6,95] = 0
- omega_empty_port_dis.0.6.95: omega_dis[0,6,95] = 0
- ev_empty_port_energy.0.6.95: energy[0,6,95] = 0
- omega_empty_port_ch.0.7.95: omega_ch[0,7,95] = 0
- omega_empty_port_dis.0.7.95: omega_dis[0,7,95] = 0
- ev_empty_port_energy.0.7.95: energy[0,7,95] = 0
- omega_empty_port_ch.0.8.95: omega_ch[0,8,95] = 0
- omega_empty_port_dis.0.8.95: omega_dis[0,8,95] = 0
- ev_empty_port_energy.0.8.95: energy[0,8,95] = 0
- omega_empty_port_ch.0.9.95: omega_ch[0,9,95] = 0
- omega_empty_port_dis.0.9.95: omega_dis[0,9,95] = 0
- ev_empty_port_energy.0.9.95: energy[0,9,95] = 0
- omega_empty_port_ch.0.10.95: omega_ch[0,10,95] = 0
- omega_empty_port_dis.0.10.95: omega_dis[0,10,95] = 0
- ev_empty_port_energy.0.10.95: energy[0,10,95] = 0
- omega_empty_port_ch.0.11.95: omega_ch[0,11,95] = 0
- omega_empty_port_dis.0.11.95: omega_dis[0,11,95] = 0
- ev_empty_port_energy.0.11.95: energy[0,11,95] = 0
- omega_empty_port_ch.0.12.95: omega_ch[0,12,95] = 0
- omega_empty_port_dis.0.12.95: omega_dis[0,12,95] = 0
- ev_empty_port_energy.0.12.95: energy[0,12,95] = 0
- omega_empty_port_ch.0.13.95: omega_ch[0,13,95] = 0
- omega_empty_port_dis.0.13.95: omega_dis[0,13,95] = 0
- ev_empty_port_energy.0.13.95: energy[0,13,95] = 0
- omega_empty_port_ch.0.14.95: omega_ch[0,14,95] = 0
- omega_empty_port_dis.0.14.95: omega_dis[0,14,95] = 0
- ev_empty_port_energy.0.14.95: energy[0,14,95] = 0
- omega_empty_port_ch.0.15.95: omega_ch[0,15,95] = 0
- omega_empty_port_dis.0.15.95: omega_dis[0,15,95] = 0
- ev_empty_port_energy.0.15.95: energy[0,15,95] = 0
- omega_empty_port_ch.0.16.95: omega_ch[0,16,95] = 0
- omega_empty_port_dis.0.16.95: omega_dis[0,16,95] = 0
- ev_empty_port_energy.0.16.95: energy[0,16,95] = 0
- omega_empty_port_ch.0.17.95: omega_ch[0,17,95] = 0
- omega_empty_port_dis.0.17.95: omega_dis[0,17,95] = 0
- ev_empty_port_energy.0.17.95: energy[0,17,95] = 0
- omega_empty_port_ch.0.18.95: omega_ch[0,18,95] = 0
- omega_empty_port_dis.0.18.95: omega_dis[0,18,95] = 0
- ev_empty_port_energy.0.18.95: energy[0,18,95] = 0
- omega_empty_port_ch.0.19.95: omega_ch[0,19,95] = 0
- omega_empty_port_dis.0.19.95: omega_dis[0,19,95] = 0
- ev_empty_port_energy.0.19.95: energy[0,19,95] = 0
- omega_empty_port_ch.0.20.95: omega_ch[0,20,95] = 0
- omega_empty_port_dis.0.20.95: omega_dis[0,20,95] = 0
- ev_empty_port_energy.0.20.95: energy[0,20,95] = 0
- omega_empty_port_ch.0.21.95: omega_ch[0,21,95] = 0
- omega_empty_port_dis.0.21.95: omega_dis[0,21,95] = 0
- ev_empty_port_energy.0.21.95: energy[0,21,95] = 0
- omega_empty_port_ch.0.22.95: omega_ch[0,22,95] = 0
- omega_empty_port_dis.0.22.95: omega_dis[0,22,95] = 0
- ev_empty_port_energy.0.22.95: energy[0,22,95] = 0
- omega_empty_port_ch.0.23.95: omega_ch[0,23,95] = 0
- omega_empty_port_dis.0.23.95: omega_dis[0,23,95] = 0
- ev_empty_port_energy.0.23.95: energy[0,23,95] = 0
- omega_empty_port_ch.0.24.95: omega_ch[0,24,95] = 0
- omega_empty_port_dis.0.24.95: omega_dis[0,24,95] = 0
- ev_empty_port_energy.0.24.95: energy[0,24,95] = 0
- omega_empty_port_ch.0.0.96: omega_ch[0,0,96] = 0
- omega_empty_port_dis.0.0.96: omega_dis[0,0,96] = 0
- ev_empty_port_energy.0.0.96: energy[0,0,96] = 0
- omega_empty_port_ch.0.1.96: omega_ch[0,1,96] = 0
- omega_empty_port_dis.0.1.96: omega_dis[0,1,96] = 0
- ev_empty_port_energy.0.1.96: energy[0,1,96] = 0
- omega_empty_port_ch.0.2.96: omega_ch[0,2,96] = 0
- omega_empty_port_dis.0.2.96: omega_dis[0,2,96] = 0
- ev_empty_port_energy.0.2.96: energy[0,2,96] = 0
- omega_empty_port_ch.0.3.96: omega_ch[0,3,96] = 0
- omega_empty_port_dis.0.3.96: omega_dis[0,3,96] = 0
- ev_empty_port_energy.0.3.96: energy[0,3,96] = 0
- omega_empty_port_ch.0.4.96: omega_ch[0,4,96] = 0
- omega_empty_port_dis.0.4.96: omega_dis[0,4,96] = 0
- ev_empty_port_energy.0.4.96: energy[0,4,96] = 0
- omega_empty_port_ch.0.5.96: omega_ch[0,5,96] = 0
- omega_empty_port_dis.0.5.96: omega_dis[0,5,96] = 0
- ev_empty_port_energy.0.5.96: energy[0,5,96] = 0
- omega_empty_port_ch.0.6.96: omega_ch[0,6,96] = 0
- omega_empty_port_dis.0.6.96: omega_dis[0,6,96] = 0
- ev_empty_port_energy.0.6.96: energy[0,6,96] = 0
- omega_empty_port_ch.0.7.96: omega_ch[0,7,96] = 0
- omega_empty_port_dis.0.7.96: omega_dis[0,7,96] = 0
- ev_empty_port_energy.0.7.96: energy[0,7,96] = 0
- omega_empty_port_ch.0.8.96: omega_ch[0,8,96] = 0
- omega_empty_port_dis.0.8.96: omega_dis[0,8,96] = 0
- ev_empty_port_energy.0.8.96: energy[0,8,96] = 0
- omega_empty_port_ch.0.9.96: omega_ch[0,9,96] = 0
- omega_empty_port_dis.0.9.96: omega_dis[0,9,96] = 0
- ev_empty_port_energy.0.9.96: energy[0,9,96] = 0
- omega_empty_port_ch.0.10.96: omega_ch[0,10,96] = 0
- omega_empty_port_dis.0.10.96: omega_dis[0,10,96] = 0
- ev_empty_port_energy.0.10.96: energy[0,10,96] = 0
- omega_empty_port_ch.0.11.96: omega_ch[0,11,96] = 0
- omega_empty_port_dis.0.11.96: omega_dis[0,11,96] = 0
- ev_empty_port_energy.0.11.96: energy[0,11,96] = 0
- omega_empty_port_ch.0.12.96: omega_ch[0,12,96] = 0
- omega_empty_port_dis.0.12.96: omega_dis[0,12,96] = 0
- ev_empty_port_energy.0.12.96: energy[0,12,96] = 0
- omega_empty_port_ch.0.13.96: omega_ch[0,13,96] = 0
- omega_empty_port_dis.0.13.96: omega_dis[0,13,96] = 0
- ev_empty_port_energy.0.13.96: energy[0,13,96] = 0
- omega_empty_port_ch.0.14.96: omega_ch[0,14,96] = 0
- omega_empty_port_dis.0.14.96: omega_dis[0,14,96] = 0
- ev_empty_port_energy.0.14.96: energy[0,14,96] = 0
- omega_empty_port_ch.0.15.96: omega_ch[0,15,96] = 0
- omega_empty_port_dis.0.15.96: omega_dis[0,15,96] = 0
- ev_empty_port_energy.0.15.96: energy[0,15,96] = 0
- omega_empty_port_ch.0.16.96: omega_ch[0,16,96] = 0
- omega_empty_port_dis.0.16.96: omega_dis[0,16,96] = 0
- ev_empty_port_energy.0.16.96: energy[0,16,96] = 0
- omega_empty_port_ch.0.17.96: omega_ch[0,17,96] = 0
- omega_empty_port_dis.0.17.96: omega_dis[0,17,96] = 0
- ev_empty_port_energy.0.17.96: energy[0,17,96] = 0
- omega_empty_port_ch.0.18.96: omega_ch[0,18,96] = 0
- omega_empty_port_dis.0.18.96: omega_dis[0,18,96] = 0
- ev_empty_port_energy.0.18.96: energy[0,18,96] = 0
- omega_empty_port_ch.0.19.96: omega_ch[0,19,96] = 0
- omega_empty_port_dis.0.19.96: omega_dis[0,19,96] = 0
- ev_empty_port_energy.0.19.96: energy[0,19,96] = 0
- omega_empty_port_ch.0.20.96: omega_ch[0,20,96] = 0
- omega_empty_port_dis.0.20.96: omega_dis[0,20,96] = 0
- ev_empty_port_energy.0.20.96: energy[0,20,96] = 0
- omega_empty_port_ch.0.21.96: omega_ch[0,21,96] = 0
- omega_empty_port_dis.0.21.96: omega_dis[0,21,96] = 0
- ev_empty_port_energy.0.21.96: energy[0,21,96] = 0
- omega_empty_port_ch.0.22.96: omega_ch[0,22,96] = 0
- omega_empty_port_dis.0.22.96: omega_dis[0,22,96] = 0
- ev_empty_port_energy.0.22.96: energy[0,22,96] = 0
- omega_empty_port_ch.0.23.96: omega_ch[0,23,96] = 0
- omega_empty_port_dis.0.23.96: omega_dis[0,23,96] = 0
- ev_empty_port_energy.0.23.96: energy[0,23,96] = 0
- omega_empty_port_ch.0.24.96: omega_ch[0,24,96] = 0
- omega_empty_port_dis.0.24.96: omega_dis[0,24,96] = 0
- ev_empty_port_energy.0.24.96: energy[0,24,96] = 0
- omega_empty_port_ch.0.0.97: omega_ch[0,0,97] = 0
- omega_empty_port_dis.0.0.97: omega_dis[0,0,97] = 0
- ev_empty_port_energy.0.0.97: energy[0,0,97] = 0
- omega_empty_port_ch.0.1.97: omega_ch[0,1,97] = 0
- omega_empty_port_dis.0.1.97: omega_dis[0,1,97] = 0
- ev_empty_port_energy.0.1.97: energy[0,1,97] = 0
- omega_empty_port_ch.0.2.97: omega_ch[0,2,97] = 0
- omega_empty_port_dis.0.2.97: omega_dis[0,2,97] = 0
- ev_empty_port_energy.0.2.97: energy[0,2,97] = 0
- omega_empty_port_ch.0.3.97: omega_ch[0,3,97] = 0
- omega_empty_port_dis.0.3.97: omega_dis[0,3,97] = 0
- ev_empty_port_energy.0.3.97: energy[0,3,97] = 0
- omega_empty_port_ch.0.4.97: omega_ch[0,4,97] = 0
- omega_empty_port_dis.0.4.97: omega_dis[0,4,97] = 0
- ev_empty_port_energy.0.4.97: energy[0,4,97] = 0
- omega_empty_port_ch.0.5.97: omega_ch[0,5,97] = 0
- omega_empty_port_dis.0.5.97: omega_dis[0,5,97] = 0
- ev_empty_port_energy.0.5.97: energy[0,5,97] = 0
- omega_empty_port_ch.0.6.97: omega_ch[0,6,97] = 0
- omega_empty_port_dis.0.6.97: omega_dis[0,6,97] = 0
- ev_empty_port_energy.0.6.97: energy[0,6,97] = 0
- omega_empty_port_ch.0.7.97: omega_ch[0,7,97] = 0
- omega_empty_port_dis.0.7.97: omega_dis[0,7,97] = 0
- ev_empty_port_energy.0.7.97: energy[0,7,97] = 0
- omega_empty_port_ch.0.8.97: omega_ch[0,8,97] = 0
- omega_empty_port_dis.0.8.97: omega_dis[0,8,97] = 0
- ev_empty_port_energy.0.8.97: energy[0,8,97] = 0
- omega_empty_port_ch.0.9.97: omega_ch[0,9,97] = 0
- omega_empty_port_dis.0.9.97: omega_dis[0,9,97] = 0
- ev_empty_port_energy.0.9.97: energy[0,9,97] = 0
- omega_empty_port_ch.0.10.97: omega_ch[0,10,97] = 0
- omega_empty_port_dis.0.10.97: omega_dis[0,10,97] = 0
- ev_empty_port_energy.0.10.97: energy[0,10,97] = 0
- omega_empty_port_ch.0.11.97: omega_ch[0,11,97] = 0
- omega_empty_port_dis.0.11.97: omega_dis[0,11,97] = 0
- ev_empty_port_energy.0.11.97: energy[0,11,97] = 0
- omega_empty_port_ch.0.12.97: omega_ch[0,12,97] = 0
- omega_empty_port_dis.0.12.97: omega_dis[0,12,97] = 0
- ev_empty_port_energy.0.12.97: energy[0,12,97] = 0
- omega_empty_port_ch.0.13.97: omega_ch[0,13,97] = 0
- omega_empty_port_dis.0.13.97: omega_dis[0,13,97] = 0
- ev_empty_port_energy.0.13.97: energy[0,13,97] = 0
- omega_empty_port_ch.0.14.97: omega_ch[0,14,97] = 0
- omega_empty_port_dis.0.14.97: omega_dis[0,14,97] = 0
- ev_empty_port_energy.0.14.97: energy[0,14,97] = 0
- omega_empty_port_ch.0.15.97: omega_ch[0,15,97] = 0
- omega_empty_port_dis.0.15.97: omega_dis[0,15,97] = 0
- ev_empty_port_energy.0.15.97: energy[0,15,97] = 0
- omega_empty_port_ch.0.16.97: omega_ch[0,16,97] = 0
- omega_empty_port_dis.0.16.97: omega_dis[0,16,97] = 0
- ev_empty_port_energy.0.16.97: energy[0,16,97] = 0
- omega_empty_port_ch.0.17.97: omega_ch[0,17,97] = 0
- omega_empty_port_dis.0.17.97: omega_dis[0,17,97] = 0
- ev_empty_port_energy.0.17.97: energy[0,17,97] = 0
- omega_empty_port_ch.0.18.97: omega_ch[0,18,97] = 0
- omega_empty_port_dis.0.18.97: omega_dis[0,18,97] = 0
- ev_empty_port_energy.0.18.97: energy[0,18,97] = 0
- omega_empty_port_ch.0.19.97: omega_ch[0,19,97] = 0
- omega_empty_port_dis.0.19.97: omega_dis[0,19,97] = 0
- ev_empty_port_energy.0.19.97: energy[0,19,97] = 0
- omega_empty_port_ch.0.20.97: omega_ch[0,20,97] = 0
- omega_empty_port_dis.0.20.97: omega_dis[0,20,97] = 0
- ev_empty_port_energy.0.20.97: energy[0,20,97] = 0
- omega_empty_port_ch.0.21.97: omega_ch[0,21,97] = 0
- omega_empty_port_dis.0.21.97: omega_dis[0,21,97] = 0
- ev_empty_port_energy.0.21.97: energy[0,21,97] = 0
- omega_empty_port_ch.0.22.97: omega_ch[0,22,97] = 0
- omega_empty_port_dis.0.22.97: omega_dis[0,22,97] = 0
- ev_empty_port_energy.0.22.97: energy[0,22,97] = 0
- omega_empty_port_ch.0.23.97: omega_ch[0,23,97] = 0
- omega_empty_port_dis.0.23.97: omega_dis[0,23,97] = 0
- ev_empty_port_energy.0.23.97: energy[0,23,97] = 0
- omega_empty_port_ch.0.24.97: omega_ch[0,24,97] = 0
- omega_empty_port_dis.0.24.97: omega_dis[0,24,97] = 0
- ev_empty_port_energy.0.24.97: energy[0,24,97] = 0
- omega_empty_port_ch.0.0.98: omega_ch[0,0,98] = 0
- omega_empty_port_dis.0.0.98: omega_dis[0,0,98] = 0
- ev_empty_port_energy.0.0.98: energy[0,0,98] = 0
- omega_empty_port_ch.0.1.98: omega_ch[0,1,98] = 0
- omega_empty_port_dis.0.1.98: omega_dis[0,1,98] = 0
- ev_empty_port_energy.0.1.98: energy[0,1,98] = 0
- omega_empty_port_ch.0.2.98: omega_ch[0,2,98] = 0
- omega_empty_port_dis.0.2.98: omega_dis[0,2,98] = 0
- ev_empty_port_energy.0.2.98: energy[0,2,98] = 0
- omega_empty_port_ch.0.3.98: omega_ch[0,3,98] = 0
- omega_empty_port_dis.0.3.98: omega_dis[0,3,98] = 0
- ev_empty_port_energy.0.3.98: energy[0,3,98] = 0
- omega_empty_port_ch.0.4.98: omega_ch[0,4,98] = 0
- omega_empty_port_dis.0.4.98: omega_dis[0,4,98] = 0
- ev_empty_port_energy.0.4.98: energy[0,4,98] = 0
- omega_empty_port_ch.0.5.98: omega_ch[0,5,98] = 0
- omega_empty_port_dis.0.5.98: omega_dis[0,5,98] = 0
- ev_empty_port_energy.0.5.98: energy[0,5,98] = 0
- omega_empty_port_ch.0.6.98: omega_ch[0,6,98] = 0
- omega_empty_port_dis.0.6.98: omega_dis[0,6,98] = 0
- ev_empty_port_energy.0.6.98: energy[0,6,98] = 0
- omega_empty_port_ch.0.7.98: omega_ch[0,7,98] = 0
- omega_empty_port_dis.0.7.98: omega_dis[0,7,98] = 0
- ev_empty_port_energy.0.7.98: energy[0,7,98] = 0
- omega_empty_port_ch.0.8.98: omega_ch[0,8,98] = 0
- omega_empty_port_dis.0.8.98: omega_dis[0,8,98] = 0
- ev_empty_port_energy.0.8.98: energy[0,8,98] = 0
- omega_empty_port_ch.0.9.98: omega_ch[0,9,98] = 0
- omega_empty_port_dis.0.9.98: omega_dis[0,9,98] = 0
- ev_empty_port_energy.0.9.98: energy[0,9,98] = 0
- omega_empty_port_ch.0.10.98: omega_ch[0,10,98] = 0
- omega_empty_port_dis.0.10.98: omega_dis[0,10,98] = 0
- ev_empty_port_energy.0.10.98: energy[0,10,98] = 0
- omega_empty_port_ch.0.11.98: omega_ch[0,11,98] = 0
- omega_empty_port_dis.0.11.98: omega_dis[0,11,98] = 0
- ev_empty_port_energy.0.11.98: energy[0,11,98] = 0
- omega_empty_port_ch.0.12.98: omega_ch[0,12,98] = 0
- omega_empty_port_dis.0.12.98: omega_dis[0,12,98] = 0
- ev_empty_port_energy.0.12.98: energy[0,12,98] = 0
- omega_empty_port_ch.0.13.98: omega_ch[0,13,98] = 0
- omega_empty_port_dis.0.13.98: omega_dis[0,13,98] = 0
- ev_empty_port_energy.0.13.98: energy[0,13,98] = 0
- omega_empty_port_ch.0.14.98: omega_ch[0,14,98] = 0
- omega_empty_port_dis.0.14.98: omega_dis[0,14,98] = 0
- ev_empty_port_energy.0.14.98: energy[0,14,98] = 0
- omega_empty_port_ch.0.15.98: omega_ch[0,15,98] = 0
- omega_empty_port_dis.0.15.98: omega_dis[0,15,98] = 0
- ev_empty_port_energy.0.15.98: energy[0,15,98] = 0
- omega_empty_port_ch.0.16.98: omega_ch[0,16,98] = 0
- omega_empty_port_dis.0.16.98: omega_dis[0,16,98] = 0
- ev_empty_port_energy.0.16.98: energy[0,16,98] = 0
- omega_empty_port_ch.0.17.98: omega_ch[0,17,98] = 0
- omega_empty_port_dis.0.17.98: omega_dis[0,17,98] = 0
- ev_empty_port_energy.0.17.98: energy[0,17,98] = 0
- omega_empty_port_ch.0.18.98: omega_ch[0,18,98] = 0
- omega_empty_port_dis.0.18.98: omega_dis[0,18,98] = 0
- ev_empty_port_energy.0.18.98: energy[0,18,98] = 0
- omega_empty_port_ch.0.19.98: omega_ch[0,19,98] = 0
- omega_empty_port_dis.0.19.98: omega_dis[0,19,98] = 0
- ev_empty_port_energy.0.19.98: energy[0,19,98] = 0
- omega_empty_port_ch.0.20.98: omega_ch[0,20,98] = 0
- omega_empty_port_dis.0.20.98: omega_dis[0,20,98] = 0
- ev_empty_port_energy.0.20.98: energy[0,20,98] = 0
- omega_empty_port_ch.0.21.98: omega_ch[0,21,98] = 0
- omega_empty_port_dis.0.21.98: omega_dis[0,21,98] = 0
- ev_empty_port_energy.0.21.98: energy[0,21,98] = 0
- omega_empty_port_ch.0.22.98: omega_ch[0,22,98] = 0
- omega_empty_port_dis.0.22.98: omega_dis[0,22,98] = 0
- ev_empty_port_energy.0.22.98: energy[0,22,98] = 0
- omega_empty_port_ch.0.23.98: omega_ch[0,23,98] = 0
- omega_empty_port_dis.0.23.98: omega_dis[0,23,98] = 0
- ev_empty_port_energy.0.23.98: energy[0,23,98] = 0
- omega_empty_port_ch.0.24.98: omega_ch[0,24,98] = 0
- omega_empty_port_dis.0.24.98: omega_dis[0,24,98] = 0
- ev_empty_port_energy.0.24.98: energy[0,24,98] = 0
- omega_empty_port_ch.0.0.99: omega_ch[0,0,99] = 0
- omega_empty_port_dis.0.0.99: omega_dis[0,0,99] = 0
- ev_empty_port_energy.0.0.99: energy[0,0,99] = 0
- omega_empty_port_ch.0.1.99: omega_ch[0,1,99] = 0
- omega_empty_port_dis.0.1.99: omega_dis[0,1,99] = 0
- ev_empty_port_energy.0.1.99: energy[0,1,99] = 0
- omega_empty_port_ch.0.2.99: omega_ch[0,2,99] = 0
- omega_empty_port_dis.0.2.99: omega_dis[0,2,99] = 0
- ev_empty_port_energy.0.2.99: energy[0,2,99] = 0
- omega_empty_port_ch.0.3.99: omega_ch[0,3,99] = 0
- omega_empty_port_dis.0.3.99: omega_dis[0,3,99] = 0
- ev_empty_port_energy.0.3.99: energy[0,3,99] = 0
- omega_empty_port_ch.0.4.99: omega_ch[0,4,99] = 0
- omega_empty_port_dis.0.4.99: omega_dis[0,4,99] = 0
- ev_empty_port_energy.0.4.99: energy[0,4,99] = 0
- omega_empty_port_ch.0.5.99: omega_ch[0,5,99] = 0
- omega_empty_port_dis.0.5.99: omega_dis[0,5,99] = 0
- ev_empty_port_energy.0.5.99: energy[0,5,99] = 0
- omega_empty_port_ch.0.6.99: omega_ch[0,6,99] = 0
- omega_empty_port_dis.0.6.99: omega_dis[0,6,99] = 0
- ev_empty_port_energy.0.6.99: energy[0,6,99] = 0
- omega_empty_port_ch.0.7.99: omega_ch[0,7,99] = 0
- omega_empty_port_dis.0.7.99: omega_dis[0,7,99] = 0
- ev_empty_port_energy.0.7.99: energy[0,7,99] = 0
- omega_empty_port_ch.0.8.99: omega_ch[0,8,99] = 0
- omega_empty_port_dis.0.8.99: omega_dis[0,8,99] = 0
- ev_empty_port_energy.0.8.99: energy[0,8,99] = 0
- omega_empty_port_ch.0.9.99: omega_ch[0,9,99] = 0
- omega_empty_port_dis.0.9.99: omega_dis[0,9,99] = 0
- ev_empty_port_energy.0.9.99: energy[0,9,99] = 0
- omega_empty_port_ch.0.10.99: omega_ch[0,10,99] = 0
- omega_empty_port_dis.0.10.99: omega_dis[0,10,99] = 0
- ev_empty_port_energy.0.10.99: energy[0,10,99] = 0
- omega_empty_port_ch.0.11.99: omega_ch[0,11,99] = 0
- omega_empty_port_dis.0.11.99: omega_dis[0,11,99] = 0
- ev_empty_port_energy.0.11.99: energy[0,11,99] = 0
- omega_empty_port_ch.0.12.99: omega_ch[0,12,99] = 0
- omega_empty_port_dis.0.12.99: omega_dis[0,12,99] = 0
- ev_empty_port_energy.0.12.99: energy[0,12,99] = 0
- omega_empty_port_ch.0.13.99: omega_ch[0,13,99] = 0
- omega_empty_port_dis.0.13.99: omega_dis[0,13,99] = 0
- ev_empty_port_energy.0.13.99: energy[0,13,99] = 0
- omega_empty_port_ch.0.14.99: omega_ch[0,14,99] = 0
- omega_empty_port_dis.0.14.99: omega_dis[0,14,99] = 0
- ev_empty_port_energy.0.14.99: energy[0,14,99] = 0
- omega_empty_port_ch.0.15.99: omega_ch[0,15,99] = 0
- omega_empty_port_dis.0.15.99: omega_dis[0,15,99] = 0
- ev_empty_port_energy.0.15.99: energy[0,15,99] = 0
- omega_empty_port_ch.0.16.99: omega_ch[0,16,99] = 0
- omega_empty_port_dis.0.16.99: omega_dis[0,16,99] = 0
- ev_empty_port_energy.0.16.99: energy[0,16,99] = 0
- omega_empty_port_ch.0.17.99: omega_ch[0,17,99] = 0
- omega_empty_port_dis.0.17.99: omega_dis[0,17,99] = 0
- ev_empty_port_energy.0.17.99: energy[0,17,99] = 0
- omega_empty_port_ch.0.18.99: omega_ch[0,18,99] = 0
- omega_empty_port_dis.0.18.99: omega_dis[0,18,99] = 0
- ev_empty_port_energy.0.18.99: energy[0,18,99] = 0
- omega_empty_port_ch.0.19.99: omega_ch[0,19,99] = 0
- omega_empty_port_dis.0.19.99: omega_dis[0,19,99] = 0
- ev_empty_port_energy.0.19.99: energy[0,19,99] = 0
- omega_empty_port_ch.0.20.99: omega_ch[0,20,99] = 0
- omega_empty_port_dis.0.20.99: omega_dis[0,20,99] = 0
- ev_empty_port_energy.0.20.99: energy[0,20,99] = 0
- omega_empty_port_ch.0.21.99: omega_ch[0,21,99] = 0
- omega_empty_port_dis.0.21.99: omega_dis[0,21,99] = 0
- ev_empty_port_energy.0.21.99: energy[0,21,99] = 0
- omega_empty_port_ch.0.22.99: omega_ch[0,22,99] = 0
- omega_empty_port_dis.0.22.99: omega_dis[0,22,99] = 0
- ev_empty_port_energy.0.22.99: energy[0,22,99] = 0
- omega_empty_port_ch.0.23.99: omega_ch[0,23,99] = 0
- omega_empty_port_dis.0.23.99: omega_dis[0,23,99] = 0
- ev_empty_port_energy.0.23.99: energy[0,23,99] = 0
- omega_empty_port_ch.0.24.99: omega_ch[0,24,99] = 0
- omega_empty_port_dis.0.24.99: omega_dis[0,24,99] = 0
- ev_empty_port_energy.0.24.99: energy[0,24,99] = 0
- omega_empty_port_ch.0.0.100: omega_ch[0,0,100] = 0
- omega_empty_port_dis.0.0.100: omega_dis[0,0,100] = 0
- ev_empty_port_energy.0.0.100: energy[0,0,100] = 0
- omega_empty_port_ch.0.1.100: omega_ch[0,1,100] = 0
- omega_empty_port_dis.0.1.100: omega_dis[0,1,100] = 0
- ev_empty_port_energy.0.1.100: energy[0,1,100] = 0
- omega_empty_port_ch.0.2.100: omega_ch[0,2,100] = 0
- omega_empty_port_dis.0.2.100: omega_dis[0,2,100] = 0
- ev_empty_port_energy.0.2.100: energy[0,2,100] = 0
- omega_empty_port_ch.0.3.100: omega_ch[0,3,100] = 0
- omega_empty_port_dis.0.3.100: omega_dis[0,3,100] = 0
- ev_empty_port_energy.0.3.100: energy[0,3,100] = 0
- omega_empty_port_ch.0.4.100: omega_ch[0,4,100] = 0
- omega_empty_port_dis.0.4.100: omega_dis[0,4,100] = 0
- ev_empty_port_energy.0.4.100: energy[0,4,100] = 0
- omega_empty_port_ch.0.5.100: omega_ch[0,5,100] = 0
- omega_empty_port_dis.0.5.100: omega_dis[0,5,100] = 0
- ev_empty_port_energy.0.5.100: energy[0,5,100] = 0
- omega_empty_port_ch.0.6.100: omega_ch[0,6,100] = 0
- omega_empty_port_dis.0.6.100: omega_dis[0,6,100] = 0
- ev_empty_port_energy.0.6.100: energy[0,6,100] = 0
- omega_empty_port_ch.0.7.100: omega_ch[0,7,100] = 0
- omega_empty_port_dis.0.7.100: omega_dis[0,7,100] = 0
- ev_empty_port_energy.0.7.100: energy[0,7,100] = 0
- omega_empty_port_ch.0.8.100: omega_ch[0,8,100] = 0
- omega_empty_port_dis.0.8.100: omega_dis[0,8,100] = 0
- ev_empty_port_energy.0.8.100: energy[0,8,100] = 0
- omega_empty_port_ch.0.9.100: omega_ch[0,9,100] = 0
- omega_empty_port_dis.0.9.100: omega_dis[0,9,100] = 0
- ev_empty_port_energy.0.9.100: energy[0,9,100] = 0
- omega_empty_port_ch.0.10.100: omega_ch[0,10,100] = 0
- omega_empty_port_dis.0.10.100: omega_dis[0,10,100] = 0
- ev_empty_port_energy.0.10.100: energy[0,10,100] = 0
- omega_empty_port_ch.0.11.100: omega_ch[0,11,100] = 0
- omega_empty_port_dis.0.11.100: omega_dis[0,11,100] = 0
- ev_empty_port_energy.0.11.100: energy[0,11,100] = 0
- omega_empty_port_ch.0.12.100: omega_ch[0,12,100] = 0
- omega_empty_port_dis.0.12.100: omega_dis[0,12,100] = 0
- ev_empty_port_energy.0.12.100: energy[0,12,100] = 0
- omega_empty_port_ch.0.13.100: omega_ch[0,13,100] = 0
- omega_empty_port_dis.0.13.100: omega_dis[0,13,100] = 0
- ev_empty_port_energy.0.13.100: energy[0,13,100] = 0
- omega_empty_port_ch.0.14.100: omega_ch[0,14,100] = 0
- omega_empty_port_dis.0.14.100: omega_dis[0,14,100] = 0
- ev_empty_port_energy.0.14.100: energy[0,14,100] = 0
- omega_empty_port_ch.0.15.100: omega_ch[0,15,100] = 0
- omega_empty_port_dis.0.15.100: omega_dis[0,15,100] = 0
- ev_empty_port_energy.0.15.100: energy[0,15,100] = 0
- omega_empty_port_ch.0.16.100: omega_ch[0,16,100] = 0
- omega_empty_port_dis.0.16.100: omega_dis[0,16,100] = 0
- ev_empty_port_energy.0.16.100: energy[0,16,100] = 0
- omega_empty_port_ch.0.17.100: omega_ch[0,17,100] = 0
- omega_empty_port_dis.0.17.100: omega_dis[0,17,100] = 0
- ev_empty_port_energy.0.17.100: energy[0,17,100] = 0
- omega_empty_port_ch.0.18.100: omega_ch[0,18,100] = 0
- omega_empty_port_dis.0.18.100: omega_dis[0,18,100] = 0
- ev_empty_port_energy.0.18.100: energy[0,18,100] = 0
- omega_empty_port_ch.0.19.100: omega_ch[0,19,100] = 0
- omega_empty_port_dis.0.19.100: omega_dis[0,19,100] = 0
- ev_empty_port_energy.0.19.100: energy[0,19,100] = 0
- omega_empty_port_ch.0.20.100: omega_ch[0,20,100] = 0
- omega_empty_port_dis.0.20.100: omega_dis[0,20,100] = 0
- ev_empty_port_energy.0.20.100: energy[0,20,100] = 0
- omega_empty_port_ch.0.21.100: omega_ch[0,21,100] = 0
- omega_empty_port_dis.0.21.100: omega_dis[0,21,100] = 0
- ev_empty_port_energy.0.21.100: energy[0,21,100] = 0
- omega_empty_port_ch.0.22.100: omega_ch[0,22,100] = 0
- omega_empty_port_dis.0.22.100: omega_dis[0,22,100] = 0
- ev_empty_port_energy.0.22.100: energy[0,22,100] = 0
- omega_empty_port_ch.0.23.100: omega_ch[0,23,100] = 0
- omega_empty_port_dis.0.23.100: omega_dis[0,23,100] = 0
- ev_empty_port_energy.0.23.100: energy[0,23,100] = 0
- omega_empty_port_ch.0.24.100: omega_ch[0,24,100] = 0
- omega_empty_port_dis.0.24.100: omega_dis[0,24,100] = 0
- ev_empty_port_energy.0.24.100: energy[0,24,100] = 0
- omega_empty_port_ch.0.0.101: omega_ch[0,0,101] = 0
- omega_empty_port_dis.0.0.101: omega_dis[0,0,101] = 0
- ev_empty_port_energy.0.0.101: energy[0,0,101] = 0
- omega_empty_port_ch.0.1.101: omega_ch[0,1,101] = 0
- omega_empty_port_dis.0.1.101: omega_dis[0,1,101] = 0
- ev_empty_port_energy.0.1.101: energy[0,1,101] = 0
- omega_empty_port_ch.0.2.101: omega_ch[0,2,101] = 0
- omega_empty_port_dis.0.2.101: omega_dis[0,2,101] = 0
- ev_empty_port_energy.0.2.101: energy[0,2,101] = 0
- omega_empty_port_ch.0.3.101: omega_ch[0,3,101] = 0
- omega_empty_port_dis.0.3.101: omega_dis[0,3,101] = 0
- ev_empty_port_energy.0.3.101: energy[0,3,101] = 0
- omega_empty_port_ch.0.4.101: omega_ch[0,4,101] = 0
- omega_empty_port_dis.0.4.101: omega_dis[0,4,101] = 0
- ev_empty_port_energy.0.4.101: energy[0,4,101] = 0
- omega_empty_port_ch.0.5.101: omega_ch[0,5,101] = 0
- omega_empty_port_dis.0.5.101: omega_dis[0,5,101] = 0
- ev_empty_port_energy.0.5.101: energy[0,5,101] = 0
- omega_empty_port_ch.0.6.101: omega_ch[0,6,101] = 0
- omega_empty_port_dis.0.6.101: omega_dis[0,6,101] = 0
- ev_empty_port_energy.0.6.101: energy[0,6,101] = 0
- omega_empty_port_ch.0.7.101: omega_ch[0,7,101] = 0
- omega_empty_port_dis.0.7.101: omega_dis[0,7,101] = 0
- ev_empty_port_energy.0.7.101: energy[0,7,101] = 0
- omega_empty_port_ch.0.8.101: omega_ch[0,8,101] = 0
- omega_empty_port_dis.0.8.101: omega_dis[0,8,101] = 0
- ev_empty_port_energy.0.8.101: energy[0,8,101] = 0
- omega_empty_port_ch.0.9.101: omega_ch[0,9,101] = 0
- omega_empty_port_dis.0.9.101: omega_dis[0,9,101] = 0
- ev_empty_port_energy.0.9.101: energy[0,9,101] = 0
- omega_empty_port_ch.0.10.101: omega_ch[0,10,101] = 0
- omega_empty_port_dis.0.10.101: omega_dis[0,10,101] = 0
- ev_empty_port_energy.0.10.101: energy[0,10,101] = 0
- omega_empty_port_ch.0.11.101: omega_ch[0,11,101] = 0
- omega_empty_port_dis.0.11.101: omega_dis[0,11,101] = 0
- ev_empty_port_energy.0.11.101: energy[0,11,101] = 0
- omega_empty_port_ch.0.12.101: omega_ch[0,12,101] = 0
- omega_empty_port_dis.0.12.101: omega_dis[0,12,101] = 0
- ev_empty_port_energy.0.12.101: energy[0,12,101] = 0
- omega_empty_port_ch.0.13.101: omega_ch[0,13,101] = 0
- omega_empty_port_dis.0.13.101: omega_dis[0,13,101] = 0
- ev_empty_port_energy.0.13.101: energy[0,13,101] = 0
- omega_empty_port_ch.0.14.101: omega_ch[0,14,101] = 0
- omega_empty_port_dis.0.14.101: omega_dis[0,14,101] = 0
- ev_empty_port_energy.0.14.101: energy[0,14,101] = 0
- omega_empty_port_ch.0.15.101: omega_ch[0,15,101] = 0
- omega_empty_port_dis.0.15.101: omega_dis[0,15,101] = 0
- ev_empty_port_energy.0.15.101: energy[0,15,101] = 0
- omega_empty_port_ch.0.16.101: omega_ch[0,16,101] = 0
- omega_empty_port_dis.0.16.101: omega_dis[0,16,101] = 0
- ev_empty_port_energy.0.16.101: energy[0,16,101] = 0
- omega_empty_port_ch.0.17.101: omega_ch[0,17,101] = 0
- omega_empty_port_dis.0.17.101: omega_dis[0,17,101] = 0
- ev_empty_port_energy.0.17.101: energy[0,17,101] = 0
- omega_empty_port_ch.0.18.101: omega_ch[0,18,101] = 0
- omega_empty_port_dis.0.18.101: omega_dis[0,18,101] = 0
- ev_empty_port_energy.0.18.101: energy[0,18,101] = 0
- omega_empty_port_ch.0.19.101: omega_ch[0,19,101] = 0
- omega_empty_port_dis.0.19.101: omega_dis[0,19,101] = 0
- ev_empty_port_energy.0.19.101: energy[0,19,101] = 0
- omega_empty_port_ch.0.20.101: omega_ch[0,20,101] = 0
- omega_empty_port_dis.0.20.101: omega_dis[0,20,101] = 0
- ev_empty_port_energy.0.20.101: energy[0,20,101] = 0
- omega_empty_port_ch.0.21.101: omega_ch[0,21,101] = 0
- omega_empty_port_dis.0.21.101: omega_dis[0,21,101] = 0
- ev_empty_port_energy.0.21.101: energy[0,21,101] = 0
- omega_empty_port_ch.0.22.101: omega_ch[0,22,101] = 0
- omega_empty_port_dis.0.22.101: omega_dis[0,22,101] = 0
- ev_empty_port_energy.0.22.101: energy[0,22,101] = 0
- omega_empty_port_ch.0.23.101: omega_ch[0,23,101] = 0
- omega_empty_port_dis.0.23.101: omega_dis[0,23,101] = 0
- ev_empty_port_energy.0.23.101: energy[0,23,101] = 0
- omega_empty_port_ch.0.24.101: omega_ch[0,24,101] = 0
- omega_empty_port_dis.0.24.101: omega_dis[0,24,101] = 0
- ev_empty_port_energy.0.24.101: energy[0,24,101] = 0
- omega_empty_port_ch.0.0.102: omega_ch[0,0,102] = 0
- omega_empty_port_dis.0.0.102: omega_dis[0,0,102] = 0
- ev_empty_port_energy.0.0.102: energy[0,0,102] = 0
- omega_empty_port_ch.0.1.102: omega_ch[0,1,102] = 0
- omega_empty_port_dis.0.1.102: omega_dis[0,1,102] = 0
- ev_empty_port_energy.0.1.102: energy[0,1,102] = 0
- omega_empty_port_ch.0.2.102: omega_ch[0,2,102] = 0
- omega_empty_port_dis.0.2.102: omega_dis[0,2,102] = 0
- ev_empty_port_energy.0.2.102: energy[0,2,102] = 0
- omega_empty_port_ch.0.3.102: omega_ch[0,3,102] = 0
- omega_empty_port_dis.0.3.102: omega_dis[0,3,102] = 0
- ev_empty_port_energy.0.3.102: energy[0,3,102] = 0
- omega_empty_port_ch.0.4.102: omega_ch[0,4,102] = 0
- omega_empty_port_dis.0.4.102: omega_dis[0,4,102] = 0
- ev_empty_port_energy.0.4.102: energy[0,4,102] = 0
- omega_empty_port_ch.0.5.102: omega_ch[0,5,102] = 0
- omega_empty_port_dis.0.5.102: omega_dis[0,5,102] = 0
- ev_empty_port_energy.0.5.102: energy[0,5,102] = 0
- omega_empty_port_ch.0.6.102: omega_ch[0,6,102] = 0
- omega_empty_port_dis.0.6.102: omega_dis[0,6,102] = 0
- ev_empty_port_energy.0.6.102: energy[0,6,102] = 0
- omega_empty_port_ch.0.7.102: omega_ch[0,7,102] = 0
- omega_empty_port_dis.0.7.102: omega_dis[0,7,102] = 0
- ev_empty_port_energy.0.7.102: energy[0,7,102] = 0
- omega_empty_port_ch.0.8.102: omega_ch[0,8,102] = 0
- omega_empty_port_dis.0.8.102: omega_dis[0,8,102] = 0
- ev_empty_port_energy.0.8.102: energy[0,8,102] = 0
- omega_empty_port_ch.0.9.102: omega_ch[0,9,102] = 0
- omega_empty_port_dis.0.9.102: omega_dis[0,9,102] = 0
- ev_empty_port_energy.0.9.102: energy[0,9,102] = 0
- omega_empty_port_ch.0.10.102: omega_ch[0,10,102] = 0
- omega_empty_port_dis.0.10.102: omega_dis[0,10,102] = 0
- ev_empty_port_energy.0.10.102: energy[0,10,102] = 0
- omega_empty_port_ch.0.11.102: omega_ch[0,11,102] = 0
- omega_empty_port_dis.0.11.102: omega_dis[0,11,102] = 0
- ev_empty_port_energy.0.11.102: energy[0,11,102] = 0
- omega_empty_port_ch.0.12.102: omega_ch[0,12,102] = 0
- omega_empty_port_dis.0.12.102: omega_dis[0,12,102] = 0
- ev_empty_port_energy.0.12.102: energy[0,12,102] = 0
- omega_empty_port_ch.0.13.102: omega_ch[0,13,102] = 0
- omega_empty_port_dis.0.13.102: omega_dis[0,13,102] = 0
- ev_empty_port_energy.0.13.102: energy[0,13,102] = 0
- omega_empty_port_ch.0.14.102: omega_ch[0,14,102] = 0
- omega_empty_port_dis.0.14.102: omega_dis[0,14,102] = 0
- ev_empty_port_energy.0.14.102: energy[0,14,102] = 0
- omega_empty_port_ch.0.15.102: omega_ch[0,15,102] = 0
- omega_empty_port_dis.0.15.102: omega_dis[0,15,102] = 0
- ev_empty_port_energy.0.15.102: energy[0,15,102] = 0
- omega_empty_port_ch.0.16.102: omega_ch[0,16,102] = 0
- omega_empty_port_dis.0.16.102: omega_dis[0,16,102] = 0
- ev_empty_port_energy.0.16.102: energy[0,16,102] = 0
- omega_empty_port_ch.0.17.102: omega_ch[0,17,102] = 0
- omega_empty_port_dis.0.17.102: omega_dis[0,17,102] = 0
- ev_empty_port_energy.0.17.102: energy[0,17,102] = 0
- omega_empty_port_ch.0.18.102: omega_ch[0,18,102] = 0
- omega_empty_port_dis.0.18.102: omega_dis[0,18,102] = 0
- ev_empty_port_energy.0.18.102: energy[0,18,102] = 0
- omega_empty_port_ch.0.19.102: omega_ch[0,19,102] = 0
- omega_empty_port_dis.0.19.102: omega_dis[0,19,102] = 0
- ev_empty_port_energy.0.19.102: energy[0,19,102] = 0
- omega_empty_port_ch.0.20.102: omega_ch[0,20,102] = 0
- omega_empty_port_dis.0.20.102: omega_dis[0,20,102] = 0
- ev_empty_port_energy.0.20.102: energy[0,20,102] = 0
- omega_empty_port_ch.0.21.102: omega_ch[0,21,102] = 0
- omega_empty_port_dis.0.21.102: omega_dis[0,21,102] = 0
- ev_empty_port_energy.0.21.102: energy[0,21,102] = 0
- omega_empty_port_ch.0.22.102: omega_ch[0,22,102] = 0
- omega_empty_port_dis.0.22.102: omega_dis[0,22,102] = 0
- ev_empty_port_energy.0.22.102: energy[0,22,102] = 0
- omega_empty_port_ch.0.23.102: omega_ch[0,23,102] = 0
- omega_empty_port_dis.0.23.102: omega_dis[0,23,102] = 0
- ev_empty_port_energy.0.23.102: energy[0,23,102] = 0
- omega_empty_port_ch.0.24.102: omega_ch[0,24,102] = 0
- omega_empty_port_dis.0.24.102: omega_dis[0,24,102] = 0
- ev_empty_port_energy.0.24.102: energy[0,24,102] = 0
- omega_empty_port_ch.0.0.103: omega_ch[0,0,103] = 0
- omega_empty_port_dis.0.0.103: omega_dis[0,0,103] = 0
- ev_empty_port_energy.0.0.103: energy[0,0,103] = 0
- omega_empty_port_ch.0.1.103: omega_ch[0,1,103] = 0
- omega_empty_port_dis.0.1.103: omega_dis[0,1,103] = 0
- ev_empty_port_energy.0.1.103: energy[0,1,103] = 0
- omega_empty_port_ch.0.2.103: omega_ch[0,2,103] = 0
- omega_empty_port_dis.0.2.103: omega_dis[0,2,103] = 0
- ev_empty_port_energy.0.2.103: energy[0,2,103] = 0
- omega_empty_port_ch.0.3.103: omega_ch[0,3,103] = 0
- omega_empty_port_dis.0.3.103: omega_dis[0,3,103] = 0
- ev_empty_port_energy.0.3.103: energy[0,3,103] = 0
- omega_empty_port_ch.0.4.103: omega_ch[0,4,103] = 0
- omega_empty_port_dis.0.4.103: omega_dis[0,4,103] = 0
- ev_empty_port_energy.0.4.103: energy[0,4,103] = 0
- omega_empty_port_ch.0.5.103: omega_ch[0,5,103] = 0
- omega_empty_port_dis.0.5.103: omega_dis[0,5,103] = 0
- ev_empty_port_energy.0.5.103: energy[0,5,103] = 0
- omega_empty_port_ch.0.6.103: omega_ch[0,6,103] = 0
- omega_empty_port_dis.0.6.103: omega_dis[0,6,103] = 0
- ev_empty_port_energy.0.6.103: energy[0,6,103] = 0
- omega_empty_port_ch.0.7.103: omega_ch[0,7,103] = 0
- omega_empty_port_dis.0.7.103: omega_dis[0,7,103] = 0
- ev_empty_port_energy.0.7.103: energy[0,7,103] = 0
- omega_empty_port_ch.0.8.103: omega_ch[0,8,103] = 0
- omega_empty_port_dis.0.8.103: omega_dis[0,8,103] = 0
- ev_empty_port_energy.0.8.103: energy[0,8,103] = 0
- omega_empty_port_ch.0.9.103: omega_ch[0,9,103] = 0
- omega_empty_port_dis.0.9.103: omega_dis[0,9,103] = 0
- ev_empty_port_energy.0.9.103: energy[0,9,103] = 0
- omega_empty_port_ch.0.10.103: omega_ch[0,10,103] = 0
- omega_empty_port_dis.0.10.103: omega_dis[0,10,103] = 0
- ev_empty_port_energy.0.10.103: energy[0,10,103] = 0
- omega_empty_port_ch.0.11.103: omega_ch[0,11,103] = 0
- omega_empty_port_dis.0.11.103: omega_dis[0,11,103] = 0
- ev_empty_port_energy.0.11.103: energy[0,11,103] = 0
- omega_empty_port_ch.0.12.103: omega_ch[0,12,103] = 0
- omega_empty_port_dis.0.12.103: omega_dis[0,12,103] = 0
- ev_empty_port_energy.0.12.103: energy[0,12,103] = 0
- omega_empty_port_ch.0.13.103: omega_ch[0,13,103] = 0
- omega_empty_port_dis.0.13.103: omega_dis[0,13,103] = 0
- ev_empty_port_energy.0.13.103: energy[0,13,103] = 0
- omega_empty_port_ch.0.14.103: omega_ch[0,14,103] = 0
- omega_empty_port_dis.0.14.103: omega_dis[0,14,103] = 0
- ev_empty_port_energy.0.14.103: energy[0,14,103] = 0
- omega_empty_port_ch.0.15.103: omega_ch[0,15,103] = 0
- omega_empty_port_dis.0.15.103: omega_dis[0,15,103] = 0
- ev_empty_port_energy.0.15.103: energy[0,15,103] = 0
- omega_empty_port_ch.0.16.103: omega_ch[0,16,103] = 0
- omega_empty_port_dis.0.16.103: omega_dis[0,16,103] = 0
- ev_empty_port_energy.0.16.103: energy[0,16,103] = 0
- omega_empty_port_ch.0.17.103: omega_ch[0,17,103] = 0
- omega_empty_port_dis.0.17.103: omega_dis[0,17,103] = 0
- ev_empty_port_energy.0.17.103: energy[0,17,103] = 0
- omega_empty_port_ch.0.18.103: omega_ch[0,18,103] = 0
- omega_empty_port_dis.0.18.103: omega_dis[0,18,103] = 0
- ev_empty_port_energy.0.18.103: energy[0,18,103] = 0
- omega_empty_port_ch.0.19.103: omega_ch[0,19,103] = 0
- omega_empty_port_dis.0.19.103: omega_dis[0,19,103] = 0
- ev_empty_port_energy.0.19.103: energy[0,19,103] = 0
- omega_empty_port_ch.0.20.103: omega_ch[0,20,103] = 0
- omega_empty_port_dis.0.20.103: omega_dis[0,20,103] = 0
- ev_empty_port_energy.0.20.103: energy[0,20,103] = 0
- omega_empty_port_ch.0.21.103: omega_ch[0,21,103] = 0
- omega_empty_port_dis.0.21.103: omega_dis[0,21,103] = 0
- ev_empty_port_energy.0.21.103: energy[0,21,103] = 0
- omega_empty_port_ch.0.22.103: omega_ch[0,22,103] = 0
- omega_empty_port_dis.0.22.103: omega_dis[0,22,103] = 0
- ev_empty_port_energy.0.22.103: energy[0,22,103] = 0
- omega_empty_port_ch.0.23.103: omega_ch[0,23,103] = 0
- omega_empty_port_dis.0.23.103: omega_dis[0,23,103] = 0
- ev_empty_port_energy.0.23.103: energy[0,23,103] = 0
- omega_empty_port_ch.0.24.103: omega_ch[0,24,103] = 0
- omega_empty_port_dis.0.24.103: omega_dis[0,24,103] = 0
- ev_empty_port_energy.0.24.103: energy[0,24,103] = 0
- omega_empty_port_ch.0.0.104: omega_ch[0,0,104] = 0
- omega_empty_port_dis.0.0.104: omega_dis[0,0,104] = 0
- ev_empty_port_energy.0.0.104: energy[0,0,104] = 0
- omega_empty_port_ch.0.1.104: omega_ch[0,1,104] = 0
- omega_empty_port_dis.0.1.104: omega_dis[0,1,104] = 0
- ev_empty_port_energy.0.1.104: energy[0,1,104] = 0
- omega_empty_port_ch.0.2.104: omega_ch[0,2,104] = 0
- omega_empty_port_dis.0.2.104: omega_dis[0,2,104] = 0
- ev_empty_port_energy.0.2.104: energy[0,2,104] = 0
- omega_empty_port_ch.0.3.104: omega_ch[0,3,104] = 0
- omega_empty_port_dis.0.3.104: omega_dis[0,3,104] = 0
- ev_empty_port_energy.0.3.104: energy[0,3,104] = 0
- omega_empty_port_ch.0.4.104: omega_ch[0,4,104] = 0
- omega_empty_port_dis.0.4.104: omega_dis[0,4,104] = 0
- ev_empty_port_energy.0.4.104: energy[0,4,104] = 0
- omega_empty_port_ch.0.5.104: omega_ch[0,5,104] = 0
- omega_empty_port_dis.0.5.104: omega_dis[0,5,104] = 0
- ev_empty_port_energy.0.5.104: energy[0,5,104] = 0
- omega_empty_port_ch.0.6.104: omega_ch[0,6,104] = 0
- omega_empty_port_dis.0.6.104: omega_dis[0,6,104] = 0
- ev_empty_port_energy.0.6.104: energy[0,6,104] = 0
- omega_empty_port_ch.0.7.104: omega_ch[0,7,104] = 0
- omega_empty_port_dis.0.7.104: omega_dis[0,7,104] = 0
- ev_empty_port_energy.0.7.104: energy[0,7,104] = 0
- omega_empty_port_ch.0.8.104: omega_ch[0,8,104] = 0
- omega_empty_port_dis.0.8.104: omega_dis[0,8,104] = 0
- ev_empty_port_energy.0.8.104: energy[0,8,104] = 0
- omega_empty_port_ch.0.9.104: omega_ch[0,9,104] = 0
- omega_empty_port_dis.0.9.104: omega_dis[0,9,104] = 0
- ev_empty_port_energy.0.9.104: energy[0,9,104] = 0
- omega_empty_port_ch.0.10.104: omega_ch[0,10,104] = 0
- omega_empty_port_dis.0.10.104: omega_dis[0,10,104] = 0
- ev_empty_port_energy.0.10.104: energy[0,10,104] = 0
- omega_empty_port_ch.0.11.104: omega_ch[0,11,104] = 0
- omega_empty_port_dis.0.11.104: omega_dis[0,11,104] = 0
- ev_empty_port_energy.0.11.104: energy[0,11,104] = 0
- omega_empty_port_ch.0.12.104: omega_ch[0,12,104] = 0
- omega_empty_port_dis.0.12.104: omega_dis[0,12,104] = 0
- ev_empty_port_energy.0.12.104: energy[0,12,104] = 0
- omega_empty_port_ch.0.13.104: omega_ch[0,13,104] = 0
- omega_empty_port_dis.0.13.104: omega_dis[0,13,104] = 0
- ev_empty_port_energy.0.13.104: energy[0,13,104] = 0
- omega_empty_port_ch.0.14.104: omega_ch[0,14,104] = 0
- omega_empty_port_dis.0.14.104: omega_dis[0,14,104] = 0
- ev_empty_port_energy.0.14.104: energy[0,14,104] = 0
- omega_empty_port_ch.0.15.104: omega_ch[0,15,104] = 0
- omega_empty_port_dis.0.15.104: omega_dis[0,15,104] = 0
- ev_empty_port_energy.0.15.104: energy[0,15,104] = 0
- omega_empty_port_ch.0.16.104: omega_ch[0,16,104] = 0
- omega_empty_port_dis.0.16.104: omega_dis[0,16,104] = 0
- ev_empty_port_energy.0.16.104: energy[0,16,104] = 0
- omega_empty_port_ch.0.17.104: omega_ch[0,17,104] = 0
- omega_empty_port_dis.0.17.104: omega_dis[0,17,104] = 0
- ev_empty_port_energy.0.17.104: energy[0,17,104] = 0
- omega_empty_port_ch.0.18.104: omega_ch[0,18,104] = 0
- omega_empty_port_dis.0.18.104: omega_dis[0,18,104] = 0
- ev_empty_port_energy.0.18.104: energy[0,18,104] = 0
- omega_empty_port_ch.0.19.104: omega_ch[0,19,104] = 0
- omega_empty_port_dis.0.19.104: omega_dis[0,19,104] = 0
- ev_empty_port_energy.0.19.104: energy[0,19,104] = 0
- omega_empty_port_ch.0.20.104: omega_ch[0,20,104] = 0
- omega_empty_port_dis.0.20.104: omega_dis[0,20,104] = 0
- ev_empty_port_energy.0.20.104: energy[0,20,104] = 0
- omega_empty_port_ch.0.21.104: omega_ch[0,21,104] = 0
- omega_empty_port_dis.0.21.104: omega_dis[0,21,104] = 0
- ev_empty_port_energy.0.21.104: energy[0,21,104] = 0
- omega_empty_port_ch.0.22.104: omega_ch[0,22,104] = 0
- omega_empty_port_dis.0.22.104: omega_dis[0,22,104] = 0
- ev_empty_port_energy.0.22.104: energy[0,22,104] = 0
- omega_empty_port_ch.0.23.104: omega_ch[0,23,104] = 0
- omega_empty_port_dis.0.23.104: omega_dis[0,23,104] = 0
- ev_empty_port_energy.0.23.104: energy[0,23,104] = 0
- omega_empty_port_ch.0.24.104: omega_ch[0,24,104] = 0
- omega_empty_port_dis.0.24.104: omega_dis[0,24,104] = 0
- ev_empty_port_energy.0.24.104: energy[0,24,104] = 0
- omega_empty_port_ch.0.0.105: omega_ch[0,0,105] = 0
- omega_empty_port_dis.0.0.105: omega_dis[0,0,105] = 0
- ev_empty_port_energy.0.0.105: energy[0,0,105] = 0
- omega_empty_port_ch.0.1.105: omega_ch[0,1,105] = 0
- omega_empty_port_dis.0.1.105: omega_dis[0,1,105] = 0
- ev_empty_port_energy.0.1.105: energy[0,1,105] = 0
- omega_empty_port_ch.0.2.105: omega_ch[0,2,105] = 0
- omega_empty_port_dis.0.2.105: omega_dis[0,2,105] = 0
- ev_empty_port_energy.0.2.105: energy[0,2,105] = 0
- omega_empty_port_ch.0.3.105: omega_ch[0,3,105] = 0
- omega_empty_port_dis.0.3.105: omega_dis[0,3,105] = 0
- ev_empty_port_energy.0.3.105: energy[0,3,105] = 0
- omega_empty_port_ch.0.4.105: omega_ch[0,4,105] = 0
- omega_empty_port_dis.0.4.105: omega_dis[0,4,105] = 0
- ev_empty_port_energy.0.4.105: energy[0,4,105] = 0
- omega_empty_port_ch.0.5.105: omega_ch[0,5,105] = 0
- omega_empty_port_dis.0.5.105: omega_dis[0,5,105] = 0
- ev_empty_port_energy.0.5.105: energy[0,5,105] = 0
- omega_empty_port_ch.0.6.105: omega_ch[0,6,105] = 0
- omega_empty_port_dis.0.6.105: omega_dis[0,6,105] = 0
- ev_empty_port_energy.0.6.105: energy[0,6,105] = 0
- omega_empty_port_ch.0.7.105: omega_ch[0,7,105] = 0
- omega_empty_port_dis.0.7.105: omega_dis[0,7,105] = 0
- ev_empty_port_energy.0.7.105: energy[0,7,105] = 0
- omega_empty_port_ch.0.8.105: omega_ch[0,8,105] = 0
- omega_empty_port_dis.0.8.105: omega_dis[0,8,105] = 0
- ev_empty_port_energy.0.8.105: energy[0,8,105] = 0
- omega_empty_port_ch.0.9.105: omega_ch[0,9,105] = 0
- omega_empty_port_dis.0.9.105: omega_dis[0,9,105] = 0
- ev_empty_port_energy.0.9.105: energy[0,9,105] = 0
- omega_empty_port_ch.0.10.105: omega_ch[0,10,105] = 0
- omega_empty_port_dis.0.10.105: omega_dis[0,10,105] = 0
- ev_empty_port_energy.0.10.105: energy[0,10,105] = 0
- omega_empty_port_ch.0.11.105: omega_ch[0,11,105] = 0
- omega_empty_port_dis.0.11.105: omega_dis[0,11,105] = 0
- ev_empty_port_energy.0.11.105: energy[0,11,105] = 0
- omega_empty_port_ch.0.12.105: omega_ch[0,12,105] = 0
- omega_empty_port_dis.0.12.105: omega_dis[0,12,105] = 0
- ev_empty_port_energy.0.12.105: energy[0,12,105] = 0
- omega_empty_port_ch.0.13.105: omega_ch[0,13,105] = 0
- omega_empty_port_dis.0.13.105: omega_dis[0,13,105] = 0
- ev_empty_port_energy.0.13.105: energy[0,13,105] = 0
- omega_empty_port_ch.0.14.105: omega_ch[0,14,105] = 0
- omega_empty_port_dis.0.14.105: omega_dis[0,14,105] = 0
- ev_empty_port_energy.0.14.105: energy[0,14,105] = 0
- omega_empty_port_ch.0.15.105: omega_ch[0,15,105] = 0
- omega_empty_port_dis.0.15.105: omega_dis[0,15,105] = 0
- ev_empty_port_energy.0.15.105: energy[0,15,105] = 0
- omega_empty_port_ch.0.16.105: omega_ch[0,16,105] = 0
- omega_empty_port_dis.0.16.105: omega_dis[0,16,105] = 0
- ev_empty_port_energy.0.16.105: energy[0,16,105] = 0
- omega_empty_port_ch.0.17.105: omega_ch[0,17,105] = 0
- omega_empty_port_dis.0.17.105: omega_dis[0,17,105] = 0
- ev_empty_port_energy.0.17.105: energy[0,17,105] = 0
- omega_empty_port_ch.0.18.105: omega_ch[0,18,105] = 0
- omega_empty_port_dis.0.18.105: omega_dis[0,18,105] = 0
- ev_empty_port_energy.0.18.105: energy[0,18,105] = 0
- omega_empty_port_ch.0.19.105: omega_ch[0,19,105] = 0
- omega_empty_port_dis.0.19.105: omega_dis[0,19,105] = 0
- ev_empty_port_energy.0.19.105: energy[0,19,105] = 0
- omega_empty_port_ch.0.20.105: omega_ch[0,20,105] = 0
- omega_empty_port_dis.0.20.105: omega_dis[0,20,105] = 0
- ev_empty_port_energy.0.20.105: energy[0,20,105] = 0
- omega_empty_port_ch.0.21.105: omega_ch[0,21,105] = 0
- omega_empty_port_dis.0.21.105: omega_dis[0,21,105] = 0
- ev_empty_port_energy.0.21.105: energy[0,21,105] = 0
- omega_empty_port_ch.0.22.105: omega_ch[0,22,105] = 0
- omega_empty_port_dis.0.22.105: omega_dis[0,22,105] = 0
- ev_empty_port_energy.0.22.105: energy[0,22,105] = 0
- omega_empty_port_ch.0.23.105: omega_ch[0,23,105] = 0
- omega_empty_port_dis.0.23.105: omega_dis[0,23,105] = 0
- ev_empty_port_energy.0.23.105: energy[0,23,105] = 0
- omega_empty_port_ch.0.24.105: omega_ch[0,24,105] = 0
- omega_empty_port_dis.0.24.105: omega_dis[0,24,105] = 0
- ev_empty_port_energy.0.24.105: energy[0,24,105] = 0
- omega_empty_port_ch.0.0.106: omega_ch[0,0,106] = 0
- omega_empty_port_dis.0.0.106: omega_dis[0,0,106] = 0
- ev_empty_port_energy.0.0.106: energy[0,0,106] = 0
- omega_empty_port_ch.0.1.106: omega_ch[0,1,106] = 0
- omega_empty_port_dis.0.1.106: omega_dis[0,1,106] = 0
- ev_empty_port_energy.0.1.106: energy[0,1,106] = 0
- omega_empty_port_ch.0.2.106: omega_ch[0,2,106] = 0
- omega_empty_port_dis.0.2.106: omega_dis[0,2,106] = 0
- ev_empty_port_energy.0.2.106: energy[0,2,106] = 0
- omega_empty_port_ch.0.3.106: omega_ch[0,3,106] = 0
- omega_empty_port_dis.0.3.106: omega_dis[0,3,106] = 0
- ev_empty_port_energy.0.3.106: energy[0,3,106] = 0
- omega_empty_port_ch.0.4.106: omega_ch[0,4,106] = 0
- omega_empty_port_dis.0.4.106: omega_dis[0,4,106] = 0
- ev_empty_port_energy.0.4.106: energy[0,4,106] = 0
- omega_empty_port_ch.0.5.106: omega_ch[0,5,106] = 0
- omega_empty_port_dis.0.5.106: omega_dis[0,5,106] = 0
- ev_empty_port_energy.0.5.106: energy[0,5,106] = 0
- omega_empty_port_ch.0.6.106: omega_ch[0,6,106] = 0
- omega_empty_port_dis.0.6.106: omega_dis[0,6,106] = 0
- ev_empty_port_energy.0.6.106: energy[0,6,106] = 0
- omega_empty_port_ch.0.7.106: omega_ch[0,7,106] = 0
- omega_empty_port_dis.0.7.106: omega_dis[0,7,106] = 0
- ev_empty_port_energy.0.7.106: energy[0,7,106] = 0
- omega_empty_port_ch.0.8.106: omega_ch[0,8,106] = 0
- omega_empty_port_dis.0.8.106: omega_dis[0,8,106] = 0
- ev_empty_port_energy.0.8.106: energy[0,8,106] = 0
- omega_empty_port_ch.0.9.106: omega_ch[0,9,106] = 0
- omega_empty_port_dis.0.9.106: omega_dis[0,9,106] = 0
- ev_empty_port_energy.0.9.106: energy[0,9,106] = 0
- omega_empty_port_ch.0.10.106: omega_ch[0,10,106] = 0
- omega_empty_port_dis.0.10.106: omega_dis[0,10,106] = 0
- ev_empty_port_energy.0.10.106: energy[0,10,106] = 0
- omega_empty_port_ch.0.11.106: omega_ch[0,11,106] = 0
- omega_empty_port_dis.0.11.106: omega_dis[0,11,106] = 0
- ev_empty_port_energy.0.11.106: energy[0,11,106] = 0
- omega_empty_port_ch.0.12.106: omega_ch[0,12,106] = 0
- omega_empty_port_dis.0.12.106: omega_dis[0,12,106] = 0
- ev_empty_port_energy.0.12.106: energy[0,12,106] = 0
- omega_empty_port_ch.0.13.106: omega_ch[0,13,106] = 0
- omega_empty_port_dis.0.13.106: omega_dis[0,13,106] = 0
- ev_empty_port_energy.0.13.106: energy[0,13,106] = 0
- omega_empty_port_ch.0.14.106: omega_ch[0,14,106] = 0
- omega_empty_port_dis.0.14.106: omega_dis[0,14,106] = 0
- ev_empty_port_energy.0.14.106: energy[0,14,106] = 0
- omega_empty_port_ch.0.15.106: omega_ch[0,15,106] = 0
- omega_empty_port_dis.0.15.106: omega_dis[0,15,106] = 0
- ev_empty_port_energy.0.15.106: energy[0,15,106] = 0
- omega_empty_port_ch.0.16.106: omega_ch[0,16,106] = 0
- omega_empty_port_dis.0.16.106: omega_dis[0,16,106] = 0
- ev_empty_port_energy.0.16.106: energy[0,16,106] = 0
- omega_empty_port_ch.0.17.106: omega_ch[0,17,106] = 0
- omega_empty_port_dis.0.17.106: omega_dis[0,17,106] = 0
- ev_empty_port_energy.0.17.106: energy[0,17,106] = 0
- omega_empty_port_ch.0.18.106: omega_ch[0,18,106] = 0
- omega_empty_port_dis.0.18.106: omega_dis[0,18,106] = 0
- ev_empty_port_energy.0.18.106: energy[0,18,106] = 0
- omega_empty_port_ch.0.19.106: omega_ch[0,19,106] = 0
- omega_empty_port_dis.0.19.106: omega_dis[0,19,106] = 0
- ev_empty_port_energy.0.19.106: energy[0,19,106] = 0
- omega_empty_port_ch.0.20.106: omega_ch[0,20,106] = 0
- omega_empty_port_dis.0.20.106: omega_dis[0,20,106] = 0
- ev_empty_port_energy.0.20.106: energy[0,20,106] = 0
- omega_empty_port_ch.0.21.106: omega_ch[0,21,106] = 0
- omega_empty_port_dis.0.21.106: omega_dis[0,21,106] = 0
- ev_empty_port_energy.0.21.106: energy[0,21,106] = 0
- omega_empty_port_ch.0.22.106: omega_ch[0,22,106] = 0
- omega_empty_port_dis.0.22.106: omega_dis[0,22,106] = 0
- ev_empty_port_energy.0.22.106: energy[0,22,106] = 0
- omega_empty_port_ch.0.23.106: omega_ch[0,23,106] = 0
- omega_empty_port_dis.0.23.106: omega_dis[0,23,106] = 0
- ev_empty_port_energy.0.23.106: energy[0,23,106] = 0
- omega_empty_port_ch.0.24.106: omega_ch[0,24,106] = 0
- omega_empty_port_dis.0.24.106: omega_dis[0,24,106] = 0
- ev_empty_port_energy.0.24.106: energy[0,24,106] = 0
- omega_empty_port_ch.0.0.107: omega_ch[0,0,107] = 0
- omega_empty_port_dis.0.0.107: omega_dis[0,0,107] = 0
- ev_empty_port_energy.0.0.107: energy[0,0,107] = 0
- omega_empty_port_ch.0.1.107: omega_ch[0,1,107] = 0
- omega_empty_port_dis.0.1.107: omega_dis[0,1,107] = 0
- ev_empty_port_energy.0.1.107: energy[0,1,107] = 0
- omega_empty_port_ch.0.2.107: omega_ch[0,2,107] = 0
- omega_empty_port_dis.0.2.107: omega_dis[0,2,107] = 0
- ev_empty_port_energy.0.2.107: energy[0,2,107] = 0
- omega_empty_port_ch.0.3.107: omega_ch[0,3,107] = 0
- omega_empty_port_dis.0.3.107: omega_dis[0,3,107] = 0
- ev_empty_port_energy.0.3.107: energy[0,3,107] = 0
- omega_empty_port_ch.0.4.107: omega_ch[0,4,107] = 0
- omega_empty_port_dis.0.4.107: omega_dis[0,4,107] = 0
- ev_empty_port_energy.0.4.107: energy[0,4,107] = 0
- omega_empty_port_ch.0.5.107: omega_ch[0,5,107] = 0
- omega_empty_port_dis.0.5.107: omega_dis[0,5,107] = 0
- ev_empty_port_energy.0.5.107: energy[0,5,107] = 0
- omega_empty_port_ch.0.6.107: omega_ch[0,6,107] = 0
- omega_empty_port_dis.0.6.107: omega_dis[0,6,107] = 0
- ev_empty_port_energy.0.6.107: energy[0,6,107] = 0
- omega_empty_port_ch.0.7.107: omega_ch[0,7,107] = 0
- omega_empty_port_dis.0.7.107: omega_dis[0,7,107] = 0
- ev_empty_port_energy.0.7.107: energy[0,7,107] = 0
- omega_empty_port_ch.0.8.107: omega_ch[0,8,107] = 0
- omega_empty_port_dis.0.8.107: omega_dis[0,8,107] = 0
- ev_empty_port_energy.0.8.107: energy[0,8,107] = 0
- omega_empty_port_ch.0.9.107: omega_ch[0,9,107] = 0
- omega_empty_port_dis.0.9.107: omega_dis[0,9,107] = 0
- ev_empty_port_energy.0.9.107: energy[0,9,107] = 0
- omega_empty_port_ch.0.10.107: omega_ch[0,10,107] = 0
- omega_empty_port_dis.0.10.107: omega_dis[0,10,107] = 0
- ev_empty_port_energy.0.10.107: energy[0,10,107] = 0
- omega_empty_port_ch.0.11.107: omega_ch[0,11,107] = 0
- omega_empty_port_dis.0.11.107: omega_dis[0,11,107] = 0
- ev_empty_port_energy.0.11.107: energy[0,11,107] = 0
- omega_empty_port_ch.0.12.107: omega_ch[0,12,107] = 0
- omega_empty_port_dis.0.12.107: omega_dis[0,12,107] = 0
- ev_empty_port_energy.0.12.107: energy[0,12,107] = 0
- omega_empty_port_ch.0.13.107: omega_ch[0,13,107] = 0
- omega_empty_port_dis.0.13.107: omega_dis[0,13,107] = 0
- ev_empty_port_energy.0.13.107: energy[0,13,107] = 0
- omega_empty_port_ch.0.14.107: omega_ch[0,14,107] = 0
- omega_empty_port_dis.0.14.107: omega_dis[0,14,107] = 0
- ev_empty_port_energy.0.14.107: energy[0,14,107] = 0
- omega_empty_port_ch.0.15.107: omega_ch[0,15,107] = 0
- omega_empty_port_dis.0.15.107: omega_dis[0,15,107] = 0
- ev_empty_port_energy.0.15.107: energy[0,15,107] = 0
- omega_empty_port_ch.0.16.107: omega_ch[0,16,107] = 0
- omega_empty_port_dis.0.16.107: omega_dis[0,16,107] = 0
- ev_empty_port_energy.0.16.107: energy[0,16,107] = 0
- omega_empty_port_ch.0.17.107: omega_ch[0,17,107] = 0
- omega_empty_port_dis.0.17.107: omega_dis[0,17,107] = 0
- ev_empty_port_energy.0.17.107: energy[0,17,107] = 0
- omega_empty_port_ch.0.18.107: omega_ch[0,18,107] = 0
- omega_empty_port_dis.0.18.107: omega_dis[0,18,107] = 0
- ev_empty_port_energy.0.18.107: energy[0,18,107] = 0
- omega_empty_port_ch.0.19.107: omega_ch[0,19,107] = 0
- omega_empty_port_dis.0.19.107: omega_dis[0,19,107] = 0
- ev_empty_port_energy.0.19.107: energy[0,19,107] = 0
- omega_empty_port_ch.0.20.107: omega_ch[0,20,107] = 0
- omega_empty_port_dis.0.20.107: omega_dis[0,20,107] = 0
- ev_empty_port_energy.0.20.107: energy[0,20,107] = 0
- omega_empty_port_ch.0.21.107: omega_ch[0,21,107] = 0
- omega_empty_port_dis.0.21.107: omega_dis[0,21,107] = 0
- ev_empty_port_energy.0.21.107: energy[0,21,107] = 0
- omega_empty_port_ch.0.22.107: omega_ch[0,22,107] = 0
- omega_empty_port_dis.0.22.107: omega_dis[0,22,107] = 0
- ev_empty_port_energy.0.22.107: energy[0,22,107] = 0
- omega_empty_port_ch.0.23.107: omega_ch[0,23,107] = 0
- omega_empty_port_dis.0.23.107: omega_dis[0,23,107] = 0
- ev_empty_port_energy.0.23.107: energy[0,23,107] = 0
- omega_empty_port_ch.0.24.107: omega_ch[0,24,107] = 0
- omega_empty_port_dis.0.24.107: omega_dis[0,24,107] = 0
- ev_empty_port_energy.0.24.107: energy[0,24,107] = 0
- omega_empty_port_ch.0.0.108: omega_ch[0,0,108] = 0
- omega_empty_port_dis.0.0.108: omega_dis[0,0,108] = 0
- ev_empty_port_energy.0.0.108: energy[0,0,108] = 0
- omega_empty_port_ch.0.1.108: omega_ch[0,1,108] = 0
- omega_empty_port_dis.0.1.108: omega_dis[0,1,108] = 0
- ev_empty_port_energy.0.1.108: energy[0,1,108] = 0
- omega_empty_port_ch.0.2.108: omega_ch[0,2,108] = 0
- omega_empty_port_dis.0.2.108: omega_dis[0,2,108] = 0
- ev_empty_port_energy.0.2.108: energy[0,2,108] = 0
- omega_empty_port_ch.0.3.108: omega_ch[0,3,108] = 0
- omega_empty_port_dis.0.3.108: omega_dis[0,3,108] = 0
- ev_empty_port_energy.0.3.108: energy[0,3,108] = 0
- omega_empty_port_ch.0.4.108: omega_ch[0,4,108] = 0
- omega_empty_port_dis.0.4.108: omega_dis[0,4,108] = 0
- ev_empty_port_energy.0.4.108: energy[0,4,108] = 0
- omega_empty_port_ch.0.5.108: omega_ch[0,5,108] = 0
- omega_empty_port_dis.0.5.108: omega_dis[0,5,108] = 0
- ev_empty_port_energy.0.5.108: energy[0,5,108] = 0
- omega_empty_port_ch.0.6.108: omega_ch[0,6,108] = 0
- omega_empty_port_dis.0.6.108: omega_dis[0,6,108] = 0
- ev_empty_port_energy.0.6.108: energy[0,6,108] = 0
- omega_empty_port_ch.0.7.108: omega_ch[0,7,108] = 0
- omega_empty_port_dis.0.7.108: omega_dis[0,7,108] = 0
- ev_empty_port_energy.0.7.108: energy[0,7,108] = 0
- omega_empty_port_ch.0.8.108: omega_ch[0,8,108] = 0
- omega_empty_port_dis.0.8.108: omega_dis[0,8,108] = 0
- ev_empty_port_energy.0.8.108: energy[0,8,108] = 0
- omega_empty_port_ch.0.9.108: omega_ch[0,9,108] = 0
- omega_empty_port_dis.0.9.108: omega_dis[0,9,108] = 0
- ev_empty_port_energy.0.9.108: energy[0,9,108] = 0
- omega_empty_port_ch.0.10.108: omega_ch[0,10,108] = 0
- omega_empty_port_dis.0.10.108: omega_dis[0,10,108] = 0
- ev_empty_port_energy.0.10.108: energy[0,10,108] = 0
- omega_empty_port_ch.0.11.108: omega_ch[0,11,108] = 0
- omega_empty_port_dis.0.11.108: omega_dis[0,11,108] = 0
- ev_empty_port_energy.0.11.108: energy[0,11,108] = 0
- omega_empty_port_ch.0.12.108: omega_ch[0,12,108] = 0
- omega_empty_port_dis.0.12.108: omega_dis[0,12,108] = 0
- ev_empty_port_energy.0.12.108: energy[0,12,108] = 0
- omega_empty_port_ch.0.13.108: omega_ch[0,13,108] = 0
- omega_empty_port_dis.0.13.108: omega_dis[0,13,108] = 0
- ev_empty_port_energy.0.13.108: energy[0,13,108] = 0
- omega_empty_port_ch.0.14.108: omega_ch[0,14,108] = 0
- omega_empty_port_dis.0.14.108: omega_dis[0,14,108] = 0
- ev_empty_port_energy.0.14.108: energy[0,14,108] = 0
- omega_empty_port_ch.0.15.108: omega_ch[0,15,108] = 0
- omega_empty_port_dis.0.15.108: omega_dis[0,15,108] = 0
- ev_empty_port_energy.0.15.108: energy[0,15,108] = 0
- omega_empty_port_ch.0.16.108: omega_ch[0,16,108] = 0
- omega_empty_port_dis.0.16.108: omega_dis[0,16,108] = 0
- ev_empty_port_energy.0.16.108: energy[0,16,108] = 0
- omega_empty_port_ch.0.17.108: omega_ch[0,17,108] = 0
- omega_empty_port_dis.0.17.108: omega_dis[0,17,108] = 0
- ev_empty_port_energy.0.17.108: energy[0,17,108] = 0
- omega_empty_port_ch.0.18.108: omega_ch[0,18,108] = 0
- omega_empty_port_dis.0.18.108: omega_dis[0,18,108] = 0
- ev_empty_port_energy.0.18.108: energy[0,18,108] = 0
- omega_empty_port_ch.0.19.108: omega_ch[0,19,108] = 0
- omega_empty_port_dis.0.19.108: omega_dis[0,19,108] = 0
- ev_empty_port_energy.0.19.108: energy[0,19,108] = 0
- omega_empty_port_ch.0.20.108: omega_ch[0,20,108] = 0
- omega_empty_port_dis.0.20.108: omega_dis[0,20,108] = 0
- ev_empty_port_energy.0.20.108: energy[0,20,108] = 0
- omega_empty_port_ch.0.21.108: omega_ch[0,21,108] = 0
- omega_empty_port_dis.0.21.108: omega_dis[0,21,108] = 0
- ev_empty_port_energy.0.21.108: energy[0,21,108] = 0
- omega_empty_port_ch.0.22.108: omega_ch[0,22,108] = 0
- omega_empty_port_dis.0.22.108: omega_dis[0,22,108] = 0
- ev_empty_port_energy.0.22.108: energy[0,22,108] = 0
- omega_empty_port_ch.0.23.108: omega_ch[0,23,108] = 0
- omega_empty_port_dis.0.23.108: omega_dis[0,23,108] = 0
- ev_empty_port_energy.0.23.108: energy[0,23,108] = 0
- omega_empty_port_ch.0.24.108: omega_ch[0,24,108] = 0
- omega_empty_port_dis.0.24.108: omega_dis[0,24,108] = 0
- ev_empty_port_energy.0.24.108: energy[0,24,108] = 0
- omega_empty_port_ch.0.0.109: omega_ch[0,0,109] = 0
- omega_empty_port_dis.0.0.109: omega_dis[0,0,109] = 0
- ev_empty_port_energy.0.0.109: energy[0,0,109] = 0
- omega_empty_port_ch.0.1.109: omega_ch[0,1,109] = 0
- omega_empty_port_dis.0.1.109: omega_dis[0,1,109] = 0
- ev_empty_port_energy.0.1.109: energy[0,1,109] = 0
- omega_empty_port_ch.0.2.109: omega_ch[0,2,109] = 0
- omega_empty_port_dis.0.2.109: omega_dis[0,2,109] = 0
- ev_empty_port_energy.0.2.109: energy[0,2,109] = 0
- omega_empty_port_ch.0.3.109: omega_ch[0,3,109] = 0
- omega_empty_port_dis.0.3.109: omega_dis[0,3,109] = 0
- ev_empty_port_energy.0.3.109: energy[0,3,109] = 0
- omega_empty_port_ch.0.4.109: omega_ch[0,4,109] = 0
- omega_empty_port_dis.0.4.109: omega_dis[0,4,109] = 0
- ev_empty_port_energy.0.4.109: energy[0,4,109] = 0
- omega_empty_port_ch.0.5.109: omega_ch[0,5,109] = 0
- omega_empty_port_dis.0.5.109: omega_dis[0,5,109] = 0
- ev_empty_port_energy.0.5.109: energy[0,5,109] = 0
- omega_empty_port_ch.0.6.109: omega_ch[0,6,109] = 0
- omega_empty_port_dis.0.6.109: omega_dis[0,6,109] = 0
- ev_empty_port_energy.0.6.109: energy[0,6,109] = 0
- omega_empty_port_ch.0.7.109: omega_ch[0,7,109] = 0
- omega_empty_port_dis.0.7.109: omega_dis[0,7,109] = 0
- ev_empty_port_energy.0.7.109: energy[0,7,109] = 0
- omega_empty_port_ch.0.8.109: omega_ch[0,8,109] = 0
- omega_empty_port_dis.0.8.109: omega_dis[0,8,109] = 0
- ev_empty_port_energy.0.8.109: energy[0,8,109] = 0
- omega_empty_port_ch.0.9.109: omega_ch[0,9,109] = 0
- omega_empty_port_dis.0.9.109: omega_dis[0,9,109] = 0
- ev_empty_port_energy.0.9.109: energy[0,9,109] = 0
- omega_empty_port_ch.0.10.109: omega_ch[0,10,109] = 0
- omega_empty_port_dis.0.10.109: omega_dis[0,10,109] = 0
- ev_empty_port_energy.0.10.109: energy[0,10,109] = 0
- omega_empty_port_ch.0.11.109: omega_ch[0,11,109] = 0
- omega_empty_port_dis.0.11.109: omega_dis[0,11,109] = 0
- ev_empty_port_energy.0.11.109: energy[0,11,109] = 0
- omega_empty_port_ch.0.12.109: omega_ch[0,12,109] = 0
- omega_empty_port_dis.0.12.109: omega_dis[0,12,109] = 0
- ev_empty_port_energy.0.12.109: energy[0,12,109] = 0
- omega_empty_port_ch.0.13.109: omega_ch[0,13,109] = 0
- omega_empty_port_dis.0.13.109: omega_dis[0,13,109] = 0
- ev_empty_port_energy.0.13.109: energy[0,13,109] = 0
- omega_empty_port_ch.0.14.109: omega_ch[0,14,109] = 0
- omega_empty_port_dis.0.14.109: omega_dis[0,14,109] = 0
- ev_empty_port_energy.0.14.109: energy[0,14,109] = 0
- omega_empty_port_ch.0.15.109: omega_ch[0,15,109] = 0
- omega_empty_port_dis.0.15.109: omega_dis[0,15,109] = 0
- ev_empty_port_energy.0.15.109: energy[0,15,109] = 0
- omega_empty_port_ch.0.16.109: omega_ch[0,16,109] = 0
- omega_empty_port_dis.0.16.109: omega_dis[0,16,109] = 0
- ev_empty_port_energy.0.16.109: energy[0,16,109] = 0
- omega_empty_port_ch.0.17.109: omega_ch[0,17,109] = 0
- omega_empty_port_dis.0.17.109: omega_dis[0,17,109] = 0
- ev_empty_port_energy.0.17.109: energy[0,17,109] = 0
- omega_empty_port_ch.0.18.109: omega_ch[0,18,109] = 0
- omega_empty_port_dis.0.18.109: omega_dis[0,18,109] = 0
- ev_empty_port_energy.0.18.109: energy[0,18,109] = 0
- omega_empty_port_ch.0.19.109: omega_ch[0,19,109] = 0
- omega_empty_port_dis.0.19.109: omega_dis[0,19,109] = 0
- ev_empty_port_energy.0.19.109: energy[0,19,109] = 0
- omega_empty_port_ch.0.20.109: omega_ch[0,20,109] = 0
- omega_empty_port_dis.0.20.109: omega_dis[0,20,109] = 0
- ev_empty_port_energy.0.20.109: energy[0,20,109] = 0
- omega_empty_port_ch.0.21.109: omega_ch[0,21,109] = 0
- omega_empty_port_dis.0.21.109: omega_dis[0,21,109] = 0
- ev_empty_port_energy.0.21.109: energy[0,21,109] = 0
- omega_empty_port_ch.0.22.109: omega_ch[0,22,109] = 0
- omega_empty_port_dis.0.22.109: omega_dis[0,22,109] = 0
- ev_empty_port_energy.0.22.109: energy[0,22,109] = 0
- omega_empty_port_ch.0.23.109: omega_ch[0,23,109] = 0
- omega_empty_port_dis.0.23.109: omega_dis[0,23,109] = 0
- ev_empty_port_energy.0.23.109: energy[0,23,109] = 0
- omega_empty_port_ch.0.24.109: omega_ch[0,24,109] = 0
- omega_empty_port_dis.0.24.109: omega_dis[0,24,109] = 0
- ev_empty_port_energy.0.24.109: energy[0,24,109] = 0
- omega_empty_port_ch.0.0.110: omega_ch[0,0,110] = 0
- omega_empty_port_dis.0.0.110: omega_dis[0,0,110] = 0
- ev_empty_port_energy.0.0.110: energy[0,0,110] = 0
- omega_empty_port_ch.0.1.110: omega_ch[0,1,110] = 0
- omega_empty_port_dis.0.1.110: omega_dis[0,1,110] = 0
- ev_empty_port_energy.0.1.110: energy[0,1,110] = 0
- omega_empty_port_ch.0.2.110: omega_ch[0,2,110] = 0
- omega_empty_port_dis.0.2.110: omega_dis[0,2,110] = 0
- ev_empty_port_energy.0.2.110: energy[0,2,110] = 0
- omega_empty_port_ch.0.3.110: omega_ch[0,3,110] = 0
- omega_empty_port_dis.0.3.110: omega_dis[0,3,110] = 0
- ev_empty_port_energy.0.3.110: energy[0,3,110] = 0
- omega_empty_port_ch.0.4.110: omega_ch[0,4,110] = 0
- omega_empty_port_dis.0.4.110: omega_dis[0,4,110] = 0
- ev_empty_port_energy.0.4.110: energy[0,4,110] = 0
- omega_empty_port_ch.0.5.110: omega_ch[0,5,110] = 0
- omega_empty_port_dis.0.5.110: omega_dis[0,5,110] = 0
- ev_empty_port_energy.0.5.110: energy[0,5,110] = 0
- omega_empty_port_ch.0.6.110: omega_ch[0,6,110] = 0
- omega_empty_port_dis.0.6.110: omega_dis[0,6,110] = 0
- ev_empty_port_energy.0.6.110: energy[0,6,110] = 0
- omega_empty_port_ch.0.7.110: omega_ch[0,7,110] = 0
- omega_empty_port_dis.0.7.110: omega_dis[0,7,110] = 0
- ev_empty_port_energy.0.7.110: energy[0,7,110] = 0
- omega_empty_port_ch.0.8.110: omega_ch[0,8,110] = 0
- omega_empty_port_dis.0.8.110: omega_dis[0,8,110] = 0
- ev_empty_port_energy.0.8.110: energy[0,8,110] = 0
- omega_empty_port_ch.0.9.110: omega_ch[0,9,110] = 0
- omega_empty_port_dis.0.9.110: omega_dis[0,9,110] = 0
- ev_empty_port_energy.0.9.110: energy[0,9,110] = 0
- omega_empty_port_ch.0.10.110: omega_ch[0,10,110] = 0
- omega_empty_port_dis.0.10.110: omega_dis[0,10,110] = 0
- ev_empty_port_energy.0.10.110: energy[0,10,110] = 0
- omega_empty_port_ch.0.11.110: omega_ch[0,11,110] = 0
- omega_empty_port_dis.0.11.110: omega_dis[0,11,110] = 0
- ev_empty_port_energy.0.11.110: energy[0,11,110] = 0
- omega_empty_port_ch.0.12.110: omega_ch[0,12,110] = 0
- omega_empty_port_dis.0.12.110: omega_dis[0,12,110] = 0
- ev_empty_port_energy.0.12.110: energy[0,12,110] = 0
- omega_empty_port_ch.0.13.110: omega_ch[0,13,110] = 0
- omega_empty_port_dis.0.13.110: omega_dis[0,13,110] = 0
- ev_empty_port_energy.0.13.110: energy[0,13,110] = 0
- omega_empty_port_ch.0.14.110: omega_ch[0,14,110] = 0
- omega_empty_port_dis.0.14.110: omega_dis[0,14,110] = 0
- ev_empty_port_energy.0.14.110: energy[0,14,110] = 0
- omega_empty_port_ch.0.15.110: omega_ch[0,15,110] = 0
- omega_empty_port_dis.0.15.110: omega_dis[0,15,110] = 0
- ev_empty_port_energy.0.15.110: energy[0,15,110] = 0
- omega_empty_port_ch.0.16.110: omega_ch[0,16,110] = 0
- omega_empty_port_dis.0.16.110: omega_dis[0,16,110] = 0
- ev_empty_port_energy.0.16.110: energy[0,16,110] = 0
- omega_empty_port_ch.0.17.110: omega_ch[0,17,110] = 0
- omega_empty_port_dis.0.17.110: omega_dis[0,17,110] = 0
- ev_empty_port_energy.0.17.110: energy[0,17,110] = 0
- omega_empty_port_ch.0.18.110: omega_ch[0,18,110] = 0
- omega_empty_port_dis.0.18.110: omega_dis[0,18,110] = 0
- ev_empty_port_energy.0.18.110: energy[0,18,110] = 0
- omega_empty_port_ch.0.19.110: omega_ch[0,19,110] = 0
- omega_empty_port_dis.0.19.110: omega_dis[0,19,110] = 0
- ev_empty_port_energy.0.19.110: energy[0,19,110] = 0
- omega_empty_port_ch.0.20.110: omega_ch[0,20,110] = 0
- omega_empty_port_dis.0.20.110: omega_dis[0,20,110] = 0
- ev_empty_port_energy.0.20.110: energy[0,20,110] = 0
- omega_empty_port_ch.0.21.110: omega_ch[0,21,110] = 0
- omega_empty_port_dis.0.21.110: omega_dis[0,21,110] = 0
- ev_empty_port_energy.0.21.110: energy[0,21,110] = 0
- omega_empty_port_ch.0.22.110: omega_ch[0,22,110] = 0
- omega_empty_port_dis.0.22.110: omega_dis[0,22,110] = 0
- ev_empty_port_energy.0.22.110: energy[0,22,110] = 0
- omega_empty_port_ch.0.23.110: omega_ch[0,23,110] = 0
- omega_empty_port_dis.0.23.110: omega_dis[0,23,110] = 0
- ev_empty_port_energy.0.23.110: energy[0,23,110] = 0
- omega_empty_port_ch.0.24.110: omega_ch[0,24,110] = 0
- omega_empty_port_dis.0.24.110: omega_dis[0,24,110] = 0
- ev_empty_port_energy.0.24.110: energy[0,24,110] = 0
- omega_empty_port_ch.0.0.111: omega_ch[0,0,111] = 0
- omega_empty_port_dis.0.0.111: omega_dis[0,0,111] = 0
- ev_empty_port_energy.0.0.111: energy[0,0,111] = 0
- omega_empty_port_ch.0.1.111: omega_ch[0,1,111] = 0
- omega_empty_port_dis.0.1.111: omega_dis[0,1,111] = 0
- ev_empty_port_energy.0.1.111: energy[0,1,111] = 0
- omega_empty_port_ch.0.2.111: omega_ch[0,2,111] = 0
- omega_empty_port_dis.0.2.111: omega_dis[0,2,111] = 0
- ev_empty_port_energy.0.2.111: energy[0,2,111] = 0
- omega_empty_port_ch.0.3.111: omega_ch[0,3,111] = 0
- omega_empty_port_dis.0.3.111: omega_dis[0,3,111] = 0
- ev_empty_port_energy.0.3.111: energy[0,3,111] = 0
- omega_empty_port_ch.0.4.111: omega_ch[0,4,111] = 0
- omega_empty_port_dis.0.4.111: omega_dis[0,4,111] = 0
- ev_empty_port_energy.0.4.111: energy[0,4,111] = 0
- omega_empty_port_ch.0.5.111: omega_ch[0,5,111] = 0
- omega_empty_port_dis.0.5.111: omega_dis[0,5,111] = 0
- ev_empty_port_energy.0.5.111: energy[0,5,111] = 0
- omega_empty_port_ch.0.6.111: omega_ch[0,6,111] = 0
- omega_empty_port_dis.0.6.111: omega_dis[0,6,111] = 0
- ev_empty_port_energy.0.6.111: energy[0,6,111] = 0
- omega_empty_port_ch.0.7.111: omega_ch[0,7,111] = 0
- omega_empty_port_dis.0.7.111: omega_dis[0,7,111] = 0
- ev_empty_port_energy.0.7.111: energy[0,7,111] = 0
- omega_empty_port_ch.0.8.111: omega_ch[0,8,111] = 0
- omega_empty_port_dis.0.8.111: omega_dis[0,8,111] = 0
- ev_empty_port_energy.0.8.111: energy[0,8,111] = 0
- omega_empty_port_ch.0.9.111: omega_ch[0,9,111] = 0
- omega_empty_port_dis.0.9.111: omega_dis[0,9,111] = 0
- ev_empty_port_energy.0.9.111: energy[0,9,111] = 0
- omega_empty_port_ch.0.10.111: omega_ch[0,10,111] = 0
- omega_empty_port_dis.0.10.111: omega_dis[0,10,111] = 0
- ev_empty_port_energy.0.10.111: energy[0,10,111] = 0
- omega_empty_port_ch.0.11.111: omega_ch[0,11,111] = 0
- omega_empty_port_dis.0.11.111: omega_dis[0,11,111] = 0
- ev_empty_port_energy.0.11.111: energy[0,11,111] = 0
- omega_empty_port_ch.0.12.111: omega_ch[0,12,111] = 0
- omega_empty_port_dis.0.12.111: omega_dis[0,12,111] = 0
- ev_empty_port_energy.0.12.111: energy[0,12,111] = 0
- omega_empty_port_ch.0.13.111: omega_ch[0,13,111] = 0
- omega_empty_port_dis.0.13.111: omega_dis[0,13,111] = 0
- ev_empty_port_energy.0.13.111: energy[0,13,111] = 0
- omega_empty_port_ch.0.14.111: omega_ch[0,14,111] = 0
- omega_empty_port_dis.0.14.111: omega_dis[0,14,111] = 0
- ev_empty_port_energy.0.14.111: energy[0,14,111] = 0
- omega_empty_port_ch.0.15.111: omega_ch[0,15,111] = 0
- omega_empty_port_dis.0.15.111: omega_dis[0,15,111] = 0
- ev_empty_port_energy.0.15.111: energy[0,15,111] = 0
- omega_empty_port_ch.0.16.111: omega_ch[0,16,111] = 0
- omega_empty_port_dis.0.16.111: omega_dis[0,16,111] = 0
- ev_empty_port_energy.0.16.111: energy[0,16,111] = 0
- omega_empty_port_ch.0.17.111: omega_ch[0,17,111] = 0
- omega_empty_port_dis.0.17.111: omega_dis[0,17,111] = 0
- ev_empty_port_energy.0.17.111: energy[0,17,111] = 0
- omega_empty_port_ch.0.18.111: omega_ch[0,18,111] = 0
- omega_empty_port_dis.0.18.111: omega_dis[0,18,111] = 0
- ev_empty_port_energy.0.18.111: energy[0,18,111] = 0
- omega_empty_port_ch.0.19.111: omega_ch[0,19,111] = 0
- omega_empty_port_dis.0.19.111: omega_dis[0,19,111] = 0
- ev_empty_port_energy.0.19.111: energy[0,19,111] = 0
- omega_empty_port_ch.0.20.111: omega_ch[0,20,111] = 0
- omega_empty_port_dis.0.20.111: omega_dis[0,20,111] = 0
- ev_empty_port_energy.0.20.111: energy[0,20,111] = 0
- omega_empty_port_ch.0.21.111: omega_ch[0,21,111] = 0
- omega_empty_port_dis.0.21.111: omega_dis[0,21,111] = 0
- ev_empty_port_energy.0.21.111: energy[0,21,111] = 0
- omega_empty_port_ch.0.22.111: omega_ch[0,22,111] = 0
- omega_empty_port_dis.0.22.111: omega_dis[0,22,111] = 0
- ev_empty_port_energy.0.22.111: energy[0,22,111] = 0
- omega_empty_port_ch.0.23.111: omega_ch[0,23,111] = 0
- omega_empty_port_dis.0.23.111: omega_dis[0,23,111] = 0
- ev_empty_port_energy.0.23.111: energy[0,23,111] = 0
- omega_empty_port_ch.0.24.111: omega_ch[0,24,111] = 0
- omega_empty_port_dis.0.24.111: omega_dis[0,24,111] = 0
- ev_empty_port_energy.0.24.111: energy[0,24,111] = 0
- ev_arrival_energy.0.2.9: energy[0,2,9] = 37
- ev_energy.0.2.10: - energy[0,2,9] + energy[0,2,10]
-   + 0.155884572681199 act_current_ev_dis[0,2,10]
-   - 0.155884572681199 act_current_ev_ch[0,2,10] = 0
- ev_energy.0.2.11: - energy[0,2,10] + energy[0,2,11]
-   + 0.155884572681199 act_current_ev_dis[0,2,11]
-   - 0.155884572681199 act_current_ev_ch[0,2,11] = 0
- ev_arrival_energy.0.17.11: energy[0,17,11] = 34
- ev_arrival_energy.0.1.12: energy[0,1,12] = 50
- ev_energy.0.2.12: - energy[0,2,11] + energy[0,2,12]
-   + 0.155884572681199 act_current_ev_dis[0,2,12]
-   - 0.155884572681199 act_current_ev_ch[0,2,12] = 0
- ev_energy.0.17.12: - energy[0,17,11] + energy[0,17,12]
-   + 0.155884572681199 act_current_ev_dis[0,17,12]
-   - 0.155884572681199 act_current_ev_ch[0,17,12] = 0
- ev_energy.0.1.13: - energy[0,1,12] + energy[0,1,13]
-   + 0.155884572681199 act_current_ev_dis[0,1,13]
-   - 0.155884572681199 act_current_ev_ch[0,1,13] = 0
- ev_energy.0.2.13: - energy[0,2,12] + energy[0,2,13]
-   + 0.155884572681199 act_current_ev_dis[0,2,13]
-   - 0.155884572681199 act_current_ev_ch[0,2,13] = 0
- ev_arrival_energy.0.12.13: energy[0,12,13] = 15
- ev_energy.0.17.13: - energy[0,17,12] + energy[0,17,13]
-   + 0.155884572681199 act_current_ev_dis[0,17,13]
-   - 0.155884572681199 act_current_ev_ch[0,17,13] = 0
- ev_arrival_energy.0.20.13: energy[0,20,13] = 23
- ev_energy.0.1.14: - energy[0,1,13] + energy[0,1,14]
-   + 0.155884572681199 act_current_ev_dis[0,1,14]
-   - 0.155884572681199 act_current_ev_ch[0,1,14] = 0
- ev_energy.0.2.14: - energy[0,2,13] + energy[0,2,14]
-   + 0.155884572681199 act_current_ev_dis[0,2,14]
-   - 0.155884572681199 act_current_ev_ch[0,2,14] = 0
- ev_arrival_energy.0.3.14: energy[0,3,14] = 42
- ev_energy.0.12.14: - energy[0,12,13] + energy[0,12,14]
-   + 0.155884572681199 act_current_ev_dis[0,12,14]
-   - 0.155884572681199 act_current_ev_ch[0,12,14] = 0
- ev_energy.0.17.14: - energy[0,17,13] + energy[0,17,14]
-   + 0.155884572681199 act_current_ev_dis[0,17,14]
-   - 0.155884572681199 act_current_ev_ch[0,17,14] = 0
- ev_energy.0.20.14: - energy[0,20,13] + energy[0,20,14]
-   + 0.155884572681199 act_current_ev_dis[0,20,14]
-   - 0.155884572681199 act_current_ev_ch[0,20,14] = 0
- ev_energy.0.1.15: - energy[0,1,14] + energy[0,1,15]
-   + 0.155884572681199 act_current_ev_dis[0,1,15]
-   - 0.155884572681199 act_current_ev_ch[0,1,15] = 0
- ev_energy.0.2.15: - energy[0,2,14] + energy[0,2,15]
-   + 0.155884572681199 act_current_ev_dis[0,2,15]
-   - 0.155884572681199 act_current_ev_ch[0,2,15] = 0
- ev_energy.0.3.15: - energy[0,3,14] + energy[0,3,15]
-   + 0.155884572681199 act_current_ev_dis[0,3,15]
-   - 0.155884572681199 act_current_ev_ch[0,3,15] = 0
- ev_energy.0.12.15: - energy[0,12,14] + energy[0,12,15]
-   + 0.155884572681199 act_current_ev_dis[0,12,15]
-   - 0.155884572681199 act_current_ev_ch[0,12,15] = 0
- ev_arrival_energy.0.16.15: energy[0,16,15] = 49
- ev_energy.0.17.15: - energy[0,17,14] + energy[0,17,15]
-   + 0.155884572681199 act_current_ev_dis[0,17,15]
-   - 0.155884572681199 act_current_ev_ch[0,17,15] = 0
- ev_energy.0.20.15: - energy[0,20,14] + energy[0,20,15]
-   + 0.155884572681199 act_current_ev_dis[0,20,15]
-   - 0.155884572681199 act_current_ev_ch[0,20,15] = 0
- ev_energy.0.1.16: - energy[0,1,15] + energy[0,1,16]
-   + 0.155884572681199 act_current_ev_dis[0,1,16]
-   - 0.155884572681199 act_current_ev_ch[0,1,16] = 0
- ev_energy.0.2.16: - energy[0,2,15] + energy[0,2,16]
-   + 0.155884572681199 act_current_ev_dis[0,2,16]
-   - 0.155884572681199 act_current_ev_ch[0,2,16] = 0
- ev_energy.0.3.16: - energy[0,3,15] + energy[0,3,16]
-   + 0.155884572681199 act_current_ev_dis[0,3,16]
-   - 0.155884572681199 act_current_ev_ch[0,3,16] = 0
- ev_arrival_energy.0.7.16: energy[0,7,16] = 15
- ev_arrival_energy.0.9.16: energy[0,9,16] = 55
- ev_energy.0.12.16: - energy[0,12,15] + energy[0,12,16]
-   + 0.155884572681199 act_current_ev_dis[0,12,16]
-   - 0.155884572681199 act_current_ev_ch[0,12,16] = 0
- ev_arrival_energy.0.14.16: energy[0,14,16] = 63
- ev_energy.0.16.16: - energy[0,16,15] + energy[0,16,16]
-   + 0.155884572681199 act_current_ev_dis[0,16,16]
-   - 0.155884572681199 act_current_ev_ch[0,16,16] = 0
- ev_energy.0.17.16: - energy[0,17,15] + energy[0,17,16]
-   + 0.155884572681199 act_current_ev_dis[0,17,16]
-   - 0.155884572681199 act_current_ev_ch[0,17,16] = 0
- ev_energy.0.20.16: - energy[0,20,15] + energy[0,20,16]
-   + 0.155884572681199 act_current_ev_dis[0,20,16]
-   - 0.155884572681199 act_current_ev_ch[0,20,16] = 0
- ev_arrival_energy.0.0.17: energy[0,0,17] = 59
- ev_energy.0.1.17: - energy[0,1,16] + energy[0,1,17]
-   + 0.155884572681199 act_current_ev_dis[0,1,17]
-   - 0.155884572681199 act_current_ev_ch[0,1,17] = 0
- ev_energy.0.2.17: - energy[0,2,16] + energy[0,2,17]
-   + 0.155884572681199 act_current_ev_dis[0,2,17]
-   - 0.155884572681199 act_current_ev_ch[0,2,17] = 0
- ev_energy.0.3.17: - energy[0,3,16] + energy[0,3,17]
-   + 0.155884572681199 act_current_ev_dis[0,3,17]
-   - 0.155884572681199 act_current_ev_ch[0,3,17] = 0
- ev_energy.0.7.17: - energy[0,7,16] + energy[0,7,17]
-   + 0.155884572681199 act_current_ev_dis[0,7,17]
-   - 0.155884572681199 act_current_ev_ch[0,7,17] = 0
- ev_energy.0.9.17: - energy[0,9,16] + energy[0,9,17]
-   + 0.155884572681199 act_current_ev_dis[0,9,17]
-   - 0.155884572681199 act_current_ev_ch[0,9,17] = 0
- ev_arrival_energy.0.11.17: energy[0,11,17] = 16
- ev_energy.0.12.17: - energy[0,12,16] + energy[0,12,17]
-   + 0.155884572681199 act_current_ev_dis[0,12,17]
-   - 0.155884572681199 act_current_ev_ch[0,12,17] = 0
- ev_energy.0.14.17: - energy[0,14,16] + energy[0,14,17]
-   + 0.155884572681199 act_current_ev_dis[0,14,17]
-   - 0.155884572681199 act_current_ev_ch[0,14,17] = 0
- ev_energy.0.16.17: - energy[0,16,16] + energy[0,16,17]
-   + 0.155884572681199 act_current_ev_dis[0,16,17]
-   - 0.155884572681199 act_current_ev_ch[0,16,17] = 0
- ev_energy.0.17.17: - energy[0,17,16] + energy[0,17,17]
-   + 0.155884572681199 act_current_ev_dis[0,17,17]
-   - 0.155884572681199 act_current_ev_ch[0,17,17] = 0
- ev_energy.0.20.17: - energy[0,20,16] + energy[0,20,17]
-   + 0.155884572681199 act_current_ev_dis[0,20,17]
-   - 0.155884572681199 act_current_ev_ch[0,20,17] = 0
- ev_energy.0.0.18: - energy[0,0,17] + energy[0,0,18]
-   + 0.155884572681199 act_current_ev_dis[0,0,18]
-   - 0.155884572681199 act_current_ev_ch[0,0,18] = 0
- ev_energy.0.1.18: - energy[0,1,17] + energy[0,1,18]
-   + 0.155884572681199 act_current_ev_dis[0,1,18]
-   - 0.155884572681199 act_current_ev_ch[0,1,18] = 0
- ev_energy.0.2.18: - energy[0,2,17] + energy[0,2,18]
-   + 0.155884572681199 act_current_ev_dis[0,2,18]
-   - 0.155884572681199 act_current_ev_ch[0,2,18] = 0
- ev_energy.0.3.18: - energy[0,3,17] + energy[0,3,18]
-   + 0.155884572681199 act_current_ev_dis[0,3,18]
-   - 0.155884572681199 act_current_ev_ch[0,3,18] = 0
- ev_energy.0.7.18: - energy[0,7,17] + energy[0,7,18]
-   + 0.155884572681199 act_current_ev_dis[0,7,18]
-   - 0.155884572681199 act_current_ev_ch[0,7,18] = 0
- ev_energy.0.9.18: - energy[0,9,17] + energy[0,9,18]
-   + 0.155884572681199 act_current_ev_dis[0,9,18]
-   - 0.155884572681199 act_current_ev_ch[0,9,18] = 0
- ev_energy.0.11.18: - energy[0,11,17] + energy[0,11,18]
-   + 0.155884572681199 act_current_ev_dis[0,11,18]
-   - 0.155884572681199 act_current_ev_ch[0,11,18] = 0
- ev_energy.0.12.18: - energy[0,12,17] + energy[0,12,18]
-   + 0.155884572681199 act_current_ev_dis[0,12,18]
-   - 0.155884572681199 act_current_ev_ch[0,12,18] = 0
- ev_energy.0.14.18: - energy[0,14,17] + energy[0,14,18]
-   + 0.155884572681199 act_current_ev_dis[0,14,18]
-   - 0.155884572681199 act_current_ev_ch[0,14,18] = 0
- ev_energy.0.16.18: - energy[0,16,17] + energy[0,16,18]
-   + 0.155884572681199 act_current_ev_dis[0,16,18]
-   - 0.155884572681199 act_current_ev_ch[0,16,18] = 0
- ev_energy.0.17.18: - energy[0,17,17] + energy[0,17,18]
-   + 0.155884572681199 act_current_ev_dis[0,17,18]
-   - 0.155884572681199 act_current_ev_ch[0,17,18] = 0
- ev_energy.0.20.18: - energy[0,20,17] + energy[0,20,18]
-   + 0.155884572681199 act_current_ev_dis[0,20,18]
-   - 0.155884572681199 act_current_ev_ch[0,20,18] = 0
- ev_energy.0.0.19: - energy[0,0,18] + energy[0,0,19]
-   + 0.155884572681199 act_current_ev_dis[0,0,19]
-   - 0.155884572681199 act_current_ev_ch[0,0,19] = 0
- ev_energy.0.1.19: - energy[0,1,18] + energy[0,1,19]
-   + 0.155884572681199 act_current_ev_dis[0,1,19]
-   - 0.155884572681199 act_current_ev_ch[0,1,19] = 0
- ev_energy.0.2.19: - energy[0,2,18] + energy[0,2,19]
-   + 0.155884572681199 act_current_ev_dis[0,2,19]
-   - 0.155884572681199 act_current_ev_ch[0,2,19] = 0
- ev_energy.0.3.19: - energy[0,3,18] + energy[0,3,19]
-   + 0.155884572681199 act_current_ev_dis[0,3,19]
-   - 0.155884572681199 act_current_ev_ch[0,3,19] = 0
- ev_energy.0.7.19: - energy[0,7,18] + energy[0,7,19]
-   + 0.155884572681199 act_current_ev_dis[0,7,19]
-   - 0.155884572681199 act_current_ev_ch[0,7,19] = 0
- ev_energy.0.9.19: - energy[0,9,18] + energy[0,9,19]
-   + 0.155884572681199 act_current_ev_dis[0,9,19]
-   - 0.155884572681199 act_current_ev_ch[0,9,19] = 0
- ev_energy.0.11.19: - energy[0,11,18] + energy[0,11,19]
-   + 0.155884572681199 act_current_ev_dis[0,11,19]
-   - 0.155884572681199 act_current_ev_ch[0,11,19] = 0
- ev_energy.0.12.19: - energy[0,12,18] + energy[0,12,19]
-   + 0.155884572681199 act_current_ev_dis[0,12,19]
-   - 0.155884572681199 act_current_ev_ch[0,12,19] = 0
- ev_energy.0.14.19: - energy[0,14,18] + energy[0,14,19]
-   + 0.155884572681199 act_current_ev_dis[0,14,19]
-   - 0.155884572681199 act_current_ev_ch[0,14,19] = 0
- ev_energy.0.16.19: - energy[0,16,18] + energy[0,16,19]
-   + 0.155884572681199 act_current_ev_dis[0,16,19]
-   - 0.155884572681199 act_current_ev_ch[0,16,19] = 0
- ev_energy.0.17.19: - energy[0,17,18] + energy[0,17,19]
-   + 0.155884572681199 act_current_ev_dis[0,17,19]
-   - 0.155884572681199 act_current_ev_ch[0,17,19] = 0
- ev_energy.0.20.19: - energy[0,20,18] + energy[0,20,19]
-   + 0.155884572681199 act_current_ev_dis[0,20,19]
-   - 0.155884572681199 act_current_ev_ch[0,20,19] = 0
- ev_energy.0.0.20: - energy[0,0,19] + energy[0,0,20]
-   + 0.155884572681199 act_current_ev_dis[0,0,20]
-   - 0.155884572681199 act_current_ev_ch[0,0,20] = 0
- ev_energy.0.1.20: - energy[0,1,19] + energy[0,1,20]
-   + 0.155884572681199 act_current_ev_dis[0,1,20]
-   - 0.155884572681199 act_current_ev_ch[0,1,20] = 0
- ev_energy.0.2.20: - energy[0,2,19] + energy[0,2,20]
-   + 0.155884572681199 act_current_ev_dis[0,2,20]
-   - 0.155884572681199 act_current_ev_ch[0,2,20] = 0
- ev_energy.0.3.20: - energy[0,3,19] + energy[0,3,20]
-   + 0.155884572681199 act_current_ev_dis[0,3,20]
-   - 0.155884572681199 act_current_ev_ch[0,3,20] = 0
- ev_energy.0.7.20: - energy[0,7,19] + energy[0,7,20]
-   + 0.155884572681199 act_current_ev_dis[0,7,20]
-   - 0.155884572681199 act_current_ev_ch[0,7,20] = 0
- ev_energy.0.9.20: - energy[0,9,19] + energy[0,9,20]
-   + 0.155884572681199 act_current_ev_dis[0,9,20]
-   - 0.155884572681199 act_current_ev_ch[0,9,20] = 0
- ev_arrival_energy.0.10.20: energy[0,10,20] = 26
- ev_energy.0.11.20: - energy[0,11,19] + energy[0,11,20]
-   + 0.155884572681199 act_current_ev_dis[0,11,20]
-   - 0.155884572681199 act_current_ev_ch[0,11,20] = 0
- ev_energy.0.12.20: - energy[0,12,19] + energy[0,12,20]
-   + 0.155884572681199 act_current_ev_dis[0,12,20]
-   - 0.155884572681199 act_current_ev_ch[0,12,20] = 0
- ev_energy.0.14.20: - energy[0,14,19] + energy[0,14,20]
-   + 0.155884572681199 act_current_ev_dis[0,14,20]
-   - 0.155884572681199 act_current_ev_ch[0,14,20] = 0
- ev_arrival_energy.0.15.20: energy[0,15,20] = 33
- ev_energy.0.16.20: - energy[0,16,19] + energy[0,16,20]
-   + 0.155884572681199 act_current_ev_dis[0,16,20]
-   - 0.155884572681199 act_current_ev_ch[0,16,20] = 0
- ev_energy.0.17.20: - energy[0,17,19] + energy[0,17,20]
-   + 0.155884572681199 act_current_ev_dis[0,17,20]
-   - 0.155884572681199 act_current_ev_ch[0,17,20] = 0
- ev_energy.0.20.20: - energy[0,20,19] + energy[0,20,20]
-   + 0.155884572681199 act_current_ev_dis[0,20,20]
-   - 0.155884572681199 act_current_ev_ch[0,20,20] = 0
- ev_energy.0.0.21: - energy[0,0,20] + energy[0,0,21]
-   + 0.155884572681199 act_current_ev_dis[0,0,21]
-   - 0.155884572681199 act_current_ev_ch[0,0,21] = 0
- ev_energy.0.1.21: - energy[0,1,20] + energy[0,1,21]
-   + 0.155884572681199 act_current_ev_dis[0,1,21]
-   - 0.155884572681199 act_current_ev_ch[0,1,21] = 0
- ev_energy.0.2.21: - energy[0,2,20] + energy[0,2,21]
-   + 0.155884572681199 act_current_ev_dis[0,2,21]
-   - 0.155884572681199 act_current_ev_ch[0,2,21] = 0
- ev_energy.0.3.21: - energy[0,3,20] + energy[0,3,21]
-   + 0.155884572681199 act_current_ev_dis[0,3,21]
-   - 0.155884572681199 act_current_ev_ch[0,3,21] = 0
- ev_energy.0.7.21: - energy[0,7,20] + energy[0,7,21]
-   + 0.155884572681199 act_current_ev_dis[0,7,21]
-   - 0.155884572681199 act_current_ev_ch[0,7,21] = 0
- ev_energy.0.9.21: - energy[0,9,20] + energy[0,9,21]
-   + 0.155884572681199 act_current_ev_dis[0,9,21]
-   - 0.155884572681199 act_current_ev_ch[0,9,21] = 0
- ev_energy.0.10.21: - energy[0,10,20] + energy[0,10,21]
-   + 0.155884572681199 act_current_ev_dis[0,10,21]
-   - 0.155884572681199 act_current_ev_ch[0,10,21] = 0
- ev_energy.0.11.21: - energy[0,11,20] + energy[0,11,21]
-   + 0.155884572681199 act_current_ev_dis[0,11,21]
-   - 0.155884572681199 act_current_ev_ch[0,11,21] = 0
- ev_energy.0.12.21: - energy[0,12,20] + energy[0,12,21]
-   + 0.155884572681199 act_current_ev_dis[0,12,21]
-   - 0.155884572681199 act_current_ev_ch[0,12,21] = 0
- ev_energy.0.14.21: - energy[0,14,20] + energy[0,14,21]
-   + 0.155884572681199 act_current_ev_dis[0,14,21]
-   - 0.155884572681199 act_current_ev_ch[0,14,21] = 0
- ev_energy.0.15.21: - energy[0,15,20] + energy[0,15,21]
-   + 0.155884572681199 act_current_ev_dis[0,15,21]
-   - 0.155884572681199 act_current_ev_ch[0,15,21] = 0
- ev_energy.0.16.21: - energy[0,16,20] + energy[0,16,21]
-   + 0.155884572681199 act_current_ev_dis[0,16,21]
-   - 0.155884572681199 act_current_ev_ch[0,16,21] = 0
- ev_energy.0.17.21: - energy[0,17,20] + energy[0,17,21]
-   + 0.155884572681199 act_current_ev_dis[0,17,21]
-   - 0.155884572681199 act_current_ev_ch[0,17,21] = 0
- ev_energy.0.20.21: - energy[0,20,20] + energy[0,20,21]
-   + 0.155884572681199 act_current_ev_dis[0,20,21]
-   - 0.155884572681199 act_current_ev_ch[0,20,21] = 0
- ev_energy.0.0.22: - energy[0,0,21] + energy[0,0,22]
-   + 0.155884572681199 act_current_ev_dis[0,0,22]
-   - 0.155884572681199 act_current_ev_ch[0,0,22] = 0
- ev_energy.0.1.22: - energy[0,1,21] + energy[0,1,22]
-   + 0.155884572681199 act_current_ev_dis[0,1,22]
-   - 0.155884572681199 act_current_ev_ch[0,1,22] = 0
- ev_energy.0.2.22: - energy[0,2,21] + energy[0,2,22]
-   + 0.155884572681199 act_current_ev_dis[0,2,22]
-   - 0.155884572681199 act_current_ev_ch[0,2,22] = 0
- ev_energy.0.3.22: - energy[0,3,21] + energy[0,3,22]
-   + 0.155884572681199 act_current_ev_dis[0,3,22]
-   - 0.155884572681199 act_current_ev_ch[0,3,22] = 0
- ev_arrival_energy.0.6.22: energy[0,6,22] = 57
- ev_energy.0.7.22: - energy[0,7,21] + energy[0,7,22]
-   + 0.155884572681199 act_current_ev_dis[0,7,22]
-   - 0.155884572681199 act_current_ev_ch[0,7,22] = 0
- ev_energy.0.9.22: - energy[0,9,21] + energy[0,9,22]
-   + 0.155884572681199 act_current_ev_dis[0,9,22]
-   - 0.155884572681199 act_current_ev_ch[0,9,22] = 0
- ev_energy.0.10.22: - energy[0,10,21] + energy[0,10,22]
-   + 0.155884572681199 act_current_ev_dis[0,10,22]
-   - 0.155884572681199 act_current_ev_ch[0,10,22] = 0
- ev_energy.0.11.22: - energy[0,11,21] + energy[0,11,22]
-   + 0.155884572681199 act_current_ev_dis[0,11,22]
-   - 0.155884572681199 act_current_ev_ch[0,11,22] = 0
- ev_energy.0.12.22: - energy[0,12,21] + energy[0,12,22]
-   + 0.155884572681199 act_current_ev_dis[0,12,22]
-   - 0.155884572681199 act_current_ev_ch[0,12,22] = 0
- ev_energy.0.14.22: - energy[0,14,21] + energy[0,14,22]
-   + 0.155884572681199 act_current_ev_dis[0,14,22]
-   - 0.155884572681199 act_current_ev_ch[0,14,22] = 0
- ev_energy.0.15.22: - energy[0,15,21] + energy[0,15,22]
-   + 0.155884572681199 act_current_ev_dis[0,15,22]
-   - 0.155884572681199 act_current_ev_ch[0,15,22] = 0
- ev_energy.0.16.22: - energy[0,16,21] + energy[0,16,22]
-   + 0.155884572681199 act_current_ev_dis[0,16,22]
-   - 0.155884572681199 act_current_ev_ch[0,16,22] = 0
- ev_energy.0.17.22: - energy[0,17,21] + energy[0,17,22]
-   + 0.155884572681199 act_current_ev_dis[0,17,22]
-   - 0.155884572681199 act_current_ev_ch[0,17,22] = 0
- ev_energy.0.20.22: - energy[0,20,21] + energy[0,20,22]
-   + 0.155884572681199 act_current_ev_dis[0,20,22]
-   - 0.155884572681199 act_current_ev_ch[0,20,22] = 0
- ev_energy.0.0.23: - energy[0,0,22] + energy[0,0,23]
-   + 0.155884572681199 act_current_ev_dis[0,0,23]
-   - 0.155884572681199 act_current_ev_ch[0,0,23] = 0
- ev_energy.0.1.23: - energy[0,1,22] + energy[0,1,23]
-   + 0.155884572681199 act_current_ev_dis[0,1,23]
-   - 0.155884572681199 act_current_ev_ch[0,1,23] = 0
- ev_energy.0.2.23: - energy[0,2,22] + energy[0,2,23]
-   + 0.155884572681199 act_current_ev_dis[0,2,23]
-   - 0.155884572681199 act_current_ev_ch[0,2,23] = 0
- ev_energy.0.3.23: - energy[0,3,22] + energy[0,3,23]
-   + 0.155884572681199 act_current_ev_dis[0,3,23]
-   - 0.155884572681199 act_current_ev_ch[0,3,23] = 0
- ev_energy.0.6.23: - energy[0,6,22] + energy[0,6,23]
-   + 0.155884572681199 act_current_ev_dis[0,6,23]
-   - 0.155884572681199 act_current_ev_ch[0,6,23] = 0
- ev_energy.0.7.23: - energy[0,7,22] + energy[0,7,23]
-   + 0.155884572681199 act_current_ev_dis[0,7,23]
-   - 0.155884572681199 act_current_ev_ch[0,7,23] = 0
- ev_energy.0.9.23: - energy[0,9,22] + energy[0,9,23]
-   + 0.155884572681199 act_current_ev_dis[0,9,23]
-   - 0.155884572681199 act_current_ev_ch[0,9,23] = 0
- ev_energy.0.10.23: - energy[0,10,22] + energy[0,10,23]
-   + 0.155884572681199 act_current_ev_dis[0,10,23]
-   - 0.155884572681199 act_current_ev_ch[0,10,23] = 0
- ev_energy.0.11.23: - energy[0,11,22] + energy[0,11,23]
-   + 0.155884572681199 act_current_ev_dis[0,11,23]
-   - 0.155884572681199 act_current_ev_ch[0,11,23] = 0
- ev_energy.0.12.23: - energy[0,12,22] + energy[0,12,23]
-   + 0.155884572681199 act_current_ev_dis[0,12,23]
-   - 0.155884572681199 act_current_ev_ch[0,12,23] = 0
- ev_energy.0.14.23: - energy[0,14,22] + energy[0,14,23]
-   + 0.155884572681199 act_current_ev_dis[0,14,23]
-   - 0.155884572681199 act_current_ev_ch[0,14,23] = 0
- ev_energy.0.15.23: - energy[0,15,22] + energy[0,15,23]
-   + 0.155884572681199 act_current_ev_dis[0,15,23]
-   - 0.155884572681199 act_current_ev_ch[0,15,23] = 0
- ev_energy.0.16.23: - energy[0,16,22] + energy[0,16,23]
-   + 0.155884572681199 act_current_ev_dis[0,16,23]
-   - 0.155884572681199 act_current_ev_ch[0,16,23] = 0
- ev_energy.0.17.23: - energy[0,17,22] + energy[0,17,23]
-   + 0.155884572681199 act_current_ev_dis[0,17,23]
-   - 0.155884572681199 act_current_ev_ch[0,17,23] = 0
- ev_energy.0.20.23: - energy[0,20,22] + energy[0,20,23]
-   + 0.155884572681199 act_current_ev_dis[0,20,23]
-   - 0.155884572681199 act_current_ev_ch[0,20,23] = 0
- ev_energy.0.0.24: - energy[0,0,23] + energy[0,0,24]
-   + 0.155884572681199 act_current_ev_dis[0,0,24]
-   - 0.155884572681199 act_current_ev_ch[0,0,24] = 0
- ev_energy.0.1.24: - energy[0,1,23] + energy[0,1,24]
-   + 0.155884572681199 act_current_ev_dis[0,1,24]
-   - 0.155884572681199 act_current_ev_ch[0,1,24] = 0
- ev_energy.0.2.24: - energy[0,2,23] + energy[0,2,24]
-   + 0.155884572681199 act_current_ev_dis[0,2,24]
-   - 0.155884572681199 act_current_ev_ch[0,2,24] = 0
- ev_energy.0.3.24: - energy[0,3,23] + energy[0,3,24]
-   + 0.155884572681199 act_current_ev_dis[0,3,24]
-   - 0.155884572681199 act_current_ev_ch[0,3,24] = 0
- ev_energy.0.6.24: - energy[0,6,23] + energy[0,6,24]
-   + 0.155884572681199 act_current_ev_dis[0,6,24]
-   - 0.155884572681199 act_current_ev_ch[0,6,24] = 0
- ev_energy.0.7.24: - energy[0,7,23] + energy[0,7,24]
-   + 0.155884572681199 act_current_ev_dis[0,7,24]
-   - 0.155884572681199 act_current_ev_ch[0,7,24] = 0
- ev_energy.0.9.24: - energy[0,9,23] + energy[0,9,24]
-   + 0.155884572681199 act_current_ev_dis[0,9,24]
-   - 0.155884572681199 act_current_ev_ch[0,9,24] = 0
- ev_energy.0.10.24: - energy[0,10,23] + energy[0,10,24]
-   + 0.155884572681199 act_current_ev_dis[0,10,24]
-   - 0.155884572681199 act_current_ev_ch[0,10,24] = 0
- ev_energy.0.11.24: - energy[0,11,23] + energy[0,11,24]
-   + 0.155884572681199 act_current_ev_dis[0,11,24]
-   - 0.155884572681199 act_current_ev_ch[0,11,24] = 0
- ev_energy.0.12.24: - energy[0,12,23] + energy[0,12,24]
-   + 0.155884572681199 act_current_ev_dis[0,12,24]
-   - 0.155884572681199 act_current_ev_ch[0,12,24] = 0
- ev_energy.0.14.24: - energy[0,14,23] + energy[0,14,24]
-   + 0.155884572681199 act_current_ev_dis[0,14,24]
-   - 0.155884572681199 act_current_ev_ch[0,14,24] = 0
- ev_energy.0.15.24: - energy[0,15,23] + energy[0,15,24]
-   + 0.155884572681199 act_current_ev_dis[0,15,24]
-   - 0.155884572681199 act_current_ev_ch[0,15,24] = 0
- ev_energy.0.16.24: - energy[0,16,23] + energy[0,16,24]
-   + 0.155884572681199 act_current_ev_dis[0,16,24]
-   - 0.155884572681199 act_current_ev_ch[0,16,24] = 0
- ev_energy.0.17.24: - energy[0,17,23] + energy[0,17,24]
-   + 0.155884572681199 act_current_ev_dis[0,17,24]
-   - 0.155884572681199 act_current_ev_ch[0,17,24] = 0
- ev_arrival_energy.0.19.24: energy[0,19,24] = 49
- ev_energy.0.20.24: - energy[0,20,23] + energy[0,20,24]
-   + 0.155884572681199 act_current_ev_dis[0,20,24]
-   - 0.155884572681199 act_current_ev_ch[0,20,24] = 0
- ev_energy.0.0.25: - energy[0,0,24] + energy[0,0,25]
-   + 0.155884572681199 act_current_ev_dis[0,0,25]
-   - 0.155884572681199 act_current_ev_ch[0,0,25] = 0
- ev_energy.0.1.25: - energy[0,1,24] + energy[0,1,25]
-   + 0.155884572681199 act_current_ev_dis[0,1,25]
-   - 0.155884572681199 act_current_ev_ch[0,1,25] = 0
- ev_energy.0.2.25: - energy[0,2,24] + energy[0,2,25]
-   + 0.155884572681199 act_current_ev_dis[0,2,25]
-   - 0.155884572681199 act_current_ev_ch[0,2,25] = 0
- ev_energy.0.3.25: - energy[0,3,24] + energy[0,3,25]
-   + 0.155884572681199 act_current_ev_dis[0,3,25]
-   - 0.155884572681199 act_current_ev_ch[0,3,25] = 0
- ev_arrival_energy.0.4.25: energy[0,4,25] = 31
- ev_energy.0.6.25: - energy[0,6,24] + energy[0,6,25]
-   + 0.155884572681199 act_current_ev_dis[0,6,25]
-   - 0.155884572681199 act_current_ev_ch[0,6,25] = 0
- ev_energy.0.7.25: - energy[0,7,24] + energy[0,7,25]
-   + 0.155884572681199 act_current_ev_dis[0,7,25]
-   - 0.155884572681199 act_current_ev_ch[0,7,25] = 0
- ev_energy.0.9.25: - energy[0,9,24] + energy[0,9,25]
-   + 0.155884572681199 act_current_ev_dis[0,9,25]
-   - 0.155884572681199 act_current_ev_ch[0,9,25] = 0
- ev_energy.0.10.25: - energy[0,10,24] + energy[0,10,25]
-   + 0.155884572681199 act_current_ev_dis[0,10,25]
-   - 0.155884572681199 act_current_ev_ch[0,10,25] = 0
- ev_energy.0.11.25: - energy[0,11,24] + energy[0,11,25]
-   + 0.155884572681199 act_current_ev_dis[0,11,25]
-   - 0.155884572681199 act_current_ev_ch[0,11,25] = 0
- ev_energy.0.12.25: - energy[0,12,24] + energy[0,12,25]
-   + 0.155884572681199 act_current_ev_dis[0,12,25]
-   - 0.155884572681199 act_current_ev_ch[0,12,25] = 0
- ev_energy.0.14.25: - energy[0,14,24] + energy[0,14,25]
-   + 0.155884572681199 act_current_ev_dis[0,14,25]
-   - 0.155884572681199 act_current_ev_ch[0,14,25] = 0
- ev_energy.0.15.25: - energy[0,15,24] + energy[0,15,25]
-   + 0.155884572681199 act_current_ev_dis[0,15,25]
-   - 0.155884572681199 act_current_ev_ch[0,15,25] = 0
- ev_energy.0.16.25: - energy[0,16,24] + energy[0,16,25]
-   + 0.155884572681199 act_current_ev_dis[0,16,25]
-   - 0.155884572681199 act_current_ev_ch[0,16,25] = 0
- ev_energy.0.17.25: - energy[0,17,24] + energy[0,17,25]
-   + 0.155884572681199 act_current_ev_dis[0,17,25]
-   - 0.155884572681199 act_current_ev_ch[0,17,25] = 0
- ev_energy.0.19.25: - energy[0,19,24] + energy[0,19,25]
-   + 0.155884572681199 act_current_ev_dis[0,19,25]
-   - 0.155884572681199 act_current_ev_ch[0,19,25] = 0
- ev_energy.0.20.25: - energy[0,20,24] + energy[0,20,25]
-   + 0.155884572681199 act_current_ev_dis[0,20,25]
-   - 0.155884572681199 act_current_ev_ch[0,20,25] = 0
- ev_arrival_energy.0.23.25: energy[0,23,25] = 15
- ev_energy.0.0.26: - energy[0,0,25] + energy[0,0,26]
-   + 0.155884572681199 act_current_ev_dis[0,0,26]
-   - 0.155884572681199 act_current_ev_ch[0,0,26] = 0
- ev_energy.0.1.26: - energy[0,1,25] + energy[0,1,26]
-   + 0.155884572681199 act_current_ev_dis[0,1,26]
-   - 0.155884572681199 act_current_ev_ch[0,1,26] = 0
- ev_energy.0.2.26: - energy[0,2,25] + energy[0,2,26]
-   + 0.155884572681199 act_current_ev_dis[0,2,26]
-   - 0.155884572681199 act_current_ev_ch[0,2,26] = 0
- ev_energy.0.3.26: - energy[0,3,25] + energy[0,3,26]
-   + 0.155884572681199 act_current_ev_dis[0,3,26]
-   - 0.155884572681199 act_current_ev_ch[0,3,26] = 0
- ev_energy.0.4.26: - energy[0,4,25] + energy[0,4,26]
-   + 0.155884572681199 act_current_ev_dis[0,4,26]
-   - 0.155884572681199 act_current_ev_ch[0,4,26] = 0
- ev_energy.0.6.26: - energy[0,6,25] + energy[0,6,26]
-   + 0.155884572681199 act_current_ev_dis[0,6,26]
-   - 0.155884572681199 act_current_ev_ch[0,6,26] = 0
- ev_energy.0.7.26: - energy[0,7,25] + energy[0,7,26]
-   + 0.155884572681199 act_current_ev_dis[0,7,26]
-   - 0.155884572681199 act_current_ev_ch[0,7,26] = 0
- ev_energy.0.9.26: - energy[0,9,25] + energy[0,9,26]
-   + 0.155884572681199 act_current_ev_dis[0,9,26]
-   - 0.155884572681199 act_current_ev_ch[0,9,26] = 0
- ev_energy.0.10.26: - energy[0,10,25] + energy[0,10,26]
-   + 0.155884572681199 act_current_ev_dis[0,10,26]
-   - 0.155884572681199 act_current_ev_ch[0,10,26] = 0
- ev_energy.0.11.26: - energy[0,11,25] + energy[0,11,26]
-   + 0.155884572681199 act_current_ev_dis[0,11,26]
-   - 0.155884572681199 act_current_ev_ch[0,11,26] = 0
- ev_energy.0.12.26: - energy[0,12,25] + energy[0,12,26]
-   + 0.155884572681199 act_current_ev_dis[0,12,26]
-   - 0.155884572681199 act_current_ev_ch[0,12,26] = 0
- ev_energy.0.14.26: - energy[0,14,25] + energy[0,14,26]
-   + 0.155884572681199 act_current_ev_dis[0,14,26]
-   - 0.155884572681199 act_current_ev_ch[0,14,26] = 0
- ev_energy.0.15.26: - energy[0,15,25] + energy[0,15,26]
-   + 0.155884572681199 act_current_ev_dis[0,15,26]
-   - 0.155884572681199 act_current_ev_ch[0,15,26] = 0
- ev_energy.0.16.26: - energy[0,16,25] + energy[0,16,26]
-   + 0.155884572681199 act_current_ev_dis[0,16,26]
-   - 0.155884572681199 act_current_ev_ch[0,16,26] = 0
- ev_energy.0.17.26: - energy[0,17,25] + energy[0,17,26]
-   + 0.155884572681199 act_current_ev_dis[0,17,26]
-   - 0.155884572681199 act_current_ev_ch[0,17,26] = 0
- ev_energy.0.19.26: - energy[0,19,25] + energy[0,19,26]
-   + 0.155884572681199 act_current_ev_dis[0,19,26]
-   - 0.155884572681199 act_current_ev_ch[0,19,26] = 0
- ev_energy.0.20.26: - energy[0,20,25] + energy[0,20,26]
-   + 0.155884572681199 act_current_ev_dis[0,20,26]
-   - 0.155884572681199 act_current_ev_ch[0,20,26] = 0
- ev_energy.0.23.26: - energy[0,23,25] + energy[0,23,26]
-   + 0.155884572681199 act_current_ev_dis[0,23,26]
-   - 0.155884572681199 act_current_ev_ch[0,23,26] = 0
- ev_energy.0.0.27: - energy[0,0,26] + energy[0,0,27]
-   + 0.155884572681199 act_current_ev_dis[0,0,27]
-   - 0.155884572681199 act_current_ev_ch[0,0,27] = 0
- ev_energy.0.1.27: - energy[0,1,26] + energy[0,1,27]
-   + 0.155884572681199 act_current_ev_dis[0,1,27]
-   - 0.155884572681199 act_current_ev_ch[0,1,27] = 0
- ev_energy.0.2.27: - energy[0,2,26] + energy[0,2,27]
-   + 0.155884572681199 act_current_ev_dis[0,2,27]
-   - 0.155884572681199 act_current_ev_ch[0,2,27] = 0
- ev_energy.0.3.27: - energy[0,3,26] + energy[0,3,27]
-   + 0.155884572681199 act_current_ev_dis[0,3,27]
-   - 0.155884572681199 act_current_ev_ch[0,3,27] = 0
- ev_energy.0.4.27: - energy[0,4,26] + energy[0,4,27]
-   + 0.155884572681199 act_current_ev_dis[0,4,27]
-   - 0.155884572681199 act_current_ev_ch[0,4,27] = 0
- ev_energy.0.6.27: - energy[0,6,26] + energy[0,6,27]
-   + 0.155884572681199 act_current_ev_dis[0,6,27]
-   - 0.155884572681199 act_current_ev_ch[0,6,27] = 0
- ev_energy.0.7.27: - energy[0,7,26] + energy[0,7,27]
-   + 0.155884572681199 act_current_ev_dis[0,7,27]
-   - 0.155884572681199 act_current_ev_ch[0,7,27] = 0
- ev_energy.0.9.27: - energy[0,9,26] + energy[0,9,27]
-   + 0.155884572681199 act_current_ev_dis[0,9,27]
-   - 0.155884572681199 act_current_ev_ch[0,9,27] = 0
- ev_energy.0.10.27: - energy[0,10,26] + energy[0,10,27]
-   + 0.155884572681199 act_current_ev_dis[0,10,27]
-   - 0.155884572681199 act_current_ev_ch[0,10,27] = 0
- ev_energy.0.11.27: - energy[0,11,26] + energy[0,11,27]
-   + 0.155884572681199 act_current_ev_dis[0,11,27]
-   - 0.155884572681199 act_current_ev_ch[0,11,27] = 0
- ev_energy.0.12.27: - energy[0,12,26] + energy[0,12,27]
-   + 0.155884572681199 act_current_ev_dis[0,12,27]
-   - 0.155884572681199 act_current_ev_ch[0,12,27] = 0
- ev_energy.0.14.27: - energy[0,14,26] + energy[0,14,27]
-   + 0.155884572681199 act_current_ev_dis[0,14,27]
-   - 0.155884572681199 act_current_ev_ch[0,14,27] = 0
- ev_energy.0.15.27: - energy[0,15,26] + energy[0,15,27]
-   + 0.155884572681199 act_current_ev_dis[0,15,27]
-   - 0.155884572681199 act_current_ev_ch[0,15,27] = 0
- ev_energy.0.16.27: - energy[0,16,26] + energy[0,16,27]
-   + 0.155884572681199 act_current_ev_dis[0,16,27]
-   - 0.155884572681199 act_current_ev_ch[0,16,27] = 0
- ev_energy.0.17.27: - energy[0,17,26] + energy[0,17,27]
-   + 0.155884572681199 act_current_ev_dis[0,17,27]
-   - 0.155884572681199 act_current_ev_ch[0,17,27] = 0
- ev_energy.0.19.27: - energy[0,19,26] + energy[0,19,27]
-   + 0.155884572681199 act_current_ev_dis[0,19,27]
-   - 0.155884572681199 act_current_ev_ch[0,19,27] = 0
- ev_energy.0.20.27: - energy[0,20,26] + energy[0,20,27]
-   + 0.155884572681199 act_current_ev_dis[0,20,27]
-   - 0.155884572681199 act_current_ev_ch[0,20,27] = 0
- ev_energy.0.23.27: - energy[0,23,26] + energy[0,23,27]
-   + 0.155884572681199 act_current_ev_dis[0,23,27]
-   - 0.155884572681199 act_current_ev_ch[0,23,27] = 0
- ev_energy.0.0.28: - energy[0,0,27] + energy[0,0,28]
-   + 0.155884572681199 act_current_ev_dis[0,0,28]
-   - 0.155884572681199 act_current_ev_ch[0,0,28] = 0
- ev_energy.0.1.28: - energy[0,1,27] + energy[0,1,28]
-   + 0.155884572681199 act_current_ev_dis[0,1,28]
-   - 0.155884572681199 act_current_ev_ch[0,1,28] = 0
- ev_energy.0.2.28: - energy[0,2,27] + energy[0,2,28]
-   + 0.155884572681199 act_current_ev_dis[0,2,28]
-   - 0.155884572681199 act_current_ev_ch[0,2,28] = 0
- ev_energy.0.3.28: - energy[0,3,27] + energy[0,3,28]
-   + 0.155884572681199 act_current_ev_dis[0,3,28]
-   - 0.155884572681199 act_current_ev_ch[0,3,28] = 0
- ev_energy.0.4.28: - energy[0,4,27] + energy[0,4,28]
-   + 0.155884572681199 act_current_ev_dis[0,4,28]
-   - 0.155884572681199 act_current_ev_ch[0,4,28] = 0
- ev_energy.0.6.28: - energy[0,6,27] + energy[0,6,28]
-   + 0.155884572681199 act_current_ev_dis[0,6,28]
-   - 0.155884572681199 act_current_ev_ch[0,6,28] = 0
- ev_energy.0.7.28: - energy[0,7,27] + energy[0,7,28]
-   + 0.155884572681199 act_current_ev_dis[0,7,28]
-   - 0.155884572681199 act_current_ev_ch[0,7,28] = 0
- ev_energy.0.9.28: - energy[0,9,27] + energy[0,9,28]
-   + 0.155884572681199 act_current_ev_dis[0,9,28]
-   - 0.155884572681199 act_current_ev_ch[0,9,28] = 0
- ev_energy.0.10.28: - energy[0,10,27] + energy[0,10,28]
-   + 0.155884572681199 act_current_ev_dis[0,10,28]
-   - 0.155884572681199 act_current_ev_ch[0,10,28] = 0
- ev_energy.0.11.28: - energy[0,11,27] + energy[0,11,28]
-   + 0.155884572681199 act_current_ev_dis[0,11,28]
-   - 0.155884572681199 act_current_ev_ch[0,11,28] = 0
- ev_energy.0.12.28: - energy[0,12,27] + energy[0,12,28]
-   + 0.155884572681199 act_current_ev_dis[0,12,28]
-   - 0.155884572681199 act_current_ev_ch[0,12,28] = 0
- ev_energy.0.14.28: - energy[0,14,27] + energy[0,14,28]
-   + 0.155884572681199 act_current_ev_dis[0,14,28]
-   - 0.155884572681199 act_current_ev_ch[0,14,28] = 0
- ev_energy.0.15.28: - energy[0,15,27] + energy[0,15,28]
-   + 0.155884572681199 act_current_ev_dis[0,15,28]
-   - 0.155884572681199 act_current_ev_ch[0,15,28] = 0
- ev_energy.0.16.28: - energy[0,16,27] + energy[0,16,28]
-   + 0.155884572681199 act_current_ev_dis[0,16,28]
-   - 0.155884572681199 act_current_ev_ch[0,16,28] = 0
- ev_energy.0.17.28: - energy[0,17,27] + energy[0,17,28]
-   + 0.155884572681199 act_current_ev_dis[0,17,28]
-   - 0.155884572681199 act_current_ev_ch[0,17,28] = 0
- ev_energy.0.19.28: - energy[0,19,27] + energy[0,19,28]
-   + 0.155884572681199 act_current_ev_dis[0,19,28]
-   - 0.155884572681199 act_current_ev_ch[0,19,28] = 0
- ev_energy.0.20.28: - energy[0,20,27] + energy[0,20,28]
-   + 0.155884572681199 act_current_ev_dis[0,20,28]
-   - 0.155884572681199 act_current_ev_ch[0,20,28] = 0
- ev_energy.0.23.28: - energy[0,23,27] + energy[0,23,28]
-   + 0.155884572681199 act_current_ev_dis[0,23,28]
-   - 0.155884572681199 act_current_ev_ch[0,23,28] = 0
- ev_energy.0.0.29: - energy[0,0,28] + energy[0,0,29]
-   + 0.155884572681199 act_current_ev_dis[0,0,29]
-   - 0.155884572681199 act_current_ev_ch[0,0,29] = 0
- ev_energy.0.1.29: - energy[0,1,28] + energy[0,1,29]
-   + 0.155884572681199 act_current_ev_dis[0,1,29]
-   - 0.155884572681199 act_current_ev_ch[0,1,29] = 0
- ev_energy.0.2.29: - energy[0,2,28] + energy[0,2,29]
-   + 0.155884572681199 act_current_ev_dis[0,2,29]
-   - 0.155884572681199 act_current_ev_ch[0,2,29] = 0
- ev_energy.0.3.29: - energy[0,3,28] + energy[0,3,29]
-   + 0.155884572681199 act_current_ev_dis[0,3,29]
-   - 0.155884572681199 act_current_ev_ch[0,3,29] = 0
- ev_energy.0.4.29: - energy[0,4,28] + energy[0,4,29]
-   + 0.155884572681199 act_current_ev_dis[0,4,29]
-   - 0.155884572681199 act_current_ev_ch[0,4,29] = 0
- ev_energy.0.6.29: - energy[0,6,28] + energy[0,6,29]
-   + 0.155884572681199 act_current_ev_dis[0,6,29]
-   - 0.155884572681199 act_current_ev_ch[0,6,29] = 0
- ev_energy.0.7.29: - energy[0,7,28] + energy[0,7,29]
-   + 0.155884572681199 act_current_ev_dis[0,7,29]
-   - 0.155884572681199 act_current_ev_ch[0,7,29] = 0
- ev_energy.0.9.29: - energy[0,9,28] + energy[0,9,29]
-   + 0.155884572681199 act_current_ev_dis[0,9,29]
-   - 0.155884572681199 act_current_ev_ch[0,9,29] = 0
- ev_energy.0.10.29: - energy[0,10,28] + energy[0,10,29]
-   + 0.155884572681199 act_current_ev_dis[0,10,29]
-   - 0.155884572681199 act_current_ev_ch[0,10,29] = 0
- ev_energy.0.11.29: - energy[0,11,28] + energy[0,11,29]
-   + 0.155884572681199 act_current_ev_dis[0,11,29]
-   - 0.155884572681199 act_current_ev_ch[0,11,29] = 0
- ev_energy.0.12.29: - energy[0,12,28] + energy[0,12,29]
-   + 0.155884572681199 act_current_ev_dis[0,12,29]
-   - 0.155884572681199 act_current_ev_ch[0,12,29] = 0
- ev_energy.0.14.29: - energy[0,14,28] + energy[0,14,29]
-   + 0.155884572681199 act_current_ev_dis[0,14,29]
-   - 0.155884572681199 act_current_ev_ch[0,14,29] = 0
- ev_energy.0.15.29: - energy[0,15,28] + energy[0,15,29]
-   + 0.155884572681199 act_current_ev_dis[0,15,29]
-   - 0.155884572681199 act_current_ev_ch[0,15,29] = 0
- ev_energy.0.16.29: - energy[0,16,28] + energy[0,16,29]
-   + 0.155884572681199 act_current_ev_dis[0,16,29]
-   - 0.155884572681199 act_current_ev_ch[0,16,29] = 0
- ev_energy.0.17.29: - energy[0,17,28] + energy[0,17,29]
-   + 0.155884572681199 act_current_ev_dis[0,17,29]
-   - 0.155884572681199 act_current_ev_ch[0,17,29] = 0
- ev_energy.0.19.29: - energy[0,19,28] + energy[0,19,29]
-   + 0.155884572681199 act_current_ev_dis[0,19,29]
-   - 0.155884572681199 act_current_ev_ch[0,19,29] = 0
- ev_energy.0.20.29: - energy[0,20,28] + energy[0,20,29]
-   + 0.155884572681199 act_current_ev_dis[0,20,29]
-   - 0.155884572681199 act_current_ev_ch[0,20,29] = 0
- ev_energy.0.23.29: - energy[0,23,28] + energy[0,23,29]
-   + 0.155884572681199 act_current_ev_dis[0,23,29]
-   - 0.155884572681199 act_current_ev_ch[0,23,29] = 0
- ev_energy.0.0.30: - energy[0,0,29] + energy[0,0,30]
-   + 0.155884572681199 act_current_ev_dis[0,0,30]
-   - 0.155884572681199 act_current_ev_ch[0,0,30] = 0
- ev_energy.0.1.30: - energy[0,1,29] + energy[0,1,30]
-   + 0.155884572681199 act_current_ev_dis[0,1,30]
-   - 0.155884572681199 act_current_ev_ch[0,1,30] = 0
- ev_energy.0.2.30: - energy[0,2,29] + energy[0,2,30]
-   + 0.155884572681199 act_current_ev_dis[0,2,30]
-   - 0.155884572681199 act_current_ev_ch[0,2,30] = 0
- ev_energy.0.3.30: - energy[0,3,29] + energy[0,3,30]
-   + 0.155884572681199 act_current_ev_dis[0,3,30]
-   - 0.155884572681199 act_current_ev_ch[0,3,30] = 0
- ev_energy.0.4.30: - energy[0,4,29] + energy[0,4,30]
-   + 0.155884572681199 act_current_ev_dis[0,4,30]
-   - 0.155884572681199 act_current_ev_ch[0,4,30] = 0
- ev_energy.0.6.30: - energy[0,6,29] + energy[0,6,30]
-   + 0.155884572681199 act_current_ev_dis[0,6,30]
-   - 0.155884572681199 act_current_ev_ch[0,6,30] = 0
- ev_energy.0.7.30: - energy[0,7,29] + energy[0,7,30]
-   + 0.155884572681199 act_current_ev_dis[0,7,30]
-   - 0.155884572681199 act_current_ev_ch[0,7,30] = 0
- ev_energy.0.9.30: - energy[0,9,29] + energy[0,9,30]
-   + 0.155884572681199 act_current_ev_dis[0,9,30]
-   - 0.155884572681199 act_current_ev_ch[0,9,30] = 0
- ev_energy.0.10.30: - energy[0,10,29] + energy[0,10,30]
-   + 0.155884572681199 act_current_ev_dis[0,10,30]
-   - 0.155884572681199 act_current_ev_ch[0,10,30] = 0
- ev_energy.0.11.30: - energy[0,11,29] + energy[0,11,30]
-   + 0.155884572681199 act_current_ev_dis[0,11,30]
-   - 0.155884572681199 act_current_ev_ch[0,11,30] = 0
- ev_energy.0.12.30: - energy[0,12,29] + energy[0,12,30]
-   + 0.155884572681199 act_current_ev_dis[0,12,30]
-   - 0.155884572681199 act_current_ev_ch[0,12,30] = 0
- ev_energy.0.14.30: - energy[0,14,29] + energy[0,14,30]
-   + 0.155884572681199 act_current_ev_dis[0,14,30]
-   - 0.155884572681199 act_current_ev_ch[0,14,30] = 0
- ev_energy.0.15.30: - energy[0,15,29] + energy[0,15,30]
-   + 0.155884572681199 act_current_ev_dis[0,15,30]
-   - 0.155884572681199 act_current_ev_ch[0,15,30] = 0
- ev_energy.0.16.30: - energy[0,16,29] + energy[0,16,30]
-   + 0.155884572681199 act_current_ev_dis[0,16,30]
-   - 0.155884572681199 act_current_ev_ch[0,16,30] = 0
- ev_energy.0.17.30: - energy[0,17,29] + energy[0,17,30]
-   + 0.155884572681199 act_current_ev_dis[0,17,30]
-   - 0.155884572681199 act_current_ev_ch[0,17,30] = 0
- ev_energy.0.19.30: - energy[0,19,29] + energy[0,19,30]
-   + 0.155884572681199 act_current_ev_dis[0,19,30]
-   - 0.155884572681199 act_current_ev_ch[0,19,30] = 0
- ev_energy.0.20.30: - energy[0,20,29] + energy[0,20,30]
-   + 0.155884572681199 act_current_ev_dis[0,20,30]
-   - 0.155884572681199 act_current_ev_ch[0,20,30] = 0
- ev_energy.0.23.30: - energy[0,23,29] + energy[0,23,30]
-   + 0.155884572681199 act_current_ev_dis[0,23,30]
-   - 0.155884572681199 act_current_ev_ch[0,23,30] = 0
- ev_energy.0.0.31: - energy[0,0,30] + energy[0,0,31]
-   + 0.155884572681199 act_current_ev_dis[0,0,31]
-   - 0.155884572681199 act_current_ev_ch[0,0,31] = 0
- ev_energy.0.1.31: - energy[0,1,30] + energy[0,1,31]
-   + 0.155884572681199 act_current_ev_dis[0,1,31]
-   - 0.155884572681199 act_current_ev_ch[0,1,31] = 0
- ev_energy.0.2.31: - energy[0,2,30] + energy[0,2,31]
-   + 0.155884572681199 act_current_ev_dis[0,2,31]
-   - 0.155884572681199 act_current_ev_ch[0,2,31] = 0
- ev_energy.0.3.31: - energy[0,3,30] + energy[0,3,31]
-   + 0.155884572681199 act_current_ev_dis[0,3,31]
-   - 0.155884572681199 act_current_ev_ch[0,3,31] = 0
- ev_energy.0.4.31: - energy[0,4,30] + energy[0,4,31]
-   + 0.155884572681199 act_current_ev_dis[0,4,31]
-   - 0.155884572681199 act_current_ev_ch[0,4,31] = 0
- ev_energy.0.6.31: - energy[0,6,30] + energy[0,6,31]
-   + 0.155884572681199 act_current_ev_dis[0,6,31]
-   - 0.155884572681199 act_current_ev_ch[0,6,31] = 0
- ev_energy.0.7.31: - energy[0,7,30] + energy[0,7,31]
-   + 0.155884572681199 act_current_ev_dis[0,7,31]
-   - 0.155884572681199 act_current_ev_ch[0,7,31] = 0
- ev_energy.0.9.31: - energy[0,9,30] + energy[0,9,31]
-   + 0.155884572681199 act_current_ev_dis[0,9,31]
-   - 0.155884572681199 act_current_ev_ch[0,9,31] = 0
- ev_energy.0.10.31: - energy[0,10,30] + energy[0,10,31]
-   + 0.155884572681199 act_current_ev_dis[0,10,31]
-   - 0.155884572681199 act_current_ev_ch[0,10,31] = 0
- ev_energy.0.11.31: - energy[0,11,30] + energy[0,11,31]
-   + 0.155884572681199 act_current_ev_dis[0,11,31]
-   - 0.155884572681199 act_current_ev_ch[0,11,31] = 0
- ev_energy.0.12.31: - energy[0,12,30] + energy[0,12,31]
-   + 0.155884572681199 act_current_ev_dis[0,12,31]
-   - 0.155884572681199 act_current_ev_ch[0,12,31] = 0
- ev_energy.0.14.31: - energy[0,14,30] + energy[0,14,31]
-   + 0.155884572681199 act_current_ev_dis[0,14,31]
-   - 0.155884572681199 act_current_ev_ch[0,14,31] = 0
- ev_energy.0.15.31: - energy[0,15,30] + energy[0,15,31]
-   + 0.155884572681199 act_current_ev_dis[0,15,31]
-   - 0.155884572681199 act_current_ev_ch[0,15,31] = 0
- ev_energy.0.16.31: - energy[0,16,30] + energy[0,16,31]
-   + 0.155884572681199 act_current_ev_dis[0,16,31]
-   - 0.155884572681199 act_current_ev_ch[0,16,31] = 0
- ev_energy.0.17.31: - energy[0,17,30] + energy[0,17,31]
-   + 0.155884572681199 act_current_ev_dis[0,17,31]
-   - 0.155884572681199 act_current_ev_ch[0,17,31] = 0
- ev_energy.0.19.31: - energy[0,19,30] + energy[0,19,31]
-   + 0.155884572681199 act_current_ev_dis[0,19,31]
-   - 0.155884572681199 act_current_ev_ch[0,19,31] = 0
- ev_energy.0.20.31: - energy[0,20,30] + energy[0,20,31]
-   + 0.155884572681199 act_current_ev_dis[0,20,31]
-   - 0.155884572681199 act_current_ev_ch[0,20,31] = 0
- ev_energy.0.23.31: - energy[0,23,30] + energy[0,23,31]
-   + 0.155884572681199 act_current_ev_dis[0,23,31]
-   - 0.155884572681199 act_current_ev_ch[0,23,31] = 0
- ev_energy.0.0.32: - energy[0,0,31] + energy[0,0,32]
-   + 0.155884572681199 act_current_ev_dis[0,0,32]
-   - 0.155884572681199 act_current_ev_ch[0,0,32] = 0
- ev_energy.0.1.32: - energy[0,1,31] + energy[0,1,32]
-   + 0.155884572681199 act_current_ev_dis[0,1,32]
-   - 0.155884572681199 act_current_ev_ch[0,1,32] = 0
- ev_energy.0.2.32: - energy[0,2,31] + energy[0,2,32]
-   + 0.155884572681199 act_current_ev_dis[0,2,32]
-   - 0.155884572681199 act_current_ev_ch[0,2,32] = 0
- ev_energy.0.3.32: - energy[0,3,31] + energy[0,3,32]
-   + 0.155884572681199 act_current_ev_dis[0,3,32]
-   - 0.155884572681199 act_current_ev_ch[0,3,32] = 0
- ev_energy.0.4.32: - energy[0,4,31] + energy[0,4,32]
-   + 0.155884572681199 act_current_ev_dis[0,4,32]
-   - 0.155884572681199 act_current_ev_ch[0,4,32] = 0
- ev_energy.0.6.32: - energy[0,6,31] + energy[0,6,32]
-   + 0.155884572681199 act_current_ev_dis[0,6,32]
-   - 0.155884572681199 act_current_ev_ch[0,6,32] = 0
- ev_energy.0.7.32: - energy[0,7,31] + energy[0,7,32]
-   + 0.155884572681199 act_current_ev_dis[0,7,32]
-   - 0.155884572681199 act_current_ev_ch[0,7,32] = 0
- ev_energy.0.9.32: - energy[0,9,31] + energy[0,9,32]
-   + 0.155884572681199 act_current_ev_dis[0,9,32]
-   - 0.155884572681199 act_current_ev_ch[0,9,32] = 0
- ev_energy.0.10.32: - energy[0,10,31] + energy[0,10,32]
-   + 0.155884572681199 act_current_ev_dis[0,10,32]
-   - 0.155884572681199 act_current_ev_ch[0,10,32] = 0
- ev_energy.0.11.32: - energy[0,11,31] + energy[0,11,32]
-   + 0.155884572681199 act_current_ev_dis[0,11,32]
-   - 0.155884572681199 act_current_ev_ch[0,11,32] = 0
- ev_energy.0.12.32: - energy[0,12,31] + energy[0,12,32]
-   + 0.155884572681199 act_current_ev_dis[0,12,32]
-   - 0.155884572681199 act_current_ev_ch[0,12,32] = 0
- ev_energy.0.14.32: - energy[0,14,31] + energy[0,14,32]
-   + 0.155884572681199 act_current_ev_dis[0,14,32]
-   - 0.155884572681199 act_current_ev_ch[0,14,32] = 0
- ev_energy.0.15.32: - energy[0,15,31] + energy[0,15,32]
-   + 0.155884572681199 act_current_ev_dis[0,15,32]
-   - 0.155884572681199 act_current_ev_ch[0,15,32] = 0
- ev_energy.0.16.32: - energy[0,16,31] + energy[0,16,32]
-   + 0.155884572681199 act_current_ev_dis[0,16,32]
-   - 0.155884572681199 act_current_ev_ch[0,16,32] = 0
- ev_energy.0.17.32: - energy[0,17,31] + energy[0,17,32]
-   + 0.155884572681199 act_current_ev_dis[0,17,32]
-   - 0.155884572681199 act_current_ev_ch[0,17,32] = 0
- ev_energy.0.19.32: - energy[0,19,31] + energy[0,19,32]
-   + 0.155884572681199 act_current_ev_dis[0,19,32]
-   - 0.155884572681199 act_current_ev_ch[0,19,32] = 0
- ev_energy.0.20.32: - energy[0,20,31] + energy[0,20,32]
-   + 0.155884572681199 act_current_ev_dis[0,20,32]
-   - 0.155884572681199 act_current_ev_ch[0,20,32] = 0
- ev_energy.0.23.32: - energy[0,23,31] + energy[0,23,32]
-   + 0.155884572681199 act_current_ev_dis[0,23,32]
-   - 0.155884572681199 act_current_ev_ch[0,23,32] = 0
- ev_energy.0.0.33: - energy[0,0,32] + energy[0,0,33]
-   + 0.155884572681199 act_current_ev_dis[0,0,33]
-   - 0.155884572681199 act_current_ev_ch[0,0,33] = 0
- ev_energy.0.1.33: - energy[0,1,32] + energy[0,1,33]
-   + 0.155884572681199 act_current_ev_dis[0,1,33]
-   - 0.155884572681199 act_current_ev_ch[0,1,33] = 0
- ev_energy.0.2.33: - energy[0,2,32] + energy[0,2,33]
-   + 0.155884572681199 act_current_ev_dis[0,2,33]
-   - 0.155884572681199 act_current_ev_ch[0,2,33] = 0
- ev_energy.0.3.33: - energy[0,3,32] + energy[0,3,33]
-   + 0.155884572681199 act_current_ev_dis[0,3,33]
-   - 0.155884572681199 act_current_ev_ch[0,3,33] = 0
- ev_energy.0.4.33: - energy[0,4,32] + energy[0,4,33]
-   + 0.155884572681199 act_current_ev_dis[0,4,33]
-   - 0.155884572681199 act_current_ev_ch[0,4,33] = 0
- ev_energy.0.6.33: - energy[0,6,32] + energy[0,6,33]
-   + 0.155884572681199 act_current_ev_dis[0,6,33]
-   - 0.155884572681199 act_current_ev_ch[0,6,33] = 0
- ev_energy.0.7.33: - energy[0,7,32] + energy[0,7,33]
-   + 0.155884572681199 act_current_ev_dis[0,7,33]
-   - 0.155884572681199 act_current_ev_ch[0,7,33] = 0
- ev_energy.0.9.33: - energy[0,9,32] + energy[0,9,33]
-   + 0.155884572681199 act_current_ev_dis[0,9,33]
-   - 0.155884572681199 act_current_ev_ch[0,9,33] = 0
- ev_energy.0.10.33: - energy[0,10,32] + energy[0,10,33]
-   + 0.155884572681199 act_current_ev_dis[0,10,33]
-   - 0.155884572681199 act_current_ev_ch[0,10,33] = 0
- ev_energy.0.11.33: - energy[0,11,32] + energy[0,11,33]
-   + 0.155884572681199 act_current_ev_dis[0,11,33]
-   - 0.155884572681199 act_current_ev_ch[0,11,33] = 0
- ev_energy.0.12.33: - energy[0,12,32] + energy[0,12,33]
-   + 0.155884572681199 act_current_ev_dis[0,12,33]
-   - 0.155884572681199 act_current_ev_ch[0,12,33] = 0
- ev_energy.0.14.33: - energy[0,14,32] + energy[0,14,33]
-   + 0.155884572681199 act_current_ev_dis[0,14,33]
-   - 0.155884572681199 act_current_ev_ch[0,14,33] = 0
- ev_energy.0.15.33: - energy[0,15,32] + energy[0,15,33]
-   + 0.155884572681199 act_current_ev_dis[0,15,33]
-   - 0.155884572681199 act_current_ev_ch[0,15,33] = 0
- ev_energy.0.16.33: - energy[0,16,32] + energy[0,16,33]
-   + 0.155884572681199 act_current_ev_dis[0,16,33]
-   - 0.155884572681199 act_current_ev_ch[0,16,33] = 0
- ev_energy.0.17.33: - energy[0,17,32] + energy[0,17,33]
-   + 0.155884572681199 act_current_ev_dis[0,17,33]
-   - 0.155884572681199 act_current_ev_ch[0,17,33] = 0
- ev_energy.0.19.33: - energy[0,19,32] + energy[0,19,33]
-   + 0.155884572681199 act_current_ev_dis[0,19,33]
-   - 0.155884572681199 act_current_ev_ch[0,19,33] = 0
- ev_energy.0.20.33: - energy[0,20,32] + energy[0,20,33]
-   + 0.155884572681199 act_current_ev_dis[0,20,33]
-   - 0.155884572681199 act_current_ev_ch[0,20,33] = 0
- ev_energy.0.23.33: - energy[0,23,32] + energy[0,23,33]
-   + 0.155884572681199 act_current_ev_dis[0,23,33]
-   - 0.155884572681199 act_current_ev_ch[0,23,33] = 0
- ev_energy.0.0.34: - energy[0,0,33] + energy[0,0,34]
-   + 0.155884572681199 act_current_ev_dis[0,0,34]
-   - 0.155884572681199 act_current_ev_ch[0,0,34] = 0
- ev_energy.0.1.34: - energy[0,1,33] + energy[0,1,34]
-   + 0.155884572681199 act_current_ev_dis[0,1,34]
-   - 0.155884572681199 act_current_ev_ch[0,1,34] = 0
- ev_energy.0.2.34: - energy[0,2,33] + energy[0,2,34]
-   + 0.155884572681199 act_current_ev_dis[0,2,34]
-   - 0.155884572681199 act_current_ev_ch[0,2,34] = 0
- ev_energy.0.3.34: - energy[0,3,33] + energy[0,3,34]
-   + 0.155884572681199 act_current_ev_dis[0,3,34]
-   - 0.155884572681199 act_current_ev_ch[0,3,34] = 0
- ev_energy.0.4.34: - energy[0,4,33] + energy[0,4,34]
-   + 0.155884572681199 act_current_ev_dis[0,4,34]
-   - 0.155884572681199 act_current_ev_ch[0,4,34] = 0
- ev_energy.0.6.34: - energy[0,6,33] + energy[0,6,34]
-   + 0.155884572681199 act_current_ev_dis[0,6,34]
-   - 0.155884572681199 act_current_ev_ch[0,6,34] = 0
- ev_energy.0.7.34: - energy[0,7,33] + energy[0,7,34]
-   + 0.155884572681199 act_current_ev_dis[0,7,34]
-   - 0.155884572681199 act_current_ev_ch[0,7,34] = 0
- ev_energy.0.9.34: - energy[0,9,33] + energy[0,9,34]
-   + 0.155884572681199 act_current_ev_dis[0,9,34]
-   - 0.155884572681199 act_current_ev_ch[0,9,34] = 0
- ev_energy.0.10.34: - energy[0,10,33] + energy[0,10,34]
-   + 0.155884572681199 act_current_ev_dis[0,10,34]
-   - 0.155884572681199 act_current_ev_ch[0,10,34] = 0
- ev_energy.0.11.34: - energy[0,11,33] + energy[0,11,34]
-   + 0.155884572681199 act_current_ev_dis[0,11,34]
-   - 0.155884572681199 act_current_ev_ch[0,11,34] = 0
- ev_energy.0.12.34: - energy[0,12,33] + energy[0,12,34]
-   + 0.155884572681199 act_current_ev_dis[0,12,34]
-   - 0.155884572681199 act_current_ev_ch[0,12,34] = 0
- ev_energy.0.14.34: - energy[0,14,33] + energy[0,14,34]
-   + 0.155884572681199 act_current_ev_dis[0,14,34]
-   - 0.155884572681199 act_current_ev_ch[0,14,34] = 0
- ev_energy.0.15.34: - energy[0,15,33] + energy[0,15,34]
-   + 0.155884572681199 act_current_ev_dis[0,15,34]
-   - 0.155884572681199 act_current_ev_ch[0,15,34] = 0
- ev_energy.0.16.34: - energy[0,16,33] + energy[0,16,34]
-   + 0.155884572681199 act_current_ev_dis[0,16,34]
-   - 0.155884572681199 act_current_ev_ch[0,16,34] = 0
- ev_energy.0.17.34: - energy[0,17,33] + energy[0,17,34]
-   + 0.155884572681199 act_current_ev_dis[0,17,34]
-   - 0.155884572681199 act_current_ev_ch[0,17,34] = 0
- ev_energy.0.19.34: - energy[0,19,33] + energy[0,19,34]
-   + 0.155884572681199 act_current_ev_dis[0,19,34]
-   - 0.155884572681199 act_current_ev_ch[0,19,34] = 0
- ev_energy.0.20.34: - energy[0,20,33] + energy[0,20,34]
-   + 0.155884572681199 act_current_ev_dis[0,20,34]
-   - 0.155884572681199 act_current_ev_ch[0,20,34] = 0
- ev_energy.0.23.34: - energy[0,23,33] + energy[0,23,34]
-   + 0.155884572681199 act_current_ev_dis[0,23,34]
-   - 0.155884572681199 act_current_ev_ch[0,23,34] = 0
- ev_energy.0.0.35: - energy[0,0,34] + energy[0,0,35]
-   + 0.155884572681199 act_current_ev_dis[0,0,35]
-   - 0.155884572681199 act_current_ev_ch[0,0,35] = 0
- ev_energy.0.1.35: - energy[0,1,34] + energy[0,1,35]
-   + 0.155884572681199 act_current_ev_dis[0,1,35]
-   - 0.155884572681199 act_current_ev_ch[0,1,35] = 0
- ev_energy.0.2.35: - energy[0,2,34] + energy[0,2,35]
-   + 0.155884572681199 act_current_ev_dis[0,2,35]
-   - 0.155884572681199 act_current_ev_ch[0,2,35] = 0
- ev_energy.0.3.35: - energy[0,3,34] + energy[0,3,35]
-   + 0.155884572681199 act_current_ev_dis[0,3,35]
-   - 0.155884572681199 act_current_ev_ch[0,3,35] = 0
- ev_energy.0.4.35: - energy[0,4,34] + energy[0,4,35]
-   + 0.155884572681199 act_current_ev_dis[0,4,35]
-   - 0.155884572681199 act_current_ev_ch[0,4,35] = 0
- ev_energy.0.6.35: - energy[0,6,34] + energy[0,6,35]
-   + 0.155884572681199 act_current_ev_dis[0,6,35]
-   - 0.155884572681199 act_current_ev_ch[0,6,35] = 0
- ev_energy.0.7.35: - energy[0,7,34] + energy[0,7,35]
-   + 0.155884572681199 act_current_ev_dis[0,7,35]
-   - 0.155884572681199 act_current_ev_ch[0,7,35] = 0
- ev_energy.0.9.35: - energy[0,9,34] + energy[0,9,35]
-   + 0.155884572681199 act_current_ev_dis[0,9,35]
-   - 0.155884572681199 act_current_ev_ch[0,9,35] = 0
- ev_energy.0.10.35: - energy[0,10,34] + energy[0,10,35]
-   + 0.155884572681199 act_current_ev_dis[0,10,35]
-   - 0.155884572681199 act_current_ev_ch[0,10,35] = 0
- ev_energy.0.11.35: - energy[0,11,34] + energy[0,11,35]
-   + 0.155884572681199 act_current_ev_dis[0,11,35]
-   - 0.155884572681199 act_current_ev_ch[0,11,35] = 0
- ev_energy.0.12.35: - energy[0,12,34] + energy[0,12,35]
-   + 0.155884572681199 act_current_ev_dis[0,12,35]
-   - 0.155884572681199 act_current_ev_ch[0,12,35] = 0
- ev_arrival_energy.0.13.35: energy[0,13,35] = 15
- ev_energy.0.14.35: - energy[0,14,34] + energy[0,14,35]
-   + 0.155884572681199 act_current_ev_dis[0,14,35]
-   - 0.155884572681199 act_current_ev_ch[0,14,35] = 0
- ev_energy.0.15.35: - energy[0,15,34] + energy[0,15,35]
-   + 0.155884572681199 act_current_ev_dis[0,15,35]
-   - 0.155884572681199 act_current_ev_ch[0,15,35] = 0
- ev_energy.0.16.35: - energy[0,16,34] + energy[0,16,35]
-   + 0.155884572681199 act_current_ev_dis[0,16,35]
-   - 0.155884572681199 act_current_ev_ch[0,16,35] = 0
- ev_energy.0.17.35: - energy[0,17,34] + energy[0,17,35]
-   + 0.155884572681199 act_current_ev_dis[0,17,35]
-   - 0.155884572681199 act_current_ev_ch[0,17,35] = 0
- ev_energy.0.19.35: - energy[0,19,34] + energy[0,19,35]
-   + 0.155884572681199 act_current_ev_dis[0,19,35]
-   - 0.155884572681199 act_current_ev_ch[0,19,35] = 0
- ev_energy.0.20.35: - energy[0,20,34] + energy[0,20,35]
-   + 0.155884572681199 act_current_ev_dis[0,20,35]
-   - 0.155884572681199 act_current_ev_ch[0,20,35] = 0
- ev_energy.0.23.35: - energy[0,23,34] + energy[0,23,35]
-   + 0.155884572681199 act_current_ev_dis[0,23,35]
-   - 0.155884572681199 act_current_ev_ch[0,23,35] = 0
- ev_energy.0.0.36: - energy[0,0,35] + energy[0,0,36]
-   + 0.155884572681199 act_current_ev_dis[0,0,36]
-   - 0.155884572681199 act_current_ev_ch[0,0,36] = 0
- ev_energy.0.1.36: - energy[0,1,35] + energy[0,1,36]
-   + 0.155884572681199 act_current_ev_dis[0,1,36]
-   - 0.155884572681199 act_current_ev_ch[0,1,36] = 0
- ev_energy.0.2.36: - energy[0,2,35] + energy[0,2,36]
-   + 0.155884572681199 act_current_ev_dis[0,2,36]
-   - 0.155884572681199 act_current_ev_ch[0,2,36] = 0
- ev_energy.0.3.36: - energy[0,3,35] + energy[0,3,36]
-   + 0.155884572681199 act_current_ev_dis[0,3,36]
-   - 0.155884572681199 act_current_ev_ch[0,3,36] = 0
- ev_energy.0.4.36: - energy[0,4,35] + energy[0,4,36]
-   + 0.155884572681199 act_current_ev_dis[0,4,36]
-   - 0.155884572681199 act_current_ev_ch[0,4,36] = 0
- ev_energy.0.6.36: - energy[0,6,35] + energy[0,6,36]
-   + 0.155884572681199 act_current_ev_dis[0,6,36]
-   - 0.155884572681199 act_current_ev_ch[0,6,36] = 0
- ev_energy.0.7.36: - energy[0,7,35] + energy[0,7,36]
-   + 0.155884572681199 act_current_ev_dis[0,7,36]
-   - 0.155884572681199 act_current_ev_ch[0,7,36] = 0
- ev_energy.0.9.36: - energy[0,9,35] + energy[0,9,36]
-   + 0.155884572681199 act_current_ev_dis[0,9,36]
-   - 0.155884572681199 act_current_ev_ch[0,9,36] = 0
- ev_energy.0.10.36: - energy[0,10,35] + energy[0,10,36]
-   + 0.155884572681199 act_current_ev_dis[0,10,36]
-   - 0.155884572681199 act_current_ev_ch[0,10,36] = 0
- ev_energy.0.11.36: - energy[0,11,35] + energy[0,11,36]
-   + 0.155884572681199 act_current_ev_dis[0,11,36]
-   - 0.155884572681199 act_current_ev_ch[0,11,36] = 0
- ev_energy.0.12.36: - energy[0,12,35] + energy[0,12,36]
-   + 0.155884572681199 act_current_ev_dis[0,12,36]
-   - 0.155884572681199 act_current_ev_ch[0,12,36] = 0
- ev_energy.0.13.36: - energy[0,13,35] + energy[0,13,36]
-   + 0.155884572681199 act_current_ev_dis[0,13,36]
-   - 0.155884572681199 act_current_ev_ch[0,13,36] = 0
- ev_energy.0.14.36: - energy[0,14,35] + energy[0,14,36]
-   + 0.155884572681199 act_current_ev_dis[0,14,36]
-   - 0.155884572681199 act_current_ev_ch[0,14,36] = 0
- ev_energy.0.15.36: - energy[0,15,35] + energy[0,15,36]
-   + 0.155884572681199 act_current_ev_dis[0,15,36]
-   - 0.155884572681199 act_current_ev_ch[0,15,36] = 0
- ev_energy.0.16.36: - energy[0,16,35] + energy[0,16,36]
-   + 0.155884572681199 act_current_ev_dis[0,16,36]
-   - 0.155884572681199 act_current_ev_ch[0,16,36] = 0
- ev_energy.0.17.36: - energy[0,17,35] + energy[0,17,36]
-   + 0.155884572681199 act_current_ev_dis[0,17,36]
-   - 0.155884572681199 act_current_ev_ch[0,17,36] = 0
- ev_energy.0.19.36: - energy[0,19,35] + energy[0,19,36]
-   + 0.155884572681199 act_current_ev_dis[0,19,36]
-   - 0.155884572681199 act_current_ev_ch[0,19,36] = 0
- ev_energy.0.20.36: - energy[0,20,35] + energy[0,20,36]
-   + 0.155884572681199 act_current_ev_dis[0,20,36]
-   - 0.155884572681199 act_current_ev_ch[0,20,36] = 0
- ev_energy.0.23.36: - energy[0,23,35] + energy[0,23,36]
-   + 0.155884572681199 act_current_ev_dis[0,23,36]
-   - 0.155884572681199 act_current_ev_ch[0,23,36] = 0
- ev_arrival_energy.0.24.36: energy[0,24,36] = 15
- ev_energy.0.0.37: - energy[0,0,36] + energy[0,0,37]
-   + 0.155884572681199 act_current_ev_dis[0,0,37]
-   - 0.155884572681199 act_current_ev_ch[0,0,37] = 0
- ev_energy.0.1.37: - energy[0,1,36] + energy[0,1,37]
-   + 0.155884572681199 act_current_ev_dis[0,1,37]
-   - 0.155884572681199 act_current_ev_ch[0,1,37] = 0
- ev_energy.0.2.37: - energy[0,2,36] + energy[0,2,37]
-   + 0.155884572681199 act_current_ev_dis[0,2,37]
-   - 0.155884572681199 act_current_ev_ch[0,2,37] = 0
- ev_energy.0.3.37: - energy[0,3,36] + energy[0,3,37]
-   + 0.155884572681199 act_current_ev_dis[0,3,37]
-   - 0.155884572681199 act_current_ev_ch[0,3,37] = 0
- ev_energy.0.4.37: - energy[0,4,36] + energy[0,4,37]
-   + 0.155884572681199 act_current_ev_dis[0,4,37]
-   - 0.155884572681199 act_current_ev_ch[0,4,37] = 0
- ev_energy.0.6.37: - energy[0,6,36] + energy[0,6,37]
-   + 0.155884572681199 act_current_ev_dis[0,6,37]
-   - 0.155884572681199 act_current_ev_ch[0,6,37] = 0
- ev_energy.0.7.37: - energy[0,7,36] + energy[0,7,37]
-   + 0.155884572681199 act_current_ev_dis[0,7,37]
-   - 0.155884572681199 act_current_ev_ch[0,7,37] = 0
- ev_energy.0.9.37: - energy[0,9,36] + energy[0,9,37]
-   + 0.155884572681199 act_current_ev_dis[0,9,37]
-   - 0.155884572681199 act_current_ev_ch[0,9,37] = 0
- ev_energy.0.10.37: - energy[0,10,36] + energy[0,10,37]
-   + 0.155884572681199 act_current_ev_dis[0,10,37]
-   - 0.155884572681199 act_current_ev_ch[0,10,37] = 0
- ev_energy.0.11.37: - energy[0,11,36] + energy[0,11,37]
-   + 0.155884572681199 act_current_ev_dis[0,11,37]
-   - 0.155884572681199 act_current_ev_ch[0,11,37] = 0
- ev_energy.0.12.37: - energy[0,12,36] + energy[0,12,37]
-   + 0.155884572681199 act_current_ev_dis[0,12,37]
-   - 0.155884572681199 act_current_ev_ch[0,12,37] = 0
- ev_energy.0.13.37: - energy[0,13,36] + energy[0,13,37]
-   + 0.155884572681199 act_current_ev_dis[0,13,37]
-   - 0.155884572681199 act_current_ev_ch[0,13,37] = 0
- ev_energy.0.14.37: - energy[0,14,36] + energy[0,14,37]
-   + 0.155884572681199 act_current_ev_dis[0,14,37]
-   - 0.155884572681199 act_current_ev_ch[0,14,37] = 0
- ev_energy.0.15.37: - energy[0,15,36] + energy[0,15,37]
-   + 0.155884572681199 act_current_ev_dis[0,15,37]
-   - 0.155884572681199 act_current_ev_ch[0,15,37] = 0
- ev_energy.0.16.37: - energy[0,16,36] + energy[0,16,37]
-   + 0.155884572681199 act_current_ev_dis[0,16,37]
-   - 0.155884572681199 act_current_ev_ch[0,16,37] = 0
- ev_energy.0.17.37: - energy[0,17,36] + energy[0,17,37]
-   + 0.155884572681199 act_current_ev_dis[0,17,37]
-   - 0.155884572681199 act_current_ev_ch[0,17,37] = 0
- ev_energy.0.19.37: - energy[0,19,36] + energy[0,19,37]
-   + 0.155884572681199 act_current_ev_dis[0,19,37]
-   - 0.155884572681199 act_current_ev_ch[0,19,37] = 0
- ev_energy.0.20.37: - energy[0,20,36] + energy[0,20,37]
-   + 0.155884572681199 act_current_ev_dis[0,20,37]
-   - 0.155884572681199 act_current_ev_ch[0,20,37] = 0
- ev_energy.0.23.37: - energy[0,23,36] + energy[0,23,37]
-   + 0.155884572681199 act_current_ev_dis[0,23,37]
-   - 0.155884572681199 act_current_ev_ch[0,23,37] = 0
- ev_energy.0.24.37: - energy[0,24,36] + energy[0,24,37]
-   + 0.155884572681199 act_current_ev_dis[0,24,37]
-   - 0.155884572681199 act_current_ev_ch[0,24,37] = 0
- ev_energy.0.0.38: - energy[0,0,37] + energy[0,0,38]
-   + 0.155884572681199 act_current_ev_dis[0,0,38]
-   - 0.155884572681199 act_current_ev_ch[0,0,38] = 0
- ev_energy.0.1.38: - energy[0,1,37] + energy[0,1,38]
-   + 0.155884572681199 act_current_ev_dis[0,1,38]
-   - 0.155884572681199 act_current_ev_ch[0,1,38] = 0
- ev_energy.0.2.38: - energy[0,2,37] + energy[0,2,38]
-   + 0.155884572681199 act_current_ev_dis[0,2,38]
-   - 0.155884572681199 act_current_ev_ch[0,2,38] = 0
- ev_energy.0.3.38: - energy[0,3,37] + energy[0,3,38]
-   + 0.155884572681199 act_current_ev_dis[0,3,38]
-   - 0.155884572681199 act_current_ev_ch[0,3,38] = 0
- ev_energy.0.4.38: - energy[0,4,37] + energy[0,4,38]
-   + 0.155884572681199 act_current_ev_dis[0,4,38]
-   - 0.155884572681199 act_current_ev_ch[0,4,38] = 0
- ev_energy.0.6.38: - energy[0,6,37] + energy[0,6,38]
-   + 0.155884572681199 act_current_ev_dis[0,6,38]
-   - 0.155884572681199 act_current_ev_ch[0,6,38] = 0
- ev_energy.0.7.38: - energy[0,7,37] + energy[0,7,38]
-   + 0.155884572681199 act_current_ev_dis[0,7,38]
-   - 0.155884572681199 act_current_ev_ch[0,7,38] = 0
- ev_energy.0.9.38: - energy[0,9,37] + energy[0,9,38]
-   + 0.155884572681199 act_current_ev_dis[0,9,38]
-   - 0.155884572681199 act_current_ev_ch[0,9,38] = 0
- ev_energy.0.10.38: - energy[0,10,37] + energy[0,10,38]
-   + 0.155884572681199 act_current_ev_dis[0,10,38]
-   - 0.155884572681199 act_current_ev_ch[0,10,38] = 0
- ev_energy.0.11.38: - energy[0,11,37] + energy[0,11,38]
-   + 0.155884572681199 act_current_ev_dis[0,11,38]
-   - 0.155884572681199 act_current_ev_ch[0,11,38] = 0
- ev_energy.0.12.38: - energy[0,12,37] + energy[0,12,38]
-   + 0.155884572681199 act_current_ev_dis[0,12,38]
-   - 0.155884572681199 act_current_ev_ch[0,12,38] = 0
- ev_energy.0.13.38: - energy[0,13,37] + energy[0,13,38]
-   + 0.155884572681199 act_current_ev_dis[0,13,38]
-   - 0.155884572681199 act_current_ev_ch[0,13,38] = 0
- ev_energy.0.14.38: - energy[0,14,37] + energy[0,14,38]
-   + 0.155884572681199 act_current_ev_dis[0,14,38]
-   - 0.155884572681199 act_current_ev_ch[0,14,38] = 0
- ev_energy.0.15.38: - energy[0,15,37] + energy[0,15,38]
-   + 0.155884572681199 act_current_ev_dis[0,15,38]
-   - 0.155884572681199 act_current_ev_ch[0,15,38] = 0
- ev_energy.0.16.38: - energy[0,16,37] + energy[0,16,38]
-   + 0.155884572681199 act_current_ev_dis[0,16,38]
-   - 0.155884572681199 act_current_ev_ch[0,16,38] = 0
- ev_energy.0.17.38: - energy[0,17,37] + energy[0,17,38]
-   + 0.155884572681199 act_current_ev_dis[0,17,38]
-   - 0.155884572681199 act_current_ev_ch[0,17,38] = 0
- ev_energy.0.19.38: - energy[0,19,37] + energy[0,19,38]
-   + 0.155884572681199 act_current_ev_dis[0,19,38]
-   - 0.155884572681199 act_current_ev_ch[0,19,38] = 0
- ev_energy.0.20.38: - energy[0,20,37] + energy[0,20,38]
-   + 0.155884572681199 act_current_ev_dis[0,20,38]
-   - 0.155884572681199 act_current_ev_ch[0,20,38] = 0
- ev_energy.0.23.38: - energy[0,23,37] + energy[0,23,38]
-   + 0.155884572681199 act_current_ev_dis[0,23,38]
-   - 0.155884572681199 act_current_ev_ch[0,23,38] = 0
- ev_energy.0.24.38: - energy[0,24,37] + energy[0,24,38]
-   + 0.155884572681199 act_current_ev_dis[0,24,38]
-   - 0.155884572681199 act_current_ev_ch[0,24,38] = 0
- ev_energy.0.0.39: - energy[0,0,38] + energy[0,0,39]
-   + 0.155884572681199 act_current_ev_dis[0,0,39]
-   - 0.155884572681199 act_current_ev_ch[0,0,39] = 0
- ev_energy.0.1.39: - energy[0,1,38] + energy[0,1,39]
-   + 0.155884572681199 act_current_ev_dis[0,1,39]
-   - 0.155884572681199 act_current_ev_ch[0,1,39] = 0
- ev_energy.0.2.39: - energy[0,2,38] + energy[0,2,39]
-   + 0.155884572681199 act_current_ev_dis[0,2,39]
-   - 0.155884572681199 act_current_ev_ch[0,2,39] = 0
- ev_energy.0.3.39: - energy[0,3,38] + energy[0,3,39]
-   + 0.155884572681199 act_current_ev_dis[0,3,39]
-   - 0.155884572681199 act_current_ev_ch[0,3,39] = 0
- ev_energy.0.4.39: - energy[0,4,38] + energy[0,4,39]
-   + 0.155884572681199 act_current_ev_dis[0,4,39]
-   - 0.155884572681199 act_current_ev_ch[0,4,39] = 0
- ev_energy.0.6.39: - energy[0,6,38] + energy[0,6,39]
-   + 0.155884572681199 act_current_ev_dis[0,6,39]
-   - 0.155884572681199 act_current_ev_ch[0,6,39] = 0
- ev_energy.0.7.39: - energy[0,7,38] + energy[0,7,39]
-   + 0.155884572681199 act_current_ev_dis[0,7,39]
-   - 0.155884572681199 act_current_ev_ch[0,7,39] = 0
- ev_energy.0.9.39: - energy[0,9,38] + energy[0,9,39]
-   + 0.155884572681199 act_current_ev_dis[0,9,39]
-   - 0.155884572681199 act_current_ev_ch[0,9,39] = 0
- ev_energy.0.10.39: - energy[0,10,38] + energy[0,10,39]
-   + 0.155884572681199 act_current_ev_dis[0,10,39]
-   - 0.155884572681199 act_current_ev_ch[0,10,39] = 0
- ev_energy.0.11.39: - energy[0,11,38] + energy[0,11,39]
-   + 0.155884572681199 act_current_ev_dis[0,11,39]
-   - 0.155884572681199 act_current_ev_ch[0,11,39] = 0
- ev_energy.0.12.39: - energy[0,12,38] + energy[0,12,39]
-   + 0.155884572681199 act_current_ev_dis[0,12,39]
-   - 0.155884572681199 act_current_ev_ch[0,12,39] = 0
- ev_energy.0.13.39: - energy[0,13,38] + energy[0,13,39]
-   + 0.155884572681199 act_current_ev_dis[0,13,39]
-   - 0.155884572681199 act_current_ev_ch[0,13,39] = 0
- ev_energy.0.14.39: - energy[0,14,38] + energy[0,14,39]
-   + 0.155884572681199 act_current_ev_dis[0,14,39]
-   - 0.155884572681199 act_current_ev_ch[0,14,39] = 0
- ev_energy.0.15.39: - energy[0,15,38] + energy[0,15,39]
-   + 0.155884572681199 act_current_ev_dis[0,15,39]
-   - 0.155884572681199 act_current_ev_ch[0,15,39] = 0
- ev_energy.0.16.39: - energy[0,16,38] + energy[0,16,39]
-   + 0.155884572681199 act_current_ev_dis[0,16,39]
-   - 0.155884572681199 act_current_ev_ch[0,16,39] = 0
- ev_energy.0.17.39: - energy[0,17,38] + energy[0,17,39]
-   + 0.155884572681199 act_current_ev_dis[0,17,39]
-   - 0.155884572681199 act_current_ev_ch[0,17,39] = 0
- ev_energy.0.19.39: - energy[0,19,38] + energy[0,19,39]
-   + 0.155884572681199 act_current_ev_dis[0,19,39]
-   - 0.155884572681199 act_current_ev_ch[0,19,39] = 0
- ev_energy.0.20.39: - energy[0,20,38] + energy[0,20,39]
-   + 0.155884572681199 act_current_ev_dis[0,20,39]
-   - 0.155884572681199 act_current_ev_ch[0,20,39] = 0
- ev_energy.0.23.39: - energy[0,23,38] + energy[0,23,39]
-   + 0.155884572681199 act_current_ev_dis[0,23,39]
-   - 0.155884572681199 act_current_ev_ch[0,23,39] = 0
- ev_energy.0.24.39: - energy[0,24,38] + energy[0,24,39]
-   + 0.155884572681199 act_current_ev_dis[0,24,39]
-   - 0.155884572681199 act_current_ev_ch[0,24,39] = 0
- ev_energy.0.0.40: - energy[0,0,39] + energy[0,0,40]
-   + 0.155884572681199 act_current_ev_dis[0,0,40]
-   - 0.155884572681199 act_current_ev_ch[0,0,40] = 0
- ev_energy.0.1.40: - energy[0,1,39] + energy[0,1,40]
-   + 0.155884572681199 act_current_ev_dis[0,1,40]
-   - 0.155884572681199 act_current_ev_ch[0,1,40] = 0
- ev_energy.0.2.40: - energy[0,2,39] + energy[0,2,40]
-   + 0.155884572681199 act_current_ev_dis[0,2,40]
-   - 0.155884572681199 act_current_ev_ch[0,2,40] = 0
- ev_energy.0.3.40: - energy[0,3,39] + energy[0,3,40]
-   + 0.155884572681199 act_current_ev_dis[0,3,40]
-   - 0.155884572681199 act_current_ev_ch[0,3,40] = 0
- ev_energy.0.4.40: - energy[0,4,39] + energy[0,4,40]
-   + 0.155884572681199 act_current_ev_dis[0,4,40]
-   - 0.155884572681199 act_current_ev_ch[0,4,40] = 0
- ev_arrival_energy.0.5.40: energy[0,5,40] = 15
- ev_energy.0.6.40: - energy[0,6,39] + energy[0,6,40]
-   + 0.155884572681199 act_current_ev_dis[0,6,40]
-   - 0.155884572681199 act_current_ev_ch[0,6,40] = 0
- ev_energy.0.7.40: - energy[0,7,39] + energy[0,7,40]
-   + 0.155884572681199 act_current_ev_dis[0,7,40]
-   - 0.155884572681199 act_current_ev_ch[0,7,40] = 0
- ev_energy.0.9.40: - energy[0,9,39] + energy[0,9,40]
-   + 0.155884572681199 act_current_ev_dis[0,9,40]
-   - 0.155884572681199 act_current_ev_ch[0,9,40] = 0
- ev_energy.0.10.40: - energy[0,10,39] + energy[0,10,40]
-   + 0.155884572681199 act_current_ev_dis[0,10,40]
-   - 0.155884572681199 act_current_ev_ch[0,10,40] = 0
- ev_energy.0.11.40: - energy[0,11,39] + energy[0,11,40]
-   + 0.155884572681199 act_current_ev_dis[0,11,40]
-   - 0.155884572681199 act_current_ev_ch[0,11,40] = 0
- ev_energy.0.12.40: - energy[0,12,39] + energy[0,12,40]
-   + 0.155884572681199 act_current_ev_dis[0,12,40]
-   - 0.155884572681199 act_current_ev_ch[0,12,40] = 0
- ev_energy.0.13.40: - energy[0,13,39] + energy[0,13,40]
-   + 0.155884572681199 act_current_ev_dis[0,13,40]
-   - 0.155884572681199 act_current_ev_ch[0,13,40] = 0
- ev_energy.0.14.40: - energy[0,14,39] + energy[0,14,40]
-   + 0.155884572681199 act_current_ev_dis[0,14,40]
-   - 0.155884572681199 act_current_ev_ch[0,14,40] = 0
- ev_energy.0.15.40: - energy[0,15,39] + energy[0,15,40]
-   + 0.155884572681199 act_current_ev_dis[0,15,40]
-   - 0.155884572681199 act_current_ev_ch[0,15,40] = 0
- ev_energy.0.16.40: - energy[0,16,39] + energy[0,16,40]
-   + 0.155884572681199 act_current_ev_dis[0,16,40]
-   - 0.155884572681199 act_current_ev_ch[0,16,40] = 0
- ev_energy.0.17.40: - energy[0,17,39] + energy[0,17,40]
-   + 0.155884572681199 act_current_ev_dis[0,17,40]
-   - 0.155884572681199 act_current_ev_ch[0,17,40] = 0
- ev_energy.0.19.40: - energy[0,19,39] + energy[0,19,40]
-   + 0.155884572681199 act_current_ev_dis[0,19,40]
-   - 0.155884572681199 act_current_ev_ch[0,19,40] = 0
- ev_energy.0.20.40: - energy[0,20,39] + energy[0,20,40]
-   + 0.155884572681199 act_current_ev_dis[0,20,40]
-   - 0.155884572681199 act_current_ev_ch[0,20,40] = 0
- ev_energy.0.23.40: - energy[0,23,39] + energy[0,23,40]
-   + 0.155884572681199 act_current_ev_dis[0,23,40]
-   - 0.155884572681199 act_current_ev_ch[0,23,40] = 0
- ev_energy.0.24.40: - energy[0,24,39] + energy[0,24,40]
-   + 0.155884572681199 act_current_ev_dis[0,24,40]
-   - 0.155884572681199 act_current_ev_ch[0,24,40] = 0
- ev_energy.0.0.41: - energy[0,0,40] + energy[0,0,41]
-   + 0.155884572681199 act_current_ev_dis[0,0,41]
-   - 0.155884572681199 act_current_ev_ch[0,0,41] = 0
- ev_energy.0.1.41: - energy[0,1,40] + energy[0,1,41]
-   + 0.155884572681199 act_current_ev_dis[0,1,41]
-   - 0.155884572681199 act_current_ev_ch[0,1,41] = 0
- ev_energy.0.2.41: - energy[0,2,40] + energy[0,2,41]
-   + 0.155884572681199 act_current_ev_dis[0,2,41]
-   - 0.155884572681199 act_current_ev_ch[0,2,41] = 0
- ev_energy.0.4.41: - energy[0,4,40] + energy[0,4,41]
-   + 0.155884572681199 act_current_ev_dis[0,4,41]
-   - 0.155884572681199 act_current_ev_ch[0,4,41] = 0
- ev_energy.0.5.41: - energy[0,5,40] + energy[0,5,41]
-   + 0.155884572681199 act_current_ev_dis[0,5,41]
-   - 0.155884572681199 act_current_ev_ch[0,5,41] = 0
- ev_energy.0.6.41: - energy[0,6,40] + energy[0,6,41]
-   + 0.155884572681199 act_current_ev_dis[0,6,41]
-   - 0.155884572681199 act_current_ev_ch[0,6,41] = 0
- ev_energy.0.7.41: - energy[0,7,40] + energy[0,7,41]
-   + 0.155884572681199 act_current_ev_dis[0,7,41]
-   - 0.155884572681199 act_current_ev_ch[0,7,41] = 0
- ev_energy.0.9.41: - energy[0,9,40] + energy[0,9,41]
-   + 0.155884572681199 act_current_ev_dis[0,9,41]
-   - 0.155884572681199 act_current_ev_ch[0,9,41] = 0
- ev_energy.0.10.41: - energy[0,10,40] + energy[0,10,41]
-   + 0.155884572681199 act_current_ev_dis[0,10,41]
-   - 0.155884572681199 act_current_ev_ch[0,10,41] = 0
- ev_energy.0.11.41: - energy[0,11,40] + energy[0,11,41]
-   + 0.155884572681199 act_current_ev_dis[0,11,41]
-   - 0.155884572681199 act_current_ev_ch[0,11,41] = 0
- ev_energy.0.12.41: - energy[0,12,40] + energy[0,12,41]
-   + 0.155884572681199 act_current_ev_dis[0,12,41]
-   - 0.155884572681199 act_current_ev_ch[0,12,41] = 0
- ev_energy.0.13.41: - energy[0,13,40] + energy[0,13,41]
-   + 0.155884572681199 act_current_ev_dis[0,13,41]
-   - 0.155884572681199 act_current_ev_ch[0,13,41] = 0
- ev_energy.0.14.41: - energy[0,14,40] + energy[0,14,41]
-   + 0.155884572681199 act_current_ev_dis[0,14,41]
-   - 0.155884572681199 act_current_ev_ch[0,14,41] = 0
- ev_energy.0.15.41: - energy[0,15,40] + energy[0,15,41]
-   + 0.155884572681199 act_current_ev_dis[0,15,41]
-   - 0.155884572681199 act_current_ev_ch[0,15,41] = 0
- ev_energy.0.16.41: - energy[0,16,40] + energy[0,16,41]
-   + 0.155884572681199 act_current_ev_dis[0,16,41]
-   - 0.155884572681199 act_current_ev_ch[0,16,41] = 0
- ev_energy.0.17.41: - energy[0,17,40] + energy[0,17,41]
-   + 0.155884572681199 act_current_ev_dis[0,17,41]
-   - 0.155884572681199 act_current_ev_ch[0,17,41] = 0
- ev_energy.0.19.41: - energy[0,19,40] + energy[0,19,41]
-   + 0.155884572681199 act_current_ev_dis[0,19,41]
-   - 0.155884572681199 act_current_ev_ch[0,19,41] = 0
- ev_energy.0.20.41: - energy[0,20,40] + energy[0,20,41]
-   + 0.155884572681199 act_current_ev_dis[0,20,41]
-   - 0.155884572681199 act_current_ev_ch[0,20,41] = 0
- ev_energy.0.23.41: - energy[0,23,40] + energy[0,23,41]
-   + 0.155884572681199 act_current_ev_dis[0,23,41]
-   - 0.155884572681199 act_current_ev_ch[0,23,41] = 0
- ev_energy.0.24.41: - energy[0,24,40] + energy[0,24,41]
-   + 0.155884572681199 act_current_ev_dis[0,24,41]
-   - 0.155884572681199 act_current_ev_ch[0,24,41] = 0
- ev_energy.0.0.42: - energy[0,0,41] + energy[0,0,42]
-   + 0.155884572681199 act_current_ev_dis[0,0,42]
-   - 0.155884572681199 act_current_ev_ch[0,0,42] = 0
- ev_energy.0.1.42: - energy[0,1,41] + energy[0,1,42]
-   + 0.155884572681199 act_current_ev_dis[0,1,42]
-   - 0.155884572681199 act_current_ev_ch[0,1,42] = 0
- ev_energy.0.2.42: - energy[0,2,41] + energy[0,2,42]
-   + 0.155884572681199 act_current_ev_dis[0,2,42]
-   - 0.155884572681199 act_current_ev_ch[0,2,42] = 0
- ev_energy.0.4.42: - energy[0,4,41] + energy[0,4,42]
-   + 0.155884572681199 act_current_ev_dis[0,4,42]
-   - 0.155884572681199 act_current_ev_ch[0,4,42] = 0
- ev_energy.0.5.42: - energy[0,5,41] + energy[0,5,42]
-   + 0.155884572681199 act_current_ev_dis[0,5,42]
-   - 0.155884572681199 act_current_ev_ch[0,5,42] = 0
- ev_energy.0.6.42: - energy[0,6,41] + energy[0,6,42]
-   + 0.155884572681199 act_current_ev_dis[0,6,42]
-   - 0.155884572681199 act_current_ev_ch[0,6,42] = 0
- ev_energy.0.7.42: - energy[0,7,41] + energy[0,7,42]
-   + 0.155884572681199 act_current_ev_dis[0,7,42]
-   - 0.155884572681199 act_current_ev_ch[0,7,42] = 0
- ev_energy.0.9.42: - energy[0,9,41] + energy[0,9,42]
-   + 0.155884572681199 act_current_ev_dis[0,9,42]
-   - 0.155884572681199 act_current_ev_ch[0,9,42] = 0
- ev_energy.0.10.42: - energy[0,10,41] + energy[0,10,42]
-   + 0.155884572681199 act_current_ev_dis[0,10,42]
-   - 0.155884572681199 act_current_ev_ch[0,10,42] = 0
- ev_energy.0.11.42: - energy[0,11,41] + energy[0,11,42]
-   + 0.155884572681199 act_current_ev_dis[0,11,42]
-   - 0.155884572681199 act_current_ev_ch[0,11,42] = 0
- ev_energy.0.12.42: - energy[0,12,41] + energy[0,12,42]
-   + 0.155884572681199 act_current_ev_dis[0,12,42]
-   - 0.155884572681199 act_current_ev_ch[0,12,42] = 0
- ev_energy.0.13.42: - energy[0,13,41] + energy[0,13,42]
-   + 0.155884572681199 act_current_ev_dis[0,13,42]
-   - 0.155884572681199 act_current_ev_ch[0,13,42] = 0
- ev_energy.0.14.42: - energy[0,14,41] + energy[0,14,42]
-   + 0.155884572681199 act_current_ev_dis[0,14,42]
-   - 0.155884572681199 act_current_ev_ch[0,14,42] = 0
- ev_energy.0.15.42: - energy[0,15,41] + energy[0,15,42]
-   + 0.155884572681199 act_current_ev_dis[0,15,42]
-   - 0.155884572681199 act_current_ev_ch[0,15,42] = 0
- ev_energy.0.16.42: - energy[0,16,41] + energy[0,16,42]
-   + 0.155884572681199 act_current_ev_dis[0,16,42]
-   - 0.155884572681199 act_current_ev_ch[0,16,42] = 0
- ev_energy.0.17.42: - energy[0,17,41] + energy[0,17,42]
-   + 0.155884572681199 act_current_ev_dis[0,17,42]
-   - 0.155884572681199 act_current_ev_ch[0,17,42] = 0
- ev_energy.0.19.42: - energy[0,19,41] + energy[0,19,42]
-   + 0.155884572681199 act_current_ev_dis[0,19,42]
-   - 0.155884572681199 act_current_ev_ch[0,19,42] = 0
- ev_energy.0.20.42: - energy[0,20,41] + energy[0,20,42]
-   + 0.155884572681199 act_current_ev_dis[0,20,42]
-   - 0.155884572681199 act_current_ev_ch[0,20,42] = 0
- ev_energy.0.23.42: - energy[0,23,41] + energy[0,23,42]
-   + 0.155884572681199 act_current_ev_dis[0,23,42]
-   - 0.155884572681199 act_current_ev_ch[0,23,42] = 0
- ev_energy.0.24.42: - energy[0,24,41] + energy[0,24,42]
-   + 0.155884572681199 act_current_ev_dis[0,24,42]
-   - 0.155884572681199 act_current_ev_ch[0,24,42] = 0
- ev_energy.0.0.43: - energy[0,0,42] + energy[0,0,43]
-   + 0.155884572681199 act_current_ev_dis[0,0,43]
-   - 0.155884572681199 act_current_ev_ch[0,0,43] = 0
- ev_energy.0.1.43: - energy[0,1,42] + energy[0,1,43]
-   + 0.155884572681199 act_current_ev_dis[0,1,43]
-   - 0.155884572681199 act_current_ev_ch[0,1,43] = 0
- ev_energy.0.2.43: - energy[0,2,42] + energy[0,2,43]
-   + 0.155884572681199 act_current_ev_dis[0,2,43]
-   - 0.155884572681199 act_current_ev_ch[0,2,43] = 0
- ev_energy.0.4.43: - energy[0,4,42] + energy[0,4,43]
-   + 0.155884572681199 act_current_ev_dis[0,4,43]
-   - 0.155884572681199 act_current_ev_ch[0,4,43] = 0
- ev_energy.0.5.43: - energy[0,5,42] + energy[0,5,43]
-   + 0.155884572681199 act_current_ev_dis[0,5,43]
-   - 0.155884572681199 act_current_ev_ch[0,5,43] = 0
- ev_energy.0.6.43: - energy[0,6,42] + energy[0,6,43]
-   + 0.155884572681199 act_current_ev_dis[0,6,43]
-   - 0.155884572681199 act_current_ev_ch[0,6,43] = 0
- ev_energy.0.7.43: - energy[0,7,42] + energy[0,7,43]
-   + 0.155884572681199 act_current_ev_dis[0,7,43]
-   - 0.155884572681199 act_current_ev_ch[0,7,43] = 0
- ev_energy.0.9.43: - energy[0,9,42] + energy[0,9,43]
-   + 0.155884572681199 act_current_ev_dis[0,9,43]
-   - 0.155884572681199 act_current_ev_ch[0,9,43] = 0
- ev_energy.0.10.43: - energy[0,10,42] + energy[0,10,43]
-   + 0.155884572681199 act_current_ev_dis[0,10,43]
-   - 0.155884572681199 act_current_ev_ch[0,10,43] = 0
- ev_energy.0.11.43: - energy[0,11,42] + energy[0,11,43]
-   + 0.155884572681199 act_current_ev_dis[0,11,43]
-   - 0.155884572681199 act_current_ev_ch[0,11,43] = 0
- ev_energy.0.12.43: - energy[0,12,42] + energy[0,12,43]
-   + 0.155884572681199 act_current_ev_dis[0,12,43]
-   - 0.155884572681199 act_current_ev_ch[0,12,43] = 0
- ev_energy.0.13.43: - energy[0,13,42] + energy[0,13,43]
-   + 0.155884572681199 act_current_ev_dis[0,13,43]
-   - 0.155884572681199 act_current_ev_ch[0,13,43] = 0
- ev_energy.0.14.43: - energy[0,14,42] + energy[0,14,43]
-   + 0.155884572681199 act_current_ev_dis[0,14,43]
-   - 0.155884572681199 act_current_ev_ch[0,14,43] = 0
- ev_energy.0.16.43: - energy[0,16,42] + energy[0,16,43]
-   + 0.155884572681199 act_current_ev_dis[0,16,43]
-   - 0.155884572681199 act_current_ev_ch[0,16,43] = 0
- ev_energy.0.17.43: - energy[0,17,42] + energy[0,17,43]
-   + 0.155884572681199 act_current_ev_dis[0,17,43]
-   - 0.155884572681199 act_current_ev_ch[0,17,43] = 0
- ev_energy.0.19.43: - energy[0,19,42] + energy[0,19,43]
-   + 0.155884572681199 act_current_ev_dis[0,19,43]
-   - 0.155884572681199 act_current_ev_ch[0,19,43] = 0
- ev_energy.0.20.43: - energy[0,20,42] + energy[0,20,43]
-   + 0.155884572681199 act_current_ev_dis[0,20,43]
-   - 0.155884572681199 act_current_ev_ch[0,20,43] = 0
- ev_energy.0.23.43: - energy[0,23,42] + energy[0,23,43]
-   + 0.155884572681199 act_current_ev_dis[0,23,43]
-   - 0.155884572681199 act_current_ev_ch[0,23,43] = 0
- ev_energy.0.24.43: - energy[0,24,42] + energy[0,24,43]
-   + 0.155884572681199 act_current_ev_dis[0,24,43]
-   - 0.155884572681199 act_current_ev_ch[0,24,43] = 0
- ev_energy.0.0.44: - energy[0,0,43] + energy[0,0,44]
-   + 0.155884572681199 act_current_ev_dis[0,0,44]
-   - 0.155884572681199 act_current_ev_ch[0,0,44] = 0
- ev_energy.0.1.44: - energy[0,1,43] + energy[0,1,44]
-   + 0.155884572681199 act_current_ev_dis[0,1,44]
-   - 0.155884572681199 act_current_ev_ch[0,1,44] = 0
- ev_energy.0.2.44: - energy[0,2,43] + energy[0,2,44]
-   + 0.155884572681199 act_current_ev_dis[0,2,44]
-   - 0.155884572681199 act_current_ev_ch[0,2,44] = 0
- ev_energy.0.4.44: - energy[0,4,43] + energy[0,4,44]
-   + 0.155884572681199 act_current_ev_dis[0,4,44]
-   - 0.155884572681199 act_current_ev_ch[0,4,44] = 0
- ev_energy.0.5.44: - energy[0,5,43] + energy[0,5,44]
-   + 0.155884572681199 act_current_ev_dis[0,5,44]
-   - 0.155884572681199 act_current_ev_ch[0,5,44] = 0
- ev_energy.0.6.44: - energy[0,6,43] + energy[0,6,44]
-   + 0.155884572681199 act_current_ev_dis[0,6,44]
-   - 0.155884572681199 act_current_ev_ch[0,6,44] = 0
- ev_energy.0.7.44: - energy[0,7,43] + energy[0,7,44]
-   + 0.155884572681199 act_current_ev_dis[0,7,44]
-   - 0.155884572681199 act_current_ev_ch[0,7,44] = 0
- ev_energy.0.9.44: - energy[0,9,43] + energy[0,9,44]
-   + 0.155884572681199 act_current_ev_dis[0,9,44]
-   - 0.155884572681199 act_current_ev_ch[0,9,44] = 0
- ev_energy.0.11.44: - energy[0,11,43] + energy[0,11,44]
-   + 0.155884572681199 act_current_ev_dis[0,11,44]
-   - 0.155884572681199 act_current_ev_ch[0,11,44] = 0
- ev_energy.0.12.44: - energy[0,12,43] + energy[0,12,44]
-   + 0.155884572681199 act_current_ev_dis[0,12,44]
-   - 0.155884572681199 act_current_ev_ch[0,12,44] = 0
- ev_energy.0.13.44: - energy[0,13,43] + energy[0,13,44]
-   + 0.155884572681199 act_current_ev_dis[0,13,44]
-   - 0.155884572681199 act_current_ev_ch[0,13,44] = 0
- ev_energy.0.14.44: - energy[0,14,43] + energy[0,14,44]
-   + 0.155884572681199 act_current_ev_dis[0,14,44]
-   - 0.155884572681199 act_current_ev_ch[0,14,44] = 0
- ev_energy.0.16.44: - energy[0,16,43] + energy[0,16,44]
-   + 0.155884572681199 act_current_ev_dis[0,16,44]
-   - 0.155884572681199 act_current_ev_ch[0,16,44] = 0
- ev_energy.0.17.44: - energy[0,17,43] + energy[0,17,44]
-   + 0.155884572681199 act_current_ev_dis[0,17,44]
-   - 0.155884572681199 act_current_ev_ch[0,17,44] = 0
- ev_energy.0.19.44: - energy[0,19,43] + energy[0,19,44]
-   + 0.155884572681199 act_current_ev_dis[0,19,44]
-   - 0.155884572681199 act_current_ev_ch[0,19,44] = 0
- ev_energy.0.20.44: - energy[0,20,43] + energy[0,20,44]
-   + 0.155884572681199 act_current_ev_dis[0,20,44]
-   - 0.155884572681199 act_current_ev_ch[0,20,44] = 0
- ev_energy.0.23.44: - energy[0,23,43] + energy[0,23,44]
-   + 0.155884572681199 act_current_ev_dis[0,23,44]
-   - 0.155884572681199 act_current_ev_ch[0,23,44] = 0
- ev_energy.0.24.44: - energy[0,24,43] + energy[0,24,44]
-   + 0.155884572681199 act_current_ev_dis[0,24,44]
-   - 0.155884572681199 act_current_ev_ch[0,24,44] = 0
- ev_energy.0.0.45: - energy[0,0,44] + energy[0,0,45]
-   + 0.155884572681199 act_current_ev_dis[0,0,45]
-   - 0.155884572681199 act_current_ev_ch[0,0,45] = 0
- ev_energy.0.1.45: - energy[0,1,44] + energy[0,1,45]
-   + 0.155884572681199 act_current_ev_dis[0,1,45]
-   - 0.155884572681199 act_current_ev_ch[0,1,45] = 0
- ev_energy.0.2.45: - energy[0,2,44] + energy[0,2,45]
-   + 0.155884572681199 act_current_ev_dis[0,2,45]
-   - 0.155884572681199 act_current_ev_ch[0,2,45] = 0
- ev_energy.0.4.45: - energy[0,4,44] + energy[0,4,45]
-   + 0.155884572681199 act_current_ev_dis[0,4,45]
-   - 0.155884572681199 act_current_ev_ch[0,4,45] = 0
- ev_energy.0.5.45: - energy[0,5,44] + energy[0,5,45]
-   + 0.155884572681199 act_current_ev_dis[0,5,45]
-   - 0.155884572681199 act_current_ev_ch[0,5,45] = 0
- ev_energy.0.6.45: - energy[0,6,44] + energy[0,6,45]
-   + 0.155884572681199 act_current_ev_dis[0,6,45]
-   - 0.155884572681199 act_current_ev_ch[0,6,45] = 0
- ev_energy.0.7.45: - energy[0,7,44] + energy[0,7,45]
-   + 0.155884572681199 act_current_ev_dis[0,7,45]
-   - 0.155884572681199 act_current_ev_ch[0,7,45] = 0
- ev_energy.0.9.45: - energy[0,9,44] + energy[0,9,45]
-   + 0.155884572681199 act_current_ev_dis[0,9,45]
-   - 0.155884572681199 act_current_ev_ch[0,9,45] = 0
- ev_energy.0.11.45: - energy[0,11,44] + energy[0,11,45]
-   + 0.155884572681199 act_current_ev_dis[0,11,45]
-   - 0.155884572681199 act_current_ev_ch[0,11,45] = 0
- ev_energy.0.12.45: - energy[0,12,44] + energy[0,12,45]
-   + 0.155884572681199 act_current_ev_dis[0,12,45]
-   - 0.155884572681199 act_current_ev_ch[0,12,45] = 0
- ev_energy.0.13.45: - energy[0,13,44] + energy[0,13,45]
-   + 0.155884572681199 act_current_ev_dis[0,13,45]
-   - 0.155884572681199 act_current_ev_ch[0,13,45] = 0
- ev_energy.0.14.45: - energy[0,14,44] + energy[0,14,45]
-   + 0.155884572681199 act_current_ev_dis[0,14,45]
-   - 0.155884572681199 act_current_ev_ch[0,14,45] = 0
- ev_energy.0.16.45: - energy[0,16,44] + energy[0,16,45]
-   + 0.155884572681199 act_current_ev_dis[0,16,45]
-   - 0.155884572681199 act_current_ev_ch[0,16,45] = 0
- ev_energy.0.17.45: - energy[0,17,44] + energy[0,17,45]
-   + 0.155884572681199 act_current_ev_dis[0,17,45]
-   - 0.155884572681199 act_current_ev_ch[0,17,45] = 0
- ev_energy.0.19.45: - energy[0,19,44] + energy[0,19,45]
-   + 0.155884572681199 act_current_ev_dis[0,19,45]
-   - 0.155884572681199 act_current_ev_ch[0,19,45] = 0
- ev_energy.0.20.45: - energy[0,20,44] + energy[0,20,45]
-   + 0.155884572681199 act_current_ev_dis[0,20,45]
-   - 0.155884572681199 act_current_ev_ch[0,20,45] = 0
- ev_energy.0.24.45: - energy[0,24,44] + energy[0,24,45]
-   + 0.155884572681199 act_current_ev_dis[0,24,45]
-   - 0.155884572681199 act_current_ev_ch[0,24,45] = 0
- ev_energy.0.0.46: - energy[0,0,45] + energy[0,0,46]
-   + 0.155884572681199 act_current_ev_dis[0,0,46]
-   - 0.155884572681199 act_current_ev_ch[0,0,46] = 0
- ev_energy.0.1.46: - energy[0,1,45] + energy[0,1,46]
-   + 0.155884572681199 act_current_ev_dis[0,1,46]
-   - 0.155884572681199 act_current_ev_ch[0,1,46] = 0
- ev_energy.0.2.46: - energy[0,2,45] + energy[0,2,46]
-   + 0.155884572681199 act_current_ev_dis[0,2,46]
-   - 0.155884572681199 act_current_ev_ch[0,2,46] = 0
- ev_energy.0.4.46: - energy[0,4,45] + energy[0,4,46]
-   + 0.155884572681199 act_current_ev_dis[0,4,46]
-   - 0.155884572681199 act_current_ev_ch[0,4,46] = 0
- ev_energy.0.5.46: - energy[0,5,45] + energy[0,5,46]
-   + 0.155884572681199 act_current_ev_dis[0,5,46]
-   - 0.155884572681199 act_current_ev_ch[0,5,46] = 0
- ev_energy.0.6.46: - energy[0,6,45] + energy[0,6,46]
-   + 0.155884572681199 act_current_ev_dis[0,6,46]
-   - 0.155884572681199 act_current_ev_ch[0,6,46] = 0
- ev_energy.0.7.46: - energy[0,7,45] + energy[0,7,46]
-   + 0.155884572681199 act_current_ev_dis[0,7,46]
-   - 0.155884572681199 act_current_ev_ch[0,7,46] = 0
- ev_energy.0.9.46: - energy[0,9,45] + energy[0,9,46]
-   + 0.155884572681199 act_current_ev_dis[0,9,46]
-   - 0.155884572681199 act_current_ev_ch[0,9,46] = 0
- ev_energy.0.11.46: - energy[0,11,45] + energy[0,11,46]
-   + 0.155884572681199 act_current_ev_dis[0,11,46]
-   - 0.155884572681199 act_current_ev_ch[0,11,46] = 0
- ev_energy.0.12.46: - energy[0,12,45] + energy[0,12,46]
-   + 0.155884572681199 act_current_ev_dis[0,12,46]
-   - 0.155884572681199 act_current_ev_ch[0,12,46] = 0
- ev_energy.0.13.46: - energy[0,13,45] + energy[0,13,46]
-   + 0.155884572681199 act_current_ev_dis[0,13,46]
-   - 0.155884572681199 act_current_ev_ch[0,13,46] = 0
- ev_energy.0.14.46: - energy[0,14,45] + energy[0,14,46]
-   + 0.155884572681199 act_current_ev_dis[0,14,46]
-   - 0.155884572681199 act_current_ev_ch[0,14,46] = 0
- ev_energy.0.16.46: - energy[0,16,45] + energy[0,16,46]
-   + 0.155884572681199 act_current_ev_dis[0,16,46]
-   - 0.155884572681199 act_current_ev_ch[0,16,46] = 0
- ev_energy.0.17.46: - energy[0,17,45] + energy[0,17,46]
-   + 0.155884572681199 act_current_ev_dis[0,17,46]
-   - 0.155884572681199 act_current_ev_ch[0,17,46] = 0
- ev_energy.0.19.46: - energy[0,19,45] + energy[0,19,46]
-   + 0.155884572681199 act_current_ev_dis[0,19,46]
-   - 0.155884572681199 act_current_ev_ch[0,19,46] = 0
- ev_energy.0.20.46: - energy[0,20,45] + energy[0,20,46]
-   + 0.155884572681199 act_current_ev_dis[0,20,46]
-   - 0.155884572681199 act_current_ev_ch[0,20,46] = 0
- ev_energy.0.24.46: - energy[0,24,45] + energy[0,24,46]
-   + 0.155884572681199 act_current_ev_dis[0,24,46]
-   - 0.155884572681199 act_current_ev_ch[0,24,46] = 0
- ev_energy.0.0.47: - energy[0,0,46] + energy[0,0,47]
-   + 0.155884572681199 act_current_ev_dis[0,0,47]
-   - 0.155884572681199 act_current_ev_ch[0,0,47] = 0
- ev_energy.0.1.47: - energy[0,1,46] + energy[0,1,47]
-   + 0.155884572681199 act_current_ev_dis[0,1,47]
-   - 0.155884572681199 act_current_ev_ch[0,1,47] = 0
- ev_energy.0.2.47: - energy[0,2,46] + energy[0,2,47]
-   + 0.155884572681199 act_current_ev_dis[0,2,47]
-   - 0.155884572681199 act_current_ev_ch[0,2,47] = 0
- ev_energy.0.4.47: - energy[0,4,46] + energy[0,4,47]
-   + 0.155884572681199 act_current_ev_dis[0,4,47]
-   - 0.155884572681199 act_current_ev_ch[0,4,47] = 0
- ev_energy.0.5.47: - energy[0,5,46] + energy[0,5,47]
-   + 0.155884572681199 act_current_ev_dis[0,5,47]
-   - 0.155884572681199 act_current_ev_ch[0,5,47] = 0
- ev_energy.0.6.47: - energy[0,6,46] + energy[0,6,47]
-   + 0.155884572681199 act_current_ev_dis[0,6,47]
-   - 0.155884572681199 act_current_ev_ch[0,6,47] = 0
- ev_energy.0.7.47: - energy[0,7,46] + energy[0,7,47]
-   + 0.155884572681199 act_current_ev_dis[0,7,47]
-   - 0.155884572681199 act_current_ev_ch[0,7,47] = 0
- ev_energy.0.9.47: - energy[0,9,46] + energy[0,9,47]
-   + 0.155884572681199 act_current_ev_dis[0,9,47]
-   - 0.155884572681199 act_current_ev_ch[0,9,47] = 0
- ev_energy.0.11.47: - energy[0,11,46] + energy[0,11,47]
-   + 0.155884572681199 act_current_ev_dis[0,11,47]
-   - 0.155884572681199 act_current_ev_ch[0,11,47] = 0
- ev_energy.0.12.47: - energy[0,12,46] + energy[0,12,47]
-   + 0.155884572681199 act_current_ev_dis[0,12,47]
-   - 0.155884572681199 act_current_ev_ch[0,12,47] = 0
- ev_energy.0.13.47: - energy[0,13,46] + energy[0,13,47]
-   + 0.155884572681199 act_current_ev_dis[0,13,47]
-   - 0.155884572681199 act_current_ev_ch[0,13,47] = 0
- ev_energy.0.14.47: - energy[0,14,46] + energy[0,14,47]
-   + 0.155884572681199 act_current_ev_dis[0,14,47]
-   - 0.155884572681199 act_current_ev_ch[0,14,47] = 0
- ev_energy.0.16.47: - energy[0,16,46] + energy[0,16,47]
-   + 0.155884572681199 act_current_ev_dis[0,16,47]
-   - 0.155884572681199 act_current_ev_ch[0,16,47] = 0
- ev_energy.0.17.47: - energy[0,17,46] + energy[0,17,47]
-   + 0.155884572681199 act_current_ev_dis[0,17,47]
-   - 0.155884572681199 act_current_ev_ch[0,17,47] = 0
- ev_energy.0.19.47: - energy[0,19,46] + energy[0,19,47]
-   + 0.155884572681199 act_current_ev_dis[0,19,47]
-   - 0.155884572681199 act_current_ev_ch[0,19,47] = 0
- ev_energy.0.20.47: - energy[0,20,46] + energy[0,20,47]
-   + 0.155884572681199 act_current_ev_dis[0,20,47]
-   - 0.155884572681199 act_current_ev_ch[0,20,47] = 0
- ev_energy.0.24.47: - energy[0,24,46] + energy[0,24,47]
-   + 0.155884572681199 act_current_ev_dis[0,24,47]
-   - 0.155884572681199 act_current_ev_ch[0,24,47] = 0
- ev_energy.0.0.48: - energy[0,0,47] + energy[0,0,48]
-   + 0.155884572681199 act_current_ev_dis[0,0,48]
-   - 0.155884572681199 act_current_ev_ch[0,0,48] = 0
- ev_energy.0.1.48: - energy[0,1,47] + energy[0,1,48]
-   + 0.155884572681199 act_current_ev_dis[0,1,48]
-   - 0.155884572681199 act_current_ev_ch[0,1,48] = 0
- ev_energy.0.2.48: - energy[0,2,47] + energy[0,2,48]
-   + 0.155884572681199 act_current_ev_dis[0,2,48]
-   - 0.155884572681199 act_current_ev_ch[0,2,48] = 0
- ev_energy.0.4.48: - energy[0,4,47] + energy[0,4,48]
-   + 0.155884572681199 act_current_ev_dis[0,4,48]
-   - 0.155884572681199 act_current_ev_ch[0,4,48] = 0
- ev_energy.0.5.48: - energy[0,5,47] + energy[0,5,48]
-   + 0.155884572681199 act_current_ev_dis[0,5,48]
-   - 0.155884572681199 act_current_ev_ch[0,5,48] = 0
- ev_energy.0.7.48: - energy[0,7,47] + energy[0,7,48]
-   + 0.155884572681199 act_current_ev_dis[0,7,48]
-   - 0.155884572681199 act_current_ev_ch[0,7,48] = 0
- ev_energy.0.9.48: - energy[0,9,47] + energy[0,9,48]
-   + 0.155884572681199 act_current_ev_dis[0,9,48]
-   - 0.155884572681199 act_current_ev_ch[0,9,48] = 0
- ev_energy.0.11.48: - energy[0,11,47] + energy[0,11,48]
-   + 0.155884572681199 act_current_ev_dis[0,11,48]
-   - 0.155884572681199 act_current_ev_ch[0,11,48] = 0
- ev_energy.0.12.48: - energy[0,12,47] + energy[0,12,48]
-   + 0.155884572681199 act_current_ev_dis[0,12,48]
-   - 0.155884572681199 act_current_ev_ch[0,12,48] = 0
- ev_energy.0.13.48: - energy[0,13,47] + energy[0,13,48]
-   + 0.155884572681199 act_current_ev_dis[0,13,48]
-   - 0.155884572681199 act_current_ev_ch[0,13,48] = 0
- ev_energy.0.14.48: - energy[0,14,47] + energy[0,14,48]
-   + 0.155884572681199 act_current_ev_dis[0,14,48]
-   - 0.155884572681199 act_current_ev_ch[0,14,48] = 0
- ev_energy.0.16.48: - energy[0,16,47] + energy[0,16,48]
-   + 0.155884572681199 act_current_ev_dis[0,16,48]
-   - 0.155884572681199 act_current_ev_ch[0,16,48] = 0
- ev_energy.0.17.48: - energy[0,17,47] + energy[0,17,48]
-   + 0.155884572681199 act_current_ev_dis[0,17,48]
-   - 0.155884572681199 act_current_ev_ch[0,17,48] = 0
- ev_energy.0.20.48: - energy[0,20,47] + energy[0,20,48]
-   + 0.155884572681199 act_current_ev_dis[0,20,48]
-   - 0.155884572681199 act_current_ev_ch[0,20,48] = 0
- ev_energy.0.24.48: - energy[0,24,47] + energy[0,24,48]
-   + 0.155884572681199 act_current_ev_dis[0,24,48]
-   - 0.155884572681199 act_current_ev_ch[0,24,48] = 0
- ev_energy.0.0.49: - energy[0,0,48] + energy[0,0,49]
-   + 0.155884572681199 act_current_ev_dis[0,0,49]
-   - 0.155884572681199 act_current_ev_ch[0,0,49] = 0
- ev_energy.0.1.49: - energy[0,1,48] + energy[0,1,49]
-   + 0.155884572681199 act_current_ev_dis[0,1,49]
-   - 0.155884572681199 act_current_ev_ch[0,1,49] = 0
- ev_energy.0.2.49: - energy[0,2,48] + energy[0,2,49]
-   + 0.155884572681199 act_current_ev_dis[0,2,49]
-   - 0.155884572681199 act_current_ev_ch[0,2,49] = 0
- ev_energy.0.4.49: - energy[0,4,48] + energy[0,4,49]
-   + 0.155884572681199 act_current_ev_dis[0,4,49]
-   - 0.155884572681199 act_current_ev_ch[0,4,49] = 0
- ev_energy.0.5.49: - energy[0,5,48] + energy[0,5,49]
-   + 0.155884572681199 act_current_ev_dis[0,5,49]
-   - 0.155884572681199 act_current_ev_ch[0,5,49] = 0
- ev_energy.0.7.49: - energy[0,7,48] + energy[0,7,49]
-   + 0.155884572681199 act_current_ev_dis[0,7,49]
-   - 0.155884572681199 act_current_ev_ch[0,7,49] = 0
- ev_energy.0.9.49: - energy[0,9,48] + energy[0,9,49]
-   + 0.155884572681199 act_current_ev_dis[0,9,49]
-   - 0.155884572681199 act_current_ev_ch[0,9,49] = 0
- ev_energy.0.11.49: - energy[0,11,48] + energy[0,11,49]
-   + 0.155884572681199 act_current_ev_dis[0,11,49]
-   - 0.155884572681199 act_current_ev_ch[0,11,49] = 0
- ev_energy.0.12.49: - energy[0,12,48] + energy[0,12,49]
-   + 0.155884572681199 act_current_ev_dis[0,12,49]
-   - 0.155884572681199 act_current_ev_ch[0,12,49] = 0
- ev_energy.0.13.49: - energy[0,13,48] + energy[0,13,49]
-   + 0.155884572681199 act_current_ev_dis[0,13,49]
-   - 0.155884572681199 act_current_ev_ch[0,13,49] = 0
- ev_energy.0.14.49: - energy[0,14,48] + energy[0,14,49]
-   + 0.155884572681199 act_current_ev_dis[0,14,49]
-   - 0.155884572681199 act_current_ev_ch[0,14,49] = 0
- ev_energy.0.16.49: - energy[0,16,48] + energy[0,16,49]
-   + 0.155884572681199 act_current_ev_dis[0,16,49]
-   - 0.155884572681199 act_current_ev_ch[0,16,49] = 0
- ev_energy.0.20.49: - energy[0,20,48] + energy[0,20,49]
-   + 0.155884572681199 act_current_ev_dis[0,20,49]
-   - 0.155884572681199 act_current_ev_ch[0,20,49] = 0
- ev_energy.0.24.49: - energy[0,24,48] + energy[0,24,49]
-   + 0.155884572681199 act_current_ev_dis[0,24,49]
-   - 0.155884572681199 act_current_ev_ch[0,24,49] = 0
- ev_energy.0.0.50: - energy[0,0,49] + energy[0,0,50]
-   + 0.155884572681199 act_current_ev_dis[0,0,50]
-   - 0.155884572681199 act_current_ev_ch[0,0,50] = 0
- ev_energy.0.1.50: - energy[0,1,49] + energy[0,1,50]
-   + 0.155884572681199 act_current_ev_dis[0,1,50]
-   - 0.155884572681199 act_current_ev_ch[0,1,50] = 0
- ev_energy.0.2.50: - energy[0,2,49] + energy[0,2,50]
-   + 0.155884572681199 act_current_ev_dis[0,2,50]
-   - 0.155884572681199 act_current_ev_ch[0,2,50] = 0
- ev_energy.0.5.50: - energy[0,5,49] + energy[0,5,50]
-   + 0.155884572681199 act_current_ev_dis[0,5,50]
-   - 0.155884572681199 act_current_ev_ch[0,5,50] = 0
- ev_energy.0.7.50: - energy[0,7,49] + energy[0,7,50]
-   + 0.155884572681199 act_current_ev_dis[0,7,50]
-   - 0.155884572681199 act_current_ev_ch[0,7,50] = 0
- ev_energy.0.9.50: - energy[0,9,49] + energy[0,9,50]
-   + 0.155884572681199 act_current_ev_dis[0,9,50]
-   - 0.155884572681199 act_current_ev_ch[0,9,50] = 0
- ev_energy.0.11.50: - energy[0,11,49] + energy[0,11,50]
-   + 0.155884572681199 act_current_ev_dis[0,11,50]
-   - 0.155884572681199 act_current_ev_ch[0,11,50] = 0
- ev_energy.0.12.50: - energy[0,12,49] + energy[0,12,50]
-   + 0.155884572681199 act_current_ev_dis[0,12,50]
-   - 0.155884572681199 act_current_ev_ch[0,12,50] = 0
- ev_energy.0.13.50: - energy[0,13,49] + energy[0,13,50]
-   + 0.155884572681199 act_current_ev_dis[0,13,50]
-   - 0.155884572681199 act_current_ev_ch[0,13,50] = 0
- ev_energy.0.14.50: - energy[0,14,49] + energy[0,14,50]
-   + 0.155884572681199 act_current_ev_dis[0,14,50]
-   - 0.155884572681199 act_current_ev_ch[0,14,50] = 0
- ev_energy.0.24.50: - energy[0,24,49] + energy[0,24,50]
-   + 0.155884572681199 act_current_ev_dis[0,24,50]
-   - 0.155884572681199 act_current_ev_ch[0,24,50] = 0
- ev_energy.0.0.51: - energy[0,0,50] + energy[0,0,51]
-   + 0.155884572681199 act_current_ev_dis[0,0,51]
-   - 0.155884572681199 act_current_ev_ch[0,0,51] = 0
- ev_energy.0.5.51: - energy[0,5,50] + energy[0,5,51]
-   + 0.155884572681199 act_current_ev_dis[0,5,51]
-   - 0.155884572681199 act_current_ev_ch[0,5,51] = 0
- ev_energy.0.7.51: - energy[0,7,50] + energy[0,7,51]
-   + 0.155884572681199 act_current_ev_dis[0,7,51]
-   - 0.155884572681199 act_current_ev_ch[0,7,51] = 0
- ev_energy.0.9.51: - energy[0,9,50] + energy[0,9,51]
-   + 0.155884572681199 act_current_ev_dis[0,9,51]
-   - 0.155884572681199 act_current_ev_ch[0,9,51] = 0
- ev_energy.0.11.51: - energy[0,11,50] + energy[0,11,51]
-   + 0.155884572681199 act_current_ev_dis[0,11,51]
-   - 0.155884572681199 act_current_ev_ch[0,11,51] = 0
- ev_energy.0.12.51: - energy[0,12,50] + energy[0,12,51]
-   + 0.155884572681199 act_current_ev_dis[0,12,51]
-   - 0.155884572681199 act_current_ev_ch[0,12,51] = 0
- ev_energy.0.13.51: - energy[0,13,50] + energy[0,13,51]
-   + 0.155884572681199 act_current_ev_dis[0,13,51]
-   - 0.155884572681199 act_current_ev_ch[0,13,51] = 0
- ev_energy.0.14.51: - energy[0,14,50] + energy[0,14,51]
-   + 0.155884572681199 act_current_ev_dis[0,14,51]
-   - 0.155884572681199 act_current_ev_ch[0,14,51] = 0
- ev_energy.0.24.51: - energy[0,24,50] + energy[0,24,51]
-   + 0.155884572681199 act_current_ev_dis[0,24,51]
-   - 0.155884572681199 act_current_ev_ch[0,24,51] = 0
- ev_energy.0.0.52: - energy[0,0,51] + energy[0,0,52]
-   + 0.155884572681199 act_current_ev_dis[0,0,52]
-   - 0.155884572681199 act_current_ev_ch[0,0,52] = 0
- ev_energy.0.5.52: - energy[0,5,51] + energy[0,5,52]
-   + 0.155884572681199 act_current_ev_dis[0,5,52]
-   - 0.155884572681199 act_current_ev_ch[0,5,52] = 0
- ev_arrival_energy.0.6.52: energy[0,6,52] = 26
- ev_energy.0.7.52: - energy[0,7,51] + energy[0,7,52]
-   + 0.155884572681199 act_current_ev_dis[0,7,52]
-   - 0.155884572681199 act_current_ev_ch[0,7,52] = 0
- ev_energy.0.9.52: - energy[0,9,51] + energy[0,9,52]
-   + 0.155884572681199 act_current_ev_dis[0,9,52]
-   - 0.155884572681199 act_current_ev_ch[0,9,52] = 0
- ev_energy.0.11.52: - energy[0,11,51] + energy[0,11,52]
-   + 0.155884572681199 act_current_ev_dis[0,11,52]
-   - 0.155884572681199 act_current_ev_ch[0,11,52] = 0
- ev_energy.0.12.52: - energy[0,12,51] + energy[0,12,52]
-   + 0.155884572681199 act_current_ev_dis[0,12,52]
-   - 0.155884572681199 act_current_ev_ch[0,12,52] = 0
- ev_energy.0.13.52: - energy[0,13,51] + energy[0,13,52]
-   + 0.155884572681199 act_current_ev_dis[0,13,52]
-   - 0.155884572681199 act_current_ev_ch[0,13,52] = 0
- ev_energy.0.14.52: - energy[0,14,51] + energy[0,14,52]
-   + 0.155884572681199 act_current_ev_dis[0,14,52]
-   - 0.155884572681199 act_current_ev_ch[0,14,52] = 0
- ev_energy.0.24.52: - energy[0,24,51] + energy[0,24,52]
-   + 0.155884572681199 act_current_ev_dis[0,24,52]
-   - 0.155884572681199 act_current_ev_ch[0,24,52] = 0
- ev_energy.0.0.53: - energy[0,0,52] + energy[0,0,53]
-   + 0.155884572681199 act_current_ev_dis[0,0,53]
-   - 0.155884572681199 act_current_ev_ch[0,0,53] = 0
- ev_energy.0.5.53: - energy[0,5,52] + energy[0,5,53]
-   + 0.155884572681199 act_current_ev_dis[0,5,53]
-   - 0.155884572681199 act_current_ev_ch[0,5,53] = 0
- ev_energy.0.6.53: - energy[0,6,52] + energy[0,6,53]
-   + 0.155884572681199 act_current_ev_dis[0,6,53]
-   - 0.155884572681199 act_current_ev_ch[0,6,53] = 0
- ev_energy.0.7.53: - energy[0,7,52] + energy[0,7,53]
-   + 0.155884572681199 act_current_ev_dis[0,7,53]
-   - 0.155884572681199 act_current_ev_ch[0,7,53] = 0
- ev_energy.0.9.53: - energy[0,9,52] + energy[0,9,53]
-   + 0.155884572681199 act_current_ev_dis[0,9,53]
-   - 0.155884572681199 act_current_ev_ch[0,9,53] = 0
- ev_energy.0.11.53: - energy[0,11,52] + energy[0,11,53]
-   + 0.155884572681199 act_current_ev_dis[0,11,53]
-   - 0.155884572681199 act_current_ev_ch[0,11,53] = 0
- ev_energy.0.12.53: - energy[0,12,52] + energy[0,12,53]
-   + 0.155884572681199 act_current_ev_dis[0,12,53]
-   - 0.155884572681199 act_current_ev_ch[0,12,53] = 0
- ev_energy.0.13.53: - energy[0,13,52] + energy[0,13,53]
-   + 0.155884572681199 act_current_ev_dis[0,13,53]
-   - 0.155884572681199 act_current_ev_ch[0,13,53] = 0
- ev_energy.0.14.53: - energy[0,14,52] + energy[0,14,53]
-   + 0.155884572681199 act_current_ev_dis[0,14,53]
-   - 0.155884572681199 act_current_ev_ch[0,14,53] = 0
- ev_energy.0.24.53: - energy[0,24,52] + energy[0,24,53]
-   + 0.155884572681199 act_current_ev_dis[0,24,53]
-   - 0.155884572681199 act_current_ev_ch[0,24,53] = 0
- ev_energy.0.5.54: - energy[0,5,53] + energy[0,5,54]
-   + 0.155884572681199 act_current_ev_dis[0,5,54]
-   - 0.155884572681199 act_current_ev_ch[0,5,54] = 0
- ev_energy.0.6.54: - energy[0,6,53] + energy[0,6,54]
-   + 0.155884572681199 act_current_ev_dis[0,6,54]
-   - 0.155884572681199 act_current_ev_ch[0,6,54] = 0
- ev_energy.0.7.54: - energy[0,7,53] + energy[0,7,54]
-   + 0.155884572681199 act_current_ev_dis[0,7,54]
-   - 0.155884572681199 act_current_ev_ch[0,7,54] = 0
- ev_energy.0.9.54: - energy[0,9,53] + energy[0,9,54]
-   + 0.155884572681199 act_current_ev_dis[0,9,54]
-   - 0.155884572681199 act_current_ev_ch[0,9,54] = 0
- ev_energy.0.12.54: - energy[0,12,53] + energy[0,12,54]
-   + 0.155884572681199 act_current_ev_dis[0,12,54]
-   - 0.155884572681199 act_current_ev_ch[0,12,54] = 0
- ev_energy.0.14.54: - energy[0,14,53] + energy[0,14,54]
-   + 0.155884572681199 act_current_ev_dis[0,14,54]
-   - 0.155884572681199 act_current_ev_ch[0,14,54] = 0
- ev_energy.0.24.54: - energy[0,24,53] + energy[0,24,54]
-   + 0.155884572681199 act_current_ev_dis[0,24,54]
-   - 0.155884572681199 act_current_ev_ch[0,24,54] = 0
- ev_energy.0.5.55: - energy[0,5,54] + energy[0,5,55]
-   + 0.155884572681199 act_current_ev_dis[0,5,55]
-   - 0.155884572681199 act_current_ev_ch[0,5,55] = 0
- ev_energy.0.6.55: - energy[0,6,54] + energy[0,6,55]
-   + 0.155884572681199 act_current_ev_dis[0,6,55]
-   - 0.155884572681199 act_current_ev_ch[0,6,55] = 0
- ev_energy.0.7.55: - energy[0,7,54] + energy[0,7,55]
-   + 0.155884572681199 act_current_ev_dis[0,7,55]
-   - 0.155884572681199 act_current_ev_ch[0,7,55] = 0
- ev_energy.0.9.55: - energy[0,9,54] + energy[0,9,55]
-   + 0.155884572681199 act_current_ev_dis[0,9,55]
-   - 0.155884572681199 act_current_ev_ch[0,9,55] = 0
- ev_energy.0.12.55: - energy[0,12,54] + energy[0,12,55]
-   + 0.155884572681199 act_current_ev_dis[0,12,55]
-   - 0.155884572681199 act_current_ev_ch[0,12,55] = 0
- ev_energy.0.14.55: - energy[0,14,54] + energy[0,14,55]
-   + 0.155884572681199 act_current_ev_dis[0,14,55]
-   - 0.155884572681199 act_current_ev_ch[0,14,55] = 0
- ev_energy.0.6.56: - energy[0,6,55] + energy[0,6,56]
-   + 0.155884572681199 act_current_ev_dis[0,6,56]
-   - 0.155884572681199 act_current_ev_ch[0,6,56] = 0
- ev_energy.0.7.56: - energy[0,7,55] + energy[0,7,56]
-   + 0.155884572681199 act_current_ev_dis[0,7,56]
-   - 0.155884572681199 act_current_ev_ch[0,7,56] = 0
- ev_energy.0.9.56: - energy[0,9,55] + energy[0,9,56]
-   + 0.155884572681199 act_current_ev_dis[0,9,56]
-   - 0.155884572681199 act_current_ev_ch[0,9,56] = 0
- ev_energy.0.14.56: - energy[0,14,55] + energy[0,14,56]
-   + 0.155884572681199 act_current_ev_dis[0,14,56]
-   - 0.155884572681199 act_current_ev_ch[0,14,56] = 0
- ev_energy.0.6.57: - energy[0,6,56] + energy[0,6,57]
-   + 0.155884572681199 act_current_ev_dis[0,6,57]
-   - 0.155884572681199 act_current_ev_ch[0,6,57] = 0
- ev_energy.0.7.57: - energy[0,7,56] + energy[0,7,57]
-   + 0.155884572681199 act_current_ev_dis[0,7,57]
-   - 0.155884572681199 act_current_ev_ch[0,7,57] = 0
- ev_energy.0.9.57: - energy[0,9,56] + energy[0,9,57]
-   + 0.155884572681199 act_current_ev_dis[0,9,57]
-   - 0.155884572681199 act_current_ev_ch[0,9,57] = 0
- ev_energy.0.14.57: - energy[0,14,56] + energy[0,14,57]
-   + 0.155884572681199 act_current_ev_dis[0,14,57]
-   - 0.155884572681199 act_current_ev_ch[0,14,57] = 0
- ev_energy.0.6.58: - energy[0,6,57] + energy[0,6,58]
-   + 0.155884572681199 act_current_ev_dis[0,6,58]
-   - 0.155884572681199 act_current_ev_ch[0,6,58] = 0
- ev_energy.0.7.58: - energy[0,7,57] + energy[0,7,58]
-   + 0.155884572681199 act_current_ev_dis[0,7,58]
-   - 0.155884572681199 act_current_ev_ch[0,7,58] = 0
- ev_energy.0.9.58: - energy[0,9,57] + energy[0,9,58]
-   + 0.155884572681199 act_current_ev_dis[0,9,58]
-   - 0.155884572681199 act_current_ev_ch[0,9,58] = 0
- ev_energy.0.14.58: - energy[0,14,57] + energy[0,14,58]
-   + 0.155884572681199 act_current_ev_dis[0,14,58]
-   - 0.155884572681199 act_current_ev_ch[0,14,58] = 0
- ev_energy.0.6.59: - energy[0,6,58] + energy[0,6,59]
-   + 0.155884572681199 act_current_ev_dis[0,6,59]
-   - 0.155884572681199 act_current_ev_ch[0,6,59] = 0
- ev_energy.0.7.59: - energy[0,7,58] + energy[0,7,59]
-   + 0.155884572681199 act_current_ev_dis[0,7,59]
-   - 0.155884572681199 act_current_ev_ch[0,7,59] = 0
- ev_energy.0.9.59: - energy[0,9,58] + energy[0,9,59]
-   + 0.155884572681199 act_current_ev_dis[0,9,59]
-   - 0.155884572681199 act_current_ev_ch[0,9,59] = 0
- ev_energy.0.14.59: - energy[0,14,58] + energy[0,14,59]
-   + 0.155884572681199 act_current_ev_dis[0,14,59]
-   - 0.155884572681199 act_current_ev_ch[0,14,59] = 0
- ev_energy.0.6.60: - energy[0,6,59] + energy[0,6,60]
-   + 0.155884572681199 act_current_ev_dis[0,6,60]
-   - 0.155884572681199 act_current_ev_ch[0,6,60] = 0
- ev_energy.0.7.60: - energy[0,7,59] + energy[0,7,60]
-   + 0.155884572681199 act_current_ev_dis[0,7,60]
-   - 0.155884572681199 act_current_ev_ch[0,7,60] = 0
- ev_energy.0.9.60: - energy[0,9,59] + energy[0,9,60]
-   + 0.155884572681199 act_current_ev_dis[0,9,60]
-   - 0.155884572681199 act_current_ev_ch[0,9,60] = 0
- ev_energy.0.14.60: - energy[0,14,59] + energy[0,14,60]
-   + 0.155884572681199 act_current_ev_dis[0,14,60]
-   - 0.155884572681199 act_current_ev_ch[0,14,60] = 0
- ev_energy.0.6.61: - energy[0,6,60] + energy[0,6,61]
-   + 0.155884572681199 act_current_ev_dis[0,6,61]
-   - 0.155884572681199 act_current_ev_ch[0,6,61] = 0
- ev_energy.0.7.61: - energy[0,7,60] + energy[0,7,61]
-   + 0.155884572681199 act_current_ev_dis[0,7,61]
-   - 0.155884572681199 act_current_ev_ch[0,7,61] = 0
- ev_energy.0.9.61: - energy[0,9,60] + energy[0,9,61]
-   + 0.155884572681199 act_current_ev_dis[0,9,61]
-   - 0.155884572681199 act_current_ev_ch[0,9,61] = 0
- ev_energy.0.6.62: - energy[0,6,61] + energy[0,6,62]
-   + 0.155884572681199 act_current_ev_dis[0,6,62]
-   - 0.155884572681199 act_current_ev_ch[0,6,62] = 0
- ev_energy.0.7.62: - energy[0,7,61] + energy[0,7,62]
-   + 0.155884572681199 act_current_ev_dis[0,7,62]
-   - 0.155884572681199 act_current_ev_ch[0,7,62] = 0
- ev_energy.0.6.63: - energy[0,6,62] + energy[0,6,63]
-   + 0.155884572681199 act_current_ev_dis[0,6,63]
-   - 0.155884572681199 act_current_ev_ch[0,6,63] = 0
- ev_energy.0.7.63: - energy[0,7,62] + energy[0,7,63]
-   + 0.155884572681199 act_current_ev_dis[0,7,63]
-   - 0.155884572681199 act_current_ev_ch[0,7,63] = 0
- ev_energy.0.6.64: - energy[0,6,63] + energy[0,6,64]
-   + 0.155884572681199 act_current_ev_dis[0,6,64]
-   - 0.155884572681199 act_current_ev_ch[0,6,64] = 0
- ev_energy.0.7.64: - energy[0,7,63] + energy[0,7,64]
-   + 0.155884572681199 act_current_ev_dis[0,7,64]
-   - 0.155884572681199 act_current_ev_ch[0,7,64] = 0
- ev_energy.0.6.65: - energy[0,6,64] + energy[0,6,65]
-   + 0.155884572681199 act_current_ev_dis[0,6,65]
-   - 0.155884572681199 act_current_ev_ch[0,6,65] = 0
- ev_energy.0.7.65: - energy[0,7,64] + energy[0,7,65]
-   + 0.155884572681199 act_current_ev_dis[0,7,65]
-   - 0.155884572681199 act_current_ev_ch[0,7,65] = 0
- ev_energy.0.6.66: - energy[0,6,65] + energy[0,6,66]
-   + 0.155884572681199 act_current_ev_dis[0,6,66]
-   - 0.155884572681199 act_current_ev_ch[0,6,66] = 0
- ev_energy.0.7.66: - energy[0,7,65] + energy[0,7,66]
-   + 0.155884572681199 act_current_ev_dis[0,7,66]
-   - 0.155884572681199 act_current_ev_ch[0,7,66] = 0
- ev_energy.0.7.67: - energy[0,7,66] + energy[0,7,67]
-   + 0.155884572681199 act_current_ev_dis[0,7,67]
-   - 0.155884572681199 act_current_ev_ch[0,7,67] = 0
-=======
- ev_arrival_energy.0.6.5: energy[0,6,5] = 42
- ev_arrival_energy.0.13.5: energy[0,13,5] = 15
- ev_arrival_energy.0.0.6: energy[0,0,6] = 15
- ev_arrival_energy.0.4.6: energy[0,4,6] = 15
- ev_arrival_energy.0.5.6: energy[0,5,6] = 17
+ ev_arrival_energy.0.8.4: energy[0,8,4] = 35
+ ev_arrival_energy.0.0.5: energy[0,0,5] = 39
+ ev_arrival_energy.0.5.5: energy[0,5,5] = 33
+ ev_arrival_energy.0.6.5: energy[0,6,5] = 15
+ ev_energy.0.8.5: - energy[0,8,4] + energy[0,8,5]
+   + 0.6235382907247958 act_current_ev_dis[0,8,5]
+   - 0.6235382907247958 act_current_ev_ch[0,8,5] = 0
+ ev_arrival_energy.0.22.5: energy[0,22,5] = 36
+ ev_energy.0.0.6: - energy[0,0,5] + energy[0,0,6]
+   + 0.6235382907247958 act_current_ev_dis[0,0,6]
+   - 0.6235382907247958 act_current_ev_ch[0,0,6] = 0
+ ev_arrival_energy.0.1.6: energy[0,1,6] = 21
+ ev_arrival_energy.0.2.6: energy[0,2,6] = 15
+ ev_energy.0.5.6: - energy[0,5,5] + energy[0,5,6]
+   + 0.6235382907247958 act_current_ev_dis[0,5,6]
+   - 0.6235382907247958 act_current_ev_ch[0,5,6] = 0
  ev_energy.0.6.6: - energy[0,6,5] + energy[0,6,6]
    + 0.6235382907247958 act_current_ev_dis[0,6,6]
    - 0.6235382907247958 act_current_ev_ch[0,6,6] = 0
- ev_arrival_energy.0.7.6: energy[0,7,6] = 41
- ev_arrival_energy.0.8.6: energy[0,8,6] = 33
- ev_arrival_energy.0.11.6: energy[0,11,6] = 42
- ev_arrival_energy.0.12.6: energy[0,12,6] = 15
- ev_energy.0.13.6: - energy[0,13,5] + energy[0,13,6]
-   + 0.6235382907247958 act_current_ev_dis[0,13,6]
-   - 0.6235382907247958 act_current_ev_ch[0,13,6] = 0
- ev_arrival_energy.0.16.6: energy[0,16,6] = 15
+ ev_energy.0.8.6: - energy[0,8,5] + energy[0,8,6]
+   + 0.6235382907247958 act_current_ev_dis[0,8,6]
+   - 0.6235382907247958 act_current_ev_ch[0,8,6] = 0
+ ev_arrival_energy.0.11.6: energy[0,11,6] = 54
+ ev_arrival_energy.0.12.6: energy[0,12,6] = 20
+ ev_arrival_energy.0.14.6: energy[0,14,6] = 44
+ ev_arrival_energy.0.15.6: energy[0,15,6] = 56
+ ev_energy.0.22.6: - energy[0,22,5] + energy[0,22,6]
+   + 0.6235382907247958 act_current_ev_dis[0,22,6]
+   - 0.6235382907247958 act_current_ev_ch[0,22,6] = 0
  ev_energy.0.0.7: - energy[0,0,6] + energy[0,0,7]
    + 0.6235382907247958 act_current_ev_dis[0,0,7]
    - 0.6235382907247958 act_current_ev_ch[0,0,7] = 0
- ev_arrival_energy.0.2.7: energy[0,2,7] = 15
- ev_energy.0.4.7: - energy[0,4,6] + energy[0,4,7]
-   + 0.6235382907247958 act_current_ev_dis[0,4,7]
-   - 0.6235382907247958 act_current_ev_ch[0,4,7] = 0
+ ev_energy.0.1.7: - energy[0,1,6] + energy[0,1,7]
+   + 0.6235382907247958 act_current_ev_dis[0,1,7]
+   - 0.6235382907247958 act_current_ev_ch[0,1,7] = 0
+ ev_energy.0.2.7: - energy[0,2,6] + energy[0,2,7]
+   + 0.6235382907247958 act_current_ev_dis[0,2,7]
+   - 0.6235382907247958 act_current_ev_ch[0,2,7] = 0
  ev_energy.0.5.7: - energy[0,5,6] + energy[0,5,7]
    + 0.6235382907247958 act_current_ev_dis[0,5,7]
    - 0.6235382907247958 act_current_ev_ch[0,5,7] = 0
  ev_energy.0.6.7: - energy[0,6,6] + energy[0,6,7]
    + 0.6235382907247958 act_current_ev_dis[0,6,7]
    - 0.6235382907247958 act_current_ev_ch[0,6,7] = 0
- ev_energy.0.7.7: - energy[0,7,6] + energy[0,7,7]
-   + 0.6235382907247958 act_current_ev_dis[0,7,7]
-   - 0.6235382907247958 act_current_ev_ch[0,7,7] = 0
  ev_energy.0.8.7: - energy[0,8,6] + energy[0,8,7]
    + 0.6235382907247958 act_current_ev_dis[0,8,7]
    - 0.6235382907247958 act_current_ev_ch[0,8,7] = 0
- ev_arrival_energy.0.9.7: energy[0,9,7] = 53
- ev_arrival_energy.0.10.7: energy[0,10,7] = 29
+ ev_arrival_energy.0.10.7: energy[0,10,7] = 15
  ev_energy.0.11.7: - energy[0,11,6] + energy[0,11,7]
    + 0.6235382907247958 act_current_ev_dis[0,11,7]
    - 0.6235382907247958 act_current_ev_ch[0,11,7] = 0
  ev_energy.0.12.7: - energy[0,12,6] + energy[0,12,7]
    + 0.6235382907247958 act_current_ev_dis[0,12,7]
    - 0.6235382907247958 act_current_ev_ch[0,12,7] = 0
- ev_energy.0.13.7: - energy[0,13,6] + energy[0,13,7]
-   + 0.6235382907247958 act_current_ev_dis[0,13,7]
-   - 0.6235382907247958 act_current_ev_ch[0,13,7] = 0
- ev_arrival_energy.0.14.7: energy[0,14,7] = 15
- ev_energy.0.16.7: - energy[0,16,6] + energy[0,16,7]
-   + 0.6235382907247958 act_current_ev_dis[0,16,7]
-   - 0.6235382907247958 act_current_ev_ch[0,16,7] = 0
- ev_arrival_energy.0.19.7: energy[0,19,7] = 23
- ev_arrival_energy.0.24.7: energy[0,24,7] = 24
+ ev_energy.0.14.7: - energy[0,14,6] + energy[0,14,7]
+   + 0.6235382907247958 act_current_ev_dis[0,14,7]
+   - 0.6235382907247958 act_current_ev_ch[0,14,7] = 0
+ ev_energy.0.15.7: - energy[0,15,6] + energy[0,15,7]
+   + 0.6235382907247958 act_current_ev_dis[0,15,7]
+   - 0.6235382907247958 act_current_ev_ch[0,15,7] = 0
+ ev_arrival_energy.0.16.7: energy[0,16,7] = 24
+ ev_energy.0.22.7: - energy[0,22,6] + energy[0,22,7]
+   + 0.6235382907247958 act_current_ev_dis[0,22,7]
+   - 0.6235382907247958 act_current_ev_ch[0,22,7] = 0
+ ev_arrival_energy.0.23.7: energy[0,23,7] = 50
  ev_energy.0.0.8: - energy[0,0,7] + energy[0,0,8]
    + 0.6235382907247958 act_current_ev_dis[0,0,8]
    - 0.6235382907247958 act_current_ev_ch[0,0,8] = 0
+ ev_energy.0.1.8: - energy[0,1,7] + energy[0,1,8]
+   + 0.6235382907247958 act_current_ev_dis[0,1,8]
+   - 0.6235382907247958 act_current_ev_ch[0,1,8] = 0
  ev_energy.0.2.8: - energy[0,2,7] + energy[0,2,8]
    + 0.6235382907247958 act_current_ev_dis[0,2,8]
    - 0.6235382907247958 act_current_ev_ch[0,2,8] = 0
- ev_energy.0.4.8: - energy[0,4,7] + energy[0,4,8]
-   + 0.6235382907247958 act_current_ev_dis[0,4,8]
-   - 0.6235382907247958 act_current_ev_ch[0,4,8] = 0
+ ev_arrival_energy.0.4.8: energy[0,4,8] = 22
  ev_energy.0.5.8: - energy[0,5,7] + energy[0,5,8]
    + 0.6235382907247958 act_current_ev_dis[0,5,8]
    - 0.6235382907247958 act_current_ev_ch[0,5,8] = 0
  ev_energy.0.6.8: - energy[0,6,7] + energy[0,6,8]
    + 0.6235382907247958 act_current_ev_dis[0,6,8]
    - 0.6235382907247958 act_current_ev_ch[0,6,8] = 0
- ev_energy.0.7.8: - energy[0,7,7] + energy[0,7,8]
-   + 0.6235382907247958 act_current_ev_dis[0,7,8]
-   - 0.6235382907247958 act_current_ev_ch[0,7,8] = 0
  ev_energy.0.8.8: - energy[0,8,7] + energy[0,8,8]
    + 0.6235382907247958 act_current_ev_dis[0,8,8]
    - 0.6235382907247958 act_current_ev_ch[0,8,8] = 0
- ev_energy.0.9.8: - energy[0,9,7] + energy[0,9,8]
-   + 0.6235382907247958 act_current_ev_dis[0,9,8]
-   - 0.6235382907247958 act_current_ev_ch[0,9,8] = 0
+ ev_arrival_energy.0.9.8: energy[0,9,8] = 53
  ev_energy.0.10.8: - energy[0,10,7] + energy[0,10,8]
    + 0.6235382907247958 act_current_ev_dis[0,10,8]
    - 0.6235382907247958 act_current_ev_ch[0,10,8] = 0
@@ -22680,25 +11914,29 @@ Subject To
  ev_energy.0.12.8: - energy[0,12,7] + energy[0,12,8]
    + 0.6235382907247958 act_current_ev_dis[0,12,8]
    - 0.6235382907247958 act_current_ev_ch[0,12,8] = 0
- ev_energy.0.13.8: - energy[0,13,7] + energy[0,13,8]
-   + 0.6235382907247958 act_current_ev_dis[0,13,8]
-   - 0.6235382907247958 act_current_ev_ch[0,13,8] = 0
  ev_energy.0.14.8: - energy[0,14,7] + energy[0,14,8]
    + 0.6235382907247958 act_current_ev_dis[0,14,8]
    - 0.6235382907247958 act_current_ev_ch[0,14,8] = 0
+ ev_energy.0.15.8: - energy[0,15,7] + energy[0,15,8]
+   + 0.6235382907247958 act_current_ev_dis[0,15,8]
+   - 0.6235382907247958 act_current_ev_ch[0,15,8] = 0
  ev_energy.0.16.8: - energy[0,16,7] + energy[0,16,8]
    + 0.6235382907247958 act_current_ev_dis[0,16,8]
    - 0.6235382907247958 act_current_ev_ch[0,16,8] = 0
- ev_arrival_energy.0.17.8: energy[0,17,8] = 15
- ev_energy.0.19.8: - energy[0,19,7] + energy[0,19,8]
-   + 0.6235382907247958 act_current_ev_dis[0,19,8]
-   - 0.6235382907247958 act_current_ev_ch[0,19,8] = 0
- ev_energy.0.24.8: - energy[0,24,7] + energy[0,24,8]
-   + 0.6235382907247958 act_current_ev_dis[0,24,8]
-   - 0.6235382907247958 act_current_ev_ch[0,24,8] = 0
+ ev_arrival_energy.0.21.8: energy[0,21,8] = 43
+ ev_energy.0.22.8: - energy[0,22,7] + energy[0,22,8]
+   + 0.6235382907247958 act_current_ev_dis[0,22,8]
+   - 0.6235382907247958 act_current_ev_ch[0,22,8] = 0
+ ev_energy.0.23.8: - energy[0,23,7] + energy[0,23,8]
+   + 0.6235382907247958 act_current_ev_dis[0,23,8]
+   - 0.6235382907247958 act_current_ev_ch[0,23,8] = 0
+ ev_arrival_energy.0.24.8: energy[0,24,8] = 54
  ev_energy.0.0.9: - energy[0,0,8] + energy[0,0,9]
    + 0.6235382907247958 act_current_ev_dis[0,0,9]
    - 0.6235382907247958 act_current_ev_ch[0,0,9] = 0
+ ev_energy.0.1.9: - energy[0,1,8] + energy[0,1,9]
+   + 0.6235382907247958 act_current_ev_dis[0,1,9]
+   - 0.6235382907247958 act_current_ev_ch[0,1,9] = 0
  ev_energy.0.2.9: - energy[0,2,8] + energy[0,2,9]
    + 0.6235382907247958 act_current_ev_dis[0,2,9]
    - 0.6235382907247958 act_current_ev_ch[0,2,9] = 0
@@ -22711,9 +11949,6 @@ Subject To
  ev_energy.0.6.9: - energy[0,6,8] + energy[0,6,9]
    + 0.6235382907247958 act_current_ev_dis[0,6,9]
    - 0.6235382907247958 act_current_ev_ch[0,6,9] = 0
- ev_energy.0.7.9: - energy[0,7,8] + energy[0,7,9]
-   + 0.6235382907247958 act_current_ev_dis[0,7,9]
-   - 0.6235382907247958 act_current_ev_ch[0,7,9] = 0
  ev_energy.0.8.9: - energy[0,8,8] + energy[0,8,9]
    + 0.6235382907247958 act_current_ev_dis[0,8,9]
    - 0.6235382907247958 act_current_ev_ch[0,8,9] = 0
@@ -22729,28 +11964,33 @@ Subject To
  ev_energy.0.12.9: - energy[0,12,8] + energy[0,12,9]
    + 0.6235382907247958 act_current_ev_dis[0,12,9]
    - 0.6235382907247958 act_current_ev_ch[0,12,9] = 0
- ev_energy.0.13.9: - energy[0,13,8] + energy[0,13,9]
-   + 0.6235382907247958 act_current_ev_dis[0,13,9]
-   - 0.6235382907247958 act_current_ev_ch[0,13,9] = 0
  ev_energy.0.14.9: - energy[0,14,8] + energy[0,14,9]
    + 0.6235382907247958 act_current_ev_dis[0,14,9]
    - 0.6235382907247958 act_current_ev_ch[0,14,9] = 0
+ ev_energy.0.15.9: - energy[0,15,8] + energy[0,15,9]
+   + 0.6235382907247958 act_current_ev_dis[0,15,9]
+   - 0.6235382907247958 act_current_ev_ch[0,15,9] = 0
  ev_energy.0.16.9: - energy[0,16,8] + energy[0,16,9]
    + 0.6235382907247958 act_current_ev_dis[0,16,9]
    - 0.6235382907247958 act_current_ev_ch[0,16,9] = 0
- ev_energy.0.17.9: - energy[0,17,8] + energy[0,17,9]
-   + 0.6235382907247958 act_current_ev_dis[0,17,9]
-   - 0.6235382907247958 act_current_ev_ch[0,17,9] = 0
- ev_energy.0.19.9: - energy[0,19,8] + energy[0,19,9]
-   + 0.6235382907247958 act_current_ev_dis[0,19,9]
-   - 0.6235382907247958 act_current_ev_ch[0,19,9] = 0
- ev_arrival_energy.0.20.9: energy[0,20,9] = 26
+ ev_energy.0.21.9: - energy[0,21,8] + energy[0,21,9]
+   + 0.6235382907247958 act_current_ev_dis[0,21,9]
+   - 0.6235382907247958 act_current_ev_ch[0,21,9] = 0
+ ev_energy.0.22.9: - energy[0,22,8] + energy[0,22,9]
+   + 0.6235382907247958 act_current_ev_dis[0,22,9]
+   - 0.6235382907247958 act_current_ev_ch[0,22,9] = 0
+ ev_energy.0.23.9: - energy[0,23,8] + energy[0,23,9]
+   + 0.6235382907247958 act_current_ev_dis[0,23,9]
+   - 0.6235382907247958 act_current_ev_ch[0,23,9] = 0
  ev_energy.0.24.9: - energy[0,24,8] + energy[0,24,9]
    + 0.6235382907247958 act_current_ev_dis[0,24,9]
    - 0.6235382907247958 act_current_ev_ch[0,24,9] = 0
  ev_energy.0.0.10: - energy[0,0,9] + energy[0,0,10]
    + 0.6235382907247958 act_current_ev_dis[0,0,10]
    - 0.6235382907247958 act_current_ev_ch[0,0,10] = 0
+ ev_energy.0.1.10: - energy[0,1,9] + energy[0,1,10]
+   + 0.6235382907247958 act_current_ev_dis[0,1,10]
+   - 0.6235382907247958 act_current_ev_ch[0,1,10] = 0
  ev_energy.0.2.10: - energy[0,2,9] + energy[0,2,10]
    + 0.6235382907247958 act_current_ev_dis[0,2,10]
    - 0.6235382907247958 act_current_ev_ch[0,2,10] = 0
@@ -22763,9 +12003,6 @@ Subject To
  ev_energy.0.6.10: - energy[0,6,9] + energy[0,6,10]
    + 0.6235382907247958 act_current_ev_dis[0,6,10]
    - 0.6235382907247958 act_current_ev_ch[0,6,10] = 0
- ev_energy.0.7.10: - energy[0,7,9] + energy[0,7,10]
-   + 0.6235382907247958 act_current_ev_dis[0,7,10]
-   - 0.6235382907247958 act_current_ev_ch[0,7,10] = 0
  ev_energy.0.8.10: - energy[0,8,9] + energy[0,8,10]
    + 0.6235382907247958 act_current_ev_dis[0,8,10]
    - 0.6235382907247958 act_current_ev_ch[0,8,10] = 0
@@ -22781,31 +12018,35 @@ Subject To
  ev_energy.0.12.10: - energy[0,12,9] + energy[0,12,10]
    + 0.6235382907247958 act_current_ev_dis[0,12,10]
    - 0.6235382907247958 act_current_ev_ch[0,12,10] = 0
- ev_energy.0.13.10: - energy[0,13,9] + energy[0,13,10]
-   + 0.6235382907247958 act_current_ev_dis[0,13,10]
-   - 0.6235382907247958 act_current_ev_ch[0,13,10] = 0
  ev_energy.0.14.10: - energy[0,14,9] + energy[0,14,10]
    + 0.6235382907247958 act_current_ev_dis[0,14,10]
    - 0.6235382907247958 act_current_ev_ch[0,14,10] = 0
+ ev_energy.0.15.10: - energy[0,15,9] + energy[0,15,10]
+   + 0.6235382907247958 act_current_ev_dis[0,15,10]
+   - 0.6235382907247958 act_current_ev_ch[0,15,10] = 0
  ev_energy.0.16.10: - energy[0,16,9] + energy[0,16,10]
    + 0.6235382907247958 act_current_ev_dis[0,16,10]
    - 0.6235382907247958 act_current_ev_ch[0,16,10] = 0
- ev_energy.0.17.10: - energy[0,17,9] + energy[0,17,10]
-   + 0.6235382907247958 act_current_ev_dis[0,17,10]
-   - 0.6235382907247958 act_current_ev_ch[0,17,10] = 0
- ev_energy.0.19.10: - energy[0,19,9] + energy[0,19,10]
-   + 0.6235382907247958 act_current_ev_dis[0,19,10]
-   - 0.6235382907247958 act_current_ev_ch[0,19,10] = 0
- ev_energy.0.20.10: - energy[0,20,9] + energy[0,20,10]
-   + 0.6235382907247958 act_current_ev_dis[0,20,10]
-   - 0.6235382907247958 act_current_ev_ch[0,20,10] = 0
- ev_arrival_energy.0.21.10: energy[0,21,10] = 31
+ ev_arrival_energy.0.19.10: energy[0,19,10] = 27
+ ev_arrival_energy.0.20.10: energy[0,20,10] = 53
+ ev_energy.0.21.10: - energy[0,21,9] + energy[0,21,10]
+   + 0.6235382907247958 act_current_ev_dis[0,21,10]
+   - 0.6235382907247958 act_current_ev_ch[0,21,10] = 0
+ ev_energy.0.22.10: - energy[0,22,9] + energy[0,22,10]
+   + 0.6235382907247958 act_current_ev_dis[0,22,10]
+   - 0.6235382907247958 act_current_ev_ch[0,22,10] = 0
+ ev_energy.0.23.10: - energy[0,23,9] + energy[0,23,10]
+   + 0.6235382907247958 act_current_ev_dis[0,23,10]
+   - 0.6235382907247958 act_current_ev_ch[0,23,10] = 0
  ev_energy.0.24.10: - energy[0,24,9] + energy[0,24,10]
    + 0.6235382907247958 act_current_ev_dis[0,24,10]
    - 0.6235382907247958 act_current_ev_ch[0,24,10] = 0
  ev_energy.0.0.11: - energy[0,0,10] + energy[0,0,11]
    + 0.6235382907247958 act_current_ev_dis[0,0,11]
    - 0.6235382907247958 act_current_ev_ch[0,0,11] = 0
+ ev_energy.0.1.11: - energy[0,1,10] + energy[0,1,11]
+   + 0.6235382907247958 act_current_ev_dis[0,1,11]
+   - 0.6235382907247958 act_current_ev_ch[0,1,11] = 0
  ev_energy.0.2.11: - energy[0,2,10] + energy[0,2,11]
    + 0.6235382907247958 act_current_ev_dis[0,2,11]
    - 0.6235382907247958 act_current_ev_ch[0,2,11] = 0
@@ -22818,9 +12059,6 @@ Subject To
  ev_energy.0.6.11: - energy[0,6,10] + energy[0,6,11]
    + 0.6235382907247958 act_current_ev_dis[0,6,11]
    - 0.6235382907247958 act_current_ev_ch[0,6,11] = 0
- ev_energy.0.7.11: - energy[0,7,10] + energy[0,7,11]
-   + 0.6235382907247958 act_current_ev_dis[0,7,11]
-   - 0.6235382907247958 act_current_ev_ch[0,7,11] = 0
  ev_energy.0.8.11: - energy[0,8,10] + energy[0,8,11]
    + 0.6235382907247958 act_current_ev_dis[0,8,11]
    - 0.6235382907247958 act_current_ev_ch[0,8,11] = 0
@@ -22836,18 +12074,15 @@ Subject To
  ev_energy.0.12.11: - energy[0,12,10] + energy[0,12,11]
    + 0.6235382907247958 act_current_ev_dis[0,12,11]
    - 0.6235382907247958 act_current_ev_ch[0,12,11] = 0
- ev_energy.0.13.11: - energy[0,13,10] + energy[0,13,11]
-   + 0.6235382907247958 act_current_ev_dis[0,13,11]
-   - 0.6235382907247958 act_current_ev_ch[0,13,11] = 0
  ev_energy.0.14.11: - energy[0,14,10] + energy[0,14,11]
    + 0.6235382907247958 act_current_ev_dis[0,14,11]
    - 0.6235382907247958 act_current_ev_ch[0,14,11] = 0
+ ev_energy.0.15.11: - energy[0,15,10] + energy[0,15,11]
+   + 0.6235382907247958 act_current_ev_dis[0,15,11]
+   - 0.6235382907247958 act_current_ev_ch[0,15,11] = 0
  ev_energy.0.16.11: - energy[0,16,10] + energy[0,16,11]
    + 0.6235382907247958 act_current_ev_dis[0,16,11]
    - 0.6235382907247958 act_current_ev_ch[0,16,11] = 0
- ev_energy.0.17.11: - energy[0,17,10] + energy[0,17,11]
-   + 0.6235382907247958 act_current_ev_dis[0,17,11]
-   - 0.6235382907247958 act_current_ev_ch[0,17,11] = 0
  ev_energy.0.19.11: - energy[0,19,10] + energy[0,19,11]
    + 0.6235382907247958 act_current_ev_dis[0,19,11]
    - 0.6235382907247958 act_current_ev_ch[0,19,11] = 0
@@ -22857,17 +12092,24 @@ Subject To
  ev_energy.0.21.11: - energy[0,21,10] + energy[0,21,11]
    + 0.6235382907247958 act_current_ev_dis[0,21,11]
    - 0.6235382907247958 act_current_ev_ch[0,21,11] = 0
- ev_arrival_energy.0.23.11: energy[0,23,11] = 30
+ ev_energy.0.22.11: - energy[0,22,10] + energy[0,22,11]
+   + 0.6235382907247958 act_current_ev_dis[0,22,11]
+   - 0.6235382907247958 act_current_ev_ch[0,22,11] = 0
+ ev_energy.0.23.11: - energy[0,23,10] + energy[0,23,11]
+   + 0.6235382907247958 act_current_ev_dis[0,23,11]
+   - 0.6235382907247958 act_current_ev_ch[0,23,11] = 0
  ev_energy.0.24.11: - energy[0,24,10] + energy[0,24,11]
    + 0.6235382907247958 act_current_ev_dis[0,24,11]
    - 0.6235382907247958 act_current_ev_ch[0,24,11] = 0
  ev_energy.0.0.12: - energy[0,0,11] + energy[0,0,12]
    + 0.6235382907247958 act_current_ev_dis[0,0,12]
    - 0.6235382907247958 act_current_ev_ch[0,0,12] = 0
+ ev_energy.0.1.12: - energy[0,1,11] + energy[0,1,12]
+   + 0.6235382907247958 act_current_ev_dis[0,1,12]
+   - 0.6235382907247958 act_current_ev_ch[0,1,12] = 0
  ev_energy.0.2.12: - energy[0,2,11] + energy[0,2,12]
    + 0.6235382907247958 act_current_ev_dis[0,2,12]
    - 0.6235382907247958 act_current_ev_ch[0,2,12] = 0
- ev_arrival_energy.0.3.12: energy[0,3,12] = 20
  ev_energy.0.4.12: - energy[0,4,11] + energy[0,4,12]
    + 0.6235382907247958 act_current_ev_dis[0,4,12]
    - 0.6235382907247958 act_current_ev_ch[0,4,12] = 0
@@ -22877,9 +12119,6 @@ Subject To
  ev_energy.0.6.12: - energy[0,6,11] + energy[0,6,12]
    + 0.6235382907247958 act_current_ev_dis[0,6,12]
    - 0.6235382907247958 act_current_ev_ch[0,6,12] = 0
- ev_energy.0.7.12: - energy[0,7,11] + energy[0,7,12]
-   + 0.6235382907247958 act_current_ev_dis[0,7,12]
-   - 0.6235382907247958 act_current_ev_ch[0,7,12] = 0
  ev_energy.0.8.12: - energy[0,8,11] + energy[0,8,12]
    + 0.6235382907247958 act_current_ev_dis[0,8,12]
    - 0.6235382907247958 act_current_ev_ch[0,8,12] = 0
@@ -22895,18 +12134,15 @@ Subject To
  ev_energy.0.12.12: - energy[0,12,11] + energy[0,12,12]
    + 0.6235382907247958 act_current_ev_dis[0,12,12]
    - 0.6235382907247958 act_current_ev_ch[0,12,12] = 0
- ev_energy.0.13.12: - energy[0,13,11] + energy[0,13,12]
-   + 0.6235382907247958 act_current_ev_dis[0,13,12]
-   - 0.6235382907247958 act_current_ev_ch[0,13,12] = 0
  ev_energy.0.14.12: - energy[0,14,11] + energy[0,14,12]
    + 0.6235382907247958 act_current_ev_dis[0,14,12]
    - 0.6235382907247958 act_current_ev_ch[0,14,12] = 0
+ ev_energy.0.15.12: - energy[0,15,11] + energy[0,15,12]
+   + 0.6235382907247958 act_current_ev_dis[0,15,12]
+   - 0.6235382907247958 act_current_ev_ch[0,15,12] = 0
  ev_energy.0.16.12: - energy[0,16,11] + energy[0,16,12]
    + 0.6235382907247958 act_current_ev_dis[0,16,12]
    - 0.6235382907247958 act_current_ev_ch[0,16,12] = 0
- ev_energy.0.17.12: - energy[0,17,11] + energy[0,17,12]
-   + 0.6235382907247958 act_current_ev_dis[0,17,12]
-   - 0.6235382907247958 act_current_ev_ch[0,17,12] = 0
  ev_energy.0.19.12: - energy[0,19,11] + energy[0,19,12]
    + 0.6235382907247958 act_current_ev_dis[0,19,12]
    - 0.6235382907247958 act_current_ev_ch[0,19,12] = 0
@@ -22916,6 +12152,9 @@ Subject To
  ev_energy.0.21.12: - energy[0,21,11] + energy[0,21,12]
    + 0.6235382907247958 act_current_ev_dis[0,21,12]
    - 0.6235382907247958 act_current_ev_ch[0,21,12] = 0
+ ev_energy.0.22.12: - energy[0,22,11] + energy[0,22,12]
+   + 0.6235382907247958 act_current_ev_dis[0,22,12]
+   - 0.6235382907247958 act_current_ev_ch[0,22,12] = 0
  ev_energy.0.23.12: - energy[0,23,11] + energy[0,23,12]
    + 0.6235382907247958 act_current_ev_dis[0,23,12]
    - 0.6235382907247958 act_current_ev_ch[0,23,12] = 0
@@ -22925,12 +12164,12 @@ Subject To
  ev_energy.0.0.13: - energy[0,0,12] + energy[0,0,13]
    + 0.6235382907247958 act_current_ev_dis[0,0,13]
    - 0.6235382907247958 act_current_ev_ch[0,0,13] = 0
+ ev_energy.0.1.13: - energy[0,1,12] + energy[0,1,13]
+   + 0.6235382907247958 act_current_ev_dis[0,1,13]
+   - 0.6235382907247958 act_current_ev_ch[0,1,13] = 0
  ev_energy.0.2.13: - energy[0,2,12] + energy[0,2,13]
    + 0.6235382907247958 act_current_ev_dis[0,2,13]
    - 0.6235382907247958 act_current_ev_ch[0,2,13] = 0
- ev_energy.0.3.13: - energy[0,3,12] + energy[0,3,13]
-   + 0.6235382907247958 act_current_ev_dis[0,3,13]
-   - 0.6235382907247958 act_current_ev_ch[0,3,13] = 0
  ev_energy.0.4.13: - energy[0,4,12] + energy[0,4,13]
    + 0.6235382907247958 act_current_ev_dis[0,4,13]
    - 0.6235382907247958 act_current_ev_ch[0,4,13] = 0
@@ -22940,9 +12179,6 @@ Subject To
  ev_energy.0.6.13: - energy[0,6,12] + energy[0,6,13]
    + 0.6235382907247958 act_current_ev_dis[0,6,13]
    - 0.6235382907247958 act_current_ev_ch[0,6,13] = 0
- ev_energy.0.7.13: - energy[0,7,12] + energy[0,7,13]
-   + 0.6235382907247958 act_current_ev_dis[0,7,13]
-   - 0.6235382907247958 act_current_ev_ch[0,7,13] = 0
  ev_energy.0.8.13: - energy[0,8,12] + energy[0,8,13]
    + 0.6235382907247958 act_current_ev_dis[0,8,13]
    - 0.6235382907247958 act_current_ev_ch[0,8,13] = 0
@@ -22958,18 +12194,15 @@ Subject To
  ev_energy.0.12.13: - energy[0,12,12] + energy[0,12,13]
    + 0.6235382907247958 act_current_ev_dis[0,12,13]
    - 0.6235382907247958 act_current_ev_ch[0,12,13] = 0
- ev_energy.0.13.13: - energy[0,13,12] + energy[0,13,13]
-   + 0.6235382907247958 act_current_ev_dis[0,13,13]
-   - 0.6235382907247958 act_current_ev_ch[0,13,13] = 0
  ev_energy.0.14.13: - energy[0,14,12] + energy[0,14,13]
    + 0.6235382907247958 act_current_ev_dis[0,14,13]
    - 0.6235382907247958 act_current_ev_ch[0,14,13] = 0
+ ev_energy.0.15.13: - energy[0,15,12] + energy[0,15,13]
+   + 0.6235382907247958 act_current_ev_dis[0,15,13]
+   - 0.6235382907247958 act_current_ev_ch[0,15,13] = 0
  ev_energy.0.16.13: - energy[0,16,12] + energy[0,16,13]
    + 0.6235382907247958 act_current_ev_dis[0,16,13]
    - 0.6235382907247958 act_current_ev_ch[0,16,13] = 0
- ev_energy.0.17.13: - energy[0,17,12] + energy[0,17,13]
-   + 0.6235382907247958 act_current_ev_dis[0,17,13]
-   - 0.6235382907247958 act_current_ev_ch[0,17,13] = 0
  ev_energy.0.19.13: - energy[0,19,12] + energy[0,19,13]
    + 0.6235382907247958 act_current_ev_dis[0,19,13]
    - 0.6235382907247958 act_current_ev_ch[0,19,13] = 0
@@ -22979,6 +12212,9 @@ Subject To
  ev_energy.0.21.13: - energy[0,21,12] + energy[0,21,13]
    + 0.6235382907247958 act_current_ev_dis[0,21,13]
    - 0.6235382907247958 act_current_ev_ch[0,21,13] = 0
+ ev_energy.0.22.13: - energy[0,22,12] + energy[0,22,13]
+   + 0.6235382907247958 act_current_ev_dis[0,22,13]
+   - 0.6235382907247958 act_current_ev_ch[0,22,13] = 0
  ev_energy.0.23.13: - energy[0,23,12] + energy[0,23,13]
    + 0.6235382907247958 act_current_ev_dis[0,23,13]
    - 0.6235382907247958 act_current_ev_ch[0,23,13] = 0
@@ -22988,12 +12224,12 @@ Subject To
  ev_energy.0.0.14: - energy[0,0,13] + energy[0,0,14]
    + 0.6235382907247958 act_current_ev_dis[0,0,14]
    - 0.6235382907247958 act_current_ev_ch[0,0,14] = 0
+ ev_energy.0.1.14: - energy[0,1,13] + energy[0,1,14]
+   + 0.6235382907247958 act_current_ev_dis[0,1,14]
+   - 0.6235382907247958 act_current_ev_ch[0,1,14] = 0
  ev_energy.0.2.14: - energy[0,2,13] + energy[0,2,14]
    + 0.6235382907247958 act_current_ev_dis[0,2,14]
    - 0.6235382907247958 act_current_ev_ch[0,2,14] = 0
- ev_energy.0.3.14: - energy[0,3,13] + energy[0,3,14]
-   + 0.6235382907247958 act_current_ev_dis[0,3,14]
-   - 0.6235382907247958 act_current_ev_ch[0,3,14] = 0
  ev_energy.0.4.14: - energy[0,4,13] + energy[0,4,14]
    + 0.6235382907247958 act_current_ev_dis[0,4,14]
    - 0.6235382907247958 act_current_ev_ch[0,4,14] = 0
@@ -23003,9 +12239,6 @@ Subject To
  ev_energy.0.6.14: - energy[0,6,13] + energy[0,6,14]
    + 0.6235382907247958 act_current_ev_dis[0,6,14]
    - 0.6235382907247958 act_current_ev_ch[0,6,14] = 0
- ev_energy.0.7.14: - energy[0,7,13] + energy[0,7,14]
-   + 0.6235382907247958 act_current_ev_dis[0,7,14]
-   - 0.6235382907247958 act_current_ev_ch[0,7,14] = 0
  ev_energy.0.8.14: - energy[0,8,13] + energy[0,8,14]
    + 0.6235382907247958 act_current_ev_dis[0,8,14]
    - 0.6235382907247958 act_current_ev_ch[0,8,14] = 0
@@ -23021,18 +12254,16 @@ Subject To
  ev_energy.0.12.14: - energy[0,12,13] + energy[0,12,14]
    + 0.6235382907247958 act_current_ev_dis[0,12,14]
    - 0.6235382907247958 act_current_ev_ch[0,12,14] = 0
- ev_energy.0.13.14: - energy[0,13,13] + energy[0,13,14]
-   + 0.6235382907247958 act_current_ev_dis[0,13,14]
-   - 0.6235382907247958 act_current_ev_ch[0,13,14] = 0
  ev_energy.0.14.14: - energy[0,14,13] + energy[0,14,14]
    + 0.6235382907247958 act_current_ev_dis[0,14,14]
    - 0.6235382907247958 act_current_ev_ch[0,14,14] = 0
+ ev_energy.0.15.14: - energy[0,15,13] + energy[0,15,14]
+   + 0.6235382907247958 act_current_ev_dis[0,15,14]
+   - 0.6235382907247958 act_current_ev_ch[0,15,14] = 0
  ev_energy.0.16.14: - energy[0,16,13] + energy[0,16,14]
    + 0.6235382907247958 act_current_ev_dis[0,16,14]
    - 0.6235382907247958 act_current_ev_ch[0,16,14] = 0
- ev_energy.0.17.14: - energy[0,17,13] + energy[0,17,14]
-   + 0.6235382907247958 act_current_ev_dis[0,17,14]
-   - 0.6235382907247958 act_current_ev_ch[0,17,14] = 0
+ ev_arrival_energy.0.17.14: energy[0,17,14] = 22
  ev_energy.0.19.14: - energy[0,19,13] + energy[0,19,14]
    + 0.6235382907247958 act_current_ev_dis[0,19,14]
    - 0.6235382907247958 act_current_ev_ch[0,19,14] = 0
@@ -23042,6 +12273,9 @@ Subject To
  ev_energy.0.21.14: - energy[0,21,13] + energy[0,21,14]
    + 0.6235382907247958 act_current_ev_dis[0,21,14]
    - 0.6235382907247958 act_current_ev_ch[0,21,14] = 0
+ ev_energy.0.22.14: - energy[0,22,13] + energy[0,22,14]
+   + 0.6235382907247958 act_current_ev_dis[0,22,14]
+   - 0.6235382907247958 act_current_ev_ch[0,22,14] = 0
  ev_energy.0.23.14: - energy[0,23,13] + energy[0,23,14]
    + 0.6235382907247958 act_current_ev_dis[0,23,14]
    - 0.6235382907247958 act_current_ev_ch[0,23,14] = 0
@@ -23051,30 +12285,21 @@ Subject To
  ev_energy.0.0.15: - energy[0,0,14] + energy[0,0,15]
    + 0.6235382907247958 act_current_ev_dis[0,0,15]
    - 0.6235382907247958 act_current_ev_ch[0,0,15] = 0
+ ev_energy.0.1.15: - energy[0,1,14] + energy[0,1,15]
+   + 0.6235382907247958 act_current_ev_dis[0,1,15]
+   - 0.6235382907247958 act_current_ev_ch[0,1,15] = 0
  ev_energy.0.2.15: - energy[0,2,14] + energy[0,2,15]
    + 0.6235382907247958 act_current_ev_dis[0,2,15]
    - 0.6235382907247958 act_current_ev_ch[0,2,15] = 0
- ev_energy.0.3.15: - energy[0,3,14] + energy[0,3,15]
-   + 0.6235382907247958 act_current_ev_dis[0,3,15]
-   - 0.6235382907247958 act_current_ev_ch[0,3,15] = 0
  ev_energy.0.4.15: - energy[0,4,14] + energy[0,4,15]
    + 0.6235382907247958 act_current_ev_dis[0,4,15]
    - 0.6235382907247958 act_current_ev_ch[0,4,15] = 0
- ev_energy.0.5.15: - energy[0,5,14] + energy[0,5,15]
-   + 0.6235382907247958 act_current_ev_dis[0,5,15]
-   - 0.6235382907247958 act_current_ev_ch[0,5,15] = 0
  ev_energy.0.6.15: - energy[0,6,14] + energy[0,6,15]
    + 0.6235382907247958 act_current_ev_dis[0,6,15]
    - 0.6235382907247958 act_current_ev_ch[0,6,15] = 0
- ev_energy.0.7.15: - energy[0,7,14] + energy[0,7,15]
-   + 0.6235382907247958 act_current_ev_dis[0,7,15]
-   - 0.6235382907247958 act_current_ev_ch[0,7,15] = 0
  ev_energy.0.8.15: - energy[0,8,14] + energy[0,8,15]
    + 0.6235382907247958 act_current_ev_dis[0,8,15]
    - 0.6235382907247958 act_current_ev_ch[0,8,15] = 0
- ev_energy.0.9.15: - energy[0,9,14] + energy[0,9,15]
-   + 0.6235382907247958 act_current_ev_dis[0,9,15]
-   - 0.6235382907247958 act_current_ev_ch[0,9,15] = 0
  ev_energy.0.10.15: - energy[0,10,14] + energy[0,10,15]
    + 0.6235382907247958 act_current_ev_dis[0,10,15]
    - 0.6235382907247958 act_current_ev_ch[0,10,15] = 0
@@ -23084,12 +12309,12 @@ Subject To
  ev_energy.0.12.15: - energy[0,12,14] + energy[0,12,15]
    + 0.6235382907247958 act_current_ev_dis[0,12,15]
    - 0.6235382907247958 act_current_ev_ch[0,12,15] = 0
- ev_energy.0.13.15: - energy[0,13,14] + energy[0,13,15]
-   + 0.6235382907247958 act_current_ev_dis[0,13,15]
-   - 0.6235382907247958 act_current_ev_ch[0,13,15] = 0
  ev_energy.0.14.15: - energy[0,14,14] + energy[0,14,15]
    + 0.6235382907247958 act_current_ev_dis[0,14,15]
    - 0.6235382907247958 act_current_ev_ch[0,14,15] = 0
+ ev_energy.0.15.15: - energy[0,15,14] + energy[0,15,15]
+   + 0.6235382907247958 act_current_ev_dis[0,15,15]
+   - 0.6235382907247958 act_current_ev_ch[0,15,15] = 0
  ev_energy.0.16.15: - energy[0,16,14] + energy[0,16,15]
    + 0.6235382907247958 act_current_ev_dis[0,16,15]
    - 0.6235382907247958 act_current_ev_ch[0,16,15] = 0
@@ -23117,82 +12342,57 @@ Subject To
  ev_energy.0.2.16: - energy[0,2,15] + energy[0,2,16]
    + 0.6235382907247958 act_current_ev_dis[0,2,16]
    - 0.6235382907247958 act_current_ev_ch[0,2,16] = 0
- ev_energy.0.3.16: - energy[0,3,15] + energy[0,3,16]
-   + 0.6235382907247958 act_current_ev_dis[0,3,16]
-   - 0.6235382907247958 act_current_ev_ch[0,3,16] = 0
- ev_energy.0.5.16: - energy[0,5,15] + energy[0,5,16]
-   + 0.6235382907247958 act_current_ev_dis[0,5,16]
-   - 0.6235382907247958 act_current_ev_ch[0,5,16] = 0
- ev_energy.0.6.16: - energy[0,6,15] + energy[0,6,16]
-   + 0.6235382907247958 act_current_ev_dis[0,6,16]
-   - 0.6235382907247958 act_current_ev_ch[0,6,16] = 0
- ev_energy.0.7.16: - energy[0,7,15] + energy[0,7,16]
-   + 0.6235382907247958 act_current_ev_dis[0,7,16]
-   - 0.6235382907247958 act_current_ev_ch[0,7,16] = 0
- ev_energy.0.8.16: - energy[0,8,15] + energy[0,8,16]
-   + 0.6235382907247958 act_current_ev_dis[0,8,16]
-   - 0.6235382907247958 act_current_ev_ch[0,8,16] = 0
- ev_energy.0.10.16: - energy[0,10,15] + energy[0,10,16]
-   + 0.6235382907247958 act_current_ev_dis[0,10,16]
-   - 0.6235382907247958 act_current_ev_ch[0,10,16] = 0
  ev_energy.0.11.16: - energy[0,11,15] + energy[0,11,16]
    + 0.6235382907247958 act_current_ev_dis[0,11,16]
    - 0.6235382907247958 act_current_ev_ch[0,11,16] = 0
- ev_energy.0.13.16: - energy[0,13,15] + energy[0,13,16]
-   + 0.6235382907247958 act_current_ev_dis[0,13,16]
-   - 0.6235382907247958 act_current_ev_ch[0,13,16] = 0
+ ev_energy.0.12.16: - energy[0,12,15] + energy[0,12,16]
+   + 0.6235382907247958 act_current_ev_dis[0,12,16]
+   - 0.6235382907247958 act_current_ev_ch[0,12,16] = 0
  ev_energy.0.14.16: - energy[0,14,15] + energy[0,14,16]
    + 0.6235382907247958 act_current_ev_dis[0,14,16]
    - 0.6235382907247958 act_current_ev_ch[0,14,16] = 0
+ ev_energy.0.15.16: - energy[0,15,15] + energy[0,15,16]
+   + 0.6235382907247958 act_current_ev_dis[0,15,16]
+   - 0.6235382907247958 act_current_ev_ch[0,15,16] = 0
  ev_energy.0.16.16: - energy[0,16,15] + energy[0,16,16]
    + 0.6235382907247958 act_current_ev_dis[0,16,16]
    - 0.6235382907247958 act_current_ev_ch[0,16,16] = 0
  ev_energy.0.17.16: - energy[0,17,15] + energy[0,17,16]
    + 0.6235382907247958 act_current_ev_dis[0,17,16]
    - 0.6235382907247958 act_current_ev_ch[0,17,16] = 0
- ev_energy.0.19.16: - energy[0,19,15] + energy[0,19,16]
-   + 0.6235382907247958 act_current_ev_dis[0,19,16]
-   - 0.6235382907247958 act_current_ev_ch[0,19,16] = 0
- ev_energy.0.21.16: - energy[0,21,15] + energy[0,21,16]
-   + 0.6235382907247958 act_current_ev_dis[0,21,16]
-   - 0.6235382907247958 act_current_ev_ch[0,21,16] = 0
+ ev_energy.0.20.16: - energy[0,20,15] + energy[0,20,16]
+   + 0.6235382907247958 act_current_ev_dis[0,20,16]
+   - 0.6235382907247958 act_current_ev_ch[0,20,16] = 0
  ev_energy.0.23.16: - energy[0,23,15] + energy[0,23,16]
    + 0.6235382907247958 act_current_ev_dis[0,23,16]
    - 0.6235382907247958 act_current_ev_ch[0,23,16] = 0
- ev_energy.0.24.16: - energy[0,24,15] + energy[0,24,16]
-   + 0.6235382907247958 act_current_ev_dis[0,24,16]
-   - 0.6235382907247958 act_current_ev_ch[0,24,16] = 0
  ev_energy.0.0.17: - energy[0,0,16] + energy[0,0,17]
    + 0.6235382907247958 act_current_ev_dis[0,0,17]
    - 0.6235382907247958 act_current_ev_ch[0,0,17] = 0
- ev_energy.0.2.17: - energy[0,2,16] + energy[0,2,17]
-   + 0.6235382907247958 act_current_ev_dis[0,2,17]
-   - 0.6235382907247958 act_current_ev_ch[0,2,17] = 0
- ev_energy.0.3.17: - energy[0,3,16] + energy[0,3,17]
-   + 0.6235382907247958 act_current_ev_dis[0,3,17]
-   - 0.6235382907247958 act_current_ev_ch[0,3,17] = 0
- ev_energy.0.6.17: - energy[0,6,16] + energy[0,6,17]
-   + 0.6235382907247958 act_current_ev_dis[0,6,17]
-   - 0.6235382907247958 act_current_ev_ch[0,6,17] = 0
  ev_energy.0.11.17: - energy[0,11,16] + energy[0,11,17]
    + 0.6235382907247958 act_current_ev_dis[0,11,17]
    - 0.6235382907247958 act_current_ev_ch[0,11,17] = 0
+ ev_energy.0.14.17: - energy[0,14,16] + energy[0,14,17]
+   + 0.6235382907247958 act_current_ev_dis[0,14,17]
+   - 0.6235382907247958 act_current_ev_ch[0,14,17] = 0
+ ev_energy.0.15.17: - energy[0,15,16] + energy[0,15,17]
+   + 0.6235382907247958 act_current_ev_dis[0,15,17]
+   - 0.6235382907247958 act_current_ev_ch[0,15,17] = 0
  ev_energy.0.16.17: - energy[0,16,16] + energy[0,16,17]
    + 0.6235382907247958 act_current_ev_dis[0,16,17]
    - 0.6235382907247958 act_current_ev_ch[0,16,17] = 0
- ev_energy.0.19.17: - energy[0,19,16] + energy[0,19,17]
-   + 0.6235382907247958 act_current_ev_dis[0,19,17]
-   - 0.6235382907247958 act_current_ev_ch[0,19,17] = 0
- ev_energy.0.23.17: - energy[0,23,16] + energy[0,23,17]
-   + 0.6235382907247958 act_current_ev_dis[0,23,17]
-   - 0.6235382907247958 act_current_ev_ch[0,23,17] = 0
- ev_energy.0.24.17: - energy[0,24,16] + energy[0,24,17]
-   + 0.6235382907247958 act_current_ev_dis[0,24,17]
-   - 0.6235382907247958 act_current_ev_ch[0,24,17] = 0
- ev_energy.0.0.18: - energy[0,0,17] + energy[0,0,18]
-   + 0.6235382907247958 act_current_ev_dis[0,0,18]
-   - 0.6235382907247958 act_current_ev_ch[0,0,18] = 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
+ ev_energy.0.17.17: - energy[0,17,16] + energy[0,17,17]
+   + 0.6235382907247958 act_current_ev_dis[0,17,17]
+   - 0.6235382907247958 act_current_ev_ch[0,17,17] = 0
+ ev_energy.0.16.18: - energy[0,16,17] + energy[0,16,18]
+   + 0.6235382907247958 act_current_ev_dis[0,16,18]
+   - 0.6235382907247958 act_current_ev_ch[0,16,18] = 0
+ ev_energy.0.17.18: - energy[0,17,17] + energy[0,17,18]
+   + 0.6235382907247958 act_current_ev_dis[0,17,18]
+   - 0.6235382907247958 act_current_ev_ch[0,17,18] = 0
+ ev_energy.0.17.19: - energy[0,17,18] + energy[0,17,19]
+   + 0.6235382907247958 act_current_ev_dis[0,17,19]
+   - 0.6235382907247958 act_current_ev_ch[0,17,19] = 0
  ev_energy_level_min[0,0,0]: energy[0,0,0] >= 0
  ev_energy_level_min[0,0,1]: energy[0,0,1] >= 0
  ev_energy_level_min[0,0,2]: energy[0,0,2] >= 0
@@ -23798,249 +12998,39 @@ Subject To
  ev_energy_level_max[0,0,2]: energy[0,0,2] <= 0
  ev_energy_level_max[0,0,3]: energy[0,0,3] <= 0
  ev_energy_level_max[0,0,4]: energy[0,0,4] <= 0
- ev_energy_level_max[0,0,5]: energy[0,0,5] <= 0
-<<<<<<< HEAD
- ev_energy_level_max[0,0,6]: energy[0,0,6] <= 0
- ev_energy_level_max[0,0,7]: energy[0,0,7] <= 0
- ev_energy_level_max[0,0,8]: energy[0,0,8] <= 0
- ev_energy_level_max[0,0,9]: energy[0,0,9] <= 0
- ev_energy_level_max[0,0,10]: energy[0,0,10] <= 0
- ev_energy_level_max[0,0,11]: energy[0,0,11] <= 0
- ev_energy_level_max[0,0,12]: energy[0,0,12] <= 0
- ev_energy_level_max[0,0,13]: energy[0,0,13] <= 0
- ev_energy_level_max[0,0,14]: energy[0,0,14] <= 0
- ev_energy_level_max[0,0,15]: energy[0,0,15] <= 0
- ev_energy_level_max[0,0,16]: energy[0,0,16] <= 0
- ev_energy_level_max[0,0,17]: energy[0,0,17] <= 64.8
- ev_energy_level_max[0,0,18]: energy[0,0,18] <= 64.8
- ev_energy_level_max[0,0,19]: energy[0,0,19] <= 64.8
- ev_energy_level_max[0,0,20]: energy[0,0,20] <= 64.8
- ev_energy_level_max[0,0,21]: energy[0,0,21] <= 64.8
- ev_energy_level_max[0,0,22]: energy[0,0,22] <= 64.8
- ev_energy_level_max[0,0,23]: energy[0,0,23] <= 64.8
- ev_energy_level_max[0,0,24]: energy[0,0,24] <= 64.8
- ev_energy_level_max[0,0,25]: energy[0,0,25] <= 64.8
- ev_energy_level_max[0,0,26]: energy[0,0,26] <= 64.8
- ev_energy_level_max[0,0,27]: energy[0,0,27] <= 64.8
- ev_energy_level_max[0,0,28]: energy[0,0,28] <= 64.8
- ev_energy_level_max[0,0,29]: energy[0,0,29] <= 64.8
- ev_energy_level_max[0,0,30]: energy[0,0,30] <= 64.8
- ev_energy_level_max[0,0,31]: energy[0,0,31] <= 64.8
- ev_energy_level_max[0,0,32]: energy[0,0,32] <= 64.8
- ev_energy_level_max[0,0,33]: energy[0,0,33] <= 64.8
- ev_energy_level_max[0,0,34]: energy[0,0,34] <= 64.8
- ev_energy_level_max[0,0,35]: energy[0,0,35] <= 64.8
- ev_energy_level_max[0,0,36]: energy[0,0,36] <= 64.8
- ev_energy_level_max[0,0,37]: energy[0,0,37] <= 64.8
- ev_energy_level_max[0,0,38]: energy[0,0,38] <= 64.8
- ev_energy_level_max[0,0,39]: energy[0,0,39] <= 64.8
- ev_energy_level_max[0,0,40]: energy[0,0,40] <= 64.8
- ev_energy_level_max[0,0,41]: energy[0,0,41] <= 64.8
- ev_energy_level_max[0,0,42]: energy[0,0,42] <= 64.8
- ev_energy_level_max[0,0,43]: energy[0,0,43] <= 64.8
- ev_energy_level_max[0,0,44]: energy[0,0,44] <= 64.8
- ev_energy_level_max[0,0,45]: energy[0,0,45] <= 64.8
- ev_energy_level_max[0,0,46]: energy[0,0,46] <= 64.8
- ev_energy_level_max[0,0,47]: energy[0,0,47] <= 64.8
- ev_energy_level_max[0,0,48]: energy[0,0,48] <= 64.8
- ev_energy_level_max[0,0,49]: energy[0,0,49] <= 64.8
- ev_energy_level_max[0,0,50]: energy[0,0,50] <= 64.8
- ev_energy_level_max[0,0,51]: energy[0,0,51] <= 64.8
- ev_energy_level_max[0,0,52]: energy[0,0,52] <= 64.8
- ev_energy_level_max[0,0,54]: energy[0,0,54] <= 0
- ev_energy_level_max[0,0,55]: energy[0,0,55] <= 0
- ev_energy_level_max[0,0,56]: energy[0,0,56] <= 0
- ev_energy_level_max[0,0,57]: energy[0,0,57] <= 0
- ev_energy_level_max[0,0,58]: energy[0,0,58] <= 0
- ev_energy_level_max[0,0,59]: energy[0,0,59] <= 0
- ev_energy_level_max[0,0,60]: energy[0,0,60] <= 0
- ev_energy_level_max[0,0,61]: energy[0,0,61] <= 0
- ev_energy_level_max[0,0,62]: energy[0,0,62] <= 0
- ev_energy_level_max[0,0,63]: energy[0,0,63] <= 0
- ev_energy_level_max[0,0,64]: energy[0,0,64] <= 0
- ev_energy_level_max[0,0,65]: energy[0,0,65] <= 0
- ev_energy_level_max[0,0,66]: energy[0,0,66] <= 0
- ev_energy_level_max[0,0,67]: energy[0,0,67] <= 0
- ev_energy_level_max[0,0,68]: energy[0,0,68] <= 0
- ev_energy_level_max[0,0,69]: energy[0,0,69] <= 0
- ev_energy_level_max[0,0,70]: energy[0,0,70] <= 0
- ev_energy_level_max[0,0,71]: energy[0,0,71] <= 0
- ev_energy_level_max[0,0,72]: energy[0,0,72] <= 0
- ev_energy_level_max[0,0,73]: energy[0,0,73] <= 0
- ev_energy_level_max[0,0,74]: energy[0,0,74] <= 0
- ev_energy_level_max[0,0,75]: energy[0,0,75] <= 0
- ev_energy_level_max[0,0,76]: energy[0,0,76] <= 0
- ev_energy_level_max[0,0,77]: energy[0,0,77] <= 0
- ev_energy_level_max[0,0,78]: energy[0,0,78] <= 0
- ev_energy_level_max[0,0,79]: energy[0,0,79] <= 0
- ev_energy_level_max[0,0,80]: energy[0,0,80] <= 0
- ev_energy_level_max[0,0,81]: energy[0,0,81] <= 0
- ev_energy_level_max[0,0,82]: energy[0,0,82] <= 0
- ev_energy_level_max[0,0,83]: energy[0,0,83] <= 0
- ev_energy_level_max[0,0,84]: energy[0,0,84] <= 0
- ev_energy_level_max[0,0,85]: energy[0,0,85] <= 0
- ev_energy_level_max[0,0,86]: energy[0,0,86] <= 0
- ev_energy_level_max[0,0,87]: energy[0,0,87] <= 0
- ev_energy_level_max[0,0,88]: energy[0,0,88] <= 0
- ev_energy_level_max[0,0,89]: energy[0,0,89] <= 0
- ev_energy_level_max[0,0,90]: energy[0,0,90] <= 0
- ev_energy_level_max[0,0,91]: energy[0,0,91] <= 0
- ev_energy_level_max[0,0,92]: energy[0,0,92] <= 0
- ev_energy_level_max[0,0,93]: energy[0,0,93] <= 0
- ev_energy_level_max[0,0,94]: energy[0,0,94] <= 0
- ev_energy_level_max[0,0,95]: energy[0,0,95] <= 0
- ev_energy_level_max[0,0,96]: energy[0,0,96] <= 0
- ev_energy_level_max[0,0,97]: energy[0,0,97] <= 0
- ev_energy_level_max[0,0,98]: energy[0,0,98] <= 0
- ev_energy_level_max[0,0,99]: energy[0,0,99] <= 0
- ev_energy_level_max[0,0,100]: energy[0,0,100] <= 0
- ev_energy_level_max[0,0,101]: energy[0,0,101] <= 0
- ev_energy_level_max[0,0,102]: energy[0,0,102] <= 0
- ev_energy_level_max[0,0,103]: energy[0,0,103] <= 0
- ev_energy_level_max[0,0,104]: energy[0,0,104] <= 0
- ev_energy_level_max[0,0,105]: energy[0,0,105] <= 0
- ev_energy_level_max[0,0,106]: energy[0,0,106] <= 0
- ev_energy_level_max[0,0,107]: energy[0,0,107] <= 0
- ev_energy_level_max[0,0,108]: energy[0,0,108] <= 0
- ev_energy_level_max[0,0,109]: energy[0,0,109] <= 0
- ev_energy_level_max[0,0,110]: energy[0,0,110] <= 0
- ev_energy_level_max[0,0,111]: energy[0,0,111] <= 0
-=======
- ev_energy_level_max[0,0,6]: energy[0,0,6] <= 58
- ev_energy_level_max[0,0,7]: energy[0,0,7] <= 58
- ev_energy_level_max[0,0,8]: energy[0,0,8] <= 58
- ev_energy_level_max[0,0,9]: energy[0,0,9] <= 58
- ev_energy_level_max[0,0,10]: energy[0,0,10] <= 58
- ev_energy_level_max[0,0,11]: energy[0,0,11] <= 58
- ev_energy_level_max[0,0,12]: energy[0,0,12] <= 58
- ev_energy_level_max[0,0,13]: energy[0,0,13] <= 58
- ev_energy_level_max[0,0,14]: energy[0,0,14] <= 58
- ev_energy_level_max[0,0,15]: energy[0,0,15] <= 58
- ev_energy_level_max[0,0,16]: energy[0,0,16] <= 58
- ev_energy_level_max[0,0,17]: energy[0,0,17] <= 58
+ ev_energy_level_max[0,0,5]: energy[0,0,5] <= 57.5
+ ev_energy_level_max[0,0,6]: energy[0,0,6] <= 57.5
+ ev_energy_level_max[0,0,7]: energy[0,0,7] <= 57.5
+ ev_energy_level_max[0,0,8]: energy[0,0,8] <= 57.5
+ ev_energy_level_max[0,0,9]: energy[0,0,9] <= 57.5
+ ev_energy_level_max[0,0,10]: energy[0,0,10] <= 57.5
+ ev_energy_level_max[0,0,11]: energy[0,0,11] <= 57.5
+ ev_energy_level_max[0,0,12]: energy[0,0,12] <= 57.5
+ ev_energy_level_max[0,0,13]: energy[0,0,13] <= 57.5
+ ev_energy_level_max[0,0,14]: energy[0,0,14] <= 57.5
+ ev_energy_level_max[0,0,15]: energy[0,0,15] <= 57.5
+ ev_energy_level_max[0,0,16]: energy[0,0,16] <= 57.5
+ ev_energy_level_max[0,0,18]: energy[0,0,18] <= 0
  ev_energy_level_max[0,0,19]: energy[0,0,19] <= 0
  ev_energy_level_max[0,0,20]: energy[0,0,20] <= 0
  ev_energy_level_max[0,0,21]: energy[0,0,21] <= 0
  ev_energy_level_max[0,0,22]: energy[0,0,22] <= 0
  ev_energy_level_max[0,0,23]: energy[0,0,23] <= 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,1,0]: energy[0,1,0] <= 0
  ev_energy_level_max[0,1,1]: energy[0,1,1] <= 0
  ev_energy_level_max[0,1,2]: energy[0,1,2] <= 0
  ev_energy_level_max[0,1,3]: energy[0,1,3] <= 0
  ev_energy_level_max[0,1,4]: energy[0,1,4] <= 0
  ev_energy_level_max[0,1,5]: energy[0,1,5] <= 0
- ev_energy_level_max[0,1,6]: energy[0,1,6] <= 0
- ev_energy_level_max[0,1,7]: energy[0,1,7] <= 0
- ev_energy_level_max[0,1,8]: energy[0,1,8] <= 0
- ev_energy_level_max[0,1,9]: energy[0,1,9] <= 0
- ev_energy_level_max[0,1,10]: energy[0,1,10] <= 0
- ev_energy_level_max[0,1,11]: energy[0,1,11] <= 0
-<<<<<<< HEAD
+ ev_energy_level_max[0,1,6]: energy[0,1,6] <= 57.5
+ ev_energy_level_max[0,1,7]: energy[0,1,7] <= 57.5
+ ev_energy_level_max[0,1,8]: energy[0,1,8] <= 57.5
+ ev_energy_level_max[0,1,9]: energy[0,1,9] <= 57.5
+ ev_energy_level_max[0,1,10]: energy[0,1,10] <= 57.5
+ ev_energy_level_max[0,1,11]: energy[0,1,11] <= 57.5
  ev_energy_level_max[0,1,12]: energy[0,1,12] <= 57.5
  ev_energy_level_max[0,1,13]: energy[0,1,13] <= 57.5
  ev_energy_level_max[0,1,14]: energy[0,1,14] <= 57.5
- ev_energy_level_max[0,1,15]: energy[0,1,15] <= 57.5
- ev_energy_level_max[0,1,16]: energy[0,1,16] <= 57.5
- ev_energy_level_max[0,1,17]: energy[0,1,17] <= 57.5
- ev_energy_level_max[0,1,18]: energy[0,1,18] <= 57.5
- ev_energy_level_max[0,1,19]: energy[0,1,19] <= 57.5
- ev_energy_level_max[0,1,20]: energy[0,1,20] <= 57.5
- ev_energy_level_max[0,1,21]: energy[0,1,21] <= 57.5
- ev_energy_level_max[0,1,22]: energy[0,1,22] <= 57.5
- ev_energy_level_max[0,1,23]: energy[0,1,23] <= 57.5
- ev_energy_level_max[0,1,24]: energy[0,1,24] <= 57.5
- ev_energy_level_max[0,1,25]: energy[0,1,25] <= 57.5
- ev_energy_level_max[0,1,26]: energy[0,1,26] <= 57.5
- ev_energy_level_max[0,1,27]: energy[0,1,27] <= 57.5
- ev_energy_level_max[0,1,28]: energy[0,1,28] <= 57.5
- ev_energy_level_max[0,1,29]: energy[0,1,29] <= 57.5
- ev_energy_level_max[0,1,30]: energy[0,1,30] <= 57.5
- ev_energy_level_max[0,1,31]: energy[0,1,31] <= 57.5
- ev_energy_level_max[0,1,32]: energy[0,1,32] <= 57.5
- ev_energy_level_max[0,1,33]: energy[0,1,33] <= 57.5
- ev_energy_level_max[0,1,34]: energy[0,1,34] <= 57.5
- ev_energy_level_max[0,1,35]: energy[0,1,35] <= 57.5
- ev_energy_level_max[0,1,36]: energy[0,1,36] <= 57.5
- ev_energy_level_max[0,1,37]: energy[0,1,37] <= 57.5
- ev_energy_level_max[0,1,38]: energy[0,1,38] <= 57.5
- ev_energy_level_max[0,1,39]: energy[0,1,39] <= 57.5
- ev_energy_level_max[0,1,40]: energy[0,1,40] <= 57.5
- ev_energy_level_max[0,1,41]: energy[0,1,41] <= 57.5
- ev_energy_level_max[0,1,42]: energy[0,1,42] <= 57.5
- ev_energy_level_max[0,1,43]: energy[0,1,43] <= 57.5
- ev_energy_level_max[0,1,44]: energy[0,1,44] <= 57.5
- ev_energy_level_max[0,1,45]: energy[0,1,45] <= 57.5
- ev_energy_level_max[0,1,46]: energy[0,1,46] <= 57.5
- ev_energy_level_max[0,1,47]: energy[0,1,47] <= 57.5
- ev_energy_level_max[0,1,48]: energy[0,1,48] <= 57.5
- ev_energy_level_max[0,1,49]: energy[0,1,49] <= 57.5
- ev_energy_level_max[0,1,51]: energy[0,1,51] <= 0
- ev_energy_level_max[0,1,52]: energy[0,1,52] <= 0
- ev_energy_level_max[0,1,53]: energy[0,1,53] <= 0
- ev_energy_level_max[0,1,54]: energy[0,1,54] <= 0
- ev_energy_level_max[0,1,55]: energy[0,1,55] <= 0
- ev_energy_level_max[0,1,56]: energy[0,1,56] <= 0
- ev_energy_level_max[0,1,57]: energy[0,1,57] <= 0
- ev_energy_level_max[0,1,58]: energy[0,1,58] <= 0
- ev_energy_level_max[0,1,59]: energy[0,1,59] <= 0
- ev_energy_level_max[0,1,60]: energy[0,1,60] <= 0
- ev_energy_level_max[0,1,61]: energy[0,1,61] <= 0
- ev_energy_level_max[0,1,62]: energy[0,1,62] <= 0
- ev_energy_level_max[0,1,63]: energy[0,1,63] <= 0
- ev_energy_level_max[0,1,64]: energy[0,1,64] <= 0
- ev_energy_level_max[0,1,65]: energy[0,1,65] <= 0
- ev_energy_level_max[0,1,66]: energy[0,1,66] <= 0
- ev_energy_level_max[0,1,67]: energy[0,1,67] <= 0
- ev_energy_level_max[0,1,68]: energy[0,1,68] <= 0
- ev_energy_level_max[0,1,69]: energy[0,1,69] <= 0
- ev_energy_level_max[0,1,70]: energy[0,1,70] <= 0
- ev_energy_level_max[0,1,71]: energy[0,1,71] <= 0
- ev_energy_level_max[0,1,72]: energy[0,1,72] <= 0
- ev_energy_level_max[0,1,73]: energy[0,1,73] <= 0
- ev_energy_level_max[0,1,74]: energy[0,1,74] <= 0
- ev_energy_level_max[0,1,75]: energy[0,1,75] <= 0
- ev_energy_level_max[0,1,76]: energy[0,1,76] <= 0
- ev_energy_level_max[0,1,77]: energy[0,1,77] <= 0
- ev_energy_level_max[0,1,78]: energy[0,1,78] <= 0
- ev_energy_level_max[0,1,79]: energy[0,1,79] <= 0
- ev_energy_level_max[0,1,80]: energy[0,1,80] <= 0
- ev_energy_level_max[0,1,81]: energy[0,1,81] <= 0
- ev_energy_level_max[0,1,82]: energy[0,1,82] <= 0
- ev_energy_level_max[0,1,83]: energy[0,1,83] <= 0
- ev_energy_level_max[0,1,84]: energy[0,1,84] <= 0
- ev_energy_level_max[0,1,85]: energy[0,1,85] <= 0
- ev_energy_level_max[0,1,86]: energy[0,1,86] <= 0
- ev_energy_level_max[0,1,87]: energy[0,1,87] <= 0
- ev_energy_level_max[0,1,88]: energy[0,1,88] <= 0
- ev_energy_level_max[0,1,89]: energy[0,1,89] <= 0
- ev_energy_level_max[0,1,90]: energy[0,1,90] <= 0
- ev_energy_level_max[0,1,91]: energy[0,1,91] <= 0
- ev_energy_level_max[0,1,92]: energy[0,1,92] <= 0
- ev_energy_level_max[0,1,93]: energy[0,1,93] <= 0
- ev_energy_level_max[0,1,94]: energy[0,1,94] <= 0
- ev_energy_level_max[0,1,95]: energy[0,1,95] <= 0
- ev_energy_level_max[0,1,96]: energy[0,1,96] <= 0
- ev_energy_level_max[0,1,97]: energy[0,1,97] <= 0
- ev_energy_level_max[0,1,98]: energy[0,1,98] <= 0
- ev_energy_level_max[0,1,99]: energy[0,1,99] <= 0
- ev_energy_level_max[0,1,100]: energy[0,1,100] <= 0
- ev_energy_level_max[0,1,101]: energy[0,1,101] <= 0
- ev_energy_level_max[0,1,102]: energy[0,1,102] <= 0
- ev_energy_level_max[0,1,103]: energy[0,1,103] <= 0
- ev_energy_level_max[0,1,104]: energy[0,1,104] <= 0
- ev_energy_level_max[0,1,105]: energy[0,1,105] <= 0
- ev_energy_level_max[0,1,106]: energy[0,1,106] <= 0
- ev_energy_level_max[0,1,107]: energy[0,1,107] <= 0
- ev_energy_level_max[0,1,108]: energy[0,1,108] <= 0
- ev_energy_level_max[0,1,109]: energy[0,1,109] <= 0
- ev_energy_level_max[0,1,110]: energy[0,1,110] <= 0
- ev_energy_level_max[0,1,111]: energy[0,1,111] <= 0
-=======
- ev_energy_level_max[0,1,12]: energy[0,1,12] <= 0
- ev_energy_level_max[0,1,13]: energy[0,1,13] <= 0
- ev_energy_level_max[0,1,14]: energy[0,1,14] <= 0
- ev_energy_level_max[0,1,15]: energy[0,1,15] <= 0
  ev_energy_level_max[0,1,16]: energy[0,1,16] <= 0
  ev_energy_level_max[0,1,17]: energy[0,1,17] <= 0
  ev_energy_level_max[0,1,18]: energy[0,1,18] <= 0
@@ -24049,21 +13039,15 @@ Subject To
  ev_energy_level_max[0,1,21]: energy[0,1,21] <= 0
  ev_energy_level_max[0,1,22]: energy[0,1,22] <= 0
  ev_energy_level_max[0,1,23]: energy[0,1,23] <= 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,2,0]: energy[0,2,0] <= 0
  ev_energy_level_max[0,2,1]: energy[0,2,1] <= 0
  ev_energy_level_max[0,2,2]: energy[0,2,2] <= 0
  ev_energy_level_max[0,2,3]: energy[0,2,3] <= 0
  ev_energy_level_max[0,2,4]: energy[0,2,4] <= 0
  ev_energy_level_max[0,2,5]: energy[0,2,5] <= 0
- ev_energy_level_max[0,2,6]: energy[0,2,6] <= 0
-<<<<<<< HEAD
- ev_energy_level_max[0,2,7]: energy[0,2,7] <= 0
- ev_energy_level_max[0,2,8]: energy[0,2,8] <= 0
-=======
+ ev_energy_level_max[0,2,6]: energy[0,2,6] <= 57.5
  ev_energy_level_max[0,2,7]: energy[0,2,7] <= 57.5
  ev_energy_level_max[0,2,8]: energy[0,2,8] <= 57.5
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,2,9]: energy[0,2,9] <= 57.5
  ev_energy_level_max[0,2,10]: energy[0,2,10] <= 57.5
  ev_energy_level_max[0,2,11]: energy[0,2,11] <= 57.5
@@ -24071,110 +13055,13 @@ Subject To
  ev_energy_level_max[0,2,13]: energy[0,2,13] <= 57.5
  ev_energy_level_max[0,2,14]: energy[0,2,14] <= 57.5
  ev_energy_level_max[0,2,15]: energy[0,2,15] <= 57.5
- ev_energy_level_max[0,2,16]: energy[0,2,16] <= 57.5
-<<<<<<< HEAD
- ev_energy_level_max[0,2,17]: energy[0,2,17] <= 57.5
- ev_energy_level_max[0,2,18]: energy[0,2,18] <= 57.5
- ev_energy_level_max[0,2,19]: energy[0,2,19] <= 57.5
- ev_energy_level_max[0,2,20]: energy[0,2,20] <= 57.5
- ev_energy_level_max[0,2,21]: energy[0,2,21] <= 57.5
- ev_energy_level_max[0,2,22]: energy[0,2,22] <= 57.5
- ev_energy_level_max[0,2,23]: energy[0,2,23] <= 57.5
- ev_energy_level_max[0,2,24]: energy[0,2,24] <= 57.5
- ev_energy_level_max[0,2,25]: energy[0,2,25] <= 57.5
- ev_energy_level_max[0,2,26]: energy[0,2,26] <= 57.5
- ev_energy_level_max[0,2,27]: energy[0,2,27] <= 57.5
- ev_energy_level_max[0,2,28]: energy[0,2,28] <= 57.5
- ev_energy_level_max[0,2,29]: energy[0,2,29] <= 57.5
- ev_energy_level_max[0,2,30]: energy[0,2,30] <= 57.5
- ev_energy_level_max[0,2,31]: energy[0,2,31] <= 57.5
- ev_energy_level_max[0,2,32]: energy[0,2,32] <= 57.5
- ev_energy_level_max[0,2,33]: energy[0,2,33] <= 57.5
- ev_energy_level_max[0,2,34]: energy[0,2,34] <= 57.5
- ev_energy_level_max[0,2,35]: energy[0,2,35] <= 57.5
- ev_energy_level_max[0,2,36]: energy[0,2,36] <= 57.5
- ev_energy_level_max[0,2,37]: energy[0,2,37] <= 57.5
- ev_energy_level_max[0,2,38]: energy[0,2,38] <= 57.5
- ev_energy_level_max[0,2,39]: energy[0,2,39] <= 57.5
- ev_energy_level_max[0,2,40]: energy[0,2,40] <= 57.5
- ev_energy_level_max[0,2,41]: energy[0,2,41] <= 57.5
- ev_energy_level_max[0,2,42]: energy[0,2,42] <= 57.5
- ev_energy_level_max[0,2,43]: energy[0,2,43] <= 57.5
- ev_energy_level_max[0,2,44]: energy[0,2,44] <= 57.5
- ev_energy_level_max[0,2,45]: energy[0,2,45] <= 57.5
- ev_energy_level_max[0,2,46]: energy[0,2,46] <= 57.5
- ev_energy_level_max[0,2,47]: energy[0,2,47] <= 57.5
- ev_energy_level_max[0,2,48]: energy[0,2,48] <= 57.5
- ev_energy_level_max[0,2,49]: energy[0,2,49] <= 57.5
- ev_energy_level_max[0,2,51]: energy[0,2,51] <= 0
- ev_energy_level_max[0,2,52]: energy[0,2,52] <= 0
- ev_energy_level_max[0,2,53]: energy[0,2,53] <= 0
- ev_energy_level_max[0,2,54]: energy[0,2,54] <= 0
- ev_energy_level_max[0,2,55]: energy[0,2,55] <= 0
- ev_energy_level_max[0,2,56]: energy[0,2,56] <= 0
- ev_energy_level_max[0,2,57]: energy[0,2,57] <= 0
- ev_energy_level_max[0,2,58]: energy[0,2,58] <= 0
- ev_energy_level_max[0,2,59]: energy[0,2,59] <= 0
- ev_energy_level_max[0,2,60]: energy[0,2,60] <= 0
- ev_energy_level_max[0,2,61]: energy[0,2,61] <= 0
- ev_energy_level_max[0,2,62]: energy[0,2,62] <= 0
- ev_energy_level_max[0,2,63]: energy[0,2,63] <= 0
- ev_energy_level_max[0,2,64]: energy[0,2,64] <= 0
- ev_energy_level_max[0,2,65]: energy[0,2,65] <= 0
- ev_energy_level_max[0,2,66]: energy[0,2,66] <= 0
- ev_energy_level_max[0,2,67]: energy[0,2,67] <= 0
- ev_energy_level_max[0,2,68]: energy[0,2,68] <= 0
- ev_energy_level_max[0,2,69]: energy[0,2,69] <= 0
- ev_energy_level_max[0,2,70]: energy[0,2,70] <= 0
- ev_energy_level_max[0,2,71]: energy[0,2,71] <= 0
- ev_energy_level_max[0,2,72]: energy[0,2,72] <= 0
- ev_energy_level_max[0,2,73]: energy[0,2,73] <= 0
- ev_energy_level_max[0,2,74]: energy[0,2,74] <= 0
- ev_energy_level_max[0,2,75]: energy[0,2,75] <= 0
- ev_energy_level_max[0,2,76]: energy[0,2,76] <= 0
- ev_energy_level_max[0,2,77]: energy[0,2,77] <= 0
- ev_energy_level_max[0,2,78]: energy[0,2,78] <= 0
- ev_energy_level_max[0,2,79]: energy[0,2,79] <= 0
- ev_energy_level_max[0,2,80]: energy[0,2,80] <= 0
- ev_energy_level_max[0,2,81]: energy[0,2,81] <= 0
- ev_energy_level_max[0,2,82]: energy[0,2,82] <= 0
- ev_energy_level_max[0,2,83]: energy[0,2,83] <= 0
- ev_energy_level_max[0,2,84]: energy[0,2,84] <= 0
- ev_energy_level_max[0,2,85]: energy[0,2,85] <= 0
- ev_energy_level_max[0,2,86]: energy[0,2,86] <= 0
- ev_energy_level_max[0,2,87]: energy[0,2,87] <= 0
- ev_energy_level_max[0,2,88]: energy[0,2,88] <= 0
- ev_energy_level_max[0,2,89]: energy[0,2,89] <= 0
- ev_energy_level_max[0,2,90]: energy[0,2,90] <= 0
- ev_energy_level_max[0,2,91]: energy[0,2,91] <= 0
- ev_energy_level_max[0,2,92]: energy[0,2,92] <= 0
- ev_energy_level_max[0,2,93]: energy[0,2,93] <= 0
- ev_energy_level_max[0,2,94]: energy[0,2,94] <= 0
- ev_energy_level_max[0,2,95]: energy[0,2,95] <= 0
- ev_energy_level_max[0,2,96]: energy[0,2,96] <= 0
- ev_energy_level_max[0,2,97]: energy[0,2,97] <= 0
- ev_energy_level_max[0,2,98]: energy[0,2,98] <= 0
- ev_energy_level_max[0,2,99]: energy[0,2,99] <= 0
- ev_energy_level_max[0,2,100]: energy[0,2,100] <= 0
- ev_energy_level_max[0,2,101]: energy[0,2,101] <= 0
- ev_energy_level_max[0,2,102]: energy[0,2,102] <= 0
- ev_energy_level_max[0,2,103]: energy[0,2,103] <= 0
- ev_energy_level_max[0,2,104]: energy[0,2,104] <= 0
- ev_energy_level_max[0,2,105]: energy[0,2,105] <= 0
- ev_energy_level_max[0,2,106]: energy[0,2,106] <= 0
- ev_energy_level_max[0,2,107]: energy[0,2,107] <= 0
- ev_energy_level_max[0,2,108]: energy[0,2,108] <= 0
- ev_energy_level_max[0,2,109]: energy[0,2,109] <= 0
- ev_energy_level_max[0,2,110]: energy[0,2,110] <= 0
- ev_energy_level_max[0,2,111]: energy[0,2,111] <= 0
-=======
+ ev_energy_level_max[0,2,17]: energy[0,2,17] <= 0
  ev_energy_level_max[0,2,18]: energy[0,2,18] <= 0
  ev_energy_level_max[0,2,19]: energy[0,2,19] <= 0
  ev_energy_level_max[0,2,20]: energy[0,2,20] <= 0
  ev_energy_level_max[0,2,21]: energy[0,2,21] <= 0
  ev_energy_level_max[0,2,22]: energy[0,2,22] <= 0
  ev_energy_level_max[0,2,23]: energy[0,2,23] <= 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,3,0]: energy[0,3,0] <= 0
  ev_energy_level_max[0,3,1]: energy[0,3,1] <= 0
  ev_energy_level_max[0,3,2]: energy[0,3,2] <= 0
@@ -24187,147 +13074,33 @@ Subject To
  ev_energy_level_max[0,3,9]: energy[0,3,9] <= 0
  ev_energy_level_max[0,3,10]: energy[0,3,10] <= 0
  ev_energy_level_max[0,3,11]: energy[0,3,11] <= 0
-<<<<<<< HEAD
  ev_energy_level_max[0,3,12]: energy[0,3,12] <= 0
  ev_energy_level_max[0,3,13]: energy[0,3,13] <= 0
- ev_energy_level_max[0,3,14]: energy[0,3,14] <= 57.5
- ev_energy_level_max[0,3,15]: energy[0,3,15] <= 57.5
- ev_energy_level_max[0,3,16]: energy[0,3,16] <= 57.5
- ev_energy_level_max[0,3,17]: energy[0,3,17] <= 57.5
- ev_energy_level_max[0,3,18]: energy[0,3,18] <= 57.5
- ev_energy_level_max[0,3,19]: energy[0,3,19] <= 57.5
- ev_energy_level_max[0,3,20]: energy[0,3,20] <= 57.5
- ev_energy_level_max[0,3,21]: energy[0,3,21] <= 57.5
- ev_energy_level_max[0,3,22]: energy[0,3,22] <= 57.5
- ev_energy_level_max[0,3,23]: energy[0,3,23] <= 57.5
- ev_energy_level_max[0,3,24]: energy[0,3,24] <= 57.5
- ev_energy_level_max[0,3,25]: energy[0,3,25] <= 57.5
- ev_energy_level_max[0,3,26]: energy[0,3,26] <= 57.5
- ev_energy_level_max[0,3,27]: energy[0,3,27] <= 57.5
- ev_energy_level_max[0,3,28]: energy[0,3,28] <= 57.5
- ev_energy_level_max[0,3,29]: energy[0,3,29] <= 57.5
- ev_energy_level_max[0,3,30]: energy[0,3,30] <= 57.5
- ev_energy_level_max[0,3,31]: energy[0,3,31] <= 57.5
- ev_energy_level_max[0,3,32]: energy[0,3,32] <= 57.5
- ev_energy_level_max[0,3,33]: energy[0,3,33] <= 57.5
- ev_energy_level_max[0,3,34]: energy[0,3,34] <= 57.5
- ev_energy_level_max[0,3,35]: energy[0,3,35] <= 57.5
- ev_energy_level_max[0,3,36]: energy[0,3,36] <= 57.5
- ev_energy_level_max[0,3,37]: energy[0,3,37] <= 57.5
- ev_energy_level_max[0,3,38]: energy[0,3,38] <= 57.5
- ev_energy_level_max[0,3,39]: energy[0,3,39] <= 57.5
- ev_energy_level_max[0,3,41]: energy[0,3,41] <= 0
- ev_energy_level_max[0,3,42]: energy[0,3,42] <= 0
- ev_energy_level_max[0,3,43]: energy[0,3,43] <= 0
- ev_energy_level_max[0,3,44]: energy[0,3,44] <= 0
- ev_energy_level_max[0,3,45]: energy[0,3,45] <= 0
- ev_energy_level_max[0,3,46]: energy[0,3,46] <= 0
- ev_energy_level_max[0,3,47]: energy[0,3,47] <= 0
- ev_energy_level_max[0,3,48]: energy[0,3,48] <= 0
- ev_energy_level_max[0,3,49]: energy[0,3,49] <= 0
- ev_energy_level_max[0,3,50]: energy[0,3,50] <= 0
- ev_energy_level_max[0,3,51]: energy[0,3,51] <= 0
- ev_energy_level_max[0,3,52]: energy[0,3,52] <= 0
- ev_energy_level_max[0,3,53]: energy[0,3,53] <= 0
- ev_energy_level_max[0,3,54]: energy[0,3,54] <= 0
- ev_energy_level_max[0,3,55]: energy[0,3,55] <= 0
- ev_energy_level_max[0,3,56]: energy[0,3,56] <= 0
- ev_energy_level_max[0,3,57]: energy[0,3,57] <= 0
- ev_energy_level_max[0,3,58]: energy[0,3,58] <= 0
- ev_energy_level_max[0,3,59]: energy[0,3,59] <= 0
- ev_energy_level_max[0,3,60]: energy[0,3,60] <= 0
- ev_energy_level_max[0,3,61]: energy[0,3,61] <= 0
- ev_energy_level_max[0,3,62]: energy[0,3,62] <= 0
- ev_energy_level_max[0,3,63]: energy[0,3,63] <= 0
- ev_energy_level_max[0,3,64]: energy[0,3,64] <= 0
- ev_energy_level_max[0,3,65]: energy[0,3,65] <= 0
- ev_energy_level_max[0,3,66]: energy[0,3,66] <= 0
- ev_energy_level_max[0,3,67]: energy[0,3,67] <= 0
- ev_energy_level_max[0,3,68]: energy[0,3,68] <= 0
- ev_energy_level_max[0,3,69]: energy[0,3,69] <= 0
- ev_energy_level_max[0,3,70]: energy[0,3,70] <= 0
- ev_energy_level_max[0,3,71]: energy[0,3,71] <= 0
- ev_energy_level_max[0,3,72]: energy[0,3,72] <= 0
- ev_energy_level_max[0,3,73]: energy[0,3,73] <= 0
- ev_energy_level_max[0,3,74]: energy[0,3,74] <= 0
- ev_energy_level_max[0,3,75]: energy[0,3,75] <= 0
- ev_energy_level_max[0,3,76]: energy[0,3,76] <= 0
- ev_energy_level_max[0,3,77]: energy[0,3,77] <= 0
- ev_energy_level_max[0,3,78]: energy[0,3,78] <= 0
- ev_energy_level_max[0,3,79]: energy[0,3,79] <= 0
- ev_energy_level_max[0,3,80]: energy[0,3,80] <= 0
- ev_energy_level_max[0,3,81]: energy[0,3,81] <= 0
- ev_energy_level_max[0,3,82]: energy[0,3,82] <= 0
- ev_energy_level_max[0,3,83]: energy[0,3,83] <= 0
- ev_energy_level_max[0,3,84]: energy[0,3,84] <= 0
- ev_energy_level_max[0,3,85]: energy[0,3,85] <= 0
- ev_energy_level_max[0,3,86]: energy[0,3,86] <= 0
- ev_energy_level_max[0,3,87]: energy[0,3,87] <= 0
- ev_energy_level_max[0,3,88]: energy[0,3,88] <= 0
- ev_energy_level_max[0,3,89]: energy[0,3,89] <= 0
- ev_energy_level_max[0,3,90]: energy[0,3,90] <= 0
- ev_energy_level_max[0,3,91]: energy[0,3,91] <= 0
- ev_energy_level_max[0,3,92]: energy[0,3,92] <= 0
- ev_energy_level_max[0,3,93]: energy[0,3,93] <= 0
- ev_energy_level_max[0,3,94]: energy[0,3,94] <= 0
- ev_energy_level_max[0,3,95]: energy[0,3,95] <= 0
- ev_energy_level_max[0,3,96]: energy[0,3,96] <= 0
- ev_energy_level_max[0,3,97]: energy[0,3,97] <= 0
- ev_energy_level_max[0,3,98]: energy[0,3,98] <= 0
- ev_energy_level_max[0,3,99]: energy[0,3,99] <= 0
- ev_energy_level_max[0,3,100]: energy[0,3,100] <= 0
- ev_energy_level_max[0,3,101]: energy[0,3,101] <= 0
- ev_energy_level_max[0,3,102]: energy[0,3,102] <= 0
- ev_energy_level_max[0,3,103]: energy[0,3,103] <= 0
- ev_energy_level_max[0,3,104]: energy[0,3,104] <= 0
- ev_energy_level_max[0,3,105]: energy[0,3,105] <= 0
- ev_energy_level_max[0,3,106]: energy[0,3,106] <= 0
- ev_energy_level_max[0,3,107]: energy[0,3,107] <= 0
- ev_energy_level_max[0,3,108]: energy[0,3,108] <= 0
- ev_energy_level_max[0,3,109]: energy[0,3,109] <= 0
- ev_energy_level_max[0,3,110]: energy[0,3,110] <= 0
- ev_energy_level_max[0,3,111]: energy[0,3,111] <= 0
-=======
- ev_energy_level_max[0,3,12]: energy[0,3,12] <= 57.5
- ev_energy_level_max[0,3,13]: energy[0,3,13] <= 57.5
- ev_energy_level_max[0,3,14]: energy[0,3,14] <= 57.5
- ev_energy_level_max[0,3,15]: energy[0,3,15] <= 57.5
- ev_energy_level_max[0,3,16]: energy[0,3,16] <= 57.5
+ ev_energy_level_max[0,3,14]: energy[0,3,14] <= 0
+ ev_energy_level_max[0,3,15]: energy[0,3,15] <= 0
+ ev_energy_level_max[0,3,16]: energy[0,3,16] <= 0
+ ev_energy_level_max[0,3,17]: energy[0,3,17] <= 0
  ev_energy_level_max[0,3,18]: energy[0,3,18] <= 0
  ev_energy_level_max[0,3,19]: energy[0,3,19] <= 0
  ev_energy_level_max[0,3,20]: energy[0,3,20] <= 0
  ev_energy_level_max[0,3,21]: energy[0,3,21] <= 0
  ev_energy_level_max[0,3,22]: energy[0,3,22] <= 0
  ev_energy_level_max[0,3,23]: energy[0,3,23] <= 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,4,0]: energy[0,4,0] <= 0
  ev_energy_level_max[0,4,1]: energy[0,4,1] <= 0
  ev_energy_level_max[0,4,2]: energy[0,4,2] <= 0
  ev_energy_level_max[0,4,3]: energy[0,4,3] <= 0
  ev_energy_level_max[0,4,4]: energy[0,4,4] <= 0
  ev_energy_level_max[0,4,5]: energy[0,4,5] <= 0
-<<<<<<< HEAD
  ev_energy_level_max[0,4,6]: energy[0,4,6] <= 0
  ev_energy_level_max[0,4,7]: energy[0,4,7] <= 0
- ev_energy_level_max[0,4,8]: energy[0,4,8] <= 0
- ev_energy_level_max[0,4,9]: energy[0,4,9] <= 0
- ev_energy_level_max[0,4,10]: energy[0,4,10] <= 0
- ev_energy_level_max[0,4,11]: energy[0,4,11] <= 0
- ev_energy_level_max[0,4,12]: energy[0,4,12] <= 0
- ev_energy_level_max[0,4,13]: energy[0,4,13] <= 0
- ev_energy_level_max[0,4,14]: energy[0,4,14] <= 0
- ev_energy_level_max[0,4,15]: energy[0,4,15] <= 0
-=======
- ev_energy_level_max[0,4,6]: energy[0,4,6] <= 64
- ev_energy_level_max[0,4,7]: energy[0,4,7] <= 64
- ev_energy_level_max[0,4,8]: energy[0,4,8] <= 64
- ev_energy_level_max[0,4,9]: energy[0,4,9] <= 64
- ev_energy_level_max[0,4,10]: energy[0,4,10] <= 64
- ev_energy_level_max[0,4,11]: energy[0,4,11] <= 64
- ev_energy_level_max[0,4,12]: energy[0,4,12] <= 64
- ev_energy_level_max[0,4,13]: energy[0,4,13] <= 64
- ev_energy_level_max[0,4,14]: energy[0,4,14] <= 64
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
+ ev_energy_level_max[0,4,8]: energy[0,4,8] <= 57.5
+ ev_energy_level_max[0,4,9]: energy[0,4,9] <= 57.5
+ ev_energy_level_max[0,4,10]: energy[0,4,10] <= 57.5
+ ev_energy_level_max[0,4,11]: energy[0,4,11] <= 57.5
+ ev_energy_level_max[0,4,12]: energy[0,4,12] <= 57.5
+ ev_energy_level_max[0,4,13]: energy[0,4,13] <= 57.5
+ ev_energy_level_max[0,4,14]: energy[0,4,14] <= 57.5
  ev_energy_level_max[0,4,16]: energy[0,4,16] <= 0
  ev_energy_level_max[0,4,17]: energy[0,4,17] <= 0
  ev_energy_level_max[0,4,18]: energy[0,4,18] <= 0
@@ -24336,112 +13109,22 @@ Subject To
  ev_energy_level_max[0,4,21]: energy[0,4,21] <= 0
  ev_energy_level_max[0,4,22]: energy[0,4,22] <= 0
  ev_energy_level_max[0,4,23]: energy[0,4,23] <= 0
-<<<<<<< HEAD
- ev_energy_level_max[0,4,24]: energy[0,4,24] <= 0
- ev_energy_level_max[0,4,25]: energy[0,4,25] <= 64.8
- ev_energy_level_max[0,4,26]: energy[0,4,26] <= 64.8
- ev_energy_level_max[0,4,27]: energy[0,4,27] <= 64.8
- ev_energy_level_max[0,4,28]: energy[0,4,28] <= 64.8
- ev_energy_level_max[0,4,29]: energy[0,4,29] <= 64.8
- ev_energy_level_max[0,4,30]: energy[0,4,30] <= 64.8
- ev_energy_level_max[0,4,31]: energy[0,4,31] <= 64.8
- ev_energy_level_max[0,4,32]: energy[0,4,32] <= 64.8
- ev_energy_level_max[0,4,33]: energy[0,4,33] <= 64.8
- ev_energy_level_max[0,4,34]: energy[0,4,34] <= 64.8
- ev_energy_level_max[0,4,35]: energy[0,4,35] <= 64.8
- ev_energy_level_max[0,4,36]: energy[0,4,36] <= 64.8
- ev_energy_level_max[0,4,37]: energy[0,4,37] <= 64.8
- ev_energy_level_max[0,4,38]: energy[0,4,38] <= 64.8
- ev_energy_level_max[0,4,39]: energy[0,4,39] <= 64.8
- ev_energy_level_max[0,4,40]: energy[0,4,40] <= 64.8
- ev_energy_level_max[0,4,41]: energy[0,4,41] <= 64.8
- ev_energy_level_max[0,4,42]: energy[0,4,42] <= 64.8
- ev_energy_level_max[0,4,43]: energy[0,4,43] <= 64.8
- ev_energy_level_max[0,4,44]: energy[0,4,44] <= 64.8
- ev_energy_level_max[0,4,45]: energy[0,4,45] <= 64.8
- ev_energy_level_max[0,4,46]: energy[0,4,46] <= 64.8
- ev_energy_level_max[0,4,47]: energy[0,4,47] <= 64.8
- ev_energy_level_max[0,4,48]: energy[0,4,48] <= 64.8
- ev_energy_level_max[0,4,50]: energy[0,4,50] <= 0
- ev_energy_level_max[0,4,51]: energy[0,4,51] <= 0
- ev_energy_level_max[0,4,52]: energy[0,4,52] <= 0
- ev_energy_level_max[0,4,53]: energy[0,4,53] <= 0
- ev_energy_level_max[0,4,54]: energy[0,4,54] <= 0
- ev_energy_level_max[0,4,55]: energy[0,4,55] <= 0
- ev_energy_level_max[0,4,56]: energy[0,4,56] <= 0
- ev_energy_level_max[0,4,57]: energy[0,4,57] <= 0
- ev_energy_level_max[0,4,58]: energy[0,4,58] <= 0
- ev_energy_level_max[0,4,59]: energy[0,4,59] <= 0
- ev_energy_level_max[0,4,60]: energy[0,4,60] <= 0
- ev_energy_level_max[0,4,61]: energy[0,4,61] <= 0
- ev_energy_level_max[0,4,62]: energy[0,4,62] <= 0
- ev_energy_level_max[0,4,63]: energy[0,4,63] <= 0
- ev_energy_level_max[0,4,64]: energy[0,4,64] <= 0
- ev_energy_level_max[0,4,65]: energy[0,4,65] <= 0
- ev_energy_level_max[0,4,66]: energy[0,4,66] <= 0
- ev_energy_level_max[0,4,67]: energy[0,4,67] <= 0
- ev_energy_level_max[0,4,68]: energy[0,4,68] <= 0
- ev_energy_level_max[0,4,69]: energy[0,4,69] <= 0
- ev_energy_level_max[0,4,70]: energy[0,4,70] <= 0
- ev_energy_level_max[0,4,71]: energy[0,4,71] <= 0
- ev_energy_level_max[0,4,72]: energy[0,4,72] <= 0
- ev_energy_level_max[0,4,73]: energy[0,4,73] <= 0
- ev_energy_level_max[0,4,74]: energy[0,4,74] <= 0
- ev_energy_level_max[0,4,75]: energy[0,4,75] <= 0
- ev_energy_level_max[0,4,76]: energy[0,4,76] <= 0
- ev_energy_level_max[0,4,77]: energy[0,4,77] <= 0
- ev_energy_level_max[0,4,78]: energy[0,4,78] <= 0
- ev_energy_level_max[0,4,79]: energy[0,4,79] <= 0
- ev_energy_level_max[0,4,80]: energy[0,4,80] <= 0
- ev_energy_level_max[0,4,81]: energy[0,4,81] <= 0
- ev_energy_level_max[0,4,82]: energy[0,4,82] <= 0
- ev_energy_level_max[0,4,83]: energy[0,4,83] <= 0
- ev_energy_level_max[0,4,84]: energy[0,4,84] <= 0
- ev_energy_level_max[0,4,85]: energy[0,4,85] <= 0
- ev_energy_level_max[0,4,86]: energy[0,4,86] <= 0
- ev_energy_level_max[0,4,87]: energy[0,4,87] <= 0
- ev_energy_level_max[0,4,88]: energy[0,4,88] <= 0
- ev_energy_level_max[0,4,89]: energy[0,4,89] <= 0
- ev_energy_level_max[0,4,90]: energy[0,4,90] <= 0
- ev_energy_level_max[0,4,91]: energy[0,4,91] <= 0
- ev_energy_level_max[0,4,92]: energy[0,4,92] <= 0
- ev_energy_level_max[0,4,93]: energy[0,4,93] <= 0
- ev_energy_level_max[0,4,94]: energy[0,4,94] <= 0
- ev_energy_level_max[0,4,95]: energy[0,4,95] <= 0
- ev_energy_level_max[0,4,96]: energy[0,4,96] <= 0
- ev_energy_level_max[0,4,97]: energy[0,4,97] <= 0
- ev_energy_level_max[0,4,98]: energy[0,4,98] <= 0
- ev_energy_level_max[0,4,99]: energy[0,4,99] <= 0
- ev_energy_level_max[0,4,100]: energy[0,4,100] <= 0
- ev_energy_level_max[0,4,101]: energy[0,4,101] <= 0
- ev_energy_level_max[0,4,102]: energy[0,4,102] <= 0
- ev_energy_level_max[0,4,103]: energy[0,4,103] <= 0
- ev_energy_level_max[0,4,104]: energy[0,4,104] <= 0
- ev_energy_level_max[0,4,105]: energy[0,4,105] <= 0
- ev_energy_level_max[0,4,106]: energy[0,4,106] <= 0
- ev_energy_level_max[0,4,107]: energy[0,4,107] <= 0
- ev_energy_level_max[0,4,108]: energy[0,4,108] <= 0
- ev_energy_level_max[0,4,109]: energy[0,4,109] <= 0
- ev_energy_level_max[0,4,110]: energy[0,4,110] <= 0
- ev_energy_level_max[0,4,111]: energy[0,4,111] <= 0
-=======
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,5,0]: energy[0,5,0] <= 0
  ev_energy_level_max[0,5,1]: energy[0,5,1] <= 0
  ev_energy_level_max[0,5,2]: energy[0,5,2] <= 0
  ev_energy_level_max[0,5,3]: energy[0,5,3] <= 0
  ev_energy_level_max[0,5,4]: energy[0,5,4] <= 0
- ev_energy_level_max[0,5,5]: energy[0,5,5] <= 0
- ev_energy_level_max[0,5,6]: energy[0,5,6] <= 46.3
- ev_energy_level_max[0,5,7]: energy[0,5,7] <= 46.3
- ev_energy_level_max[0,5,8]: energy[0,5,8] <= 46.3
- ev_energy_level_max[0,5,9]: energy[0,5,9] <= 46.3
- ev_energy_level_max[0,5,10]: energy[0,5,10] <= 46.3
- ev_energy_level_max[0,5,11]: energy[0,5,11] <= 46.3
- ev_energy_level_max[0,5,12]: energy[0,5,12] <= 46.3
- ev_energy_level_max[0,5,13]: energy[0,5,13] <= 46.3
- ev_energy_level_max[0,5,14]: energy[0,5,14] <= 46.3
- ev_energy_level_max[0,5,15]: energy[0,5,15] <= 46.3
+ ev_energy_level_max[0,5,5]: energy[0,5,5] <= 58
+ ev_energy_level_max[0,5,6]: energy[0,5,6] <= 58
+ ev_energy_level_max[0,5,7]: energy[0,5,7] <= 58
+ ev_energy_level_max[0,5,8]: energy[0,5,8] <= 58
+ ev_energy_level_max[0,5,9]: energy[0,5,9] <= 58
+ ev_energy_level_max[0,5,10]: energy[0,5,10] <= 58
+ ev_energy_level_max[0,5,11]: energy[0,5,11] <= 58
+ ev_energy_level_max[0,5,12]: energy[0,5,12] <= 58
+ ev_energy_level_max[0,5,13]: energy[0,5,13] <= 58
+ ev_energy_level_max[0,5,15]: energy[0,5,15] <= 0
+ ev_energy_level_max[0,5,16]: energy[0,5,16] <= 0
  ev_energy_level_max[0,5,17]: energy[0,5,17] <= 0
  ev_energy_level_max[0,5,18]: energy[0,5,18] <= 0
  ev_energy_level_max[0,5,19]: energy[0,5,19] <= 0
@@ -24449,217 +13132,35 @@ Subject To
  ev_energy_level_max[0,5,21]: energy[0,5,21] <= 0
  ev_energy_level_max[0,5,22]: energy[0,5,22] <= 0
  ev_energy_level_max[0,5,23]: energy[0,5,23] <= 0
-<<<<<<< HEAD
- ev_energy_level_max[0,5,24]: energy[0,5,24] <= 0
- ev_energy_level_max[0,5,25]: energy[0,5,25] <= 0
- ev_energy_level_max[0,5,26]: energy[0,5,26] <= 0
- ev_energy_level_max[0,5,27]: energy[0,5,27] <= 0
- ev_energy_level_max[0,5,28]: energy[0,5,28] <= 0
- ev_energy_level_max[0,5,29]: energy[0,5,29] <= 0
- ev_energy_level_max[0,5,30]: energy[0,5,30] <= 0
- ev_energy_level_max[0,5,31]: energy[0,5,31] <= 0
- ev_energy_level_max[0,5,32]: energy[0,5,32] <= 0
- ev_energy_level_max[0,5,33]: energy[0,5,33] <= 0
- ev_energy_level_max[0,5,34]: energy[0,5,34] <= 0
- ev_energy_level_max[0,5,35]: energy[0,5,35] <= 0
- ev_energy_level_max[0,5,36]: energy[0,5,36] <= 0
- ev_energy_level_max[0,5,37]: energy[0,5,37] <= 0
- ev_energy_level_max[0,5,38]: energy[0,5,38] <= 0
- ev_energy_level_max[0,5,39]: energy[0,5,39] <= 0
- ev_energy_level_max[0,5,40]: energy[0,5,40] <= 57.5
- ev_energy_level_max[0,5,41]: energy[0,5,41] <= 57.5
- ev_energy_level_max[0,5,42]: energy[0,5,42] <= 57.5
- ev_energy_level_max[0,5,43]: energy[0,5,43] <= 57.5
- ev_energy_level_max[0,5,44]: energy[0,5,44] <= 57.5
- ev_energy_level_max[0,5,45]: energy[0,5,45] <= 57.5
- ev_energy_level_max[0,5,46]: energy[0,5,46] <= 57.5
- ev_energy_level_max[0,5,47]: energy[0,5,47] <= 57.5
- ev_energy_level_max[0,5,48]: energy[0,5,48] <= 57.5
- ev_energy_level_max[0,5,49]: energy[0,5,49] <= 57.5
- ev_energy_level_max[0,5,50]: energy[0,5,50] <= 57.5
- ev_energy_level_max[0,5,51]: energy[0,5,51] <= 57.5
- ev_energy_level_max[0,5,52]: energy[0,5,52] <= 57.5
- ev_energy_level_max[0,5,53]: energy[0,5,53] <= 57.5
- ev_energy_level_max[0,5,54]: energy[0,5,54] <= 57.5
- ev_energy_level_max[0,5,56]: energy[0,5,56] <= 0
- ev_energy_level_max[0,5,57]: energy[0,5,57] <= 0
- ev_energy_level_max[0,5,58]: energy[0,5,58] <= 0
- ev_energy_level_max[0,5,59]: energy[0,5,59] <= 0
- ev_energy_level_max[0,5,60]: energy[0,5,60] <= 0
- ev_energy_level_max[0,5,61]: energy[0,5,61] <= 0
- ev_energy_level_max[0,5,62]: energy[0,5,62] <= 0
- ev_energy_level_max[0,5,63]: energy[0,5,63] <= 0
- ev_energy_level_max[0,5,64]: energy[0,5,64] <= 0
- ev_energy_level_max[0,5,65]: energy[0,5,65] <= 0
- ev_energy_level_max[0,5,66]: energy[0,5,66] <= 0
- ev_energy_level_max[0,5,67]: energy[0,5,67] <= 0
- ev_energy_level_max[0,5,68]: energy[0,5,68] <= 0
- ev_energy_level_max[0,5,69]: energy[0,5,69] <= 0
- ev_energy_level_max[0,5,70]: energy[0,5,70] <= 0
- ev_energy_level_max[0,5,71]: energy[0,5,71] <= 0
- ev_energy_level_max[0,5,72]: energy[0,5,72] <= 0
- ev_energy_level_max[0,5,73]: energy[0,5,73] <= 0
- ev_energy_level_max[0,5,74]: energy[0,5,74] <= 0
- ev_energy_level_max[0,5,75]: energy[0,5,75] <= 0
- ev_energy_level_max[0,5,76]: energy[0,5,76] <= 0
- ev_energy_level_max[0,5,77]: energy[0,5,77] <= 0
- ev_energy_level_max[0,5,78]: energy[0,5,78] <= 0
- ev_energy_level_max[0,5,79]: energy[0,5,79] <= 0
- ev_energy_level_max[0,5,80]: energy[0,5,80] <= 0
- ev_energy_level_max[0,5,81]: energy[0,5,81] <= 0
- ev_energy_level_max[0,5,82]: energy[0,5,82] <= 0
- ev_energy_level_max[0,5,83]: energy[0,5,83] <= 0
- ev_energy_level_max[0,5,84]: energy[0,5,84] <= 0
- ev_energy_level_max[0,5,85]: energy[0,5,85] <= 0
- ev_energy_level_max[0,5,86]: energy[0,5,86] <= 0
- ev_energy_level_max[0,5,87]: energy[0,5,87] <= 0
- ev_energy_level_max[0,5,88]: energy[0,5,88] <= 0
- ev_energy_level_max[0,5,89]: energy[0,5,89] <= 0
- ev_energy_level_max[0,5,90]: energy[0,5,90] <= 0
- ev_energy_level_max[0,5,91]: energy[0,5,91] <= 0
- ev_energy_level_max[0,5,92]: energy[0,5,92] <= 0
- ev_energy_level_max[0,5,93]: energy[0,5,93] <= 0
- ev_energy_level_max[0,5,94]: energy[0,5,94] <= 0
- ev_energy_level_max[0,5,95]: energy[0,5,95] <= 0
- ev_energy_level_max[0,5,96]: energy[0,5,96] <= 0
- ev_energy_level_max[0,5,97]: energy[0,5,97] <= 0
- ev_energy_level_max[0,5,98]: energy[0,5,98] <= 0
- ev_energy_level_max[0,5,99]: energy[0,5,99] <= 0
- ev_energy_level_max[0,5,100]: energy[0,5,100] <= 0
- ev_energy_level_max[0,5,101]: energy[0,5,101] <= 0
- ev_energy_level_max[0,5,102]: energy[0,5,102] <= 0
- ev_energy_level_max[0,5,103]: energy[0,5,103] <= 0
- ev_energy_level_max[0,5,104]: energy[0,5,104] <= 0
- ev_energy_level_max[0,5,105]: energy[0,5,105] <= 0
- ev_energy_level_max[0,5,106]: energy[0,5,106] <= 0
- ev_energy_level_max[0,5,107]: energy[0,5,107] <= 0
- ev_energy_level_max[0,5,108]: energy[0,5,108] <= 0
- ev_energy_level_max[0,5,109]: energy[0,5,109] <= 0
- ev_energy_level_max[0,5,110]: energy[0,5,110] <= 0
- ev_energy_level_max[0,5,111]: energy[0,5,111] <= 0
-=======
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,6,0]: energy[0,6,0] <= 0
  ev_energy_level_max[0,6,1]: energy[0,6,1] <= 0
  ev_energy_level_max[0,6,2]: energy[0,6,2] <= 0
  ev_energy_level_max[0,6,3]: energy[0,6,3] <= 0
  ev_energy_level_max[0,6,4]: energy[0,6,4] <= 0
- ev_energy_level_max[0,6,5]: energy[0,6,5] <= 57.5
- ev_energy_level_max[0,6,6]: energy[0,6,6] <= 57.5
- ev_energy_level_max[0,6,7]: energy[0,6,7] <= 57.5
- ev_energy_level_max[0,6,8]: energy[0,6,8] <= 57.5
- ev_energy_level_max[0,6,9]: energy[0,6,9] <= 57.5
- ev_energy_level_max[0,6,10]: energy[0,6,10] <= 57.5
- ev_energy_level_max[0,6,11]: energy[0,6,11] <= 57.5
- ev_energy_level_max[0,6,12]: energy[0,6,12] <= 57.5
- ev_energy_level_max[0,6,13]: energy[0,6,13] <= 57.5
- ev_energy_level_max[0,6,14]: energy[0,6,14] <= 57.5
- ev_energy_level_max[0,6,15]: energy[0,6,15] <= 57.5
- ev_energy_level_max[0,6,16]: energy[0,6,16] <= 57.5
+ ev_energy_level_max[0,6,5]: energy[0,6,5] <= 46.3
+ ev_energy_level_max[0,6,6]: energy[0,6,6] <= 46.3
+ ev_energy_level_max[0,6,7]: energy[0,6,7] <= 46.3
+ ev_energy_level_max[0,6,8]: energy[0,6,8] <= 46.3
+ ev_energy_level_max[0,6,9]: energy[0,6,9] <= 46.3
+ ev_energy_level_max[0,6,10]: energy[0,6,10] <= 46.3
+ ev_energy_level_max[0,6,11]: energy[0,6,11] <= 46.3
+ ev_energy_level_max[0,6,12]: energy[0,6,12] <= 46.3
+ ev_energy_level_max[0,6,13]: energy[0,6,13] <= 46.3
+ ev_energy_level_max[0,6,14]: energy[0,6,14] <= 46.3
+ ev_energy_level_max[0,6,16]: energy[0,6,16] <= 0
+ ev_energy_level_max[0,6,17]: energy[0,6,17] <= 0
  ev_energy_level_max[0,6,18]: energy[0,6,18] <= 0
  ev_energy_level_max[0,6,19]: energy[0,6,19] <= 0
  ev_energy_level_max[0,6,20]: energy[0,6,20] <= 0
  ev_energy_level_max[0,6,21]: energy[0,6,21] <= 0
-<<<<<<< HEAD
- ev_energy_level_max[0,6,22]: energy[0,6,22] <= 58
- ev_energy_level_max[0,6,23]: energy[0,6,23] <= 58
- ev_energy_level_max[0,6,24]: energy[0,6,24] <= 58
- ev_energy_level_max[0,6,25]: energy[0,6,25] <= 58
- ev_energy_level_max[0,6,26]: energy[0,6,26] <= 58
- ev_energy_level_max[0,6,27]: energy[0,6,27] <= 58
- ev_energy_level_max[0,6,28]: energy[0,6,28] <= 58
- ev_energy_level_max[0,6,29]: energy[0,6,29] <= 58
- ev_energy_level_max[0,6,30]: energy[0,6,30] <= 58
- ev_energy_level_max[0,6,31]: energy[0,6,31] <= 58
- ev_energy_level_max[0,6,32]: energy[0,6,32] <= 58
- ev_energy_level_max[0,6,33]: energy[0,6,33] <= 58
- ev_energy_level_max[0,6,34]: energy[0,6,34] <= 58
- ev_energy_level_max[0,6,35]: energy[0,6,35] <= 58
- ev_energy_level_max[0,6,36]: energy[0,6,36] <= 58
- ev_energy_level_max[0,6,37]: energy[0,6,37] <= 58
- ev_energy_level_max[0,6,38]: energy[0,6,38] <= 58
- ev_energy_level_max[0,6,39]: energy[0,6,39] <= 58
- ev_energy_level_max[0,6,40]: energy[0,6,40] <= 58
- ev_energy_level_max[0,6,41]: energy[0,6,41] <= 58
- ev_energy_level_max[0,6,42]: energy[0,6,42] <= 58
- ev_energy_level_max[0,6,43]: energy[0,6,43] <= 58
- ev_energy_level_max[0,6,44]: energy[0,6,44] <= 58
- ev_energy_level_max[0,6,45]: energy[0,6,45] <= 58
- ev_energy_level_max[0,6,46]: energy[0,6,46] <= 58
- ev_energy_level_max[0,6,48]: energy[0,6,48] <= 0
- ev_energy_level_max[0,6,49]: energy[0,6,49] <= 0
- ev_energy_level_max[0,6,50]: energy[0,6,50] <= 0
- ev_energy_level_max[0,6,51]: energy[0,6,51] <= 0
- ev_energy_level_max[0,6,52]: energy[0,6,52] <= 46.3
- ev_energy_level_max[0,6,53]: energy[0,6,53] <= 46.3
- ev_energy_level_max[0,6,54]: energy[0,6,54] <= 46.3
- ev_energy_level_max[0,6,55]: energy[0,6,55] <= 46.3
- ev_energy_level_max[0,6,56]: energy[0,6,56] <= 46.3
- ev_energy_level_max[0,6,57]: energy[0,6,57] <= 46.3
- ev_energy_level_max[0,6,58]: energy[0,6,58] <= 46.3
- ev_energy_level_max[0,6,59]: energy[0,6,59] <= 46.3
- ev_energy_level_max[0,6,60]: energy[0,6,60] <= 46.3
- ev_energy_level_max[0,6,61]: energy[0,6,61] <= 46.3
- ev_energy_level_max[0,6,62]: energy[0,6,62] <= 46.3
- ev_energy_level_max[0,6,63]: energy[0,6,63] <= 46.3
- ev_energy_level_max[0,6,64]: energy[0,6,64] <= 46.3
- ev_energy_level_max[0,6,65]: energy[0,6,65] <= 46.3
- ev_energy_level_max[0,6,67]: energy[0,6,67] <= 0
- ev_energy_level_max[0,6,68]: energy[0,6,68] <= 0
- ev_energy_level_max[0,6,69]: energy[0,6,69] <= 0
- ev_energy_level_max[0,6,70]: energy[0,6,70] <= 0
- ev_energy_level_max[0,6,71]: energy[0,6,71] <= 0
- ev_energy_level_max[0,6,72]: energy[0,6,72] <= 0
- ev_energy_level_max[0,6,73]: energy[0,6,73] <= 0
- ev_energy_level_max[0,6,74]: energy[0,6,74] <= 0
- ev_energy_level_max[0,6,75]: energy[0,6,75] <= 0
- ev_energy_level_max[0,6,76]: energy[0,6,76] <= 0
- ev_energy_level_max[0,6,77]: energy[0,6,77] <= 0
- ev_energy_level_max[0,6,78]: energy[0,6,78] <= 0
- ev_energy_level_max[0,6,79]: energy[0,6,79] <= 0
- ev_energy_level_max[0,6,80]: energy[0,6,80] <= 0
- ev_energy_level_max[0,6,81]: energy[0,6,81] <= 0
- ev_energy_level_max[0,6,82]: energy[0,6,82] <= 0
- ev_energy_level_max[0,6,83]: energy[0,6,83] <= 0
- ev_energy_level_max[0,6,84]: energy[0,6,84] <= 0
- ev_energy_level_max[0,6,85]: energy[0,6,85] <= 0
- ev_energy_level_max[0,6,86]: energy[0,6,86] <= 0
- ev_energy_level_max[0,6,87]: energy[0,6,87] <= 0
- ev_energy_level_max[0,6,88]: energy[0,6,88] <= 0
- ev_energy_level_max[0,6,89]: energy[0,6,89] <= 0
- ev_energy_level_max[0,6,90]: energy[0,6,90] <= 0
- ev_energy_level_max[0,6,91]: energy[0,6,91] <= 0
- ev_energy_level_max[0,6,92]: energy[0,6,92] <= 0
- ev_energy_level_max[0,6,93]: energy[0,6,93] <= 0
- ev_energy_level_max[0,6,94]: energy[0,6,94] <= 0
- ev_energy_level_max[0,6,95]: energy[0,6,95] <= 0
- ev_energy_level_max[0,6,96]: energy[0,6,96] <= 0
- ev_energy_level_max[0,6,97]: energy[0,6,97] <= 0
- ev_energy_level_max[0,6,98]: energy[0,6,98] <= 0
- ev_energy_level_max[0,6,99]: energy[0,6,99] <= 0
- ev_energy_level_max[0,6,100]: energy[0,6,100] <= 0
- ev_energy_level_max[0,6,101]: energy[0,6,101] <= 0
- ev_energy_level_max[0,6,102]: energy[0,6,102] <= 0
- ev_energy_level_max[0,6,103]: energy[0,6,103] <= 0
- ev_energy_level_max[0,6,104]: energy[0,6,104] <= 0
- ev_energy_level_max[0,6,105]: energy[0,6,105] <= 0
- ev_energy_level_max[0,6,106]: energy[0,6,106] <= 0
- ev_energy_level_max[0,6,107]: energy[0,6,107] <= 0
- ev_energy_level_max[0,6,108]: energy[0,6,108] <= 0
- ev_energy_level_max[0,6,109]: energy[0,6,109] <= 0
- ev_energy_level_max[0,6,110]: energy[0,6,110] <= 0
- ev_energy_level_max[0,6,111]: energy[0,6,111] <= 0
-=======
  ev_energy_level_max[0,6,22]: energy[0,6,22] <= 0
  ev_energy_level_max[0,6,23]: energy[0,6,23] <= 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,7,0]: energy[0,7,0] <= 0
  ev_energy_level_max[0,7,1]: energy[0,7,1] <= 0
  ev_energy_level_max[0,7,2]: energy[0,7,2] <= 0
  ev_energy_level_max[0,7,3]: energy[0,7,3] <= 0
  ev_energy_level_max[0,7,4]: energy[0,7,4] <= 0
  ev_energy_level_max[0,7,5]: energy[0,7,5] <= 0
-<<<<<<< HEAD
  ev_energy_level_max[0,7,6]: energy[0,7,6] <= 0
  ev_energy_level_max[0,7,7]: energy[0,7,7] <= 0
  ev_energy_level_max[0,7,8]: energy[0,7,8] <= 0
@@ -24670,112 +13171,7 @@ Subject To
  ev_energy_level_max[0,7,13]: energy[0,7,13] <= 0
  ev_energy_level_max[0,7,14]: energy[0,7,14] <= 0
  ev_energy_level_max[0,7,15]: energy[0,7,15] <= 0
- ev_energy_level_max[0,7,16]: energy[0,7,16] <= 58
- ev_energy_level_max[0,7,17]: energy[0,7,17] <= 58
- ev_energy_level_max[0,7,18]: energy[0,7,18] <= 58
- ev_energy_level_max[0,7,19]: energy[0,7,19] <= 58
- ev_energy_level_max[0,7,20]: energy[0,7,20] <= 58
- ev_energy_level_max[0,7,21]: energy[0,7,21] <= 58
- ev_energy_level_max[0,7,22]: energy[0,7,22] <= 58
- ev_energy_level_max[0,7,23]: energy[0,7,23] <= 58
- ev_energy_level_max[0,7,24]: energy[0,7,24] <= 58
- ev_energy_level_max[0,7,25]: energy[0,7,25] <= 58
- ev_energy_level_max[0,7,26]: energy[0,7,26] <= 58
- ev_energy_level_max[0,7,27]: energy[0,7,27] <= 58
- ev_energy_level_max[0,7,28]: energy[0,7,28] <= 58
- ev_energy_level_max[0,7,29]: energy[0,7,29] <= 58
- ev_energy_level_max[0,7,30]: energy[0,7,30] <= 58
- ev_energy_level_max[0,7,31]: energy[0,7,31] <= 58
- ev_energy_level_max[0,7,32]: energy[0,7,32] <= 58
- ev_energy_level_max[0,7,33]: energy[0,7,33] <= 58
- ev_energy_level_max[0,7,34]: energy[0,7,34] <= 58
- ev_energy_level_max[0,7,35]: energy[0,7,35] <= 58
- ev_energy_level_max[0,7,36]: energy[0,7,36] <= 58
- ev_energy_level_max[0,7,37]: energy[0,7,37] <= 58
- ev_energy_level_max[0,7,38]: energy[0,7,38] <= 58
- ev_energy_level_max[0,7,39]: energy[0,7,39] <= 58
- ev_energy_level_max[0,7,40]: energy[0,7,40] <= 58
- ev_energy_level_max[0,7,41]: energy[0,7,41] <= 58
- ev_energy_level_max[0,7,42]: energy[0,7,42] <= 58
- ev_energy_level_max[0,7,43]: energy[0,7,43] <= 58
- ev_energy_level_max[0,7,44]: energy[0,7,44] <= 58
- ev_energy_level_max[0,7,45]: energy[0,7,45] <= 58
- ev_energy_level_max[0,7,46]: energy[0,7,46] <= 58
- ev_energy_level_max[0,7,47]: energy[0,7,47] <= 58
- ev_energy_level_max[0,7,48]: energy[0,7,48] <= 58
- ev_energy_level_max[0,7,49]: energy[0,7,49] <= 58
- ev_energy_level_max[0,7,50]: energy[0,7,50] <= 58
- ev_energy_level_max[0,7,51]: energy[0,7,51] <= 58
- ev_energy_level_max[0,7,52]: energy[0,7,52] <= 58
- ev_energy_level_max[0,7,53]: energy[0,7,53] <= 58
- ev_energy_level_max[0,7,54]: energy[0,7,54] <= 58
- ev_energy_level_max[0,7,55]: energy[0,7,55] <= 58
- ev_energy_level_max[0,7,56]: energy[0,7,56] <= 58
- ev_energy_level_max[0,7,57]: energy[0,7,57] <= 58
- ev_energy_level_max[0,7,58]: energy[0,7,58] <= 58
- ev_energy_level_max[0,7,59]: energy[0,7,59] <= 58
- ev_energy_level_max[0,7,60]: energy[0,7,60] <= 58
- ev_energy_level_max[0,7,61]: energy[0,7,61] <= 58
- ev_energy_level_max[0,7,62]: energy[0,7,62] <= 58
- ev_energy_level_max[0,7,63]: energy[0,7,63] <= 58
- ev_energy_level_max[0,7,64]: energy[0,7,64] <= 58
- ev_energy_level_max[0,7,65]: energy[0,7,65] <= 58
- ev_energy_level_max[0,7,66]: energy[0,7,66] <= 58
- ev_energy_level_max[0,7,68]: energy[0,7,68] <= 0
- ev_energy_level_max[0,7,69]: energy[0,7,69] <= 0
- ev_energy_level_max[0,7,70]: energy[0,7,70] <= 0
- ev_energy_level_max[0,7,71]: energy[0,7,71] <= 0
- ev_energy_level_max[0,7,72]: energy[0,7,72] <= 0
- ev_energy_level_max[0,7,73]: energy[0,7,73] <= 0
- ev_energy_level_max[0,7,74]: energy[0,7,74] <= 0
- ev_energy_level_max[0,7,75]: energy[0,7,75] <= 0
- ev_energy_level_max[0,7,76]: energy[0,7,76] <= 0
- ev_energy_level_max[0,7,77]: energy[0,7,77] <= 0
- ev_energy_level_max[0,7,78]: energy[0,7,78] <= 0
- ev_energy_level_max[0,7,79]: energy[0,7,79] <= 0
- ev_energy_level_max[0,7,80]: energy[0,7,80] <= 0
- ev_energy_level_max[0,7,81]: energy[0,7,81] <= 0
- ev_energy_level_max[0,7,82]: energy[0,7,82] <= 0
- ev_energy_level_max[0,7,83]: energy[0,7,83] <= 0
- ev_energy_level_max[0,7,84]: energy[0,7,84] <= 0
- ev_energy_level_max[0,7,85]: energy[0,7,85] <= 0
- ev_energy_level_max[0,7,86]: energy[0,7,86] <= 0
- ev_energy_level_max[0,7,87]: energy[0,7,87] <= 0
- ev_energy_level_max[0,7,88]: energy[0,7,88] <= 0
- ev_energy_level_max[0,7,89]: energy[0,7,89] <= 0
- ev_energy_level_max[0,7,90]: energy[0,7,90] <= 0
- ev_energy_level_max[0,7,91]: energy[0,7,91] <= 0
- ev_energy_level_max[0,7,92]: energy[0,7,92] <= 0
- ev_energy_level_max[0,7,93]: energy[0,7,93] <= 0
- ev_energy_level_max[0,7,94]: energy[0,7,94] <= 0
- ev_energy_level_max[0,7,95]: energy[0,7,95] <= 0
- ev_energy_level_max[0,7,96]: energy[0,7,96] <= 0
- ev_energy_level_max[0,7,97]: energy[0,7,97] <= 0
- ev_energy_level_max[0,7,98]: energy[0,7,98] <= 0
- ev_energy_level_max[0,7,99]: energy[0,7,99] <= 0
- ev_energy_level_max[0,7,100]: energy[0,7,100] <= 0
- ev_energy_level_max[0,7,101]: energy[0,7,101] <= 0
- ev_energy_level_max[0,7,102]: energy[0,7,102] <= 0
- ev_energy_level_max[0,7,103]: energy[0,7,103] <= 0
- ev_energy_level_max[0,7,104]: energy[0,7,104] <= 0
- ev_energy_level_max[0,7,105]: energy[0,7,105] <= 0
- ev_energy_level_max[0,7,106]: energy[0,7,106] <= 0
- ev_energy_level_max[0,7,107]: energy[0,7,107] <= 0
- ev_energy_level_max[0,7,108]: energy[0,7,108] <= 0
- ev_energy_level_max[0,7,109]: energy[0,7,109] <= 0
- ev_energy_level_max[0,7,110]: energy[0,7,110] <= 0
- ev_energy_level_max[0,7,111]: energy[0,7,111] <= 0
-=======
- ev_energy_level_max[0,7,6]: energy[0,7,6] <= 57.5
- ev_energy_level_max[0,7,7]: energy[0,7,7] <= 57.5
- ev_energy_level_max[0,7,8]: energy[0,7,8] <= 57.5
- ev_energy_level_max[0,7,9]: energy[0,7,9] <= 57.5
- ev_energy_level_max[0,7,10]: energy[0,7,10] <= 57.5
- ev_energy_level_max[0,7,11]: energy[0,7,11] <= 57.5
- ev_energy_level_max[0,7,12]: energy[0,7,12] <= 57.5
- ev_energy_level_max[0,7,13]: energy[0,7,13] <= 57.5
- ev_energy_level_max[0,7,14]: energy[0,7,14] <= 57.5
- ev_energy_level_max[0,7,15]: energy[0,7,15] <= 57.5
+ ev_energy_level_max[0,7,16]: energy[0,7,16] <= 0
  ev_energy_level_max[0,7,17]: energy[0,7,17] <= 0
  ev_energy_level_max[0,7,18]: energy[0,7,18] <= 0
  ev_energy_level_max[0,7,19]: energy[0,7,19] <= 0
@@ -24783,37 +13179,22 @@ Subject To
  ev_energy_level_max[0,7,21]: energy[0,7,21] <= 0
  ev_energy_level_max[0,7,22]: energy[0,7,22] <= 0
  ev_energy_level_max[0,7,23]: energy[0,7,23] <= 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,8,0]: energy[0,8,0] <= 0
  ev_energy_level_max[0,8,1]: energy[0,8,1] <= 0
  ev_energy_level_max[0,8,2]: energy[0,8,2] <= 0
  ev_energy_level_max[0,8,3]: energy[0,8,3] <= 0
- ev_energy_level_max[0,8,4]: energy[0,8,4] <= 0
- ev_energy_level_max[0,8,5]: energy[0,8,5] <= 0
-<<<<<<< HEAD
- ev_energy_level_max[0,8,6]: energy[0,8,6] <= 0
- ev_energy_level_max[0,8,7]: energy[0,8,7] <= 0
- ev_energy_level_max[0,8,8]: energy[0,8,8] <= 0
- ev_energy_level_max[0,8,9]: energy[0,8,9] <= 0
- ev_energy_level_max[0,8,10]: energy[0,8,10] <= 0
- ev_energy_level_max[0,8,11]: energy[0,8,11] <= 0
- ev_energy_level_max[0,8,12]: energy[0,8,12] <= 0
- ev_energy_level_max[0,8,13]: energy[0,8,13] <= 0
- ev_energy_level_max[0,8,14]: energy[0,8,14] <= 0
- ev_energy_level_max[0,8,15]: energy[0,8,15] <= 0
+ ev_energy_level_max[0,8,4]: energy[0,8,4] <= 58
+ ev_energy_level_max[0,8,5]: energy[0,8,5] <= 58
+ ev_energy_level_max[0,8,6]: energy[0,8,6] <= 58
+ ev_energy_level_max[0,8,7]: energy[0,8,7] <= 58
+ ev_energy_level_max[0,8,8]: energy[0,8,8] <= 58
+ ev_energy_level_max[0,8,9]: energy[0,8,9] <= 58
+ ev_energy_level_max[0,8,10]: energy[0,8,10] <= 58
+ ev_energy_level_max[0,8,11]: energy[0,8,11] <= 58
+ ev_energy_level_max[0,8,12]: energy[0,8,12] <= 58
+ ev_energy_level_max[0,8,13]: energy[0,8,13] <= 58
+ ev_energy_level_max[0,8,14]: energy[0,8,14] <= 58
  ev_energy_level_max[0,8,16]: energy[0,8,16] <= 0
-=======
- ev_energy_level_max[0,8,6]: energy[0,8,6] <= 64.8
- ev_energy_level_max[0,8,7]: energy[0,8,7] <= 64.8
- ev_energy_level_max[0,8,8]: energy[0,8,8] <= 64.8
- ev_energy_level_max[0,8,9]: energy[0,8,9] <= 64.8
- ev_energy_level_max[0,8,10]: energy[0,8,10] <= 64.8
- ev_energy_level_max[0,8,11]: energy[0,8,11] <= 64.8
- ev_energy_level_max[0,8,12]: energy[0,8,12] <= 64.8
- ev_energy_level_max[0,8,13]: energy[0,8,13] <= 64.8
- ev_energy_level_max[0,8,14]: energy[0,8,14] <= 64.8
- ev_energy_level_max[0,8,15]: energy[0,8,15] <= 64.8
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,8,17]: energy[0,8,17] <= 0
  ev_energy_level_max[0,8,18]: energy[0,8,18] <= 0
  ev_energy_level_max[0,8,19]: energy[0,8,19] <= 0
@@ -24821,97 +13202,6 @@ Subject To
  ev_energy_level_max[0,8,21]: energy[0,8,21] <= 0
  ev_energy_level_max[0,8,22]: energy[0,8,22] <= 0
  ev_energy_level_max[0,8,23]: energy[0,8,23] <= 0
-<<<<<<< HEAD
- ev_energy_level_max[0,8,24]: energy[0,8,24] <= 0
- ev_energy_level_max[0,8,25]: energy[0,8,25] <= 0
- ev_energy_level_max[0,8,26]: energy[0,8,26] <= 0
- ev_energy_level_max[0,8,27]: energy[0,8,27] <= 0
- ev_energy_level_max[0,8,28]: energy[0,8,28] <= 0
- ev_energy_level_max[0,8,29]: energy[0,8,29] <= 0
- ev_energy_level_max[0,8,30]: energy[0,8,30] <= 0
- ev_energy_level_max[0,8,31]: energy[0,8,31] <= 0
- ev_energy_level_max[0,8,32]: energy[0,8,32] <= 0
- ev_energy_level_max[0,8,33]: energy[0,8,33] <= 0
- ev_energy_level_max[0,8,34]: energy[0,8,34] <= 0
- ev_energy_level_max[0,8,35]: energy[0,8,35] <= 0
- ev_energy_level_max[0,8,36]: energy[0,8,36] <= 0
- ev_energy_level_max[0,8,37]: energy[0,8,37] <= 0
- ev_energy_level_max[0,8,38]: energy[0,8,38] <= 0
- ev_energy_level_max[0,8,39]: energy[0,8,39] <= 0
- ev_energy_level_max[0,8,40]: energy[0,8,40] <= 0
- ev_energy_level_max[0,8,41]: energy[0,8,41] <= 0
- ev_energy_level_max[0,8,42]: energy[0,8,42] <= 0
- ev_energy_level_max[0,8,43]: energy[0,8,43] <= 0
- ev_energy_level_max[0,8,44]: energy[0,8,44] <= 0
- ev_energy_level_max[0,8,45]: energy[0,8,45] <= 0
- ev_energy_level_max[0,8,46]: energy[0,8,46] <= 0
- ev_energy_level_max[0,8,47]: energy[0,8,47] <= 0
- ev_energy_level_max[0,8,48]: energy[0,8,48] <= 0
- ev_energy_level_max[0,8,49]: energy[0,8,49] <= 0
- ev_energy_level_max[0,8,50]: energy[0,8,50] <= 0
- ev_energy_level_max[0,8,51]: energy[0,8,51] <= 0
- ev_energy_level_max[0,8,52]: energy[0,8,52] <= 0
- ev_energy_level_max[0,8,53]: energy[0,8,53] <= 0
- ev_energy_level_max[0,8,54]: energy[0,8,54] <= 0
- ev_energy_level_max[0,8,55]: energy[0,8,55] <= 0
- ev_energy_level_max[0,8,56]: energy[0,8,56] <= 0
- ev_energy_level_max[0,8,57]: energy[0,8,57] <= 0
- ev_energy_level_max[0,8,58]: energy[0,8,58] <= 0
- ev_energy_level_max[0,8,59]: energy[0,8,59] <= 0
- ev_energy_level_max[0,8,60]: energy[0,8,60] <= 0
- ev_energy_level_max[0,8,61]: energy[0,8,61] <= 0
- ev_energy_level_max[0,8,62]: energy[0,8,62] <= 0
- ev_energy_level_max[0,8,63]: energy[0,8,63] <= 0
- ev_energy_level_max[0,8,64]: energy[0,8,64] <= 0
- ev_energy_level_max[0,8,65]: energy[0,8,65] <= 0
- ev_energy_level_max[0,8,66]: energy[0,8,66] <= 0
- ev_energy_level_max[0,8,67]: energy[0,8,67] <= 0
- ev_energy_level_max[0,8,68]: energy[0,8,68] <= 0
- ev_energy_level_max[0,8,69]: energy[0,8,69] <= 0
- ev_energy_level_max[0,8,70]: energy[0,8,70] <= 0
- ev_energy_level_max[0,8,71]: energy[0,8,71] <= 0
- ev_energy_level_max[0,8,72]: energy[0,8,72] <= 0
- ev_energy_level_max[0,8,73]: energy[0,8,73] <= 0
- ev_energy_level_max[0,8,74]: energy[0,8,74] <= 0
- ev_energy_level_max[0,8,75]: energy[0,8,75] <= 0
- ev_energy_level_max[0,8,76]: energy[0,8,76] <= 0
- ev_energy_level_max[0,8,77]: energy[0,8,77] <= 0
- ev_energy_level_max[0,8,78]: energy[0,8,78] <= 0
- ev_energy_level_max[0,8,79]: energy[0,8,79] <= 0
- ev_energy_level_max[0,8,80]: energy[0,8,80] <= 0
- ev_energy_level_max[0,8,81]: energy[0,8,81] <= 0
- ev_energy_level_max[0,8,82]: energy[0,8,82] <= 0
- ev_energy_level_max[0,8,83]: energy[0,8,83] <= 0
- ev_energy_level_max[0,8,84]: energy[0,8,84] <= 0
- ev_energy_level_max[0,8,85]: energy[0,8,85] <= 0
- ev_energy_level_max[0,8,86]: energy[0,8,86] <= 0
- ev_energy_level_max[0,8,87]: energy[0,8,87] <= 0
- ev_energy_level_max[0,8,88]: energy[0,8,88] <= 0
- ev_energy_level_max[0,8,89]: energy[0,8,89] <= 0
- ev_energy_level_max[0,8,90]: energy[0,8,90] <= 0
- ev_energy_level_max[0,8,91]: energy[0,8,91] <= 0
- ev_energy_level_max[0,8,92]: energy[0,8,92] <= 0
- ev_energy_level_max[0,8,93]: energy[0,8,93] <= 0
- ev_energy_level_max[0,8,94]: energy[0,8,94] <= 0
- ev_energy_level_max[0,8,95]: energy[0,8,95] <= 0
- ev_energy_level_max[0,8,96]: energy[0,8,96] <= 0
- ev_energy_level_max[0,8,97]: energy[0,8,97] <= 0
- ev_energy_level_max[0,8,98]: energy[0,8,98] <= 0
- ev_energy_level_max[0,8,99]: energy[0,8,99] <= 0
- ev_energy_level_max[0,8,100]: energy[0,8,100] <= 0
- ev_energy_level_max[0,8,101]: energy[0,8,101] <= 0
- ev_energy_level_max[0,8,102]: energy[0,8,102] <= 0
- ev_energy_level_max[0,8,103]: energy[0,8,103] <= 0
- ev_energy_level_max[0,8,104]: energy[0,8,104] <= 0
- ev_energy_level_max[0,8,105]: energy[0,8,105] <= 0
- ev_energy_level_max[0,8,106]: energy[0,8,106] <= 0
- ev_energy_level_max[0,8,107]: energy[0,8,107] <= 0
- ev_energy_level_max[0,8,108]: energy[0,8,108] <= 0
- ev_energy_level_max[0,8,109]: energy[0,8,109] <= 0
- ev_energy_level_max[0,8,110]: energy[0,8,110] <= 0
- ev_energy_level_max[0,8,111]: energy[0,8,111] <= 0
-=======
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,9,0]: energy[0,9,0] <= 0
  ev_energy_level_max[0,9,1]: energy[0,9,1] <= 0
  ev_energy_level_max[0,9,2]: energy[0,9,2] <= 0
@@ -24919,120 +13209,14 @@ Subject To
  ev_energy_level_max[0,9,4]: energy[0,9,4] <= 0
  ev_energy_level_max[0,9,5]: energy[0,9,5] <= 0
  ev_energy_level_max[0,9,6]: energy[0,9,6] <= 0
-<<<<<<< HEAD
  ev_energy_level_max[0,9,7]: energy[0,9,7] <= 0
- ev_energy_level_max[0,9,8]: energy[0,9,8] <= 0
- ev_energy_level_max[0,9,9]: energy[0,9,9] <= 0
- ev_energy_level_max[0,9,10]: energy[0,9,10] <= 0
- ev_energy_level_max[0,9,11]: energy[0,9,11] <= 0
- ev_energy_level_max[0,9,12]: energy[0,9,12] <= 0
- ev_energy_level_max[0,9,13]: energy[0,9,13] <= 0
- ev_energy_level_max[0,9,14]: energy[0,9,14] <= 0
+ ev_energy_level_max[0,9,8]: energy[0,9,8] <= 57.5
+ ev_energy_level_max[0,9,9]: energy[0,9,9] <= 57.5
+ ev_energy_level_max[0,9,10]: energy[0,9,10] <= 57.5
+ ev_energy_level_max[0,9,11]: energy[0,9,11] <= 57.5
+ ev_energy_level_max[0,9,12]: energy[0,9,12] <= 57.5
+ ev_energy_level_max[0,9,13]: energy[0,9,13] <= 57.5
  ev_energy_level_max[0,9,15]: energy[0,9,15] <= 0
- ev_energy_level_max[0,9,16]: energy[0,9,16] <= 57.5
- ev_energy_level_max[0,9,17]: energy[0,9,17] <= 57.5
- ev_energy_level_max[0,9,18]: energy[0,9,18] <= 57.5
- ev_energy_level_max[0,9,19]: energy[0,9,19] <= 57.5
- ev_energy_level_max[0,9,20]: energy[0,9,20] <= 57.5
- ev_energy_level_max[0,9,21]: energy[0,9,21] <= 57.5
- ev_energy_level_max[0,9,22]: energy[0,9,22] <= 57.5
- ev_energy_level_max[0,9,23]: energy[0,9,23] <= 57.5
- ev_energy_level_max[0,9,24]: energy[0,9,24] <= 57.5
- ev_energy_level_max[0,9,25]: energy[0,9,25] <= 57.5
- ev_energy_level_max[0,9,26]: energy[0,9,26] <= 57.5
- ev_energy_level_max[0,9,27]: energy[0,9,27] <= 57.5
- ev_energy_level_max[0,9,28]: energy[0,9,28] <= 57.5
- ev_energy_level_max[0,9,29]: energy[0,9,29] <= 57.5
- ev_energy_level_max[0,9,30]: energy[0,9,30] <= 57.5
- ev_energy_level_max[0,9,31]: energy[0,9,31] <= 57.5
- ev_energy_level_max[0,9,32]: energy[0,9,32] <= 57.5
- ev_energy_level_max[0,9,33]: energy[0,9,33] <= 57.5
- ev_energy_level_max[0,9,34]: energy[0,9,34] <= 57.5
- ev_energy_level_max[0,9,35]: energy[0,9,35] <= 57.5
- ev_energy_level_max[0,9,36]: energy[0,9,36] <= 57.5
- ev_energy_level_max[0,9,37]: energy[0,9,37] <= 57.5
- ev_energy_level_max[0,9,38]: energy[0,9,38] <= 57.5
- ev_energy_level_max[0,9,39]: energy[0,9,39] <= 57.5
- ev_energy_level_max[0,9,40]: energy[0,9,40] <= 57.5
- ev_energy_level_max[0,9,41]: energy[0,9,41] <= 57.5
- ev_energy_level_max[0,9,42]: energy[0,9,42] <= 57.5
- ev_energy_level_max[0,9,43]: energy[0,9,43] <= 57.5
- ev_energy_level_max[0,9,44]: energy[0,9,44] <= 57.5
- ev_energy_level_max[0,9,45]: energy[0,9,45] <= 57.5
- ev_energy_level_max[0,9,46]: energy[0,9,46] <= 57.5
- ev_energy_level_max[0,9,47]: energy[0,9,47] <= 57.5
- ev_energy_level_max[0,9,48]: energy[0,9,48] <= 57.5
- ev_energy_level_max[0,9,49]: energy[0,9,49] <= 57.5
- ev_energy_level_max[0,9,50]: energy[0,9,50] <= 57.5
- ev_energy_level_max[0,9,51]: energy[0,9,51] <= 57.5
- ev_energy_level_max[0,9,52]: energy[0,9,52] <= 57.5
- ev_energy_level_max[0,9,53]: energy[0,9,53] <= 57.5
- ev_energy_level_max[0,9,54]: energy[0,9,54] <= 57.5
- ev_energy_level_max[0,9,55]: energy[0,9,55] <= 57.5
- ev_energy_level_max[0,9,56]: energy[0,9,56] <= 57.5
- ev_energy_level_max[0,9,57]: energy[0,9,57] <= 57.5
- ev_energy_level_max[0,9,58]: energy[0,9,58] <= 57.5
- ev_energy_level_max[0,9,59]: energy[0,9,59] <= 57.5
- ev_energy_level_max[0,9,60]: energy[0,9,60] <= 57.5
- ev_energy_level_max[0,9,62]: energy[0,9,62] <= 0
- ev_energy_level_max[0,9,63]: energy[0,9,63] <= 0
- ev_energy_level_max[0,9,64]: energy[0,9,64] <= 0
- ev_energy_level_max[0,9,65]: energy[0,9,65] <= 0
- ev_energy_level_max[0,9,66]: energy[0,9,66] <= 0
- ev_energy_level_max[0,9,67]: energy[0,9,67] <= 0
- ev_energy_level_max[0,9,68]: energy[0,9,68] <= 0
- ev_energy_level_max[0,9,69]: energy[0,9,69] <= 0
- ev_energy_level_max[0,9,70]: energy[0,9,70] <= 0
- ev_energy_level_max[0,9,71]: energy[0,9,71] <= 0
- ev_energy_level_max[0,9,72]: energy[0,9,72] <= 0
- ev_energy_level_max[0,9,73]: energy[0,9,73] <= 0
- ev_energy_level_max[0,9,74]: energy[0,9,74] <= 0
- ev_energy_level_max[0,9,75]: energy[0,9,75] <= 0
- ev_energy_level_max[0,9,76]: energy[0,9,76] <= 0
- ev_energy_level_max[0,9,77]: energy[0,9,77] <= 0
- ev_energy_level_max[0,9,78]: energy[0,9,78] <= 0
- ev_energy_level_max[0,9,79]: energy[0,9,79] <= 0
- ev_energy_level_max[0,9,80]: energy[0,9,80] <= 0
- ev_energy_level_max[0,9,81]: energy[0,9,81] <= 0
- ev_energy_level_max[0,9,82]: energy[0,9,82] <= 0
- ev_energy_level_max[0,9,83]: energy[0,9,83] <= 0
- ev_energy_level_max[0,9,84]: energy[0,9,84] <= 0
- ev_energy_level_max[0,9,85]: energy[0,9,85] <= 0
- ev_energy_level_max[0,9,86]: energy[0,9,86] <= 0
- ev_energy_level_max[0,9,87]: energy[0,9,87] <= 0
- ev_energy_level_max[0,9,88]: energy[0,9,88] <= 0
- ev_energy_level_max[0,9,89]: energy[0,9,89] <= 0
- ev_energy_level_max[0,9,90]: energy[0,9,90] <= 0
- ev_energy_level_max[0,9,91]: energy[0,9,91] <= 0
- ev_energy_level_max[0,9,92]: energy[0,9,92] <= 0
- ev_energy_level_max[0,9,93]: energy[0,9,93] <= 0
- ev_energy_level_max[0,9,94]: energy[0,9,94] <= 0
- ev_energy_level_max[0,9,95]: energy[0,9,95] <= 0
- ev_energy_level_max[0,9,96]: energy[0,9,96] <= 0
- ev_energy_level_max[0,9,97]: energy[0,9,97] <= 0
- ev_energy_level_max[0,9,98]: energy[0,9,98] <= 0
- ev_energy_level_max[0,9,99]: energy[0,9,99] <= 0
- ev_energy_level_max[0,9,100]: energy[0,9,100] <= 0
- ev_energy_level_max[0,9,101]: energy[0,9,101] <= 0
- ev_energy_level_max[0,9,102]: energy[0,9,102] <= 0
- ev_energy_level_max[0,9,103]: energy[0,9,103] <= 0
- ev_energy_level_max[0,9,104]: energy[0,9,104] <= 0
- ev_energy_level_max[0,9,105]: energy[0,9,105] <= 0
- ev_energy_level_max[0,9,106]: energy[0,9,106] <= 0
- ev_energy_level_max[0,9,107]: energy[0,9,107] <= 0
- ev_energy_level_max[0,9,108]: energy[0,9,108] <= 0
- ev_energy_level_max[0,9,109]: energy[0,9,109] <= 0
- ev_energy_level_max[0,9,110]: energy[0,9,110] <= 0
- ev_energy_level_max[0,9,111]: energy[0,9,111] <= 0
-=======
- ev_energy_level_max[0,9,7]: energy[0,9,7] <= 64.8
- ev_energy_level_max[0,9,8]: energy[0,9,8] <= 64.8
- ev_energy_level_max[0,9,9]: energy[0,9,9] <= 64.8
- ev_energy_level_max[0,9,10]: energy[0,9,10] <= 64.8
- ev_energy_level_max[0,9,11]: energy[0,9,11] <= 64.8
- ev_energy_level_max[0,9,12]: energy[0,9,12] <= 64.8
- ev_energy_level_max[0,9,13]: energy[0,9,13] <= 64.8
- ev_energy_level_max[0,9,14]: energy[0,9,14] <= 64.8
  ev_energy_level_max[0,9,16]: energy[0,9,16] <= 0
  ev_energy_level_max[0,9,17]: energy[0,9,17] <= 0
  ev_energy_level_max[0,9,18]: energy[0,9,18] <= 0
@@ -25041,7 +13225,6 @@ Subject To
  ev_energy_level_max[0,9,21]: energy[0,9,21] <= 0
  ev_energy_level_max[0,9,22]: energy[0,9,22] <= 0
  ev_energy_level_max[0,9,23]: energy[0,9,23] <= 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,10,0]: energy[0,10,0] <= 0
  ev_energy_level_max[0,10,1]: energy[0,10,1] <= 0
  ev_energy_level_max[0,10,2]: energy[0,10,2] <= 0
@@ -25049,121 +13232,15 @@ Subject To
  ev_energy_level_max[0,10,4]: energy[0,10,4] <= 0
  ev_energy_level_max[0,10,5]: energy[0,10,5] <= 0
  ev_energy_level_max[0,10,6]: energy[0,10,6] <= 0
-<<<<<<< HEAD
- ev_energy_level_max[0,10,7]: energy[0,10,7] <= 0
- ev_energy_level_max[0,10,8]: energy[0,10,8] <= 0
- ev_energy_level_max[0,10,9]: energy[0,10,9] <= 0
- ev_energy_level_max[0,10,10]: energy[0,10,10] <= 0
- ev_energy_level_max[0,10,11]: energy[0,10,11] <= 0
- ev_energy_level_max[0,10,12]: energy[0,10,12] <= 0
- ev_energy_level_max[0,10,13]: energy[0,10,13] <= 0
- ev_energy_level_max[0,10,14]: energy[0,10,14] <= 0
- ev_energy_level_max[0,10,15]: energy[0,10,15] <= 0
+ ev_energy_level_max[0,10,7]: energy[0,10,7] <= 58
+ ev_energy_level_max[0,10,8]: energy[0,10,8] <= 58
+ ev_energy_level_max[0,10,9]: energy[0,10,9] <= 58
+ ev_energy_level_max[0,10,10]: energy[0,10,10] <= 58
+ ev_energy_level_max[0,10,11]: energy[0,10,11] <= 58
+ ev_energy_level_max[0,10,12]: energy[0,10,12] <= 58
+ ev_energy_level_max[0,10,13]: energy[0,10,13] <= 58
+ ev_energy_level_max[0,10,14]: energy[0,10,14] <= 58
  ev_energy_level_max[0,10,16]: energy[0,10,16] <= 0
- ev_energy_level_max[0,10,17]: energy[0,10,17] <= 0
- ev_energy_level_max[0,10,18]: energy[0,10,18] <= 0
- ev_energy_level_max[0,10,19]: energy[0,10,19] <= 0
- ev_energy_level_max[0,10,20]: energy[0,10,20] <= 57.5
- ev_energy_level_max[0,10,21]: energy[0,10,21] <= 57.5
- ev_energy_level_max[0,10,22]: energy[0,10,22] <= 57.5
- ev_energy_level_max[0,10,23]: energy[0,10,23] <= 57.5
- ev_energy_level_max[0,10,24]: energy[0,10,24] <= 57.5
- ev_energy_level_max[0,10,25]: energy[0,10,25] <= 57.5
- ev_energy_level_max[0,10,26]: energy[0,10,26] <= 57.5
- ev_energy_level_max[0,10,27]: energy[0,10,27] <= 57.5
- ev_energy_level_max[0,10,28]: energy[0,10,28] <= 57.5
- ev_energy_level_max[0,10,29]: energy[0,10,29] <= 57.5
- ev_energy_level_max[0,10,30]: energy[0,10,30] <= 57.5
- ev_energy_level_max[0,10,31]: energy[0,10,31] <= 57.5
- ev_energy_level_max[0,10,32]: energy[0,10,32] <= 57.5
- ev_energy_level_max[0,10,33]: energy[0,10,33] <= 57.5
- ev_energy_level_max[0,10,34]: energy[0,10,34] <= 57.5
- ev_energy_level_max[0,10,35]: energy[0,10,35] <= 57.5
- ev_energy_level_max[0,10,36]: energy[0,10,36] <= 57.5
- ev_energy_level_max[0,10,37]: energy[0,10,37] <= 57.5
- ev_energy_level_max[0,10,38]: energy[0,10,38] <= 57.5
- ev_energy_level_max[0,10,39]: energy[0,10,39] <= 57.5
- ev_energy_level_max[0,10,40]: energy[0,10,40] <= 57.5
- ev_energy_level_max[0,10,41]: energy[0,10,41] <= 57.5
- ev_energy_level_max[0,10,42]: energy[0,10,42] <= 57.5
- ev_energy_level_max[0,10,44]: energy[0,10,44] <= 0
- ev_energy_level_max[0,10,45]: energy[0,10,45] <= 0
- ev_energy_level_max[0,10,46]: energy[0,10,46] <= 0
- ev_energy_level_max[0,10,47]: energy[0,10,47] <= 0
- ev_energy_level_max[0,10,48]: energy[0,10,48] <= 0
- ev_energy_level_max[0,10,49]: energy[0,10,49] <= 0
- ev_energy_level_max[0,10,50]: energy[0,10,50] <= 0
- ev_energy_level_max[0,10,51]: energy[0,10,51] <= 0
- ev_energy_level_max[0,10,52]: energy[0,10,52] <= 0
- ev_energy_level_max[0,10,53]: energy[0,10,53] <= 0
- ev_energy_level_max[0,10,54]: energy[0,10,54] <= 0
- ev_energy_level_max[0,10,55]: energy[0,10,55] <= 0
- ev_energy_level_max[0,10,56]: energy[0,10,56] <= 0
- ev_energy_level_max[0,10,57]: energy[0,10,57] <= 0
- ev_energy_level_max[0,10,58]: energy[0,10,58] <= 0
- ev_energy_level_max[0,10,59]: energy[0,10,59] <= 0
- ev_energy_level_max[0,10,60]: energy[0,10,60] <= 0
- ev_energy_level_max[0,10,61]: energy[0,10,61] <= 0
- ev_energy_level_max[0,10,62]: energy[0,10,62] <= 0
- ev_energy_level_max[0,10,63]: energy[0,10,63] <= 0
- ev_energy_level_max[0,10,64]: energy[0,10,64] <= 0
- ev_energy_level_max[0,10,65]: energy[0,10,65] <= 0
- ev_energy_level_max[0,10,66]: energy[0,10,66] <= 0
- ev_energy_level_max[0,10,67]: energy[0,10,67] <= 0
- ev_energy_level_max[0,10,68]: energy[0,10,68] <= 0
- ev_energy_level_max[0,10,69]: energy[0,10,69] <= 0
- ev_energy_level_max[0,10,70]: energy[0,10,70] <= 0
- ev_energy_level_max[0,10,71]: energy[0,10,71] <= 0
- ev_energy_level_max[0,10,72]: energy[0,10,72] <= 0
- ev_energy_level_max[0,10,73]: energy[0,10,73] <= 0
- ev_energy_level_max[0,10,74]: energy[0,10,74] <= 0
- ev_energy_level_max[0,10,75]: energy[0,10,75] <= 0
- ev_energy_level_max[0,10,76]: energy[0,10,76] <= 0
- ev_energy_level_max[0,10,77]: energy[0,10,77] <= 0
- ev_energy_level_max[0,10,78]: energy[0,10,78] <= 0
- ev_energy_level_max[0,10,79]: energy[0,10,79] <= 0
- ev_energy_level_max[0,10,80]: energy[0,10,80] <= 0
- ev_energy_level_max[0,10,81]: energy[0,10,81] <= 0
- ev_energy_level_max[0,10,82]: energy[0,10,82] <= 0
- ev_energy_level_max[0,10,83]: energy[0,10,83] <= 0
- ev_energy_level_max[0,10,84]: energy[0,10,84] <= 0
- ev_energy_level_max[0,10,85]: energy[0,10,85] <= 0
- ev_energy_level_max[0,10,86]: energy[0,10,86] <= 0
- ev_energy_level_max[0,10,87]: energy[0,10,87] <= 0
- ev_energy_level_max[0,10,88]: energy[0,10,88] <= 0
- ev_energy_level_max[0,10,89]: energy[0,10,89] <= 0
- ev_energy_level_max[0,10,90]: energy[0,10,90] <= 0
- ev_energy_level_max[0,10,91]: energy[0,10,91] <= 0
- ev_energy_level_max[0,10,92]: energy[0,10,92] <= 0
- ev_energy_level_max[0,10,93]: energy[0,10,93] <= 0
- ev_energy_level_max[0,10,94]: energy[0,10,94] <= 0
- ev_energy_level_max[0,10,95]: energy[0,10,95] <= 0
- ev_energy_level_max[0,10,96]: energy[0,10,96] <= 0
- ev_energy_level_max[0,10,97]: energy[0,10,97] <= 0
- ev_energy_level_max[0,10,98]: energy[0,10,98] <= 0
- ev_energy_level_max[0,10,99]: energy[0,10,99] <= 0
- ev_energy_level_max[0,10,100]: energy[0,10,100] <= 0
- ev_energy_level_max[0,10,101]: energy[0,10,101] <= 0
- ev_energy_level_max[0,10,102]: energy[0,10,102] <= 0
- ev_energy_level_max[0,10,103]: energy[0,10,103] <= 0
- ev_energy_level_max[0,10,104]: energy[0,10,104] <= 0
- ev_energy_level_max[0,10,105]: energy[0,10,105] <= 0
- ev_energy_level_max[0,10,106]: energy[0,10,106] <= 0
- ev_energy_level_max[0,10,107]: energy[0,10,107] <= 0
- ev_energy_level_max[0,10,108]: energy[0,10,108] <= 0
- ev_energy_level_max[0,10,109]: energy[0,10,109] <= 0
- ev_energy_level_max[0,10,110]: energy[0,10,110] <= 0
- ev_energy_level_max[0,10,111]: energy[0,10,111] <= 0
-=======
- ev_energy_level_max[0,10,7]: energy[0,10,7] <= 57.5
- ev_energy_level_max[0,10,8]: energy[0,10,8] <= 57.5
- ev_energy_level_max[0,10,9]: energy[0,10,9] <= 57.5
- ev_energy_level_max[0,10,10]: energy[0,10,10] <= 57.5
- ev_energy_level_max[0,10,11]: energy[0,10,11] <= 57.5
- ev_energy_level_max[0,10,12]: energy[0,10,12] <= 57.5
- ev_energy_level_max[0,10,13]: energy[0,10,13] <= 57.5
- ev_energy_level_max[0,10,14]: energy[0,10,14] <= 57.5
- ev_energy_level_max[0,10,15]: energy[0,10,15] <= 57.5
  ev_energy_level_max[0,10,17]: energy[0,10,17] <= 0
  ev_energy_level_max[0,10,18]: energy[0,10,18] <= 0
  ev_energy_level_max[0,10,19]: energy[0,10,19] <= 0
@@ -25171,251 +13248,35 @@ Subject To
  ev_energy_level_max[0,10,21]: energy[0,10,21] <= 0
  ev_energy_level_max[0,10,22]: energy[0,10,22] <= 0
  ev_energy_level_max[0,10,23]: energy[0,10,23] <= 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,11,0]: energy[0,11,0] <= 0
  ev_energy_level_max[0,11,1]: energy[0,11,1] <= 0
  ev_energy_level_max[0,11,2]: energy[0,11,2] <= 0
  ev_energy_level_max[0,11,3]: energy[0,11,3] <= 0
  ev_energy_level_max[0,11,4]: energy[0,11,4] <= 0
  ev_energy_level_max[0,11,5]: energy[0,11,5] <= 0
-<<<<<<< HEAD
- ev_energy_level_max[0,11,6]: energy[0,11,6] <= 0
- ev_energy_level_max[0,11,7]: energy[0,11,7] <= 0
- ev_energy_level_max[0,11,8]: energy[0,11,8] <= 0
- ev_energy_level_max[0,11,9]: energy[0,11,9] <= 0
- ev_energy_level_max[0,11,10]: energy[0,11,10] <= 0
- ev_energy_level_max[0,11,11]: energy[0,11,11] <= 0
- ev_energy_level_max[0,11,12]: energy[0,11,12] <= 0
- ev_energy_level_max[0,11,13]: energy[0,11,13] <= 0
- ev_energy_level_max[0,11,14]: energy[0,11,14] <= 0
- ev_energy_level_max[0,11,15]: energy[0,11,15] <= 0
- ev_energy_level_max[0,11,16]: energy[0,11,16] <= 0
- ev_energy_level_max[0,11,17]: energy[0,11,17] <= 57.5
- ev_energy_level_max[0,11,18]: energy[0,11,18] <= 57.5
- ev_energy_level_max[0,11,19]: energy[0,11,19] <= 57.5
- ev_energy_level_max[0,11,20]: energy[0,11,20] <= 57.5
- ev_energy_level_max[0,11,21]: energy[0,11,21] <= 57.5
- ev_energy_level_max[0,11,22]: energy[0,11,22] <= 57.5
- ev_energy_level_max[0,11,23]: energy[0,11,23] <= 57.5
- ev_energy_level_max[0,11,24]: energy[0,11,24] <= 57.5
- ev_energy_level_max[0,11,25]: energy[0,11,25] <= 57.5
- ev_energy_level_max[0,11,26]: energy[0,11,26] <= 57.5
- ev_energy_level_max[0,11,27]: energy[0,11,27] <= 57.5
- ev_energy_level_max[0,11,28]: energy[0,11,28] <= 57.5
- ev_energy_level_max[0,11,29]: energy[0,11,29] <= 57.5
- ev_energy_level_max[0,11,30]: energy[0,11,30] <= 57.5
- ev_energy_level_max[0,11,31]: energy[0,11,31] <= 57.5
- ev_energy_level_max[0,11,32]: energy[0,11,32] <= 57.5
- ev_energy_level_max[0,11,33]: energy[0,11,33] <= 57.5
- ev_energy_level_max[0,11,34]: energy[0,11,34] <= 57.5
- ev_energy_level_max[0,11,35]: energy[0,11,35] <= 57.5
- ev_energy_level_max[0,11,36]: energy[0,11,36] <= 57.5
- ev_energy_level_max[0,11,37]: energy[0,11,37] <= 57.5
- ev_energy_level_max[0,11,38]: energy[0,11,38] <= 57.5
- ev_energy_level_max[0,11,39]: energy[0,11,39] <= 57.5
- ev_energy_level_max[0,11,40]: energy[0,11,40] <= 57.5
- ev_energy_level_max[0,11,41]: energy[0,11,41] <= 57.5
- ev_energy_level_max[0,11,42]: energy[0,11,42] <= 57.5
- ev_energy_level_max[0,11,43]: energy[0,11,43] <= 57.5
- ev_energy_level_max[0,11,44]: energy[0,11,44] <= 57.5
- ev_energy_level_max[0,11,45]: energy[0,11,45] <= 57.5
- ev_energy_level_max[0,11,46]: energy[0,11,46] <= 57.5
- ev_energy_level_max[0,11,47]: energy[0,11,47] <= 57.5
- ev_energy_level_max[0,11,48]: energy[0,11,48] <= 57.5
- ev_energy_level_max[0,11,49]: energy[0,11,49] <= 57.5
- ev_energy_level_max[0,11,50]: energy[0,11,50] <= 57.5
- ev_energy_level_max[0,11,51]: energy[0,11,51] <= 57.5
- ev_energy_level_max[0,11,52]: energy[0,11,52] <= 57.5
- ev_energy_level_max[0,11,54]: energy[0,11,54] <= 0
- ev_energy_level_max[0,11,55]: energy[0,11,55] <= 0
- ev_energy_level_max[0,11,56]: energy[0,11,56] <= 0
- ev_energy_level_max[0,11,57]: energy[0,11,57] <= 0
- ev_energy_level_max[0,11,58]: energy[0,11,58] <= 0
- ev_energy_level_max[0,11,59]: energy[0,11,59] <= 0
- ev_energy_level_max[0,11,60]: energy[0,11,60] <= 0
- ev_energy_level_max[0,11,61]: energy[0,11,61] <= 0
- ev_energy_level_max[0,11,62]: energy[0,11,62] <= 0
- ev_energy_level_max[0,11,63]: energy[0,11,63] <= 0
- ev_energy_level_max[0,11,64]: energy[0,11,64] <= 0
- ev_energy_level_max[0,11,65]: energy[0,11,65] <= 0
- ev_energy_level_max[0,11,66]: energy[0,11,66] <= 0
- ev_energy_level_max[0,11,67]: energy[0,11,67] <= 0
- ev_energy_level_max[0,11,68]: energy[0,11,68] <= 0
- ev_energy_level_max[0,11,69]: energy[0,11,69] <= 0
- ev_energy_level_max[0,11,70]: energy[0,11,70] <= 0
- ev_energy_level_max[0,11,71]: energy[0,11,71] <= 0
- ev_energy_level_max[0,11,72]: energy[0,11,72] <= 0
- ev_energy_level_max[0,11,73]: energy[0,11,73] <= 0
- ev_energy_level_max[0,11,74]: energy[0,11,74] <= 0
- ev_energy_level_max[0,11,75]: energy[0,11,75] <= 0
- ev_energy_level_max[0,11,76]: energy[0,11,76] <= 0
- ev_energy_level_max[0,11,77]: energy[0,11,77] <= 0
- ev_energy_level_max[0,11,78]: energy[0,11,78] <= 0
- ev_energy_level_max[0,11,79]: energy[0,11,79] <= 0
- ev_energy_level_max[0,11,80]: energy[0,11,80] <= 0
- ev_energy_level_max[0,11,81]: energy[0,11,81] <= 0
- ev_energy_level_max[0,11,82]: energy[0,11,82] <= 0
- ev_energy_level_max[0,11,83]: energy[0,11,83] <= 0
- ev_energy_level_max[0,11,84]: energy[0,11,84] <= 0
- ev_energy_level_max[0,11,85]: energy[0,11,85] <= 0
- ev_energy_level_max[0,11,86]: energy[0,11,86] <= 0
- ev_energy_level_max[0,11,87]: energy[0,11,87] <= 0
- ev_energy_level_max[0,11,88]: energy[0,11,88] <= 0
- ev_energy_level_max[0,11,89]: energy[0,11,89] <= 0
- ev_energy_level_max[0,11,90]: energy[0,11,90] <= 0
- ev_energy_level_max[0,11,91]: energy[0,11,91] <= 0
- ev_energy_level_max[0,11,92]: energy[0,11,92] <= 0
- ev_energy_level_max[0,11,93]: energy[0,11,93] <= 0
- ev_energy_level_max[0,11,94]: energy[0,11,94] <= 0
- ev_energy_level_max[0,11,95]: energy[0,11,95] <= 0
- ev_energy_level_max[0,11,96]: energy[0,11,96] <= 0
- ev_energy_level_max[0,11,97]: energy[0,11,97] <= 0
- ev_energy_level_max[0,11,98]: energy[0,11,98] <= 0
- ev_energy_level_max[0,11,99]: energy[0,11,99] <= 0
- ev_energy_level_max[0,11,100]: energy[0,11,100] <= 0
- ev_energy_level_max[0,11,101]: energy[0,11,101] <= 0
- ev_energy_level_max[0,11,102]: energy[0,11,102] <= 0
- ev_energy_level_max[0,11,103]: energy[0,11,103] <= 0
- ev_energy_level_max[0,11,104]: energy[0,11,104] <= 0
- ev_energy_level_max[0,11,105]: energy[0,11,105] <= 0
- ev_energy_level_max[0,11,106]: energy[0,11,106] <= 0
- ev_energy_level_max[0,11,107]: energy[0,11,107] <= 0
- ev_energy_level_max[0,11,108]: energy[0,11,108] <= 0
- ev_energy_level_max[0,11,109]: energy[0,11,109] <= 0
- ev_energy_level_max[0,11,110]: energy[0,11,110] <= 0
- ev_energy_level_max[0,11,111]: energy[0,11,111] <= 0
-=======
- ev_energy_level_max[0,11,6]: energy[0,11,6] <= 58
- ev_energy_level_max[0,11,7]: energy[0,11,7] <= 58
- ev_energy_level_max[0,11,8]: energy[0,11,8] <= 58
- ev_energy_level_max[0,11,9]: energy[0,11,9] <= 58
- ev_energy_level_max[0,11,10]: energy[0,11,10] <= 58
- ev_energy_level_max[0,11,11]: energy[0,11,11] <= 58
- ev_energy_level_max[0,11,12]: energy[0,11,12] <= 58
- ev_energy_level_max[0,11,13]: energy[0,11,13] <= 58
- ev_energy_level_max[0,11,14]: energy[0,11,14] <= 58
- ev_energy_level_max[0,11,15]: energy[0,11,15] <= 58
- ev_energy_level_max[0,11,16]: energy[0,11,16] <= 58
+ ev_energy_level_max[0,11,6]: energy[0,11,6] <= 57.5
+ ev_energy_level_max[0,11,7]: energy[0,11,7] <= 57.5
+ ev_energy_level_max[0,11,8]: energy[0,11,8] <= 57.5
+ ev_energy_level_max[0,11,9]: energy[0,11,9] <= 57.5
+ ev_energy_level_max[0,11,10]: energy[0,11,10] <= 57.5
+ ev_energy_level_max[0,11,11]: energy[0,11,11] <= 57.5
+ ev_energy_level_max[0,11,12]: energy[0,11,12] <= 57.5
+ ev_energy_level_max[0,11,13]: energy[0,11,13] <= 57.5
+ ev_energy_level_max[0,11,14]: energy[0,11,14] <= 57.5
+ ev_energy_level_max[0,11,15]: energy[0,11,15] <= 57.5
+ ev_energy_level_max[0,11,16]: energy[0,11,16] <= 57.5
  ev_energy_level_max[0,11,18]: energy[0,11,18] <= 0
  ev_energy_level_max[0,11,19]: energy[0,11,19] <= 0
  ev_energy_level_max[0,11,20]: energy[0,11,20] <= 0
  ev_energy_level_max[0,11,21]: energy[0,11,21] <= 0
  ev_energy_level_max[0,11,22]: energy[0,11,22] <= 0
  ev_energy_level_max[0,11,23]: energy[0,11,23] <= 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,12,0]: energy[0,12,0] <= 0
  ev_energy_level_max[0,12,1]: energy[0,12,1] <= 0
  ev_energy_level_max[0,12,2]: energy[0,12,2] <= 0
  ev_energy_level_max[0,12,3]: energy[0,12,3] <= 0
  ev_energy_level_max[0,12,4]: energy[0,12,4] <= 0
  ev_energy_level_max[0,12,5]: energy[0,12,5] <= 0
-<<<<<<< HEAD
- ev_energy_level_max[0,12,6]: energy[0,12,6] <= 0
- ev_energy_level_max[0,12,7]: energy[0,12,7] <= 0
- ev_energy_level_max[0,12,8]: energy[0,12,8] <= 0
- ev_energy_level_max[0,12,9]: energy[0,12,9] <= 0
- ev_energy_level_max[0,12,10]: energy[0,12,10] <= 0
- ev_energy_level_max[0,12,11]: energy[0,12,11] <= 0
- ev_energy_level_max[0,12,12]: energy[0,12,12] <= 0
- ev_energy_level_max[0,12,13]: energy[0,12,13] <= 46.3
- ev_energy_level_max[0,12,14]: energy[0,12,14] <= 46.3
- ev_energy_level_max[0,12,15]: energy[0,12,15] <= 46.3
- ev_energy_level_max[0,12,16]: energy[0,12,16] <= 46.3
- ev_energy_level_max[0,12,17]: energy[0,12,17] <= 46.3
- ev_energy_level_max[0,12,18]: energy[0,12,18] <= 46.3
- ev_energy_level_max[0,12,19]: energy[0,12,19] <= 46.3
- ev_energy_level_max[0,12,20]: energy[0,12,20] <= 46.3
- ev_energy_level_max[0,12,21]: energy[0,12,21] <= 46.3
- ev_energy_level_max[0,12,22]: energy[0,12,22] <= 46.3
- ev_energy_level_max[0,12,23]: energy[0,12,23] <= 46.3
- ev_energy_level_max[0,12,24]: energy[0,12,24] <= 46.3
- ev_energy_level_max[0,12,25]: energy[0,12,25] <= 46.3
- ev_energy_level_max[0,12,26]: energy[0,12,26] <= 46.3
- ev_energy_level_max[0,12,27]: energy[0,12,27] <= 46.3
- ev_energy_level_max[0,12,28]: energy[0,12,28] <= 46.3
- ev_energy_level_max[0,12,29]: energy[0,12,29] <= 46.3
- ev_energy_level_max[0,12,30]: energy[0,12,30] <= 46.3
- ev_energy_level_max[0,12,31]: energy[0,12,31] <= 46.3
- ev_energy_level_max[0,12,32]: energy[0,12,32] <= 46.3
- ev_energy_level_max[0,12,33]: energy[0,12,33] <= 46.3
- ev_energy_level_max[0,12,34]: energy[0,12,34] <= 46.3
- ev_energy_level_max[0,12,35]: energy[0,12,35] <= 46.3
- ev_energy_level_max[0,12,36]: energy[0,12,36] <= 46.3
- ev_energy_level_max[0,12,37]: energy[0,12,37] <= 46.3
- ev_energy_level_max[0,12,38]: energy[0,12,38] <= 46.3
- ev_energy_level_max[0,12,39]: energy[0,12,39] <= 46.3
- ev_energy_level_max[0,12,40]: energy[0,12,40] <= 46.3
- ev_energy_level_max[0,12,41]: energy[0,12,41] <= 46.3
- ev_energy_level_max[0,12,42]: energy[0,12,42] <= 46.3
- ev_energy_level_max[0,12,43]: energy[0,12,43] <= 46.3
- ev_energy_level_max[0,12,44]: energy[0,12,44] <= 46.3
- ev_energy_level_max[0,12,45]: energy[0,12,45] <= 46.3
- ev_energy_level_max[0,12,46]: energy[0,12,46] <= 46.3
- ev_energy_level_max[0,12,47]: energy[0,12,47] <= 46.3
- ev_energy_level_max[0,12,48]: energy[0,12,48] <= 46.3
- ev_energy_level_max[0,12,49]: energy[0,12,49] <= 46.3
- ev_energy_level_max[0,12,50]: energy[0,12,50] <= 46.3
- ev_energy_level_max[0,12,51]: energy[0,12,51] <= 46.3
- ev_energy_level_max[0,12,52]: energy[0,12,52] <= 46.3
- ev_energy_level_max[0,12,53]: energy[0,12,53] <= 46.3
- ev_energy_level_max[0,12,54]: energy[0,12,54] <= 46.3
- ev_energy_level_max[0,12,56]: energy[0,12,56] <= 0
- ev_energy_level_max[0,12,57]: energy[0,12,57] <= 0
- ev_energy_level_max[0,12,58]: energy[0,12,58] <= 0
- ev_energy_level_max[0,12,59]: energy[0,12,59] <= 0
- ev_energy_level_max[0,12,60]: energy[0,12,60] <= 0
- ev_energy_level_max[0,12,61]: energy[0,12,61] <= 0
- ev_energy_level_max[0,12,62]: energy[0,12,62] <= 0
- ev_energy_level_max[0,12,63]: energy[0,12,63] <= 0
- ev_energy_level_max[0,12,64]: energy[0,12,64] <= 0
- ev_energy_level_max[0,12,65]: energy[0,12,65] <= 0
- ev_energy_level_max[0,12,66]: energy[0,12,66] <= 0
- ev_energy_level_max[0,12,67]: energy[0,12,67] <= 0
- ev_energy_level_max[0,12,68]: energy[0,12,68] <= 0
- ev_energy_level_max[0,12,69]: energy[0,12,69] <= 0
- ev_energy_level_max[0,12,70]: energy[0,12,70] <= 0
- ev_energy_level_max[0,12,71]: energy[0,12,71] <= 0
- ev_energy_level_max[0,12,72]: energy[0,12,72] <= 0
- ev_energy_level_max[0,12,73]: energy[0,12,73] <= 0
- ev_energy_level_max[0,12,74]: energy[0,12,74] <= 0
- ev_energy_level_max[0,12,75]: energy[0,12,75] <= 0
- ev_energy_level_max[0,12,76]: energy[0,12,76] <= 0
- ev_energy_level_max[0,12,77]: energy[0,12,77] <= 0
- ev_energy_level_max[0,12,78]: energy[0,12,78] <= 0
- ev_energy_level_max[0,12,79]: energy[0,12,79] <= 0
- ev_energy_level_max[0,12,80]: energy[0,12,80] <= 0
- ev_energy_level_max[0,12,81]: energy[0,12,81] <= 0
- ev_energy_level_max[0,12,82]: energy[0,12,82] <= 0
- ev_energy_level_max[0,12,83]: energy[0,12,83] <= 0
- ev_energy_level_max[0,12,84]: energy[0,12,84] <= 0
- ev_energy_level_max[0,12,85]: energy[0,12,85] <= 0
- ev_energy_level_max[0,12,86]: energy[0,12,86] <= 0
- ev_energy_level_max[0,12,87]: energy[0,12,87] <= 0
- ev_energy_level_max[0,12,88]: energy[0,12,88] <= 0
- ev_energy_level_max[0,12,89]: energy[0,12,89] <= 0
- ev_energy_level_max[0,12,90]: energy[0,12,90] <= 0
- ev_energy_level_max[0,12,91]: energy[0,12,91] <= 0
- ev_energy_level_max[0,12,92]: energy[0,12,92] <= 0
- ev_energy_level_max[0,12,93]: energy[0,12,93] <= 0
- ev_energy_level_max[0,12,94]: energy[0,12,94] <= 0
- ev_energy_level_max[0,12,95]: energy[0,12,95] <= 0
- ev_energy_level_max[0,12,96]: energy[0,12,96] <= 0
- ev_energy_level_max[0,12,97]: energy[0,12,97] <= 0
- ev_energy_level_max[0,12,98]: energy[0,12,98] <= 0
- ev_energy_level_max[0,12,99]: energy[0,12,99] <= 0
- ev_energy_level_max[0,12,100]: energy[0,12,100] <= 0
- ev_energy_level_max[0,12,101]: energy[0,12,101] <= 0
- ev_energy_level_max[0,12,102]: energy[0,12,102] <= 0
- ev_energy_level_max[0,12,103]: energy[0,12,103] <= 0
- ev_energy_level_max[0,12,104]: energy[0,12,104] <= 0
- ev_energy_level_max[0,12,105]: energy[0,12,105] <= 0
- ev_energy_level_max[0,12,106]: energy[0,12,106] <= 0
- ev_energy_level_max[0,12,107]: energy[0,12,107] <= 0
- ev_energy_level_max[0,12,108]: energy[0,12,108] <= 0
- ev_energy_level_max[0,12,109]: energy[0,12,109] <= 0
- ev_energy_level_max[0,12,110]: energy[0,12,110] <= 0
- ev_energy_level_max[0,12,111]: energy[0,12,111] <= 0
-=======
  ev_energy_level_max[0,12,6]: energy[0,12,6] <= 57.5
  ev_energy_level_max[0,12,7]: energy[0,12,7] <= 57.5
  ev_energy_level_max[0,12,8]: energy[0,12,8] <= 57.5
@@ -25425,7 +13286,7 @@ Subject To
  ev_energy_level_max[0,12,12]: energy[0,12,12] <= 57.5
  ev_energy_level_max[0,12,13]: energy[0,12,13] <= 57.5
  ev_energy_level_max[0,12,14]: energy[0,12,14] <= 57.5
- ev_energy_level_max[0,12,16]: energy[0,12,16] <= 0
+ ev_energy_level_max[0,12,15]: energy[0,12,15] <= 57.5
  ev_energy_level_max[0,12,17]: energy[0,12,17] <= 0
  ev_energy_level_max[0,12,18]: energy[0,12,18] <= 0
  ev_energy_level_max[0,12,19]: energy[0,12,19] <= 0
@@ -25433,23 +13294,23 @@ Subject To
  ev_energy_level_max[0,12,21]: energy[0,12,21] <= 0
  ev_energy_level_max[0,12,22]: energy[0,12,22] <= 0
  ev_energy_level_max[0,12,23]: energy[0,12,23] <= 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,13,0]: energy[0,13,0] <= 0
  ev_energy_level_max[0,13,1]: energy[0,13,1] <= 0
  ev_energy_level_max[0,13,2]: energy[0,13,2] <= 0
  ev_energy_level_max[0,13,3]: energy[0,13,3] <= 0
  ev_energy_level_max[0,13,4]: energy[0,13,4] <= 0
- ev_energy_level_max[0,13,5]: energy[0,13,5] <= 46.3
- ev_energy_level_max[0,13,6]: energy[0,13,6] <= 46.3
- ev_energy_level_max[0,13,7]: energy[0,13,7] <= 46.3
- ev_energy_level_max[0,13,8]: energy[0,13,8] <= 46.3
- ev_energy_level_max[0,13,9]: energy[0,13,9] <= 46.3
- ev_energy_level_max[0,13,10]: energy[0,13,10] <= 46.3
- ev_energy_level_max[0,13,11]: energy[0,13,11] <= 46.3
- ev_energy_level_max[0,13,12]: energy[0,13,12] <= 46.3
- ev_energy_level_max[0,13,13]: energy[0,13,13] <= 46.3
- ev_energy_level_max[0,13,14]: energy[0,13,14] <= 46.3
- ev_energy_level_max[0,13,15]: energy[0,13,15] <= 46.3
+ ev_energy_level_max[0,13,5]: energy[0,13,5] <= 0
+ ev_energy_level_max[0,13,6]: energy[0,13,6] <= 0
+ ev_energy_level_max[0,13,7]: energy[0,13,7] <= 0
+ ev_energy_level_max[0,13,8]: energy[0,13,8] <= 0
+ ev_energy_level_max[0,13,9]: energy[0,13,9] <= 0
+ ev_energy_level_max[0,13,10]: energy[0,13,10] <= 0
+ ev_energy_level_max[0,13,11]: energy[0,13,11] <= 0
+ ev_energy_level_max[0,13,12]: energy[0,13,12] <= 0
+ ev_energy_level_max[0,13,13]: energy[0,13,13] <= 0
+ ev_energy_level_max[0,13,14]: energy[0,13,14] <= 0
+ ev_energy_level_max[0,13,15]: energy[0,13,15] <= 0
+ ev_energy_level_max[0,13,16]: energy[0,13,16] <= 0
  ev_energy_level_max[0,13,17]: energy[0,13,17] <= 0
  ev_energy_level_max[0,13,18]: energy[0,13,18] <= 0
  ev_energy_level_max[0,13,19]: energy[0,13,19] <= 0
@@ -25457,475 +13318,75 @@ Subject To
  ev_energy_level_max[0,13,21]: energy[0,13,21] <= 0
  ev_energy_level_max[0,13,22]: energy[0,13,22] <= 0
  ev_energy_level_max[0,13,23]: energy[0,13,23] <= 0
-<<<<<<< HEAD
- ev_energy_level_max[0,13,24]: energy[0,13,24] <= 0
- ev_energy_level_max[0,13,25]: energy[0,13,25] <= 0
- ev_energy_level_max[0,13,26]: energy[0,13,26] <= 0
- ev_energy_level_max[0,13,27]: energy[0,13,27] <= 0
- ev_energy_level_max[0,13,28]: energy[0,13,28] <= 0
- ev_energy_level_max[0,13,29]: energy[0,13,29] <= 0
- ev_energy_level_max[0,13,30]: energy[0,13,30] <= 0
- ev_energy_level_max[0,13,31]: energy[0,13,31] <= 0
- ev_energy_level_max[0,13,32]: energy[0,13,32] <= 0
- ev_energy_level_max[0,13,33]: energy[0,13,33] <= 0
- ev_energy_level_max[0,13,34]: energy[0,13,34] <= 0
- ev_energy_level_max[0,13,35]: energy[0,13,35] <= 57.5
- ev_energy_level_max[0,13,36]: energy[0,13,36] <= 57.5
- ev_energy_level_max[0,13,37]: energy[0,13,37] <= 57.5
- ev_energy_level_max[0,13,38]: energy[0,13,38] <= 57.5
- ev_energy_level_max[0,13,39]: energy[0,13,39] <= 57.5
- ev_energy_level_max[0,13,40]: energy[0,13,40] <= 57.5
- ev_energy_level_max[0,13,41]: energy[0,13,41] <= 57.5
- ev_energy_level_max[0,13,42]: energy[0,13,42] <= 57.5
- ev_energy_level_max[0,13,43]: energy[0,13,43] <= 57.5
- ev_energy_level_max[0,13,44]: energy[0,13,44] <= 57.5
- ev_energy_level_max[0,13,45]: energy[0,13,45] <= 57.5
- ev_energy_level_max[0,13,46]: energy[0,13,46] <= 57.5
- ev_energy_level_max[0,13,47]: energy[0,13,47] <= 57.5
- ev_energy_level_max[0,13,48]: energy[0,13,48] <= 57.5
- ev_energy_level_max[0,13,49]: energy[0,13,49] <= 57.5
- ev_energy_level_max[0,13,50]: energy[0,13,50] <= 57.5
- ev_energy_level_max[0,13,51]: energy[0,13,51] <= 57.5
- ev_energy_level_max[0,13,52]: energy[0,13,52] <= 57.5
- ev_energy_level_max[0,13,54]: energy[0,13,54] <= 0
- ev_energy_level_max[0,13,55]: energy[0,13,55] <= 0
- ev_energy_level_max[0,13,56]: energy[0,13,56] <= 0
- ev_energy_level_max[0,13,57]: energy[0,13,57] <= 0
- ev_energy_level_max[0,13,58]: energy[0,13,58] <= 0
- ev_energy_level_max[0,13,59]: energy[0,13,59] <= 0
- ev_energy_level_max[0,13,60]: energy[0,13,60] <= 0
- ev_energy_level_max[0,13,61]: energy[0,13,61] <= 0
- ev_energy_level_max[0,13,62]: energy[0,13,62] <= 0
- ev_energy_level_max[0,13,63]: energy[0,13,63] <= 0
- ev_energy_level_max[0,13,64]: energy[0,13,64] <= 0
- ev_energy_level_max[0,13,65]: energy[0,13,65] <= 0
- ev_energy_level_max[0,13,66]: energy[0,13,66] <= 0
- ev_energy_level_max[0,13,67]: energy[0,13,67] <= 0
- ev_energy_level_max[0,13,68]: energy[0,13,68] <= 0
- ev_energy_level_max[0,13,69]: energy[0,13,69] <= 0
- ev_energy_level_max[0,13,70]: energy[0,13,70] <= 0
- ev_energy_level_max[0,13,71]: energy[0,13,71] <= 0
- ev_energy_level_max[0,13,72]: energy[0,13,72] <= 0
- ev_energy_level_max[0,13,73]: energy[0,13,73] <= 0
- ev_energy_level_max[0,13,74]: energy[0,13,74] <= 0
- ev_energy_level_max[0,13,75]: energy[0,13,75] <= 0
- ev_energy_level_max[0,13,76]: energy[0,13,76] <= 0
- ev_energy_level_max[0,13,77]: energy[0,13,77] <= 0
- ev_energy_level_max[0,13,78]: energy[0,13,78] <= 0
- ev_energy_level_max[0,13,79]: energy[0,13,79] <= 0
- ev_energy_level_max[0,13,80]: energy[0,13,80] <= 0
- ev_energy_level_max[0,13,81]: energy[0,13,81] <= 0
- ev_energy_level_max[0,13,82]: energy[0,13,82] <= 0
- ev_energy_level_max[0,13,83]: energy[0,13,83] <= 0
- ev_energy_level_max[0,13,84]: energy[0,13,84] <= 0
- ev_energy_level_max[0,13,85]: energy[0,13,85] <= 0
- ev_energy_level_max[0,13,86]: energy[0,13,86] <= 0
- ev_energy_level_max[0,13,87]: energy[0,13,87] <= 0
- ev_energy_level_max[0,13,88]: energy[0,13,88] <= 0
- ev_energy_level_max[0,13,89]: energy[0,13,89] <= 0
- ev_energy_level_max[0,13,90]: energy[0,13,90] <= 0
- ev_energy_level_max[0,13,91]: energy[0,13,91] <= 0
- ev_energy_level_max[0,13,92]: energy[0,13,92] <= 0
- ev_energy_level_max[0,13,93]: energy[0,13,93] <= 0
- ev_energy_level_max[0,13,94]: energy[0,13,94] <= 0
- ev_energy_level_max[0,13,95]: energy[0,13,95] <= 0
- ev_energy_level_max[0,13,96]: energy[0,13,96] <= 0
- ev_energy_level_max[0,13,97]: energy[0,13,97] <= 0
- ev_energy_level_max[0,13,98]: energy[0,13,98] <= 0
- ev_energy_level_max[0,13,99]: energy[0,13,99] <= 0
- ev_energy_level_max[0,13,100]: energy[0,13,100] <= 0
- ev_energy_level_max[0,13,101]: energy[0,13,101] <= 0
- ev_energy_level_max[0,13,102]: energy[0,13,102] <= 0
- ev_energy_level_max[0,13,103]: energy[0,13,103] <= 0
- ev_energy_level_max[0,13,104]: energy[0,13,104] <= 0
- ev_energy_level_max[0,13,105]: energy[0,13,105] <= 0
- ev_energy_level_max[0,13,106]: energy[0,13,106] <= 0
- ev_energy_level_max[0,13,107]: energy[0,13,107] <= 0
- ev_energy_level_max[0,13,108]: energy[0,13,108] <= 0
- ev_energy_level_max[0,13,109]: energy[0,13,109] <= 0
- ev_energy_level_max[0,13,110]: energy[0,13,110] <= 0
- ev_energy_level_max[0,13,111]: energy[0,13,111] <= 0
-=======
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,14,0]: energy[0,14,0] <= 0
  ev_energy_level_max[0,14,1]: energy[0,14,1] <= 0
  ev_energy_level_max[0,14,2]: energy[0,14,2] <= 0
  ev_energy_level_max[0,14,3]: energy[0,14,3] <= 0
  ev_energy_level_max[0,14,4]: energy[0,14,4] <= 0
  ev_energy_level_max[0,14,5]: energy[0,14,5] <= 0
- ev_energy_level_max[0,14,6]: energy[0,14,6] <= 0
-<<<<<<< HEAD
- ev_energy_level_max[0,14,7]: energy[0,14,7] <= 0
- ev_energy_level_max[0,14,8]: energy[0,14,8] <= 0
- ev_energy_level_max[0,14,9]: energy[0,14,9] <= 0
- ev_energy_level_max[0,14,10]: energy[0,14,10] <= 0
- ev_energy_level_max[0,14,11]: energy[0,14,11] <= 0
- ev_energy_level_max[0,14,12]: energy[0,14,12] <= 0
- ev_energy_level_max[0,14,13]: energy[0,14,13] <= 0
- ev_energy_level_max[0,14,14]: energy[0,14,14] <= 0
- ev_energy_level_max[0,14,15]: energy[0,14,15] <= 0
- ev_energy_level_max[0,14,16]: energy[0,14,16] <= 64.8
- ev_energy_level_max[0,14,17]: energy[0,14,17] <= 64.8
- ev_energy_level_max[0,14,18]: energy[0,14,18] <= 64.8
- ev_energy_level_max[0,14,19]: energy[0,14,19] <= 64.8
- ev_energy_level_max[0,14,20]: energy[0,14,20] <= 64.8
- ev_energy_level_max[0,14,21]: energy[0,14,21] <= 64.8
- ev_energy_level_max[0,14,22]: energy[0,14,22] <= 64.8
- ev_energy_level_max[0,14,23]: energy[0,14,23] <= 64.8
- ev_energy_level_max[0,14,24]: energy[0,14,24] <= 64.8
- ev_energy_level_max[0,14,25]: energy[0,14,25] <= 64.8
- ev_energy_level_max[0,14,26]: energy[0,14,26] <= 64.8
- ev_energy_level_max[0,14,27]: energy[0,14,27] <= 64.8
- ev_energy_level_max[0,14,28]: energy[0,14,28] <= 64.8
- ev_energy_level_max[0,14,29]: energy[0,14,29] <= 64.8
- ev_energy_level_max[0,14,30]: energy[0,14,30] <= 64.8
- ev_energy_level_max[0,14,31]: energy[0,14,31] <= 64.8
- ev_energy_level_max[0,14,32]: energy[0,14,32] <= 64.8
- ev_energy_level_max[0,14,33]: energy[0,14,33] <= 64.8
- ev_energy_level_max[0,14,34]: energy[0,14,34] <= 64.8
- ev_energy_level_max[0,14,35]: energy[0,14,35] <= 64.8
- ev_energy_level_max[0,14,36]: energy[0,14,36] <= 64.8
- ev_energy_level_max[0,14,37]: energy[0,14,37] <= 64.8
- ev_energy_level_max[0,14,38]: energy[0,14,38] <= 64.8
- ev_energy_level_max[0,14,39]: energy[0,14,39] <= 64.8
- ev_energy_level_max[0,14,40]: energy[0,14,40] <= 64.8
- ev_energy_level_max[0,14,41]: energy[0,14,41] <= 64.8
- ev_energy_level_max[0,14,42]: energy[0,14,42] <= 64.8
- ev_energy_level_max[0,14,43]: energy[0,14,43] <= 64.8
- ev_energy_level_max[0,14,44]: energy[0,14,44] <= 64.8
- ev_energy_level_max[0,14,45]: energy[0,14,45] <= 64.8
- ev_energy_level_max[0,14,46]: energy[0,14,46] <= 64.8
- ev_energy_level_max[0,14,47]: energy[0,14,47] <= 64.8
- ev_energy_level_max[0,14,48]: energy[0,14,48] <= 64.8
- ev_energy_level_max[0,14,49]: energy[0,14,49] <= 64.8
- ev_energy_level_max[0,14,50]: energy[0,14,50] <= 64.8
- ev_energy_level_max[0,14,51]: energy[0,14,51] <= 64.8
- ev_energy_level_max[0,14,52]: energy[0,14,52] <= 64.8
- ev_energy_level_max[0,14,53]: energy[0,14,53] <= 64.8
- ev_energy_level_max[0,14,54]: energy[0,14,54] <= 64.8
- ev_energy_level_max[0,14,55]: energy[0,14,55] <= 64.8
- ev_energy_level_max[0,14,56]: energy[0,14,56] <= 64.8
- ev_energy_level_max[0,14,57]: energy[0,14,57] <= 64.8
- ev_energy_level_max[0,14,58]: energy[0,14,58] <= 64.8
- ev_energy_level_max[0,14,59]: energy[0,14,59] <= 64.8
- ev_energy_level_max[0,14,61]: energy[0,14,61] <= 0
- ev_energy_level_max[0,14,62]: energy[0,14,62] <= 0
- ev_energy_level_max[0,14,63]: energy[0,14,63] <= 0
- ev_energy_level_max[0,14,64]: energy[0,14,64] <= 0
- ev_energy_level_max[0,14,65]: energy[0,14,65] <= 0
- ev_energy_level_max[0,14,66]: energy[0,14,66] <= 0
- ev_energy_level_max[0,14,67]: energy[0,14,67] <= 0
- ev_energy_level_max[0,14,68]: energy[0,14,68] <= 0
- ev_energy_level_max[0,14,69]: energy[0,14,69] <= 0
- ev_energy_level_max[0,14,70]: energy[0,14,70] <= 0
- ev_energy_level_max[0,14,71]: energy[0,14,71] <= 0
- ev_energy_level_max[0,14,72]: energy[0,14,72] <= 0
- ev_energy_level_max[0,14,73]: energy[0,14,73] <= 0
- ev_energy_level_max[0,14,74]: energy[0,14,74] <= 0
- ev_energy_level_max[0,14,75]: energy[0,14,75] <= 0
- ev_energy_level_max[0,14,76]: energy[0,14,76] <= 0
- ev_energy_level_max[0,14,77]: energy[0,14,77] <= 0
- ev_energy_level_max[0,14,78]: energy[0,14,78] <= 0
- ev_energy_level_max[0,14,79]: energy[0,14,79] <= 0
- ev_energy_level_max[0,14,80]: energy[0,14,80] <= 0
- ev_energy_level_max[0,14,81]: energy[0,14,81] <= 0
- ev_energy_level_max[0,14,82]: energy[0,14,82] <= 0
- ev_energy_level_max[0,14,83]: energy[0,14,83] <= 0
- ev_energy_level_max[0,14,84]: energy[0,14,84] <= 0
- ev_energy_level_max[0,14,85]: energy[0,14,85] <= 0
- ev_energy_level_max[0,14,86]: energy[0,14,86] <= 0
- ev_energy_level_max[0,14,87]: energy[0,14,87] <= 0
- ev_energy_level_max[0,14,88]: energy[0,14,88] <= 0
- ev_energy_level_max[0,14,89]: energy[0,14,89] <= 0
- ev_energy_level_max[0,14,90]: energy[0,14,90] <= 0
- ev_energy_level_max[0,14,91]: energy[0,14,91] <= 0
- ev_energy_level_max[0,14,92]: energy[0,14,92] <= 0
- ev_energy_level_max[0,14,93]: energy[0,14,93] <= 0
- ev_energy_level_max[0,14,94]: energy[0,14,94] <= 0
- ev_energy_level_max[0,14,95]: energy[0,14,95] <= 0
- ev_energy_level_max[0,14,96]: energy[0,14,96] <= 0
- ev_energy_level_max[0,14,97]: energy[0,14,97] <= 0
- ev_energy_level_max[0,14,98]: energy[0,14,98] <= 0
- ev_energy_level_max[0,14,99]: energy[0,14,99] <= 0
- ev_energy_level_max[0,14,100]: energy[0,14,100] <= 0
- ev_energy_level_max[0,14,101]: energy[0,14,101] <= 0
- ev_energy_level_max[0,14,102]: energy[0,14,102] <= 0
- ev_energy_level_max[0,14,103]: energy[0,14,103] <= 0
- ev_energy_level_max[0,14,104]: energy[0,14,104] <= 0
- ev_energy_level_max[0,14,105]: energy[0,14,105] <= 0
- ev_energy_level_max[0,14,106]: energy[0,14,106] <= 0
- ev_energy_level_max[0,14,107]: energy[0,14,107] <= 0
- ev_energy_level_max[0,14,108]: energy[0,14,108] <= 0
- ev_energy_level_max[0,14,109]: energy[0,14,109] <= 0
- ev_energy_level_max[0,14,110]: energy[0,14,110] <= 0
- ev_energy_level_max[0,14,111]: energy[0,14,111] <= 0
-=======
- ev_energy_level_max[0,14,7]: energy[0,14,7] <= 57.5
- ev_energy_level_max[0,14,8]: energy[0,14,8] <= 57.5
- ev_energy_level_max[0,14,9]: energy[0,14,9] <= 57.5
- ev_energy_level_max[0,14,10]: energy[0,14,10] <= 57.5
- ev_energy_level_max[0,14,11]: energy[0,14,11] <= 57.5
- ev_energy_level_max[0,14,12]: energy[0,14,12] <= 57.5
- ev_energy_level_max[0,14,13]: energy[0,14,13] <= 57.5
- ev_energy_level_max[0,14,14]: energy[0,14,14] <= 57.5
- ev_energy_level_max[0,14,15]: energy[0,14,15] <= 57.5
- ev_energy_level_max[0,14,17]: energy[0,14,17] <= 0
+ ev_energy_level_max[0,14,6]: energy[0,14,6] <= 58
+ ev_energy_level_max[0,14,7]: energy[0,14,7] <= 58
+ ev_energy_level_max[0,14,8]: energy[0,14,8] <= 58
+ ev_energy_level_max[0,14,9]: energy[0,14,9] <= 58
+ ev_energy_level_max[0,14,10]: energy[0,14,10] <= 58
+ ev_energy_level_max[0,14,11]: energy[0,14,11] <= 58
+ ev_energy_level_max[0,14,12]: energy[0,14,12] <= 58
+ ev_energy_level_max[0,14,13]: energy[0,14,13] <= 58
+ ev_energy_level_max[0,14,14]: energy[0,14,14] <= 58
+ ev_energy_level_max[0,14,15]: energy[0,14,15] <= 58
+ ev_energy_level_max[0,14,16]: energy[0,14,16] <= 58
  ev_energy_level_max[0,14,18]: energy[0,14,18] <= 0
  ev_energy_level_max[0,14,19]: energy[0,14,19] <= 0
  ev_energy_level_max[0,14,20]: energy[0,14,20] <= 0
  ev_energy_level_max[0,14,21]: energy[0,14,21] <= 0
  ev_energy_level_max[0,14,22]: energy[0,14,22] <= 0
  ev_energy_level_max[0,14,23]: energy[0,14,23] <= 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,15,0]: energy[0,15,0] <= 0
  ev_energy_level_max[0,15,1]: energy[0,15,1] <= 0
  ev_energy_level_max[0,15,2]: energy[0,15,2] <= 0
  ev_energy_level_max[0,15,3]: energy[0,15,3] <= 0
  ev_energy_level_max[0,15,4]: energy[0,15,4] <= 0
  ev_energy_level_max[0,15,5]: energy[0,15,5] <= 0
- ev_energy_level_max[0,15,6]: energy[0,15,6] <= 0
- ev_energy_level_max[0,15,7]: energy[0,15,7] <= 0
- ev_energy_level_max[0,15,8]: energy[0,15,8] <= 0
- ev_energy_level_max[0,15,9]: energy[0,15,9] <= 0
- ev_energy_level_max[0,15,10]: energy[0,15,10] <= 0
- ev_energy_level_max[0,15,11]: energy[0,15,11] <= 0
- ev_energy_level_max[0,15,12]: energy[0,15,12] <= 0
- ev_energy_level_max[0,15,13]: energy[0,15,13] <= 0
- ev_energy_level_max[0,15,14]: energy[0,15,14] <= 0
- ev_energy_level_max[0,15,15]: energy[0,15,15] <= 0
- ev_energy_level_max[0,15,16]: energy[0,15,16] <= 0
- ev_energy_level_max[0,15,17]: energy[0,15,17] <= 0
+ ev_energy_level_max[0,15,6]: energy[0,15,6] <= 64.8
+ ev_energy_level_max[0,15,7]: energy[0,15,7] <= 64.8
+ ev_energy_level_max[0,15,8]: energy[0,15,8] <= 64.8
+ ev_energy_level_max[0,15,9]: energy[0,15,9] <= 64.8
+ ev_energy_level_max[0,15,10]: energy[0,15,10] <= 64.8
+ ev_energy_level_max[0,15,11]: energy[0,15,11] <= 64.8
+ ev_energy_level_max[0,15,12]: energy[0,15,12] <= 64.8
+ ev_energy_level_max[0,15,13]: energy[0,15,13] <= 64.8
+ ev_energy_level_max[0,15,14]: energy[0,15,14] <= 64.8
+ ev_energy_level_max[0,15,15]: energy[0,15,15] <= 64.8
+ ev_energy_level_max[0,15,16]: energy[0,15,16] <= 64.8
  ev_energy_level_max[0,15,18]: energy[0,15,18] <= 0
  ev_energy_level_max[0,15,19]: energy[0,15,19] <= 0
-<<<<<<< HEAD
- ev_energy_level_max[0,15,20]: energy[0,15,20] <= 64
- ev_energy_level_max[0,15,21]: energy[0,15,21] <= 64
- ev_energy_level_max[0,15,22]: energy[0,15,22] <= 64
- ev_energy_level_max[0,15,23]: energy[0,15,23] <= 64
- ev_energy_level_max[0,15,24]: energy[0,15,24] <= 64
- ev_energy_level_max[0,15,25]: energy[0,15,25] <= 64
- ev_energy_level_max[0,15,26]: energy[0,15,26] <= 64
- ev_energy_level_max[0,15,27]: energy[0,15,27] <= 64
- ev_energy_level_max[0,15,28]: energy[0,15,28] <= 64
- ev_energy_level_max[0,15,29]: energy[0,15,29] <= 64
- ev_energy_level_max[0,15,30]: energy[0,15,30] <= 64
- ev_energy_level_max[0,15,31]: energy[0,15,31] <= 64
- ev_energy_level_max[0,15,32]: energy[0,15,32] <= 64
- ev_energy_level_max[0,15,33]: energy[0,15,33] <= 64
- ev_energy_level_max[0,15,34]: energy[0,15,34] <= 64
- ev_energy_level_max[0,15,35]: energy[0,15,35] <= 64
- ev_energy_level_max[0,15,36]: energy[0,15,36] <= 64
- ev_energy_level_max[0,15,37]: energy[0,15,37] <= 64
- ev_energy_level_max[0,15,38]: energy[0,15,38] <= 64
- ev_energy_level_max[0,15,39]: energy[0,15,39] <= 64
- ev_energy_level_max[0,15,40]: energy[0,15,40] <= 64
- ev_energy_level_max[0,15,41]: energy[0,15,41] <= 64
- ev_energy_level_max[0,15,43]: energy[0,15,43] <= 0
- ev_energy_level_max[0,15,44]: energy[0,15,44] <= 0
- ev_energy_level_max[0,15,45]: energy[0,15,45] <= 0
- ev_energy_level_max[0,15,46]: energy[0,15,46] <= 0
- ev_energy_level_max[0,15,47]: energy[0,15,47] <= 0
- ev_energy_level_max[0,15,48]: energy[0,15,48] <= 0
- ev_energy_level_max[0,15,49]: energy[0,15,49] <= 0
- ev_energy_level_max[0,15,50]: energy[0,15,50] <= 0
- ev_energy_level_max[0,15,51]: energy[0,15,51] <= 0
- ev_energy_level_max[0,15,52]: energy[0,15,52] <= 0
- ev_energy_level_max[0,15,53]: energy[0,15,53] <= 0
- ev_energy_level_max[0,15,54]: energy[0,15,54] <= 0
- ev_energy_level_max[0,15,55]: energy[0,15,55] <= 0
- ev_energy_level_max[0,15,56]: energy[0,15,56] <= 0
- ev_energy_level_max[0,15,57]: energy[0,15,57] <= 0
- ev_energy_level_max[0,15,58]: energy[0,15,58] <= 0
- ev_energy_level_max[0,15,59]: energy[0,15,59] <= 0
- ev_energy_level_max[0,15,60]: energy[0,15,60] <= 0
- ev_energy_level_max[0,15,61]: energy[0,15,61] <= 0
- ev_energy_level_max[0,15,62]: energy[0,15,62] <= 0
- ev_energy_level_max[0,15,63]: energy[0,15,63] <= 0
- ev_energy_level_max[0,15,64]: energy[0,15,64] <= 0
- ev_energy_level_max[0,15,65]: energy[0,15,65] <= 0
- ev_energy_level_max[0,15,66]: energy[0,15,66] <= 0
- ev_energy_level_max[0,15,67]: energy[0,15,67] <= 0
- ev_energy_level_max[0,15,68]: energy[0,15,68] <= 0
- ev_energy_level_max[0,15,69]: energy[0,15,69] <= 0
- ev_energy_level_max[0,15,70]: energy[0,15,70] <= 0
- ev_energy_level_max[0,15,71]: energy[0,15,71] <= 0
- ev_energy_level_max[0,15,72]: energy[0,15,72] <= 0
- ev_energy_level_max[0,15,73]: energy[0,15,73] <= 0
- ev_energy_level_max[0,15,74]: energy[0,15,74] <= 0
- ev_energy_level_max[0,15,75]: energy[0,15,75] <= 0
- ev_energy_level_max[0,15,76]: energy[0,15,76] <= 0
- ev_energy_level_max[0,15,77]: energy[0,15,77] <= 0
- ev_energy_level_max[0,15,78]: energy[0,15,78] <= 0
- ev_energy_level_max[0,15,79]: energy[0,15,79] <= 0
- ev_energy_level_max[0,15,80]: energy[0,15,80] <= 0
- ev_energy_level_max[0,15,81]: energy[0,15,81] <= 0
- ev_energy_level_max[0,15,82]: energy[0,15,82] <= 0
- ev_energy_level_max[0,15,83]: energy[0,15,83] <= 0
- ev_energy_level_max[0,15,84]: energy[0,15,84] <= 0
- ev_energy_level_max[0,15,85]: energy[0,15,85] <= 0
- ev_energy_level_max[0,15,86]: energy[0,15,86] <= 0
- ev_energy_level_max[0,15,87]: energy[0,15,87] <= 0
- ev_energy_level_max[0,15,88]: energy[0,15,88] <= 0
- ev_energy_level_max[0,15,89]: energy[0,15,89] <= 0
- ev_energy_level_max[0,15,90]: energy[0,15,90] <= 0
- ev_energy_level_max[0,15,91]: energy[0,15,91] <= 0
- ev_energy_level_max[0,15,92]: energy[0,15,92] <= 0
- ev_energy_level_max[0,15,93]: energy[0,15,93] <= 0
- ev_energy_level_max[0,15,94]: energy[0,15,94] <= 0
- ev_energy_level_max[0,15,95]: energy[0,15,95] <= 0
- ev_energy_level_max[0,15,96]: energy[0,15,96] <= 0
- ev_energy_level_max[0,15,97]: energy[0,15,97] <= 0
- ev_energy_level_max[0,15,98]: energy[0,15,98] <= 0
- ev_energy_level_max[0,15,99]: energy[0,15,99] <= 0
- ev_energy_level_max[0,15,100]: energy[0,15,100] <= 0
- ev_energy_level_max[0,15,101]: energy[0,15,101] <= 0
- ev_energy_level_max[0,15,102]: energy[0,15,102] <= 0
- ev_energy_level_max[0,15,103]: energy[0,15,103] <= 0
- ev_energy_level_max[0,15,104]: energy[0,15,104] <= 0
- ev_energy_level_max[0,15,105]: energy[0,15,105] <= 0
- ev_energy_level_max[0,15,106]: energy[0,15,106] <= 0
- ev_energy_level_max[0,15,107]: energy[0,15,107] <= 0
- ev_energy_level_max[0,15,108]: energy[0,15,108] <= 0
- ev_energy_level_max[0,15,109]: energy[0,15,109] <= 0
- ev_energy_level_max[0,15,110]: energy[0,15,110] <= 0
- ev_energy_level_max[0,15,111]: energy[0,15,111] <= 0
-=======
  ev_energy_level_max[0,15,20]: energy[0,15,20] <= 0
  ev_energy_level_max[0,15,21]: energy[0,15,21] <= 0
  ev_energy_level_max[0,15,22]: energy[0,15,22] <= 0
  ev_energy_level_max[0,15,23]: energy[0,15,23] <= 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,16,0]: energy[0,16,0] <= 0
  ev_energy_level_max[0,16,1]: energy[0,16,1] <= 0
  ev_energy_level_max[0,16,2]: energy[0,16,2] <= 0
  ev_energy_level_max[0,16,3]: energy[0,16,3] <= 0
  ev_energy_level_max[0,16,4]: energy[0,16,4] <= 0
  ev_energy_level_max[0,16,5]: energy[0,16,5] <= 0
-<<<<<<< HEAD
  ev_energy_level_max[0,16,6]: energy[0,16,6] <= 0
- ev_energy_level_max[0,16,7]: energy[0,16,7] <= 0
- ev_energy_level_max[0,16,8]: energy[0,16,8] <= 0
- ev_energy_level_max[0,16,9]: energy[0,16,9] <= 0
- ev_energy_level_max[0,16,10]: energy[0,16,10] <= 0
- ev_energy_level_max[0,16,11]: energy[0,16,11] <= 0
- ev_energy_level_max[0,16,12]: energy[0,16,12] <= 0
- ev_energy_level_max[0,16,13]: energy[0,16,13] <= 0
- ev_energy_level_max[0,16,14]: energy[0,16,14] <= 0
- ev_energy_level_max[0,16,15]: energy[0,16,15] <= 64.8
- ev_energy_level_max[0,16,16]: energy[0,16,16] <= 64.8
- ev_energy_level_max[0,16,17]: energy[0,16,17] <= 64.8
- ev_energy_level_max[0,16,18]: energy[0,16,18] <= 64.8
- ev_energy_level_max[0,16,19]: energy[0,16,19] <= 64.8
- ev_energy_level_max[0,16,20]: energy[0,16,20] <= 64.8
- ev_energy_level_max[0,16,21]: energy[0,16,21] <= 64.8
- ev_energy_level_max[0,16,22]: energy[0,16,22] <= 64.8
- ev_energy_level_max[0,16,23]: energy[0,16,23] <= 64.8
- ev_energy_level_max[0,16,24]: energy[0,16,24] <= 64.8
- ev_energy_level_max[0,16,25]: energy[0,16,25] <= 64.8
- ev_energy_level_max[0,16,26]: energy[0,16,26] <= 64.8
- ev_energy_level_max[0,16,27]: energy[0,16,27] <= 64.8
- ev_energy_level_max[0,16,28]: energy[0,16,28] <= 64.8
- ev_energy_level_max[0,16,29]: energy[0,16,29] <= 64.8
- ev_energy_level_max[0,16,30]: energy[0,16,30] <= 64.8
- ev_energy_level_max[0,16,31]: energy[0,16,31] <= 64.8
- ev_energy_level_max[0,16,32]: energy[0,16,32] <= 64.8
- ev_energy_level_max[0,16,33]: energy[0,16,33] <= 64.8
- ev_energy_level_max[0,16,34]: energy[0,16,34] <= 64.8
- ev_energy_level_max[0,16,35]: energy[0,16,35] <= 64.8
- ev_energy_level_max[0,16,36]: energy[0,16,36] <= 64.8
- ev_energy_level_max[0,16,37]: energy[0,16,37] <= 64.8
- ev_energy_level_max[0,16,38]: energy[0,16,38] <= 64.8
- ev_energy_level_max[0,16,39]: energy[0,16,39] <= 64.8
- ev_energy_level_max[0,16,40]: energy[0,16,40] <= 64.8
- ev_energy_level_max[0,16,41]: energy[0,16,41] <= 64.8
- ev_energy_level_max[0,16,42]: energy[0,16,42] <= 64.8
- ev_energy_level_max[0,16,43]: energy[0,16,43] <= 64.8
- ev_energy_level_max[0,16,44]: energy[0,16,44] <= 64.8
- ev_energy_level_max[0,16,45]: energy[0,16,45] <= 64.8
- ev_energy_level_max[0,16,46]: energy[0,16,46] <= 64.8
- ev_energy_level_max[0,16,47]: energy[0,16,47] <= 64.8
- ev_energy_level_max[0,16,48]: energy[0,16,48] <= 64.8
- ev_energy_level_max[0,16,50]: energy[0,16,50] <= 0
- ev_energy_level_max[0,16,51]: energy[0,16,51] <= 0
- ev_energy_level_max[0,16,52]: energy[0,16,52] <= 0
- ev_energy_level_max[0,16,53]: energy[0,16,53] <= 0
- ev_energy_level_max[0,16,54]: energy[0,16,54] <= 0
- ev_energy_level_max[0,16,55]: energy[0,16,55] <= 0
- ev_energy_level_max[0,16,56]: energy[0,16,56] <= 0
- ev_energy_level_max[0,16,57]: energy[0,16,57] <= 0
- ev_energy_level_max[0,16,58]: energy[0,16,58] <= 0
- ev_energy_level_max[0,16,59]: energy[0,16,59] <= 0
- ev_energy_level_max[0,16,60]: energy[0,16,60] <= 0
- ev_energy_level_max[0,16,61]: energy[0,16,61] <= 0
- ev_energy_level_max[0,16,62]: energy[0,16,62] <= 0
- ev_energy_level_max[0,16,63]: energy[0,16,63] <= 0
- ev_energy_level_max[0,16,64]: energy[0,16,64] <= 0
- ev_energy_level_max[0,16,65]: energy[0,16,65] <= 0
- ev_energy_level_max[0,16,66]: energy[0,16,66] <= 0
- ev_energy_level_max[0,16,67]: energy[0,16,67] <= 0
- ev_energy_level_max[0,16,68]: energy[0,16,68] <= 0
- ev_energy_level_max[0,16,69]: energy[0,16,69] <= 0
- ev_energy_level_max[0,16,70]: energy[0,16,70] <= 0
- ev_energy_level_max[0,16,71]: energy[0,16,71] <= 0
- ev_energy_level_max[0,16,72]: energy[0,16,72] <= 0
- ev_energy_level_max[0,16,73]: energy[0,16,73] <= 0
- ev_energy_level_max[0,16,74]: energy[0,16,74] <= 0
- ev_energy_level_max[0,16,75]: energy[0,16,75] <= 0
- ev_energy_level_max[0,16,76]: energy[0,16,76] <= 0
- ev_energy_level_max[0,16,77]: energy[0,16,77] <= 0
- ev_energy_level_max[0,16,78]: energy[0,16,78] <= 0
- ev_energy_level_max[0,16,79]: energy[0,16,79] <= 0
- ev_energy_level_max[0,16,80]: energy[0,16,80] <= 0
- ev_energy_level_max[0,16,81]: energy[0,16,81] <= 0
- ev_energy_level_max[0,16,82]: energy[0,16,82] <= 0
- ev_energy_level_max[0,16,83]: energy[0,16,83] <= 0
- ev_energy_level_max[0,16,84]: energy[0,16,84] <= 0
- ev_energy_level_max[0,16,85]: energy[0,16,85] <= 0
- ev_energy_level_max[0,16,86]: energy[0,16,86] <= 0
- ev_energy_level_max[0,16,87]: energy[0,16,87] <= 0
- ev_energy_level_max[0,16,88]: energy[0,16,88] <= 0
- ev_energy_level_max[0,16,89]: energy[0,16,89] <= 0
- ev_energy_level_max[0,16,90]: energy[0,16,90] <= 0
- ev_energy_level_max[0,16,91]: energy[0,16,91] <= 0
- ev_energy_level_max[0,16,92]: energy[0,16,92] <= 0
- ev_energy_level_max[0,16,93]: energy[0,16,93] <= 0
- ev_energy_level_max[0,16,94]: energy[0,16,94] <= 0
- ev_energy_level_max[0,16,95]: energy[0,16,95] <= 0
- ev_energy_level_max[0,16,96]: energy[0,16,96] <= 0
- ev_energy_level_max[0,16,97]: energy[0,16,97] <= 0
- ev_energy_level_max[0,16,98]: energy[0,16,98] <= 0
- ev_energy_level_max[0,16,99]: energy[0,16,99] <= 0
- ev_energy_level_max[0,16,100]: energy[0,16,100] <= 0
- ev_energy_level_max[0,16,101]: energy[0,16,101] <= 0
- ev_energy_level_max[0,16,102]: energy[0,16,102] <= 0
- ev_energy_level_max[0,16,103]: energy[0,16,103] <= 0
- ev_energy_level_max[0,16,104]: energy[0,16,104] <= 0
- ev_energy_level_max[0,16,105]: energy[0,16,105] <= 0
- ev_energy_level_max[0,16,106]: energy[0,16,106] <= 0
- ev_energy_level_max[0,16,107]: energy[0,16,107] <= 0
- ev_energy_level_max[0,16,108]: energy[0,16,108] <= 0
- ev_energy_level_max[0,16,109]: energy[0,16,109] <= 0
- ev_energy_level_max[0,16,110]: energy[0,16,110] <= 0
- ev_energy_level_max[0,16,111]: energy[0,16,111] <= 0
-=======
- ev_energy_level_max[0,16,6]: energy[0,16,6] <= 64.8
- ev_energy_level_max[0,16,7]: energy[0,16,7] <= 64.8
- ev_energy_level_max[0,16,8]: energy[0,16,8] <= 64.8
- ev_energy_level_max[0,16,9]: energy[0,16,9] <= 64.8
- ev_energy_level_max[0,16,10]: energy[0,16,10] <= 64.8
- ev_energy_level_max[0,16,11]: energy[0,16,11] <= 64.8
- ev_energy_level_max[0,16,12]: energy[0,16,12] <= 64.8
- ev_energy_level_max[0,16,13]: energy[0,16,13] <= 64.8
- ev_energy_level_max[0,16,14]: energy[0,16,14] <= 64.8
- ev_energy_level_max[0,16,15]: energy[0,16,15] <= 64.8
- ev_energy_level_max[0,16,16]: energy[0,16,16] <= 64.8
- ev_energy_level_max[0,16,18]: energy[0,16,18] <= 0
+ ev_energy_level_max[0,16,7]: energy[0,16,7] <= 58
+ ev_energy_level_max[0,16,8]: energy[0,16,8] <= 58
+ ev_energy_level_max[0,16,9]: energy[0,16,9] <= 58
+ ev_energy_level_max[0,16,10]: energy[0,16,10] <= 58
+ ev_energy_level_max[0,16,11]: energy[0,16,11] <= 58
+ ev_energy_level_max[0,16,12]: energy[0,16,12] <= 58
+ ev_energy_level_max[0,16,13]: energy[0,16,13] <= 58
+ ev_energy_level_max[0,16,14]: energy[0,16,14] <= 58
+ ev_energy_level_max[0,16,15]: energy[0,16,15] <= 58
+ ev_energy_level_max[0,16,16]: energy[0,16,16] <= 58
+ ev_energy_level_max[0,16,17]: energy[0,16,17] <= 58
  ev_energy_level_max[0,16,19]: energy[0,16,19] <= 0
  ev_energy_level_max[0,16,20]: energy[0,16,20] <= 0
  ev_energy_level_max[0,16,21]: energy[0,16,21] <= 0
  ev_energy_level_max[0,16,22]: energy[0,16,22] <= 0
  ev_energy_level_max[0,16,23]: energy[0,16,23] <= 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,17,0]: energy[0,17,0] <= 0
  ev_energy_level_max[0,17,1]: energy[0,17,1] <= 0
  ev_energy_level_max[0,17,2]: energy[0,17,2] <= 0
@@ -25934,127 +13395,21 @@ Subject To
  ev_energy_level_max[0,17,5]: energy[0,17,5] <= 0
  ev_energy_level_max[0,17,6]: energy[0,17,6] <= 0
  ev_energy_level_max[0,17,7]: energy[0,17,7] <= 0
-<<<<<<< HEAD
  ev_energy_level_max[0,17,8]: energy[0,17,8] <= 0
  ev_energy_level_max[0,17,9]: energy[0,17,9] <= 0
  ev_energy_level_max[0,17,10]: energy[0,17,10] <= 0
- ev_energy_level_max[0,17,11]: energy[0,17,11] <= 77
- ev_energy_level_max[0,17,12]: energy[0,17,12] <= 77
- ev_energy_level_max[0,17,13]: energy[0,17,13] <= 77
- ev_energy_level_max[0,17,14]: energy[0,17,14] <= 77
- ev_energy_level_max[0,17,15]: energy[0,17,15] <= 77
- ev_energy_level_max[0,17,16]: energy[0,17,16] <= 77
- ev_energy_level_max[0,17,17]: energy[0,17,17] <= 77
- ev_energy_level_max[0,17,18]: energy[0,17,18] <= 77
- ev_energy_level_max[0,17,19]: energy[0,17,19] <= 77
- ev_energy_level_max[0,17,20]: energy[0,17,20] <= 77
- ev_energy_level_max[0,17,21]: energy[0,17,21] <= 77
- ev_energy_level_max[0,17,22]: energy[0,17,22] <= 77
- ev_energy_level_max[0,17,23]: energy[0,17,23] <= 77
- ev_energy_level_max[0,17,24]: energy[0,17,24] <= 77
- ev_energy_level_max[0,17,25]: energy[0,17,25] <= 77
- ev_energy_level_max[0,17,26]: energy[0,17,26] <= 77
- ev_energy_level_max[0,17,27]: energy[0,17,27] <= 77
- ev_energy_level_max[0,17,28]: energy[0,17,28] <= 77
- ev_energy_level_max[0,17,29]: energy[0,17,29] <= 77
- ev_energy_level_max[0,17,30]: energy[0,17,30] <= 77
- ev_energy_level_max[0,17,31]: energy[0,17,31] <= 77
- ev_energy_level_max[0,17,32]: energy[0,17,32] <= 77
- ev_energy_level_max[0,17,33]: energy[0,17,33] <= 77
- ev_energy_level_max[0,17,34]: energy[0,17,34] <= 77
- ev_energy_level_max[0,17,35]: energy[0,17,35] <= 77
- ev_energy_level_max[0,17,36]: energy[0,17,36] <= 77
- ev_energy_level_max[0,17,37]: energy[0,17,37] <= 77
- ev_energy_level_max[0,17,38]: energy[0,17,38] <= 77
- ev_energy_level_max[0,17,39]: energy[0,17,39] <= 77
- ev_energy_level_max[0,17,40]: energy[0,17,40] <= 77
- ev_energy_level_max[0,17,41]: energy[0,17,41] <= 77
- ev_energy_level_max[0,17,42]: energy[0,17,42] <= 77
- ev_energy_level_max[0,17,43]: energy[0,17,43] <= 77
- ev_energy_level_max[0,17,44]: energy[0,17,44] <= 77
- ev_energy_level_max[0,17,45]: energy[0,17,45] <= 77
- ev_energy_level_max[0,17,46]: energy[0,17,46] <= 77
- ev_energy_level_max[0,17,47]: energy[0,17,47] <= 77
- ev_energy_level_max[0,17,49]: energy[0,17,49] <= 0
- ev_energy_level_max[0,17,50]: energy[0,17,50] <= 0
- ev_energy_level_max[0,17,51]: energy[0,17,51] <= 0
- ev_energy_level_max[0,17,52]: energy[0,17,52] <= 0
- ev_energy_level_max[0,17,53]: energy[0,17,53] <= 0
- ev_energy_level_max[0,17,54]: energy[0,17,54] <= 0
- ev_energy_level_max[0,17,55]: energy[0,17,55] <= 0
- ev_energy_level_max[0,17,56]: energy[0,17,56] <= 0
- ev_energy_level_max[0,17,57]: energy[0,17,57] <= 0
- ev_energy_level_max[0,17,58]: energy[0,17,58] <= 0
- ev_energy_level_max[0,17,59]: energy[0,17,59] <= 0
- ev_energy_level_max[0,17,60]: energy[0,17,60] <= 0
- ev_energy_level_max[0,17,61]: energy[0,17,61] <= 0
- ev_energy_level_max[0,17,62]: energy[0,17,62] <= 0
- ev_energy_level_max[0,17,63]: energy[0,17,63] <= 0
- ev_energy_level_max[0,17,64]: energy[0,17,64] <= 0
- ev_energy_level_max[0,17,65]: energy[0,17,65] <= 0
- ev_energy_level_max[0,17,66]: energy[0,17,66] <= 0
- ev_energy_level_max[0,17,67]: energy[0,17,67] <= 0
- ev_energy_level_max[0,17,68]: energy[0,17,68] <= 0
- ev_energy_level_max[0,17,69]: energy[0,17,69] <= 0
- ev_energy_level_max[0,17,70]: energy[0,17,70] <= 0
- ev_energy_level_max[0,17,71]: energy[0,17,71] <= 0
- ev_energy_level_max[0,17,72]: energy[0,17,72] <= 0
- ev_energy_level_max[0,17,73]: energy[0,17,73] <= 0
- ev_energy_level_max[0,17,74]: energy[0,17,74] <= 0
- ev_energy_level_max[0,17,75]: energy[0,17,75] <= 0
- ev_energy_level_max[0,17,76]: energy[0,17,76] <= 0
- ev_energy_level_max[0,17,77]: energy[0,17,77] <= 0
- ev_energy_level_max[0,17,78]: energy[0,17,78] <= 0
- ev_energy_level_max[0,17,79]: energy[0,17,79] <= 0
- ev_energy_level_max[0,17,80]: energy[0,17,80] <= 0
- ev_energy_level_max[0,17,81]: energy[0,17,81] <= 0
- ev_energy_level_max[0,17,82]: energy[0,17,82] <= 0
- ev_energy_level_max[0,17,83]: energy[0,17,83] <= 0
- ev_energy_level_max[0,17,84]: energy[0,17,84] <= 0
- ev_energy_level_max[0,17,85]: energy[0,17,85] <= 0
- ev_energy_level_max[0,17,86]: energy[0,17,86] <= 0
- ev_energy_level_max[0,17,87]: energy[0,17,87] <= 0
- ev_energy_level_max[0,17,88]: energy[0,17,88] <= 0
- ev_energy_level_max[0,17,89]: energy[0,17,89] <= 0
- ev_energy_level_max[0,17,90]: energy[0,17,90] <= 0
- ev_energy_level_max[0,17,91]: energy[0,17,91] <= 0
- ev_energy_level_max[0,17,92]: energy[0,17,92] <= 0
- ev_energy_level_max[0,17,93]: energy[0,17,93] <= 0
- ev_energy_level_max[0,17,94]: energy[0,17,94] <= 0
- ev_energy_level_max[0,17,95]: energy[0,17,95] <= 0
- ev_energy_level_max[0,17,96]: energy[0,17,96] <= 0
- ev_energy_level_max[0,17,97]: energy[0,17,97] <= 0
- ev_energy_level_max[0,17,98]: energy[0,17,98] <= 0
- ev_energy_level_max[0,17,99]: energy[0,17,99] <= 0
- ev_energy_level_max[0,17,100]: energy[0,17,100] <= 0
- ev_energy_level_max[0,17,101]: energy[0,17,101] <= 0
- ev_energy_level_max[0,17,102]: energy[0,17,102] <= 0
- ev_energy_level_max[0,17,103]: energy[0,17,103] <= 0
- ev_energy_level_max[0,17,104]: energy[0,17,104] <= 0
- ev_energy_level_max[0,17,105]: energy[0,17,105] <= 0
- ev_energy_level_max[0,17,106]: energy[0,17,106] <= 0
- ev_energy_level_max[0,17,107]: energy[0,17,107] <= 0
- ev_energy_level_max[0,17,108]: energy[0,17,108] <= 0
- ev_energy_level_max[0,17,109]: energy[0,17,109] <= 0
- ev_energy_level_max[0,17,110]: energy[0,17,110] <= 0
- ev_energy_level_max[0,17,111]: energy[0,17,111] <= 0
-=======
- ev_energy_level_max[0,17,8]: energy[0,17,8] <= 64
- ev_energy_level_max[0,17,9]: energy[0,17,9] <= 64
- ev_energy_level_max[0,17,10]: energy[0,17,10] <= 64
- ev_energy_level_max[0,17,11]: energy[0,17,11] <= 64
- ev_energy_level_max[0,17,12]: energy[0,17,12] <= 64
- ev_energy_level_max[0,17,13]: energy[0,17,13] <= 64
- ev_energy_level_max[0,17,14]: energy[0,17,14] <= 64
- ev_energy_level_max[0,17,15]: energy[0,17,15] <= 64
- ev_energy_level_max[0,17,17]: energy[0,17,17] <= 0
- ev_energy_level_max[0,17,18]: energy[0,17,18] <= 0
- ev_energy_level_max[0,17,19]: energy[0,17,19] <= 0
+ ev_energy_level_max[0,17,11]: energy[0,17,11] <= 0
+ ev_energy_level_max[0,17,12]: energy[0,17,12] <= 0
+ ev_energy_level_max[0,17,13]: energy[0,17,13] <= 0
+ ev_energy_level_max[0,17,14]: energy[0,17,14] <= 57.5
+ ev_energy_level_max[0,17,15]: energy[0,17,15] <= 57.5
+ ev_energy_level_max[0,17,16]: energy[0,17,16] <= 57.5
+ ev_energy_level_max[0,17,17]: energy[0,17,17] <= 57.5
+ ev_energy_level_max[0,17,18]: energy[0,17,18] <= 57.5
  ev_energy_level_max[0,17,20]: energy[0,17,20] <= 0
  ev_energy_level_max[0,17,21]: energy[0,17,21] <= 0
  ev_energy_level_max[0,17,22]: energy[0,17,22] <= 0
  ev_energy_level_max[0,17,23]: energy[0,17,23] <= 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,18,0]: energy[0,18,0] <= 0
  ev_energy_level_max[0,18,1]: energy[0,18,1] <= 0
  ev_energy_level_max[0,18,2]: energy[0,18,2] <= 0
@@ -26086,126 +13441,22 @@ Subject To
  ev_energy_level_max[0,19,4]: energy[0,19,4] <= 0
  ev_energy_level_max[0,19,5]: energy[0,19,5] <= 0
  ev_energy_level_max[0,19,6]: energy[0,19,6] <= 0
-<<<<<<< HEAD
  ev_energy_level_max[0,19,7]: energy[0,19,7] <= 0
  ev_energy_level_max[0,19,8]: energy[0,19,8] <= 0
  ev_energy_level_max[0,19,9]: energy[0,19,9] <= 0
- ev_energy_level_max[0,19,10]: energy[0,19,10] <= 0
- ev_energy_level_max[0,19,11]: energy[0,19,11] <= 0
- ev_energy_level_max[0,19,12]: energy[0,19,12] <= 0
- ev_energy_level_max[0,19,13]: energy[0,19,13] <= 0
- ev_energy_level_max[0,19,14]: energy[0,19,14] <= 0
- ev_energy_level_max[0,19,15]: energy[0,19,15] <= 0
- ev_energy_level_max[0,19,16]: energy[0,19,16] <= 0
- ev_energy_level_max[0,19,17]: energy[0,19,17] <= 0
-=======
- ev_energy_level_max[0,19,7]: energy[0,19,7] <= 57.5
- ev_energy_level_max[0,19,8]: energy[0,19,8] <= 57.5
- ev_energy_level_max[0,19,9]: energy[0,19,9] <= 57.5
  ev_energy_level_max[0,19,10]: energy[0,19,10] <= 57.5
  ev_energy_level_max[0,19,11]: energy[0,19,11] <= 57.5
  ev_energy_level_max[0,19,12]: energy[0,19,12] <= 57.5
  ev_energy_level_max[0,19,13]: energy[0,19,13] <= 57.5
  ev_energy_level_max[0,19,14]: energy[0,19,14] <= 57.5
- ev_energy_level_max[0,19,15]: energy[0,19,15] <= 57.5
- ev_energy_level_max[0,19,16]: energy[0,19,16] <= 57.5
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
+ ev_energy_level_max[0,19,16]: energy[0,19,16] <= 0
+ ev_energy_level_max[0,19,17]: energy[0,19,17] <= 0
  ev_energy_level_max[0,19,18]: energy[0,19,18] <= 0
  ev_energy_level_max[0,19,19]: energy[0,19,19] <= 0
  ev_energy_level_max[0,19,20]: energy[0,19,20] <= 0
  ev_energy_level_max[0,19,21]: energy[0,19,21] <= 0
  ev_energy_level_max[0,19,22]: energy[0,19,22] <= 0
  ev_energy_level_max[0,19,23]: energy[0,19,23] <= 0
-<<<<<<< HEAD
- ev_energy_level_max[0,19,24]: energy[0,19,24] <= 57.5
- ev_energy_level_max[0,19,25]: energy[0,19,25] <= 57.5
- ev_energy_level_max[0,19,26]: energy[0,19,26] <= 57.5
- ev_energy_level_max[0,19,27]: energy[0,19,27] <= 57.5
- ev_energy_level_max[0,19,28]: energy[0,19,28] <= 57.5
- ev_energy_level_max[0,19,29]: energy[0,19,29] <= 57.5
- ev_energy_level_max[0,19,30]: energy[0,19,30] <= 57.5
- ev_energy_level_max[0,19,31]: energy[0,19,31] <= 57.5
- ev_energy_level_max[0,19,32]: energy[0,19,32] <= 57.5
- ev_energy_level_max[0,19,33]: energy[0,19,33] <= 57.5
- ev_energy_level_max[0,19,34]: energy[0,19,34] <= 57.5
- ev_energy_level_max[0,19,35]: energy[0,19,35] <= 57.5
- ev_energy_level_max[0,19,36]: energy[0,19,36] <= 57.5
- ev_energy_level_max[0,19,37]: energy[0,19,37] <= 57.5
- ev_energy_level_max[0,19,38]: energy[0,19,38] <= 57.5
- ev_energy_level_max[0,19,39]: energy[0,19,39] <= 57.5
- ev_energy_level_max[0,19,40]: energy[0,19,40] <= 57.5
- ev_energy_level_max[0,19,41]: energy[0,19,41] <= 57.5
- ev_energy_level_max[0,19,42]: energy[0,19,42] <= 57.5
- ev_energy_level_max[0,19,43]: energy[0,19,43] <= 57.5
- ev_energy_level_max[0,19,44]: energy[0,19,44] <= 57.5
- ev_energy_level_max[0,19,45]: energy[0,19,45] <= 57.5
- ev_energy_level_max[0,19,46]: energy[0,19,46] <= 57.5
- ev_energy_level_max[0,19,48]: energy[0,19,48] <= 0
- ev_energy_level_max[0,19,49]: energy[0,19,49] <= 0
- ev_energy_level_max[0,19,50]: energy[0,19,50] <= 0
- ev_energy_level_max[0,19,51]: energy[0,19,51] <= 0
- ev_energy_level_max[0,19,52]: energy[0,19,52] <= 0
- ev_energy_level_max[0,19,53]: energy[0,19,53] <= 0
- ev_energy_level_max[0,19,54]: energy[0,19,54] <= 0
- ev_energy_level_max[0,19,55]: energy[0,19,55] <= 0
- ev_energy_level_max[0,19,56]: energy[0,19,56] <= 0
- ev_energy_level_max[0,19,57]: energy[0,19,57] <= 0
- ev_energy_level_max[0,19,58]: energy[0,19,58] <= 0
- ev_energy_level_max[0,19,59]: energy[0,19,59] <= 0
- ev_energy_level_max[0,19,60]: energy[0,19,60] <= 0
- ev_energy_level_max[0,19,61]: energy[0,19,61] <= 0
- ev_energy_level_max[0,19,62]: energy[0,19,62] <= 0
- ev_energy_level_max[0,19,63]: energy[0,19,63] <= 0
- ev_energy_level_max[0,19,64]: energy[0,19,64] <= 0
- ev_energy_level_max[0,19,65]: energy[0,19,65] <= 0
- ev_energy_level_max[0,19,66]: energy[0,19,66] <= 0
- ev_energy_level_max[0,19,67]: energy[0,19,67] <= 0
- ev_energy_level_max[0,19,68]: energy[0,19,68] <= 0
- ev_energy_level_max[0,19,69]: energy[0,19,69] <= 0
- ev_energy_level_max[0,19,70]: energy[0,19,70] <= 0
- ev_energy_level_max[0,19,71]: energy[0,19,71] <= 0
- ev_energy_level_max[0,19,72]: energy[0,19,72] <= 0
- ev_energy_level_max[0,19,73]: energy[0,19,73] <= 0
- ev_energy_level_max[0,19,74]: energy[0,19,74] <= 0
- ev_energy_level_max[0,19,75]: energy[0,19,75] <= 0
- ev_energy_level_max[0,19,76]: energy[0,19,76] <= 0
- ev_energy_level_max[0,19,77]: energy[0,19,77] <= 0
- ev_energy_level_max[0,19,78]: energy[0,19,78] <= 0
- ev_energy_level_max[0,19,79]: energy[0,19,79] <= 0
- ev_energy_level_max[0,19,80]: energy[0,19,80] <= 0
- ev_energy_level_max[0,19,81]: energy[0,19,81] <= 0
- ev_energy_level_max[0,19,82]: energy[0,19,82] <= 0
- ev_energy_level_max[0,19,83]: energy[0,19,83] <= 0
- ev_energy_level_max[0,19,84]: energy[0,19,84] <= 0
- ev_energy_level_max[0,19,85]: energy[0,19,85] <= 0
- ev_energy_level_max[0,19,86]: energy[0,19,86] <= 0
- ev_energy_level_max[0,19,87]: energy[0,19,87] <= 0
- ev_energy_level_max[0,19,88]: energy[0,19,88] <= 0
- ev_energy_level_max[0,19,89]: energy[0,19,89] <= 0
- ev_energy_level_max[0,19,90]: energy[0,19,90] <= 0
- ev_energy_level_max[0,19,91]: energy[0,19,91] <= 0
- ev_energy_level_max[0,19,92]: energy[0,19,92] <= 0
- ev_energy_level_max[0,19,93]: energy[0,19,93] <= 0
- ev_energy_level_max[0,19,94]: energy[0,19,94] <= 0
- ev_energy_level_max[0,19,95]: energy[0,19,95] <= 0
- ev_energy_level_max[0,19,96]: energy[0,19,96] <= 0
- ev_energy_level_max[0,19,97]: energy[0,19,97] <= 0
- ev_energy_level_max[0,19,98]: energy[0,19,98] <= 0
- ev_energy_level_max[0,19,99]: energy[0,19,99] <= 0
- ev_energy_level_max[0,19,100]: energy[0,19,100] <= 0
- ev_energy_level_max[0,19,101]: energy[0,19,101] <= 0
- ev_energy_level_max[0,19,102]: energy[0,19,102] <= 0
- ev_energy_level_max[0,19,103]: energy[0,19,103] <= 0
- ev_energy_level_max[0,19,104]: energy[0,19,104] <= 0
- ev_energy_level_max[0,19,105]: energy[0,19,105] <= 0
- ev_energy_level_max[0,19,106]: energy[0,19,106] <= 0
- ev_energy_level_max[0,19,107]: energy[0,19,107] <= 0
- ev_energy_level_max[0,19,108]: energy[0,19,108] <= 0
- ev_energy_level_max[0,19,109]: energy[0,19,109] <= 0
- ev_energy_level_max[0,19,110]: energy[0,19,110] <= 0
- ev_energy_level_max[0,19,111]: energy[0,19,111] <= 0
-=======
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,20,0]: energy[0,20,0] <= 0
  ev_energy_level_max[0,20,1]: energy[0,20,1] <= 0
  ev_energy_level_max[0,20,2]: energy[0,20,2] <= 0
@@ -26215,117 +13466,13 @@ Subject To
  ev_energy_level_max[0,20,6]: energy[0,20,6] <= 0
  ev_energy_level_max[0,20,7]: energy[0,20,7] <= 0
  ev_energy_level_max[0,20,8]: energy[0,20,8] <= 0
-<<<<<<< HEAD
  ev_energy_level_max[0,20,9]: energy[0,20,9] <= 0
- ev_energy_level_max[0,20,10]: energy[0,20,10] <= 0
- ev_energy_level_max[0,20,11]: energy[0,20,11] <= 0
- ev_energy_level_max[0,20,12]: energy[0,20,12] <= 0
- ev_energy_level_max[0,20,13]: energy[0,20,13] <= 64.8
- ev_energy_level_max[0,20,14]: energy[0,20,14] <= 64.8
- ev_energy_level_max[0,20,15]: energy[0,20,15] <= 64.8
- ev_energy_level_max[0,20,16]: energy[0,20,16] <= 64.8
- ev_energy_level_max[0,20,17]: energy[0,20,17] <= 64.8
- ev_energy_level_max[0,20,18]: energy[0,20,18] <= 64.8
- ev_energy_level_max[0,20,19]: energy[0,20,19] <= 64.8
- ev_energy_level_max[0,20,20]: energy[0,20,20] <= 64.8
- ev_energy_level_max[0,20,21]: energy[0,20,21] <= 64.8
- ev_energy_level_max[0,20,22]: energy[0,20,22] <= 64.8
- ev_energy_level_max[0,20,23]: energy[0,20,23] <= 64.8
- ev_energy_level_max[0,20,24]: energy[0,20,24] <= 64.8
- ev_energy_level_max[0,20,25]: energy[0,20,25] <= 64.8
- ev_energy_level_max[0,20,26]: energy[0,20,26] <= 64.8
- ev_energy_level_max[0,20,27]: energy[0,20,27] <= 64.8
- ev_energy_level_max[0,20,28]: energy[0,20,28] <= 64.8
- ev_energy_level_max[0,20,29]: energy[0,20,29] <= 64.8
- ev_energy_level_max[0,20,30]: energy[0,20,30] <= 64.8
- ev_energy_level_max[0,20,31]: energy[0,20,31] <= 64.8
- ev_energy_level_max[0,20,32]: energy[0,20,32] <= 64.8
- ev_energy_level_max[0,20,33]: energy[0,20,33] <= 64.8
- ev_energy_level_max[0,20,34]: energy[0,20,34] <= 64.8
- ev_energy_level_max[0,20,35]: energy[0,20,35] <= 64.8
- ev_energy_level_max[0,20,36]: energy[0,20,36] <= 64.8
- ev_energy_level_max[0,20,37]: energy[0,20,37] <= 64.8
- ev_energy_level_max[0,20,38]: energy[0,20,38] <= 64.8
- ev_energy_level_max[0,20,39]: energy[0,20,39] <= 64.8
- ev_energy_level_max[0,20,40]: energy[0,20,40] <= 64.8
- ev_energy_level_max[0,20,41]: energy[0,20,41] <= 64.8
- ev_energy_level_max[0,20,42]: energy[0,20,42] <= 64.8
- ev_energy_level_max[0,20,43]: energy[0,20,43] <= 64.8
- ev_energy_level_max[0,20,44]: energy[0,20,44] <= 64.8
- ev_energy_level_max[0,20,45]: energy[0,20,45] <= 64.8
- ev_energy_level_max[0,20,46]: energy[0,20,46] <= 64.8
- ev_energy_level_max[0,20,47]: energy[0,20,47] <= 64.8
- ev_energy_level_max[0,20,48]: energy[0,20,48] <= 64.8
- ev_energy_level_max[0,20,50]: energy[0,20,50] <= 0
- ev_energy_level_max[0,20,51]: energy[0,20,51] <= 0
- ev_energy_level_max[0,20,52]: energy[0,20,52] <= 0
- ev_energy_level_max[0,20,53]: energy[0,20,53] <= 0
- ev_energy_level_max[0,20,54]: energy[0,20,54] <= 0
- ev_energy_level_max[0,20,55]: energy[0,20,55] <= 0
- ev_energy_level_max[0,20,56]: energy[0,20,56] <= 0
- ev_energy_level_max[0,20,57]: energy[0,20,57] <= 0
- ev_energy_level_max[0,20,58]: energy[0,20,58] <= 0
- ev_energy_level_max[0,20,59]: energy[0,20,59] <= 0
- ev_energy_level_max[0,20,60]: energy[0,20,60] <= 0
- ev_energy_level_max[0,20,61]: energy[0,20,61] <= 0
- ev_energy_level_max[0,20,62]: energy[0,20,62] <= 0
- ev_energy_level_max[0,20,63]: energy[0,20,63] <= 0
- ev_energy_level_max[0,20,64]: energy[0,20,64] <= 0
- ev_energy_level_max[0,20,65]: energy[0,20,65] <= 0
- ev_energy_level_max[0,20,66]: energy[0,20,66] <= 0
- ev_energy_level_max[0,20,67]: energy[0,20,67] <= 0
- ev_energy_level_max[0,20,68]: energy[0,20,68] <= 0
- ev_energy_level_max[0,20,69]: energy[0,20,69] <= 0
- ev_energy_level_max[0,20,70]: energy[0,20,70] <= 0
- ev_energy_level_max[0,20,71]: energy[0,20,71] <= 0
- ev_energy_level_max[0,20,72]: energy[0,20,72] <= 0
- ev_energy_level_max[0,20,73]: energy[0,20,73] <= 0
- ev_energy_level_max[0,20,74]: energy[0,20,74] <= 0
- ev_energy_level_max[0,20,75]: energy[0,20,75] <= 0
- ev_energy_level_max[0,20,76]: energy[0,20,76] <= 0
- ev_energy_level_max[0,20,77]: energy[0,20,77] <= 0
- ev_energy_level_max[0,20,78]: energy[0,20,78] <= 0
- ev_energy_level_max[0,20,79]: energy[0,20,79] <= 0
- ev_energy_level_max[0,20,80]: energy[0,20,80] <= 0
- ev_energy_level_max[0,20,81]: energy[0,20,81] <= 0
- ev_energy_level_max[0,20,82]: energy[0,20,82] <= 0
- ev_energy_level_max[0,20,83]: energy[0,20,83] <= 0
- ev_energy_level_max[0,20,84]: energy[0,20,84] <= 0
- ev_energy_level_max[0,20,85]: energy[0,20,85] <= 0
- ev_energy_level_max[0,20,86]: energy[0,20,86] <= 0
- ev_energy_level_max[0,20,87]: energy[0,20,87] <= 0
- ev_energy_level_max[0,20,88]: energy[0,20,88] <= 0
- ev_energy_level_max[0,20,89]: energy[0,20,89] <= 0
- ev_energy_level_max[0,20,90]: energy[0,20,90] <= 0
- ev_energy_level_max[0,20,91]: energy[0,20,91] <= 0
- ev_energy_level_max[0,20,92]: energy[0,20,92] <= 0
- ev_energy_level_max[0,20,93]: energy[0,20,93] <= 0
- ev_energy_level_max[0,20,94]: energy[0,20,94] <= 0
- ev_energy_level_max[0,20,95]: energy[0,20,95] <= 0
- ev_energy_level_max[0,20,96]: energy[0,20,96] <= 0
- ev_energy_level_max[0,20,97]: energy[0,20,97] <= 0
- ev_energy_level_max[0,20,98]: energy[0,20,98] <= 0
- ev_energy_level_max[0,20,99]: energy[0,20,99] <= 0
- ev_energy_level_max[0,20,100]: energy[0,20,100] <= 0
- ev_energy_level_max[0,20,101]: energy[0,20,101] <= 0
- ev_energy_level_max[0,20,102]: energy[0,20,102] <= 0
- ev_energy_level_max[0,20,103]: energy[0,20,103] <= 0
- ev_energy_level_max[0,20,104]: energy[0,20,104] <= 0
- ev_energy_level_max[0,20,105]: energy[0,20,105] <= 0
- ev_energy_level_max[0,20,106]: energy[0,20,106] <= 0
- ev_energy_level_max[0,20,107]: energy[0,20,107] <= 0
- ev_energy_level_max[0,20,108]: energy[0,20,108] <= 0
- ev_energy_level_max[0,20,109]: energy[0,20,109] <= 0
- ev_energy_level_max[0,20,110]: energy[0,20,110] <= 0
- ev_energy_level_max[0,20,111]: energy[0,20,111] <= 0
-=======
- ev_energy_level_max[0,20,9]: energy[0,20,9] <= 64
- ev_energy_level_max[0,20,10]: energy[0,20,10] <= 64
- ev_energy_level_max[0,20,11]: energy[0,20,11] <= 64
- ev_energy_level_max[0,20,12]: energy[0,20,12] <= 64
- ev_energy_level_max[0,20,13]: energy[0,20,13] <= 64
- ev_energy_level_max[0,20,14]: energy[0,20,14] <= 64
- ev_energy_level_max[0,20,16]: energy[0,20,16] <= 0
+ ev_energy_level_max[0,20,10]: energy[0,20,10] <= 57.5
+ ev_energy_level_max[0,20,11]: energy[0,20,11] <= 57.5
+ ev_energy_level_max[0,20,12]: energy[0,20,12] <= 57.5
+ ev_energy_level_max[0,20,13]: energy[0,20,13] <= 57.5
+ ev_energy_level_max[0,20,14]: energy[0,20,14] <= 57.5
+ ev_energy_level_max[0,20,15]: energy[0,20,15] <= 57.5
  ev_energy_level_max[0,20,17]: energy[0,20,17] <= 0
  ev_energy_level_max[0,20,18]: energy[0,20,18] <= 0
  ev_energy_level_max[0,20,19]: energy[0,20,19] <= 0
@@ -26333,7 +13480,6 @@ Subject To
  ev_energy_level_max[0,20,21]: energy[0,20,21] <= 0
  ev_energy_level_max[0,20,22]: energy[0,20,22] <= 0
  ev_energy_level_max[0,20,23]: energy[0,20,23] <= 0
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,21,0]: energy[0,21,0] <= 0
  ev_energy_level_max[0,21,1]: energy[0,21,1] <= 0
  ev_energy_level_max[0,21,2]: energy[0,21,2] <= 0
@@ -26342,24 +13488,14 @@ Subject To
  ev_energy_level_max[0,21,5]: energy[0,21,5] <= 0
  ev_energy_level_max[0,21,6]: energy[0,21,6] <= 0
  ev_energy_level_max[0,21,7]: energy[0,21,7] <= 0
- ev_energy_level_max[0,21,8]: energy[0,21,8] <= 0
- ev_energy_level_max[0,21,9]: energy[0,21,9] <= 0
-<<<<<<< HEAD
- ev_energy_level_max[0,21,10]: energy[0,21,10] <= 0
- ev_energy_level_max[0,21,11]: energy[0,21,11] <= 0
- ev_energy_level_max[0,21,12]: energy[0,21,12] <= 0
- ev_energy_level_max[0,21,13]: energy[0,21,13] <= 0
- ev_energy_level_max[0,21,14]: energy[0,21,14] <= 0
- ev_energy_level_max[0,21,15]: energy[0,21,15] <= 0
+ ev_energy_level_max[0,21,8]: energy[0,21,8] <= 58
+ ev_energy_level_max[0,21,9]: energy[0,21,9] <= 58
+ ev_energy_level_max[0,21,10]: energy[0,21,10] <= 58
+ ev_energy_level_max[0,21,11]: energy[0,21,11] <= 58
+ ev_energy_level_max[0,21,12]: energy[0,21,12] <= 58
+ ev_energy_level_max[0,21,13]: energy[0,21,13] <= 58
+ ev_energy_level_max[0,21,14]: energy[0,21,14] <= 58
  ev_energy_level_max[0,21,16]: energy[0,21,16] <= 0
-=======
- ev_energy_level_max[0,21,10]: energy[0,21,10] <= 46.3
- ev_energy_level_max[0,21,11]: energy[0,21,11] <= 46.3
- ev_energy_level_max[0,21,12]: energy[0,21,12] <= 46.3
- ev_energy_level_max[0,21,13]: energy[0,21,13] <= 46.3
- ev_energy_level_max[0,21,14]: energy[0,21,14] <= 46.3
- ev_energy_level_max[0,21,15]: energy[0,21,15] <= 46.3
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,21,17]: energy[0,21,17] <= 0
  ev_energy_level_max[0,21,18]: energy[0,21,18] <= 0
  ev_energy_level_max[0,21,19]: energy[0,21,19] <= 0
@@ -26367,112 +13503,20 @@ Subject To
  ev_energy_level_max[0,21,21]: energy[0,21,21] <= 0
  ev_energy_level_max[0,21,22]: energy[0,21,22] <= 0
  ev_energy_level_max[0,21,23]: energy[0,21,23] <= 0
-<<<<<<< HEAD
- ev_energy_level_max[0,21,24]: energy[0,21,24] <= 0
- ev_energy_level_max[0,21,25]: energy[0,21,25] <= 0
- ev_energy_level_max[0,21,26]: energy[0,21,26] <= 0
- ev_energy_level_max[0,21,27]: energy[0,21,27] <= 0
- ev_energy_level_max[0,21,28]: energy[0,21,28] <= 0
- ev_energy_level_max[0,21,29]: energy[0,21,29] <= 0
- ev_energy_level_max[0,21,30]: energy[0,21,30] <= 0
- ev_energy_level_max[0,21,31]: energy[0,21,31] <= 0
- ev_energy_level_max[0,21,32]: energy[0,21,32] <= 0
- ev_energy_level_max[0,21,33]: energy[0,21,33] <= 0
- ev_energy_level_max[0,21,34]: energy[0,21,34] <= 0
- ev_energy_level_max[0,21,35]: energy[0,21,35] <= 0
- ev_energy_level_max[0,21,36]: energy[0,21,36] <= 0
- ev_energy_level_max[0,21,37]: energy[0,21,37] <= 0
- ev_energy_level_max[0,21,38]: energy[0,21,38] <= 0
- ev_energy_level_max[0,21,39]: energy[0,21,39] <= 0
- ev_energy_level_max[0,21,40]: energy[0,21,40] <= 0
- ev_energy_level_max[0,21,41]: energy[0,21,41] <= 0
- ev_energy_level_max[0,21,42]: energy[0,21,42] <= 0
- ev_energy_level_max[0,21,43]: energy[0,21,43] <= 0
- ev_energy_level_max[0,21,44]: energy[0,21,44] <= 0
- ev_energy_level_max[0,21,45]: energy[0,21,45] <= 0
- ev_energy_level_max[0,21,46]: energy[0,21,46] <= 0
- ev_energy_level_max[0,21,47]: energy[0,21,47] <= 0
- ev_energy_level_max[0,21,48]: energy[0,21,48] <= 0
- ev_energy_level_max[0,21,49]: energy[0,21,49] <= 0
- ev_energy_level_max[0,21,50]: energy[0,21,50] <= 0
- ev_energy_level_max[0,21,51]: energy[0,21,51] <= 0
- ev_energy_level_max[0,21,52]: energy[0,21,52] <= 0
- ev_energy_level_max[0,21,53]: energy[0,21,53] <= 0
- ev_energy_level_max[0,21,54]: energy[0,21,54] <= 0
- ev_energy_level_max[0,21,55]: energy[0,21,55] <= 0
- ev_energy_level_max[0,21,56]: energy[0,21,56] <= 0
- ev_energy_level_max[0,21,57]: energy[0,21,57] <= 0
- ev_energy_level_max[0,21,58]: energy[0,21,58] <= 0
- ev_energy_level_max[0,21,59]: energy[0,21,59] <= 0
- ev_energy_level_max[0,21,60]: energy[0,21,60] <= 0
- ev_energy_level_max[0,21,61]: energy[0,21,61] <= 0
- ev_energy_level_max[0,21,62]: energy[0,21,62] <= 0
- ev_energy_level_max[0,21,63]: energy[0,21,63] <= 0
- ev_energy_level_max[0,21,64]: energy[0,21,64] <= 0
- ev_energy_level_max[0,21,65]: energy[0,21,65] <= 0
- ev_energy_level_max[0,21,66]: energy[0,21,66] <= 0
- ev_energy_level_max[0,21,67]: energy[0,21,67] <= 0
- ev_energy_level_max[0,21,68]: energy[0,21,68] <= 0
- ev_energy_level_max[0,21,69]: energy[0,21,69] <= 0
- ev_energy_level_max[0,21,70]: energy[0,21,70] <= 0
- ev_energy_level_max[0,21,71]: energy[0,21,71] <= 0
- ev_energy_level_max[0,21,72]: energy[0,21,72] <= 0
- ev_energy_level_max[0,21,73]: energy[0,21,73] <= 0
- ev_energy_level_max[0,21,74]: energy[0,21,74] <= 0
- ev_energy_level_max[0,21,75]: energy[0,21,75] <= 0
- ev_energy_level_max[0,21,76]: energy[0,21,76] <= 0
- ev_energy_level_max[0,21,77]: energy[0,21,77] <= 0
- ev_energy_level_max[0,21,78]: energy[0,21,78] <= 0
- ev_energy_level_max[0,21,79]: energy[0,21,79] <= 0
- ev_energy_level_max[0,21,80]: energy[0,21,80] <= 0
- ev_energy_level_max[0,21,81]: energy[0,21,81] <= 0
- ev_energy_level_max[0,21,82]: energy[0,21,82] <= 0
- ev_energy_level_max[0,21,83]: energy[0,21,83] <= 0
- ev_energy_level_max[0,21,84]: energy[0,21,84] <= 0
- ev_energy_level_max[0,21,85]: energy[0,21,85] <= 0
- ev_energy_level_max[0,21,86]: energy[0,21,86] <= 0
- ev_energy_level_max[0,21,87]: energy[0,21,87] <= 0
- ev_energy_level_max[0,21,88]: energy[0,21,88] <= 0
- ev_energy_level_max[0,21,89]: energy[0,21,89] <= 0
- ev_energy_level_max[0,21,90]: energy[0,21,90] <= 0
- ev_energy_level_max[0,21,91]: energy[0,21,91] <= 0
- ev_energy_level_max[0,21,92]: energy[0,21,92] <= 0
- ev_energy_level_max[0,21,93]: energy[0,21,93] <= 0
- ev_energy_level_max[0,21,94]: energy[0,21,94] <= 0
- ev_energy_level_max[0,21,95]: energy[0,21,95] <= 0
- ev_energy_level_max[0,21,96]: energy[0,21,96] <= 0
- ev_energy_level_max[0,21,97]: energy[0,21,97] <= 0
- ev_energy_level_max[0,21,98]: energy[0,21,98] <= 0
- ev_energy_level_max[0,21,99]: energy[0,21,99] <= 0
- ev_energy_level_max[0,21,100]: energy[0,21,100] <= 0
- ev_energy_level_max[0,21,101]: energy[0,21,101] <= 0
- ev_energy_level_max[0,21,102]: energy[0,21,102] <= 0
- ev_energy_level_max[0,21,103]: energy[0,21,103] <= 0
- ev_energy_level_max[0,21,104]: energy[0,21,104] <= 0
- ev_energy_level_max[0,21,105]: energy[0,21,105] <= 0
- ev_energy_level_max[0,21,106]: energy[0,21,106] <= 0
- ev_energy_level_max[0,21,107]: energy[0,21,107] <= 0
- ev_energy_level_max[0,21,108]: energy[0,21,108] <= 0
- ev_energy_level_max[0,21,109]: energy[0,21,109] <= 0
- ev_energy_level_max[0,21,110]: energy[0,21,110] <= 0
- ev_energy_level_max[0,21,111]: energy[0,21,111] <= 0
-=======
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,22,0]: energy[0,22,0] <= 0
  ev_energy_level_max[0,22,1]: energy[0,22,1] <= 0
  ev_energy_level_max[0,22,2]: energy[0,22,2] <= 0
  ev_energy_level_max[0,22,3]: energy[0,22,3] <= 0
  ev_energy_level_max[0,22,4]: energy[0,22,4] <= 0
- ev_energy_level_max[0,22,5]: energy[0,22,5] <= 0
- ev_energy_level_max[0,22,6]: energy[0,22,6] <= 0
- ev_energy_level_max[0,22,7]: energy[0,22,7] <= 0
- ev_energy_level_max[0,22,8]: energy[0,22,8] <= 0
- ev_energy_level_max[0,22,9]: energy[0,22,9] <= 0
- ev_energy_level_max[0,22,10]: energy[0,22,10] <= 0
- ev_energy_level_max[0,22,11]: energy[0,22,11] <= 0
- ev_energy_level_max[0,22,12]: energy[0,22,12] <= 0
- ev_energy_level_max[0,22,13]: energy[0,22,13] <= 0
- ev_energy_level_max[0,22,14]: energy[0,22,14] <= 0
+ ev_energy_level_max[0,22,5]: energy[0,22,5] <= 57.5
+ ev_energy_level_max[0,22,6]: energy[0,22,6] <= 57.5
+ ev_energy_level_max[0,22,7]: energy[0,22,7] <= 57.5
+ ev_energy_level_max[0,22,8]: energy[0,22,8] <= 57.5
+ ev_energy_level_max[0,22,9]: energy[0,22,9] <= 57.5
+ ev_energy_level_max[0,22,10]: energy[0,22,10] <= 57.5
+ ev_energy_level_max[0,22,11]: energy[0,22,11] <= 57.5
+ ev_energy_level_max[0,22,12]: energy[0,22,12] <= 57.5
+ ev_energy_level_max[0,22,13]: energy[0,22,13] <= 57.5
  ev_energy_level_max[0,22,15]: energy[0,22,15] <= 0
  ev_energy_level_max[0,22,16]: energy[0,22,16] <= 0
  ev_energy_level_max[0,22,17]: energy[0,22,17] <= 0
@@ -26489,122 +13533,22 @@ Subject To
  ev_energy_level_max[0,23,4]: energy[0,23,4] <= 0
  ev_energy_level_max[0,23,5]: energy[0,23,5] <= 0
  ev_energy_level_max[0,23,6]: energy[0,23,6] <= 0
- ev_energy_level_max[0,23,7]: energy[0,23,7] <= 0
- ev_energy_level_max[0,23,8]: energy[0,23,8] <= 0
- ev_energy_level_max[0,23,9]: energy[0,23,9] <= 0
- ev_energy_level_max[0,23,10]: energy[0,23,10] <= 0
-<<<<<<< HEAD
- ev_energy_level_max[0,23,11]: energy[0,23,11] <= 0
- ev_energy_level_max[0,23,12]: energy[0,23,12] <= 0
- ev_energy_level_max[0,23,13]: energy[0,23,13] <= 0
- ev_energy_level_max[0,23,14]: energy[0,23,14] <= 0
- ev_energy_level_max[0,23,15]: energy[0,23,15] <= 0
- ev_energy_level_max[0,23,16]: energy[0,23,16] <= 0
+ ev_energy_level_max[0,23,7]: energy[0,23,7] <= 58
+ ev_energy_level_max[0,23,8]: energy[0,23,8] <= 58
+ ev_energy_level_max[0,23,9]: energy[0,23,9] <= 58
+ ev_energy_level_max[0,23,10]: energy[0,23,10] <= 58
+ ev_energy_level_max[0,23,11]: energy[0,23,11] <= 58
+ ev_energy_level_max[0,23,12]: energy[0,23,12] <= 58
+ ev_energy_level_max[0,23,13]: energy[0,23,13] <= 58
+ ev_energy_level_max[0,23,14]: energy[0,23,14] <= 58
+ ev_energy_level_max[0,23,15]: energy[0,23,15] <= 58
  ev_energy_level_max[0,23,17]: energy[0,23,17] <= 0
-=======
- ev_energy_level_max[0,23,11]: energy[0,23,11] <= 57.5
- ev_energy_level_max[0,23,12]: energy[0,23,12] <= 57.5
- ev_energy_level_max[0,23,13]: energy[0,23,13] <= 57.5
- ev_energy_level_max[0,23,14]: energy[0,23,14] <= 57.5
- ev_energy_level_max[0,23,15]: energy[0,23,15] <= 57.5
- ev_energy_level_max[0,23,16]: energy[0,23,16] <= 57.5
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,23,18]: energy[0,23,18] <= 0
  ev_energy_level_max[0,23,19]: energy[0,23,19] <= 0
  ev_energy_level_max[0,23,20]: energy[0,23,20] <= 0
  ev_energy_level_max[0,23,21]: energy[0,23,21] <= 0
  ev_energy_level_max[0,23,22]: energy[0,23,22] <= 0
  ev_energy_level_max[0,23,23]: energy[0,23,23] <= 0
-<<<<<<< HEAD
- ev_energy_level_max[0,23,24]: energy[0,23,24] <= 0
- ev_energy_level_max[0,23,25]: energy[0,23,25] <= 57.5
- ev_energy_level_max[0,23,26]: energy[0,23,26] <= 57.5
- ev_energy_level_max[0,23,27]: energy[0,23,27] <= 57.5
- ev_energy_level_max[0,23,28]: energy[0,23,28] <= 57.5
- ev_energy_level_max[0,23,29]: energy[0,23,29] <= 57.5
- ev_energy_level_max[0,23,30]: energy[0,23,30] <= 57.5
- ev_energy_level_max[0,23,31]: energy[0,23,31] <= 57.5
- ev_energy_level_max[0,23,32]: energy[0,23,32] <= 57.5
- ev_energy_level_max[0,23,33]: energy[0,23,33] <= 57.5
- ev_energy_level_max[0,23,34]: energy[0,23,34] <= 57.5
- ev_energy_level_max[0,23,35]: energy[0,23,35] <= 57.5
- ev_energy_level_max[0,23,36]: energy[0,23,36] <= 57.5
- ev_energy_level_max[0,23,37]: energy[0,23,37] <= 57.5
- ev_energy_level_max[0,23,38]: energy[0,23,38] <= 57.5
- ev_energy_level_max[0,23,39]: energy[0,23,39] <= 57.5
- ev_energy_level_max[0,23,40]: energy[0,23,40] <= 57.5
- ev_energy_level_max[0,23,41]: energy[0,23,41] <= 57.5
- ev_energy_level_max[0,23,42]: energy[0,23,42] <= 57.5
- ev_energy_level_max[0,23,43]: energy[0,23,43] <= 57.5
- ev_energy_level_max[0,23,45]: energy[0,23,45] <= 0
- ev_energy_level_max[0,23,46]: energy[0,23,46] <= 0
- ev_energy_level_max[0,23,47]: energy[0,23,47] <= 0
- ev_energy_level_max[0,23,48]: energy[0,23,48] <= 0
- ev_energy_level_max[0,23,49]: energy[0,23,49] <= 0
- ev_energy_level_max[0,23,50]: energy[0,23,50] <= 0
- ev_energy_level_max[0,23,51]: energy[0,23,51] <= 0
- ev_energy_level_max[0,23,52]: energy[0,23,52] <= 0
- ev_energy_level_max[0,23,53]: energy[0,23,53] <= 0
- ev_energy_level_max[0,23,54]: energy[0,23,54] <= 0
- ev_energy_level_max[0,23,55]: energy[0,23,55] <= 0
- ev_energy_level_max[0,23,56]: energy[0,23,56] <= 0
- ev_energy_level_max[0,23,57]: energy[0,23,57] <= 0
- ev_energy_level_max[0,23,58]: energy[0,23,58] <= 0
- ev_energy_level_max[0,23,59]: energy[0,23,59] <= 0
- ev_energy_level_max[0,23,60]: energy[0,23,60] <= 0
- ev_energy_level_max[0,23,61]: energy[0,23,61] <= 0
- ev_energy_level_max[0,23,62]: energy[0,23,62] <= 0
- ev_energy_level_max[0,23,63]: energy[0,23,63] <= 0
- ev_energy_level_max[0,23,64]: energy[0,23,64] <= 0
- ev_energy_level_max[0,23,65]: energy[0,23,65] <= 0
- ev_energy_level_max[0,23,66]: energy[0,23,66] <= 0
- ev_energy_level_max[0,23,67]: energy[0,23,67] <= 0
- ev_energy_level_max[0,23,68]: energy[0,23,68] <= 0
- ev_energy_level_max[0,23,69]: energy[0,23,69] <= 0
- ev_energy_level_max[0,23,70]: energy[0,23,70] <= 0
- ev_energy_level_max[0,23,71]: energy[0,23,71] <= 0
- ev_energy_level_max[0,23,72]: energy[0,23,72] <= 0
- ev_energy_level_max[0,23,73]: energy[0,23,73] <= 0
- ev_energy_level_max[0,23,74]: energy[0,23,74] <= 0
- ev_energy_level_max[0,23,75]: energy[0,23,75] <= 0
- ev_energy_level_max[0,23,76]: energy[0,23,76] <= 0
- ev_energy_level_max[0,23,77]: energy[0,23,77] <= 0
- ev_energy_level_max[0,23,78]: energy[0,23,78] <= 0
- ev_energy_level_max[0,23,79]: energy[0,23,79] <= 0
- ev_energy_level_max[0,23,80]: energy[0,23,80] <= 0
- ev_energy_level_max[0,23,81]: energy[0,23,81] <= 0
- ev_energy_level_max[0,23,82]: energy[0,23,82] <= 0
- ev_energy_level_max[0,23,83]: energy[0,23,83] <= 0
- ev_energy_level_max[0,23,84]: energy[0,23,84] <= 0
- ev_energy_level_max[0,23,85]: energy[0,23,85] <= 0
- ev_energy_level_max[0,23,86]: energy[0,23,86] <= 0
- ev_energy_level_max[0,23,87]: energy[0,23,87] <= 0
- ev_energy_level_max[0,23,88]: energy[0,23,88] <= 0
- ev_energy_level_max[0,23,89]: energy[0,23,89] <= 0
- ev_energy_level_max[0,23,90]: energy[0,23,90] <= 0
- ev_energy_level_max[0,23,91]: energy[0,23,91] <= 0
- ev_energy_level_max[0,23,92]: energy[0,23,92] <= 0
- ev_energy_level_max[0,23,93]: energy[0,23,93] <= 0
- ev_energy_level_max[0,23,94]: energy[0,23,94] <= 0
- ev_energy_level_max[0,23,95]: energy[0,23,95] <= 0
- ev_energy_level_max[0,23,96]: energy[0,23,96] <= 0
- ev_energy_level_max[0,23,97]: energy[0,23,97] <= 0
- ev_energy_level_max[0,23,98]: energy[0,23,98] <= 0
- ev_energy_level_max[0,23,99]: energy[0,23,99] <= 0
- ev_energy_level_max[0,23,100]: energy[0,23,100] <= 0
- ev_energy_level_max[0,23,101]: energy[0,23,101] <= 0
- ev_energy_level_max[0,23,102]: energy[0,23,102] <= 0
- ev_energy_level_max[0,23,103]: energy[0,23,103] <= 0
- ev_energy_level_max[0,23,104]: energy[0,23,104] <= 0
- ev_energy_level_max[0,23,105]: energy[0,23,105] <= 0
- ev_energy_level_max[0,23,106]: energy[0,23,106] <= 0
- ev_energy_level_max[0,23,107]: energy[0,23,107] <= 0
- ev_energy_level_max[0,23,108]: energy[0,23,108] <= 0
- ev_energy_level_max[0,23,109]: energy[0,23,109] <= 0
- ev_energy_level_max[0,23,110]: energy[0,23,110] <= 0
- ev_energy_level_max[0,23,111]: energy[0,23,111] <= 0
-=======
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  ev_energy_level_max[0,24,0]: energy[0,24,0] <= 0
  ev_energy_level_max[0,24,1]: energy[0,24,1] <= 0
  ev_energy_level_max[0,24,2]: energy[0,24,2] <= 0
@@ -26612,112 +13556,22 @@ Subject To
  ev_energy_level_max[0,24,4]: energy[0,24,4] <= 0
  ev_energy_level_max[0,24,5]: energy[0,24,5] <= 0
  ev_energy_level_max[0,24,6]: energy[0,24,6] <= 0
- ev_energy_level_max[0,24,7]: energy[0,24,7] <= 57.5
- ev_energy_level_max[0,24,8]: energy[0,24,8] <= 57.5
- ev_energy_level_max[0,24,9]: energy[0,24,9] <= 57.5
- ev_energy_level_max[0,24,10]: energy[0,24,10] <= 57.5
- ev_energy_level_max[0,24,11]: energy[0,24,11] <= 57.5
- ev_energy_level_max[0,24,12]: energy[0,24,12] <= 57.5
- ev_energy_level_max[0,24,13]: energy[0,24,13] <= 57.5
- ev_energy_level_max[0,24,14]: energy[0,24,14] <= 57.5
- ev_energy_level_max[0,24,15]: energy[0,24,15] <= 57.5
- ev_energy_level_max[0,24,16]: energy[0,24,16] <= 57.5
+ ev_energy_level_max[0,24,7]: energy[0,24,7] <= 0
+ ev_energy_level_max[0,24,8]: energy[0,24,8] <= 58
+ ev_energy_level_max[0,24,9]: energy[0,24,9] <= 58
+ ev_energy_level_max[0,24,10]: energy[0,24,10] <= 58
+ ev_energy_level_max[0,24,11]: energy[0,24,11] <= 58
+ ev_energy_level_max[0,24,12]: energy[0,24,12] <= 58
+ ev_energy_level_max[0,24,13]: energy[0,24,13] <= 58
+ ev_energy_level_max[0,24,14]: energy[0,24,14] <= 58
+ ev_energy_level_max[0,24,16]: energy[0,24,16] <= 0
+ ev_energy_level_max[0,24,17]: energy[0,24,17] <= 0
  ev_energy_level_max[0,24,18]: energy[0,24,18] <= 0
  ev_energy_level_max[0,24,19]: energy[0,24,19] <= 0
  ev_energy_level_max[0,24,20]: energy[0,24,20] <= 0
  ev_energy_level_max[0,24,21]: energy[0,24,21] <= 0
  ev_energy_level_max[0,24,22]: energy[0,24,22] <= 0
  ev_energy_level_max[0,24,23]: energy[0,24,23] <= 0
-<<<<<<< HEAD
- ev_energy_level_max[0,24,24]: energy[0,24,24] <= 0
- ev_energy_level_max[0,24,25]: energy[0,24,25] <= 0
- ev_energy_level_max[0,24,26]: energy[0,24,26] <= 0
- ev_energy_level_max[0,24,27]: energy[0,24,27] <= 0
- ev_energy_level_max[0,24,28]: energy[0,24,28] <= 0
- ev_energy_level_max[0,24,29]: energy[0,24,29] <= 0
- ev_energy_level_max[0,24,30]: energy[0,24,30] <= 0
- ev_energy_level_max[0,24,31]: energy[0,24,31] <= 0
- ev_energy_level_max[0,24,32]: energy[0,24,32] <= 0
- ev_energy_level_max[0,24,33]: energy[0,24,33] <= 0
- ev_energy_level_max[0,24,34]: energy[0,24,34] <= 0
- ev_energy_level_max[0,24,35]: energy[0,24,35] <= 0
- ev_energy_level_max[0,24,36]: energy[0,24,36] <= 64.8
- ev_energy_level_max[0,24,37]: energy[0,24,37] <= 64.8
- ev_energy_level_max[0,24,38]: energy[0,24,38] <= 64.8
- ev_energy_level_max[0,24,39]: energy[0,24,39] <= 64.8
- ev_energy_level_max[0,24,40]: energy[0,24,40] <= 64.8
- ev_energy_level_max[0,24,41]: energy[0,24,41] <= 64.8
- ev_energy_level_max[0,24,42]: energy[0,24,42] <= 64.8
- ev_energy_level_max[0,24,43]: energy[0,24,43] <= 64.8
- ev_energy_level_max[0,24,44]: energy[0,24,44] <= 64.8
- ev_energy_level_max[0,24,45]: energy[0,24,45] <= 64.8
- ev_energy_level_max[0,24,46]: energy[0,24,46] <= 64.8
- ev_energy_level_max[0,24,47]: energy[0,24,47] <= 64.8
- ev_energy_level_max[0,24,48]: energy[0,24,48] <= 64.8
- ev_energy_level_max[0,24,49]: energy[0,24,49] <= 64.8
- ev_energy_level_max[0,24,50]: energy[0,24,50] <= 64.8
- ev_energy_level_max[0,24,51]: energy[0,24,51] <= 64.8
- ev_energy_level_max[0,24,52]: energy[0,24,52] <= 64.8
- ev_energy_level_max[0,24,53]: energy[0,24,53] <= 64.8
- ev_energy_level_max[0,24,55]: energy[0,24,55] <= 0
- ev_energy_level_max[0,24,56]: energy[0,24,56] <= 0
- ev_energy_level_max[0,24,57]: energy[0,24,57] <= 0
- ev_energy_level_max[0,24,58]: energy[0,24,58] <= 0
- ev_energy_level_max[0,24,59]: energy[0,24,59] <= 0
- ev_energy_level_max[0,24,60]: energy[0,24,60] <= 0
- ev_energy_level_max[0,24,61]: energy[0,24,61] <= 0
- ev_energy_level_max[0,24,62]: energy[0,24,62] <= 0
- ev_energy_level_max[0,24,63]: energy[0,24,63] <= 0
- ev_energy_level_max[0,24,64]: energy[0,24,64] <= 0
- ev_energy_level_max[0,24,65]: energy[0,24,65] <= 0
- ev_energy_level_max[0,24,66]: energy[0,24,66] <= 0
- ev_energy_level_max[0,24,67]: energy[0,24,67] <= 0
- ev_energy_level_max[0,24,68]: energy[0,24,68] <= 0
- ev_energy_level_max[0,24,69]: energy[0,24,69] <= 0
- ev_energy_level_max[0,24,70]: energy[0,24,70] <= 0
- ev_energy_level_max[0,24,71]: energy[0,24,71] <= 0
- ev_energy_level_max[0,24,72]: energy[0,24,72] <= 0
- ev_energy_level_max[0,24,73]: energy[0,24,73] <= 0
- ev_energy_level_max[0,24,74]: energy[0,24,74] <= 0
- ev_energy_level_max[0,24,75]: energy[0,24,75] <= 0
- ev_energy_level_max[0,24,76]: energy[0,24,76] <= 0
- ev_energy_level_max[0,24,77]: energy[0,24,77] <= 0
- ev_energy_level_max[0,24,78]: energy[0,24,78] <= 0
- ev_energy_level_max[0,24,79]: energy[0,24,79] <= 0
- ev_energy_level_max[0,24,80]: energy[0,24,80] <= 0
- ev_energy_level_max[0,24,81]: energy[0,24,81] <= 0
- ev_energy_level_max[0,24,82]: energy[0,24,82] <= 0
- ev_energy_level_max[0,24,83]: energy[0,24,83] <= 0
- ev_energy_level_max[0,24,84]: energy[0,24,84] <= 0
- ev_energy_level_max[0,24,85]: energy[0,24,85] <= 0
- ev_energy_level_max[0,24,86]: energy[0,24,86] <= 0
- ev_energy_level_max[0,24,87]: energy[0,24,87] <= 0
- ev_energy_level_max[0,24,88]: energy[0,24,88] <= 0
- ev_energy_level_max[0,24,89]: energy[0,24,89] <= 0
- ev_energy_level_max[0,24,90]: energy[0,24,90] <= 0
- ev_energy_level_max[0,24,91]: energy[0,24,91] <= 0
- ev_energy_level_max[0,24,92]: energy[0,24,92] <= 0
- ev_energy_level_max[0,24,93]: energy[0,24,93] <= 0
- ev_energy_level_max[0,24,94]: energy[0,24,94] <= 0
- ev_energy_level_max[0,24,95]: energy[0,24,95] <= 0
- ev_energy_level_max[0,24,96]: energy[0,24,96] <= 0
- ev_energy_level_max[0,24,97]: energy[0,24,97] <= 0
- ev_energy_level_max[0,24,98]: energy[0,24,98] <= 0
- ev_energy_level_max[0,24,99]: energy[0,24,99] <= 0
- ev_energy_level_max[0,24,100]: energy[0,24,100] <= 0
- ev_energy_level_max[0,24,101]: energy[0,24,101] <= 0
- ev_energy_level_max[0,24,102]: energy[0,24,102] <= 0
- ev_energy_level_max[0,24,103]: energy[0,24,103] <= 0
- ev_energy_level_max[0,24,104]: energy[0,24,104] <= 0
- ev_energy_level_max[0,24,105]: energy[0,24,105] <= 0
- ev_energy_level_max[0,24,106]: energy[0,24,106] <= 0
- ev_energy_level_max[0,24,107]: energy[0,24,107] <= 0
- ev_energy_level_max[0,24,108]: energy[0,24,108] <= 0
- ev_energy_level_max[0,24,109]: energy[0,24,109] <= 0
- ev_energy_level_max[0,24,110]: energy[0,24,110] <= 0
- ev_energy_level_max[0,24,111]: energy[0,24,111] <= 0
-=======
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
  act_ev_current_ch[0,0,0]: act_current_ev_ch[0,0,0] + [
    - current_ev_ch[0,0,0] * omega_ch[0,0,0] ] = 0
  act_ev_current_ch[0,0,1]: act_current_ev_ch[0,0,1] + [
@@ -29718,229 +16572,61 @@ Subject To
  ev_power_mode_2[0,24,21]: [ omega_ch[0,24,21] * omega_dis[0,24,21] ] = 0
  ev_power_mode_2[0,24,22]: [ omega_ch[0,24,22] * omega_dis[0,24,22] ] = 0
  ev_power_mode_2[0,24,23]: [ omega_ch[0,24,23] * omega_dis[0,24,23] ] = 0
-<<<<<<< HEAD
- ev_power_mode_2[0,24,24]: [ omega_ch[0,24,24] * omega_dis[0,24,24] ] = 0
- ev_power_mode_2[0,24,25]: [ omega_ch[0,24,25] * omega_dis[0,24,25] ] = 0
- ev_power_mode_2[0,24,26]: [ omega_ch[0,24,26] * omega_dis[0,24,26] ] = 0
- ev_power_mode_2[0,24,27]: [ omega_ch[0,24,27] * omega_dis[0,24,27] ] = 0
- ev_power_mode_2[0,24,28]: [ omega_ch[0,24,28] * omega_dis[0,24,28] ] = 0
- ev_power_mode_2[0,24,29]: [ omega_ch[0,24,29] * omega_dis[0,24,29] ] = 0
- ev_power_mode_2[0,24,30]: [ omega_ch[0,24,30] * omega_dis[0,24,30] ] = 0
- ev_power_mode_2[0,24,31]: [ omega_ch[0,24,31] * omega_dis[0,24,31] ] = 0
- ev_power_mode_2[0,24,32]: [ omega_ch[0,24,32] * omega_dis[0,24,32] ] = 0
- ev_power_mode_2[0,24,33]: [ omega_ch[0,24,33] * omega_dis[0,24,33] ] = 0
- ev_power_mode_2[0,24,34]: [ omega_ch[0,24,34] * omega_dis[0,24,34] ] = 0
- ev_power_mode_2[0,24,35]: [ omega_ch[0,24,35] * omega_dis[0,24,35] ] = 0
- ev_power_mode_2[0,24,36]: [ omega_ch[0,24,36] * omega_dis[0,24,36] ] = 0
- ev_power_mode_2[0,24,37]: [ omega_ch[0,24,37] * omega_dis[0,24,37] ] = 0
- ev_power_mode_2[0,24,38]: [ omega_ch[0,24,38] * omega_dis[0,24,38] ] = 0
- ev_power_mode_2[0,24,39]: [ omega_ch[0,24,39] * omega_dis[0,24,39] ] = 0
- ev_power_mode_2[0,24,40]: [ omega_ch[0,24,40] * omega_dis[0,24,40] ] = 0
- ev_power_mode_2[0,24,41]: [ omega_ch[0,24,41] * omega_dis[0,24,41] ] = 0
- ev_power_mode_2[0,24,42]: [ omega_ch[0,24,42] * omega_dis[0,24,42] ] = 0
- ev_power_mode_2[0,24,43]: [ omega_ch[0,24,43] * omega_dis[0,24,43] ] = 0
- ev_power_mode_2[0,24,44]: [ omega_ch[0,24,44] * omega_dis[0,24,44] ] = 0
- ev_power_mode_2[0,24,45]: [ omega_ch[0,24,45] * omega_dis[0,24,45] ] = 0
- ev_power_mode_2[0,24,46]: [ omega_ch[0,24,46] * omega_dis[0,24,46] ] = 0
- ev_power_mode_2[0,24,47]: [ omega_ch[0,24,47] * omega_dis[0,24,47] ] = 0
- ev_power_mode_2[0,24,48]: [ omega_ch[0,24,48] * omega_dis[0,24,48] ] = 0
- ev_power_mode_2[0,24,49]: [ omega_ch[0,24,49] * omega_dis[0,24,49] ] = 0
- ev_power_mode_2[0,24,50]: [ omega_ch[0,24,50] * omega_dis[0,24,50] ] = 0
- ev_power_mode_2[0,24,51]: [ omega_ch[0,24,51] * omega_dis[0,24,51] ] = 0
- ev_power_mode_2[0,24,52]: [ omega_ch[0,24,52] * omega_dis[0,24,52] ] = 0
- ev_power_mode_2[0,24,53]: [ omega_ch[0,24,53] * omega_dis[0,24,53] ] = 0
- ev_power_mode_2[0,24,54]: [ omega_ch[0,24,54] * omega_dis[0,24,54] ] = 0
- ev_power_mode_2[0,24,55]: [ omega_ch[0,24,55] * omega_dis[0,24,55] ] = 0
- ev_power_mode_2[0,24,56]: [ omega_ch[0,24,56] * omega_dis[0,24,56] ] = 0
- ev_power_mode_2[0,24,57]: [ omega_ch[0,24,57] * omega_dis[0,24,57] ] = 0
- ev_power_mode_2[0,24,58]: [ omega_ch[0,24,58] * omega_dis[0,24,58] ] = 0
- ev_power_mode_2[0,24,59]: [ omega_ch[0,24,59] * omega_dis[0,24,59] ] = 0
- ev_power_mode_2[0,24,60]: [ omega_ch[0,24,60] * omega_dis[0,24,60] ] = 0
- ev_power_mode_2[0,24,61]: [ omega_ch[0,24,61] * omega_dis[0,24,61] ] = 0
- ev_power_mode_2[0,24,62]: [ omega_ch[0,24,62] * omega_dis[0,24,62] ] = 0
- ev_power_mode_2[0,24,63]: [ omega_ch[0,24,63] * omega_dis[0,24,63] ] = 0
- ev_power_mode_2[0,24,64]: [ omega_ch[0,24,64] * omega_dis[0,24,64] ] = 0
- ev_power_mode_2[0,24,65]: [ omega_ch[0,24,65] * omega_dis[0,24,65] ] = 0
- ev_power_mode_2[0,24,66]: [ omega_ch[0,24,66] * omega_dis[0,24,66] ] = 0
- ev_power_mode_2[0,24,67]: [ omega_ch[0,24,67] * omega_dis[0,24,67] ] = 0
- ev_power_mode_2[0,24,68]: [ omega_ch[0,24,68] * omega_dis[0,24,68] ] = 0
- ev_power_mode_2[0,24,69]: [ omega_ch[0,24,69] * omega_dis[0,24,69] ] = 0
- ev_power_mode_2[0,24,70]: [ omega_ch[0,24,70] * omega_dis[0,24,70] ] = 0
- ev_power_mode_2[0,24,71]: [ omega_ch[0,24,71] * omega_dis[0,24,71] ] = 0
- ev_power_mode_2[0,24,72]: [ omega_ch[0,24,72] * omega_dis[0,24,72] ] = 0
- ev_power_mode_2[0,24,73]: [ omega_ch[0,24,73] * omega_dis[0,24,73] ] = 0
- ev_power_mode_2[0,24,74]: [ omega_ch[0,24,74] * omega_dis[0,24,74] ] = 0
- ev_power_mode_2[0,24,75]: [ omega_ch[0,24,75] * omega_dis[0,24,75] ] = 0
- ev_power_mode_2[0,24,76]: [ omega_ch[0,24,76] * omega_dis[0,24,76] ] = 0
- ev_power_mode_2[0,24,77]: [ omega_ch[0,24,77] * omega_dis[0,24,77] ] = 0
- ev_power_mode_2[0,24,78]: [ omega_ch[0,24,78] * omega_dis[0,24,78] ] = 0
- ev_power_mode_2[0,24,79]: [ omega_ch[0,24,79] * omega_dis[0,24,79] ] = 0
- ev_power_mode_2[0,24,80]: [ omega_ch[0,24,80] * omega_dis[0,24,80] ] = 0
- ev_power_mode_2[0,24,81]: [ omega_ch[0,24,81] * omega_dis[0,24,81] ] = 0
- ev_power_mode_2[0,24,82]: [ omega_ch[0,24,82] * omega_dis[0,24,82] ] = 0
- ev_power_mode_2[0,24,83]: [ omega_ch[0,24,83] * omega_dis[0,24,83] ] = 0
- ev_power_mode_2[0,24,84]: [ omega_ch[0,24,84] * omega_dis[0,24,84] ] = 0
- ev_power_mode_2[0,24,85]: [ omega_ch[0,24,85] * omega_dis[0,24,85] ] = 0
- ev_power_mode_2[0,24,86]: [ omega_ch[0,24,86] * omega_dis[0,24,86] ] = 0
- ev_power_mode_2[0,24,87]: [ omega_ch[0,24,87] * omega_dis[0,24,87] ] = 0
- ev_power_mode_2[0,24,88]: [ omega_ch[0,24,88] * omega_dis[0,24,88] ] = 0
- ev_power_mode_2[0,24,89]: [ omega_ch[0,24,89] * omega_dis[0,24,89] ] = 0
- ev_power_mode_2[0,24,90]: [ omega_ch[0,24,90] * omega_dis[0,24,90] ] = 0
- ev_power_mode_2[0,24,91]: [ omega_ch[0,24,91] * omega_dis[0,24,91] ] = 0
- ev_power_mode_2[0,24,92]: [ omega_ch[0,24,92] * omega_dis[0,24,92] ] = 0
- ev_power_mode_2[0,24,93]: [ omega_ch[0,24,93] * omega_dis[0,24,93] ] = 0
- ev_power_mode_2[0,24,94]: [ omega_ch[0,24,94] * omega_dis[0,24,94] ] = 0
- ev_power_mode_2[0,24,95]: [ omega_ch[0,24,95] * omega_dis[0,24,95] ] = 0
- ev_power_mode_2[0,24,96]: [ omega_ch[0,24,96] * omega_dis[0,24,96] ] = 0
- ev_power_mode_2[0,24,97]: [ omega_ch[0,24,97] * omega_dis[0,24,97] ] = 0
- ev_power_mode_2[0,24,98]: [ omega_ch[0,24,98] * omega_dis[0,24,98] ] = 0
- ev_power_mode_2[0,24,99]: [ omega_ch[0,24,99] * omega_dis[0,24,99] ] = 0
- ev_power_mode_2[0,24,100]: [ omega_ch[0,24,100] * omega_dis[0,24,100] ]
-   = 0
- ev_power_mode_2[0,24,101]: [ omega_ch[0,24,101] * omega_dis[0,24,101] ]
-   = 0
- ev_power_mode_2[0,24,102]: [ omega_ch[0,24,102] * omega_dis[0,24,102] ]
-   = 0
- ev_power_mode_2[0,24,103]: [ omega_ch[0,24,103] * omega_dis[0,24,103] ]
-   = 0
- ev_power_mode_2[0,24,104]: [ omega_ch[0,24,104] * omega_dis[0,24,104] ]
-   = 0
- ev_power_mode_2[0,24,105]: [ omega_ch[0,24,105] * omega_dis[0,24,105] ]
-   = 0
- ev_power_mode_2[0,24,106]: [ omega_ch[0,24,106] * omega_dis[0,24,106] ]
-   = 0
- ev_power_mode_2[0,24,107]: [ omega_ch[0,24,107] * omega_dis[0,24,107] ]
-   = 0
- ev_power_mode_2[0,24,108]: [ omega_ch[0,24,108] * omega_dis[0,24,108] ]
-   = 0
- ev_power_mode_2[0,24,109]: [ omega_ch[0,24,109] * omega_dis[0,24,109] ]
-   = 0
- ev_power_mode_2[0,24,110]: [ omega_ch[0,24,110] * omega_dis[0,24,110] ]
-   = 0
- ev_power_mode_2[0,24,111]: [ omega_ch[0,24,111] * omega_dis[0,24,111] ]
-   = 0
- ev_user_satisfaction.0.3.40: 6612.5 energy[0,3,40]
-   + user_satisfaction[0,3,40] + [ - energy[0,3,40] ^2 ]
+ ev_user_satisfaction.0.5.14: 6728 energy[0,5,14]
+   + user_satisfaction[0,5,14] + [ - energy[0,5,14] ^2 ] = 1.1316496e+07
+ ev_user_satisfaction.0.9.14: 6612.5 energy[0,9,14]
+   + user_satisfaction[0,9,14] + [ - energy[0,9,14] ^2 ]
    = 1.09312890625e+07
- ev_user_satisfaction.0.15.42: 8192 energy[0,15,42]
-   + user_satisfaction[0,15,42] + [ - energy[0,15,42] ^2 ] = 1.6777216e+07
- ev_user_satisfaction.0.10.43: 6612.5 energy[0,10,43]
-   + user_satisfaction[0,10,43] + [ - energy[0,10,43] ^2 ]
+ ev_user_satisfaction.0.22.14: 6612.5 energy[0,22,14]
+   + user_satisfaction[0,22,14] + [ - energy[0,22,14] ^2 ]
    = 1.09312890625e+07
- ev_user_satisfaction.0.23.44: 6612.5 energy[0,23,44]
-   + user_satisfaction[0,23,44] + [ - energy[0,23,44] ^2 ]
+ ev_user_satisfaction.0.1.15: 6612.5 energy[0,1,15]
+   + user_satisfaction[0,1,15] + [ - energy[0,1,15] ^2 ]
    = 1.09312890625e+07
- ev_user_satisfaction.0.6.47: 6728 energy[0,6,47]
-   + user_satisfaction[0,6,47] + [ - energy[0,6,47] ^2 ] = 1.1316496e+07
- ev_user_satisfaction.0.19.47: 6612.5 energy[0,19,47]
-   + user_satisfaction[0,19,47] + [ - energy[0,19,47] ^2 ]
+ ev_user_satisfaction.0.4.15: 6612.5 energy[0,4,15]
+   + user_satisfaction[0,4,15] + [ - energy[0,4,15] ^2 ]
    = 1.09312890625e+07
- ev_user_satisfaction.0.17.48: 11858 energy[0,17,48]
-   + user_satisfaction[0,17,48] + [ - energy[0,17,48] ^2 ] = 3.5153041e+07
- ev_user_satisfaction.0.4.49: 8398.08 energy[0,4,49]
-   + user_satisfaction[0,4,49] + [ - energy[0,4,49] ^2 ]
-   = 1.7631936921599999e+07
- ev_user_satisfaction.0.16.49: 8398.08 energy[0,16,49]
-   + user_satisfaction[0,16,49] + [ - energy[0,16,49] ^2 ]
-   = 1.7631936921599999e+07
- ev_user_satisfaction.0.20.49: 8398.08 energy[0,20,49]
-   + user_satisfaction[0,20,49] + [ - energy[0,20,49] ^2 ]
-   = 1.7631936921599999e+07
- ev_user_satisfaction.0.1.50: 6612.5 energy[0,1,50]
-   + user_satisfaction[0,1,50] + [ - energy[0,1,50] ^2 ]
-   = 1.09312890625e+07
- ev_user_satisfaction.0.2.50: 6612.5 energy[0,2,50]
-   + user_satisfaction[0,2,50] + [ - energy[0,2,50] ^2 ]
-   = 1.09312890625e+07
- ev_user_satisfaction.0.0.53: 8398.08 energy[0,0,53]
-   + user_satisfaction[0,0,53] + [ - energy[0,0,53] ^2 ]
-   = 1.7631936921599999e+07
- ev_user_satisfaction.0.11.53: 6612.5 energy[0,11,53]
-   + user_satisfaction[0,11,53] + [ - energy[0,11,53] ^2 ]
-   = 1.09312890625e+07
- ev_user_satisfaction.0.13.53: 6612.5 energy[0,13,53]
-   + user_satisfaction[0,13,53] + [ - energy[0,13,53] ^2 ]
-   = 1.09312890625e+07
- ev_user_satisfaction.0.24.54: 8398.08 energy[0,24,54]
-   + user_satisfaction[0,24,54] + [ - energy[0,24,54] ^2 ]
-   = 1.7631936921599999e+07
- ev_user_satisfaction.0.5.55: 6612.5 energy[0,5,55]
-   + user_satisfaction[0,5,55] + [ - energy[0,5,55] ^2 ]
-   = 1.09312890625e+07
- ev_user_satisfaction.0.12.55: 4287.38 energy[0,12,55]
-   + user_satisfaction[0,12,55] + [ - energy[0,12,55] ^2 ]
+ ev_user_satisfaction.0.6.15: 4287.38 energy[0,6,15]
+   + user_satisfaction[0,6,15] + [ - energy[0,6,15] ^2 ]
    = 4.5954068160999985e+06
- ev_user_satisfaction.0.14.60: 8398.08 energy[0,14,60]
-   + user_satisfaction[0,14,60] + [ - energy[0,14,60] ^2 ]
+ ev_user_satisfaction.0.8.15: 6728 energy[0,8,15]
+   + user_satisfaction[0,8,15] + [ - energy[0,8,15] ^2 ] = 1.1316496e+07
+ ev_user_satisfaction.0.10.15: 6728 energy[0,10,15]
+   + user_satisfaction[0,10,15] + [ - energy[0,10,15] ^2 ] = 1.1316496e+07
+ ev_user_satisfaction.0.19.15: 6612.5 energy[0,19,15]
+   + user_satisfaction[0,19,15] + [ - energy[0,19,15] ^2 ]
+   = 1.09312890625e+07
+ ev_user_satisfaction.0.21.15: 6728 energy[0,21,15]
+   + user_satisfaction[0,21,15] + [ - energy[0,21,15] ^2 ] = 1.1316496e+07
+ ev_user_satisfaction.0.24.15: 6728 energy[0,24,15]
+   + user_satisfaction[0,24,15] + [ - energy[0,24,15] ^2 ] = 1.1316496e+07
+ ev_user_satisfaction.0.2.16: 6612.5 energy[0,2,16]
+   + user_satisfaction[0,2,16] + [ - energy[0,2,16] ^2 ]
+   = 1.09312890625e+07
+ ev_user_satisfaction.0.12.16: 6612.5 energy[0,12,16]
+   + user_satisfaction[0,12,16] + [ - energy[0,12,16] ^2 ]
+   = 1.09312890625e+07
+ ev_user_satisfaction.0.20.16: 6612.5 energy[0,20,16]
+   + user_satisfaction[0,20,16] + [ - energy[0,20,16] ^2 ]
+   = 1.09312890625e+07
+ ev_user_satisfaction.0.23.16: 6728 energy[0,23,16]
+   + user_satisfaction[0,23,16] + [ - energy[0,23,16] ^2 ] = 1.1316496e+07
+ ev_user_satisfaction.0.0.17: 6612.5 energy[0,0,17]
+   + user_satisfaction[0,0,17] + [ - energy[0,0,17] ^2 ]
+   = 1.09312890625e+07
+ ev_user_satisfaction.0.11.17: 6612.5 energy[0,11,17]
+   + user_satisfaction[0,11,17] + [ - energy[0,11,17] ^2 ]
+   = 1.09312890625e+07
+ ev_user_satisfaction.0.14.17: 6728 energy[0,14,17]
+   + user_satisfaction[0,14,17] + [ - energy[0,14,17] ^2 ] = 1.1316496e+07
+ ev_user_satisfaction.0.15.17: 8398.08 energy[0,15,17]
+   + user_satisfaction[0,15,17] + [ - energy[0,15,17] ^2 ]
    = 1.7631936921599999e+07
- ev_user_satisfaction.0.9.61: 6612.5 energy[0,9,61]
-   + user_satisfaction[0,9,61] + [ - energy[0,9,61] ^2 ]
+ ev_user_satisfaction.0.16.18: 6728 energy[0,16,18]
+   + user_satisfaction[0,16,18] + [ - energy[0,16,18] ^2 ] = 1.1316496e+07
+ ev_user_satisfaction.0.17.19: 6612.5 energy[0,17,19]
+   + user_satisfaction[0,17,19] + [ - energy[0,17,19] ^2 ]
    = 1.09312890625e+07
- ev_user_satisfaction.0.6.66: 4287.38 energy[0,6,66]
-   + user_satisfaction[0,6,66] + [ - energy[0,6,66] ^2 ]
-   = 4.5954068160999985e+06
- ev_user_satisfaction.0.7.67: 6728 energy[0,7,67]
-   + user_satisfaction[0,7,67] + [ - energy[0,7,67] ^2 ] = 1.1316496e+07
-=======
- ev_user_satisfaction.0.4.15: 8192 energy[0,4,15]
-   + user_satisfaction[0,4,15] + [ - energy[0,4,15] ^2 ] = 1.6777216e+07
- ev_user_satisfaction.0.9.15: 8398.08 energy[0,9,15]
-   + user_satisfaction[0,9,15] + [ - energy[0,9,15] ^2 ]
-   = 1.7631936921599999e+07
- ev_user_satisfaction.0.12.15: 6612.5 energy[0,12,15]
-   + user_satisfaction[0,12,15] + [ - energy[0,12,15] ^2 ]
-   = 1.09312890625e+07
- ev_user_satisfaction.0.20.15: 8192 energy[0,20,15]
-   + user_satisfaction[0,20,15] + [ - energy[0,20,15] ^2 ] = 1.6777216e+07
- ev_user_satisfaction.0.5.16: 4287.38 energy[0,5,16]
-   + user_satisfaction[0,5,16] + [ - energy[0,5,16] ^2 ]
-   = 4.5954068160999985e+06
- ev_user_satisfaction.0.7.16: 6612.5 energy[0,7,16]
-   + user_satisfaction[0,7,16] + [ - energy[0,7,16] ^2 ]
-   = 1.09312890625e+07
- ev_user_satisfaction.0.8.16: 8398.08 energy[0,8,16]
-   + user_satisfaction[0,8,16] + [ - energy[0,8,16] ^2 ]
-   = 1.7631936921599999e+07
- ev_user_satisfaction.0.10.16: 6612.5 energy[0,10,16]
-   + user_satisfaction[0,10,16] + [ - energy[0,10,16] ^2 ]
-   = 1.09312890625e+07
- ev_user_satisfaction.0.13.16: 4287.38 energy[0,13,16]
-   + user_satisfaction[0,13,16] + [ - energy[0,13,16] ^2 ]
-   = 4.5954068160999985e+06
- ev_user_satisfaction.0.14.16: 6612.5 energy[0,14,16]
-   + user_satisfaction[0,14,16] + [ - energy[0,14,16] ^2 ]
-   = 1.09312890625e+07
- ev_user_satisfaction.0.17.16: 8192 energy[0,17,16]
-   + user_satisfaction[0,17,16] + [ - energy[0,17,16] ^2 ] = 1.6777216e+07
- ev_user_satisfaction.0.21.16: 4287.38 energy[0,21,16]
-   + user_satisfaction[0,21,16] + [ - energy[0,21,16] ^2 ]
-   = 4.5954068160999985e+06
- ev_user_satisfaction.0.2.17: 6612.5 energy[0,2,17]
-   + user_satisfaction[0,2,17] + [ - energy[0,2,17] ^2 ]
-   = 1.09312890625e+07
- ev_user_satisfaction.0.3.17: 6612.5 energy[0,3,17]
-   + user_satisfaction[0,3,17] + [ - energy[0,3,17] ^2 ]
-   = 1.09312890625e+07
- ev_user_satisfaction.0.6.17: 6612.5 energy[0,6,17]
-   + user_satisfaction[0,6,17] + [ - energy[0,6,17] ^2 ]
-   = 1.09312890625e+07
- ev_user_satisfaction.0.11.17: 6728 energy[0,11,17]
-   + user_satisfaction[0,11,17] + [ - energy[0,11,17] ^2 ] = 1.1316496e+07
- ev_user_satisfaction.0.16.17: 8398.08 energy[0,16,17]
-   + user_satisfaction[0,16,17] + [ - energy[0,16,17] ^2 ]
-   = 1.7631936921599999e+07
- ev_user_satisfaction.0.19.17: 6612.5 energy[0,19,17]
-   + user_satisfaction[0,19,17] + [ - energy[0,19,17] ^2 ]
-   = 1.09312890625e+07
- ev_user_satisfaction.0.23.17: 6612.5 energy[0,23,17]
-   + user_satisfaction[0,23,17] + [ - energy[0,23,17] ^2 ]
-   = 1.09312890625e+07
- ev_user_satisfaction.0.24.17: 6612.5 energy[0,24,17]
-   + user_satisfaction[0,24,17] + [ - energy[0,24,17] ^2 ]
-   = 1.09312890625e+07
- ev_user_satisfaction.0.0.18: 6728 energy[0,0,18]
-   + user_satisfaction[0,0,18] + [ - energy[0,0,18] ^2 ] = 1.1316496e+07
->>>>>>> 1098df13fda0572745bd775beda93717f5d58317
 Bounds
 Binaries
  omega_ch[0,0,0] omega_ch[0,0,1] omega_ch[0,0,2] omega_ch[0,0,3]

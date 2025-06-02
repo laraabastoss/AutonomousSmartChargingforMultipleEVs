@@ -9,7 +9,7 @@ from tqdm import trange
 def extract_state(env, t, episode):
     price = env.charge_prices[0, t] 
 
-    net_load = 0.0 ## RNN
+    net_load = 0.0
 
     socs = []
     for i in range(env.number_of_ports):
@@ -52,8 +52,14 @@ def generate_dataset(config_file: str, num_episodes: int = 5):
             all_actions.append(actions.tolist())
 
             _, _, done, _, _ = env.step(actions)
+
             if done:
                 break
+        
+
+        for i in range(env.simulation_length):
+            correct_net_load = sum(env.tr_inflexible_loads[j][i] for j in range(len(env.tr_inflexible_loads)))
+            all_states[i][2] = correct_net_load
 
     states = np.array(all_states)
     actions = np.array(all_actions)
@@ -70,4 +76,4 @@ def generate_dataset(config_file: str, num_episodes: int = 5):
     print("CSV file written as centralized_dataset.csv")
 
 if __name__ == "__main__":
-    generate_dataset("ev2gym-config/V2GProfitPlusLoadsGenerateData.yaml", num_episodes=580)
+    generate_dataset("ev2gym-config/V2GProfitPlusLoads.yaml", num_episodes=10)
