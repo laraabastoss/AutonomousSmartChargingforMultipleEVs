@@ -20,7 +20,7 @@ contourpy==1.3.1
 cycler==0.12.1
 decorator==5.2.1
 defusedxml==0.8.0rc2
-ev2gym==1.1.0
+ev2gym @ git+https://github.com/StavrosOrf/EV2Gym@3fa6f112ef5e5bb628957eef9ee674341ad5ffa9
 executing==2.2.0
 Farama-Notifications==0.0.4
 fastjsonschema==2.21.1

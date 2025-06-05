@@ -70,9 +70,9 @@ def eval():
     # agent = PowerTrackingErrorrMin(new_replay_path)
     # agent = eMPC_G2V(env, control_horizon=15, verbose=False)
     # agent = eMPC_V2G_v2(env, control_horizon=10, verbose=False)
-    # agent = RoundRobin(env, verbose=False)
+    agent = RoundRobin(env, verbose=False)
     # agent = ChargeAsLateAsPossible(verbose=False)
-    agent = ChargeAsFastAsPossible()
+    # agent = ChargeAsFastAsPossible()
     # agent = ChargeAsFastAsPossibleToDesiredCapacity()
     rewards = []
 
@@ -93,6 +93,7 @@ def eval():
     # agent = PowerTrackingErrorrMin(replay_path=new_replay_path)
     # # Profit maximization optimizer
     agent = V2GProfitMaxOracleGB(replay_path=new_replay_path, MIPGap=0.0)
+
     # # Simulate in the gym environment and get the rewards
 
     env = EV2Gym(
