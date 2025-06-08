@@ -129,8 +129,8 @@ if not os.path.exists(MODEL_PATH):
 
     model.eval()
     with torch.no_grad():
-        test_preds = model(X_gru_test_tensor)
-        test_loss = loss_fn(test_preds, y_gru_test_tensor).item()
+        test_preds = model(X_test_tensor)
+        test_loss = loss_fn(test_preds, y_test_tensor).item()
         print(f"Test Loss: {test_loss:.4f}")
 
     # Save model
