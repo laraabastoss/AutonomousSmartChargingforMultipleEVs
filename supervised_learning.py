@@ -190,15 +190,42 @@ else:
 # DNN Agent Wrapper
 # ----------------------
 class CentralizedDNNPolicy:
-    def __init__(self, model_path, input_dim, output_dim):
+    def __init__(self, model_path, input_dim, output_dim, gru_path="gru_model.pth", predict_netload = True):
         self.model = EVPolicyNet(input_dim, output_dim)
         self.model.load_state_dict(torch.load(model_path))
         self.model.eval()
 
+        self.gru = GRU()
+        self.gru.load_state_dict(torch.load(gru_path))
+        self.gru.eval()
+
+        self.predict_netload = predict_netload
+
+
     def get_action(self, env):
         t = env.current_step
         price = env.charge_prices[0, t]
-        net_load = sum(env.tr_inflexible_loads[i][t] for i in range(len(env.tr_inflexible_loads)))
+
+        if self.predict_netload == False:
+            net_load = sum(env.tr_inflexible_loads[i][t] for i in range(len(env.tr_inflexible_loads)))
+
+        else:
+            if t<168:
+                net_load = 0.0
+            else:
+                netloads =[]
+                for i in range(t - 168, t):
+                    load = sum(env.tr_inflexible_loads[j][i] for j in range(len(env.tr_inflexible_loads)))
+                    netloads.append(load)
+
+                netloads = np.array(netloads).reshape(1, 168, 1).astype(np.float32)
+                netloads_tensor = torch.tensor(netloads)
+
+                with torch.no_grad():
+                    net_load_pred = self.gru(netloads_tensor).item()
+                    net_load = net_load_pred
+
+
 
         socs = []
         for i in range(env.number_of_ports):
