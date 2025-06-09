@@ -4,10 +4,12 @@ from collections import defaultdict
 import os
 
 from ev2gym.models.ev2gym_env import EV2Gym
+
 # Import the simple agent to generate replay files
 from ev2gym.baselines.heuristics import ChargeAsFastAsPossible
+
 # Import your MILP solver
-from profit_max import V2GProfitMaxOracleGB 
+from profit_max import V2GProfitMaxOracleGB
 
 # Configuration file for the environment
 config_file = "ev2gym-config/V2GProfitPlusLoads.yaml"
@@ -29,35 +31,39 @@ def generate_replay_and_run_milp(milp_method, simple_agent_method, seed, config_
         A dictionary containing simulation statistics from the MILP run.
     """
     # Ensure replay directory exists
-    os.makedirs(replay_dir, exist_ok=True)
-    
+    # os.makedirs(replay_dir, exist_ok=True)
+
     # Step 1: Generate Replay File with a simple agent
-    print(f"\n--- Seed {seed}: Generating replay with {simple_agent_method.__name__} ---")
-    replay_path = os.path.join(replay_dir, f"replay_seed_{seed}.pkl")
+    print(
+        f"\n--- Seed {seed}: Generating replay with {simple_agent_method.__name__} ---"
+    )
+    # replay_path = os.path.join(replay_dir, f"replay_seed_{seed}.pkl")
 
     # Initialize environment to generate replay
     env_replay_gen = EV2Gym(
         config_file=config_file,
         load_from_replay_path=None,  # Not loading, generating new
         verbose=False,
-        save_replay=True,            # Crucial: Save the replay for the MILP solver
+        save_replay=True,  # Crucial: Save the replay for the MILP solver
         save_plots=False,
-        seed=seed,                   # Apply the seed here for consistent data generation
+        seed=seed,  # Apply the seed here for consistent data generation
     )
-    
+
     # Reset environment for replay generation
     state_gen, _ = env_replay_gen.reset()
-    
+
     # Initialize the simple agent
-    agent_gen = simple_agent_method(verbose=False) 
+    agent_gen = simple_agent_method(verbose=False)
 
     # Run the simulation to generate the replay file
     for t in range(env_replay_gen.simulation_length):
         actions_gen = agent_gen.get_action(env_replay_gen)
-        new_state_gen, reward_gen, done_gen, truncated_gen, stats_gen = env_replay_gen.step(actions_gen)
+        new_state_gen, reward_gen, done_gen, truncated_gen, stats_gen = (
+            env_replay_gen.step(actions_gen)
+        )
         if done_gen:
             break
-            
+
     # The replay file is saved automatically by env_replay_gen when the simulation ends
     # We need to make sure the EV2Gym environment properly saves the replay upon simulation completion
     # If it doesn't, you might need to manually trigger env.save_replay() or ensure your env setup does.
@@ -67,34 +73,36 @@ def generate_replay_and_run_milp(milp_method, simple_agent_method, seed, config_
 
     # Step 2: Run MILP Solver using the generated replay file
     print(f"--- Seed {seed}: Running MILP with {milp_method.__name__} using replay ---")
-    
+
     # Initialize environment for MILP run, loading from the generated replay
     env_milp = EV2Gym(
         config_file=config_file,
-        load_from_replay_path=new_replay_path , # Load the previously generated replay
+        load_from_replay_path=new_replay_path,  # Load the previously generated replay
         verbose=False,
-        save_replay=False,          # No need to save replay again for MILP run
+        save_replay=False,  # No need to save replay again for MILP run
         save_plots=False,
-        seed=seed,                  # Ensure consistency with the replay
+        seed=seed,  # Ensure consistency with the replay
     )
-    
+
     # Reset env for MILP run (this will load the state from replay_path)
     state_milp, _ = env_milp.reset()
 
     # Initialize the MILP agent with the replay path
     # The MILP agent will now have access to all the necessary historical data
-    agent_milp = milp_method(replay_path=new_replay_path , MIPGap=0.0) 
+    agent_milp = milp_method(replay_path=new_replay_path, MIPGap=0.0)
 
     rewards_milp = []
     for t in range(env_milp.simulation_length):
         # The MILP agent computes its actions based on the full replay data
-        actions_milp = agent_milp.get_action(env_milp) 
-        new_state_milp, reward_milp, done_milp, truncated_milp, stats_milp = env_milp.step(actions_milp, visualize=False)
+        actions_milp = agent_milp.get_action(env_milp)
+        new_state_milp, reward_milp, done_milp, truncated_milp, stats_milp = (
+            env_milp.step(actions_milp, visualize=False)
+        )
         rewards_milp.append(reward_milp)
 
         if done_milp:
             break
-            
+
     # Clean up the temporary replay file
     # if os.path.exists(env_milp.replay_path):
     #     os.remove(env_milp.replay_path)
@@ -105,30 +113,34 @@ def generate_replay_and_run_milp(milp_method, simple_agent_method, seed, config_
 
 if __name__ == "__main__":
     results = defaultdict(list)
-    seeds = [i for i in range(50)] # Number of seeds for evaluation
-    
+    seeds = [i for i in range(50)]  # Number of seeds for evaluation
+
     milp_agent = V2GProfitMaxOracleGB
-    simple_agent_for_replay = ChargeAsFastAsPossible # Agent to generate initial replay
-    
+    simple_agent_for_replay = ChargeAsFastAsPossible  # Agent to generate initial replay
+
     metrics = [
-        'average_user_satisfaction', 
-        'total_profits', 
-        'tracking_error', 
-        'power_tracker_violation', 
-        'total_energy_charged', 
-        'total_energy_discharged', 
-        'battery_degradation', 
-        'total_transformer_overload'
+        "average_user_satisfaction",
+        "total_profits",
+        "tracking_error",
+        "power_tracker_violation",
+        "total_energy_charged",
+        "total_energy_discharged",
+        "battery_degradation",
+        "total_transformer_overload",
     ]
 
-    print(f"Starting MILP evaluation for {len(seeds)} seeds using {milp_agent.__name__} (replay generated by {simple_agent_for_replay.__name__})...")
+    print(
+        f"Starting MILP evaluation for {len(seeds)} seeds using {milp_agent.__name__} (replay generated by {simple_agent_for_replay.__name__})..."
+    )
 
     for seed in seeds:
         start_time = timeit.default_timer()
-        stats = generate_replay_and_run_milp(milp_method=milp_agent, 
-                                             simple_agent_method=simple_agent_for_replay, 
-                                             seed=seed, 
-                                             config_file=config_file)
+        stats = generate_replay_and_run_milp(
+            milp_method=milp_agent,
+            simple_agent_method=simple_agent_for_replay,
+            seed=seed,
+            config_file=config_file,
+        )
         end_time = timeit.default_timer()
 
         for metric in metrics:
@@ -136,15 +148,19 @@ if __name__ == "__main__":
                 results[metric].append(stats[metric])
             else:
                 print(f"Warning: Metric '{metric}' not found in stats for seed {seed}.")
-                results[metric].append(np.nan) 
-        
-        results['time'].append(end_time - start_time)
-        print(f"Total time for seed {seed}: {np.round(end_time - start_time, 2)} seconds.")
+                results[metric].append(np.nan)
+
+        results["time"].append(end_time - start_time)
+        print(
+            f"Total time for seed {seed}: {np.round(end_time - start_time, 2)} seconds."
+        )
 
     print("\n--- Overall Summary Statistics ---")
     for metric, values in results.items():
         valid_values = [v for v in values if not np.isnan(v)]
         if valid_values:
-            print(f'Metric: {metric} | Mean: {np.round(np.mean(valid_values), 3)} | STD: {np.round(np.std(valid_values), 3)}')
+            print(
+                f"Metric: {metric} | Mean: {np.round(np.mean(valid_values), 3)} | STD: {np.round(np.std(valid_values), 3)}"
+            )
         else:
-            print(f'Metric: {metric} | No valid data available.')
+            print(f"Metric: {metric} | No valid data available.")

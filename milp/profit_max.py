@@ -151,9 +151,9 @@ class V2GProfitMaxOracleGB:
             self.n_cs, self.sim_length, vtype=GRB.CONTINUOUS, name="power_cs_dis"
         )
 
-        # power_error = self.m.addVars(self.sim_length,
-        #                              vtype=GRB.CONTINUOUS,
-        #                              name='power_error')
+        power_error = self.m.addVars(
+            self.sim_length, vtype=GRB.CONTINUOUS, name="power_error"
+        )
 
         total_power = self.m.addVars(
             self.sim_length, vtype=GRB.CONTINUOUS, name="total_power"
@@ -236,21 +236,29 @@ class V2GProfitMaxOracleGB:
             )
 
             # M = 1e8
-            # self.m.addConstr(power_error[t] >= total_power[t] - power_setpoints[t],
-            #                  name=f'power_error_max.{t}')
-            # self.m.addConstr(power_error[t] <= (total_power[t] - power_setpoints[t])* is_exceeding_limit[t],
-            #                  name=f'power_error_min.{t}')
-            # self.m.addConstr(power_error[t] <= 0,
-            #                     name=f'power_error_min2.{t}')
-
-            # self.m.addConstr(power_error[t] <= M * is_exceeding_limit[t],
-            #                     name=f'power_error_max.{t}')
-            # self.m.addConstr(power_error[t] >= 1-M * (1-is_exceeding_limit[t]),
-            #                     name=f'power_error_max2.{t}')
-
-            # add contraint for aggregated power limit
-            # self.m.addConstr(total_power[t] <= power_setpoints[t],
-            #                  name=f'total_power_limit_max.{t}')
+            # self.m.addConstr(
+            #     power_error[t] >= total_power[t] - power_setpoints[t],
+            #     name=f"power_error_max.{t}",
+            # )
+            # self.m.addConstr(
+            #     power_error[t]
+            #     <= (total_power[t] - power_setpoints[t]) * is_exceeding_limit[t],
+            #     name=f"power_error_min.{t}",
+            # )
+            # self.m.addConstr(power_error[t] <= 0, name=f"power_error_min2.{t}")
+            #
+            # self.m.addConstr(
+            #     power_error[t] <= M * is_exceeding_limit[t], name=f"power_error_max.{t}"
+            # )
+            # self.m.addConstr(
+            #     power_error[t] >= 1 - M * (1 - is_exceeding_limit[t]),
+            #     name=f"power_error_max2.{t}",
+            # )
+            #
+            # # add contraint for aggregated power limit
+            # self.m.addConstr(
+            #     total_power[t] <= power_setpoints[t], name=f"total_power_limit_max.{t}"
+            # )
 
         costs = gp.quicksum(
             act_current_ev_ch[p, i, t]
@@ -515,8 +523,7 @@ class V2GProfitMaxOracleGB:
                             name=f"ev_user_satisfaction.{p}.{i}.{t}",
                         )
 
-        # self.m.setObjective(costs - 0.01*power_error.sum(),
-        #                     GRB.MAXIMIZE)
+        # self.m.setObjective(costs - 0.01 * power_error.sum(), GRB.MAXIMIZE)
 
         self.m.setObjective(costs - 100 * user_satisfaction.sum(), GRB.MAXIMIZE)
 
