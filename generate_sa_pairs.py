@@ -7,26 +7,31 @@ from tqdm import trange
 
 
 def extract_state(env, t, episode):
-    price = env.charge_prices[0, t] 
-
+    price = env.charge_prices[0, t]
     net_load = 0.0
 
     socs = []
-    for i in range(env.number_of_ports):
-        try:
-            ev = env.EVs[i]  
+    satisfaction_vals = []
+
+    for cs in env.charging_stations:
+        for ev in cs.evs_connected:
             if ev is not None:
                 socs.append(ev.get_soc())
-        except Exception as e:
-            socs.append(0.0)
+                satisfaction_vals.append(ev.get_user_satisfaction())
+            else:
+                socs.append(0.0)
 
-    return [t , price, net_load] + socs
+    satisfaction = np.mean(satisfaction_vals) if satisfaction_vals else 0.0
+
+    return [t, price, net_load, satisfaction] + socs
+
 
 
 
 def generate_dataset(config_file: str, num_episodes: int = 5):
     all_states = []
     all_actions = []
+    idx_offset = 0
 
     for episode in trange(num_episodes, desc="Generating episodes"):
         
@@ -59,14 +64,16 @@ def generate_dataset(config_file: str, num_episodes: int = 5):
 
         for i in range(env.simulation_length):
             correct_net_load = sum(env.tr_inflexible_loads[j][i] for j in range(len(env.tr_inflexible_loads)))
-            all_states[i][2] = correct_net_load
+            all_states[idx_offset + i][2] = correct_net_load
+        
+        idx_offset += env.simulation_length
 
     states = np.array(all_states)
     actions = np.array(all_actions)
     np.savez("centralized_dataset.npz", states=states, actions=actions)
 
     num_ports = actions.shape[1]
-    state_cols = ['time', 'price', 'net_load'] + [f'soc_{i}' for i in range(num_ports)]
+    state_cols = ['time', 'price', 'net_load', 'satisfaction'] + [f'soc_{i}' for i in range(num_ports)]
     action_cols = [f'action_{i}' for i in range(num_ports)]
     all_cols = state_cols + action_cols
     df = pd.DataFrame(np.hstack([states, actions]), columns=all_cols)
@@ -76,4 +83,4 @@ def generate_dataset(config_file: str, num_episodes: int = 5):
     print("CSV file written as centralized_dataset.csv")
 
 if __name__ == "__main__":
-    generate_dataset("ev2gym-config/V2GProfitPlusLoadsGenerateData.yaml", num_episodes=10)
+    generate_dataset("ev2gym-config/V2GProfitPlusLoadsGenerateData.yaml", num_episodes=50)

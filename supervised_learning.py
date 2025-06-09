@@ -28,13 +28,15 @@ class EVPolicyNet(nn.Module):
     def __init__(self, input_dim, output_dim):
         super().__init__()
         self.net = nn.Sequential(
-            nn.Linear(input_dim, 200),
+            nn.Linear(input_dim, 512),
             nn.ReLU(),
-            nn.Linear(200, 100),
+            nn.Linear(512, 256),
             nn.ReLU(),
-            nn.Linear(100, 50),
+            nn.Linear(256, 128),
             nn.ReLU(),
-            nn.Linear(50, output_dim),
+            nn.Linear(128, 64),
+            nn.ReLU(),
+            nn.Linear(64, output_dim),
             nn.Tanh()
         )
 
@@ -228,15 +230,18 @@ class CentralizedDNNPolicy:
 
 
         socs = []
-        for i in range(env.number_of_ports):
-            try:
-                ev = env.EVs[i] if i < len(env.EVs) else None
-                soc = ev.get_soc() if ev is not None else 0.0
-            except Exception:
-                soc = 0.0
-            socs.append(soc)
+        satisfaction_vals = []
+        for cs in env.charging_stations:
+            for ev in cs.evs_connected:
+                if ev is not None:
+                    socs.append(ev.get_soc())
+                    satisfaction_vals.append(ev.get_user_satisfaction())
+                else:
+                    socs.append(0.0)
 
-        state_vec = np.array([t / env.simulation_length, price, net_load] + socs, dtype=np.float32)
+        satisfaction = np.mean(satisfaction_vals) if satisfaction_vals else 0.0
+
+        state_vec = np.array([t / env.simulation_length, price, net_load, satisfaction] + socs, dtype=np.float32)
         state_tensor = torch.tensor(state_vec).unsqueeze(0)
 
         with torch.no_grad():

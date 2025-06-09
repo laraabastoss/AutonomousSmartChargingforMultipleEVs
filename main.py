@@ -5,6 +5,7 @@ This script is used to evaluate the performance of the ev2gym environment.
 
 from ev2gym.models.ev2gym_env import EV2Gym
 from ev2gym.baselines.gurobi_models.tracking_error import PowerTrackingErrorrMin
+import matplotlib.cm as cm
 
 
 # from ev2gym.baselines.gurobi_models.profit_max import V2GProfitMaxOracleGB
@@ -44,22 +45,69 @@ def milp_objective(env, total_costs, user_satisfaction_list, *args):
     return reward
 
 
-def run_agent(env, agent, episodes=1):
+def run_agent(env, agent, episodes=1, return_actions=False):
     episode_stats = []
+    episode_actions = []
     for ep in range(episodes):
-        #print("Episode: ", ep)
         state, _ = env.reset()
         done = False
         total_reward = 0.0
+        actions_per_timestep = []
         while not done:
             actions = agent.get_action(env)
-            new_state, reward, done, truncated, stats = env.step(actions)
+            actions_per_timestep.append(actions.copy())
+            _, reward, done, _, stats = env.step(actions)
             total_reward += reward
-        #episode_rewards.append(total_reward)
-        print("Final stats: ", stats)
         episode_stats.append(stats)
-        #episode_rewards.append(stats['total_profits'])
-    return episode_stats
+        if return_actions:
+            episode_actions.append(np.array(actions_per_timestep))
+    return (episode_stats, episode_actions) if return_actions else episode_stats
+
+
+def plot_action_histogram(actions, episode_idx, agent_name="SL", save_dir="action_histograms"):
+    """
+    Plot histogram of all action values for one episode (all EVs, all timesteps).
+    """
+    os.makedirs(save_dir, exist_ok=True)
+
+    flattened_actions = actions.flatten()
+
+    plt.figure(figsize=(8, 6))
+    plt.hist(flattened_actions, bins=50, color="steelblue", edgecolor="black")
+    plt.title(f"{agent_name} Action Distribution - Episode {episode_idx + 1}")
+    plt.xlabel("Action Value")
+    plt.ylabel("Frequency")
+    plt.grid(True)
+    plt.tight_layout()
+    plt.savefig(os.path.join(save_dir, f"{agent_name.lower()}_hist_ep{episode_idx + 1:03}.png"))
+    plt.close()
+
+
+
+def plot_actions_per_episode(milp_actions, sl_actions, episode_idx, save_dir="action_plots"):
+    """
+    Plots actions for each EV across time steps for one episode for both MILP and SL policies.
+    """
+    os.makedirs(save_dir, exist_ok=True)
+    #num_ports = milp_actions.shape[1]
+    num_ports = 4
+    timesteps = milp_actions.shape[0]
+    color_map = cm.get_cmap('tab10', num_ports)
+
+    plt.figure(figsize=(14, 8))
+    for port in range(num_ports):
+        color = color_map(port)
+        plt.plot(range(timesteps), milp_actions[:, port], label=f"Action {port} MILP", linewidth=1, color=color)
+        plt.plot(range(timesteps), sl_actions[:, port], '--', label=f"Action {port} SL", linewidth=1, color=color)
+
+    plt.xlabel("Time step")
+    plt.ylabel("Action value")
+    plt.title(f"MILP vs SL Actions for Episode {episode_idx + 1}")
+    plt.legend(ncol=2, fontsize=8)
+    plt.grid(True)
+    plt.tight_layout()
+    plt.savefig(os.path.join(save_dir, f"actions_episode_{episode_idx + 1:03}.png"))
+    plt.close()
 
 
 
@@ -145,7 +193,7 @@ def eval(num_episodes=5, save_plots=True):
         )
         env_milp.set_reward_function(milp_objective)
         milp_agent = V2GProfitMaxOracleGB(replay_path=replay_path, MIPGap=0.0)
-        milp_stats = run_agent(env_milp, milp_agent, episodes=1)
+        milp_stats, milp_actions = run_agent(env_milp, milp_agent, episodes=1, return_actions=True)
         milp_all_stats.extend(milp_stats)
 
             # 3a) SL with GRU (predicted netload)
@@ -159,7 +207,7 @@ def eval(num_episodes=5, save_plots=True):
         env_sl_gru.set_reward_function(milp_objective)
         sl_agent_gru = CentralizedDNNPolicy(
             model_path="centralized_ev_policy.pth",
-            input_dim=env_sl_gru.number_of_ports + 3,
+            input_dim=env_sl_gru.number_of_ports + 4,
             output_dim=env_sl_gru.number_of_ports,
             predict_netload=True
         )
@@ -176,13 +224,23 @@ def eval(num_episodes=5, save_plots=True):
         env_sl_nogru.set_reward_function(milp_objective)
         sl_agent_nogru = CentralizedDNNPolicy(
             model_path="centralized_ev_policy.pth",
-            input_dim=env_sl_nogru.number_of_ports + 3,
+            input_dim=env_sl_nogru.number_of_ports + 4,
             output_dim=env_sl_nogru.number_of_ports,
             predict_netload=False
         )
-        sl_nogru_stats = run_agent(env_sl_nogru, sl_agent_nogru, episodes=1)
+        sl_nogru_stats, sl_actions = run_agent(env_sl_nogru, sl_agent_nogru, episodes=1, return_actions=True)
+
+        plot_action_histogram(actions=milp_actions[0], episode_idx=ep, agent_name="MILP")
+        plot_action_histogram(actions=sl_actions[0], episode_idx=ep, agent_name="SL")
 
         # Save stats
+
+        plot_actions_per_episode(
+            milp_actions=milp_actions[0], 
+            sl_actions=sl_actions[0],
+            episode_idx=ep,
+            save_dir="action_plots"
+        )
 
         sl_all_stats.append({
             "with_gru": sl_gru_stats[0],
