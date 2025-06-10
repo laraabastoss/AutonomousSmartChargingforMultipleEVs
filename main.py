@@ -89,8 +89,8 @@ def plot_actions_per_episode(milp_actions, sl_actions, episode_idx, save_dir="ac
     Plots actions for each EV across time steps for one episode for both MILP and SL policies.
     """
     os.makedirs(save_dir, exist_ok=True)
-    #num_ports = milp_actions.shape[1]
-    num_ports = 4
+    num_ports = milp_actions.shape[1]
+    #num_ports = 1
     timesteps = milp_actions.shape[0]
     color_map = cm.get_cmap('tab10', num_ports)
 
@@ -160,6 +160,9 @@ def eval(num_episodes=5, save_plots=True):
     milp_all_stats = []
     sl_all_stats = []
 
+    input_dim = np.load("centralized_dataset.npz")['states'].shape[1]
+    output_dim = np.load("centralized_dataset.npz")['actions'].shape[1]
+
 
     for ep in range(num_episodes):
         print(f"\n=== Episode {ep+1}/{num_episodes} ===")
@@ -197,6 +200,8 @@ def eval(num_episodes=5, save_plots=True):
         milp_all_stats.extend(milp_stats)
 
             # 3a) SL with GRU (predicted netload)
+
+
         env_sl_gru = EV2Gym(
             config_file=config_file,
             load_from_replay_path=replay_path,
@@ -204,11 +209,14 @@ def eval(num_episodes=5, save_plots=True):
             save_replay=False,
             save_plots=save_plots,
         )
+
+
+
         env_sl_gru.set_reward_function(milp_objective)
         sl_agent_gru = CentralizedDNNPolicy(
             model_path="centralized_ev_policy.pth",
-            input_dim=env_sl_gru.number_of_ports + 4,
-            output_dim=env_sl_gru.number_of_ports,
+            input_dim=input_dim,
+            output_dim=output_dim,
             predict_netload=True
         )
         sl_gru_stats = run_agent(env_sl_gru, sl_agent_gru, episodes=1)
@@ -224,8 +232,8 @@ def eval(num_episodes=5, save_plots=True):
         env_sl_nogru.set_reward_function(milp_objective)
         sl_agent_nogru = CentralizedDNNPolicy(
             model_path="centralized_ev_policy.pth",
-            input_dim=env_sl_nogru.number_of_ports + 4,
-            output_dim=env_sl_nogru.number_of_ports,
+            input_dim=input_dim,
+            output_dim=output_dim,
             predict_netload=False
         )
         sl_nogru_stats, sl_actions = run_agent(env_sl_nogru, sl_agent_nogru, episodes=1, return_actions=True)

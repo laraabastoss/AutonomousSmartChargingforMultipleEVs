@@ -28,15 +28,13 @@ class EVPolicyNet(nn.Module):
     def __init__(self, input_dim, output_dim):
         super().__init__()
         self.net = nn.Sequential(
-            nn.Linear(input_dim, 512),
+            nn.Linear(input_dim, 200),
             nn.ReLU(),
-            nn.Linear(512, 256),
+            nn.Linear(200, 100),
             nn.ReLU(),
-            nn.Linear(256, 128),
+            nn.Linear(100, 50),
             nn.ReLU(),
-            nn.Linear(128, 64),
-            nn.ReLU(),
-            nn.Linear(64, output_dim),
+            nn.Linear(50, output_dim),
             nn.Tanh()
         )
 
@@ -94,6 +92,7 @@ X_gru_test_tensor = torch.tensor(X_gru_test, dtype=torch.float32)
 y_gru_test_tensor = torch.tensor(y_gru_test, dtype=torch.float32)
 
 gru_train_loader = DataLoader(TensorDataset(X_gru_train_tensor, y_gru_train_tensor), batch_size=BATCH_SIZE, shuffle=True)
+
 
 
 # ----------------------
@@ -231,17 +230,36 @@ class CentralizedDNNPolicy:
 
         socs = []
         satisfaction_vals = []
+        connected_flags = []
+
         for cs in env.charging_stations:
             for ev in cs.evs_connected:
                 if ev is not None:
                     socs.append(ev.get_soc())
                     satisfaction_vals.append(ev.get_user_satisfaction())
+
+                    connected = 1
+
+                    connected_flags.append(connected)
                 else:
                     socs.append(0.0)
+                    connected_flags.append(0)
 
         satisfaction = np.mean(satisfaction_vals) if satisfaction_vals else 0.0
 
-        state_vec = np.array([t / env.simulation_length, price, net_load, satisfaction] + socs, dtype=np.float32)
+        future_prices = []
+        for i in range(1, 11):
+            if t + i < env.simulation_length:
+                future_prices.append(env.charge_prices[0, t + i])
+            else:
+                future_prices.append(0.0)
+
+        state_vec = np.array(
+            [t % 24, price, net_load, satisfaction] +
+            future_prices +
+            socs  + connected_flags,
+            dtype=np.float32
+        )
         state_tensor = torch.tensor(state_vec).unsqueeze(0)
 
         with torch.no_grad():

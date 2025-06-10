@@ -1,48 +1,64 @@
-import numpy as np
 import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
+import seaborn as sns
 
-# Load the dataset
-data = np.load("centralized_dataset.npz")
-X = data["states"]
-y = data["actions"]
+# ------------------------------
+# Load dataset
+# ------------------------------
+df = pd.read_csv("centralized_dataset.csv")
+print(f"\n✅ Loaded dataset with {len(df)} rows and {len(df.columns)} columns\n")
+print("Columns:", list(df.columns))
 
-# Define column names
-num_soc = X.shape[1] - 4  # Assuming 4 other features: time, price, net_load, satisfaction
-state_cols = ["time", "price", "net_load", "satisfaction"] + [f"soc_{i}" for i in range(num_soc)]
-action_cols = [f"action_{i}" for i in range(y.shape[1])]
-all_cols = state_cols + action_cols
+# ------------------------------
+# Summary statistics
+# ------------------------------
+print("\n🔍 Summary Statistics:")
+print(df.describe())
 
-# Create DataFrame
-df = pd.DataFrame(np.concatenate([X, y], axis=1), columns=all_cols)
+# ------------------------------
+# Identify columns
+# ------------------------------
+state_cols = [col for col in df.columns if col.startswith(("time", "price", "net_load", "satisfaction", "soc_"))]
+action_cols = [col for col in df.columns if col.startswith("action_")]
 
-# Compute correlation matrix
-corr = df.corr()
-
-# Plot using Seaborn
-plt.figure(figsize=(26, 26))  # Zoomed out for clarity
-ax = sns.heatmap(
-    corr,
-    cmap="coolwarm",
-    center=0,
-    vmin=-1,
-    vmax=1,
-    square=True,
-    linewidths=0.3,
-    cbar_kws={"shrink": 0.5},
-    xticklabels=True,
-    yticklabels=True
-)
-
-# Move x-ticks to the top
-ax.xaxis.tick_top()
-ax.tick_params(axis='x', labelrotation=90, labelsize=7)
-ax.tick_params(axis='y', labelsize=7)
-
-# Title
-plt.title("Feature Correlation Matrix", fontsize=18, pad=20)
-
-# Save or show
+# ------------------------------
+# Histogram: State features
+# ------------------------------
+print("\n📊 Plotting histograms of state features...")
+df[state_cols].hist(bins=50, figsize=(15, 10))
+plt.suptitle("Distributions of State Features")
 plt.tight_layout()
-plt.show()
+plt.savefig("state_histograms.png")
+plt.close()
+
+# ------------------------------
+# Histogram: Action values
+# ------------------------------
+print("\n📊 Plotting histograms of actions...")
+df[action_cols].hist(bins=50, figsize=(15, 10))
+plt.suptitle("Distributions of Actions")
+plt.tight_layout()
+plt.savefig("action_histograms.png")
+plt.close()
+
+# ------------------------------
+# Action range stats
+# ------------------------------
+print("\n📈 Action Ranges:")
+print(df[action_cols].agg(["min", "max", "mean", "std"]))
+
+# ------------------------------
+# Correlation matrix
+# ------------------------------
+print("\n🔗 Generating correlation heatmap...")
+plt.figure(figsize=(12, 10))
+sns.heatmap(df.corr(), cmap="coolwarm", center=0, annot=False)
+plt.title("Correlation Matrix of All Features")
+plt.tight_layout()
+plt.savefig("correlation_matrix.png")
+plt.close()
+
+print("\n✅ Analysis complete. Plots saved as:")
+print(" - state_histograms.png")
+print(" - action_histograms.png")
+print(" - correlation_matrix.png")
