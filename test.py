@@ -18,7 +18,7 @@ print(df.describe())
 # ------------------------------
 # Identify columns
 # ------------------------------
-state_cols = [col for col in df.columns if col.startswith(("time", "price", "net_load", "satisfaction", "soc_"))]
+state_cols = [col for col in df.columns if col.startswith(("time", "price", "net_load", "satisfaction", "soc_", "connected_flag_"))]
 action_cols = [col for col in df.columns if col.startswith("action_")]
 
 # ------------------------------
