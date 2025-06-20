@@ -178,3 +178,5 @@ replay/
 results/
 wandb/
 logs/
+datasets/
+models/

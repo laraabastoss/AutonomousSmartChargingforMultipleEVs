@@ -3,45 +3,42 @@ import pandas as pd
 from ev2gym.models.ev2gym_env import EV2Gym
 from milp.profit_max import V2GProfitMaxOracleGB
 from tqdm import trange
+import argparse
+import os
 
+DATASET_NAME = "centralized_dataset_25Evs"
 
-
-def extract_state(env, t, episode):
+def extract_state(env, t):
     
     price = env.charge_prices[0, t]
-
-    net_load = 0.0
 
     socs = []
     satisfaction_vals = []
     connected_flags = []
+    req_energies = []
 
     for cs in env.charging_stations:
         for ev in cs.evs_connected:
             if ev is not None:
                 socs.append(ev.get_soc())
                 satisfaction_vals.append(ev.get_user_satisfaction())
-
+                req_energies.append(ev.required_energy / ev.battery_capacity)
                 connected = 1
                 connected_flags.append(connected)
             else:
                 socs.append(0.0)
                 connected_flags.append(0)
+                req_energies.append(0.0)
 
     satisfaction = np.mean(satisfaction_vals) if satisfaction_vals else 0.0
 
-    future_prices = []
-    for i in range(1, 11):
-        if t + i < env.simulation_length:
-            future_prices.append(env.charge_prices[0, t + i])
-        else:
-            future_prices.append(0.0)
 
 
     return (
-        [t % 24, price, net_load, satisfaction] +
-        future_prices +
-        socs + connected_flags
+        [t % 24, price, satisfaction] +
+        req_energies +
+        socs +
+        connected_flags
     )
 
 
@@ -69,7 +66,7 @@ def generate_dataset(config_file: str, num_episodes: int = 5):
 
         for t in range(env.simulation_length):
 
-            state = extract_state(env, t, episode)
+            state = extract_state(env, t)
             actions = oracle.get_action(env)  
 
             all_states.append(state)
@@ -79,23 +76,18 @@ def generate_dataset(config_file: str, num_episodes: int = 5):
 
             if done:
                 break
-        
 
-        for i in range(env.simulation_length):
-            correct_net_load = sum(env.tr_inflexible_loads[j][i] for j in range(len(env.tr_inflexible_loads)))
-            all_states[idx_offset + i][2] = correct_net_load
+    dataset_name = DATASET_NAME
         
-        idx_offset += env.simulation_length
-
     states = np.array(all_states)
     actions = np.array(all_actions)
-    np.savez("centralized_dataset.npz", states=states, actions=actions)
+    np.savez(os.path.join("datasets", f"{dataset_name}.npz"), states=states, actions=actions)
 
     num_ports = actions.shape[1]
     
     state_cols = (
-        ['time', 'price', 'net_load', 'satisfaction'] +
-        [f'future_price_{i}' for i in range(1, 11)] +
+        ['time', 'price', 'satisfaction'] +
+        [f"req_energy_ev{i}" for i in range(num_ports)] +
         [f'soc_{i}' for i in range(num_ports)] +
         [f'connected_flag_{i}' for i in range(num_ports)]
     )
@@ -104,10 +96,18 @@ def generate_dataset(config_file: str, num_episodes: int = 5):
     action_cols = [f'action_{i}' for i in range(num_ports)]
     all_cols = state_cols + action_cols
     df = pd.DataFrame(np.hstack([states, actions]), columns=all_cols)
-    df.to_csv("centralized_dataset.csv", index=False)
+    df.to_csv(os.path.join("datasets", f"{dataset_name}.csv"), index=False)
     
     print(f"Dataset saved: {states.shape[0]} samples, {states.shape[1]} features")
-    print("CSV file written as centralized_dataset.csv")
 
 if __name__ == "__main__":
-    generate_dataset("ev2gym-config/V2GProfitPlusLoadsGenerateData.yaml", num_episodes=100)
+    parser = argparse.ArgumentParser(description="Generate (state, action) dataset from EV2Gym environment.")
+    parser.add_argument(
+        "--num_episodes", "-n",
+        type=int,
+        default=10,
+        help="Number of episodes to generate."
+    )
+    args = parser.parse_args()
+
+    generate_dataset("ev2gym-config/V2GProfitPlusLoadsGenerateData.yaml", num_episodes=args.num_episodes)
