@@ -176,3 +176,10 @@ cython_debug/
 .direnv/
 replay/
 results/
+decentralized_approach/data/
+mlruns/
+mlflow/
+decentralized_approach/models_decentralized/
+wandb/
+.npz
+.lp

@@ -1,0 +1,5 @@
+### Supervised Learning
+
+1 - Run generate_rnn_data.py + generate_sa_paris to generate the training and test data for both the RNN and SL models.
+2 - Run supervised_learning.py to train the RNN and SL models.
+3 - Run main

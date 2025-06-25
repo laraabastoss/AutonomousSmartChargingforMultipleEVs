@@ -3,8 +3,8 @@
 ##############################################################################
 # Simulation Parameters
 ##############################################################################
-timescale: 60 # in minutes per step
-simulation_length: 24 #90 # in steps per simulation
+timescale: 15 # in minutes per step
+simulation_length: 112 #90 # in steps per simulation
 
 ##############################################################################
 # Date and Time
@@ -38,9 +38,8 @@ discharge_price_factor: 1 # how many times more abs(expensive/cheaper) it is to 
 ##############################################################################
 v2g_enabled: True # True or False
 number_of_charging_stations: 25
-number_of_transformers: 2
+number_of_transformers: 1
 number_of_ports_per_cs: 1
-
 # Provide path if you want to load a specific charging topology,
 # else write None for a randomized one with the above parameters
 charging_network_topology: None #./config_files/charging_topology_10.json
@@ -56,7 +55,7 @@ power_setpoint_flexiblity: 10 # (in percentage +/- %)
 # Inflexible Loads, Solar Generation, and Demand Response
 ##############################################################################
 # Whether to include inflexible loads in the transformer power limit, such as residential loads
-tr_seed: 42 # seed for the random number generator of transformer loads(-1 for random seed)
+tr_seed: -1 # seed for the random number generator of transformer loads(-1 for random seed)
 
 inflexible_loads: # Offices, homes
   include: True # True or False
@@ -66,14 +65,14 @@ inflexible_loads: # Offices, homes
 
 # PV solar Power
 solar_power:
-  include: False # True or False
-  # solar_power_capacity_multiplier_mean: 1 # 1 is default, the higher the number the more solar power
-  # forecast_mean: 20 # in percentage of load at time t%
-  # forecast_std: 5 # in percentage of load at time t%
+  include: True # True or False
+  solar_power_capacity_multiplier_mean: 1 # 1 is default, the higher the number the more solar power
+  forecast_mean: 20 # in percentage of load at time t%
+  forecast_std: 5 # in percentage of load at time t%
 
 # Whether to include demand response in the transformer power limit
 demand_response:
-  include: False # True or False
+  include: True # True or False
   events_per_day: 1
   #How much of the transformer power limit can be used for demand response
   event_capacity_percentage_mean: 35 # (in percentage +/- %) reduction
@@ -90,7 +89,7 @@ demand_response:
 ##############################################################################
 heterogeneous_ev_specs: True #if False, each EV has the same specifications
 # such as battery capacity, charging rate, etc.
-ev_specs_file: ./ev2gym-config/data/ev_specs_v2g_enabled2024.json # path to the file with the EV specifications
+ev_specs_file: ./ev2gym/data/ev_specs_v2g_enabled2024.json # path to the file with the EV specifications
 
 ##############################################################################
 # Default Model values
@@ -100,7 +99,7 @@ ev_specs_file: ./ev2gym-config/data/ev_specs_v2g_enabled2024.json # path to the 
 
 # Default Transformer model
 transformer:
-  max_power: 400 # in kW
+  max_power: 200 # in kW
 
 # Default Charging Station model
 charging_station:  
