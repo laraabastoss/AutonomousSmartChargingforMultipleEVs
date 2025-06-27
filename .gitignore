@@ -183,3 +183,4 @@ decentralized_approach/models_decentralized/
 wandb/
 .npz
 .lp
+!decentralized_approach/models_decentralized/epoch_90_decentralized_ev_policy_without0.pth
