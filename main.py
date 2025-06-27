@@ -70,7 +70,7 @@ def run_agent(env, agent, episodes=1, return_actions=False):
 
 
 def eval(num_episodes=5, save_plots=True):
-    config_file = "ev2gym-config/V2GProfitPlusLoads.yaml"
+    config_file = "ev2gym-config/V2GProfitPlusLoadsGenerateData.yaml"
     dummy_agent_class = ChargeAsFastAsPossible
 
     milp_all_stats = []

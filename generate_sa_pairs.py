@@ -9,7 +9,7 @@ import os
 DATASET_NAME = "centralized_dataset_25Evs"
 
 def extract_state(env, t):
-    
+
     price = env.charge_prices[0, t]
 
     socs = []
@@ -35,7 +35,7 @@ def extract_state(env, t):
 
 
     return (
-        [t % 24, price, satisfaction] +
+        [t % 24, price, satisfaction, 0.0] +
         req_energies +
         socs +
         connected_flags
@@ -50,7 +50,7 @@ def generate_dataset(config_file: str, num_episodes: int = 5):
     idx_offset = 0
 
     for episode in trange(num_episodes, desc="Generating episodes"):
-        
+
         env = EV2Gym(config_file=config_file, verbose=False, save_replay=True)
         env.reset()
 
@@ -62,12 +62,12 @@ def generate_dataset(config_file: str, num_episodes: int = 5):
         env = EV2Gym(config_file=config_file, load_from_replay_path=new_replay_path, verbose=False)
         env.reset()
 
-        
+
 
         for t in range(env.simulation_length):
 
             state = extract_state(env, t)
-            actions = oracle.get_action(env)  
+            actions = oracle.get_action(env)
 
             all_states.append(state)
             all_actions.append(actions.tolist())
@@ -76,17 +76,24 @@ def generate_dataset(config_file: str, num_episodes: int = 5):
 
             if done:
                 break
+        for i in range(env.simulation_length):
+            correct_net_load = sum(env.tr_inflexible_loads[j][i] for j in range(len(env.tr_inflexible_loads)))
+
+            all_states[idx_offset + i][3] = correct_net_load
+
+
+
 
     dataset_name = DATASET_NAME
-        
+
     states = np.array(all_states)
     actions = np.array(all_actions)
     np.savez(os.path.join("datasets", f"{dataset_name}.npz"), states=states, actions=actions)
 
     num_ports = actions.shape[1]
-    
+
     state_cols = (
-        ['time', 'price', 'satisfaction'] +
+        ['time', 'price', 'satisfaction','net_load'] +
         [f"req_energy_ev{i}" for i in range(num_ports)] +
         [f'soc_{i}' for i in range(num_ports)] +
         [f'connected_flag_{i}' for i in range(num_ports)]
@@ -97,7 +104,7 @@ def generate_dataset(config_file: str, num_episodes: int = 5):
     all_cols = state_cols + action_cols
     df = pd.DataFrame(np.hstack([states, actions]), columns=all_cols)
     df.to_csv(os.path.join("datasets", f"{dataset_name}.csv"), index=False)
-    
+
     print(f"Dataset saved: {states.shape[0]} samples, {states.shape[1]} features")
 
 if __name__ == "__main__":
@@ -110,4 +117,4 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    generate_dataset("ev2gym-config/V2GProfitPlusLoadsGenerateData.yaml", num_episodes=args.num_episodes)
+    generate_dataset("ev2gym-config/V2GProfitPlusLoadsGenerateData.yaml", num_episodes=100)

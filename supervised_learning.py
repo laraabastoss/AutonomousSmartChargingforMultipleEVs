@@ -211,7 +211,7 @@ def train_gru_model(
 # DNN Agent Wrapper
 # ----------------------
 class CentralizedDNNPolicy:
-    def __init__(self, model_path, input_dim, output_dim, gru_path="gru_model.pth"):
+    def __init__(self, model_path, input_dim, output_dim, gru_path="gru_model.pth", predict_netload = True):
         self.model = EVPolicyNet(input_dim, output_dim)
         self.model.load_state_dict(torch.load(model_path))
         self.model.eval()
@@ -220,18 +220,61 @@ class CentralizedDNNPolicy:
         self.gru.load_state_dict(torch.load(gru_path))
         self.gru.eval()
 
+        self.predict_netload = predict_netload
+
 
     def get_action(self, env):
         t = env.current_step
+        price = env.charge_prices[0, t]
 
-        state_vec = extract_state(env, t)
+        if self.predict_netload == False:
+            net_load = sum(env.tr_inflexible_loads[i][t] for i in range(len(env.tr_inflexible_loads)))
 
-        print(f"State vector at time {t}: {state_vec}")
+        else:
+            if t<168:
+                net_load = 0.0
+            else:
+                netloads =[]
+                for i in range(t - 168, t):
+                    load = sum(env.tr_inflexible_loads[j][i] for j in range(len(env.tr_inflexible_loads)))
+                    netloads.append(load)
 
-        state_tensor = torch.tensor(state_vec, dtype=torch.float32).unsqueeze(0)
+                netloads = np.array(netloads).reshape(1, 168, 1).astype(np.float32)
+                netloads_tensor = torch.tensor(netloads)
+
+                with torch.no_grad():
+                    net_load_pred = self.gru(netloads_tensor).item()
+                    net_load = net_load_pred
+        socs = []
+        req_energies = []
+        connected_flags = []
+        satisfaction_vals = []
+
+        for cs in env.charging_stations:
+            for ev in cs.evs_connected:
+                if ev is not None:
+                    socs.append(ev.get_soc())
+                    req_energies.append(ev.required_energy / ev.battery_capacity)
+                    connected_flags.append(1)
+                    satisfaction_vals.append(ev.get_user_satisfaction())
+                else:
+                    socs.append(0.0)
+                    req_energies.append(0.0)
+                    connected_flags.append(0)
+
+        satisfaction = np.mean(satisfaction_vals) if satisfaction_vals else 0.0
+
+        state_vec = np.array(
+            [t / env.simulation_length, price, satisfaction, net_load] +
+            req_energies +
+            socs +
+            connected_flags,
+            dtype=np.float32
+        )
+        state_tensor = torch.tensor(state_vec).unsqueeze(0)
 
         with torch.no_grad():
-            action_tensor = torch.clamp(self.model(state_tensor), -0.5, 0.5)
+            action_tensor = self.model(state_tensor)
 
         return action_tensor.squeeze(0).numpy()
 
@@ -282,7 +325,7 @@ if __name__ == "__main__":
 
     # 3) (Optional) Load & train GRU data
     # if os.path.exists(GRU_DATA_PATH):
-    if False:
+    if os.path.exists(GRU_DATA_PATH):
         gru_data = np.load(GRU_DATA_PATH)
         X_gru = gru_data['X']
         y_gru = gru_data['y']

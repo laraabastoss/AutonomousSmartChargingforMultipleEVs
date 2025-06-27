@@ -63,4 +63,4 @@ def generate_gru_dataset(config_file: str, num_episodes: int = 1):
     print(f"GRU dataset generated: {X_all.shape[0]} samples")
 
 if __name__ == "__main__":
-    generate_gru_dataset("ev2gym-config/V2GProfitPlusLoadsGenerateData.yaml", num_episodes=10)
+    generate_gru_dataset("ev2gym-config/V2GProfitPlusLoadsGenerateData.yaml", num_episodes=100)
