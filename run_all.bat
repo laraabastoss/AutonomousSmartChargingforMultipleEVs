@@ -1,0 +1,9 @@
+@echo off
+echo Generating dataset...
+python generate_sa_pairs.py --num_episodes 1000
+
+echo Training model...
+python supervised_learning.py
+
+echo Evaluating policy...
+python main.py

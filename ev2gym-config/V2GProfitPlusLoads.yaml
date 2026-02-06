@@ -39,7 +39,9 @@ discharge_price_factor: 1 # how many times more abs(expensive/cheaper) it is to 
 v2g_enabled: True # True or False
 number_of_charging_stations: 25
 number_of_transformers: 2
-number_of_ports_per_cs: 1
+
+number_of_ports_per_cs: 5
+
 
 # Provide path if you want to load a specific charging topology,
 # else write None for a randomized one with the above parameters
